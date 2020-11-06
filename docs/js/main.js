@@ -1,5 +1,5 @@
 /**
- * @license b-here v1.0.0
+ * @license b-here-master v1.0.0
  * (c) 2020 Luca Zampetti <lzampetti@gmail.com>
  * License: MIT
  */
@@ -134,7 +134,7 @@ function _readOnlyError(name) {
   logo: null,
   assets: '/Modules/B-Here/Client/docs/',
   worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
   url: {
     index: '/',
     access: '/',
@@ -177,12 +177,12 @@ function _readOnlyError(name) {
   logo: null,
   assets: './',
   worker: './js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
   url: {
     index: '/',
     access: '/',
     editor: '/editor',
-    bHere: '/b-here',
+    bHere: '/b-here-master',
     selfServiceTour: '/self-service-tour',
     guidedTour: '/guided-tour'
   },
@@ -214,7 +214,7 @@ var PARAMS = NODE ? {
 var DEBUG =  PARAMS.get('debug') != null;
 var BASE_HREF = NODE ? null : document.querySelector('base').getAttribute('href');
 var HEROKU = NODE ? false : window && window.location.host.indexOf('herokuapp') !== -1;
-var STATIC = NODE ? false : HEROKU || window && (window.location.port === '41789' || window.location.port === '5000' || window.location.port === '6443' || window.location.host === 'actarian.github.io');
+var STATIC = NODE ? false : HEROKU || window && (window.location.port === '41789' || window.location.port === '5000' || window.location.port === '6443' || window.location.host === 'diegoUE8.github.io');
 var DEVELOPMENT = NODE ? false : window && ['localhost', '127.0.0.1', '0.0.0.0'].indexOf(window.location.host.split(':')[0]) !== -1;
 var PRODUCTION = !DEVELOPMENT;
 var ENV = {
@@ -503,14 +503,12 @@ var User = function User(options) {
   		map((user) => this.mapUser(user)),
   	);
   }
-  
-  static register$(payload) {
+  	static register$(payload) {
   	return HttpService.post$('/api/user/register', payload).pipe(
   		map((user) => this.mapUser(user)),
   	);
   }
-  
-  static update(payload) {
+  	static update(payload) {
   	return HttpService.post$('/api/user/updateprofile', payload).pipe(
   		map((user) => this.mapUser(user)),
   	);
@@ -15535,7 +15533,7 @@ ModelGltfComponent.meta = {
     /*
     mesh.userData = {
     	render: () => {
-    			}
+    		}
     };
     */
 

@@ -45,7 +45,96 @@
         "longitude": 0
       },
       "zoom": 75,
-      "items": []
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Test",
+          "abstract": null,
+          "viewId": 170427763401500,
+          "position": [
+            0.938685721960347,
+            -0.34475187361046045,
+            -0.003906536811450185
+          ],
+          "asset": null,
+          "link": null,
+          "id": 558014334246199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763401500,
+          "position": [
+            0.8844798969784702,
+            -0.3266841298618746,
+            0.33312578876055926
+          ],
+          "asset": null,
+          "link": null,
+          "id": 558027131274599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Test",
+          "abstract": "test",
+          "viewId": 170427763402500,
+          "position": [
+            0.8667389951773351,
+            -0.33275640224785125,
+            -0.3715328935667067
+          ],
+          "asset": null,
+          "link": null,
+          "id": 558048183728499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Test",
+          "abstract": "Test",
+          "viewId": 170427763401500,
+          "position": [
+            0.8897715742622719,
+            -0.45639109724591304,
+            -0.003702970363050202
+          ],
+          "asset": null,
+          "link": null,
+          "id": 558068504181599
+        }
+      ]
+    }
+  ],
+  "menu": [],
+  "assets": [],
+  "users": [
+    {
+      "id": "1601892639985",
+      "username": "publisher",
+      "password": "publisher",
+      "type": "publisher",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
+    },
+    {
+      "id": "1601892639986",
+      "username": "attendee",
+      "password": "attendee",
+      "type": "attendee",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
     }
   ]
 }
