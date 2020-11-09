@@ -185,7 +185,80 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 376887307399500
+      "id": 376887307399500,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            23.658574505433776,
+            2.0539827231281196,
+            -7.993046864689349
+          ],
+          "rotation": [
+            0.1691412543707611,
+            -0.6791646868333666,
+            0.13435006119313023,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            7.189999999999991,
+            0.98
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 809917091564500,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 809792677243700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            12.558724415083674,
+            1.0384241507782797,
+            20.109380722745
+          ],
+          "rotation": [
+            3.073546707480057,
+            -0.8244532925199434,
+            3.079199277402276,
+            "XYZ"
+          ],
+          "scale": [
+            16,
+            9,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 809987160936900,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 809967826617399
+        }
+      ]
     },
     {
       "type": {
@@ -1724,6 +1797,45 @@
       "folder": "/uploads/",
       "file": "808616016947500_hereoesvalley.jpg",
       "id": 808616125904300
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 809811117432800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 809917091564500,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 809987160936900,
+      "chromaKeyColor": null
     }
   ],
   "users": [
