@@ -12,7 +12,7 @@ export const environmentStatic = {
 	logo: null,
 	assets: './',
 	worker: './js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/actarian/b-here-master/piva/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
 	url: {
 		index: '/',
 		access: '/',

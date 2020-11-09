@@ -885,8 +885,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459953360470899,
           "position": [
             0.9432621058819005,
@@ -895,7 +895,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 461923530720700
+          "id": 461923530720700,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -912,7 +913,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 522857120997299
+          "id": 522857120997299,
+          "keepOrientation": null
         }
       ],
       "hidden": false
@@ -1377,6 +1379,7 @@
       "hidden": true
     }
   ],
+  "menu": [],
   "assets": [
     {
       "type": {

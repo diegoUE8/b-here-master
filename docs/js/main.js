@@ -134,7 +134,7 @@ function _readOnlyError(name) {
   logo: null,
   assets: '/Modules/B-Here/Client/docs/',
   worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here-master/piva/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
   url: {
     index: '/',
     access: '/',
@@ -177,7 +177,7 @@ function _readOnlyError(name) {
   logo: null,
   assets: './',
   worker: './js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here-master/piva/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
   url: {
     index: '/',
     access: '/',
@@ -214,7 +214,7 @@ var PARAMS = NODE ? {
 var DEBUG =  PARAMS.get('debug') != null;
 var BASE_HREF = NODE ? null : document.querySelector('base').getAttribute('href');
 var HEROKU = NODE ? false : window && window.location.host.indexOf('herokuapp') !== -1;
-var STATIC = NODE ? false : HEROKU || window && (window.location.port === '41789' || window.location.port === '5000' || window.location.port === '6443' || window.location.host === 'actarian.github.io');
+var STATIC = NODE ? false : HEROKU || window && (window.location.port === '41789' || window.location.port === '5000' || window.location.port === '6443' || window.location.host === 'diegoUE8.github.io');
 var DEVELOPMENT = NODE ? false : window && ['localhost', '127.0.0.1', '0.0.0.0'].indexOf(window.location.host.split(':')[0]) !== -1;
 var PRODUCTION = !DEVELOPMENT;
 var ENV = {
