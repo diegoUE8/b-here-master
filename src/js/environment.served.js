@@ -12,7 +12,7 @@ export const environmentServed = {
 	logo: null,
 	assets: '/Modules/B-Here/Client/docs/',
 	worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/actarian/b-here-master/piva/docs/',
 	url: {
 		index: '/',
 		access: '/',

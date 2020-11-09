@@ -6,7 +6,7 @@ export const PARAMS = NODE ? { get: () => { } } : new URLSearchParams(window.loc
 export const DEBUG = false || (PARAMS.get('debug') != null);
 export const BASE_HREF = NODE ? null : document.querySelector('base').getAttribute('href');
 export const HEROKU = NODE ? false : (window && window.location.host.indexOf('herokuapp') !== -1);
-export const STATIC = NODE ? false : (HEROKU || (window && (window.location.port === '41789' || window.location.port === '5000' || window.location.port === '6443' || window.location.host === 'diegoUE8.github.io')));
+export const STATIC = NODE ? false : (HEROKU || (window && (window.location.port === '41789' || window.location.port === '5000' || window.location.port === '6443' || window.location.host === 'actarian.github.io')));
 export const DEVELOPMENT = NODE ? false : (window && ['localhost', '127.0.0.1', '0.0.0.0'].indexOf(window.location.host.split(':')[0]) !== -1);
 export const PRODUCTION = !DEVELOPMENT;
 export const ENV = {
