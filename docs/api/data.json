@@ -1377,6 +1377,28 @@
         }
       ],
       "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Hereoesvalley",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "808616016947500_hereoesvalley.jpg",
+        "id": 808616125904300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 808618103386299
     }
   ],
   "menu": [],
@@ -1693,6 +1715,15 @@
       "file": "544735444142999_Interno_PVC.jpg",
       "id": 544735456064000,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "808616016947500_hereoesvalley.jpg",
+      "id": 808616125904300
     }
   ],
   "users": [
