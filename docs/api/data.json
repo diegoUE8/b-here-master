@@ -44,59 +44,7 @@
       },
       "zoom": 75,
       "id": 376789637631099,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Ambiente 1",
-          "abstract": "Vai",
-          "viewId": 459189178532400,
-          "position": [
-            0.7360707088307189,
-            -0.04123838024223443,
-            -0.6756473248644149
-          ],
-          "asset": null,
-          "link": null,
-          "id": 522784088376899
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Ambiente 2",
-          "abstract": "Vai",
-          "viewId": 459498566687500,
-          "position": [
-            0.7514194802648283,
-            -0.017098350519041017,
-            0.659603222466403
-          ],
-          "asset": null,
-          "link": null,
-          "id": 522801103370500
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Ambiente 3",
-          "abstract": "Vai",
-          "viewId": 459933612682400,
-          "position": [
-            0.2557645839165498,
-            -0.018851205077492706,
-            0.9665552801992862
-          ],
-          "asset": null,
-          "link": null,
-          "id": 522822291912000
-        }
-      ],
+      "items": [],
       "hidden": false
     },
     {
@@ -119,7 +67,76 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 376822678396500
+      "id": 376822678396500,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.950465086127377,
+            1.4060176862564182,
+            -0.0453554092340824
+          ],
+          "rotation": [
+            1.539,
+            -1.5,
+            1.5384694344301348,
+            "XYZ"
+          ],
+          "scale": [
+            22,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "870159514944100_Piva - sistemi oscuranti.mp4",
+            "id": 870159547967099,
+            "chromaKeyColor": null
+          },
+          "id": 870162569009500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ingresso",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8012476057915302,
+            -0.1962586205628084,
+            -0.5652298895742547
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870250594547899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Museo",
+          "abstract": null,
+          "viewId": 376847775559700,
+          "position": [
+            0.8011559202843578,
+            -0.1973551811205881,
+            0.5649779853040147
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870267303200300
+        }
+      ]
     },
     {
       "type": {
@@ -141,29 +158,59 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 376847775559700
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Reception",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
+      "id": 376847775559700,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.530784358348615,
+            -0.15578057588520222,
+            11.12046315239471
+          ],
+          "rotation": [
+            -3.12649946017066,
+            -1.5433981346627177,
+            -3.1286644800441987,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
+            "id": 870332089861100,
+            "chromaKeyColor": null
+          },
+          "id": 870333877423800
         },
-        "folder": "/uploads/",
-        "file": "376863435191700_reception.jpg",
-        "id": 376863464651200
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 376868921747799
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ingresso",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8457509713421903,
+            -0.28071875329535684,
+            0.4537645601212617
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870406895800600
+        }
+      ]
     },
     {
       "type": {
@@ -177,12 +224,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "376884681974999_studioTV.jpg",
-        "id": 376884747611900
+        "file": "869971737062100_studioTV.jpg",
+        "id": 869971930629100
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5.004686428394959,
+        "longitude": 357.09421009394305
       },
       "zoom": 75,
       "id": 376887307399500,
@@ -193,19 +240,19 @@
             "name": "plane"
           },
           "position": [
-            23.658574505433776,
-            2.0539827231281196,
-            -7.993046864689349
+            21.96367425156129,
+            0.9062817229998427,
+            2.7651436211060747
           ],
           "rotation": [
-            0.1691412543707611,
-            -0.6791646868333666,
-            0.13435006119313023,
+            2.184,
+            -1.4344532925199431,
+            2.190001239404694,
             "XYZ"
           ],
           "scale": [
-            12,
-            7.189999999999991,
+            6.5,
+            4,
             0.98
           ],
           "asset": {
@@ -230,19 +277,19 @@
             "name": "plane"
           },
           "position": [
-            12.558724415083674,
-            1.0384241507782797,
-            20.109380722745
+            13.358724415083671,
+            1.2,
+            21.709380722745024
           ],
           "rotation": [
             3.073546707480057,
-            -0.8244532925199434,
+            -0.824,
             3.079199277402276,
             "XYZ"
           ],
           "scale": [
-            16,
-            9,
+            18,
+            10.5,
             1
           ],
           "asset": {
@@ -257,8 +304,27 @@
             "index": 0
           },
           "id": 809967826617399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ingresso",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.06581786419918649,
+            -0.0017948807935158006,
+            0.997830039212688
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870047484544500,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -315,34 +381,42 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
-          "abstract": "Vai",
-          "viewId": 376789637631099,
+          "title": "Back",
+          "abstract": null,
+          "viewId": 460002983154599,
           "position": [
-            0.06086452622334994,
-            -0.1752963910672554,
-            -0.9826325278182089
+            0.7961605987768714,
+            -0.3243456360635259,
+            -0.5108113245825706
           ],
           "asset": null,
           "link": null,
-          "id": 543026221993600
+          "id": 871274710190800
         },
         {
           "type": {
             "id": 1,
             "name": "nav"
           },
-          "title": "Torna alla stanza",
-          "abstract": null,
-          "viewId": 460002983154599,
+          "title": "City 74",
+          "abstract": "Scheda tecnica",
+          "viewId": 180117092208199,
           "position": [
-            0.8199021811111681,
-            -0.3710637810343479,
-            -0.4359725723180793
+            -0.04688268979693458,
+            -0.5347207165011025,
+            -0.8437273070974721
           ],
-          "asset": null,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "871399600969899_871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+            "id": 871399615228800
+          },
           "link": null,
-          "id": 544781713052199
+          "id": 871410279577900
         }
       ],
       "orientation": {
@@ -356,221 +430,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 1 ",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "459185876710300_Unreal Engine Demo 360 2020.11.05 - 12.28.39.28.jpg",
-        "id": 459185996902100
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 459189178532400,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": "Vai",
-          "viewId": 459264901770100,
-          "position": [
-            -0.09427279620455918,
-            -0.1495259428000269,
-            0.9842533374723891
-          ],
-          "asset": null,
-          "id": 459439124941699,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": "Vai",
-          "viewId": 459234604409800,
-          "position": [
-            -0.9522399970505525,
-            -0.17984133801191893,
-            0.24677131348527265
-          ],
-          "asset": null,
-          "id": 459456975708399,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Scheda Tecnica",
-          "viewId": 459189178532400,
-          "position": [
-            0.8553410748090794,
-            -0.2209072578287236,
-            0.4686060490252369
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "544231527667199_Interno_PVC.jpg",
-            "id": 544231546364499,
-            "chromaKeyColor": null
-          },
-          "link": null,
-          "id": 543122888685800,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Spazi Classici e Moderni.",
-          "viewId": 459189178532400,
-          "position": [
-            0.9458565412731428,
-            -0.08265619990661767,
-            -0.3138843034428524
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "544223346617299_Interno_PVC-2.jpg",
-            "id": 544223377015700,
-            "chromaKeyColor": null
-          },
-          "link": null,
-          "id": 543803792655900,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": false
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 1 - 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "459231761795900_Unreal Engine Demo 360 2020.11.05 - 12.29.26.53.jpg",
-        "id": 459231832476099
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 459234604409800,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": "Vai",
-          "viewId": 459189178532400,
-          "position": [
-            0.921138177700117,
-            -0.24352623552330507,
-            -0.3036435907361714
-          ],
-          "asset": null,
-          "id": 459408431682200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Welcome Room",
-          "abstract": "Vai",
-          "viewId": 376789637631099,
-          "position": [
-            0.11188818309484426,
-            -0.09624639001790583,
-            0.9890488698200184
-          ],
-          "asset": null,
-          "link": null,
-          "id": 522946298927199
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 1 - 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "459262702175800_Unreal Engine Demo 360 2020.11.05 - 12.30.15.43.jpg",
-        "id": 459262814637800
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 459264901770100,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Prev",
-          "abstract": "Torna",
-          "viewId": 459234604409800,
-          "position": [
-            -0.9571986510853019,
-            -0.11273073786435855,
-            0.2665755485805773
-          ],
-          "asset": null,
-          "id": 459377246088999,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2",
+      "name": "Ambiente 1",
       "asset": {
         "type": {
           "id": 1,
@@ -592,8 +452,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459540659817000,
           "position": [
             0.9640329239345478,
@@ -609,13 +469,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459517947815699,
           "position": [
-            -0.04918779793572621,
-            -0.06951419785490413,
-            0.996367571145721
+            -0.050019200256808276,
+            -0.23139658460886495,
+            0.9715727971886726
           ],
           "asset": null,
           "id": 459843230705600,
@@ -626,8 +486,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
-          "abstract": "Vai",
+          "title": "Ingresso",
+          "abstract": null,
           "viewId": 376789637631099,
           "position": [
             -0.9999674948432845,
@@ -646,7 +506,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 2 - 2",
+      "name": "Ambiente 1 - 2",
       "asset": {
         "type": {
           "id": 1,
@@ -668,8 +528,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Ingresso",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459498566687500,
           "position": [
             -0.8877171437952076,
@@ -685,8 +545,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459540659817000,
           "position": [
             -0.6844541343895132,
@@ -705,7 +565,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 2 - 3",
+      "name": "Ambiente 1 - 3",
       "asset": {
         "type": {
           "id": 1,
@@ -727,8 +587,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Ingresso",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459498566687500,
           "position": [
             -0.9699300416209825,
@@ -744,13 +604,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Stanza Da Letto",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459578920550100,
           "position": [
-            -0.012644243074179148,
-            -0.018754694297651902,
-            -0.999744159552274
+            -0.022916472261241223,
+            -0.11495434384913347,
+            -0.9931064062472434
           ],
           "asset": null,
           "id": 459733074916299,
@@ -761,13 +621,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Cucina",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459517947815699,
           "position": [
-            -0.808362569070498,
-            -0.03382149855316472,
-            0.5877125684902125
+            -0.9163024305123344,
+            -0.2123342617389949,
+            0.33956445209848535
           ],
           "asset": null,
           "id": 459754835026200,
@@ -792,11 +652,10 @@
               "name": "image"
             },
             "folder": "/uploads/",
-            "file": "544381760014600_Interno_PVC-2.jpg",
-            "id": 544382044861699,
+            "file": "868738800348599_544223346617299_Interno_PVC-2.jpg",
+            "id": 868738826265199,
             "chromaKeyColor": null
           },
-          "link": null,
           "id": 544383629261099,
           "keepOrientation": null
         },
@@ -819,11 +678,10 @@
               "name": "image"
             },
             "folder": "/uploads/",
-            "file": "544486621024700_Interno_PVC.jpg",
-            "id": 544486645579500,
+            "file": "868824535298500_544735444142999_Interno_PVC.jpg",
+            "id": 868824556077700,
             "chromaKeyColor": null
           },
-          "link": null,
           "id": 544488547763500,
           "keepOrientation": null
         }
@@ -835,7 +693,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 2 - 4",
+      "name": "Ambiente 1 - 4",
       "asset": {
         "type": {
           "id": 1,
@@ -857,8 +715,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459599064816400,
           "position": [
             0.5212529146820137,
@@ -874,13 +732,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 459540659817000,
           "position": [
-            -0.9402605407657114,
-            -0.2237383487530893,
-            0.25661501666156
+            -0.8847374600197689,
+            -0.40242940189431026,
+            0.2351386895616192
           ],
           "asset": null,
           "id": 459686421004400,
@@ -894,7 +752,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 2 - 5",
+      "name": "Ambiente 1 - 5",
       "asset": {
         "type": {
           "id": 1,
@@ -916,13 +774,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 459578920550100,
           "position": [
-            -0.07521317901645051,
-            -0.18223460785247522,
-            0.9803741762220657
+            -0.058203549983907095,
+            -0.39245199683538057,
+            0.9179290696721578
           ],
           "asset": null,
           "id": 459623530005199,
@@ -936,7 +794,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3",
+      "name": "Ambiente 2",
       "asset": {
         "type": {
           "id": 1,
@@ -967,7 +825,6 @@
             -0.029215511275339896
           ],
           "asset": null,
-          "link": null,
           "id": 461923530720700,
           "keepOrientation": null
         },
@@ -976,8 +833,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
-          "abstract": "Vai",
+          "title": "Ingresso",
+          "abstract": null,
           "viewId": 376789637631099,
           "position": [
             -0.9992156922401454,
@@ -985,7 +842,6 @@
             0.039206008881403735
           ],
           "asset": null,
-          "link": null,
           "id": 522857120997299,
           "keepOrientation": null
         }
@@ -997,7 +853,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3 - 2",
+      "name": "Ambiente 2 - 2",
       "asset": {
         "type": {
           "id": 1,
@@ -1008,8 +864,8 @@
         "id": 459951654370100
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -27.45058848745083,
+        "longitude": 100.53577668301406
       },
       "zoom": 75,
       "id": 459953360470899,
@@ -1019,13 +875,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 460021323556999,
           "position": [
-            -0.039939873614127874,
-            -0.4188633282676598,
-            0.9071705014649816
+            -0.16226219928071642,
+            -0.46098348917337395,
+            0.8724478215882752
           ],
           "asset": null,
           "id": 460720852752400,
@@ -1036,8 +892,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 459933612682400,
           "position": [
             -0.9444409070215846,
@@ -1053,8 +909,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 460002983154599,
           "position": [
             0.009790341131748917,
@@ -1073,7 +929,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3 - 3",
+      "name": "Ambiente 2 - 3",
       "asset": {
         "type": {
           "id": 1,
@@ -1095,8 +951,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 459953360470899,
           "position": [
             -0.9477365794129969,
@@ -1112,8 +968,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 459933612682400,
           "position": [
             -0.643869436775251,
@@ -1143,11 +999,10 @@
               "name": "image"
             },
             "folder": "/uploads/",
-            "file": "544707513294399_Interno_PVC-2.jpg",
-            "id": 544707796716999,
+            "file": "870581893205000_868738800348599_544223346617299_Interno_PVC-2.jpg",
+            "id": 870581917071900,
             "chromaKeyColor": null
           },
-          "link": null,
           "id": 544709609441399,
           "keepOrientation": null
         },
@@ -1158,7 +1013,7 @@
           },
           "title": "City 74",
           "abstract": "Scheda Tecnica",
-          "viewId": 180117092208199,
+          "viewId": 460002983154599,
           "position": [
             0.9662694417065938,
             -0.06227074697363,
@@ -1170,12 +1025,46 @@
               "name": "image"
             },
             "folder": "/uploads/",
-            "file": "544735444142999_Interno_PVC.jpg",
-            "id": 544735456064000,
+            "file": "870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+            "id": 870609338848399,
             "chromaKeyColor": null
           },
-          "link": null,
           "id": 544738555823100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117092208199,
+          "position": [
+            0.9605479873826526,
+            -0.11868185688148777,
+            -0.25151974233108937
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870649100409200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117092208199,
+          "position": [
+            0.16035299008348636,
+            -0.10989041527876729,
+            0.9809235521696609
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870666818643400,
           "keepOrientation": null
         }
       ],
@@ -1186,7 +1075,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3 - 4",
+      "name": "Ambiente 2 - 4",
       "asset": {
         "type": {
           "id": 1,
@@ -1197,8 +1086,8 @@
         "id": 460020851620800
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -33.87693325772629,
+        "longitude": 215.75780085057642
       },
       "zoom": 75,
       "id": 460021323556999,
@@ -1208,8 +1097,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 460041593166500,
           "position": [
             0.6729062995137666,
@@ -1225,8 +1114,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Ingresso",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 459933612682400,
           "position": [
             -0.28207436659596524,
@@ -1242,8 +1131,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 460002983154599,
           "position": [
             -0.9413143142629846,
@@ -1259,8 +1148,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 459953360470899,
           "position": [
             -0.6737325057316139,
@@ -1279,7 +1168,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3 - 5",
+      "name": "Ambiente 2 - 5",
       "asset": {
         "type": {
           "id": 1,
@@ -1290,8 +1179,8 @@
         "id": 460040018746599
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -25.603574797529802,
+        "longitude": 237.36917107608483
       },
       "zoom": 75,
       "id": 460041593166500,
@@ -1301,13 +1190,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 460058243375399,
           "position": [
-            0.525709707388633,
-            -0.0869096468175297,
-            0.8462127491638319
+            0.4894175821495958,
+            -0.389378448052699,
+            0.7802915189048996
           ],
           "asset": null,
           "id": 460363829879200,
@@ -1318,13 +1207,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 460021323556999,
           "position": [
-            -0.5031837977880994,
-            -0.3219609709083239,
-            -0.8019645870331896
+            -0.48627520646287375,
+            -0.4321420150841948,
+            -0.7594667223640948
           ],
           "asset": null,
           "id": 460389237768000,
@@ -1338,7 +1227,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3 - 6",
+      "name": "Ambiente 2 - 6",
       "asset": {
         "type": {
           "id": 1,
@@ -1349,8 +1238,8 @@
         "id": 460057237421700
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -17.76111809312151,
+        "longitude": 188.06105687149048
       },
       "zoom": 75,
       "id": 460058243375399,
@@ -1360,13 +1249,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Vai",
+          "title": null,
+          "abstract": null,
           "viewId": 460077386975500,
           "position": [
-            0.39746589409621674,
-            -0.34007299278333714,
-            0.852274147566192
+            0.18928060492149024,
+            -0.555157446425867,
+            0.809921639591427
           ],
           "asset": null,
           "id": 460284931396400,
@@ -1377,8 +1266,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 460021323556999,
           "position": [
             -0.6898637762573909,
@@ -1394,13 +1283,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Prev",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 460041593166500,
           "position": [
-            -0.9694408212453356,
-            -0.20183791289538833,
-            -0.13944873976197542
+            -0.9429267736087076,
+            -0.3050491031505806,
+            -0.13354454043089786
           ],
           "asset": null,
           "id": 460339225717299,
@@ -1414,7 +1303,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 3 - 7",
+      "name": "Ambiente 2 - 7",
       "asset": {
         "type": {
           "id": 1,
@@ -1425,8 +1314,8 @@
         "id": 460076394746799
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -26.925517274425673,
+        "longitude": 222.0015118860999
       },
       "zoom": 75,
       "id": 460077386975500,
@@ -1436,8 +1325,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Next",
-          "abstract": "Torna",
+          "title": null,
+          "abstract": null,
           "viewId": 460058243375399,
           "position": [
             -0.6625691698841314,
@@ -1450,28 +1339,6 @@
         }
       ],
       "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Hereoesvalley",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "808616016947500_hereoesvalley.jpg",
-        "id": 808616125904300
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 808618103386299
     }
   ],
   "menu": [],
@@ -1836,6 +1703,131 @@
       "file": "nextAttendeeStream",
       "id": 809987160936900,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868672283571700_543110748126899_Interno_PVC.jpg",
+      "id": 868672315384300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868691123179900_543110748126899_Interno_PVC.jpg",
+      "id": 868691140162500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868706735137900_543798358789399_Interno_PVC-2.jpg",
+      "id": 868706752683800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868738800348599_544223346617299_Interno_PVC-2.jpg",
+      "id": 868738826265199,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 868824556077700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "869971737062100_studioTV.jpg",
+      "id": 869971930629100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "870159514944100_Piva - sistemi oscuranti.mp4",
+      "id": 870159547967099
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
+      "id": 870332089861100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 870574520889699,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "870581893205000_868738800348599_544223346617299_Interno_PVC-2.jpg",
+      "id": 870581917071900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 870609338848399,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 871306922816000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "871399600969899_871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 871399615228800
     }
   ],
   "users": [
