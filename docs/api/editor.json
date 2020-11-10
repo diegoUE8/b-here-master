@@ -44,7 +44,76 @@
       },
       "zoom": 75,
       "id": 376789637631099,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ambiente 1",
+          "abstract": null,
+          "viewId": 459498566687500,
+          "position": [
+            0.7293681041658566,
+            -0.036874209843837345,
+            -0.6831269730247056
+          ],
+          "asset": null,
+          "link": null,
+          "id": 875768630007600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ambiente 2",
+          "abstract": null,
+          "viewId": 459933612682400,
+          "position": [
+            0.7548798096209117,
+            -0.009627209515937114,
+            0.6557924899414693
+          ],
+          "asset": null,
+          "link": null,
+          "id": 875789603501000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Cinema",
+          "abstract": null,
+          "viewId": 376822678396500,
+          "position": [
+            0.25965982771917745,
+            -0.016974969184621033,
+            0.96555094339451
+          ],
+          "asset": null,
+          "link": null,
+          "id": 875803363738099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 376847775559700,
+          "position": [
+            0.08680852823997082,
+            -0.021747142551480282,
+            -0.9959876210152694
+          ],
+          "asset": null,
+          "link": null,
+          "id": 875817081900200
+        }
+      ],
       "hidden": false
     },
     {
@@ -150,8 +219,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "376838452017900_Room3D.jpg",
-        "id": 376838570051600
+        "file": "875681821864200_Room3D.jpg",
+        "id": 875682136418800
       },
       "orientation": {
         "latitude": 0,
@@ -207,10 +276,11 @@
             0.4537645601212617
           ],
           "asset": null,
-          "link": null,
-          "id": 870406895800600
+          "id": 870406895800600,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -1828,6 +1898,15 @@
       "folder": "/uploads/",
       "file": "871399600969899_871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
       "id": 871399615228800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "875681821864200_Room3D.jpg",
+      "id": 875682136418800
     }
   ],
   "users": [
