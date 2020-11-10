@@ -511,8 +511,8 @@
         "id": 522972228833000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -15.8,
+        "longitude": 355.2
       },
       "zoom": 75,
       "id": 459498566687500,
@@ -587,8 +587,8 @@
         "id": 523034460521000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -8.5,
+        "longitude": 356
       },
       "zoom": 75,
       "id": 459517947815699,
@@ -646,8 +646,8 @@
         "id": 523086771367799
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5,
+        "longitude": 359.5
       },
       "zoom": 75,
       "id": 459540659817000,
@@ -774,8 +774,8 @@
         "id": 523134209079000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -7.5,
+        "longitude": 357.5
       },
       "zoom": 75,
       "id": 459578920550100,
@@ -833,7 +833,7 @@
         "id": 523298628978099
       },
       "orientation": {
-        "latitude": 0,
+        "latitude": -2.4000000000000004,
         "longitude": 0
       },
       "zoom": 75,
@@ -875,8 +875,8 @@
         "id": 459933223805399
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5.1000000000000005,
+        "longitude": 355.7
       },
       "zoom": 75,
       "id": 459933612682400,
@@ -1010,8 +1010,8 @@
         "id": 460002447870900
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -6.4,
+        "longitude": 359.1
       },
       "zoom": 75,
       "id": 460002983154599,
@@ -1116,8 +1116,8 @@
             -0.25151974233108937
           ],
           "asset": null,
-          "link": null,
-          "id": 870649100409200
+          "id": 870649100409200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -1133,7 +1133,6 @@
             0.9809235521696609
           ],
           "asset": null,
-          "link": null,
           "id": 870666818643400,
           "keepOrientation": null
         }
@@ -1156,8 +1155,8 @@
         "id": 460020851620800
       },
       "orientation": {
-        "latitude": -33.87693325772629,
-        "longitude": 215.75780085057642
+        "latitude": -8.77693325772629,
+        "longitude": 0.057800850576427365
       },
       "zoom": 75,
       "id": 460021323556999,
@@ -1249,8 +1248,8 @@
         "id": 460040018746599
       },
       "orientation": {
-        "latitude": -25.603574797529802,
-        "longitude": 237.36917107608483
+        "latitude": -5.503574797529802,
+        "longitude": 359.56917107608484
       },
       "zoom": 75,
       "id": 460041593166500,
@@ -1308,8 +1307,8 @@
         "id": 460057237421700
       },
       "orientation": {
-        "latitude": -17.76111809312151,
-        "longitude": 188.06105687149048
+        "latitude": -2.4611180931215095,
+        "longitude": 263.0610568714905
       },
       "zoom": 75,
       "id": 460058243375399,
@@ -1384,8 +1383,8 @@
         "id": 460076394746799
       },
       "orientation": {
-        "latitude": -26.925517274425673,
-        "longitude": 222.0015118860999
+        "latitude": -1.1255172744256716,
+        "longitude": 358.3015118860999
       },
       "zoom": 75,
       "id": 460077386975500,
