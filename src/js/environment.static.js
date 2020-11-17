@@ -14,11 +14,11 @@ export const environmentStatic = {
 	logo: '/b-here/img/logo.png',
 	background: {
 		image: '/b-here/img/background.jpg',
-		video: '/b-here/img/background2.mp4',
+		video: '/b-here/img/background.mp4',
 	},
 	assets: './',
 	worker: './js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here/piva/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here/heroesvalley/docs/',
 	url: {
 		index: '/',
 		access: '/',
