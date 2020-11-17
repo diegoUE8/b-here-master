@@ -189,7 +189,7 @@ function _readOnlyError(name) {
   },
   assets: './',
   worker: './js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here/heroesvalley/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/heroesvalley/docs/',
   url: {
     index: '/',
     access: '/',
