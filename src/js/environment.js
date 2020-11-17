@@ -76,7 +76,7 @@ const defaultOptions = {
 };
 
 const defaultAppOptions = {
-	appKey: '8b0cae93d47a44e48e97e7fd0404be4e',
+	appKey: '865af1430a854af5b01733ff9b725a2b',
 	channelName: 'BHere',
 	flags: {
 		ar: true,
