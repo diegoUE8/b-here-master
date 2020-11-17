@@ -28,30 +28,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Area Espositiva",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "337127267618900_hereoesvalley.jpg",
-        "id": 337127346815000
-      },
-      "orientation": {
-        "latitude": -3.9000000000000004,
-        "longitude": 255.8
-      },
-      "zoom": 75,
-      "id": 337129518224500,
-      "items": [],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Reception room",
       "asset": {
         "type": {
@@ -116,6 +92,64 @@
       },
       "zoom": 75,
       "id": 338065166299600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "Area Espositiva",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "337127267618900_hereoesvalley.jpg",
+        "id": 337127346815000
+      },
+      "orientation": {
+        "latitude": -8,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 337129518224500,
+      "items": [
+        {
+          "id": 1111,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/moto/",
+            "file": "moto_suzuki.glb"
+          }
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "340664556798900_moto.usdz",
+          "id": 340664594615400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "340667770503000_moto_suzuki.glb",
+          "id": 340667792804700
+        }
+      }
     }
   ],
   "menu": [],
@@ -164,6 +198,42 @@
       "folder": "/uploads/",
       "file": "338288798580700_reception.jpg",
       "id": 338288819976600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "340605350982200_moto.usdz",
+      "id": 340605384160299
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "340618713286599_moto_suzuki.glb",
+      "id": 340618734285799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "340664556798900_moto.usdz",
+      "id": 340664594615400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "340667770503000_moto_suzuki.glb",
+      "id": 340667792804700
     }
   ],
   "users": [
