@@ -150,6 +150,101 @@
           "id": 340667792804700
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "406760058598800_studio_lucioff.jpg",
+        "id": 406760302780100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 406765685595300,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            17.33380672289916,
+            -0.6790784590030351,
+            8.42232376287306
+          ],
+          "rotation": [
+            -3.084771902264484,
+            -1.6237197551196585,
+            -3.0900639661613267,
+            "XYZ"
+          ],
+          "scale": [
+            8,
+            6,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 406813850199100,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 406800844609299
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            17.500000000000004,
+            -0.8999999999999999,
+            -10.7
+          ],
+          "rotation": [
+            -0.047578378688477495,
+            -1.5250668292514948,
+            -0.04052343772681413,
+            "XYZ"
+          ],
+          "scale": [
+            8,
+            6,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 406936684125500,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 406911998685800
+        }
+      ]
     }
   ],
   "menu": [],
@@ -234,6 +329,39 @@
       "folder": "/uploads/",
       "file": "340667770503000_moto_suzuki.glb",
       "id": 340667792804700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "406760058598800_studio_lucioff.jpg",
+      "id": 406760302780100
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 406813850199100,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 406936684125500,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
     }
   ],
   "users": [
