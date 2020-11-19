@@ -37,8 +37,9 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/welcome-room/",
-        "file": "welcome.jpg"
+        "folder": "/uploads/",
+        "file": "510617342656000_welcome.jpg",
+        "id": 510617543470400
       },
       "orientation": {
         "latitude": 0,
@@ -55,12 +56,11 @@
           "abstract": null,
           "viewId": 496175462352500,
           "position": [
-            -0.9874391656240059,
-            -0.10565715070132697,
-            -0.11747536208688293
+            0.017497314706528433,
+            -0.03169462338946501,
+            -0.9993444325287758
           ],
           "asset": null,
-          "link": null,
           "id": 498242270907400,
           "keepOrientation": null
         },
@@ -73,13 +73,13 @@
           "abstract": null,
           "viewId": 502924660957900,
           "position": [
-            -0.694477328371972,
-            -0.05661451405889707,
-            0.717283791239704
+            -0.6295411825134174,
+            -0.012936828082824356,
+            0.7768594068419097
           ],
           "asset": null,
-          "link": null,
-          "id": 503566773717800
+          "id": 503566773717800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -90,13 +90,13 @@
           "abstract": null,
           "viewId": 503042843844599,
           "position": [
-            -0.6923459784187382,
-            0.027427463897289003,
-            0.7210442291507247
+            -0.9531611090044737,
+            0.029283462298562626,
+            0.30104215505003673
           ],
           "asset": null,
-          "link": null,
-          "id": 503596647375400
+          "id": 503596647375400,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -107,13 +107,13 @@
           "abstract": null,
           "viewId": 503340859465600,
           "position": [
-            -0.6863741255310776,
-            0.11713645952932816,
-            0.7177531676352132
+            -0.945455406897308,
+            -0.13592270548199245,
+            0.29603900368549657
           ],
           "asset": null,
-          "link": null,
-          "id": 503610775957400
+          "id": 503610775957400,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -124,13 +124,13 @@
           "abstract": null,
           "viewId": 503992413864500,
           "position": [
-            -0.9935462982757469,
-            -0.0060020271342392335,
-            -0.11326839300016692
+            0.020225464491938412,
+            -0.1570542247400824,
+            -0.987382854356595
           ],
           "asset": null,
-          "link": null,
-          "id": 505647227663200
+          "id": 505647227663200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -141,13 +141,13 @@
           "abstract": null,
           "viewId": 502403878376800,
           "position": [
-            -0.9909680187095959,
-            0.08729859599703337,
-            -0.10179067261652379
+            0.20569748797998091,
+            -0.047251364003890524,
+            0.9774742206516228
           ],
           "asset": null,
-          "link": null,
-          "id": 505677256133999
+          "id": 505677256133999,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -158,13 +158,13 @@
           "abstract": null,
           "viewId": 498478142881399,
           "position": [
-            -0.09138791134629082,
-            -0.005868981408825045,
-            -0.9957980742685664
+            0.19922708497401356,
+            -0.1601822235986761,
+            0.9667730984340333
           ],
           "asset": null,
-          "link": null,
-          "id": 505729885600300
+          "id": 505729885600300,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -175,13 +175,13 @@
           "abstract": null,
           "viewId": 505860010418200,
           "position": [
-            -0.9232375098496222,
-            -0.001120409425579909,
-            0.38422811595377565
+            -0.9822259466107751,
+            -0.13530477305191518,
+            -0.13009538113990315
           ],
           "asset": null,
-          "link": null,
-          "id": 505902776846400
+          "id": 505902776846400,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -192,15 +192,16 @@
           "abstract": null,
           "viewId": 505820256936299,
           "position": [
-            -0.9197405697784176,
-            0.07774895139518864,
-            0.3847497691495342
+            -0.9911764417330383,
+            0.031873045134718524,
+            -0.12865990186251908
           ],
           "asset": null,
-          "link": null,
-          "id": 505930399337800
+          "id": 505930399337800,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -428,6 +429,23 @@
           "asset": null,
           "link": null,
           "id": 496362861211299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Triceratopo 3D",
+          "abstract": null,
+          "viewId": 505860010419200,
+          "position": [
+            -0.9192615925404011,
+            -0.32939568134582436,
+            -0.21553795394502007
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513455140821200
         }
       ]
     },
@@ -552,6 +570,23 @@
             "target": "_blank"
           },
           "id": 497832053571100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.6802701347690411,
+            -0.04702780496438074,
+            0.7314512487524664
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513523554035000
         }
       ],
       "hidden": null
@@ -2635,8 +2670,8 @@
         "id": 503040551095599
       },
       "orientation": {
-        "latitude": -0.1,
-        "longitude": 356.9
+        "latitude": -1.4000000000000001,
+        "longitude": 1.5
       },
       "zoom": 75,
       "id": 503042843844599,
@@ -2688,7 +2723,6 @@
             0.5654950566545329
           ],
           "asset": null,
-          "link": null,
           "id": 503170278082800,
           "keepOrientation": null
         },
@@ -2706,8 +2740,8 @@
             -0.5659741571218272
           ],
           "asset": null,
-          "link": null,
-          "id": 503709606022700
+          "id": 503709606022700,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -2728,8 +2762,8 @@
         "id": 503338545122000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -0.8,
+        "longitude": 351.9
       },
       "zoom": 75,
       "id": 503340859465600,
@@ -2781,10 +2815,11 @@
             0.7060423042003858
           ],
           "asset": null,
-          "link": null,
-          "id": 503530522292899
+          "id": 503530522292899,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -2884,8 +2919,8 @@
         "id": 503990450707900
       },
       "orientation": {
-        "latitude": -5.699999999999999,
-        "longitude": 151.10000000000002
+        "latitude": -4.473673196287868,
+        "longitude": 144.5647273618846
       },
       "zoom": 75,
       "id": 503992413864500,
@@ -2904,8 +2939,8 @@
             -0.19450704902172106
           ],
           "asset": null,
-          "link": null,
-          "id": 504440285389099
+          "id": 504440285389099,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -2921,8 +2956,8 @@
             0.2627056389800934
           ],
           "asset": null,
-          "link": null,
-          "id": 504459487457499
+          "id": 504459487457499,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -2938,8 +2973,8 @@
             -0.06672179324113457
           ],
           "asset": null,
-          "link": null,
-          "id": 504521282626200
+          "id": 504521282626200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -2955,8 +2990,8 @@
             0.9864182465660846
           ],
           "asset": null,
-          "link": null,
-          "id": 504835782222399
+          "id": 504835782222399,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -2972,8 +3007,8 @@
             -0.6276403080484306
           ],
           "asset": null,
-          "link": null,
-          "id": 504873642883399
+          "id": 504873642883399,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -3480,7 +3515,133 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 505820256936299
+      "id": 505820256936299,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.569870189596788,
+            -0.3629244105965589,
+            9.12851515383423
+          ],
+          "rotation": [
+            0.21775079697284555,
+            -1.5158988054579317,
+            0.21743300665599222,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 511287996253000,
+            "chromaKeyColor": null
+          },
+          "id": 511248420310099
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.95380181249854,
+            -0.496880697545686,
+            -12.584282852988313
+          ],
+          "rotation": [
+            1.2840299366145276,
+            -1.5028139878608022,
+            1.283401920303518,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 511485695637800,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 511450783594900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9186115486626232,
+            0.35896454303741976,
+            -0.1652188836228874
+          ],
+          "asset": null,
+          "link": null,
+          "id": 511566035550300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D - Dress",
+          "abstract": null,
+          "viewId": 505860010419300,
+          "position": [
+            0.9180743351068443,
+            -0.39640366505594643,
+            -0.00191037910870356
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513563435970100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D - Watch",
+          "abstract": null,
+          "viewId": 505860010419310,
+          "position": [
+            0.8890115406034191,
+            -0.45785115636187373,
+            -0.005549710986204727
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513629349082800,
+          "keepOrientation": null
+        }
+      ]
     },
     {
       "type": {
@@ -3503,11 +3664,478 @@
       },
       "zoom": 75,
       "id": 505860010418200,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            27.8,
+            1.7,
+            3.7199703853476667
+          ],
+          "rotation": [
+            2.925331407718241,
+            -1.431100463797178,
+            2.927373978916251,
+            "XYZ"
+          ],
+          "scale": [
+            9,
+            6,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 511002526185500,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 510987983371000
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            28.533101164722325,
+            1.665961417800913,
+            -2.2331341182866833
+          ],
+          "rotation": [
+            0.04036752665215271,
+            -1.488981802392493,
+            0.04023264553227796,
+            "XYZ"
+          ],
+          "scale": [
+            9,
+            6,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 511125725968799,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 511097810607299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.08468155824435604,
+            0.04701313020940542,
+            0.9952983468695311
+          ],
+          "asset": null,
+          "link": null,
+          "id": 511197803380000,
+          "keepOrientation": null
+        }
+      ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "Skeleton",
+      "likes": 172,
+      "liked": false,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "triceratopsSkeleton.usdz"
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "triceratopsSkeleton.glb"
+        }
+      },
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/back3D/",
+        "file": "muse.jpg"
+      },
+      "zoom": 75,
+      "id": 505860010419200,
+      "items": [
+        {
+          "id": 1111,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/",
+            "file": "triceratopsSkeleton.glb"
+          }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 496261103950399,
+          "position": [
+            0.8080534295268033,
+            -0.44264523544356443,
+            0.3887349361313991
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513484172678200
+        }
+      ],
+      "orientation": {
+        "latitude": 15,
+        "longitude": 180
+      },
+      "hidden": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "Dress",
+      "likes": 172,
+      "liked": false,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/black_dress_with_lace_accents/",
+          "file": "Black_dress_with_lace_accents.usdz"
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/Black_dress_with_lace_accents/",
+          "file": "scene.gltf"
+        }
+      },
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/back3D/",
+        "file": "office.jpg"
+      },
+      "zoom": 65,
+      "id": 505860010419300,
+      "items": [
+        {
+          "id": 1112,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/Black_dress_with_lace_accents/",
+            "file": "scene.gltf"
+          }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 505820256936299,
+          "position": [
+            0.8235178188706878,
+            -0.5096103442510957,
+            0.24923021292520825
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513584249798100
+        }
+      ],
+      "orientation": {
+        "latitude": 15,
+        "longitude": 180
+      },
+      "hidden": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "Watch",
+      "likes": 172,
+      "liked": false,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "watch-ao.usdz"
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "watch-ao.glb"
+        }
+      },
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/back3D/",
+        "file": "back.jpeg"
+      },
+      "zoom": 65,
+      "id": 505860010419310,
+      "items": [
+        {
+          "id": 1113,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/",
+            "file": "watch-ao.glb"
+          }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 505820256936299,
+          "position": [
+            0.240210360674472,
+            -0.3418604966888213,
+            -0.9085319936184484
+          ],
+          "asset": null,
+          "link": null,
+          "id": 513664382104399
+        }
+      ],
+      "orientation": {
+        "latitude": 15,
+        "longitude": 90
+      },
+      "hidden": false
     }
   ],
-  "menu": [],
+  "menu": [
+    {
+      "id": 513748845784499,
+      "parentId": null,
+      "viewId": 170427763402500,
+      "name": "Welcome Room",
+      "order": 0
+    },
+    {
+      "id": 513759169265300,
+      "parentId": null,
+      "viewId": null,
+      "name": "Tour",
+      "order": 10
+    },
+    {
+      "id": 513782032617300,
+      "parentId": 513759169265300,
+      "viewId": 502403878376800,
+      "name": "House",
+      "order": 0
+    },
+    {
+      "id": 513783500794500,
+      "parentId": 513759169265300,
+      "viewId": 496175462352500,
+      "name": "Museum",
+      "order": 10
+    },
+    {
+      "id": 513783949635300,
+      "parentId": 513759169265300,
+      "viewId": 500899039104600,
+      "name": "Showroom",
+      "order": 20
+    },
+    {
+      "id": 513784400137299,
+      "parentId": 513759169265300,
+      "viewId": 503992413864500,
+      "name": "Cantinavirtuale",
+      "order": 30
+    },
+    {
+      "id": 513846642724000,
+      "parentId": null,
+      "viewId": null,
+      "name": "Media",
+      "order": 20
+    },
+    {
+      "id": 513862283120100,
+      "parentId": 513846642724000,
+      "viewId": 502924660957900,
+      "name": "Gallery",
+      "order": 0
+    },
+    {
+      "id": 513863498165500,
+      "parentId": 513846642724000,
+      "viewId": 503042843844599,
+      "name": "Cinema 360",
+      "order": 10
+    },
+    {
+      "id": 513864036920900,
+      "parentId": 513846642724000,
+      "viewId": 503340859465600,
+      "name": "Cinema Relax",
+      "order": 20
+    },
+    {
+      "id": 513904544668199,
+      "parentId": null,
+      "viewId": null,
+      "name": "Studio",
+      "order": 30
+    },
+    {
+      "id": 513912292927600,
+      "parentId": 513904544668199,
+      "viewId": 505820256936299,
+      "name": "Meeting",
+      "order": 0
+    },
+    {
+      "id": 513912891850099,
+      "parentId": 513904544668199,
+      "viewId": 505860010418200,
+      "name": "Studio TV",
+      "order": 10
+    },
+    {
+      "id": 513946905350299,
+      "parentId": null,
+      "viewId": null,
+      "name": "Video 360",
+      "order": 40
+    },
+    {
+      "id": 513958863172400,
+      "parentId": 513946905350299,
+      "viewId": 503634164139600,
+      "name": "Video VR",
+      "order": 0
+    },
+    {
+      "id": 513959614577600,
+      "parentId": 513946905350299,
+      "viewId": 503728853890500,
+      "name": "Timesquare",
+      "order": 10
+    },
+    {
+      "id": 513960116788100,
+      "parentId": 513946905350299,
+      "viewId": 504137755557000,
+      "name": "Vyneyard",
+      "order": 20
+    },
+    {
+      "id": 514006762002499,
+      "parentId": null,
+      "viewId": null,
+      "name": "Modelli3D",
+      "order": 50
+    },
+    {
+      "id": 514014889240800,
+      "parentId": 514006762002499,
+      "viewId": 505860010419200,
+      "name": "Skeleton",
+      "order": 0
+    },
+    {
+      "id": 514015440249700,
+      "parentId": 514006762002499,
+      "viewId": 505860010419300,
+      "name": "Dress",
+      "order": 10
+    },
+    {
+      "id": 514015947809600,
+      "parentId": 514006762002499,
+      "viewId": 505860010419310,
+      "name": "Watch",
+      "order": 20
+    },
+    {
+      "id": 514041769202200,
+      "parentId": null,
+      "viewId": 497938223526200,
+      "name": "Ambiente Grid",
+      "order": 60
+    }
+  ],
   "assets": [
     {
       "type": {
@@ -4081,6 +4709,64 @@
       "folder": "/uploads/",
       "file": "506547111265899_Unreal Engine Demo 360 2020.11.19 - 13.46.03.99.jpg",
       "id": 506547259245800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "510617342656000_welcome.jpg",
+      "id": 510617543470400
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 511002526185500,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 511125725968799,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 511287996253000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 511485695637800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
     }
   ],
   "users": [
