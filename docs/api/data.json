@@ -15,7 +15,7 @@
           "name": "image"
         },
         "folder": "/textures/waiting-room/",
-        "file": "waiting-room.jpg"
+        "file": "reception.jpg"
       },
       "orientation": {
         "latitude": 0,
@@ -38,14 +38,4067 @@
           "name": "image"
         },
         "folder": "/textures/welcome-room/",
-        "file": "welcome-room.jpg"
+        "file": "welcome.jpg"
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "items": []
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Tour Museo",
+          "abstract": null,
+          "viewId": 496175462352500,
+          "position": [
+            -0.9874391656240059,
+            -0.10565715070132697,
+            -0.11747536208688293
+          ],
+          "asset": null,
+          "link": null,
+          "id": 498242270907400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "position": [
+            -0.694477328371972,
+            -0.05661451405889707,
+            0.717283791239704
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503566773717800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Cinema 360",
+          "abstract": null,
+          "viewId": 503042843844599,
+          "position": [
+            -0.6923459784187382,
+            0.027427463897289003,
+            0.7210442291507247
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503596647375400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Cinema Relax",
+          "abstract": null,
+          "viewId": 503340859465600,
+          "position": [
+            -0.6863741255310776,
+            0.11713645952932816,
+            0.7177531676352132
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503610775957400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Tour Cantine",
+          "abstract": null,
+          "viewId": 503992413864500,
+          "position": [
+            -0.9935462982757469,
+            -0.0060020271342392335,
+            -0.11326839300016692
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505647227663200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Tour House",
+          "abstract": null,
+          "viewId": 502403878376800,
+          "position": [
+            -0.9909680187095959,
+            0.08729859599703337,
+            -0.10179067261652379
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505677256133999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Showroom",
+          "abstract": null,
+          "viewId": 498478142881399,
+          "position": [
+            -0.09138791134629082,
+            -0.005868981408825045,
+            -0.9957980742685664
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505729885600300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Studio TV",
+          "abstract": null,
+          "viewId": 505860010418200,
+          "position": [
+            -0.9232375098496222,
+            -0.001120409425579909,
+            0.38422811595377565
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505902776846400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Studio Meeting",
+          "abstract": null,
+          "viewId": 505820256936299,
+          "position": [
+            -0.9197405697784176,
+            0.07774895139518864,
+            0.3847497691495342
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505930399337800
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496169257650300_piano-1_1.jpg",
+        "id": 496169572686700
+      },
+      "orientation": {
+        "latitude": -9.8,
+        "longitude": 273.2
+      },
+      "zoom": 75,
+      "id": 496175462352500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496213308506700,
+          "position": [
+            0.24253843267785596,
+            -0.23202537274177434,
+            -0.9419869081246351
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496451409311600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496261103950399,
+          "position": [
+            0.9767012519484077,
+            -0.1560050262072207,
+            -0.14736721562307295
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496462625992900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Piano 0",
+          "abstract": null,
+          "viewId": 496619026531600,
+          "position": [
+            0.509797425619869,
+            0.08326695903081395,
+            0.8562553347951268
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496564534081299,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.8908532721165944,
+            -0.06447895012287291,
+            0.44969201966480243
+          ],
+          "asset": null,
+          "link": null,
+          "id": 498285801953499
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse -1 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496200810098400_piano-1_2.jpg",
+        "id": 496201083516199
+      },
+      "orientation": {
+        "latitude": -9.899999999999999,
+        "longitude": 183.80000000000004
+      },
+      "zoom": 75,
+      "id": 496213308506700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496175462352500,
+          "position": [
+            0.9708377187379814,
+            -0.1836103813681186,
+            0.15414717554819501
+          ],
+          "asset": null,
+          "id": 496388395358799,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496261103950399,
+          "position": [
+            -0.18546300525499193,
+            -0.25388989229682046,
+            -0.9492857295205148
+          ],
+          "asset": null,
+          "id": 496397766393700,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse -1 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496234404458700_piano-1_3.jpg",
+        "id": 496234437888600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 496261103950399,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496282626526900,
+          "position": [
+            0.9853057747149916,
+            -0.1693000928224767,
+            0.022583376266432423
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496325174944200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496213308506700,
+          "position": [
+            -0.9628184388707679,
+            -0.2633751155470314,
+            0.060118235844418805
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496354510821100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496175462352500,
+          "position": [
+            -0.6338606136178664,
+            -0.13778199529310867,
+            0.761076109385278
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496362861211299
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse -1 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496270777562700_piano-1_4.jpg",
+        "id": 496270816418100
+      },
+      "orientation": {
+        "latitude": -3.1000000000000005,
+        "longitude": 86.9
+      },
+      "zoom": 75,
+      "id": 496282626526900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496261103950399,
+          "position": [
+            -0.01917939551852371,
+            -0.1555112922682003,
+            -0.9876479072850903
+          ],
+          "asset": null,
+          "id": 496303819217900,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Instagram",
+          "abstract": "Tasso",
+          "viewId": 496282626526900,
+          "position": [
+            0.41685503296605675,
+            -0.10664857594860848,
+            0.9026948336724884
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497505274745300_tasso.jpg",
+            "id": 497505302204099,
+            "chromaKeyColor": null
+          },
+          "link": {
+            "title": "Visita la pagina...",
+            "href": "https://www.instagram.com/p/CDySfoxBZPT/",
+            "target": "_blank"
+          },
+          "id": 497554245397800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Instagram",
+          "abstract": "Cervo",
+          "viewId": 496282626526900,
+          "position": [
+            -0.41054778258171487,
+            -0.38794374061221376,
+            0.8251970506109679
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497629856974700_cervo.jpg",
+            "id": 497629875189000,
+            "chromaKeyColor": null
+          },
+          "link": {
+            "title": "Visita la pagina..",
+            "href": "https://www.instagram.com/p/BxR9BgenhnK/",
+            "target": "_blank"
+          },
+          "id": 497692285214700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Hominidae",
+          "abstract": "Non è possibile comprendere alcun fenomeno biologico se non alla luce del PROCESSO EVOLUTIVO, che continua a modellare e rimodellare i GENOMI degli individui delle specie, e attraverso questi, le strutture e le funzioni di ciascuna di esse.",
+          "viewId": 496282626526900,
+          "position": [
+            0.9643101959482449,
+            -0.25110766120624267,
+            -0.0839689732805411
+          ],
+          "asset": null,
+          "link": {
+            "title": "Segui la nostra pagina YouTube",
+            "href": "https://www.youtube.com/watch?time_continue=1&v=OOOcqcvA7do&ab_channel=MUSEMuseodelleScienze",
+            "target": "_blank"
+          },
+          "id": 497832053571100
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse 0 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496591832110899_piano0_1b.jpg",
+        "id": 496591877574000
+      },
+      "orientation": {
+        "latitude": -10.8,
+        "longitude": 265.90000000000003
+      },
+      "zoom": 75,
+      "id": 496594514845600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496619026531600,
+          "position": [
+            0.9065873311264705,
+            -0.13829179939703307,
+            0.39871642712649064
+          ],
+          "asset": null,
+          "link": null,
+          "id": 497291879185600
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse 0 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496609625212200_piano0_2.jpg",
+        "id": 496609662205400
+      },
+      "orientation": {
+        "latitude": -5.200000000000001,
+        "longitude": 266.70000000000005
+      },
+      "zoom": 75,
+      "id": 496619026531600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Piano -1",
+          "abstract": null,
+          "viewId": 496175462352500,
+          "position": [
+            -0.8075454646202906,
+            -0.33133793389721483,
+            0.4879400538303079
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496662769717799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496594514845600,
+          "position": [
+            -0.9889486660382311,
+            -0.13850689546604014,
+            0.052880770130198956
+          ],
+          "asset": null,
+          "link": null,
+          "id": 497250803555200
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Piano 0 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496706992983699_piano0_3schermo.jpg",
+        "id": 496707035519600
+      },
+      "orientation": {
+        "latitude": -7.7,
+        "longitude": 1.6
+      },
+      "zoom": 75,
+      "id": 496714309658099,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -1.0066913097334045,
+            -3.2437911421573133,
+            23.615203608627056
+          ],
+          "rotation": [
+            -3.0089536550207905,
+            0.03033921965386391,
+            3.1375453665055093,
+            "XYZ"
+          ],
+          "scale": [
+            11.5,
+            6.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "496831457089100_Bizzarre forme di vita.mp4",
+            "id": 496831554076800,
+            "chromaKeyColor": null
+          },
+          "id": 496832876676599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496619026531600,
+          "position": [
+            -0.961880812804466,
+            -0.10328467465822468,
+            0.2532144899869759
+          ],
+          "asset": null,
+          "link": null,
+          "id": 497227534243400
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Piano 0 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "496730473520400_piano0_4.jpg",
+        "id": 496730499275299
+      },
+      "orientation": {
+        "latitude": -16,
+        "longitude": 96.00000000000001
+      },
+      "zoom": 75,
+      "id": 496730644828600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496714309658099,
+          "position": [
+            0.017434686217835227,
+            -0.1270519028979164,
+            -0.9917428324351549
+          ],
+          "asset": null,
+          "link": null,
+          "id": 496757038323999
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "panorama-grid"
+      },
+      "name": "Composizione Grid",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "497925894343399_Composizione2_x0_y0.jpg",
+        "id": 497925921781700
+      },
+      "tiles": [
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497925894343399_Composizione2_x0_y0.jpg",
+            "id": 497925921781700
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.7292353315295166,
+                0.01544949486690902,
+                0.6840885500849969
+              ],
+              "asset": null,
+              "link": null,
+              "id": 497962304965499
+            },
+            {
+              "type": {
+                "id": 2,
+                "name": "plane"
+              },
+              "position": [
+                15.09267349724217,
+                -2.0676265697133243,
+                0.08038345807792176
+              ],
+              "rotation": [
+                -1.6096539221878292,
+                -1.4671514369807506,
+                -1.6098633570379801,
+                "XYZ"
+              ],
+              "scale": [
+                11,
+                6,
+                1
+              ],
+              "asset": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "498014396259400_greenscreen_boy.mp4",
+                "id": 498014417638000,
+                "chromaKeyColor": [
+                  0,
+                  1,
+                  0
+                ]
+              },
+              "id": 498015833947000
+            }
+          ],
+          "indices": {
+            "x": 0,
+            "y": 0
+          },
+          "id": 497938223690499
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497926982575100_Composizione2_x2_y0.jpg",
+            "id": 497927055202199
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.8526968940405368,
+                -0.02602351734115944,
+                0.5217573990264209
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498121585493300
+            }
+          ],
+          "indices": {
+            "x": 0,
+            "y": 2
+          },
+          "id": 497938223703400
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497926905704200_Composizione2_x4_y0.jpg",
+            "id": 497926972583099
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.9236977482482699,
+                0.0002887365929043848,
+                0.383121895109449
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498166618256400
+            }
+          ],
+          "indices": {
+            "x": 0,
+            "y": 4
+          },
+          "id": 497938223705299
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497926950671600_Composizione2_x0_y2.jpg",
+            "id": 497927040061600
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.5801025148191629,
+                -0.015795668295906066,
+                0.814390305175331
+              ],
+              "asset": null,
+              "link": null,
+              "id": 497985445620999,
+              "keepOrientation": null
+            }
+          ],
+          "indices": {
+            "x": 2,
+            "y": 0
+          },
+          "id": 497938223706299
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497926821002299_Composizione2_x2_y2.jpg",
+            "id": 497926953552600
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.7658104399977651,
+                -0.04671944165893141,
+                0.6413670273419949
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498134935344200
+            }
+          ],
+          "indices": {
+            "x": 2,
+            "y": 2
+          },
+          "id": 497938223708200
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497927037951400_Composizione2_x4_y2.jpg",
+            "id": 497927087911999
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.8716953069195962,
+                -0.017231775443707856,
+                0.48974519682117207
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498179707454099
+            }
+          ],
+          "indices": {
+            "x": 2,
+            "y": 4
+          },
+          "id": 497938223709600
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497926738615300_Composizione2_x0_y4.jpg",
+            "id": 497926941478800
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.0689369193859819,
+                0.004799515088211005,
+                0.9976094755967831
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498105371636200
+            }
+          ],
+          "indices": {
+            "x": 4,
+            "y": 0
+          },
+          "id": 497938223711400
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497927198833100_Composizione2_x2_y4.jpg",
+            "id": 497927219439999
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.09879641647265369,
+                0.0037743914745798544,
+                0.9951005085222088
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498148211716800
+            }
+          ],
+          "indices": {
+            "x": 4,
+            "y": 2
+          },
+          "id": 497938223712699
+        },
+        {
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "497927267331899_Composizione2_x4_y4.jpg",
+            "id": 497927286059599
+          },
+          "navs": [
+            {
+              "type": {
+                "id": 1,
+                "name": "nav"
+              },
+              "title": "Welcome Room",
+              "abstract": null,
+              "viewId": 170427763402500,
+              "position": [
+                0.7763229312033705,
+                -0.02019268828059645,
+                0.6300118743546106
+              ],
+              "asset": null,
+              "link": null,
+              "id": 498192476277400
+            }
+          ],
+          "indices": {
+            "x": 4,
+            "y": 4
+          },
+          "id": 497938223735699
+        }
+      ],
+      "invertAxes": true,
+      "flipAxes": false,
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 497938223526200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom ",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "498463363445700_MSE.jpg",
+        "id": 498463637940000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 498478142881399,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.9938584563226086,
+            0.003371207616236515,
+            0.11060743083197339
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501183226376600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            0.9538766399264712,
+            -0.2852269050701587,
+            -0.0936214100870307
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501197349638899
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 0",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "500886038911999_MS1.jpg",
+        "id": 500886387793400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 500899039104600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.9979308429078453,
+            0.00892971566903106,
+            0.06367332998444193
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501145435729599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 498478142881399,
+          "position": [
+            -0.950474746913303,
+            -0.31004732391292,
+            0.021642837487935013
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501156224533300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501098157690800,
+          "position": [
+            0.5941196897983251,
+            -0.2968740329103251,
+            0.7475878562266118
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501218538487500,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500962302922799,
+          "position": [
+            -0.3206533378003012,
+            -0.07038025945201848,
+            -0.944578242411391
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501229792060399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500976052302500,
+          "position": [
+            0.007045084132083425,
+            -0.06317994314616376,
+            -0.9979772850990243
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501242436483500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500988086657899,
+          "position": [
+            0.385181007932011,
+            -0.041739421793348254,
+            -0.9218966383477255
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501253354575799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501001435031300,
+          "position": [
+            0.6293607028460695,
+            -0.03066631580129116,
+            -0.7765080056176349
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501264331054399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501014197746599,
+          "position": [
+            0.8124521508338418,
+            -0.013435694436551284,
+            -0.5828730433983647
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501274223780200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501023795661399,
+          "position": [
+            0.9515721620658139,
+            -0.011040819656925362,
+            -0.3072271483490604
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501283505977300,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501034260867300,
+          "position": [
+            0.9954504474200119,
+            -0.03561004460000497,
+            0.08837607965328521
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501294660371299,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501044807833700,
+          "position": [
+            0.9022289354780444,
+            -0.03961512084275596,
+            0.42943403473265657
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501306892351900,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501055827067000,
+          "position": [
+            0.7283818348645719,
+            -0.02876042500813861,
+            0.6845675573620699
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501318257362399,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501069068058899,
+          "position": [
+            0.5117571280287427,
+            -0.021094211695298914,
+            0.8588711638800822
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501496311419200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501079787691100,
+          "position": [
+            0.19511705790570788,
+            -0.014159759317914097,
+            0.9806777426506015
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501504831513799
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "500960163035200_MA1.jpg",
+        "id": 500960204993800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 500962302922799,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.9204777505907741,
+            -0.3869058736315858,
+            0.05499596000369729
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501338253452300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "500972425153000_MA2.jpg",
+        "id": 500972460293700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 500976052302500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.941417503215943,
+            -0.33724258040350996,
+            0.0007256730959956756
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501361084250699
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "500983819656199_MA3.jpg",
+        "id": 500983877515600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 500988086657899,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.8206642643939766,
+            -0.3259522951595196,
+            -0.4693242657554954
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501379956676300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "500997992128599_MA4.jpg",
+        "id": 500998034509099
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501001435031300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.8978643086222803,
+            -0.28032589035221794,
+            -0.3394953291290925
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501399989063199
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501009738204800_MA5.jpg",
+        "id": 501009832672100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501014197746599,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.7886821354057811,
+            -0.27247912594546225,
+            0.5511221418304422
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501423493764399
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501020786579099_MA6.jpg",
+        "id": 501020866705100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501023795661399,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.9363665398397555,
+            -0.3050848338653286,
+            -0.173611483531155
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501531859841400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Infografica di prodotto",
+          "abstract": "Abito donna sera",
+          "viewId": 501023795661399,
+          "position": [
+            0.9928697251305033,
+            -0.11285955616827605,
+            0.03837224909721367
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "501968211716500_zalando.jpg",
+            "id": 501968228236500,
+            "chromaKeyColor": null
+          },
+          "link": {
+            "title": "Vai al carrello..",
+            "href": "https://www.zalando.it/abbigliamento-donna/",
+            "target": "_blank"
+          },
+          "id": 501834537021700,
+          "keepOrientation": null
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501030070158700_MA7.jpg",
+        "id": 501030130707900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501034260867300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.950946165818243,
+            -0.3073768329289151,
+            -0.03494098301668694
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501547011511600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 8",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501039994569100_MA8.jpg",
+        "id": 501040089581900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501044807833700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.7530426297035344,
+            -0.27062250835025015,
+            -0.5997418243072636
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501563872954199
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 9",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501053548841899_MA9.jpg",
+        "id": 501053625187900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501055827067000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.899724202794653,
+            -0.223248488429277,
+            -0.37504195941196933
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501582088325399
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 10",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501064999018700_MA10.jpg",
+        "id": 501065082164699
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501069068058899,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.8652386496072273,
+            -0.2336787107552106,
+            0.44357224819148056
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501598500643499
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 11",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501078046339600_MA11.jpg",
+        "id": 501078117264799
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501079787691100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.7234761858560624,
+            -0.2885959126203501,
+            0.6271320496657712
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501615427678099
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom 12",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "501092349712000_MA13.jpg",
+        "id": 501092433424500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 501098157690800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 500899039104600,
+          "position": [
+            -0.8751724452226383,
+            -0.45141128310973216,
+            -0.1740719523767498
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501119980945699
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione ",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502393023473100_Unreal Engine Demo 360 2020.11.05 - 15.26.48.39.jpg",
+        "id": 502393055231299
+      },
+      "orientation": {
+        "latitude": -4.6000000000000005,
+        "longitude": 354.5
+      },
+      "zoom": 75,
+      "id": 502403878376800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.9927594125901388,
+            -0.11321175210910782,
+            0.04014782557086585
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502431436242900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502470063259599,
+          "position": [
+            0.7256183142186478,
+            -0.22935466244814043,
+            -0.6487484110838247
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502836674108799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502451615749200,
+          "position": [
+            0.9444176798104591,
+            -0.3254516783138294,
+            -0.04643760484931316
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502846824186700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502505718892300,
+          "position": [
+            0.8735042949764291,
+            -0.2588637796057536,
+            0.4122860539309511
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502855308410400
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502451096088100_Unreal Engine Demo 360 2020.11.05 - 15.28.28.86.jpg",
+        "id": 502451179109899
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502451615749200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502470063259599,
+          "position": [
+            0.08600510755774467,
+            -0.33225040497350244,
+            -0.9392618324348776
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502735311661199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502505718892300,
+          "position": [
+            -0.12254078892299923,
+            -0.4398403334965527,
+            0.8896764783221877
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502747283701600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502403878376800,
+          "position": [
+            -0.9311480082755229,
+            -0.35889714846974796,
+            0.06446877930293274
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502755942560000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.9984531748413962,
+            -0.01452539614357073,
+            0.05366815178491744
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502769324396099
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502469217540400_Unreal Engine Demo 360 2020.11.05 - 15.31.29.19.jpg",
+        "id": 502469311096399
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502470063259599,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502451615749200,
+          "position": [
+            -0.8803423634498366,
+            -0.42796891344479226,
+            0.2045481171764716
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502795066184600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502505718892300,
+          "position": [
+            -0.9685607008509052,
+            -0.23864039450633193,
+            -0.07029175539894982
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502804568564599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502403878376800,
+          "position": [
+            -0.6618958362124088,
+            -0.2804889131810171,
+            -0.6951401812492272
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502818519252600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502498683308400_Unreal Engine Demo 360 2020.11.05 - 15.34.10.35.jpg",
+        "id": 502498765309700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502505718892300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502526217180700,
+          "position": [
+            0.7019523087782193,
+            -0.37636662785246033,
+            -0.604657851714418
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502640881645999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502542459100300,
+          "position": [
+            0.8335177523833366,
+            -0.2114853841352238,
+            -0.5104136447617832
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502651201225200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502451615749200,
+          "position": [
+            -0.7659703850535176,
+            -0.6413722173344529,
+            -0.043943691839140785
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502675844294299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502470063259599,
+          "position": [
+            -0.9395871498775098,
+            -0.253963337643172,
+            -0.22951821478522766
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502688433633399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502403878376800,
+          "position": [
+            -0.32712082330309783,
+            -0.4218527976127518,
+            0.8455957569121302
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502704574249400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.2625966565074882,
+            -0.02670622358437184,
+            0.9645360405982504
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502718618944900
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502524422898600_Unreal Engine Demo 360 2020.11.05 - 15.35.01.57.jpg",
+        "id": 502524499717200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502526217180700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502542459100300,
+          "position": [
+            0.4821888139609694,
+            -0.37383403237696744,
+            0.7923017505519536
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502610422678699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502505718892300,
+          "position": [
+            -0.42984868020121797,
+            -0.4257604961715232,
+            -0.7962148654911243
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502621655296699
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502540559671400_Unreal Engine Demo 360 2020.11.05 - 15.35.55.31.jpg",
+        "id": 502540665465200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502542459100300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502526217180700,
+          "position": [
+            -0.9281561080481152,
+            -0.34753827020124445,
+            -0.13320431614066605
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502584316784700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502505718892300,
+          "position": [
+            -0.670677597750333,
+            -0.3665755042149755,
+            0.6448363820267737
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502594972213400
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambientazione 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502551187856300_Unreal Engine Demo 360 2020.11.05 - 15.36.39.30.jpg",
+        "id": 502551223773799
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502552184764199,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502542459100300,
+          "position": [
+            -0.6700091014141679,
+            -0.452581027459613,
+            -0.5884370974078539
+          ],
+          "asset": null,
+          "link": null,
+          "id": 502566224940600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "502922419749100_Room3D_2.jpg",
+        "id": 502922805656300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 502924660957900,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.522918015952378,
+            2.28845882512457,
+            12.524138123506875
+          ],
+          "rotation": [
+            1.2960895382773783,
+            -1.5527849282158626,
+            1.2950796521903711,
+            "XYZ"
+          ],
+          "scale": [
+            13.5,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
+            "chromaKeyColor": null
+          },
+          "id": 502939049860200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.8486054784189606,
+            -0.19399113787781322,
+            0.4921749489990304
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503019422526899
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cinema",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "503040529477200_cinema.jpg",
+        "id": 503040551095599
+      },
+      "orientation": {
+        "latitude": -0.1,
+        "longitude": 356.9
+      },
+      "zoom": 75,
+      "id": 503042843844599,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            22.37474299613542,
+            1.9000000000000004,
+            0
+          ],
+          "rotation": [
+            1.693668827291221,
+            -1.5728945672701222,
+            1.6938226310762636,
+            "XYZ"
+          ],
+          "scale": [
+            23,
+            13,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "503059584758200_websolute.mp4",
+            "id": 503059867815699,
+            "chromaKeyColor": null
+          },
+          "id": 503060637283800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.8072603533318778,
+            -0.17295580143273745,
+            0.5654950566545329
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503170278082800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Video VR",
+          "abstract": null,
+          "viewId": 503634164139600,
+          "position": [
+            0.8017639370887509,
+            -0.19195791896710723,
+            -0.5659741571218272
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503709606022700
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cinema Relax",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "503338504819700_cinema_living.jpg",
+        "id": 503338545122000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 503340859465600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.009643265025993,
+            1.5,
+            -2.3236918829441127
+          ],
+          "rotation": [
+            -0.14560863729895335,
+            -1.433,
+            -0.1442419909998027,
+            "XYZ"
+          ],
+          "scale": [
+            23.6,
+            10.8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "503359500357500_websolute.mp4",
+            "id": 503359776884900,
+            "chromaKeyColor": null
+          },
+          "id": 503361976257400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.705601487656001,
+            0.06025616397554863,
+            0.7060423042003858
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503530522292899
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video VR",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "503632044123999_videovr.mp4",
+        "id": 503632678874900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 503634164139600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.92002553605743,
+            -0.3895883922540661,
+            -0.04211766402746682
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503656897844199
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Timesquare",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "503727358013500_time-square.mp4",
+        "id": 503727405450299
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 503728853890500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.8600934819536183,
+            -0.008053782253581884,
+            0.510072876060189
+          ],
+          "asset": null,
+          "link": null,
+          "id": 503764383802200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "503990111570199_1_ingresso1.jpg",
+        "id": 503990450707900
+      },
+      "orientation": {
+        "latitude": -5.699999999999999,
+        "longitude": 151.10000000000002
+      },
+      "zoom": 75,
+      "id": 503992413864500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9805534688229747,
+            -0.026113265979069253,
+            -0.19450704902172106
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504440285389099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Room",
+          "abstract": null,
+          "viewId": 504115292312199,
+          "position": [
+            0.9648547649681687,
+            0.006405448171714874,
+            0.2627056389800934
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504459487457499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Tour",
+          "abstract": null,
+          "viewId": 504019624387700,
+          "position": [
+            -0.9976524589695184,
+            0.015419903331759601,
+            -0.06672179324113457
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504521282626200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Vigna",
+          "abstract": null,
+          "viewId": 504056120603000,
+          "position": [
+            -0.1615321826695937,
+            -0.029772416823095123,
+            0.9864182465660846
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504835782222399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Shop",
+          "abstract": null,
+          "viewId": 504098710044799,
+          "position": [
+            0.777729954775511,
+            -0.03469526131552237,
+            -0.6276403080484306
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504873642883399
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "504019034869299_2_vinificazione2.jpg",
+        "id": 504019104707199
+      },
+      "orientation": {
+        "latitude": -4.5,
+        "longitude": 56.1
+      },
+      "zoom": 75,
+      "id": 504019624387700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 503992413864500,
+          "position": [
+            -0.4772782978695905,
+            -0.19969914292878863,
+            -0.8557602927784239
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504549266353799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Riposo Botti",
+          "abstract": null,
+          "viewId": 504034155068599,
+          "position": [
+            0.5078116613224708,
+            -0.005875655192354994,
+            0.86144807928335
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504603230086100,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "504031117403699_3_riposo2.jpg",
+        "id": 504031172472799
+      },
+      "orientation": {
+        "latitude": -12.000000000000002,
+        "longitude": 176.60000000000002
+      },
+      "zoom": 75,
+      "id": 504034155068599,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Vinificazione",
+          "abstract": null,
+          "viewId": 504019624387700,
+          "position": [
+            0.9975475132582007,
+            -0.030007711801726587,
+            0.06323366211761496
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504646899679600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Degustazione",
+          "abstract": null,
+          "viewId": 504069549633500,
+          "position": [
+            -0.999437671973377,
+            0.005323064538147431,
+            0.03310596357696783
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504675987711600
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "504054812506700_4_vigna1.jpg",
+        "id": 504054869387800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 504056120603000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Video 360",
+          "abstract": null,
+          "viewId": 504137755557000,
+          "position": [
+            0.23474833477189516,
+            -0.2008649796294408,
+            -0.9510764844534254
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504341216153499,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Cantina",
+          "abstract": null,
+          "viewId": 503992413864500,
+          "position": [
+            0.9984242885023276,
+            -0.00220820745400631,
+            -0.056071953314118836
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504381761899000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "504067776825999_5_degustazione.jpg",
+        "id": 504067823746399
+      },
+      "orientation": {
+        "latitude": -5.1000000000000005,
+        "longitude": 276.20000000000005
+      },
+      "zoom": 75,
+      "id": 504069549633500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Shop",
+          "abstract": null,
+          "viewId": 504098710044799,
+          "position": [
+            0.9887781737680761,
+            -0.036740487708199696,
+            0.14480283023073692
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504725544357700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Riposo Botti",
+          "abstract": null,
+          "viewId": 504034155068599,
+          "position": [
+            -0.661755696477292,
+            -0.034749103381052554,
+            -0.7489138121266473
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504755470633499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "CERASUOLO DI VITTORIA D.O.C.G.",
+          "abstract": "E’ l’unico vino siciliano che può fregiarsi dell’appellazione «DOCG». Un vino che esprime fortemente il territorio d’origine, attraverso una perfetta sinergia tra la forza la struttura e la fruttuosità del Nero d’Avola con l’eleganza, la delicatezza e la florealità del Frappato.",
+          "viewId": 504069549633500,
+          "position": [
+            0.5692864921776821,
+            -0.4038688190986901,
+            -0.7161025532588607
+          ],
+          "asset": null,
+          "link": {
+            "title": "Scheda tecnica",
+            "href": "https://www.judeka.com/wp-content/uploads/2019/03/cerasuolo-di-vittoria-judeka-compressed.pdf",
+            "target": "_blank"
+          },
+          "id": 505276368279100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Acquista il vino",
+          "abstract": "Shop Online",
+          "viewId": 504069549633500,
+          "position": [
+            -0.29519982811718537,
+            -0.3731662946923261,
+            -0.8795475984761622
+          ],
+          "asset": null,
+          "link": {
+            "title": "Scopri di più..",
+            "href": "https://www.judeka.com/cerasuolo-di-vittoria-d-o-c-g/",
+            "target": "_blank"
+          },
+          "id": 505409481659400
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "504095842175000_6_Negozio.jpg",
+        "id": 504095878052399
+      },
+      "orientation": {
+        "latitude": -3.8000000000000007,
+        "longitude": 179.39999999999998
+      },
+      "zoom": 75,
+      "id": 504098710044799,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 503992413864500,
+          "position": [
+            0.9991355162360366,
+            -0.030003575759304638,
+            -0.028775087096386074
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504795071415999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Vigna",
+          "abstract": null,
+          "viewId": 504056120603000,
+          "position": [
+            -0.9885392522812925,
+            -0.043264734631741325,
+            0.14463163359510214
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504812608733899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Degustazione",
+          "abstract": null,
+          "viewId": 504069549633500,
+          "position": [
+            0.8304242696662424,
+            -0.00733286377420373,
+            0.5570832625902136
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504904204754099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Acquista il vino",
+          "abstract": "Shop Online",
+          "viewId": 504098710044799,
+          "position": [
+            -0.5951728807604335,
+            -0.27531527385957055,
+            -0.7549640666859293
+          ],
+          "asset": null,
+          "link": {
+            "title": "Scopri di più..",
+            "href": "https://www.judeka.com/cerasuolo-di-vittoria-d-o-c-g/",
+            "target": "_blank"
+          },
+          "id": 505475149985400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Acquista una degustazione",
+          "abstract": "Azienda vitivinicola S.R.L.",
+          "viewId": 504098710044799,
+          "position": [
+            -0.9244604987895558,
+            -0.18840057822736883,
+            -0.33147851861223065
+          ],
+          "asset": null,
+          "link": {
+            "title": "Scopri di più..",
+            "href": "https://www.paypal.com/paypalme/judekasrl/",
+            "target": "_blank"
+          },
+          "id": 505562289454099
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "504113751352300_7_Stanza.jpg",
+        "id": 504113793113800
+      },
+      "orientation": {
+        "latitude": -13.9,
+        "longitude": 42.800000000000004
+      },
+      "zoom": 75,
+      "id": 504115292312199,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 503992413864500,
+          "position": [
+            -0.7294528820598447,
+            -0.1960365919467176,
+            -0.6553381932044724
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504488757923200
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cantinavirtuale Video",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "504135767250500_Vineyard.mp4",
+        "id": 504136411443299
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 504137755557000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 504056120603000,
+          "position": [
+            0.9163653093570111,
+            -0.3956657465181953,
+            0.06101833199316729
+          ],
+          "asset": null,
+          "link": null,
+          "id": 504410959609899
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio Meeting",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "505814400703399_studio_lucioff.jpg",
+        "id": 505814838372500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 505820256936299
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio TV",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "506547111265899_Unreal Engine Demo 360 2020.11.19 - 13.46.03.99.jpg",
+        "id": 506547259245800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 505860010418200,
+      "items": [],
+      "hidden": null
+    }
+  ],
+  "menu": [],
+  "assets": [
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496169257650300_piano-1_1.jpg",
+      "id": 496169572686700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496200810098400_piano-1_2.jpg",
+      "id": 496201083516199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496234404458700_piano-1_3.jpg",
+      "id": 496234437888600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496270777562700_piano-1_4.jpg",
+      "id": 496270816418100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496591832110899_piano0_1b.jpg",
+      "id": 496591877574000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496609625212200_piano0_2.jpg",
+      "id": 496609662205400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496706992983699_piano0_3schermo.jpg",
+      "id": 496707035519600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "496730473520400_piano0_4.jpg",
+      "id": 496730499275299
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "496831457089100_Bizzarre forme di vita.mp4",
+      "id": 496831554076800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497505274745300_tasso.jpg",
+      "id": 497505302204099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497629856974700_cervo.jpg",
+      "id": 497629875189000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497925894343399_Composizione2_x0_y0.jpg",
+      "id": 497925921781700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497926738615300_Composizione2_x0_y4.jpg",
+      "id": 497926941478800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497926821002299_Composizione2_x2_y2.jpg",
+      "id": 497926953552600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497926905704200_Composizione2_x4_y0.jpg",
+      "id": 497926972583099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497926950671600_Composizione2_x0_y2.jpg",
+      "id": 497927040061600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497926982575100_Composizione2_x2_y0.jpg",
+      "id": 497927055202199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497927037951400_Composizione2_x4_y2.jpg",
+      "id": 497927087911999
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497927198833100_Composizione2_x2_y4.jpg",
+      "id": 497927219439999
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "497927267331899_Composizione2_x4_y4.jpg",
+      "id": 497927286059599
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "498014396259400_greenscreen_boy.mp4",
+      "id": 498014417638000,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "498463363445700_MSE.jpg",
+      "id": 498463637940000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "500886038911999_MS1.jpg",
+      "id": 500886387793400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "500960163035200_MA1.jpg",
+      "id": 500960204993800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "500972425153000_MA2.jpg",
+      "id": 500972460293700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "500983819656199_MA3.jpg",
+      "id": 500983877515600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "500997992128599_MA4.jpg",
+      "id": 500998034509099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501009738204800_MA5.jpg",
+      "id": 501009832672100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501020786579099_MA6.jpg",
+      "id": 501020866705100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501030070158700_MA7.jpg",
+      "id": 501030130707900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501039994569100_MA8.jpg",
+      "id": 501040089581900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501053548841899_MA9.jpg",
+      "id": 501053625187900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501064999018700_MA10.jpg",
+      "id": 501065082164699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501078046339600_MA11.jpg",
+      "id": 501078117264799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501086226905800_MA12.jpg",
+      "id": 501086319448700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501092349712000_MA13.jpg",
+      "id": 501092433424500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501791658253100_zalando.jpg",
+      "id": 501791667225100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "501968211716500_zalando.jpg",
+      "id": 501968228236500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502393023473100_Unreal Engine Demo 360 2020.11.05 - 15.26.48.39.jpg",
+      "id": 502393055231299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502451096088100_Unreal Engine Demo 360 2020.11.05 - 15.28.28.86.jpg",
+      "id": 502451179109899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502469217540400_Unreal Engine Demo 360 2020.11.05 - 15.31.29.19.jpg",
+      "id": 502469311096399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502498683308400_Unreal Engine Demo 360 2020.11.05 - 15.34.10.35.jpg",
+      "id": 502498765309700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502524422898600_Unreal Engine Demo 360 2020.11.05 - 15.35.01.57.jpg",
+      "id": 502524499717200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502540559671400_Unreal Engine Demo 360 2020.11.05 - 15.35.55.31.jpg",
+      "id": 502540665465200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502551187856300_Unreal Engine Demo 360 2020.11.05 - 15.36.39.30.jpg",
+      "id": 502551223773799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502922419749100_Room3D_2.jpg",
+      "id": 502922805656300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "502937330335000_websolute.mp4",
+      "id": 502937592501000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "503040529477200_cinema.jpg",
+      "id": 503040551095599
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "503059584758200_websolute.mp4",
+      "id": 503059867815699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "503338504819700_cinema_living.jpg",
+      "id": 503338545122000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "503359500357500_websolute.mp4",
+      "id": 503359776884900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "503632044123999_videovr.mp4",
+      "id": 503632678874900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "503727358013500_time-square.mp4",
+      "id": 503727405450299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "503990111570199_1_ingresso1.jpg",
+      "id": 503990450707900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "504019034869299_2_vinificazione2.jpg",
+      "id": 504019104707199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "504031117403699_3_riposo2.jpg",
+      "id": 504031172472799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "504054812506700_4_vigna1.jpg",
+      "id": 504054869387800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "504067776825999_5_degustazione.jpg",
+      "id": 504067823746399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "504095842175000_6_Negozio.jpg",
+      "id": 504095878052399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "504113751352300_7_Stanza.jpg",
+      "id": 504113793113800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "504135767250500_Vineyard.mp4",
+      "id": 504136411443299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "505814400703399_studio_lucioff.jpg",
+      "id": 505814838372500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "506547111265899_Unreal Engine Demo 360 2020.11.19 - 13.46.03.99.jpg",
+      "id": 506547259245800
+    }
+  ],
+  "users": [
+    {
+      "id": "1601892639985",
+      "username": "publisher",
+      "password": "publisher",
+      "type": "publisher",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
+    },
+    {
+      "id": "1601892639986",
+      "username": "attendee",
+      "password": "attendee",
+      "type": "attendee",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
     }
   ]
 }

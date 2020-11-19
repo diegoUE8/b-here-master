@@ -133,14 +133,14 @@ function _readOnlyError(name) {
     streamer: true,
     viewer: true
   },
-  logo: '/Modules/B-Here/Client/docs/img/logo.png',
+  logo: null,
   background: {
     image: '/Modules/B-Here/Client/docs/img/background.jpg',
-    video: '/Modules/B-Here/Client/docs/img/background2.mp4'
+    video: '/Modules/B-Here/Client/docs/img/background.mp4'
   },
   assets: '/Modules/B-Here/Client/docs/',
   worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws/docs/',
   url: {
     index: '/',
     access: '/',
@@ -182,14 +182,14 @@ function _readOnlyError(name) {
     streamer: true,
     viewer: true
   },
-  logo: '/b-here/img/logo.png',
+  logo: null,
   background: {
     image: '/b-here/img/background.jpg',
-    video: '/b-here/img/background2.mp4'
+    video: '/b-here/img/background.mp4'
   },
   assets: './',
   worker: './js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here/piva/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here/ws/docs/',
   url: {
     index: '/',
     access: '/',
