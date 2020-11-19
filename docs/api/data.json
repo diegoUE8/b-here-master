@@ -3853,7 +3853,7 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/models/Black_dress_with_lace_accents/",
+          "folder": "/models/black_dress_with_lace_accents/",
           "file": "scene.gltf"
         }
       },
@@ -3877,7 +3877,7 @@
           "title": "Model",
           "abstract": "Abstract",
           "asset": {
-            "folder": "/models/Black_dress_with_lace_accents/",
+            "folder": "/models/black_dress_with_lace_accents/",
             "file": "scene.gltf"
           }
         },
