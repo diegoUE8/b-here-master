@@ -109,8 +109,8 @@
         "id": 337127346815000
       },
       "orientation": {
-        "latitude": 20,
-        "longitude": 5
+        "latitude": 25,
+        "longitude": 25
       },
       "zoom": 55,
       "id": 337129518224500,
@@ -125,7 +125,7 @@
           "abstract": "Abstract",
           "asset": {
             "folder": "/models/moto/",
-            "file": "moto_suzuki.glb"
+            "file": "moto.glb"
           }
         }
       ],
@@ -136,8 +136,8 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/uploads/",
-          "file": "340664556798900_moto.usdz",
+          "folder": "/models/moto/",
+          "file": "moto.usdz",
           "id": 340664594615400
         },
         "gltf": {
@@ -145,8 +145,8 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/uploads/",
-          "file": "340667770503000_moto_suzuki.glb",
+          "folder": "/models/moto/",
+          "file": "moto.glb",
           "id": 340667792804700
         }
       }
@@ -341,24 +341,6 @@
       "folder": "/uploads/",
       "file": "338288798580700_reception.jpg",
       "id": 338288819976600
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "340664556798900_moto.usdz",
-      "id": 340664594615400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "340667770503000_moto_suzuki.glb",
-      "id": 340667792804700
     },
     {
       "type": {
