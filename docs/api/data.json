@@ -44,7 +44,76 @@
       },
       "zoom": 75,
       "id": 337881532453700,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Cinema Room",
+          "abstract": null,
+          "viewId": 337929883149900,
+          "position": [
+            0.024465527116186804,
+            0.005393061657338681,
+            0.9996861271763688
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1012221676148900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Media Room",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            0.2769188811589944,
+            -0.01601898627567247,
+            0.9607597646323198
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1012239428500299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Studio Room",
+          "abstract": null,
+          "viewId": 406765685595300,
+          "position": [
+            0.2587442575497101,
+            0.018477030545295932,
+            -0.9657691279634473
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1012381261155100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Area Espositiva",
+          "abstract": null,
+          "viewId": 337129518224500,
+          "position": [
+            0.01715033100452807,
+            -0.013119967898200585,
+            -0.9997668391123928
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1012412142710199
+        }
+      ],
       "hidden": null
     },
     {
@@ -68,7 +137,58 @@
       },
       "zoom": 75,
       "id": 337929883149900,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.8009940820344108,
+            -0.1866336191237072,
+            0.5688377385148059
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1010606583968499
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.99329449699089,
+            1.8,
+            0.2
+          ],
+          "rotation": [
+            -1.1439593832808632,
+            -1.5449006172261104,
+            -1.1438329997246697,
+            "XYZ"
+          ],
+          "scale": [
+            22,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "1012259905373300_Yamaha Motor Corporate Profile Video 2020_2.mp4",
+            "id": 1012263295228799,
+            "chromaKeyColor": null
+          },
+          "id": 1012264477564600
+        }
+      ],
       "hidden": null
     },
     {
@@ -91,7 +211,59 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 338065166299600
+      "id": 338065166299600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            21.165853955699642,
+            0.6999999999999998,
+            12
+          ],
+          "rotation": [
+            -0.911,
+            -1.565,
+            -0.9103803264453937,
+            "XYZ"
+          ],
+          "scale": [
+            15,
+            9,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "1010145559727900_Yamaha Motors motorcycle assembly factory _Made in Iwata_2.mp4",
+            "id": 1010145896071799,
+            "chromaKeyColor": null
+          },
+          "id": 1009904475382800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.8511809693356264,
+            -0.2271250870927082,
+            0.47318617081862496
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1010163895085200
+        }
+      ]
     },
     {
       "type": {
@@ -167,8 +339,8 @@
         "id": 406760302780100
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5.554056915830043,
+        "longitude": 357.642039950871
       },
       "zoom": 75,
       "id": 406765685595300,
@@ -179,7 +351,7 @@
             "name": "plane"
           },
           "position": [
-            17.33380672289916,
+            19.133806722899184,
             -0.6790784590030351,
             8.42232376287306
           ],
@@ -190,7 +362,7 @@
             "XYZ"
           ],
           "scale": [
-            8,
+            9,
             6,
             1
           ],
@@ -213,7 +385,7 @@
             "name": "plane"
           },
           "position": [
-            17.500000000000004,
+            19.100000000000026,
             -0.8999999999999999,
             -10.7
           ],
@@ -224,7 +396,7 @@
             "XYZ"
           ],
           "scale": [
-            8,
+            9,
             6,
             1
           ],
@@ -243,8 +415,43 @@
             ]
           },
           "id": 406911998685800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.934561217622214,
+            0.31823836630894836,
+            -0.15912156587180862
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1010352144790299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "3D Moto",
+          "abstract": null,
+          "viewId": 337129518224500,
+          "position": [
+            0.9362373413500772,
+            -0.3487789778153968,
+            -0.042577755880103346
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1010381267974300
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -295,7 +502,64 @@
       "hidden": null
     }
   ],
-  "menu": [],
+  "menu": [
+    {
+      "id": 1012416971349500,
+      "parentId": null,
+      "viewId": 337881532453700,
+      "name": "Reception room",
+      "order": 0
+    },
+    {
+      "id": 1012423317383799,
+      "parentId": null,
+      "viewId": 337929883149900,
+      "name": "Cinema Room",
+      "order": 10
+    },
+    {
+      "id": 1012425735897300,
+      "parentId": null,
+      "viewId": 338065166299600,
+      "name": "Media Room",
+      "order": 20
+    },
+    {
+      "id": 1012435416950800,
+      "parentId": null,
+      "viewId": 337129518224500,
+      "name": "Area Espositiva",
+      "order": 30
+    },
+    {
+      "id": 1012436089353099,
+      "parentId": null,
+      "viewId": 406765685595300,
+      "name": "Studio Room",
+      "order": 40
+    },
+    {
+      "id": 1012446292178800,
+      "parentId": null,
+      "viewId": null,
+      "name": "Circuito 360",
+      "order": 50
+    },
+    {
+      "id": 1012481567538800,
+      "parentId": 1012446292178800,
+      "viewId": 418123251155100,
+      "name": "Dealer Room",
+      "order": 0
+    },
+    {
+      "id": 1012481998011100,
+      "parentId": 1012446292178800,
+      "viewId": 418395002595300,
+      "name": "Circuito ",
+      "order": 10
+    }
+  ],
   "assets": [
     {
       "type": {
@@ -392,6 +656,25 @@
       "folder": "/uploads/",
       "file": "418391505179000_4.jpg",
       "id": 418391529975799
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1010145559727900_Yamaha Motors motorcycle assembly factory _Made in Iwata_2.mp4",
+      "id": 1010145896071799,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1012259905373300_Yamaha Motor Corporate Profile Video 2020_2.mp4",
+      "id": 1012263295228799
     }
   ],
   "users": [
