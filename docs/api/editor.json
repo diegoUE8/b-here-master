@@ -38,12 +38,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "510617342656000_welcome.jpg",
-        "id": 510617543470400
+        "file": "1035733607068499_reception.jpg",
+        "id": 1035733717225099
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5.1000000000000005,
+        "longitude": 0.1
       },
       "zoom": 75,
       "items": [
@@ -56,9 +56,9 @@
           "abstract": null,
           "viewId": 496175462352500,
           "position": [
-            0.017497314706528433,
-            -0.03169462338946501,
-            -0.9993444325287758
+            -0.6412348500905625,
+            -0.019295799966614003,
+            -0.7671020395833806
           ],
           "asset": null,
           "id": 498242270907400,
@@ -73,9 +73,9 @@
           "abstract": null,
           "viewId": 502924660957900,
           "position": [
-            -0.6295411825134174,
-            -0.012936828082824356,
-            0.7768594068419097
+            0.2364904581266543,
+            0.03306150393789761,
+            0.9710711612299119
           ],
           "asset": null,
           "id": 503566773717800,
@@ -90,9 +90,9 @@
           "abstract": null,
           "viewId": 503042843844599,
           "position": [
-            -0.9531611090044737,
-            0.029283462298562626,
-            0.30104215505003673
+            0.01630575104293238,
+            0.05257721460550288,
+            0.9984837299562035
           ],
           "asset": null,
           "id": 503596647375400,
@@ -107,9 +107,9 @@
           "abstract": null,
           "viewId": 503340859465600,
           "position": [
-            -0.945455406897308,
-            -0.13592270548199245,
-            0.29603900368549657
+            0.013092797833764037,
+            -0.03476582036052297,
+            0.9993097199464959
           ],
           "asset": null,
           "id": 503610775957400,
@@ -124,9 +124,9 @@
           "abstract": null,
           "viewId": 503992413864500,
           "position": [
-            0.020225464491938412,
-            -0.1570542247400824,
-            -0.987382854356595
+            -0.8891688233180002,
+            -0.018088485623425847,
+            -0.45722162058145754
           ],
           "asset": null,
           "id": 505647227663200,
@@ -141,9 +141,9 @@
           "abstract": null,
           "viewId": 502403878376800,
           "position": [
-            0.20569748797998091,
-            -0.047251364003890524,
-            0.9774742206516228
+            -0.6105040351259335,
+            -0.027079882956122275,
+            0.7915500635045365
           ],
           "asset": null,
           "id": 505677256133999,
@@ -158,9 +158,9 @@
           "abstract": null,
           "viewId": 498478142881399,
           "position": [
-            0.19922708497401356,
-            -0.1601822235986761,
-            0.9667730984340333
+            -0.8676022476530584,
+            -0.011679574880240611,
+            0.49712164245582585
           ],
           "asset": null,
           "id": 505729885600300,
@@ -175,9 +175,9 @@
           "abstract": null,
           "viewId": 505860010418200,
           "position": [
-            -0.9822259466107751,
-            -0.13530477305191518,
-            -0.13009538113990315
+            0.012214493174105414,
+            0.019844600187923885,
+            -0.9997284621335341
           ],
           "asset": null,
           "id": 505902776846400,
@@ -192,9 +192,9 @@
           "abstract": null,
           "viewId": 505820256936299,
           "position": [
-            -0.9911764417330383,
-            0.031873045134718524,
-            -0.12865990186251908
+            0.18536170587119405,
+            0.024198673055167385,
+            -0.9823723643399634
           ],
           "asset": null,
           "id": 505930399337800,
@@ -2670,8 +2670,8 @@
         "id": 503040551095599
       },
       "orientation": {
-        "latitude": -1.4000000000000001,
-        "longitude": 1.5
+        "latitude": -3.5000000000000004,
+        "longitude": 359.9
       },
       "zoom": 75,
       "id": 503042843844599,
@@ -2714,9 +2714,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
+          "title": "Live",
           "abstract": null,
-          "viewId": 170427763402500,
+          "viewId": 1036547102860500,
           "position": [
             0.8072603533318778,
             -0.17295580143273745,
@@ -3264,7 +3264,7 @@
           "asset": null,
           "link": {
             "title": "Scheda tecnica",
-            "href": "https://www.judeka.com/wp-content/uploads/2019/03/cerasuolo-di-vittoria-judeka-compressed.pdf",
+            "href": "https://www.tannico.it/natale/esclusive-di-tannico.html",
             "target": "_blank"
           },
           "id": 505276368279100,
@@ -3286,10 +3286,11 @@
           "asset": null,
           "link": {
             "title": "Scopri di più..",
-            "href": "https://www.judeka.com/cerasuolo-di-vittoria-d-o-c-g/",
+            "href": "https://www.tannico.it/natale/esclusive-di-tannico.html",
             "target": "_blank"
           },
-          "id": 505409481659400
+          "id": 505409481659400,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -3383,10 +3384,11 @@
           "asset": null,
           "link": {
             "title": "Scopri di più..",
-            "href": "https://www.judeka.com/cerasuolo-di-vittoria-d-o-c-g/",
+            "href": "https://www.tannico.it/bollicine.html",
             "target": "_blank"
           },
-          "id": 505475149985400
+          "id": 505475149985400,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -3404,10 +3406,11 @@
           "asset": null,
           "link": {
             "title": "Scopri di più..",
-            "href": "https://www.paypal.com/paypalme/judekasrl/",
+            "href": "https://www.tannico.it/natale/esclusive-di-tannico.html",
             "target": "_blank"
           },
-          "id": 505562289454099
+          "id": 505562289454099,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -3507,8 +3510,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "607858261789500_office.jpg",
-        "id": 607858323741399
+        "file": "1038427949596199_Unreal Engine Demo 360 2020.11.25 - 17.26.23.56.jpg",
+        "id": 1038428294926000
       },
       "orientation": {
         "latitude": -8.5,
@@ -3523,7 +3526,7 @@
             "name": "plane"
           },
           "position": [
-            21.969870189596808,
+            19.469870189596772,
             -0.3629244105965589,
             9.12851515383423
           ],
@@ -3556,7 +3559,7 @@
             "name": "plane"
           },
           "position": [
-            21.95380181249857,
+            18.953801812498526,
             -0.496880697545686,
             -12.584282852988313
           ],
@@ -3597,9 +3600,9 @@
           "abstract": null,
           "viewId": 170427763402500,
           "position": [
-            0.9186115486626232,
-            0.35896454303741976,
-            -0.1652188836228874
+            0.9728670532429378,
+            0.16777530459173645,
+            -0.1593146066233505
           ],
           "asset": null,
           "id": 511566035550300,
@@ -3614,9 +3617,9 @@
           "abstract": null,
           "viewId": 505860010419300,
           "position": [
-            0.9432530261716997,
-            -0.33155541476396977,
-            -0.018567055733823376
+            0.9102443152907443,
+            -0.41357945165927446,
+            -0.02018226067857652
           ],
           "asset": null,
           "id": 513563435970100,
@@ -3631,9 +3634,9 @@
           "abstract": null,
           "viewId": 505860010419310,
           "position": [
-            0.9110207902136394,
-            -0.41196056173065415,
-            -0.018155312640656972
+            0.871085402170889,
+            -0.49082468491026227,
+            -0.017359458733555603
           ],
           "asset": null,
           "id": 513629349082800,
@@ -3654,8 +3657,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "506547111265899_Unreal Engine Demo 360 2020.11.19 - 13.46.03.99.jpg",
-        "id": 506547259245800
+        "file": "1038556132507500_Unreal Engine Demo 360 2020.11.25 - 17.19.12.06.jpg",
+        "id": 1038556340252499
       },
       "orientation": {
         "latitude": 0,
@@ -3749,9 +3752,41 @@
             0.9952983468695311
           ],
           "asset": null,
-          "link": null,
           "id": 511197803380000,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            29.800000000000068,
+            2.4000000000000012,
+            -9.199999999999996
+          ],
+          "rotation": [
+            0.008187830371520028,
+            -0.527,
+            0.0304797836599247,
+            "XYZ"
+          ],
+          "scale": [
+            18,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "1038615921102900_websolute.mp4",
+            "id": 1038616127894899,
+            "chromaKeyColor": null
+          },
+          "id": 1038617356372600
         }
       ],
       "hidden": null
@@ -3977,6 +4012,134 @@
         "longitude": 90
       },
       "hidden": false
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cinema Live",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1036542055470199_cinema.jpg",
+        "id": 1036542155893500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 1036547102860500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Video 360",
+          "abstract": null,
+          "viewId": 503634164139600,
+          "position": [
+            0.7984699490010971,
+            -0.19461568199486912,
+            -0.5697108712881098
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1036583790378800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.8055230850030243,
+            -0.1850257551334819,
+            0.5629369675767397
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1036597998476299
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            21.60000000000001,
+            1.6999999999999997,
+            0
+          ],
+          "rotation": [
+            1.571623008661005,
+            -1.50280706735928,
+            1.5716249230319,
+            "XYZ"
+          ],
+          "scale": [
+            23,
+            13,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "1036662919419999_websolute.mp4",
+            "id": 1036663213509699,
+            "chromaKeyColor": null
+          },
+          "id": 1036664256859600
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.9672786823364,
+            -2.68667846162293,
+            0.043752974806453654
+          ],
+          "rotation": [
+            -1.2540059046291179,
+            -1.5135859746457845,
+            -1.2535208845108288,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            4,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "1036704882249599_greenscreen_boy.mp4",
+            "id": 1036704911076000,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 1036705764719800
+        }
+      ]
     }
   ],
   "menu": [
@@ -4793,6 +4956,83 @@
       "folder": "/uploads/",
       "file": "607858261789500_office.jpg",
       "id": 607858323741399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1035714199097000_reception.jpg",
+      "id": 1035714270486500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1035733607068499_reception.jpg",
+      "id": 1035733717225099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1036542055470199_cinema.jpg",
+      "id": 1036542155893500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1036662919419999_websolute.mp4",
+      "id": 1036663213509699
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1036704882249599_greenscreen_boy.mp4",
+      "id": 1036704911076000,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1038427949596199_Unreal Engine Demo 360 2020.11.25 - 17.26.23.56.jpg",
+      "id": 1038428294926000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1038556132507500_Unreal Engine Demo 360 2020.11.25 - 17.19.12.06.jpg",
+      "id": 1038556340252499
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1038615921102900_websolute.mp4",
+      "id": 1038616127894899
     }
   ],
   "users": [
