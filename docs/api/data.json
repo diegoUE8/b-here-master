@@ -852,43 +852,6 @@
               "asset": null,
               "link": null,
               "id": 497962304965499
-            },
-            {
-              "type": {
-                "id": 2,
-                "name": "plane"
-              },
-              "position": [
-                15.09267349724217,
-                -2.0676265697133243,
-                0.08038345807792176
-              ],
-              "rotation": [
-                -1.6096539221878292,
-                -1.4671514369807506,
-                -1.6098633570379801,
-                "XYZ"
-              ],
-              "scale": [
-                11,
-                6,
-                1
-              ],
-              "asset": {
-                "type": {
-                  "id": 2,
-                  "name": "video"
-                },
-                "folder": "/uploads/",
-                "file": "498014396259400_greenscreen_boy.mp4",
-                "id": 498014417638000,
-                "chromaKeyColor": [
-                  0,
-                  1,
-                  0
-                ]
-              },
-              "id": 498015833947000
             }
           ],
           "indices": {
@@ -2592,8 +2555,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "502922419749100_Room3D_2.jpg",
-        "id": 502922805656300
+        "file": "1095774681316800_Room3D_3.jpg",
+        "id": 1095774847884299
       },
       "orientation": {
         "latitude": 0,
@@ -2649,10 +2612,11 @@
             0.4921749489990304
           ],
           "asset": null,
-          "link": null,
-          "id": 503019422526899
+          "id": 503019422526899,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -3657,8 +3621,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1038556132507500_Unreal Engine Demo 360 2020.11.25 - 17.19.12.06.jpg",
-        "id": 1038556340252499
+        "file": "1095869630150900_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
+        "id": 1095869673977500
       },
       "orientation": {
         "latitude": 0,
@@ -3706,54 +3670,20 @@
         },
         {
           "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            28.533101164722325,
-            1.665961417800913,
-            -2.2331341182866833
-          ],
-          "rotation": [
-            0.04036752665215271,
-            -1.488981802392493,
-            0.04023264553227796,
-            "XYZ"
-          ],
-          "scale": [
-            9,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
-            },
-            "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 511125725968799,
-            "chromaKeyColor": null,
-            "index": 0
-          },
-          "id": 511097810607299
-        },
-        {
-          "type": {
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
+          "title": "Welcome",
           "abstract": null,
           "viewId": 170427763402500,
           "position": [
-            -0.08468155824435604,
-            0.04701313020940542,
-            0.9952983468695311
+            -0.08110892364998898,
+            -0.008660313818421922,
+            0.996667618350725
           ],
           "asset": null,
-          "id": 511197803380000,
-          "keepOrientation": null
+          "link": null,
+          "id": 1095945486073399
         },
         {
           "type": {
@@ -3761,19 +3691,19 @@
             "name": "plane"
           },
           "position": [
-            29.800000000000068,
-            2.4000000000000012,
-            -9.199999999999996
+            25.599999999999966,
+            2.3000000000000003,
+            -7.999999999999988
           ],
           "rotation": [
-            0.008187830371520028,
-            -0.527,
-            0.0304797836599247,
+            0.01185112588702867,
+            -0.6472524887952734,
+            0.006469507928342827,
             "XYZ"
           ],
           "scale": [
-            18,
-            8,
+            14,
+            7,
             1
           ],
           "asset": {
@@ -3782,11 +3712,11 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1038615921102900_websolute.mp4",
-            "id": 1038616127894899,
+            "file": "1095969519913800_websolute.mp4",
+            "id": 1095969709275800,
             "chromaKeyColor": null
           },
-          "id": 1038617356372600
+          "id": 1095971628725800
         }
       ],
       "hidden": null
@@ -4212,6 +4142,13 @@
       "viewId": 503340859465600,
       "name": "Cinema Relax",
       "order": 20
+    },
+    {
+      "id": 1096415127937000,
+      "parentId": 513846642724000,
+      "viewId": 1036547102860500,
+      "name": "Cinema Live",
+      "order": 30
     },
     {
       "id": 513904544668199,
@@ -4903,7 +4840,8 @@
       "folder": "",
       "file": "nextAttendeeStream",
       "id": 511125725968799,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0
     },
     {
       "type": {
@@ -5033,6 +4971,42 @@
       "folder": "/uploads/",
       "file": "1038615921102900_websolute.mp4",
       "id": 1038616127894899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1095774681316800_Room3D_3.jpg",
+      "id": 1095774847884299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1095840534160400_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
+      "id": 1095840737322799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1095869630150900_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
+      "id": 1095869673977500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1095969519913800_websolute.mp4",
+      "id": 1095969709275800
     }
   ],
   "users": [
