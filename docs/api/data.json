@@ -199,6 +199,40 @@
           "asset": null,
           "id": 505930399337800,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Timesquare",
+          "abstract": null,
+          "viewId": 503728853890500,
+          "position": [
+            -0.9542407827765673,
+            -0.013516229708390493,
+            -0.29873372762450884
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1113457071397499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Fabric",
+          "abstract": null,
+          "viewId": 1113251419241600,
+          "position": [
+            -0.9371631889175794,
+            -0.004117054383299327,
+            0.34886703369770916
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1113473070834799
         }
       ],
       "hidden": null
@@ -4070,6 +4104,126 @@
           "id": 1036705764719800
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Fabric 2",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "1113225113653899_Orogel2.mp4",
+        "id": 1113226223541799
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 1113228937952200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Prev",
+          "abstract": null,
+          "viewId": 1113251419241600,
+          "position": [
+            0.9610068349314721,
+            -0.275,
+            0
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1113345995628099,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9360342052084637,
+            -0.3512075436543191,
+            0
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1113360940409299,
+          "keepOrientation": null
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Fabric 1",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "1113247261157000_Orogel1.mp4",
+        "id": 1113248087868399
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 1113251419241600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 1113228937952200,
+          "position": [
+            0.9548893129492932,
+            -0.289,
+            0
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1113272654325600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome ",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9223426646474642,
+            -0.381,
+            0
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1113311771334500,
+          "keepOrientation": null
+        }
+      ]
     }
   ],
   "menu": [
@@ -4198,6 +4352,13 @@
       "viewId": 504137755557000,
       "name": "Vyneyard",
       "order": 20
+    },
+    {
+      "id": 1113501750219499,
+      "parentId": 513946905350299,
+      "viewId": 1113251419241600,
+      "name": "Fabric",
+      "order": 30
     },
     {
       "id": 514006762002499,
@@ -5007,6 +5168,24 @@
       "folder": "/uploads/",
       "file": "1095969519913800_websolute.mp4",
       "id": 1095969709275800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1113225113653899_Orogel2.mp4",
+      "id": 1113226223541799
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1113247261157000_Orogel1.mp4",
+      "id": 1113248087868399
     }
   ],
   "users": [
