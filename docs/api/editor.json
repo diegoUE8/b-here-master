@@ -105,13 +105,32 @@
           "abstract": null,
           "viewId": 337129518224500,
           "position": [
-            0.01715033100452807,
-            -0.013119967898200585,
-            -0.9997668391123928
+            0.9984770470422674,
+            0.05075561505047501,
+            0.02162068617324422
           ],
           "asset": null,
           "link": null,
-          "id": 1012412142710199
+          "id": 1012412142710199,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Driving Room",
+          "abstract": null,
+          "viewId": 1192945976945900,
+          "position": [
+            0.013958258338135379,
+            -0.0008326272940967974,
+            -0.9999022320986962
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193153255270599,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -187,6 +206,24 @@
             "chromaKeyColor": null
           },
           "id": 1012264477564600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Media Room",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            0.804281392466285,
+            -0.18440914628495325,
+            -0.5649112394871856
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193764531226100,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -203,8 +240,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "338060923701800_Room3D.jpg",
-        "id": 338061126996100
+        "file": "1190780441996200_Room3D.jpg",
+        "id": 1190780589814500
       },
       "orientation": {
         "latitude": 0,
@@ -260,10 +297,33 @@
             0.47318617081862496
           ],
           "asset": null,
-          "link": null,
-          "id": 1010163895085200
+          "id": 1010163895085200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sport Touring",
+          "abstract": "Esplora la gamma Sport Touring",
+          "viewId": 338065166299600,
+          "position": [
+            0.32873613836280685,
+            -0.2765618521797087,
+            -0.9030205386663355
+          ],
+          "asset": null,
+          "link": {
+            "title": "Scopri..",
+            "href": "https://www.yamaha-motor.eu/it/it/products/motocicli/sport-touring/",
+            "target": "_blank"
+          },
+          "id": 1190890117240900,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -299,6 +359,40 @@
             "folder": "/models/moto/",
             "file": "moto.glb"
           }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Concept Moto",
+          "abstract": "L'invenzione della motocicletta viene fatta risalire all'ingegnere francese Louis-Guillaume Perreaux che depositò il relativo brevetto (n.83691) il 16 marzo 1869 e realizzò un veicolo a due ruote funzionante a vapore chiamata Vélocipede à Grande Vitesse.",
+          "viewId": 337129518224500,
+          "position": [
+            -0.5487793386394799,
+            -0.3930838045503595,
+            -0.7002105561562366
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1192096621312300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.5167202009572445,
+            -0.5022941948825307,
+            -0.6933258798790186
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1192358851223199
         }
       ],
       "hidden": null,
@@ -335,12 +429,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "406760058598800_studio_lucioff.jpg",
-        "id": 406760302780100
+        "file": "1191521744348700_office.jpg",
+        "id": 1191521957608300
       },
       "orientation": {
-        "latitude": -5.554056915830043,
-        "longitude": 357.642039950871
+        "latitude": -10.854056915830045,
+        "longitude": 359.24203995087095
       },
       "zoom": 75,
       "id": 406765685595300,
@@ -351,7 +445,7 @@
             "name": "plane"
           },
           "position": [
-            19.133806722899184,
+            16.333806722899144,
             -0.6790784590030351,
             8.42232376287306
           ],
@@ -368,14 +462,13 @@
           ],
           "asset": {
             "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
+              "id": 4,
+              "name": "publisher-stream"
             },
             "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 406813850199100,
-            "chromaKeyColor": null,
-            "index": 0
+            "file": "publisherStream",
+            "id": 1191591518010600,
+            "chromaKeyColor": null
           },
           "id": 406800844609299
         },
@@ -385,13 +478,13 @@
             "name": "plane"
           },
           "position": [
-            19.100000000000026,
+            16.899999999999995,
             -0.8999999999999999,
             -10.7
           ],
           "rotation": [
             -0.047578378688477495,
-            -1.5250668292514948,
+            -1.542520121771438,
             -0.04052343772681413,
             "XYZ"
           ],
@@ -425,13 +518,13 @@
           "abstract": null,
           "viewId": 337881532453700,
           "position": [
-            0.934561217622214,
-            0.31823836630894836,
-            -0.15912156587180862
+            0.9611185402197283,
+            0.22545421423530915,
+            -0.15944136517678836
           ],
           "asset": null,
-          "link": null,
-          "id": 1010352144790299
+          "id": 1010352144790299,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -442,13 +535,13 @@
           "abstract": null,
           "viewId": 337129518224500,
           "position": [
-            0.9362373413500772,
-            -0.3487789778153968,
-            -0.042577755880103346
+            0.8951932076461183,
+            -0.44477996714440377,
+            -0.028282535446404394
           ],
           "asset": null,
-          "link": null,
-          "id": 1010381267974300
+          "id": 1010381267974300,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -474,7 +567,42 @@
       },
       "zoom": 75,
       "id": 418123251155100,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Circuito",
+          "abstract": null,
+          "viewId": 418395002595300,
+          "position": [
+            -0.01536564443402878,
+            0.003388889423649157,
+            -0.9998761985363993
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193948885442800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.45291697657739877,
+            0.03231450326958533,
+            0.8909668822164086
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193962447524800
+        }
+      ],
       "hidden": null
     },
     {
@@ -498,7 +626,144 @@
       },
       "zoom": 75,
       "id": 418395002595300,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.866830316186946,
+            -0.45054418462359525,
+            0.2135770133724571
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193921692597600
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Driving Room",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "1192932284653900_Test 360 giorno -001_2.mp4",
+        "id": 1192933737848200
+      },
+      "orientation": {
+        "latitude": -3.9000000000000004,
+        "longitude": 177.49999999999997
+      },
+      "zoom": 75,
+      "id": 1192945976945900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Night",
+          "abstract": null,
+          "viewId": 1192983240059200,
+          "position": [
+            -0.8499494873761166,
+            -0.5203016872453343,
+            -0.08289766678703854
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193077267211200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.8876249618206895,
+            -0.45279547807774967,
+            -0.08425071029470323
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193098602973400,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "360 Notte",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "1193500649925900_Test 360 per visore Heroes Valley-002_1.mp4",
+        "id": 1193501384142600
+      },
+      "orientation": {
+        "latitude": -1.2000000000000002,
+        "longitude": 21.1
+      },
+      "zoom": 75,
+      "id": 1192983240059200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.8498460944864252,
+            -0.38775168878460264,
+            0.3569457151036537
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193593934907700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Day",
+          "abstract": null,
+          "viewId": 1192945976945900,
+          "position": [
+            0.8228374834007877,
+            -0.45415001049156534,
+            0.34159368243743843
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1193605355058600
+        }
+      ],
       "hidden": null
     }
   ],
@@ -539,17 +804,24 @@
       "order": 40
     },
     {
+      "id": 1193829747920600,
+      "parentId": null,
+      "viewId": 1192945976945900,
+      "name": "Driving Room",
+      "order": 50
+    },
+    {
       "id": 1012446292178800,
       "parentId": null,
       "viewId": null,
-      "name": "Circuito 360",
-      "order": 50
+      "name": "Dealer Room",
+      "order": 60
     },
     {
       "id": 1012481567538800,
       "parentId": 1012446292178800,
       "viewId": 418123251155100,
-      "name": "Dealer Room",
+      "name": "Expo",
       "order": 0
     },
     {
@@ -675,6 +947,61 @@
       "folder": "/uploads/",
       "file": "1012259905373300_Yamaha Motor Corporate Profile Video 2020_2.mp4",
       "id": 1012263295228799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1190780441996200_Room3D.jpg",
+      "id": 1190780589814500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1191521744348700_office.jpg",
+      "id": 1191521957608300
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 1191591518010600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1192932284653900_Test 360 giorno -001_2.mp4",
+      "id": 1192933737848200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1192976004118500_Test 360 per visore Heroes Valley-002_2.mp4",
+      "id": 1192976829281099
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "1193500649925900_Test 360 per visore Heroes Valley-002_1.mp4",
+      "id": 1193501384142600
     }
   ],
   "users": [
