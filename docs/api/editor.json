@@ -119,7 +119,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Driving Room",
+          "title": "360 Room",
           "abstract": null,
           "viewId": 1192945976945900,
           "position": [
@@ -147,8 +147,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "337927391396000_cinema.jpg",
-        "id": 337927407295700
+        "file": "1211620114703500_CINEMA_ipf.jpg",
+        "id": 1211620271231300
       },
       "orientation": {
         "latitude": -5.9,
@@ -166,13 +166,13 @@
           "abstract": null,
           "viewId": 337881532453700,
           "position": [
-            0.8009940820344108,
-            -0.1866336191237072,
-            0.5688377385148059
+            -0.7754166205807476,
+            -0.08534864004267192,
+            -0.6256553957011796
           ],
           "asset": null,
-          "link": null,
-          "id": 1010606583968499
+          "id": 1010606583968499,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -180,19 +180,19 @@
             "name": "plane"
           },
           "position": [
-            20.99329449699089,
-            1.8,
-            0.2
+            19.997770920498997,
+            0.10000000000000003,
+            0.09947846458461773
           ],
           "rotation": [
-            -1.1439593832808632,
-            -1.5449006172261104,
-            -1.1438329997246697,
+            -1.2274395104548148,
+            -1.5558660859768167,
+            -1.2274041761001775,
             "XYZ"
           ],
           "scale": [
-            22,
-            12,
+            38.5,
+            14.2,
             1
           ],
           "asset": {
@@ -201,29 +201,11 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1012259905373300_Yamaha Motor Corporate Profile Video 2020_2.mp4",
-            "id": 1012263295228799,
+            "file": "1210750471794200_Poltrona Frau's stand at Salone Internazionale del Mobile 2018..mp4",
+            "id": 1210750490297300,
             "chromaKeyColor": null
           },
           "id": 1012264477564600
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Media Room",
-          "abstract": null,
-          "viewId": 338065166299600,
-          "position": [
-            0.804281392466285,
-            -0.18440914628495325,
-            -0.5649112394871856
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193764531226100,
-          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -277,8 +259,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1010145559727900_Yamaha Motors motorcycle assembly factory _Made in Iwata_2.mp4",
-            "id": 1010145896071799,
+            "file": "1210791893780700_Home Stories - Trailer ITA.mp4",
+            "id": 1210791940902900,
             "chromaKeyColor": null
           },
           "id": 1009904475382800
@@ -298,28 +280,6 @@
           ],
           "asset": null,
           "id": 1010163895085200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Sport Touring",
-          "abstract": "Esplora la gamma Sport Touring",
-          "viewId": 338065166299600,
-          "position": [
-            0.32873613836280685,
-            -0.2765618521797087,
-            -0.9030205386663355
-          ],
-          "asset": null,
-          "link": {
-            "title": "Scopri..",
-            "href": "https://www.yamaha-motor.eu/it/it/products/motocicli/sport-touring/",
-            "target": "_blank"
-          },
-          "id": 1190890117240900,
           "keepOrientation": null
         }
       ],
@@ -514,7 +474,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "3D Moto",
+          "title": "3D ",
           "abstract": null,
           "viewId": 337129518224500,
           "position": [
@@ -525,226 +485,6 @@
           "asset": null,
           "id": 1010381267974300,
           "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Dealer Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "418346210521700_5.jpg",
-        "id": 418346259667500
-      },
-      "orientation": {
-        "latitude": -4.000000000000002,
-        "longitude": 90.80000000000015
-      },
-      "zoom": 75,
-      "id": 418123251155100,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Circuito",
-          "abstract": null,
-          "viewId": 418395002595300,
-          "position": [
-            -0.01536564443402878,
-            0.003388889423649157,
-            -0.9998761985363993
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193948885442800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 337881532453700,
-          "position": [
-            -0.45291697657739877,
-            0.03231450326958533,
-            0.8909668822164086
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193962447524800
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Circuito ",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "418391505179000_4.jpg",
-        "id": 418391529975799
-      },
-      "orientation": {
-        "latitude": -3.2,
-        "longitude": 9.200000000000001
-      },
-      "zoom": 75,
-      "id": 418395002595300,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 337881532453700,
-          "position": [
-            0.866830316186946,
-            -0.45054418462359525,
-            0.2135770133724571
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193921692597600
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Driving Room",
-      "asset": {
-        "type": {
-          "id": 2,
-          "name": "video"
-        },
-        "folder": "/uploads/",
-        "file": "1192932284653900_Test 360 giorno -001_2.mp4",
-        "id": 1192933737848200
-      },
-      "orientation": {
-        "latitude": -3.9000000000000004,
-        "longitude": 177.49999999999997
-      },
-      "zoom": 75,
-      "id": 1192945976945900,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Night",
-          "abstract": null,
-          "viewId": 1192983240059200,
-          "position": [
-            -0.8499494873761166,
-            -0.5203016872453343,
-            -0.08289766678703854
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193077267211200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 337881532453700,
-          "position": [
-            -0.8876249618206895,
-            -0.45279547807774967,
-            -0.08425071029470323
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193098602973400,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "360 Notte",
-      "asset": {
-        "type": {
-          "id": 2,
-          "name": "video"
-        },
-        "folder": "/uploads/",
-        "file": "1193500649925900_Test 360 per visore Heroes Valley-002_1.mp4",
-        "id": 1193501384142600
-      },
-      "orientation": {
-        "latitude": -1.2000000000000002,
-        "longitude": 21.1
-      },
-      "zoom": 75,
-      "id": 1192983240059200,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 337881532453700,
-          "position": [
-            0.8498460944864252,
-            -0.38775168878460264,
-            0.3569457151036537
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193593934907700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Day",
-          "abstract": null,
-          "viewId": 1192945976945900,
-          "position": [
-            0.8228374834007877,
-            -0.45415001049156534,
-            0.34159368243743843
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1193605355058600
         }
       ],
       "hidden": null
@@ -785,55 +525,9 @@
       "viewId": 406765685595300,
       "name": "Studio Room",
       "order": 40
-    },
-    {
-      "id": 1193829747920600,
-      "parentId": null,
-      "viewId": 1192945976945900,
-      "name": "Driving Room",
-      "order": 50
-    },
-    {
-      "id": 1012446292178800,
-      "parentId": null,
-      "viewId": null,
-      "name": "Dealer Room",
-      "order": 60
-    },
-    {
-      "id": 1012481567538800,
-      "parentId": 1012446292178800,
-      "viewId": 418123251155100,
-      "name": "Expo",
-      "order": 0
-    },
-    {
-      "id": 1012481998011100,
-      "parentId": 1012446292178800,
-      "viewId": 418395002595300,
-      "name": "Circuito ",
-      "order": 10
     }
   ],
   "assets": [
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "337127267618900_hereoesvalley.jpg",
-      "id": 337127346815000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "337877392805599_reception.jpeg",
-      "id": 337877424886300
-    },
     {
       "type": {
         "id": 1,
@@ -900,43 +594,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "418346210521700_5.jpg",
-      "id": 418346259667500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "418391505179000_4.jpg",
-      "id": 418391529975799
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1010145559727900_Yamaha Motors motorcycle assembly factory _Made in Iwata_2.mp4",
-      "id": 1010145896071799,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1012259905373300_Yamaha Motor Corporate Profile Video 2020_2.mp4",
-      "id": 1012263295228799
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "1190780441996200_Room3D.jpg",
       "id": 1190780589814500
     },
@@ -965,8 +622,9 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "1192932284653900_Test 360 giorno -001_2.mp4",
-      "id": 1192933737848200
+      "file": "1210750471794200_Poltrona Frau's stand at Salone Internazionale del Mobile 2018..mp4",
+      "id": 1210750490297300,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -974,17 +632,18 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "1192976004118500_Test 360 per visore Heroes Valley-002_2.mp4",
-      "id": 1192976829281099
+      "file": "1210791893780700_Home Stories - Trailer ITA.mp4",
+      "id": 1210791940902900,
+      "chromaKeyColor": null
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
+        "id": 1,
+        "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1193500649925900_Test 360 per visore Heroes Valley-002_1.mp4",
-      "id": 1193501384142600
+      "file": "1211620114703500_CINEMA_ipf.jpg",
+      "id": 1211620271231300
     }
   ],
   "users": [
