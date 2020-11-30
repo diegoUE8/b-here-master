@@ -15783,7 +15783,7 @@ ModelGltfComponent.meta = {
     /*
     mesh.userData = {
     	render: () => {
-    		}
+    			}
     };
     */
 
