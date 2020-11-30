@@ -121,7 +121,7 @@
           },
           "title": "360 Room",
           "abstract": null,
-          "viewId": 1192945976945900,
+          "viewId": 248231505262800,
           "position": [
             0.013958258338135379,
             -0.0008326272940967974,
@@ -638,6 +638,172 @@
         }
       ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "1",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "248257303725199_1.mp4",
+        "id": 248258220733100
+      },
+      "orientation": {
+        "latitude": -2.9000000000000004,
+        "longitude": 186.8
+      },
+      "zoom": 75,
+      "id": 248231505262800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.8698802176171341,
+            -0.4460767614204322,
+            -0.2105324913618476
+          ],
+          "asset": null,
+          "link": null,
+          "id": 248348102314200
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "2",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "248370131292399_2.mp4",
+        "id": 248370906066600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 248392194266799,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.8759799195182572,
+            -0.4821270966263785,
+            0.014582294037848685
+          ],
+          "asset": null,
+          "link": null,
+          "id": 248412789460999
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "3",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "248428263824100_3.mp4",
+        "id": 248429045703600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 248430441511900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.8781680467888486,
+            -0.47784939148630423,
+            -0.02192807915042333
+          ],
+          "asset": null,
+          "link": null,
+          "id": 248454134027400,
+          "keepOrientation": null
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "4",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "248475855237600_4.mp4",
+        "id": 248476329563499
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 248478926694400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.8864144228614914,
+            -0.462486956470552,
+            0.01937230078578333
+          ],
+          "asset": null,
+          "link": null,
+          "id": 248527314680900
+        }
+      ]
     }
   ],
   "menu": [
@@ -696,6 +862,41 @@
       "viewId": 337129520224500,
       "name": "3",
       "order": 20
+    },
+    {
+      "id": 248286397856200,
+      "parentId": null,
+      "viewId": null,
+      "name": "Video 360",
+      "order": 50
+    },
+    {
+      "id": 248305477368700,
+      "parentId": 248286397856200,
+      "viewId": 248231505262800,
+      "name": "1",
+      "order": 0
+    },
+    {
+      "id": 248305686025199,
+      "parentId": 248286397856200,
+      "viewId": 248392194266799,
+      "name": "2",
+      "order": 10
+    },
+    {
+      "id": 248305859455700,
+      "parentId": 248286397856200,
+      "viewId": 248430441511900,
+      "name": "3",
+      "order": 20
+    },
+    {
+      "id": 248570921340300,
+      "parentId": 248286397856200,
+      "viewId": 248478926694400,
+      "name": "4",
+      "order": 30
     }
   ],
   "assets": [
@@ -815,6 +1016,51 @@
       "folder": "/uploads/",
       "file": "1211620114703500_CINEMA_ipf.jpg",
       "id": 1211620271231300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "248218427091600_SIDIM 360 Video Experience - Salon International du Design de Montréal-z-0ghI2MWo4_1.mp4",
+      "id": 248220077983300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "248257303725199_1.mp4",
+      "id": 248258220733100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "248370131292399_2.mp4",
+      "id": 248370906066600
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "248428263824100_3.mp4",
+      "id": 248429045703600
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "248475855237600_4.mp4",
+      "id": 248476329563499
     }
   ],
   "users": [
