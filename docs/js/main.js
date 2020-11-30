@@ -122,7 +122,7 @@ function _assertThisInitialized(self) {
 function _readOnlyError(name) {
   throw new Error("\"" + name + "\" is read-only");
 }var environmentServed = {
-  appKey: '8b0cae93d47a44e48e97e7fd0404be4e',
+  appKey: '865af1430a854af5b01733ff9b725a2b',
   channelName: 'BHere',
   flags: {
     production: true,
@@ -186,7 +186,7 @@ function _readOnlyError(name) {
     }
   }
 };var environmentStatic = {
-  appKey: '8b0cae93d47a44e48e97e7fd0404be4e',
+  appKey: '865af1430a854af5b01733ff9b725a2b',
   channelName: 'BHere',
   flags: {
     production: false,
@@ -13625,10 +13625,14 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var mainLight = new THREE.PointLight(0xffffff);
     mainLight.position.set(-50, 0, -50);
     scene.add(mainLight);
-    var light2 = new THREE.DirectionalLight(0xffe699, 5);
+    var light2 = new THREE.DirectionalLight(0xffe699, 3);
     light2.position.set(5, -5, 5);
     light2.target.position.set(0, 0, 0);
     scene.add(light2);
+    var light3 = new THREE.DirectionalLight(0xffe699, 3);
+    light3.position.set(0, 50, 0);
+    light3.target.position.set(0, 0, 0);
+    scene.add(light3);
     var light = new THREE.AmbientLight(0x101010);
     scene.add(light);
     var objects = this.objects = new THREE.Group();
@@ -15934,7 +15938,7 @@ var ModelGridComponent = /*#__PURE__*/function (_ModelComponent) {
     /*
     mesh.userData = {
     	render: () => {
-    		}
+    			}
     };
     */
 
