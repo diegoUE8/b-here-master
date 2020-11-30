@@ -140,7 +140,7 @@ function _readOnlyError(name) {
   },
   assets: '/Modules/B-Here/Client/docs/',
   worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/heroesvalley/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
   url: {
     index: '/',
     access: '/',
@@ -189,7 +189,7 @@ function _readOnlyError(name) {
   },
   assets: './',
   worker: './js/workers/image.service.worker.js',
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/heroesvalley/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
   url: {
     index: '/',
     access: '/',
@@ -13680,10 +13680,14 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var mainLight = new THREE.PointLight(0xffffff);
     mainLight.position.set(-50, 0, -50);
     scene.add(mainLight);
-    var light2 = new THREE.DirectionalLight(0xffe699, 5);
-    light2.position.set(5, -5, 5);
+    var light2 = new THREE.DirectionalLight(0xffe699, 2);
+    light2.position.set(40, -40, 40);
     light2.target.position.set(0, 0, 0);
     scene.add(light2);
+    var light3 = new THREE.DirectionalLight(0xffe699, 2);
+    light3.position.set(0, 50, 0);
+    light3.target.position.set(0, 0, 0);
+    scene.add(light3);
     var light = new THREE.AmbientLight(0x101010);
     scene.add(light);
     var objects = this.objects = new THREE.Group();
