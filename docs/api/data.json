@@ -297,7 +297,7 @@
           "name": "image"
         },
         "folder": "/textures/welcome-room/",
-        "file": "3droom.jpg",
+        "file": "white.jpeg",
         "id": 337127346815000
       },
       "orientation": {
@@ -372,7 +372,7 @@
           "name": "image"
         },
         "folder": "/textures/welcome-room/",
-        "file": "3droom.jpg",
+        "file": "white.jpeg",
         "id": 337127346815000
       },
       "orientation": {
@@ -383,7 +383,7 @@
       "id": 337129519224500,
       "items": [
         {
-          "id": 1111,
+          "id": 1112,
           "type": {
             "id": 4,
             "name": "gltf"
@@ -392,7 +392,7 @@
           "abstract": "Abstract",
           "asset": {
             "folder": "/models/",
-            "file": "D.R.D.P.glb"
+            "file": "scene.gltf"
           }
         },
         {
@@ -421,7 +421,7 @@
             "name": "model"
           },
           "folder": "/models/",
-          "file": "D.R.D.P.usdz",
+          "file": "Poltrona-Frau_Dezza.usdz",
           "id": 340674594615400
         },
         "gltf": {
@@ -430,83 +430,8 @@
             "name": "model"
           },
           "folder": "/models/",
-          "file": "D.R.D.P.glb",
+          "file": "scene.gltf",
           "id": 340667792804700
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "model"
-      },
-      "name": "Modello 3D 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/textures/welcome-room/",
-        "file": "3droom.jpg",
-        "id": 337127346815000
-      },
-      "orientation": {
-        "latitude": 25,
-        "longitude": 25
-      },
-      "zoom": 50,
-      "id": 337129520224500,
-      "items": [
-        {
-          "id": 1115,
-          "type": {
-            "id": 4,
-            "name": "gltf"
-          },
-          "title": "Model",
-          "abstract": "Abstract",
-          "asset": {
-            "folder": "/models/",
-            "file": "divano.glb"
-          }
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 337881532453700,
-          "position": [
-            -0.24010531402479143,
-            -0.0896579341237253,
-            -0.9665975858782816
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1192358851223199
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/models/",
-          "file": "divano.usdz",
-          "id": 340674594615400
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/models/",
-          "file": "divano.glb",
-          "id": 340677792804700
         }
       }
     },
@@ -855,13 +780,6 @@
       "viewId": 337129519224500,
       "name": "2",
       "order": 10
-    },
-    {
-      "id": 245410387978400,
-      "parentId": 243737542647400,
-      "viewId": 337129520224500,
-      "name": "3",
-      "order": 20
     },
     {
       "id": 248286397856200,
