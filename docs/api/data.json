@@ -101,7 +101,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Area Espositiva",
+          "title": "Modelli 3D",
           "abstract": null,
           "viewId": 337129518224500,
           "position": [
@@ -379,7 +379,7 @@
         "latitude": 25,
         "longitude": 25
       },
-      "zoom": 55,
+      "zoom": 50,
       "id": 337129519224500,
       "items": [
         {
@@ -454,8 +454,8 @@
         "latitude": 25,
         "longitude": 25
       },
-      "zoom": 55,
-      "id": 337129519224500,
+      "zoom": 50,
+      "id": 337129520224500,
       "items": [
         {
           "id": 1115,
@@ -689,6 +689,13 @@
       "viewId": 337129519224500,
       "name": "2",
       "order": 10
+    },
+    {
+      "id": 245410387978400,
+      "parentId": 243737542647400,
+      "viewId": 337129520224500,
+      "name": "3",
+      "order": 20
     }
   ],
   "assets": [
