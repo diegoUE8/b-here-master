@@ -77,6 +77,125 @@
             "chromaKeyColor": null
           },
           "id": 1009904475382800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 248392194266799,
+          "position": [
+            0.48776224338037805,
+            -0.09299558823981699,
+            0.8680091096874915
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263816172214199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 248231505262800,
+          "position": [
+            0.23776453220716268,
+            -0.10410018092556456,
+            0.9657283156020505
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263824959721100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 248430441511900,
+          "position": [
+            -0.06005710061029141,
+            -0.11864289087487624,
+            0.9911190690886427
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263833008287300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 337129519224500,
+          "position": [
+            -0.8720473562642225,
+            -0.24376545793414212,
+            0.4243958175462367
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263842470462000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 337129518224500,
+          "position": [
+            -0.8320456197359175,
+            -0.2585787758446603,
+            -0.4907515699016662
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263850020654100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 406765685595300,
+          "position": [
+            -0.17639177433322897,
+            -0.2494006017943324,
+            -0.9522002319744519
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263858797145599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 337929883149900,
+          "position": [
+            0.4370727042699217,
+            -0.22597648830188397,
+            -0.8705757163606884
+          ],
+          "asset": null,
+          "link": null,
+          "id": 263865629315099
         }
       ],
       "hidden": null
