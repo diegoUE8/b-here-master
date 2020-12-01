@@ -1014,6 +1014,14 @@
       "lastName": "Appleseed"
     },
     {
+      "id": "1601892639987",
+      "username": "heroes",
+      "password": "valley",
+      "type": "publisher",
+      "firstName": "Marco",
+      "lastName": "Piozzi"
+    },
+    {
       "id": "1601892639986",
       "username": "attendee",
       "password": "attendee",
