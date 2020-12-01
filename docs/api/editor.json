@@ -39,8 +39,8 @@
         "id": 1190780589814500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -0.1,
+        "longitude": 18.3
       },
       "zoom": 75,
       "id": 338065166299600,
@@ -92,7 +92,6 @@
             0.868409579718275
           ],
           "asset": null,
-          "link": null,
           "id": 263816172214199,
           "keepOrientation": null
         },
@@ -110,7 +109,6 @@
             0.9659955517324593
           ],
           "asset": null,
-          "link": null,
           "id": 263824959721100,
           "keepOrientation": null
         },
@@ -128,7 +126,6 @@
             0.9934262561187429
           ],
           "asset": null,
-          "link": null,
           "id": 263833008287300,
           "keepOrientation": null
         },
@@ -146,7 +143,6 @@
             0.4300959799708351
           ],
           "asset": null,
-          "link": null,
           "id": 263842470462000,
           "keepOrientation": null
         },
@@ -164,7 +160,6 @@
             -0.4913675009994675
           ],
           "asset": null,
-          "link": null,
           "id": 263850020654100,
           "keepOrientation": null
         },
@@ -182,7 +177,6 @@
             -0.959296047210042
           ],
           "asset": null,
-          "link": null,
           "id": 263858797145599,
           "keepOrientation": null
         },
@@ -200,7 +194,6 @@
             -0.8749356449404603
           ],
           "asset": null,
-          "link": null,
           "id": 263865629315099,
           "keepOrientation": null
         },
@@ -218,8 +211,24 @@
             -0.3392123786747206
           ],
           "asset": null,
-          "link": null,
           "id": 313939089806200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 337129619224500,
+          "position": [
+            -0.48028397147535107,
+            -0.10964881870731814,
+            0.8702324076360026
+          ],
+          "asset": null,
+          "id": 335512134086800,
           "keepOrientation": null
         }
       ],
@@ -392,9 +401,9 @@
       },
       "orientation": {
         "latitude": 25,
-        "longitude": 25
+        "longitude": 5
       },
-      "zoom": 50,
+      "zoom": 40,
       "id": 337129519224500,
       "items": [
         {
@@ -407,7 +416,7 @@
           "abstract": "Abstract",
           "asset": {
             "folder": "/models/",
-            "file": "scene.gltf"
+            "file": "poltrona.glb"
           }
         },
         {
@@ -415,17 +424,17 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Reception",
+          "title": "Back",
           "abstract": null,
           "viewId": 338065166299600,
           "position": [
-            -0.4318857997239684,
-            -0.5545444094253369,
-            -0.7113052466922288
+            -0.6737744037799601,
+            -0.4873603473424442,
+            -0.5554349148633089
           ],
           "asset": null,
           "link": null,
-          "id": 261327667656499
+          "id": 335366915798400
         }
       ],
       "hidden": null,
@@ -435,18 +444,93 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/models/",
-          "file": "Poltrona-Frau_Dezza.usdz",
-          "id": 340674594615400
+          "folder": "/uploads/",
+          "file": "335383431182600_poltrona.usdz",
+          "id": 335384193788400
         },
         "gltf": {
           "type": {
             "id": 3,
             "name": "model"
           },
-          "folder": "/models/",
-          "file": "scene.gltf",
-          "id": 340667792804700
+          "folder": "/uploads/",
+          "file": "335393320376799_poltrona.glb",
+          "id": 335393387516699
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "Modello 3D 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/welcome-room/",
+        "file": "white.jpeg",
+        "id": 337127346815000
+      },
+      "orientation": {
+        "latitude": 35,
+        "longitude": 5
+      },
+      "zoom": 35,
+      "id": 337129619224500,
+      "items": [
+        {
+          "id": 1113,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/",
+            "file": "divano.glb"
+          }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.6737744037799601,
+            -0.4873603473424442,
+            -0.5554349148633089
+          ],
+          "asset": null,
+          "link": null,
+          "id": 335366915798400
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "338503937387199_divano.usdz",
+          "id": 338504075479800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "338511835276100_divano.glb",
+          "id": 338511903869900
         }
       }
     },
@@ -1631,15 +1715,22 @@
       "id": 243744350393200,
       "parentId": 243737542647400,
       "viewId": 337129518224500,
-      "name": "1",
+      "name": "1 - Sedia",
       "order": 0
     },
     {
       "id": 243745750380600,
       "parentId": 243737542647400,
       "viewId": 337129519224500,
-      "name": "2",
+      "name": "2 - Poltrona",
       "order": 10
+    },
+    {
+      "id": 335462644278700,
+      "parentId": 243737542647400,
+      "viewId": 337129619224500,
+      "name": "3 - Divano",
+      "order": 20
     },
     {
       "id": 248286397856200,
@@ -1986,6 +2077,51 @@
       "file": "501968211716500_zalando.jpg",
       "id": 501968228236500,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "335383431182600_poltrona.usdz",
+      "id": 335384193788400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "335393320376799_poltrona.glb",
+      "id": 335393387516699
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "338169579597600_divano.glb",
+      "id": 338171002840400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "338503937387199_divano.usdz",
+      "id": 338504075479800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "338511835276100_divano.glb",
+      "id": 338511903869900
     }
   ],
   "users": [
@@ -1996,6 +2132,14 @@
       "type": "publisher",
       "firstName": "Jhon",
       "lastName": "Appleseed"
+    },
+    {
+      "id": "1601892639987",
+      "username": "diego",
+      "password": "diego",
+      "type": "publisher",
+      "firstName": "Mark",
+      "lastName": "Zuckenbergh"
     },
     {
       "id": "1601892639986",
