@@ -1408,6 +1408,28 @@
         }
       ],
       "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "City 7 - dettagli",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "343775492435499_piva-7.jpg",
+        "id": 343775670121800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 343790068431900
     }
   ],
   "menu": [],
@@ -1924,6 +1946,15 @@
       "folder": "/uploads/",
       "file": "881691597556100_870332078464899_Piva Group - spot ottobre 2020.mp4",
       "id": 881691619676700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "343775492435499_piva-7.jpg",
+      "id": 343775670121800
     }
   ],
   "users": [
