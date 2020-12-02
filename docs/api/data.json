@@ -22,8 +22,35 @@
         "longitude": 0
       },
       "zoom": 75
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Reception room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "338288798580700_reception.jpg",
+        "id": 338288819976600
+      },
+      "orientation": {
+        "latitude": -12.3,
+        "longitude": 0.7999999999999758
+      },
+      "zoom": 75,
+      "id": 337881532453700,
+      "items": [
+      ],
+      "hidden": null
     }
   ],
-  "menu": [],
-  "assets": []
+  "menu": [
+  ],
+  "assets": [
+  ]
 }
