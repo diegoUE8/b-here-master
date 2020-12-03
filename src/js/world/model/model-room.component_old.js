@@ -108,7 +108,7 @@ export default class ModelRoomComponent extends ModelComponent {
 				}
 			});
 			const lights = new Array(3).fill(0).map((x, i) => {
-				const light = new THREE.PointLight(0xffffff, 0.1, 1000, 2);
+				const light = new THREE.PointLight(0xffffff, 0.1, 500, 2);//1000
 				if (USE_SHADOW) {
 					light.castShadow = true;
 					light.shadow.mapSize.width = 1024;
