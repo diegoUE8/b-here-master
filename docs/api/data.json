@@ -50,9 +50,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Ambiente 1",
+          "title": "Gallery",
           "abstract": null,
-          "viewId": 459498566687500,
+          "viewId": 376847775559700,
           "position": [
             -0.08783838577665949,
             -0.0721131905598011,
@@ -67,7 +67,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Ambiente 2",
+          "title": "Tour House",
           "abstract": null,
           "viewId": 459933612682400,
           "position": [
@@ -84,9 +84,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Cinema",
+          "title": "Lab",
           "abstract": null,
-          "viewId": 376822678396500,
+          "viewId": 343790068431900,
           "position": [
             -0.6773230480145557,
             -0.03874891753135908,
@@ -101,9 +101,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Gallery",
+          "title": "Cinema",
           "abstract": null,
-          "viewId": 376847775559700,
+          "viewId": 376822678396500,
           "position": [
             -0.9978927161233239,
             -0.027586729339037257,
@@ -193,7 +193,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Museo",
+          "title": "Gallery",
           "abstract": null,
           "viewId": 376847775559700,
           "position": [
@@ -203,7 +203,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 870267303200300
+          "id": 870267303200300,
+          "keepOrientation": null
         }
       ]
     },
@@ -284,124 +285,10 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Studio TV",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "869971737062100_studioTV.jpg",
-        "id": 869971930629100
-      },
-      "orientation": {
-        "latitude": -5.004686428394959,
-        "longitude": 357.09421009394305
-      },
-      "zoom": 75,
-      "id": 376887307399500,
-      "items": [
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            21.96367425156129,
-            0.9062817229998427,
-            2.7651436211060747
-          ],
-          "rotation": [
-            2.184,
-            -1.4344532925199431,
-            2.190001239404694,
-            "XYZ"
-          ],
-          "scale": [
-            6.5,
-            4,
-            0.98
-          ],
-          "asset": {
-            "type": {
-              "id": 4,
-              "name": "publisher-stream"
-            },
-            "folder": "",
-            "file": "publisherStream",
-            "id": 809917091564500,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ]
-          },
-          "id": 809792677243700
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            13.358724415083671,
-            1.2,
-            21.709380722745024
-          ],
-          "rotation": [
-            3.073546707480057,
-            -0.824,
-            3.079199277402276,
-            "XYZ"
-          ],
-          "scale": [
-            18,
-            10.5,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
-            },
-            "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 809987160936900,
-            "chromaKeyColor": null,
-            "index": 0
-          },
-          "id": 809967826617399
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Ingresso",
-          "abstract": null,
-          "viewId": 376789637631099,
-          "position": [
-            -0.06581786419918649,
-            -0.0017948807935158006,
-            0.997830039212688
-          ],
-          "asset": null,
-          "link": null,
-          "id": 870047484544500,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
         "id": 1,
         "name": "model"
       },
-      "name": "3D",
+      "name": "City7",
       "likes": 172,
       "liked": false,
       "ar": {
@@ -410,8 +297,8 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/models/newspaper/",
-          "file": "Newspaper.usdz"
+          "folder": "/models/",
+          "file": "city7.usdz"
         },
         "gltf": {
           "type": {
@@ -419,7 +306,7 @@
             "name": "model"
           },
           "folder": "/models/",
-          "file": "finestra.glb"
+          "file": "city7.glb"
         }
       },
       "asset": {
@@ -443,7 +330,7 @@
           "abstract": "Abstract",
           "asset": {
             "folder": "/models/",
-            "file": "finestra.glb"
+            "file": "city7.glb"
           }
         },
         {
@@ -451,42 +338,17 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Back",
+          "title": "Welcome Room",
           "abstract": null,
-          "viewId": 460002983154599,
+          "viewId": 376789637631099,
           "position": [
-            0.7961605987768714,
-            -0.3243456360635259,
-            -0.5108113245825706
+            0.04611846662866681,
+            -0.18375088248781757,
+            -0.9818903707750519
           ],
           "asset": null,
           "link": null,
-          "id": 871274710190800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Scheda tecnica",
-          "viewId": 180117092208199,
-          "position": [
-            -0.04688268979693458,
-            -0.5347207165011025,
-            -0.8437273070974721
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "871399600969899_871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
-            "id": 871399615228800
-          },
-          "link": null,
-          "id": 871410279577900
+          "id": 507373366727100
         }
       ],
       "orientation": {
@@ -569,7 +431,7 @@
           "keepOrientation": null
         }
       ],
-      "hidden": false
+      "hidden": true
     },
     {
       "type": {
@@ -864,7 +726,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 2",
+      "name": "Tour House",
       "asset": {
         "type": {
           "id": 1,
@@ -875,8 +737,8 @@
         "id": 459933223805399
       },
       "orientation": {
-        "latitude": -5.1000000000000005,
-        "longitude": 355.7
+        "latitude": -5.4,
+        "longitude": 354.59999999999997
       },
       "zoom": 75,
       "id": 459933612682400,
@@ -1048,92 +910,6 @@
           ],
           "asset": null,
           "id": 460695533393399,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Spazi Classici e Moderni.",
-          "viewId": 460002983154599,
-          "position": [
-            0.16203251903864088,
-            -0.051593523156470145,
-            0.9854357265404452
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "870581893205000_868738800348599_544223346617299_Interno_PVC-2.jpg",
-            "id": 870581917071900,
-            "chromaKeyColor": null
-          },
-          "id": 544709609441399,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Scheda Tecnica",
-          "viewId": 460002983154599,
-          "position": [
-            0.9662694417065938,
-            -0.06227074697363,
-            -0.24989141661004155
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
-            "id": 870609338848399,
-            "chromaKeyColor": null
-          },
-          "id": 544738555823100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 180117092208199,
-          "position": [
-            0.9605479873826526,
-            -0.11868185688148777,
-            -0.25151974233108937
-          ],
-          "asset": null,
-          "id": 870649100409200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 180117092208199,
-          "position": [
-            0.16035299008348636,
-            -0.10989041527876729,
-            0.9809235521696609
-          ],
-          "asset": null,
-          "id": 870666818643400,
           "keepOrientation": null
         }
       ],
@@ -1421,15 +1197,52 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "343775492435499_piva-7.jpg",
-        "id": 343775670121800
+        "file": "505403415463299_360_3.jpg",
+        "id": 505403700962100
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "id": 343790068431900
+      "id": 343790068431900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8580455949986967,
+            -0.5133220600353502,
+            -0.016069212314150285
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505821066574900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117092208199,
+          "position": [
+            0.1817929813299471,
+            -0.4462968948357039,
+            -0.8762250815853071
+          ],
+          "asset": null,
+          "link": null,
+          "id": 505839869664500
+        }
+      ],
+      "hidden": null
     }
   ],
   "menu": [],
@@ -1955,6 +1768,24 @@
       "folder": "/uploads/",
       "file": "343775492435499_piva-7.jpg",
       "id": 343775670121800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502793355562599_360_2.jpg",
+      "id": 502793661072600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "505403415463299_360_3.jpg",
+      "id": 505403700962100
     }
   ],
   "users": [
