@@ -138,9 +138,9 @@
           "abstract": null,
           "viewId": 337129519224500,
           "position": [
-            -0.8746833716992906,
-            -0.22348701815919322,
-            0.4300959799708351
+            -0.8835327119550074,
+            -0.20619880169553156,
+            0.4205377522705387
           ],
           "asset": null,
           "id": 263842470462000,
@@ -212,23 +212,6 @@
           ],
           "asset": null,
           "id": 313939089806200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 337129619224500,
-          "position": [
-            -0.48028397147535107,
-            -0.10964881870731814,
-            0.8702324076360026
-          ],
-          "asset": null,
-          "id": 335512134086800,
           "keepOrientation": null
         }
       ],
@@ -444,8 +427,8 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/uploads/",
-          "file": "335383431182600_poltrona.usdz",
+          "folder": "/models/",
+          "file": "poltrona.usdz",
           "id": 335384193788400
         },
         "gltf": {
@@ -453,84 +436,9 @@
             "id": 3,
             "name": "model"
           },
-          "folder": "/uploads/",
-          "file": "335393320376799_poltrona.glb",
+          "folder": "/models/",
+          "file": "poltrona.glb",
           "id": 335393387516699
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "model"
-      },
-      "name": "Modello 3D 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/textures/welcome-room/",
-        "file": "white.jpeg",
-        "id": 337127346815000
-      },
-      "orientation": {
-        "latitude": 35,
-        "longitude": 5
-      },
-      "zoom": 35,
-      "id": 337129619224500,
-      "items": [
-        {
-          "id": 1113,
-          "type": {
-            "id": 4,
-            "name": "gltf"
-          },
-          "title": "Model",
-          "abstract": "Abstract",
-          "asset": {
-            "folder": "/models/",
-            "file": "divano.glb"
-          }
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 338065166299600,
-          "position": [
-            -0.6737744037799601,
-            -0.4873603473424442,
-            -0.5554349148633089
-          ],
-          "asset": null,
-          "link": null,
-          "id": 335366915798400
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "338503937387199_divano.usdz",
-          "id": 338504075479800
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "338511835276100_divano.glb",
-          "id": 338511903869900
         }
       }
     },
@@ -579,13 +487,18 @@
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream"
+              "id": 5,
+              "name": "next-attendee-stream"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 1191591518010600,
-            "chromaKeyColor": null
+            "file": "nextAttendeeStream",
+            "id": 511373910307800,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
           },
           "id": 406800844609299
         },
@@ -650,7 +563,7 @@
           },
           "title": "3D ",
           "abstract": null,
-          "viewId": 337129518224500,
+          "viewId": 337129519224500,
           "position": [
             0.8951932076461183,
             -0.44477996714440377,
@@ -659,6 +572,72 @@
           "asset": null,
           "id": 1010381267974300,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            7.765869016304463,
+            4.805988601329984,
+            17.793081576429888
+          ],
+          "rotation": [
+            2.87778356885205,
+            -0.39877901517162184,
+            3.037094938859981,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            9,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "512010559424300_lavagna.jpg",
+            "id": 512010596580499,
+            "chromaKeyColor": null
+          },
+          "id": 512014421844900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            7.6000000000000005,
+            4.7,
+            17.4
+          ],
+          "rotation": [
+            2.86,
+            -0.38639030906459954,
+            3.0283204825660754,
+            "XYZ"
+          ],
+          "scale": [
+            11,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 512211995771000,
+            "chromaKeyColor": null
+          },
+          "id": 512078352486100
         }
       ],
       "hidden": null
@@ -1733,13 +1712,6 @@
       "order": 10
     },
     {
-      "id": 335462644278700,
-      "parentId": 243737542647400,
-      "viewId": 337129619224500,
-      "name": "3 - Divano",
-      "order": 20
-    },
-    {
       "id": 248286397856200,
       "parentId": null,
       "viewId": null,
@@ -2129,6 +2101,40 @@
       "folder": "/uploads/",
       "file": "338511835276100_divano.glb",
       "id": 338511903869900
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 511373910307800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "512010559424300_lavagna.jpg",
+      "id": 512010596580499
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 512211995771000,
+      "chromaKeyColor": null
     }
   ],
   "users": [
