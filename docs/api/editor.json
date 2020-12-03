@@ -638,6 +638,72 @@
             "chromaKeyColor": null
           },
           "id": 512078352486100
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            1.1688675388759615,
+            3.1189516558062174,
+            -19.72069697666149
+          ],
+          "rotation": [
+            0.15685702736171572,
+            -0.0584766983274291,
+            0.00924292263056885,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "516393511668800_lavagna.jpg",
+            "id": 516393556246500
+          },
+          "id": 516411325904700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            0.41745032414120176,
+            3.1,
+            -19.693063659492605
+          ],
+          "rotation": [
+            0.174,
+            -0.02087403206438507,
+            0.0036729296544629115,
+            "XYZ"
+          ],
+          "scale": [
+            13,
+            9,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 516468203393499,
+            "chromaKeyColor": null,
+            "index": 1
+          },
+          "id": 516449611553600
         }
       ],
       "hidden": null
@@ -1175,6 +1241,61 @@
           "asset": null,
           "link": null,
           "id": 501338253452300
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            14.749414540924095,
+            -1.9990322735851263,
+            -13.606938639457063
+          ],
+          "rotation": [
+            -0.20812620597518364,
+            -0.890634140710586,
+            -0.16273760882342114,
+            "XYZ"
+          ],
+          "scale": [
+            8,
+            11,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "514298248196500_ANATOMY-A-2.jpg",
+            "id": 514298303745200,
+            "chromaKeyColor": null
+          },
+          "id": 514300703967099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 500962302922799,
+          "position": [
+            0.955358609181672,
+            -0.28735418024602644,
+            0.06868408081641116
+          ],
+          "asset": null,
+          "link": {
+            "title": "rendi unico il tuo stile",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 514476099840300,
+          "keepOrientation": null
         }
       ]
     },
@@ -1216,6 +1337,61 @@
           "asset": null,
           "link": null,
           "id": 501361084250699
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.96670216259791,
+            -0.8929938880429247,
+            15.660088229884199
+          ],
+          "rotation": [
+            -3.063827713987061,
+            -0.9585082490109251,
+            -3.0779124991632525,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "514510765163600_ddb7155a401093a87475ee1244fc22e2.jpg",
+            "id": 514510791948800,
+            "chromaKeyColor": null
+          },
+          "id": 514512599980800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 500976052302500,
+          "position": [
+            0.9734969041039817,
+            -0.22790128628799594,
+            -0.019099251509941115
+          ],
+          "asset": null,
+          "link": {
+            "title": "rendi unico il tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 514629938492400,
+          "keepOrientation": null
         }
       ]
     },
@@ -1257,6 +1433,60 @@
           "asset": null,
           "link": null,
           "id": 501379956676300
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            11.182812526699141,
+            -1.3655954656843168,
+            -16.525127927395996
+          ],
+          "rotation": [
+            -0.08245017013577235,
+            -0.5933488893994991,
+            -0.04617314939374737,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "514654221587099_infovideo.mp4",
+            "id": 514654707333700
+          },
+          "id": 514667909139900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 500988086657899,
+          "position": [
+            0.9824139095640433,
+            -0.1832058637862413,
+            -0.03603500755416498
+          ],
+          "asset": null,
+          "link": {
+            "title": "rendi il tuo stile unico..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 514824166129399,
+          "keepOrientation": null
         }
       ]
     },
@@ -1298,6 +1528,60 @@
           "asset": null,
           "link": null,
           "id": 501399989063199
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10.843044625047034,
+            -1.513389629035238,
+            16.737324609685
+          ],
+          "rotation": [
+            -3.0514178259851965,
+            -0.5729963247027586,
+            -3.092610436224726,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "514848614541100_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long.jpg",
+            "id": 514848635449200,
+            "chromaKeyColor": null
+          },
+          "id": 514851847496999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501001435031300,
+          "position": [
+            0.9424965536204835,
+            -0.2473836014539766,
+            0.2247256107905179
+          ],
+          "asset": null,
+          "link": {
+            "title": "rendi il tuo stile unico..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 514966869253999
         }
       ]
     },
@@ -1339,6 +1623,60 @@
           "asset": null,
           "link": null,
           "id": 501423493764399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501014197746599,
+          "position": [
+            0.9703899421290437,
+            -0.23825724048057517,
+            -0.03970954008009609
+          ],
+          "asset": null,
+          "link": {
+            "title": "rendi il tuo stile unico..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 515025162196700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            14.010521894132474,
+            -0.6067448413647865,
+            -17.804706798055914
+          ],
+          "rotation": [
+            -0.08243984676761379,
+            -0.7484803940974654,
+            -0.05617075991075224,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "515032324211800_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
+            "id": 515032344926100,
+            "chromaKeyColor": null
+          },
+          "id": 515036065528699
         }
       ]
     },
@@ -1383,34 +1721,57 @@
         },
         {
           "type": {
-            "id": 1,
-            "name": "nav"
+            "id": 2,
+            "name": "plane"
           },
-          "title": "Infografica di prodotto",
-          "abstract": "Abito donna sera",
-          "viewId": 501023795661399,
           "position": [
-            0.9928697251305033,
-            -0.11285955616827605,
-            0.03837224909721367
+            11.719728800085708,
+            -1.8934574381631837,
+            -16.095427169923333
+          ],
+          "rotation": [
+            -0.11710125421958474,
+            -0.6260968676521521,
+            -0.06882624702410996,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            7,
+            1
           ],
           "asset": {
             "type": {
-              "id": 1,
-              "name": "image"
+              "id": 2,
+              "name": "video"
             },
             "folder": "/uploads/",
-            "file": "501968211716500_zalando.jpg",
-            "id": 501968228236500,
+            "file": "515365193890200_infovideo2.mp4",
+            "id": 515365234089400,
             "chromaKeyColor": null
           },
+          "id": 515366724814099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Moda 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501023795661399,
+          "position": [
+            0.9792496062845618,
+            -0.1811673471120962,
+            0.09082180867994212
+          ],
+          "asset": null,
           "link": {
-            "title": "Vai al carrello..",
-            "href": "https://www.zalando.it/abbigliamento-donna/",
+            "title": "dai forma al tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
             "target": "_blank"
           },
-          "id": 501834537021700,
-          "keepOrientation": null
+          "id": 518344122037700
         }
       ]
     },
@@ -1452,6 +1813,60 @@
           "asset": null,
           "link": null,
           "id": 501547011511600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501034260867300,
+          "position": [
+            0.992748341386365,
+            -0.09253352194656059,
+            0.0767351157605623
+          ],
+          "asset": null,
+          "link": {
+            "title": "dai forma al tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 518394939260499
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10.132714515607544,
+            -2.576209547905339,
+            -17.04966981822456
+          ],
+          "rotation": [
+            -0.14996582275293222,
+            -0.5312781511079587,
+            -0.07640377215058115,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "518438439125500_ANATOMY-A-2.jpg",
+            "id": 518438448964200,
+            "chromaKeyColor": null
+          },
+          "id": 518439693264699
         }
       ]
     },
@@ -1493,6 +1908,60 @@
           "asset": null,
           "link": null,
           "id": 501563872954199
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            7.786388914614909,
+            -3.0802533059561936,
+            -18.162714203596
+          ],
+          "rotation": [
+            -0.1679937123957936,
+            -0.3998926299842582,
+            -0.06592981928308864,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "518605338665800_ddb7155a401093a87475ee1244fc22e2.jpg",
+            "id": 518605357386000,
+            "chromaKeyColor": null
+          },
+          "id": 518606902272800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501044807833700,
+          "position": [
+            0.9757015971035043,
+            -0.15840342586319162,
+            0.15137618070381903
+          ],
+          "asset": null,
+          "link": {
+            "title": "dai vita al tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 518653129825799
         }
       ]
     },
@@ -1534,6 +2003,59 @@
           "asset": null,
           "link": null,
           "id": 501582088325399
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            9.50280541764539,
+            -2.6890842851336454,
+            -17.39153572580112
+          ],
+          "rotation": [
+            -0.15340547663694798,
+            -0.4951234398786058,
+            -0.07333457922798578,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "518676744030699_infovideo2.mp4",
+            "id": 518677392651799
+          },
+          "id": 518678253083099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501055827067000,
+          "position": [
+            0.9115947011797237,
+            -0.15674148558936216,
+            0.3800357976247633
+          ],
+          "asset": null,
+          "link": {
+            "title": "dai forma al tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 518725499029200
         }
       ]
     },
@@ -1575,6 +2097,60 @@
           "asset": null,
           "link": null,
           "id": 501598500643499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501069068058899,
+          "position": [
+            0.985076926325431,
+            -0.11442631777918198,
+            0.12856930823777146
+          ],
+          "asset": null,
+          "link": {
+            "title": "dai forma al tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 518772586198100
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            13.309613668250025,
+            -2.4183415368072327,
+            -14.731117004941785
+          ],
+          "rotation": [
+            -0.16271415022687355,
+            -0.7281376226992176,
+            -0.10881742983855947,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            10,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "518781662038299_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long.jpg",
+            "id": 518781671687800,
+            "chromaKeyColor": null
+          },
+          "id": 518783770315800
         }
       ]
     },
@@ -1616,6 +2192,91 @@
           "asset": null,
           "link": null,
           "id": 501615427678099
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            14.2592880398749,
+            -2.048716265947346,
+            13.87355276263162
+          ],
+          "rotation": [
+            -2.9949815940055755,
+            -0.7937167856653059,
+            -3.0366951982771786,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "518857885550599_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
+            "id": 518857901216400
+          },
+          "id": 518859778947300
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            8.59008773516104,
+            -3.1144803515371713,
+            -17.79073930004385
+          ],
+          "rotation": [
+            -0.1733057115896201,
+            -0.4439438927564923,
+            -0.07504863053698874,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "518885743124900_infovideo2.mp4",
+            "id": 518885898536000
+          },
+          "id": 518886005488100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501079787691100,
+          "position": [
+            0.9872887186336065,
+            -0.14913921410240993,
+            -0.05494070326931587
+          ],
+          "asset": null,
+          "link": {
+            "title": "dai forma al tuo stile..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 518915961852300
         }
       ]
     },
@@ -1657,6 +2318,59 @@
           "asset": null,
           "link": null,
           "id": 501119980945699
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.44235929926746,
+            -1.2727075287367766,
+            4.51385427594699
+          ],
+          "rotation": [
+            -2.8667712324723813,
+            -1.334100001932961,
+            -2.8740686338771484,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "518932199530400_infovideo2.mp4",
+            "id": 518932379829100
+          },
+          "id": 518932770140300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Collezione Donna 2020",
+          "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
+          "viewId": 501098157690800,
+          "position": [
+            0.7539219016420794,
+            -0.42529873737164403,
+            -0.500722228600325
+          ],
+          "asset": null,
+          "link": {
+            "title": "dai forma al tuo look..",
+            "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
+            "target": "_blank"
+          },
+          "id": 518976174336700
         }
       ]
     }
@@ -2135,6 +2849,151 @@
       "file": "publisherStream",
       "id": 512211995771000,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "514298248196500_ANATOMY-A-2.jpg",
+      "id": 514298303745200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "514510765163600_ddb7155a401093a87475ee1244fc22e2.jpg",
+      "id": 514510791948800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "514654221587099_infovideo.mp4",
+      "id": 514654707333700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "514848614541100_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long.jpg",
+      "id": 514848635449200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "515032324211800_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
+      "id": 515032344926100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "515100445148600_infovideo.mp4",
+      "id": 515100520653300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "515365193890200_infovideo2.mp4",
+      "id": 515365234089400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "516393511668800_lavagna.jpg",
+      "id": 516393556246500
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 516468203393499,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "518438439125500_ANATOMY-A-2.jpg",
+      "id": 518438448964200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "518605338665800_ddb7155a401093a87475ee1244fc22e2.jpg",
+      "id": 518605357386000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "518676744030699_infovideo2.mp4",
+      "id": 518677392651799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "518781662038299_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long.jpg",
+      "id": 518781671687800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "518857885550599_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
+      "id": 518857901216400
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "518885743124900_infovideo2.mp4",
+      "id": 518885898536000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "518932199530400_infovideo2.mp4",
+      "id": 518932379829100
     }
   ],
   "users": [
