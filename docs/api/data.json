@@ -233,6 +233,23 @@
           "asset": null,
           "link": null,
           "id": 1113473070834799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Lab",
+          "abstract": null,
+          "viewId": 494049323116800,
+          "position": [
+            -0.9336835290865422,
+            -0.07128098014396227,
+            0.35093316939584995
+          ],
+          "asset": null,
+          "link": null,
+          "id": 494160432389700
         }
       ],
       "hidden": null
@@ -2789,12 +2806,12 @@
           ],
           "asset": {
             "type": {
-              "id": 2,
-              "name": "video"
+              "id": 4,
+              "name": "publisher-stream"
             },
-            "folder": "/uploads/",
-            "file": "503359500357500_websolute.mp4",
-            "id": 503359776884900,
+            "folder": "",
+            "file": "publisherStream",
+            "id": 493815820327000,
             "chromaKeyColor": null
           },
           "id": 503361976257400
@@ -4093,8 +4110,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1036704882249599_greenscreen_boy.mp4",
-            "id": 1036704911076000,
+            "file": "494479339889700_greenscreen_boy2.mp4",
+            "id": 494479584655899,
             "chromaKeyColor": [
               0,
               1,
@@ -4222,6 +4239,129 @@
           "link": null,
           "id": 1113311771334500,
           "keepOrientation": null
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video Expo",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "493984669507699_1.mp4",
+        "id": 493986922923599
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 493990083977500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            -0.8487620712723277,
+            -0.45864899668918335,
+            0.2631426309162267
+          ],
+          "asset": null,
+          "link": null,
+          "id": 494011660065699
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video - Lab",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "494047324414400_2.mp4",
+        "id": 494048069090999
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 494049323116800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9201115332237139,
+            -0.3915394263102343,
+            -0.009573091107829891
+          ],
+          "asset": null,
+          "link": null,
+          "id": 494085639078100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video Tour",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "494118201075300_3.mp4",
+        "id": 494118993863499
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 494120281561000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9113490081026582,
+            -0.4086708989200375,
+            -0.049306001725851596
+          ],
+          "asset": null,
+          "link": null,
+          "id": 494133380173200
         }
       ]
     }
@@ -4359,6 +4499,27 @@
       "viewId": 1113251419241600,
       "name": "Fabric",
       "order": 30
+    },
+    {
+      "id": 494179989863300,
+      "parentId": 513946905350299,
+      "viewId": 493990083977500,
+      "name": "Expo",
+      "order": 40
+    },
+    {
+      "id": 494185345069400,
+      "parentId": 513946905350299,
+      "viewId": 494120281561000,
+      "name": "Tour",
+      "order": 50
+    },
+    {
+      "id": 494205689392700,
+      "parentId": 513946905350299,
+      "viewId": 494049323116800,
+      "name": "Lab",
+      "order": 60
     },
     {
       "id": 514006762002499,
@@ -5186,6 +5347,57 @@
       "folder": "/uploads/",
       "file": "1113247261157000_Orogel1.mp4",
       "id": 1113248087868399
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 493815820327000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "493984669507699_1.mp4",
+      "id": 493986922923599
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "494047324414400_2.mp4",
+      "id": 494048069090999
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "494118201075300_3.mp4",
+      "id": 494118993863499
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "494479339889700_greenscreen_boy2.mp4",
+      "id": 494479584655899,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
     }
   ],
   "users": [
