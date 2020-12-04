@@ -454,8 +454,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1191521744348700_office.jpg",
-        "id": 1191521957608300
+        "file": "595057513066100_office_dark.jpg",
+        "id": 595057634810800
       },
       "orientation": {
         "latitude": -10.854056915830045,
@@ -470,57 +470,19 @@
             "name": "plane"
           },
           "position": [
-            16.333806722899144,
-            -0.6790784590030351,
-            8.42232376287306
+            21.5,
+            -4.1,
+            -5.854357697389709
           ],
           "rotation": [
-            -3.084771902264484,
-            -1.6237197551196585,
-            -3.0900639661613267,
+            -0.5813692389556724,
+            -1.2609065850398862,
+            -0.5712800113921457,
             "XYZ"
           ],
           "scale": [
-            9,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
-            },
-            "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 511373910307800,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ],
-            "index": 0
-          },
-          "id": 406800844609299
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            16.899999999999995,
-            -0.8999999999999999,
-            -10.7
-          ],
-          "rotation": [
-            -0.047578378688477495,
-            -1.542520121771438,
-            -0.04052343772681413,
-            "XYZ"
-          ],
-          "scale": [
-            9,
-            6,
+            7,
+            4.8,
             1
           ],
           "asset": {
@@ -530,48 +492,10 @@
             },
             "folder": "",
             "file": "publisherStream",
-            "id": 406936684125500,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ]
+            "id": 595121345079100,
+            "chromaKeyColor": null
           },
-          "id": 406911998685800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 338065166299600,
-          "position": [
-            0.9611185402197283,
-            0.22545421423530915,
-            -0.15944136517678836
-          ],
-          "asset": null,
-          "id": 1010352144790299,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "3D ",
-          "abstract": null,
-          "viewId": 337129519224500,
-          "position": [
-            0.8951932076461183,
-            -0.44477996714440377,
-            -0.028282535446404394
-          ],
-          "asset": null,
-          "id": 1010381267974300,
-          "keepOrientation": null
+          "id": 595115093509400
         },
         {
           "type": {
@@ -579,32 +503,67 @@
             "name": "plane"
           },
           "position": [
-            7.765869016304463,
-            4.805988601329984,
-            17.793081576429888
+            8.797319847858017,
+            -0.44420961605051457,
+            17.758087433043727
           ],
           "rotation": [
-            2.87778356885205,
-            -0.39877901517162184,
-            3.037094938859981,
+            -3.1278414980164966,
+            -0.0066053831311385335,
+            -3.1352686504709197,
             "XYZ"
           ],
           "scale": [
-            12,
-            9,
+            13,
+            8,
             1
           ],
           "asset": {
             "type": {
-              "id": 1,
-              "name": "image"
+              "id": 5,
+              "name": "next-attendee-stream"
             },
-            "folder": "/uploads/",
-            "file": "512010559424300_lavagna.jpg",
-            "id": 512010596580499,
-            "chromaKeyColor": null
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 595198805589300,
+            "chromaKeyColor": null,
+            "index": 0
           },
-          "id": 512014421844900
+          "id": 595187295984100
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            21.33995061004316,
+            -4.100000000000005,
+            5
+          ],
+          "rotation": [
+            -2.566,
+            -1.2764691094822895,
+            -2.586022669543313,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            4.8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 595459761248000,
+            "chromaKeyColor": null,
+            "index": 1
+          },
+          "id": 595393831847099
         },
         {
           "type": {
@@ -613,83 +572,18 @@
           },
           "position": [
             7.6000000000000005,
-            4.7,
-            17.4
+            2,
+            -19.000226929224635
           ],
           "rotation": [
-            2.86,
-            -0.38639030906459954,
-            3.0283204825660754,
+            0.02233128273750267,
+            0.004733537400283535,
+            0.002546707480056705,
             "XYZ"
           ],
           "scale": [
-            11,
-            8,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 4,
-              "name": "publisher-stream"
-            },
-            "folder": "",
-            "file": "publisherStream",
-            "id": 512211995771000,
-            "chromaKeyColor": null
-          },
-          "id": 512078352486100
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            1.1688675388759615,
-            3.1189516558062174,
-            -19.72069697666149
-          ],
-          "rotation": [
-            0.15685702736171572,
-            -0.0584766983274291,
-            0.00924292263056885,
-            "XYZ"
-          ],
-          "scale": [
-            12,
-            6.75,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "516393511668800_lavagna.jpg",
-            "id": 516393556246500
-          },
-          "id": 516411325904700
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            1.2174503241412018,
-            3.1,
-            -19.693063659492605
-          ],
-          "rotation": [
-            0.174,
-            -0.02087403206438507,
-            0.0036729296544629115,
-            "XYZ"
-          ],
-          "scale": [
-            11,
-            6,
+            15.5,
+            8.5,
             1
           ],
           "asset": {
@@ -699,11 +593,11 @@
             },
             "folder": "",
             "file": "nextAttendeeStream",
-            "id": 516468203393499,
+            "id": 595663310605300,
             "chromaKeyColor": null,
-            "index": 1
+            "index": 2
           },
-          "id": 516449611553600
+          "id": 595497438718400
         }
       ],
       "hidden": null
@@ -2995,6 +2889,55 @@
       "folder": "/uploads/",
       "file": "518932199530400_infovideo2.mp4",
       "id": 518932379829100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "595057513066100_office_dark.jpg",
+      "id": 595057634810800
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 595121345079100,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 595198805589300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 595459761248000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 595663310605300,
+      "chromaKeyColor": null
     }
   ],
   "users": [
