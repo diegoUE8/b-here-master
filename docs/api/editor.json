@@ -1929,39 +1929,6 @@
         },
         {
           "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            7.786388914614909,
-            -3.0802533059561936,
-            -18.162714203596
-          ],
-          "rotation": [
-            -0.1679937123957936,
-            -0.3998926299842582,
-            -0.06592981928308864,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            12,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "518605338665800_ddb7155a401093a87475ee1244fc22e2.jpg",
-            "id": 518605357386000,
-            "chromaKeyColor": null
-          },
-          "id": 518606902272800
-        },
-        {
-          "type": {
             "id": 1,
             "name": "nav"
           },
@@ -1969,17 +1936,174 @@
           "abstract": "Ogni giorno puoi trovare nuovi modelli dai colori brillanti e dalla fantasie più alla moda. \nIdeali per il tempo libero, per impreziosire le uscite più romantiche o anche per venire in aiuto a chi non sa come abbinare i colori.\nGli outfit selezionati sono la soluzione perfetta per chi è alla ricerca di qualche cosa di diverso; ma che allo stesso tempo possano essere una risposta alla fatidica domanda \"non so cosa mettermi!\" che prima o poi tutte ci facciamo.",
           "viewId": 501044807833700,
           "position": [
-            0.9757015971035043,
-            -0.15840342586319162,
-            0.15137618070381903
+            0.9592131777552302,
+            -0.23120906127842492,
+            0.16264209050385045
           ],
           "asset": null,
           "link": {
-            "title": "dai vita al tuo stile..",
+            "title": "dai forma al tuo stile..",
             "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
             "target": "_blank"
           },
-          "id": 518653129825799
+          "id": 518394939260499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 501044807833700,
+          "position": [
+            0.9305144156056093,
+            -0.3604606371351315,
+            -0.06489261457428223
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "34565818549400_ANATOMY-A-2_dark.jpg",
+            "id": 34565846015400,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 34504304464800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Here at Ever-Pretty, we think fashion should be easy – and fun! – for everyone to access. That’s why we want this page to be a one-stop-shop for all your pressing questions and moments when you need a little inspiration. Check back often for updates on new trends, special occasion wear, and more!",
+          "viewId": 501044807833700,
+          "position": [
+            0.8524586193140937,
+            -0.17660994064633637,
+            -0.4920601906494842
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "34798179322300_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size_dark.jpg",
+            "id": 34798204331700,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 34719730487100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Here at Ever-Pretty",
+          "abstract": "we think fashion should be easy – and fun! – for everyone to access. That’s why we want this page to be a one-stop-shop for all your pressing questions and moments when you need a little inspiration. Check back often for updates on new trends, special occasion wear, and more! ",
+          "viewId": 501044807833700,
+          "position": [
+            0.9454152791221961,
+            -0.09514402738134718,
+            -0.31166899758551153
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "34822781385500_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long_dark.jpg",
+            "id": 34822807268699,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 34833240600699,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Here at Ever-Pretty, we think fashion should be easy – and fun! – for everyone to access. That’s why we want this page to be a one-stop-shop for all your pressing questions and moments when you need a little inspiration. Check back often for updates on new trends, special occasion wear, and more!",
+          "viewId": 501044807833700,
+          "position": [
+            0.8422384484007587,
+            -0.26623997778688,
+            0.46877571424245523
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "35052075085600_ddb7155a401093a87475ee1244fc22e2_dark.jpg",
+            "id": 35052100359300,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 35056582710800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Our Fashion Infographics",
+          "abstract": "Looking for tips and style guides on everything from prom to Derby Day to beach-ready getups? Whether you want to try out a fresh new look or channel some iconic ones for inspiration, you’ve come to the right place! Navigating the fashion world can be tough, and we’re here to help. We’ve been keeping up with all the latest trends so you don’t have to. Check out our selection of infographics full of fun tips and outfit ideas for any occasion.\nThe best part about this page? We’ve made it super easy to share our infographics so that you can show them to friends or put them on your blog or social media pages. Just check out our easy embed code at the bottom of each page to pass it on.",
+          "viewId": 501044807833700,
+          "position": [
+            0.8749370261272031,
+            -0.3156991179435425,
+            0.3671774329140544
+          ],
+          "asset": null,
+          "link": null,
+          "id": 35124470945700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10.99474508148617,
+            -2.813431640145179,
+            -16.468156636350216
+          ],
+          "rotation": [
+            -0.1692071434215133,
+            -0.5820496667048382,
+            -0.09364282425588229,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "35409103424400_infovideo2.mp4",
+            "id": 35409710841900
+          },
+          "id": 35411113758800
         }
       ]
     },
