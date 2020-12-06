@@ -1731,24 +1731,16 @@
         },
         {
           "type": {
-            "id": 2,
-            "name": "plane"
+            "id": 1,
+            "name": "nav"
           },
+          "title": null,
+          "abstract": null,
+          "viewId": 501034260867300,
           "position": [
-            10.132714515607544,
-            -2.576209547905339,
-            -17.04966981822456
-          ],
-          "rotation": [
-            -0.14996582275293222,
-            -0.5312781511079587,
-            -0.07640377215058115,
-            "XYZ"
-          ],
-          "scale": [
-            9.5,
-            12,
-            1
+            0.8928093501481854,
+            -0.36325352752462814,
+            0.2663425220066991
           ],
           "asset": {
             "type": {
@@ -1756,11 +1748,143 @@
               "name": "image"
             },
             "folder": "/uploads/",
-            "file": "518438439125500_ANATOMY-A-2.jpg",
-            "id": 518438448964200,
+            "file": "34565818549400_ANATOMY-A-2_dark.jpg",
+            "id": 34565846015400,
             "chromaKeyColor": null
           },
-          "id": 518439693264699
+          "link": null,
+          "id": 34504304464800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Here at Ever-Pretty, we think fashion should be easy – and fun! – for everyone to access. That’s why we want this page to be a one-stop-shop for all your pressing questions and moments when you need a little inspiration. Check back often for updates on new trends, special occasion wear, and more!",
+          "viewId": 501034260867300,
+          "position": [
+            0.8720618875798407,
+            -0.09954043033525095,
+            -0.47916569885516463
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "34798179322300_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size_dark.jpg",
+            "id": 34798204331700,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 34719730487100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Here at Ever-Pretty",
+          "abstract": "we think fashion should be easy – and fun! – for everyone to access. That’s why we want this page to be a one-stop-shop for all your pressing questions and moments when you need a little inspiration. Check back often for updates on new trends, special occasion wear, and more! ",
+          "viewId": 501034260867300,
+          "position": [
+            0.9370212608285965,
+            -0.17840714874290603,
+            -0.3002699552612848
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "34822781385500_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long_dark.jpg",
+            "id": 34822807268699,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 34833240600699,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Here at Ever-Pretty, we think fashion should be easy – and fun! – for everyone to access. That’s why we want this page to be a one-stop-shop for all your pressing questions and moments when you need a little inspiration. Check back often for updates on new trends, special occasion wear, and more!",
+          "viewId": 501034260867300,
+          "position": [
+            0.8268659063701175,
+            -0.21917844793881272,
+            0.5179320233793787
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "35052075085600_ddb7155a401093a87475ee1244fc22e2_dark.jpg",
+            "id": 35052100359300,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 35056582710800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Our Fashion Infographics",
+          "abstract": "Looking for tips and style guides on everything from prom to Derby Day to beach-ready getups? Whether you want to try out a fresh new look or channel some iconic ones for inspiration, you’ve come to the right place! Navigating the fashion world can be tough, and we’re here to help. We’ve been keeping up with all the latest trends so you don’t have to. Check out our selection of infographics full of fun tips and outfit ideas for any occasion.\nThe best part about this page? We’ve made it super easy to share our infographics so that you can show them to friends or put them on your blog or social media pages. Just check out our easy embed code at the bottom of each page to pass it on.",
+          "viewId": 501034260867300,
+          "position": [
+            0.9011278367269204,
+            -0.12487781839907386,
+            0.4151796627337959
+          ],
+          "asset": null,
+          "link": null,
+          "id": 35124470945700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10.99474508148617,
+            -2.813431640145179,
+            -16.468156636350216
+          ],
+          "rotation": [
+            -0.1692071434215133,
+            -0.5820496667048382,
+            -0.09364282425588229,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "35409103424400_infovideo2.mp4",
+            "id": 35409710841900
+          },
+          "id": 35411113758800
         }
       ]
     },
@@ -2834,7 +2958,8 @@
       },
       "folder": "/uploads/",
       "file": "518438439125500_ANATOMY-A-2.jpg",
-      "id": 518438448964200
+      "id": 518438448964200,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -2938,6 +3063,80 @@
       "file": "nextAttendeeStream",
       "id": 595663310605300,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "34118693301900_ANATOMY-A-2.jpg",
+      "id": 34118728848900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "34502276694399_ANATOMY-A-2_dark.jpg",
+      "id": 34502310367200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "34565818549400_ANATOMY-A-2_dark.jpg",
+      "id": 34565846015400,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "34717525810100_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size_dark.jpg",
+      "id": 34717561065900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "34798179322300_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size_dark.jpg",
+      "id": 34798204331700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "34822781385500_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long_dark.jpg",
+      "id": 34822807268699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "35052075085600_ddb7155a401093a87475ee1244fc22e2_dark.jpg",
+      "id": 35052100359300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "35409103424400_infovideo2.mp4",
+      "id": 35409710841900
     }
   ],
   "users": [
