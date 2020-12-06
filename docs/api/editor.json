@@ -315,10 +315,67 @@
           "name": "image"
         },
         "folder": "/textures/waiting-room/",
-        "file": "waiting-room.jpg"
+        "file": "sfondo.jpg"
       },
-      "zoom": 75,
+      "zoom": 65,
       "id": 180117092208199,
+      "items": [
+        {
+          "id": 30710,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/",
+            "file": "city7.glb"
+          }
+        }
+      ],
+      "orientation": {
+        "latitude": 15,
+        "longitude": 100
+      },
+      "hidden": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "City1",
+      "likes": 172,
+      "liked": false,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "city1.usdz"
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "city1.glb"
+        }
+      },
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/waiting-room/",
+        "file": "sfondo.jpg"
+      },
+      "zoom": 65,
+      "id": 180117093208199,
       "items": [
         {
           "id": 30810,
@@ -330,30 +387,127 @@
           "abstract": "Abstract",
           "asset": {
             "folder": "/models/",
-            "file": "city7.glb"
+            "file": "city1.glb"
           }
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Welcome Room",
-          "abstract": null,
-          "viewId": 376789637631099,
-          "position": [
-            0.04611846662866681,
-            -0.18375088248781757,
-            -0.9818903707750519
-          ],
-          "asset": null,
-          "link": null,
-          "id": 507373366727100
         }
       ],
       "orientation": {
         "latitude": 15,
-        "longitude": 125
+        "longitude": 100
+      },
+      "hidden": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "City3",
+      "likes": 172,
+      "liked": false,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "city3.usdz"
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "city3.glb"
+        }
+      },
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/waiting-room/",
+        "file": "sfondo.jpg"
+      },
+      "zoom": 65,
+      "id": 180117094208199,
+      "items": [
+        {
+          "id": 30910,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/",
+            "file": "city3.glb"
+          }
+        }
+      ],
+      "orientation": {
+        "latitude": 15,
+        "longitude": 100
+      },
+      "hidden": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "model"
+      },
+      "name": "City5",
+      "likes": 172,
+      "liked": false,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "city5.usdz"
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/models/",
+          "file": "city5.glb"
+        }
+      },
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/textures/waiting-room/",
+        "file": "sfondo.jpg"
+      },
+      "zoom": 65,
+      "id": 180117095208199,
+      "items": [
+        {
+          "id": 31110,
+          "type": {
+            "id": 4,
+            "name": "gltf"
+          },
+          "title": "Model",
+          "abstract": "Abstract",
+          "asset": {
+            "folder": "/models/",
+            "file": "city5.glb"
+          }
+        }
+      ],
+      "orientation": {
+        "latitude": 15,
+        "longitude": 100
       },
       "hidden": false
     },
@@ -911,6 +1065,33 @@
           "asset": null,
           "id": 460695533393399,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "PVC",
+          "abstract": "pvc",
+          "viewId": 460002983154599,
+          "position": [
+            0.9072523812117076,
+            -0.345297156900481,
+            -0.2401311937715108
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "38679236691900_grafica_dark.jpg",
+            "id": 38679283160800,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 38611355922300,
+          "keepOrientation": null
         }
       ],
       "hidden": true
@@ -1197,12 +1378,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "505403415463299_360_3.jpg",
-        "id": 505403700962100
+        "file": "36178062783199_360_city7.jpg",
+        "id": 36178226900700
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -1.2109637281226293,
+        "longitude": 359.93477356550403
       },
       "zoom": 75,
       "id": 343790068431900,
@@ -1221,8 +1402,8 @@
             -0.016069212314150285
           ],
           "asset": null,
-          "link": null,
-          "id": 505821066574900
+          "id": 505821066574900,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -1233,13 +1414,73 @@
           "abstract": null,
           "viewId": 180117092208199,
           "position": [
-            0.1817929813299471,
-            -0.4462968948357039,
-            -0.8762250815853071
+            0.10207734978116761,
+            -0.3796331943785912,
+            -0.9194883644655651
+          ],
+          "asset": null,
+          "id": 505839869664500,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "City 1 - dettagli",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "36237155757299_360_city1.jpg",
+        "id": 36237200873400
+      },
+      "orientation": {
+        "latitude": -4.4,
+        "longitude": 0.1
+      },
+      "zoom": 75,
+      "id": 36239239323700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117092208199,
+          "position": [
+            0.10180473477838115,
+            -0.38013980859403734,
+            -0.9193092634683891
           ],
           "asset": null,
           "link": null,
-          "id": 505839869664500
+          "id": 36291858611700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8434716387988248,
+            -0.537157943372146,
+            0.004115630478013887
+          ],
+          "asset": null,
+          "link": null,
+          "id": 36317490376000
         }
       ],
       "hidden": null
@@ -1786,6 +2027,52 @@
       "folder": "/uploads/",
       "file": "505403415463299_360_3.jpg",
       "id": 505403700962100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "36178062783199_360_city7.jpg",
+      "id": 36178226900700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "36237155757299_360_city1.jpg",
+      "id": 36237200873400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "37788393982900_PVC Italia_291019_web_Pagina_11.jpg",
+      "id": 37788413202500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "38596034028000_grafica_dark.jpg",
+      "id": 38596053607300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "38679236691900_grafica_dark.jpg",
+      "id": 38679283160800,
+      "chromaKeyColor": null
     }
   ],
   "users": [
