@@ -69,7 +69,7 @@
           },
           "title": "Tour House",
           "abstract": null,
-          "viewId": 459933612682400,
+          "viewId": 101028713006200,
           "position": [
             0.09490218840045289,
             -0.06120628117720767,
@@ -84,30 +84,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Lab",
-          "abstract": null,
-          "viewId": 343790068431900,
-          "position": [
-            -0.6773230480145557,
-            -0.03874891753135908,
-            0.7346645561196075
-          ],
-          "asset": null,
-          "id": 875803363738099,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
           "title": "Cinema",
           "abstract": null,
           "viewId": 376822678396500,
           "position": [
-            -0.9978927161233239,
-            -0.027586729339037257,
-            0.05872903432196085
+            -0.9963304902360907,
+            -0.06601841613358903,
+            0.05447130397855086
           ],
           "asset": null,
           "id": 875817081900200,
@@ -480,6 +463,23 @@
             "folder": "/models/",
             "file": "city3.glb"
           }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            0.4386283957944818,
+            -0.47975657587593956,
+            -0.7598939125342123
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103807274318000
         }
       ],
       "orientation": {
@@ -537,6 +537,23 @@
             "folder": "/models/",
             "file": "city5.glb"
           }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            0.4799638878840952,
+            -0.4556679769112039,
+            -0.7496675003925635
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104119186366900
         }
       ],
       "orientation": {
@@ -1227,6 +1244,91 @@
           "asset": null,
           "link": null,
           "id": 101770713831800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 7",
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.341370267751395,
+            -0.05969215222745975,
+            -0.9380315491804071
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104561838915399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 3",
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9950151899502099,
+            -0.09248592813960271,
+            0.037297786321766
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104584480068800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 1",
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            0.97166787354546,
+            -0.0734504745452228,
+            0.22464766036779835
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104600678024700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 3",
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            0.3611236273641528,
+            -0.09964133401082743,
+            0.9271792331129399
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104617607751199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 5",
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            0.04567206157712972,
+            -0.07646667569001259,
+            0.9960255570517321
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104632519389200
         }
       ]
     },
@@ -1670,7 +1772,77 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101203645959499
+      "id": 101203645959499,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 7",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101203645959499,
+          "position": [
+            0.9683767507306512,
+            -0.24942813792073057,
+            0.005663272706075582
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103716256909500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117094208199,
+          "position": [
+            0.9415026617428565,
+            -0.3370017463328424,
+            0.0016002811411761693
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103786841553300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            -0.1102697123758528,
+            -0.35642652519747137,
+            0.9277934698348567
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103826745043399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.3560933587284405,
+            -0.34708630557617576,
+            -0.8675993409120247
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103839481501700
+        }
+      ]
     },
     {
       "type": {
@@ -1692,7 +1864,94 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101245003287599
+      "id": 101245003287599,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 5",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101245003287599,
+          "position": [
+            0.997930702970181,
+            -0.01564710953526083,
+            0.06236569596045357
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103868673319000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117095208199,
+          "position": [
+            0.9908080514792492,
+            -0.11809909972634537,
+            0.06596974888325723
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103895220297800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Notte",
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            0.960481713606048,
+            -0.26881769252877735,
+            0.07219367016500434
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103948676968000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            -0.7446946971457586,
+            -0.1067042449995668,
+            -0.6588201667693991
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103967528742999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9422451590299932,
+            -0.2868671762685062,
+            0.17286203592540714
+          ],
+          "asset": null,
+          "link": null,
+          "id": 103975167966500
+        }
+      ]
     },
     {
       "type": {
@@ -1714,7 +1973,77 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101260600040800
+      "id": 101260600040800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Bagno",
+          "abstract": null,
+          "viewId": 101302991658300,
+          "position": [
+            0.31976860390982037,
+            -0.15742729110046147,
+            -0.9343257932703855
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104341464360100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            0.031343667001755816,
+            -0.1656144908990257,
+            -0.9856923530915411
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104349827103199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101282744228800,
+          "position": [
+            0.924265960967517,
+            -0.37320769137293974,
+            0.08030225710945472
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104365607700700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.9801479233901368,
+            -0.17983065444730853,
+            -0.08349241878790724
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104375208178800
+        }
+      ]
     },
     {
       "type": {
@@ -1736,7 +2065,94 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101282744228800
+      "id": 101282744228800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 7",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101282744228800,
+          "position": [
+            0.9396811214733833,
+            -0.12416407014214727,
+            0.3187203690262992
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104402878282700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117092208199,
+          "position": [
+            0.9122269962061084,
+            -0.12812928618983477,
+            -0.3891333876876466
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104416359071300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Infografiche - dettagli",
+          "abstract": null,
+          "viewId": 343790068431900,
+          "position": [
+            0.9190223336929377,
+            -0.014342638168682137,
+            -0.3939444616998045
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104444563596400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            0.04226828565734221,
+            -0.4439177164626722,
+            0.8950700827522702
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104453524241900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.011463295938893824,
+            -0.13473220626805257,
+            0.9908157373802458
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104461289818199
+        }
+      ]
     },
     {
       "type": {
@@ -1758,7 +2174,43 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101302991658300
+      "id": 101302991658300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Firenze",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101302991658300,
+          "position": [
+            0.962114855229116,
+            0.1711727974704309,
+            0.21221422844287313
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104485404698799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            -0.9407455775379148,
+            -0.30311525816367724,
+            0.15204900069129965
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104497484412700
+        }
+      ]
     },
     {
       "type": {
@@ -1780,7 +2232,111 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101322525583300
+      "id": 101322525583300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Giorno",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            0.36457436542894467,
+            -0.16590269581765893,
+            -0.9162760651640508
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104005663372999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            0.06699746074427536,
+            -0.1829021464028053,
+            -0.9808456275556647
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104019193454700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            -0.6624149725522731,
+            -0.1480670867121093,
+            -0.7343585922226007
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104033811218499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 5",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101322525583300,
+          "position": [
+            0.9696949745035588,
+            -0.24399949193339168,
+            -0.01248616669715928
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104059222038200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117095208199,
+          "position": [
+            0.9467535698429415,
+            -0.3214526309454898,
+            -0.018052258802410664
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104073384442600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101343185766000,
+          "position": [
+            -0.7097540172032843,
+            -0.3073605106271972,
+            0.6338601987589917
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104134278476100
+        }
+      ]
     },
     {
       "type": {
@@ -1802,7 +2358,111 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101343185766000
+      "id": 101343185766000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 1",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101343185766000,
+          "position": [
+            0.9732771541505555,
+            -0.05569432393119339,
+            0.22277729572477356
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104168917913000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Infografiche Dettagli",
+          "abstract": null,
+          "viewId": 36239239323700,
+          "position": [
+            0.9673457806208837,
+            -0.13989695432809465,
+            0.2113551108553947
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104190679939200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 180117093208199,
+          "position": [
+            0.9479314482782921,
+            -0.2436046659884924,
+            0.20514077135873024
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104214508570500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            -0.8777636788368827,
+            -0.2793226029900949,
+            0.38924260760299567
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104223537049099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            -0.8125820650077946,
+            -0.4445852135028393,
+            -0.37690101560264205
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104230584849900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Giorno",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            -0.9895582445588527,
+            -0.1112985417967073,
+            -0.09158119468279885
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104244856968600
+        }
+      ]
     },
     {
       "type": {
@@ -1824,10 +2484,131 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 101358797035400
+      "id": 101358797035400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Firenze",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101358797035400,
+          "position": [
+            0.9870990697837058,
+            -0.05032323368721362,
+            -0.15199670583076802
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104289369700300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            -0.798553797990432,
+            -0.3475292540745741,
+            -0.49146235794557697
+          ],
+          "asset": null,
+          "link": null,
+          "id": 104302272337199
+        }
+      ]
     }
   ],
-  "menu": [],
+  "menu": [
+    {
+      "id": 104641661182000,
+      "parentId": null,
+      "viewId": 376789637631099,
+      "name": "Welcome Room",
+      "order": 0
+    },
+    {
+      "id": 104649152411299,
+      "parentId": null,
+      "viewId": 101028713006200,
+      "name": "Tour House",
+      "order": 10
+    },
+    {
+      "id": 104658572721600,
+      "parentId": null,
+      "viewId": 376847775559700,
+      "name": "Gallery",
+      "order": 20
+    },
+    {
+      "id": 104664679585500,
+      "parentId": null,
+      "viewId": 376822678396500,
+      "name": "Cinema",
+      "order": 30
+    },
+    {
+      "id": 104669546516000,
+      "parentId": null,
+      "viewId": null,
+      "name": "Infografiche Dettagli",
+      "order": 40
+    },
+    {
+      "id": 104680643634400,
+      "parentId": 104669546516000,
+      "viewId": 36239239323700,
+      "name": "City 1 - dettagli",
+      "order": 0
+    },
+    {
+      "id": 104681075131199,
+      "parentId": 104669546516000,
+      "viewId": 343790068431900,
+      "name": "City 7 - dettagli",
+      "order": 10
+    },
+    {
+      "id": 104694395341700,
+      "parentId": null,
+      "viewId": null,
+      "name": "Modelli 3D",
+      "order": 50
+    },
+    {
+      "id": 104701906342599,
+      "parentId": 104694395341700,
+      "viewId": 180117093208199,
+      "name": "City1",
+      "order": 0
+    },
+    {
+      "id": 104702517124200,
+      "parentId": 104694395341700,
+      "viewId": 180117094208199,
+      "name": "City3",
+      "order": 10
+    },
+    {
+      "id": 104702996100600,
+      "parentId": 104694395341700,
+      "viewId": 180117095208199,
+      "name": "City5",
+      "order": 20
+    },
+    {
+      "id": 104703487329999,
+      "parentId": 104694395341700,
+      "viewId": 180117092208199,
+      "name": "City7",
+      "order": 30
+    }
+  ],
   "assets": [
     {
       "type": {
