@@ -244,7 +244,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Reception",
+          "title": "Welcome ",
           "abstract": null,
           "viewId": 338065166299600,
           "position": [
@@ -624,6 +624,24 @@
           },
           "link": null,
           "id": 95244501881700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.09537453528469773,
+            -0.014718483939465435,
+            0.995332640000192
+          ],
+          "asset": null,
+          "link": null,
+          "id": 97324753863099,
           "keepOrientation": null
         }
       ],
