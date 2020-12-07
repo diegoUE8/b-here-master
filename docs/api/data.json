@@ -332,6 +332,23 @@
             "folder": "/models/",
             "file": "city7.glb"
           }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 343790068431900,
+          "position": [
+            0.4959297873768885,
+            -0.43995689426273116,
+            -0.7486598541280319
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101917511830700
         }
       ],
       "orientation": {
@@ -389,6 +406,23 @@
             "folder": "/models/",
             "file": "city1.glb"
           }
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 36239239323700,
+          "position": [
+            0.4657552691392813,
+            -0.4596732774778799,
+            -0.756156403954724
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101975166145500
         }
       ],
       "orientation": {
@@ -880,497 +914,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Tour House",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "459932730745399_Unreal Engine Demo 360 2020.11.05 - 15.26.48.39.jpg",
-        "id": 459933223805399
-      },
-      "orientation": {
-        "latitude": -5.4,
-        "longitude": 354.59999999999997
-      },
-      "zoom": 75,
-      "id": 459933612682400,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459953360470899,
-          "position": [
-            0.9432621058819005,
-            -0.33076132408152426,
-            -0.029215511275339896
-          ],
-          "asset": null,
-          "id": 461923530720700,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Ingresso",
-          "abstract": null,
-          "viewId": 376789637631099,
-          "position": [
-            -0.9992156922401454,
-            -0.005557809697930596,
-            0.039206008881403735
-          ],
-          "asset": null,
-          "id": 522857120997299,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": false
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2 - 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "459951575874400_Unreal Engine Demo 360 2020.11.05 - 15.28.28.86.jpg",
-        "id": 459951654370100
-      },
-      "orientation": {
-        "latitude": -17.45058848745083,
-        "longitude": 0.8357766830140632
-      },
-      "zoom": 75,
-      "id": 459953360470899,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460021323556999,
-          "position": [
-            -0.16226219928071642,
-            -0.46098348917337395,
-            0.8724478215882752
-          ],
-          "asset": null,
-          "id": 460720852752400,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459933612682400,
-          "position": [
-            -0.9444409070215846,
-            -0.32116755548897963,
-            0.06987685200035991
-          ],
-          "asset": null,
-          "id": 460747088603600,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460002983154599,
-          "position": [
-            0.009790341131748917,
-            -0.3074011465332695,
-            -0.9515296549927149
-          ],
-          "asset": null,
-          "id": 460767815659599,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2 - 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "460002360786900_Unreal Engine Demo 360 2020.11.05 - 15.31.29.19.jpg",
-        "id": 460002447870900
-      },
-      "orientation": {
-        "latitude": -6.4,
-        "longitude": 359.1
-      },
-      "zoom": 75,
-      "id": 460002983154599,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459953360470899,
-          "position": [
-            -0.9477365794129969,
-            -0.284422893606595,
-            0.14456484231999037
-          ],
-          "asset": null,
-          "id": 460679436637399,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459933612682400,
-          "position": [
-            -0.643869436775251,
-            -0.2309239972167538,
-            -0.7294561370611381
-          ],
-          "asset": null,
-          "id": 460695533393399,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "PVC",
-          "abstract": "pvc",
-          "viewId": 460002983154599,
-          "position": [
-            0.9072523812117076,
-            -0.345297156900481,
-            -0.2401311937715108
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "38679236691900_grafica_dark.jpg",
-            "id": 38679283160800,
-            "chromaKeyColor": null
-          },
-          "link": null,
-          "id": 38611355922300,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2 - 4",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "460020767175100_Unreal Engine Demo 360 2020.11.05 - 15.34.10.35.jpg",
-        "id": 460020851620800
-      },
-      "orientation": {
-        "latitude": -8.77693325772629,
-        "longitude": 0.057800850576427365
-      },
-      "zoom": 75,
-      "id": 460021323556999,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460041593166500,
-          "position": [
-            0.6729062995137666,
-            -0.34310942082499396,
-            -0.6553419240486804
-          ],
-          "asset": null,
-          "id": 460417097091200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459933612682400,
-          "position": [
-            -0.28207436659596524,
-            -0.3057507212027586,
-            0.9093682137580342
-          ],
-          "asset": null,
-          "id": 460492669880400,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460002983154599,
-          "position": [
-            -0.9413143142629846,
-            -0.23421416386034685,
-            -0.24304544268676512
-          ],
-          "asset": null,
-          "id": 460515817598000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459953360470899,
-          "position": [
-            -0.6737325057316139,
-            -0.5574109086450956,
-            -0.48515728340822606
-          ],
-          "asset": null,
-          "id": 460630295527000,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2 - 5",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "460039946553999_Unreal Engine Demo 360 2020.11.05 - 15.35.01.57.jpg",
-        "id": 460040018746599
-      },
-      "orientation": {
-        "latitude": -5.503574797529802,
-        "longitude": 359.56917107608484
-      },
-      "zoom": 75,
-      "id": 460041593166500,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460058243375399,
-          "position": [
-            0.4894175821495958,
-            -0.389378448052699,
-            0.7802915189048996
-          ],
-          "asset": null,
-          "id": 460363829879200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460021323556999,
-          "position": [
-            -0.48627520646287375,
-            -0.4321420150841948,
-            -0.7594667223640948
-          ],
-          "asset": null,
-          "id": 460389237768000,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2 - 6",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "460057122166499_Unreal Engine Demo 360 2020.11.05 - 15.35.55.31.jpg",
-        "id": 460057237421700
-      },
-      "orientation": {
-        "latitude": -2.4611180931215095,
-        "longitude": 263.0610568714905
-      },
-      "zoom": 75,
-      "id": 460058243375399,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460077386975500,
-          "position": [
-            0.18928060492149024,
-            -0.555157446425867,
-            0.809921639591427
-          ],
-          "asset": null,
-          "id": 460284931396400,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460021323556999,
-          "position": [
-            -0.6898637762573909,
-            -0.2099383753019351,
-            0.6928303174540476
-          ],
-          "asset": null,
-          "id": 460313775319000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460041593166500,
-          "position": [
-            -0.9429267736087076,
-            -0.3050491031505806,
-            -0.13354454043089786
-          ],
-          "asset": null,
-          "id": 460339225717299,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 2 - 7",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "460076360530699_Unreal Engine Demo 360 2020.11.05 - 15.36.39.30.jpg",
-        "id": 460076394746799
-      },
-      "orientation": {
-        "latitude": -1.1255172744256716,
-        "longitude": 358.3015118860999
-      },
-      "zoom": 75,
-      "id": 460077386975500,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 460058243375399,
-          "position": [
-            -0.6625691698841314,
-            -0.45283183578279174,
-            -0.5966116187442545
-          ],
-          "asset": null,
-          "id": 460254904284000,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "City 7 - dettagli",
       "asset": {
         "type": {
@@ -1395,7 +938,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 376789637631099,
+          "viewId": 101149927283600,
           "position": [
             0.8580455949986967,
             -0.5133220600353502,
@@ -1454,7 +997,7 @@
           },
           "title": "Modello 3D",
           "abstract": null,
-          "viewId": 180117092208199,
+          "viewId": 180117093208199,
           "position": [
             0.10180473477838115,
             -0.38013980859403734,
@@ -1472,7 +1015,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 376789637631099,
+          "viewId": 101115292443699,
           "position": [
             0.8434716387988248,
             -0.537157943372146,
@@ -1480,10 +1023,808 @@
           ],
           "asset": null,
           "link": null,
-          "id": 36317490376000
+          "id": 36317490376000,
+          "keepOrientation": null
         }
       ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour House",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101026725671000_1.jpg",
+        "id": 101027066094300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101028713006200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            0.962240207560995,
+            -0.27130919243778223,
+            0.022025100493103883
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101405859494600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            -0.05994995854489604,
+            -0.19636868895831863,
+            0.9786957343665376
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101417709395100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.9955192086785545,
+            -0.09412008370823523,
+            -0.009105767116464755
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101603135187200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 3",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101028713006200,
+          "position": [
+            -0.8466744743336538,
+            -0.5320494870715493,
+            -0.008104185260228844
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101669008665100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101085913889500_2.jpg",
+        "id": 101085972502299
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101097786721600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101115292443699,
+          "position": [
+            0.988162740909367,
+            -0.15318860479085186,
+            0.008224891532394517
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101719340340800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101149927283600,
+          "position": [
+            0.09701833803307312,
+            -0.31186816373654064,
+            -0.9451590821300394
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101730561276600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            0.25905424321346826,
+            -0.3218563700172517,
+            0.9106587594441813
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101750629599000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            0.05434169828323515,
+            -0.246331072643277,
+            0.9676610886452479
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101759670563000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.9592806989917012,
+            -0.28229969127527227,
+            -0.009350125554191005
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101770713831800
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101111326616900_3.jpg",
+        "id": 101111391896800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101115292443699,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Infografica",
+          "abstract": null,
+          "viewId": 36239239323700,
+          "position": [
+            0.9242781162142748,
+            0.03782685439428379,
+            0.3798408784925937
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101800746456000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 1",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101115292443699,
+          "position": [
+            0.9841406719258251,
+            -0.136023225619585,
+            -0.11386316328571335
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101846126276500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9659769983405846,
+            -0.24454144083290152,
+            0.08418979981139431
+          ],
+          "asset": null,
+          "link": null,
+          "id": 101996871224800
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101139886569400_4.jpg",
+        "id": 101139944498500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101149927283600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            -0.2771103491373949,
+            -0.5128713566881776,
+            0.8125102004835257
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102020559401800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101175998344000,
+          "position": [
+            0.9173528393032256,
+            -0.3975077047208396,
+            -0.02124600926951161
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102033066336800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.6223226324944767,
+            -0.20595193789169813,
+            -0.7551809984128299
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102052319664000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9548762430849591,
+            -0.2925366689134071,
+            -0.05131917510055511
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102059909619000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101172631933799_5.jpg",
+        "id": 101172675836900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101175998344000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Infografica",
+          "abstract": null,
+          "viewId": 343790068431900,
+          "position": [
+            0.989493374865401,
+            -0.141644500258087,
+            0.028977519633602542
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102099338139699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 7",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101175998344000,
+          "position": [
+            0.998483041393676,
+            -0.047381407042519946,
+            0.028046716668903966
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102138776503900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101149927283600,
+          "position": [
+            -0.7419920232818482,
+            -0.6160402533708502,
+            -0.2644659592705414
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102228439418400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            -0.7199908648360591,
+            -0.33469330307160844,
+            0.6079420592718027
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102237187788800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.7218504169831768,
+            -0.17466856371088607,
+            -0.6696438369404966
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102245610564399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9659753953756174,
+            -0.23374350940578054,
+            -0.11070459493439999
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102253340928199
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101191157633000_6.jpg",
+        "id": 101191219365200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101191715010900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 7",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101191715010900,
+          "position": [
+            0.9912121180914459,
+            -0.13097308027586965,
+            -0.018563113739887265
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102293784127600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Infografica",
+          "abstract": null,
+          "viewId": 343790068431900,
+          "position": [
+            0.9989618882051687,
+            -0.04053453957758258,
+            -0.020786943373119517
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102335883026800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101175998344000,
+          "position": [
+            -0.2706924341831439,
+            -0.03635567016365825,
+            -0.9619791428731476
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102373544298100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101149927283600,
+          "position": [
+            -0.7172041376632969,
+            -0.6591609244685354,
+            0.22610860349051762
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102382744797100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.29804815728259937,
+            -0.28138151987534643,
+            0.9121358101801984
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102390587233000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.817975838780339,
+            -0.18817000022405334,
+            0.5436060873346442
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102398556810200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101200002104300_7.jpg",
+        "id": 101200074221199
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101203645959499
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 8",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101240964633100_8.jpg",
+        "id": 101241051740100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101245003287599
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 9",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101257370658200_9.jpg",
+        "id": 101257467735999
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101260600040800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 10",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101278993922800_10.jpg",
+        "id": 101279091965799
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101282744228800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 11",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101299473867500_11.jpg",
+        "id": 101299581473500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101302991658300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 12",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101318685539999_12.jpg",
+        "id": 101318770412000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101322525583300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 13",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101339111203700_13.jpg",
+        "id": 101339187405299
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101343185766000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 14",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101357097504700_14.jpg",
+        "id": 101357120729199
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101358797035400
     }
   ],
   "menu": [],
@@ -2073,6 +2414,132 @@
       "file": "38679236691900_grafica_dark.jpg",
       "id": 38679283160800,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101026725671000_1.jpg",
+      "id": 101027066094300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101085913889500_2.jpg",
+      "id": 101085972502299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101111326616900_3.jpg",
+      "id": 101111391896800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101139886569400_4.jpg",
+      "id": 101139944498500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101172631933799_5.jpg",
+      "id": 101172675836900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101191157633000_6.jpg",
+      "id": 101191219365200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101200002104300_7.jpg",
+      "id": 101200074221199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101240964633100_8.jpg",
+      "id": 101241051740100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101257370658200_9.jpg",
+      "id": 101257467735999
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101278993922800_10.jpg",
+      "id": 101279091965799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101299473867500_11.jpg",
+      "id": 101299581473500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101318685539999_12.jpg",
+      "id": 101318770412000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101339111203700_13.jpg",
+      "id": 101339187405299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101357097504700_14.jpg",
+      "id": 101357120729199
     }
   ],
   "users": [
