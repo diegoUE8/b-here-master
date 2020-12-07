@@ -598,6 +598,33 @@
             "index": 2
           },
           "id": 595497438718400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Accedi",
+          "abstract": "connettiti con il tuo telefono..",
+          "viewId": 406765685595300,
+          "position": [
+            0.36739081467807216,
+            -0.15539955123244212,
+            -0.9169923493502756
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "95243282411900_qrcode.png",
+            "id": 95243329446900,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 95244501881700,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -1281,39 +1308,6 @@
           "asset": null,
           "link": null,
           "id": 35124470945700
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            17.594745081486174,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -1503,39 +1497,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.169,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -1725,39 +1686,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -1947,39 +1875,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -2169,39 +2064,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -2611,39 +2473,6 @@
           "asset": null,
           "link": null,
           "id": 35124470945700
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -2831,39 +2660,6 @@
           "asset": null,
           "link": null,
           "id": 35124470945700
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -3053,39 +2849,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.582,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -3275,39 +3038,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -3496,39 +3226,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            14.8,
-            -2.4,
-            16.899999999999956
-          ],
-          "rotation": [
-            -2.991907470741396,
-            -0.6525232222727747,
-            -3.0502745758797944,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     },
@@ -3718,39 +3415,6 @@
           "link": null,
           "id": 35124470945700,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            10.99474508148617,
-            -2.813431640145179,
-            -16.468156636350216
-          ],
-          "rotation": [
-            -0.1692071434215133,
-            -0.5820496667048382,
-            -0.09364282425588229,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            6,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "35409103424400_infovideo2.mp4",
-            "id": 35409710841900,
-            "chromaKeyColor": null
-          },
-          "id": 35411113758800
         }
       ]
     }
@@ -4498,6 +4162,15 @@
       "folder": "/uploads/",
       "file": "35409103424400_infovideo2.mp4",
       "id": 35409710841900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "95243282411900_qrcode.png",
+      "id": 95243329446900
     }
   ],
   "users": [
