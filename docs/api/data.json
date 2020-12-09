@@ -4197,24 +4197,16 @@
       "username": "publisher",
       "password": "publisher",
       "type": "publisher",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
-    },
-    {
-      "id": "1601892639987",
-      "username": "diego",
-      "password": "diego",
-      "type": "publisher",
-      "firstName": "Mark",
-      "lastName": "Zuckenbergh"
+      "firstName": "Ospitante",
+      "lastName": ""
     },
     {
       "id": "1601892639986",
       "username": "attendee",
       "password": "attendee",
       "type": "attendee",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "Ospite",
+      "lastName": ""
     }
   ]
 }
