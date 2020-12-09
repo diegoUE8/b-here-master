@@ -105,9 +105,9 @@
           "abstract": null,
           "viewId": 337129518224500,
           "position": [
-            0.9984770470422674,
-            0.05075561505047501,
-            0.02162068617324422
+            0.9708115399071372,
+            0.040034419816402926,
+            -0.23647875002438798
           ],
           "asset": null,
           "link": null,
@@ -131,6 +131,146 @@
           "link": null,
           "id": 1193153255270599,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.54189392148138,
+            0.5,
+            1.1999999999999997
+          ],
+          "rotation": [
+            2.7542957598916473,
+            -1.494550516216898,
+            2.755312203067397,
+            "XYZ"
+          ],
+          "scale": [
+            11,
+            6,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "285772098893000_green-screen_girl.mp4",
+            "id": 285772899300800,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 285774086618200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Expo",
+          "abstract": null,
+          "viewId": 289152740688200,
+          "position": [
+            -0.6388725412039656,
+            -0.0714230649525832,
+            -0.765989962002353
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289230958358600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Lab",
+          "abstract": null,
+          "viewId": 289178463479400,
+          "position": [
+            -0.8854940666907579,
+            -0.04199663367637399,
+            -0.46274889585531803
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289285769889700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Circuito",
+          "abstract": null,
+          "viewId": 418395002595300,
+          "position": [
+            -0.6085894864540423,
+            -0.06765662092043852,
+            0.7905956100455105
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289357127428800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dealer Room",
+          "abstract": null,
+          "viewId": 418123251155100,
+          "position": [
+            -0.8649386152075129,
+            -0.052845965676206176,
+            0.4990876634767273
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289370199242900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Tour",
+          "abstract": null,
+          "viewId": 289304215118200,
+          "position": [
+            -0.9552045019164473,
+            -0.028688139295260897,
+            -0.29455279693516345
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289517651683600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Google Map",
+          "abstract": null,
+          "viewId": 289615707641800,
+          "position": [
+            -0.9380324008055239,
+            -0.04774881018866219,
+            0.3432422849309097
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289861101155600
         }
       ],
       "hidden": null
@@ -321,6 +461,159 @@
           },
           "id": 1190890117240900,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Video Yamaha",
+          "abstract": null,
+          "viewId": 286153482868200,
+          "position": [
+            0.933732740354915,
+            -0.14225397209823568,
+            -0.32849197404438246
+          ],
+          "asset": null,
+          "link": null,
+          "id": 286572468123400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Video Yamaha",
+          "abstract": null,
+          "viewId": 286153482868200,
+          "position": [
+            0.7453003109303432,
+            -0.15822280389570034,
+            -0.6476827856709767
+          ],
+          "asset": null,
+          "link": null,
+          "id": 288322825431200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Prenota il Test Drive",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.31091369900681093,
+            0.04067367967218714,
+            -0.9495674402336184
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "288541950006500_plane-logo.jpg",
+            "id": 288541965198199
+          },
+          "link": {
+            "title": "Prenota..",
+            "href": "https://www.yamaha-motor.eu/it/it/book-a-test-ride/",
+            "target": "_blank"
+          },
+          "id": 288560952986500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Prenota il Test Drive",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.9329883148746413,
+            0.03793523737857406,
+            -0.3579018330106852
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "288593943649299_plane-logo.jpg",
+            "id": 288593956894300
+          },
+          "link": {
+            "title": "Prenota..",
+            "href": "https://www.yamaha-motor.eu/it/it/book-a-test-ride/",
+            "target": "_blank"
+          },
+          "id": 288614140911500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dealer Locator",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.8724340424972465,
+            -0.020357221290179695,
+            0.4883077155168197
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "288884612294400_dealerlocator.jpg",
+            "id": 288884635672300,
+            "chromaKeyColor": null
+          },
+          "link": {
+            "title": "Cercaci..",
+            "href": "https://www.yamaha-motor.eu/kv/kv/dealer-locator/",
+            "target": "_blank"
+          },
+          "id": 288870419295500,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Contact Us",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.5178690424045159,
+            -0.013019062790996573,
+            0.8553608355092451
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "289089080348100_chat.jpg",
+            "id": 289089098035900
+          },
+          "link": {
+            "title": "Contattaci..",
+            "href": "https://global.yamaha-motor.com/faq/#_ga=2.121983119.549095223.1607529046-1268848431.1607529046",
+            "target": "_blank"
+          },
+          "id": 289103089301600
         }
       ],
       "hidden": null
@@ -429,8 +722,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1191521744348700_office.jpg",
-        "id": 1191521957608300
+        "file": "288039108137100_office_dark.jpg",
+        "id": 288039311258700
       },
       "orientation": {
         "latitude": -10.854056915830045,
@@ -445,19 +738,19 @@
             "name": "plane"
           },
           "position": [
-            16.333806722899144,
-            -0.6790784590030351,
-            8.42232376287306
+            19.296354754731208,
+            -3.7611133773289467,
+            4.602148902077878
           ],
           "rotation": [
-            -3.084771902264484,
-            -1.6237197551196585,
-            -3.0900639661613267,
+            -2.4966459769621845,
+            -1.305,
+            -2.5137636233614034,
             "XYZ"
           ],
           "scale": [
-            9,
             6,
+            4.2,
             1
           ],
           "asset": {
@@ -478,19 +771,19 @@
             "name": "plane"
           },
           "position": [
-            16.899999999999995,
-            -0.8999999999999999,
-            -10.7
+            18.97424322389572,
+            -3.7,
+            -5.19862914205828
           ],
           "rotation": [
-            -0.047578378688477495,
-            -1.542520121771438,
-            -0.04052343772681413,
+            -0.5474933269589928,
+            -1.249,
+            -0.5243807310553458,
             "XYZ"
           ],
           "scale": [
-            9,
             6,
+            4.2,
             1
           ],
           "asset": {
@@ -501,11 +794,7 @@
             "folder": "",
             "file": "publisherStream",
             "id": 406936684125500,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ]
+            "chromaKeyColor": null
           },
           "id": 406911998685800
         },
@@ -518,9 +807,9 @@
           "abstract": null,
           "viewId": 337881532453700,
           "position": [
-            0.9611185402197283,
-            0.22545421423530915,
-            -0.15944136517678836
+            -0.10528329896557996,
+            0.00022594721328687736,
+            0.994442243625431
           ],
           "asset": null,
           "id": 1010352144790299,
@@ -535,13 +824,47 @@
           "abstract": null,
           "viewId": 337129518224500,
           "position": [
-            0.8951932076461183,
-            -0.44477996714440377,
-            -0.028282535446404394
+            0.8778942855058154,
+            -0.4784707340490409,
+            -0.019167162930539834
           ],
           "asset": null,
           "id": 1010381267974300,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            8.749837396375396,
+            -0.2761165773820115,
+            18.078275363851375
+          ],
+          "rotation": [
+            -3.126320449558822,
+            -0.04029080165730256,
+            -3.135063495677204,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 288231972835900,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 288212729360500
         }
       ],
       "hidden": null
@@ -765,6 +1088,456 @@
         }
       ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza Video",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "286172976966400_cinema.jpg",
+        "id": 286173005728699
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 286153482868200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back ",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.7811533172645071,
+            -0.018632275102512544,
+            -0.6240611614666952
+          ],
+          "asset": null,
+          "link": null,
+          "id": 286197801781700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.998344533082918,
+            0.1,
+            0
+          ],
+          "rotation": [
+            -1.184263181821823,
+            -1.5579297431159547,
+            -1.1842342780781192,
+            "XYZ"
+          ],
+          "scale": [
+            25,
+            14,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "286225693565800_Yamaha Motor Corporate Profile Video 2020_2.mp4",
+            "id": 286226349456300,
+            "chromaKeyColor": null
+          },
+          "id": 286228042462300
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Expo",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "289148246051700_1.mp4",
+        "id": 289150098277400
+      },
+      "orientation": {
+        "latitude": -7,
+        "longitude": 169.69999999999996
+      },
+      "zoom": 75,
+      "id": 289152740688200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.8498750490649343,
+            -0.448382926585063,
+            0.27688472714089785
+          ],
+          "asset": null,
+          "id": 289251521410700,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Lab",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "289173987089600_2.mp4",
+        "id": 289174903383900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 289178463479400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.910298761216957,
+            -0.41388254067166597,
+            -0.007576797083234363
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289192707565100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "289299638585500_3.mp4",
+        "id": 289300433955499
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 289304215118200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.9153889651819378,
+            -0.3933393920138755,
+            -0.08571560600786654
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289315866352700
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse 0",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "289607308746200_piano0_2.jpg",
+        "id": 289607363639000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 289615707641800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 289666914879200,
+          "position": [
+            0.9858520787136263,
+            -0.12205917651103144,
+            -0.11487922495155926
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289764688015800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.023421318594834695,
+            -0.06766788801672854,
+            0.9974329545220744
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289777649933700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 289646074762400,
+          "position": [
+            -0.9886792748118688,
+            -0.14091616329539097,
+            0.05153568161559646
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289785537217300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "289640074292400_piano0_1b.jpg",
+        "id": 289640162282500
+      },
+      "orientation": {
+        "latitude": -10.9,
+        "longitude": 266.8
+      },
+      "zoom": 75,
+      "id": 289646074762400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 289615707641800,
+          "position": [
+            0.780923249404542,
+            -0.20783588040857107,
+            0.589035758977539
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289811123171700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            0.2631488273362481,
+            -0.029713005411340938,
+            0.9642975847636367
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289824020427000
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "289660930801600_piano0_3schermo.jpg",
+        "id": 289660999454900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 289666914879200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 289684890545000,
+          "position": [
+            0.9860512797292158,
+            -0.1651722537883569,
+            -0.0205182923960694
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289720206265900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 289615707641800,
+          "position": [
+            -0.9482428669335915,
+            -0.14412860234769606,
+            0.2829530195895825
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289731017997099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.8339160804094002,
+            -0.05855812316233528,
+            0.5487758349693685
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289745130237700
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Muse 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "289679395816500_piano0_4.jpg",
+        "id": 289679969884299
+      },
+      "orientation": {
+        "latitude": -3.4000000000000004,
+        "longitude": 91.29999999999995
+      },
+      "zoom": 75,
+      "id": 289684890545000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 289666914879200,
+          "position": [
+            0.013139998391689734,
+            -0.15374679916316317,
+            -0.9880229057007476
+          ],
+          "asset": null,
+          "link": null,
+          "id": 289709458394399
+        }
+      ],
+      "hidden": null
     }
   ],
   "menu": [
@@ -811,25 +1584,46 @@
       "order": 50
     },
     {
-      "id": 1012446292178800,
+      "id": 287791424204100,
       "parentId": null,
-      "viewId": null,
+      "viewId": 418123251155100,
       "name": "Dealer Room",
       "order": 60
     },
     {
-      "id": 1012481567538800,
-      "parentId": 1012446292178800,
-      "viewId": 418123251155100,
+      "id": 287792420153500,
+      "parentId": null,
+      "viewId": 418395002595300,
+      "name": "Circuito ",
+      "order": 70
+    },
+    {
+      "id": 289455990923000,
+      "parentId": null,
+      "viewId": null,
+      "name": "Video 360",
+      "order": 80
+    },
+    {
+      "id": 289466036443399,
+      "parentId": 289455990923000,
+      "viewId": 289152740688200,
       "name": "Expo",
       "order": 0
     },
     {
-      "id": 1012481998011100,
-      "parentId": 1012446292178800,
-      "viewId": 418395002595300,
-      "name": "Circuito ",
+      "id": 289466568364800,
+      "parentId": 289455990923000,
+      "viewId": 289178463479400,
+      "name": "Lab",
       "order": 10
+    },
+    {
+      "id": 289467049925800,
+      "parentId": 289455990923000,
+      "viewId": 289304215118200,
+      "name": "Tour",
+      "order": 20
     }
   ],
   "assets": [
@@ -905,11 +1699,7 @@
       "folder": "",
       "file": "publisherStream",
       "id": 406936684125500,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -1002,6 +1792,193 @@
       "folder": "/uploads/",
       "file": "1193500649925900_Test 360 per visore Heroes Valley-002_1.mp4",
       "id": 1193501384142600
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "285772098893000_green-screen_girl.mp4",
+      "id": 285772899300800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "286135459005100_CINEMA_ipf.jpg",
+      "id": 286135498083899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "286172976966400_cinema.jpg",
+      "id": 286173005728699
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "286225693565800_Yamaha Motor Corporate Profile Video 2020_2.mp4",
+      "id": 286226349456300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "288039108137100_office_dark.jpg",
+      "id": 288039311258700
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 288231972835900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "288539053272300_yamaha-revs-your-heart-11564078308rfvnlgmqdi.png",
+      "id": 288539068927800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "288541950006500_plane-logo.jpg",
+      "id": 288541965198199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "288593943649299_plane-logo.jpg",
+      "id": 288593956894300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "288835505866900_dealerlocator.jpg",
+      "id": 288835544291700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "288884612294400_dealerlocator.jpg",
+      "id": 288884635672300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "289089080348100_chat.jpg",
+      "id": 289089098035900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "289148246051700_1.mp4",
+      "id": 289150098277400
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "289173987089600_2.mp4",
+      "id": 289174903383900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "289299638585500_3.mp4",
+      "id": 289300433955499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "289607308746200_piano0_2.jpg",
+      "id": 289607363639000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "289632361972800_piano-1_1.jpg",
+      "id": 289632414118399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "289640074292400_piano0_1b.jpg",
+      "id": 289640162282500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "289660930801600_piano0_3schermo.jpg",
+      "id": 289660999454900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "289679395816500_piano0_4.jpg",
+      "id": 289679969884299
     }
   ],
   "users": [
@@ -1010,8 +1987,8 @@
       "username": "publisher",
       "password": "publisher",
       "type": "publisher",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "Ospitante",
+      "lastName": ""
     },
     {
       "id": "1601892639987",
@@ -1026,8 +2003,8 @@
       "username": "attendee",
       "password": "attendee",
       "type": "attendee",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "Condivisione",
+      "lastName": "Schermo"
     }
   ]
 }
