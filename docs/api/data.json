@@ -1412,6 +1412,23 @@
           "asset": null,
           "id": 313939089806200,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception ",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.8516000281745468,
+            -0.232996437687737,
+            0.4695636826224273
+          ],
+          "asset": null,
+          "link": null,
+          "id": 6622881616000
         }
       ],
       "hidden": null
@@ -1817,8 +1834,8 @@
               "name": "image"
             },
             "folder": "/uploads/",
-            "file": "95243282411900_qrcode.png",
-            "id": 95243329446900,
+            "file": "6529336183500_code.png",
+            "id": 6529365067199,
             "chromaKeyColor": null
           },
           "link": null,
@@ -7442,6 +7459,40 @@
           "asset": null,
           "id": 503019422526899,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Showroom",
+          "abstract": null,
+          "viewId": 498478142881399,
+          "position": [
+            0.9347656803116914,
+            -0.13873968429573622,
+            -0.32705415899043466
+          ],
+          "asset": null,
+          "link": null,
+          "id": 6734179135500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Backstage VR",
+          "abstract": null,
+          "viewId": 503634164139600,
+          "position": [
+            0.7486708943078315,
+            -0.1435976412757376,
+            -0.647202912104354
+          ],
+          "asset": null,
+          "link": null,
+          "id": 6868366425599
         }
       ],
       "hidden": null
@@ -9145,6 +9196,30 @@
           "id": 494133380173200
         }
       ]
+    },
+    {
+      "id": 50,
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Live 360",
+      "likes": 3,
+      "liked": false,
+      "asset": {
+        "type": {
+          "id": 4,
+          "name": "publisher-stream"
+        },
+        "folder": "",
+        "file": "publisherStream"
+      },
+      "items": [],
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75
     }
   ],
   "menu": [
@@ -9201,21 +9276,21 @@
       "id": 513862283120100,
       "parentId": 513846642724000,
       "viewId": 502924660957900,
-      "name": "Gallery",
+      "name": "Gallery - Standard",
       "order": 0
+    },
+    {
+      "id": 63821252893599,
+      "parentId": 513846642724000,
+      "viewId": 338065166299600,
+      "name": "Gallery - Poltrone",
+      "order": 10
     },
     {
       "id": 513863498165500,
       "parentId": 513846642724000,
       "viewId": 503042843844599,
       "name": "Cinema 360",
-      "order": 10
-    },
-    {
-      "id": 513864036920900,
-      "parentId": 513846642724000,
-      "viewId": 503340859465600,
-      "name": "Cinema Relax",
       "order": 20
     },
     {
@@ -9226,11 +9301,18 @@
       "order": 30
     },
     {
-      "id": 63821252893599,
+      "id": 513864036920900,
       "parentId": 513846642724000,
-      "viewId": 338065166299600,
-      "name": "Gallery - Poltrone",
+      "viewId": 503340859465600,
+      "name": "Cinema Relax",
       "order": 40
+    },
+    {
+      "id": 6785420617299,
+      "parentId": 513846642724000,
+      "viewId": 337929883149900,
+      "name": "Cinema Room",
+      "order": 50
     },
     {
       "id": 513904544668199,
@@ -9259,6 +9341,13 @@
       "viewId": 505820256936299,
       "name": "Studio Old",
       "order": 20
+    },
+    {
+      "id": 5979484252499,
+      "parentId": 513904544668199,
+      "viewId": 50,
+      "name": "Live 360",
+      "order": 30
     },
     {
       "id": 513946905350299,
@@ -10891,6 +10980,16 @@
         1,
         0
       ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "6529336183500_code.png",
+      "id": 6529365067199,
+      "chromaKeyColor": null
     }
   ],
   "users": [
