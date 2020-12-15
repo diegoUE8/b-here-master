@@ -938,12 +938,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "275506052066100_360_city7_2.jpg",
-        "id": 275506093745199
+        "file": "100443556270200_360_city7_loghi.jpg",
+        "id": 100443596437399
       },
       "orientation": {
-        "latitude": -1.2109637281226293,
-        "longitude": 359.93477356550403
+        "latitude": -4.310963728122627,
+        "longitude": 359.7347735655041
       },
       "zoom": 75,
       "id": 343790068431900,
@@ -997,12 +997,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "275636797904199_360_city1_2.jpg",
-        "id": 275636840329899
+        "file": "100324077521100_360_city1_loghi.jpg",
+        "id": 100324261875700
       },
       "orientation": {
         "latitude": -4.4,
-        "longitude": 0.1
+        "longitude": 359.90000000000003
       },
       "zoom": 75,
       "id": 36239239323700,
@@ -1016,9 +1016,9 @@
           "abstract": null,
           "viewId": 180117093208199,
           "position": [
-            0.10180473477838115,
-            -0.38013980859403734,
-            -0.9193092634683891
+            0.4116391177551354,
+            -0.23079787629261336,
+            -0.8816380079332977
           ],
           "asset": null,
           "id": 36291858611700,
@@ -3403,6 +3403,69 @@
       "folder": "/uploads/",
       "file": "276459434419000_7_2.jpg",
       "id": 276459511699699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99360540548900_360_city7_loghi.jpg",
+      "id": 99360666847200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99467755361399_360_city7_loghi.jpg",
+      "id": 99467804691899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99544355577800_360_city7_loghi.jpg",
+      "id": 99544395313100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99560724317100_360_city7_loghi.jpg",
+      "id": 99560784321100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99811457285500_360_city1_loghi.jpg",
+      "id": 99811510517499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "100324077521100_360_city1_loghi.jpg",
+      "id": 100324261875700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "100443556270200_360_city7_loghi.jpg",
+      "id": 100443596437399
     }
   ],
   "users": [
