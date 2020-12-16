@@ -635,15 +635,15 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "City 74 - dettagli pos7 -1",
+      "name": "City 74 - dettagli 7 -1",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "100443556270200_360_city7_loghi.jpg",
-        "id": 100443596437399
+        "file": "186175827342299_360_city7.jpg",
+        "id": 186175971583399
       },
       "orientation": {
         "latitude": -4.310963728122627,
@@ -678,9 +678,9 @@
           "abstract": null,
           "viewId": 180117092208199,
           "position": [
-            0.40932809009772964,
-            -0.23324231435265355,
-            -0.8820705966374591
+            0.3082282660364793,
+            -0.44540232720358675,
+            -0.840602226345954
           ],
           "asset": null,
           "id": 505839869664500,
@@ -694,15 +694,15 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "City 1 - dettagli - 1",
+      "name": "City 74 - dettagli 1 -1",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "100324077521100_360_city1_loghi.jpg",
-        "id": 100324261875700
+        "file": "186228533027600_360_city1.jpg",
+        "id": 186228710591199
       },
       "orientation": {
         "latitude": -4.4,
@@ -2208,15 +2208,15 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Info - City74 - pos1 - 2",
+      "name": "City 74 - dettagli 1 -2",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "175556744239300_360_city1_loghi.jpg",
-        "id": 175556911763199
+        "file": "186265044469100_360_city1.jpg",
+        "id": 186265089662100
       },
       "orientation": {
         "latitude": 0,
@@ -2239,25 +2239,26 @@
             -0.007050524431130745
           ],
           "asset": null,
-          "link": null,
-          "id": 175604526448800
+          "id": 175604526448800,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Info - City74 - pos7 -2",
+      "name": "City 74 - dettagli 7 -2",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "175904823297900_360_city7_loghi.jpg",
-        "id": 175904890021600
+        "file": "186293172593600_360_city7.jpg",
+        "id": 186293237585300
       },
       "orientation": {
         "latitude": 0,
@@ -2280,10 +2281,11 @@
             0.0036619136072830972
           ],
           "asset": null,
-          "link": null,
-          "id": 175939711038299
+          "id": 175939711038299,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -3394,6 +3396,60 @@
       "folder": "/uploads/",
       "file": "183778044615500_City1.glb",
       "id": 183778092631699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "185029254697900_360_city1.jpg",
+      "id": 185029395606099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "185106422018700_360_city7.jpg",
+      "id": 185106468344400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186175827342299_360_city7.jpg",
+      "id": 186175971583399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186228533027600_360_city1.jpg",
+      "id": 186228710591199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186265044469100_360_city1.jpg",
+      "id": 186265089662100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186293172593600_360_city7.jpg",
+      "id": 186293237585300
     }
   ],
   "users": [
