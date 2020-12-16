@@ -4,6 +4,7 @@ export const environmentServed = {
 	channelName: 'BHere',
 	flags: {
 		production: true,
+		useProxy: false,
 		useToken: false,
 		selfService: true,
 		guidedTourRequest: true,
@@ -18,7 +19,7 @@ export const environmentServed = {
 	logo: '/Modules/B-Here/Client/docs/img/logo.png',
 	background: {
 		image: '/Modules/B-Here/Client/docs/img/background.jpg',
-		video: '/Modules/B-Here/Client/docs/img/background2.mp4',
+		video: '/Modules/B-Here/Client/docs/img/background.mp4',
 	},
 	colors: {
 		menuBackground: '#000000',
@@ -29,6 +30,10 @@ export const environmentServed = {
 		menuBackForeground: '#000000',
 		menuBackOverBackground: '#0099ff',
 		menuBackOverForeground: '#ffffff',
+	},
+	editor: {
+		disabledViewTypes: ['waiting-room', 'room-3d'],
+		disabledViewItemTypes: ['texture'],
 	},
 	assets: '/Modules/B-Here/Client/docs/',
 	worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
@@ -58,7 +63,7 @@ export const environmentServed = {
 				'plane': '/template/modules/b-here/plane-modal.cshtml',
 				'curved-plane': '/template/modules/b-here/curved-plane-modal.cshtml',
 				'texture': '/template/modules/b-here/texture-modal.cshtml',
-				'gltf': '/template/modules/b-here/gltf-modal.cshtml',
+				'model': '/template/modules/b-here/item-model-modal.cshtml',
 			},
 			remove: '/template/modules/b-here/remove-modal.cshtml',
 		}

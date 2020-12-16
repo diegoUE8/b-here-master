@@ -4,6 +4,7 @@ export const environmentStatic = {
 	channelName: 'BHere',
 	flags: {
 		production: false,
+		useProxy: false,
 		useToken: false,
 		selfService: true,
 		guidedTourRequest: true,
@@ -18,7 +19,7 @@ export const environmentStatic = {
 	logo: '/b-here/img/logo.png',
 	background: {
 		image: '/b-here/img/background.jpg',
-		video: '/b-here/img/background2.mp4',
+		video: '/b-here/img/background.mp4',
 	},
 	colors: {
 		menuBackground: '#000000',
@@ -29,6 +30,10 @@ export const environmentStatic = {
 		menuBackForeground: '#000000',
 		menuBackOverBackground: '#0099ff',
 		menuBackOverForeground: '#ffffff',
+	},
+	editor: {
+		disabledViewTypes: ['waiting-room', 'room-3d'],
+		disabledViewItemTypes: ['texture'],
 	},
 	assets: './',
 	worker: './js/workers/image.service.worker.js',
@@ -58,7 +63,7 @@ export const environmentStatic = {
 				'plane': '/plane-modal.html',
 				'curved-plane': '/curved-plane-modal.html',
 				'texture': '/texture-modal.html',
-				'gltf': '/gltf-modal.html',
+				'model': '/item-model-modal.html',
 			},
 			remove: '/remove-modal.html',
 		}

@@ -140,7 +140,9 @@ function staticMiddleware(vars) {
 					return next();
 				}
 				console.log('NodeJs.staticMiddleware.serving', file);
+				response.set('Content-Length', data.length);
 				response.set('Content-Type', MIME_CONTENT_TYPES[extension]);
+				// response.set('Cache-Control', 'max-age=31536000');
 				response.send(data);
 			});
 		} else {
