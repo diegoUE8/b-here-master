@@ -92,7 +92,9 @@ export default class WorldComponent extends Component {
 		if (this.view) {
 			const selected = this.view.items.find(item => item.selected);
 			if (selected && selected.mesh) {
-				this.orbit.lookAt(selected.mesh);
+				if (this.view.type.name !== 'model') {
+					this.orbit.lookAt(selected.mesh);
+				}
 			}
 		}
 	}
@@ -110,7 +112,6 @@ export default class WorldComponent extends Component {
 		this.controllerMatrix_ = new THREE.Matrix4();
 		this.controllerWorldPosition_ = new THREE.Vector3();
 		this.controllerWorldDirection_ = new THREE.Vector3();
-		// this.showNavPoints = false;
 
 		const container = this.container = node;
 		const info = this.info = node.querySelector('.world__info');
@@ -118,6 +119,7 @@ export default class WorldComponent extends Component {
 		const worldRect = this.worldRect = Rect.fromNode(container);
 		const cameraRect = this.cameraRect = new Rect();
 
+		// !!! eliminabile?
 		const cameraGroup = this.cameraGroup = new THREE.Group();
 		// new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, ROOM_RADIUS * 2);
 		// const camera = this.camera = new THREE.PerspectiveCamera(70, container.offsetWidth / container.offsetHeight, 0.01, 1000);
@@ -161,8 +163,12 @@ export default class WorldComponent extends Component {
 		const scene = this.scene = new THREE.Scene();
 		scene.add(cameraGroup);
 
+		const objects = this.objects = new THREE.Group();
+		objects.name = '[objects]';
+		scene.add(objects);
+
 		const panorama = this.panorama = new Panorama();
-		scene.add(panorama.mesh);
+		objects.add(panorama.mesh);
 
 		const indicator = this.indicator = new PointerElement();
 
@@ -172,22 +178,18 @@ export default class WorldComponent extends Component {
 		mainLight.position.set(-50, 0, -50);
 		scene.add(mainLight);
 
-		const light2 = new THREE.DirectionalLight(0xffe699, 2);
-		light2.position.set(40, -40, 40);
+		const light2 = new THREE.DirectionalLight(0xffe699, 3);
+		light2.position.set(5, -5, 5);
 		light2.target.position.set(0, 0, 0);
 		scene.add(light2);
 
-		const light3 = new THREE.DirectionalLight(0xffe699, 2);
+		const light3 = new THREE.DirectionalLight(0xffe699, 3);
 		light3.position.set(0, 50, 0);
 		light3.target.position.set(0, 0, 0);
 		scene.add(light3);
 
 		const light = new THREE.AmbientLight(0x101010);
 		scene.add(light);
-
-		const objects = this.objects = new THREE.Group();
-		objects.name = '[objects]';
-		scene.add(objects);
 
 		this.addControllers();
 		//
@@ -232,21 +234,19 @@ export default class WorldComponent extends Component {
 				}
 			}
 			view.ready = false;
-			this.loading = loadingBanner;
-			this.waiting = null;
+			// this.loading = loadingBanner;
+			// this.waiting = null;
 			this.pushChanges();
 			this.panorama.change(view, this.renderer, (envMap, texture, rgbe) => {
 				// this.scene.background = envMap;
 				this.scene.environment = envMap;
 				view.ready = true;
-				this.waiting = (view && view.type.name === 'waiting-room') ? waitingBanner : null;
+				// this.waiting = (view && view.type.name === 'waiting-room') ? waitingBanner : null;
 				this.pushChanges();
 				// this.render();
 			}, (view) => {
 				this.setViewOrientation(view);
-				this.loading = null;
-				this.pushChanges();
-				// this.showNavPoints = true;
+				// this.loading = null;
 				// this.pushChanges();
 			});
 		}
@@ -660,6 +660,8 @@ export default class WorldComponent extends Component {
 	}
 
 	onVRStarted() {
+		// this.objects.rotation.y = - Math.PI / 2;
+		this.objects.position.y = 1.5;
 		this.scene.add(this.indicator.mesh);
 		MessageService.send({
 			type: MessageType.VRStarted,
@@ -667,6 +669,8 @@ export default class WorldComponent extends Component {
 	}
 
 	onVREnded() {
+		// this.objects.rotation.y = 0;
+		this.objects.position.y = 0;
 		this.scene.remove(this.indicator.mesh);
 		MessageService.send({
 			type: MessageType.VREnded,
@@ -717,25 +721,25 @@ export default class WorldComponent extends Component {
 		this.pushChanges();
 	}
 
-	onNavDown(nav) {
-		nav.item.showPanel = false;
+	onNavDown(event) {
+		event.item.showPanel = false;
 		// console.log('WorldComponent.onNavDown', this.keys);
 		if (this.locked) {
 			return;
 		}
 		if (this.editor && this.keys.Shift) {
-			this.dragItem = nav;
-			this.select.next(nav);
+			this.dragItem = event;
+			this.select.next(event);
 		} else if (this.editor && this.keys.Control) {
-			this.resizeItem = nav;
-			this.select.next(nav);
+			this.resizeItem = event;
+			this.select.next(event);
 		} else {
-			this.navTo.next(nav.item.viewId);
+			this.navTo.next(event.item.viewId);
 		}
 	}
 
-	onPlaneDown(event) {
-		// console.log('WorldComponent.onPlaneDown', this.keys);
+	onObjectDown(event) {
+		// console.log('WorldComponent.onObjectDown', this.keys);
 		if (this.lockedOrXR) {
 			return;
 		}
@@ -767,11 +771,8 @@ export default class WorldComponent extends Component {
 
 	onGridMove(event) {
 		// console.log('WorldComponent.onGridMove', event, this.view);
-		if (this.locked) {
-			return;
-		}
 		this.view.items = [];
-		this.loading = loadingBanner;
+		// this.loading = loadingBanner;
 		this.pushChanges();
 		this.orbit.walk(event.position, (headingLongitude, headingLatitude) => {
 			const tile = this.view.getTile(event.indices.x, event.indices.y);
@@ -781,7 +782,7 @@ export default class WorldComponent extends Component {
 					this.scene.environment = envMap;
 					this.orbit.walkComplete(headingLongitude, headingLatitude);
 					this.view.updateCurrentItems();
-					this.loading = null;
+					// this.loading = null;
 					this.pushChanges();
 					// this.render();
 					// this.pushChanges();
@@ -901,7 +902,7 @@ export default class WorldComponent extends Component {
 						if (this.view instanceof PanoramaGridView && message.gridIndex) {
 							this.view.index = message.gridIndex;
 						}
-						if (this.loading) {
+						if (!this.view || !this.view.ready) {
 							this.requestInfoResult = message;
 						}
 					}
@@ -948,6 +949,7 @@ export default class WorldComponent extends Component {
 					}
 					break;
 				case MessageType.NavToGrid:
+					// console.log('WorldComponent.NavToGrid', this.view.id, message);
 					if (this.view.id === message.viewId) {
 						this.view.index = message.gridIndex;
 					}

@@ -506,9 +506,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Triceratopo 3D",
+          "title": "Skeleton 3D",
           "abstract": null,
-          "viewId": 505860010419200,
+          "viewId": 272295629392299,
           "position": [
             -0.9192615925404011,
             -0.32939568134582436,
@@ -516,7 +516,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 513455140821200
+          "id": 513455140821200,
+          "keepOrientation": null
         }
       ]
     },
@@ -1510,7 +1511,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Modello 3D",
@@ -1531,17 +1532,23 @@
       "id": 337129518224500,
       "items": [
         {
-          "id": 1111,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
             "folder": "/models/",
-            "file": "Ma_belle.glb"
-          }
+            "file": "Ma_belle.glb",
+            "id": 273294662915700,
+            "chromaKeyColor": null
+          },
+          "id": 273295653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
@@ -1585,7 +1592,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Modello 3D 2",
@@ -1599,24 +1606,30 @@
         "id": 337127346815000
       },
       "orientation": {
-        "latitude": 25,
-        "longitude": 5
+        "latitude": 23.1,
+        "longitude": 5.199999999999989
       },
-      "zoom": 40,
+      "zoom": 65.0131,
       "id": 337129519224500,
       "items": [
         {
-          "id": 1112,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
             "folder": "/models/",
-            "file": "poltrona.glb"
-          }
+            "file": "poltrona.glb",
+            "id": 274294662915700,
+            "chromaKeyColor": null
+          },
+          "id": 274295653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
@@ -1632,8 +1645,8 @@
             -0.5554349148633089
           ],
           "asset": null,
-          "link": null,
-          "id": 335366915798400
+          "id": 335366915798400,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -8460,30 +8473,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Modello 3D - Dress",
-          "abstract": null,
-          "viewId": 505860010419300,
-          "position": [
-            0.9102443152907443,
-            -0.41357945165927446,
-            -0.02018226067857652
-          ],
-          "asset": null,
-          "id": 513563435970100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
           "title": "Modello 3D - Watch",
           "abstract": null,
           "viewId": 505860010419310,
           "position": [
-            0.871085402170889,
-            -0.49082468491026227,
-            -0.017359458733555603
+            0.9107317753657072,
+            -0.4121510104210588,
+            -0.026441973226818658
           ],
           "asset": null,
           "id": 513629349082800,
@@ -8606,7 +8602,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Skeleton",
@@ -8642,17 +8638,23 @@
       "id": 505860010419200,
       "items": [
         {
-          "id": 1111,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
             "folder": "/models/",
-            "file": "triceratopsSkeleton.glb"
-          }
+            "file": "triceratopsSkeleton.glb",
+            "id": 275294662915700,
+            "chromaKeyColor": null
+          },
+          "id": 275295653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
@@ -8680,7 +8682,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Dress",
@@ -8716,17 +8718,23 @@
       "id": 505860010419300,
       "items": [
         {
-          "id": 1112,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
-            "folder": "/models/black_dress_with_lace_accents/",
-            "file": "scene.gltf"
-          }
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/models/black_dress_with_lace_accents",
+            "file": "scene.gltf",
+            "id": 276294662915700,
+            "chromaKeyColor": null
+          },
+          "id": 276295653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
@@ -8754,7 +8762,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Watch",
@@ -8790,17 +8798,23 @@
       "id": 505860010419310,
       "items": [
         {
-          "id": 1113,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
             "folder": "/models/",
-            "file": "watch-ao.glb"
-          }
+            "file": "watch-ao.glb",
+            "id": 277294662915700,
+            "chromaKeyColor": null
+          },
+          "id": 277295653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
@@ -8809,20 +8823,20 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 505820256936299,
+          "viewId": 170427763402500,
           "position": [
             0.240210360674472,
             -0.3418604966888213,
             -0.9085319936184484
           ],
           "asset": null,
-          "link": null,
-          "id": 513664382104399
+          "id": 513664382104399,
+          "keepOrientation": null
         }
       ],
       "orientation": {
-        "latitude": 15,
-        "longitude": 90
+        "latitude": 3.1999999999999993,
+        "longitude": 80.2
       },
       "hidden": false
     },
@@ -9220,6 +9234,87 @@
         "longitude": 0
       },
       "zoom": 75
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Skeleton 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "272273211809300_496234404458700_piano-1_3.jpg",
+        "id": 272273446939000
+      },
+      "orientation": {
+        "latitude": 15.500000000000002,
+        "longitude": 359.7
+      },
+      "zoom": 75,
+      "id": 272295629392299,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "272294617915400_triceratopsSkeleton.glb",
+            "id": 272294662915700,
+            "chromaKeyColor": null
+          },
+          "id": 272295653766300,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 496261103950399,
+          "position": [
+            -0.832266200102567,
+            -0.39486110626933746,
+            -0.3891242461253076
+          ],
+          "asset": null,
+          "id": 272397482626799,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "272404604459100_triceratopsSkeleton.usdz",
+          "id": 272404636497700
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "272407883190599_triceratopsSkeleton.glb",
+          "id": 272407910712500
+        }
+      }
     }
   ],
   "menu": [
@@ -9420,25 +9515,18 @@
       "order": 0
     },
     {
-      "id": 514015440249700,
-      "parentId": 514006762002499,
-      "viewId": 505860010419300,
-      "name": "Dress",
-      "order": 10
-    },
-    {
       "id": 514015947809600,
       "parentId": 514006762002499,
       "viewId": 505860010419310,
       "name": "Watch",
-      "order": 20
+      "order": 10
     },
     {
       "id": 63481855621300,
       "parentId": 514006762002499,
       "viewId": 337129519224500,
       "name": "Poltrona",
-      "order": 30
+      "order": 20
     },
     {
       "id": 514041769202200,
@@ -10990,6 +11078,42 @@
       "file": "6529336183500_code.png",
       "id": 6529365067199,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "272273211809300_496234404458700_piano-1_3.jpg",
+      "id": 272273446939000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "272294617915400_triceratopsSkeleton.glb",
+      "id": 272294662915700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "272404604459100_triceratopsSkeleton.usdz",
+      "id": 272404636497700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "272407883190599_triceratopsSkeleton.glb",
+      "id": 272407910712500
     }
   ],
   "users": [
