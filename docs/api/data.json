@@ -817,23 +817,6 @@
         },
         {
           "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "3D Moto",
-          "abstract": null,
-          "viewId": 337129518224500,
-          "position": [
-            0.8778942855058154,
-            -0.4784707340490409,
-            -0.019167162930539834
-          ],
-          "asset": null,
-          "id": 1010381267974300,
-          "keepOrientation": null
-        },
-        {
-          "type": {
             "id": 2,
             "name": "plane"
           },
@@ -865,6 +848,65 @@
             "index": 0
           },
           "id": 288212729360500
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            8.3,
+            2.2,
+            -20.908788028490623
+          ],
+          "rotation": [
+            -0.0003709752451440569,
+            -0.03004766562335464,
+            -0.0034632396351376663,
+            "XYZ"
+          ],
+          "scale": [
+            17,
+            9.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 270426477596000,
+            "chromaKeyColor": null,
+            "index": 1
+          },
+          "id": 270326140512100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Connettiti",
+          "abstract": null,
+          "viewId": 406765685595300,
+          "position": [
+            0.3677511859207984,
+            -0.16305927609197485,
+            -0.9155166507137964
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "270505090437699_qrcode.png",
+            "id": 270505133471800
+          },
+          "link": null,
+          "id": 270515292820699
         }
       ],
       "hidden": null
@@ -2211,6 +2253,25 @@
       "folder": "/uploads/",
       "file": "268748219331300_288541950006500_plane-logo.jpg",
       "id": 268748269941499
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 270426477596000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "270505090437699_qrcode.png",
+      "id": 270505133471800
     }
   ],
   "users": [
