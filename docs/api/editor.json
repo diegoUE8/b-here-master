@@ -103,11 +103,11 @@
           },
           "title": "Area Espositiva",
           "abstract": null,
-          "viewId": 337129518224500,
+          "viewId": 268089310594800,
           "position": [
-            0.9708115399071372,
-            0.040034419816402926,
-            -0.23647875002438798
+            0.9803725483325211,
+            0.04453111028955182,
+            -0.1920589667065264
           ],
           "asset": null,
           "link": null,
@@ -1538,6 +1538,184 @@
         }
       ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Area 3D",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "268082605758000_337127267618900_hereoesvalley.jpg",
+        "id": 268082691495199
+      },
+      "orientation": {
+        "latitude": -26.699556953165906,
+        "longitude": 234.86449188053967
+      },
+      "zoom": 75,
+      "id": 268089310594800,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "position": [
+            -0.5979762533495755,
+            -0.6861666221062936,
+            -1.0999999999999999
+          ],
+          "rotation": [
+            -0.05702756456124708,
+            2.331612557878919,
+            0.05332615064246039,
+            "XYZ"
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "268118287214700_moto.glb",
+            "id": 268118353706599,
+            "chromaKeyColor": null
+          },
+          "id": 268119526981099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 337881532453700,
+          "position": [
+            -0.7468863430016762,
+            0.02095015081283362,
+            -0.6646216079984925
+          ],
+          "asset": null,
+          "id": 268347614864100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Concept Moto",
+          "abstract": "L'invenzione della motocicletta viene fatta risalire all'ingegnere francese Louis-Guillaume Perreaux che depositò il relativo brevetto (n.83691) il 16 marzo 1869 e realizzò un veicolo a due ruote funzionante a vapore chiamata Vélocipede à Grande Vitesse.",
+          "viewId": 268089310594800,
+          "position": [
+            -0.4575155517435553,
+            -0.23838408222751742,
+            -0.8566519417204017
+          ],
+          "asset": null,
+          "link": null,
+          "id": 268481432860500
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -19.96104617284963,
+            0.5819391126142145,
+            0.9
+          ],
+          "rotation": [
+            2.464244897553714,
+            1.508373191077831,
+            -2.465196820466774,
+            "XYZ"
+          ],
+          "scale": [
+            6.5,
+            4,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "268678743359499_1010145559727900_Yamaha Motors motorcycle assembly factory _Made in Iwata_2.mp4",
+            "id": 268679060309299,
+            "chromaKeyColor": null
+          },
+          "id": 268681534324700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            13,
+            -6.8,
+            -36.54875780380029
+          ],
+          "rotation": [
+            -0.06863211652788088,
+            -0.0668533217181083,
+            0.0014031025830285417,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "268748219331300_288541950006500_plane-logo.jpg",
+            "id": 268748269941499,
+            "chromaKeyColor": null
+          },
+          "id": 268749797872999
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "268318164492500_moto.usdz",
+          "id": 268318360355300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "268321457861599_moto.glb",
+          "id": 268321513550299
+        }
+      }
     }
   ],
   "menu": [
@@ -1565,7 +1743,7 @@
     {
       "id": 1012435416950800,
       "parentId": null,
-      "viewId": 337129518224500,
+      "viewId": 268089310594800,
       "name": "Area Espositiva",
       "order": 30
     },
@@ -1979,6 +2157,60 @@
       "folder": "/uploads/",
       "file": "289679395816500_piano0_4.jpg",
       "id": 289679969884299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "268082605758000_337127267618900_hereoesvalley.jpg",
+      "id": 268082691495199
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "268118287214700_moto.glb",
+      "id": 268118353706599
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "268318164492500_moto.usdz",
+      "id": 268318360355300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "268321457861599_moto.glb",
+      "id": 268321513550299
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "268678743359499_1010145559727900_Yamaha Motors motorcycle assembly factory _Made in Iwata_2.mp4",
+      "id": 268679060309299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "268748219331300_288541950006500_plane-logo.jpg",
+      "id": 268748269941499
     }
   ],
   "users": [
