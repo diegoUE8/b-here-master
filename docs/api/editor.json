@@ -14,14 +14,16 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/waiting-room/",
-        "file": "waiting-room2.jpeg"
+        "folder": "/uploads/",
+        "file": "245893331825200_welcome.jpg",
+        "id": 245893713359600
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
-      "zoom": 75
+      "zoom": 75,
+      "items": []
     },
     {
       "type": {
@@ -676,7 +678,7 @@
           },
           "title": "Modello 3D",
           "abstract": null,
-          "viewId": 180117092208199,
+          "viewId": 256000798963299,
           "position": [
             0.3082282660364793,
             -0.44540232720358675,
@@ -718,11 +720,11 @@
           },
           "title": "Modello 3D",
           "abstract": null,
-          "viewId": 180117093208199,
+          "viewId": 183788620172200,
           "position": [
-            0.4116391177551354,
-            -0.23079787629261336,
-            -0.8816380079332977
+            0.3146953638870255,
+            -0.4489641807200909,
+            -0.8363001807834016
           ],
           "asset": null,
           "id": 36291858611700,
@@ -792,13 +794,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Zona Notte",
           "abstract": null,
           "viewId": 101260600040800,
           "position": [
-            -0.026782385660835472,
-            -0.18610276137349563,
-            0.9821651928405293
+            -0.01693300444129616,
+            -0.04559107949938011,
+            0.9988166632724307
           ],
           "asset": null,
           "id": 101417709395100,
@@ -954,7 +956,7 @@
             "name": "nav"
           },
           "title": "Serramento con apertura scorrevole e fisso laterale",
-          "abstract": null,
+          "abstract": "City74",
           "viewId": 101097786721600,
           "position": [
             -0.22035157734287691,
@@ -971,7 +973,7 @@
             "name": "nav"
           },
           "title": "Portafinestra a 2 ante con apertura a ribalta",
-          "abstract": null,
+          "abstract": "City74",
           "viewId": 101097786721600,
           "position": [
             -0.9994461892758205,
@@ -988,7 +990,7 @@
             "name": "nav"
           },
           "title": "Finestra a 1 anta con apertura a ribalta",
-          "abstract": null,
+          "abstract": "City74",
           "viewId": 101097786721600,
           "position": [
             0.983497344115259,
@@ -1005,7 +1007,7 @@
             "name": "nav"
           },
           "title": "Portafinestra a 2 ante con apertura a ribalta",
-          "abstract": null,
+          "abstract": "City74",
           "viewId": 101097786721600,
           "position": [
             0.5077863014652072,
@@ -1022,7 +1024,7 @@
             "name": "nav"
           },
           "title": "Portoncino apertura esterna 1 anta",
-          "abstract": null,
+          "abstract": "City74",
           "viewId": 101097786721600,
           "position": [
             0.17716788584262172,
@@ -1471,7 +1473,7 @@
           },
           "title": "Modello 3D",
           "abstract": null,
-          "viewId": 180117094208199,
+          "viewId": 255139962540699,
           "position": [
             0.9727894883968985,
             -0.22994503076230136,
@@ -1633,7 +1635,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Tour - 9",
+      "name": "Tour - Zona Notte",
       "asset": {
         "type": {
           "id": 1,
@@ -1644,8 +1646,8 @@
         "id": 177429614598900
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -1.1999999999999993,
+        "longitude": 272.3
       },
       "zoom": 75,
       "id": 101260600040800,
@@ -1706,13 +1708,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Zona Giorno",
           "abstract": null,
           "viewId": 101028713006200,
           "position": [
-            -0.9801479233901368,
-            -0.17983065444730853,
-            -0.08349241878790724
+            -0.9928681560878826,
+            -0.05963456579959132,
+            -0.10323053418704263
           ],
           "asset": null,
           "id": 104375208178800,
@@ -1767,7 +1769,7 @@
           },
           "title": "Modello 3D",
           "abstract": null,
-          "viewId": 180117092208199,
+          "viewId": 257412329346300,
           "position": [
             1,
             -0.09458958616238103,
@@ -1862,9 +1864,9 @@
           "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
           "viewId": 101302991658300,
           "position": [
-            0.940678730221711,
-            0.3391954083513076,
-            -0.008366687627684354
+            0.9619689733835389,
+            0.2561991474654667,
+            -0.09475067854843167
           ],
           "asset": null,
           "id": 104485404698799,
@@ -1886,6 +1888,23 @@
           "asset": null,
           "id": 104497484412700,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 257951063000700,
+          "position": [
+            0.9937612341795642,
+            0.022677650112420174,
+            -0.1091985971855322
+          ],
+          "asset": null,
+          "link": null,
+          "id": 257996825179099
         }
       ],
       "hidden": null
@@ -1987,7 +2006,7 @@
           },
           "title": "Modello 3D",
           "abstract": null,
-          "viewId": 180117095208199,
+          "viewId": 257194446841500,
           "position": [
             0.9467535698429415,
             -0.3214526309454898,
@@ -2199,6 +2218,23 @@
           "asset": null,
           "id": 104302272337199,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 258129813910500,
+          "position": [
+            0.9827120102073238,
+            -0.17074753891809255,
+            0.07157082469620628
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258145662976100
         }
       ],
       "hidden": null
@@ -2274,7 +2310,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 101302991658300,
+          "viewId": 101282744228800,
           "position": [
             0.8799062146641575,
             -0.4751332905450073,
@@ -2283,6 +2319,23 @@
           "asset": null,
           "id": 175939711038299,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 257412329346300,
+          "position": [
+            0.28591780582627335,
+            -0.44692753057586154,
+            -0.8476477987494877
+          ],
+          "asset": null,
+          "link": null,
+          "id": 257453359144800
         }
       ],
       "hidden": null
@@ -2292,7 +2345,7 @@
         "id": 5,
         "name": "model"
       },
-      "name": "City74 - 1",
+      "name": "City74 - 1a",
       "asset": {
         "type": {
           "id": 1,
@@ -2327,12 +2380,1420 @@
           "id": 183788638875299,
           "position": null,
           "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101115292443699,
+          "position": [
+            0.5382314260950158,
+            -0.5416351667294124,
+            -0.6457075794240975
+          ],
+          "asset": null,
+          "id": 255949969228100,
+          "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257826088850899_City1.usdz",
+          "id": 257826117218200
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257831190924100_City1.glb",
+          "id": 257831228147000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 1b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "246433494814299_3_sfondo.jpg",
+        "id": 246433592133500
+      },
+      "orientation": {
+        "latitude": 16.4,
+        "longitude": 123.9
+      },
+      "zoom": 47.1801,
+      "id": 246450449087500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "246441419807000_City1.glb",
+            "id": 246441463250200,
+            "chromaKeyColor": null
+          },
+          "id": 246450465194400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101343185766000,
+          "position": [
+            0.593679984877661,
+            -0.5160687597750461,
+            -0.617427818242672
+          ],
+          "asset": null,
+          "link": null,
+          "id": 257314942405399
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257293507738600_City1.usdz",
+          "id": 257293549716900
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257296395917500_City1.glb",
+          "id": 257296431422300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 3a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "255107278025199_3_sfondo.jpg",
+        "id": 255107508080000
+      },
+      "orientation": {
+        "latitude": 20,
+        "longitude": 120.4
+      },
+      "zoom": 40,
+      "id": 255139962540699,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "255123482160100_City3.glb",
+            "id": 255123527028099,
+            "chromaKeyColor": null
+          },
+          "id": 255139983046900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            0.5147303715256786,
+            -0.5820472451476896,
+            -0.6295026997916864
+          ],
+          "asset": null,
+          "id": 255464090594900,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255561710884499_City3.usdz",
+          "id": 255561749354899
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255566569131700_City3.glb",
+          "id": 255566632139800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 5a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "255704370460499_3_sfondo.jpg",
+        "id": 255704492222100
+      },
+      "orientation": {
+        "latitude": 22.2,
+        "longitude": 289.7
+      },
+      "zoom": 27.5,
+      "id": 255725576747900,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "255712370432500_City5.glb",
+            "id": 255712413399600,
+            "chromaKeyColor": null
+          },
+          "id": 255725599292899,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            -0.41815840451741887,
+            -0.5946254528611644,
+            0.6867052639532493
+          ],
+          "asset": null,
+          "link": null,
+          "id": 255852249999000
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255825631471100_City5.usdz",
+          "id": 255825676443799
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255831476207200_City5.glb",
+          "id": 255831504578100
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 7a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "255983249091599_3_sfondo.jpg",
+        "id": 255983359717400
+      },
+      "orientation": {
+        "latitude": 13.400000000000002,
+        "longitude": 121.7
+      },
+      "zoom": 44.4954,
+      "id": 256000798963299,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "255988174245399_City7.glb",
+            "id": 255988215348799,
+            "chromaKeyColor": null
+          },
+          "id": 256000814275199,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            0.6617347774644299,
+            -0.4485530347409671,
+            -0.6007555736893083
+          ],
+          "asset": null,
+          "link": null,
+          "id": 256084055605599
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "256054944132399_City7.usdz",
+          "id": 256055446672500
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "256058681482500_City7.glb",
+          "id": 256058707998600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 5b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "257171667121299_3_sfondo.jpg",
+        "id": 257171762543300
+      },
+      "orientation": {
+        "latitude": 16.9,
+        "longitude": 302.1
+      },
+      "zoom": 34.1111,
+      "id": 257194446841500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "257179650209800_City5.glb",
+            "id": 257179685464199,
+            "chromaKeyColor": null
+          },
+          "id": 257194465069400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            -0.5702474066981913,
+            -0.5178506268211868,
+            0.6376900684932232
+          ],
+          "asset": null,
+          "id": 257246137995600,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257881291416600_City5.usdz",
+          "id": 257881347839400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257884623665700_City5.glb",
+          "id": 257884647115400
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 7b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "257406953836799_3_sfondo.jpg",
+        "id": 257407056770800
+      },
+      "orientation": {
+        "latitude": 16.2,
+        "longitude": 122.50000000000001
+      },
+      "zoom": 45.2045,
+      "id": 257412329346300,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "257411152693299_City7.glb",
+            "id": 257411182824500,
+            "chromaKeyColor": null
+          },
+          "id": 257412344145900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101282744228800,
+          "position": [
+            0.633767849652176,
+            -0.5003642496924323,
+            -0.5898931516613716
+          ],
+          "asset": null,
+          "id": 257520150868899,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257494287809000_City7.usdz",
+          "id": 257494346632699
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257498493393900_City7.glb",
+          "id": 257498528382600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Firenze a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "257935093821500_3_sfondo.jpg",
+        "id": 257935212172699
+      },
+      "orientation": {
+        "latitude": 13.299999999999999,
+        "longitude": 113.4
+      },
+      "zoom": 49.4924,
+      "id": 257951063000700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "257948534150800_Firenze.glb",
+            "id": 257948612880899,
+            "chromaKeyColor": null
+          },
+          "id": 257951073800400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101302991658300,
+          "position": [
+            0.6170760062743003,
+            -0.44358848326274,
+            -0.6499588140776471
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258079443668600
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258053860414900_Firenze.usdz",
+          "id": 258053964208200
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258057425709099_Firenze.glb",
+          "id": 258057489679500
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Firenze b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258128249791299_3_sfondo.jpg",
+        "id": 258128395833700
+      },
+      "orientation": {
+        "latitude": 11.999999999999998,
+        "longitude": 122.80000000000001
+      },
+      "zoom": 58.1466,
+      "id": 258129813910500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258122434820000_Firenze.glb",
+            "id": 258122513646299,
+            "chromaKeyColor": null
+          },
+          "id": 258129825553099,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            0.6587797521172215,
+            -0.4548749288944387,
+            -0.5992478929989253
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258200721849900
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258173737346399_Firenze.usdz",
+          "id": 258173790400300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258176997268699_Firenze.glb",
+          "id": 258177056757800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258269589202599_3_sfondo.jpg",
+        "id": 258269701428300
+      },
+      "orientation": {
+        "latitude": 22.2,
+        "longitude": 127.7
+      },
+      "zoom": 43.7188,
+      "id": 258277603341700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258276571551000_City1.glb",
+            "id": 258276632648899,
+            "chromaKeyColor": null
+          },
+          "id": 258277614106900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.6358157446006147,
+            -0.6103377794626939,
+            -0.47246813001356386
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259014171148200
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258598732269100_City1.usdz",
+          "id": 258598759085899
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258601672910700_City1.glb",
+          "id": 258601701016499
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258306122590100_3_sfondo.jpg",
+        "id": 258306248702400
+      },
+      "orientation": {
+        "latitude": 21.8,
+        "longitude": 123.30000000000001
+      },
+      "zoom": 15,
+      "id": 258333500660600,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258330504091299_City3.glb",
+            "id": 258330539182800,
+            "chromaKeyColor": null
+          },
+          "id": 258333511138699,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.5783789387268143,
+            -0.5874631040631146,
+            -0.5660078662013224
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259039237178700
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258554231455699_City3.usdz",
+          "id": 258554257784600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258557286921500_City3.glb",
+          "id": 258557316284200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258352996686000_3_sfondo.jpg",
+        "id": 258353121777500
+      },
+      "orientation": {
+        "latitude": 21.599999999999998,
+        "longitude": 304.29999999999995
+      },
+      "zoom": 15,
+      "id": 258357100231700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258356316505900_City5.glb",
+            "id": 258356384138900,
+            "chromaKeyColor": null
+          },
+          "id": 258357117779000,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.6066863267182885,
+            -0.5593284535328583,
+            0.5648746604704546
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259060263810299
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258578253021700_City5.usdz",
+          "id": 258578275388499
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258581550071299_City5.glb",
+          "id": 258581598490599
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258374561308299_3_sfondo.jpg",
+        "id": 258374683203600
+      },
+      "orientation": {
+        "latitude": 15.400000000000006,
+        "longitude": 125.20000000000002
+      },
+      "zoom": 56.6576,
+      "id": 258379328599699,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258378542961400_City7.glb",
+            "id": 258378568667900,
+            "chromaKeyColor": null
+          },
+          "id": 258379338219799,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.627878041255043,
+            -0.5286206575868104,
+            -0.5712524535459068
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259096827497400
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258504759085600_City7.usdz",
+          "id": 258504780979299
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258508325435699_City7.glb",
+          "id": 258508375983199
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Firenze",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258397121894400_3_sfondo.jpg",
+        "id": 258397147544799
+      },
+      "orientation": {
+        "latitude": 21.9,
+        "longitude": 121.9
+      },
+      "zoom": 75,
+      "id": 258401814223700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258401079085199_Firenze.glb",
+            "id": 258401174248700,
+            "chromaKeyColor": null
+          },
+          "id": 258401828879399,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.5520512561318666,
+            -0.6311296826279462,
+            -0.5448988294254044
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259193983972800
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258482057953900_Firenze.usdz",
+          "id": 258482179777600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258485493568099_Firenze.glb",
+          "id": 258485551025200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - Scorrevole",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258428036352000_3_sfondo.jpg",
+        "id": 258428065046299
+      },
+      "orientation": {
+        "latitude": 13.600000000000001,
+        "longitude": 126.4
+      },
+      "zoom": 23.4412,
+      "id": 258433199429200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258432202600300_Scorrevole.glb",
+            "id": 258432228464400,
+            "chromaKeyColor": null
+          },
+          "id": 258433206771400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.652448794255756,
+            -0.45539586393812764,
+            -0.6057434919025186
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259154936187400
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258454820784900_Scorrevole.usdz",
+          "id": 258454841367900
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258457945737199_Scorrevole.glb",
+          "id": 258457987042800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info prodotto City74 - 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258650956862700_360_city1.jpg",
+        "id": 258651028156900
+      },
+      "orientation": {
+        "latitude": -4.3,
+        "longitude": 359.1
+      },
+      "zoom": 75,
+      "id": 258654773202199,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8034212294793244,
+            -0.5954076652821935,
+            -0.0020100112283604585
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258965234110000
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258668039576099_City1.usdz",
+          "id": 258668098038999
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258671657419600_City1.glb",
+          "id": 258671688897400
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info prodotto City74 - 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258704646467700_360_city7.jpg",
+        "id": 258704734212500
+      },
+      "orientation": {
+        "latitude": -2.4000000000000004,
+        "longitude": 359.5
+      },
+      "zoom": 75,
+      "id": 258706573018600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8787705344250168,
+            -0.47724160145779937,
+            0.0016738173033926987
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258994088684200
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258719782009700_City7.usdz",
+          "id": 258719812112800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258723011900400_City7.glb",
+          "id": 258723067126199
+        }
+      }
     }
   ],
-  "menu": [],
+  "menu": [
+    {
+      "id": 258733151496299,
+      "parentId": null,
+      "viewId": 376789637631099,
+      "name": "Welcome Room",
+      "order": 0
+    },
+    {
+      "id": 258758027430200,
+      "parentId": null,
+      "viewId": null,
+      "name": "House Tour",
+      "order": 10
+    },
+    {
+      "id": 258767495975699,
+      "parentId": 258758027430200,
+      "viewId": 101028713006200,
+      "name": "Zona Giorno",
+      "order": 0
+    },
+    {
+      "id": 258767996791400,
+      "parentId": 258758027430200,
+      "viewId": 101260600040800,
+      "name": "Zona Notte",
+      "order": 10
+    },
+    {
+      "id": 258768783075000,
+      "parentId": 258758027430200,
+      "viewId": 101302991658300,
+      "name": "Zona Bagno",
+      "order": 20
+    },
+    {
+      "id": 258810927399499,
+      "parentId": null,
+      "viewId": 376822678396500,
+      "name": "Cinema",
+      "order": 20
+    },
+    {
+      "id": 258820311512200,
+      "parentId": null,
+      "viewId": 376847775559700,
+      "name": "Gallery",
+      "order": 30
+    },
+    {
+      "id": 258827874418500,
+      "parentId": null,
+      "viewId": null,
+      "name": "Dettagli Prodotto",
+      "order": 40
+    },
+    {
+      "id": 258841372771700,
+      "parentId": 258827874418500,
+      "viewId": 258654773202199,
+      "name": "City74 - 1",
+      "order": 0
+    },
+    {
+      "id": 258841903308299,
+      "parentId": 258827874418500,
+      "viewId": 258706573018600,
+      "name": "City74 - 7",
+      "order": 10
+    },
+    {
+      "id": 258864998508500,
+      "parentId": null,
+      "viewId": null,
+      "name": "Modelli 3D",
+      "order": 50
+    },
+    {
+      "id": 258873716313700,
+      "parentId": 258864998508500,
+      "viewId": 258277603341700,
+      "name": "City 74 - 1",
+      "order": 0
+    },
+    {
+      "id": 258874198238500,
+      "parentId": 258864998508500,
+      "viewId": 258333500660600,
+      "name": "City 74 - 3",
+      "order": 10
+    },
+    {
+      "id": 258874614972099,
+      "parentId": 258864998508500,
+      "viewId": 258357100231700,
+      "name": "City 74 - 5",
+      "order": 20
+    },
+    {
+      "id": 258875151124000,
+      "parentId": 258864998508500,
+      "viewId": 258379328599699,
+      "name": "City 74 - 7",
+      "order": 30
+    },
+    {
+      "id": 258875735303300,
+      "parentId": 258864998508500,
+      "viewId": 258401814223700,
+      "name": "Firenze",
+      "order": 40
+    }
+  ],
   "assets": [
     {
       "type": {
@@ -3450,6 +4911,618 @@
       "folder": "/uploads/",
       "file": "186293172593600_360_city7.jpg",
       "id": 186293237585300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "245893331825200_welcome.jpg",
+      "id": 245893713359600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "246192272388099_AdobeStock_334933730.jpeg",
+      "id": 246192332671700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "246232917586800_City1.glb",
+      "id": 246232976906900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "246433494814299_3_sfondo.jpg",
+      "id": 246433592133500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "246441419807000_City1.glb",
+      "id": 246441463250200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "255107278025199_3_sfondo.jpg",
+      "id": 255107508080000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255123482160100_City3.glb",
+      "id": 255123527028099
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255561710884499_City3.usdz",
+      "id": 255561749354899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255566569131700_City3.glb",
+      "id": 255566632139800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "255704370460499_3_sfondo.jpg",
+      "id": 255704492222100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255712370432500_City5.glb",
+      "id": 255712413399600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255825631471100_City5.usdz",
+      "id": 255825676443799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255831476207200_City5.glb",
+      "id": 255831504578100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "255983249091599_3_sfondo.jpg",
+      "id": 255983359717400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255988174245399_City7.glb",
+      "id": 255988215348799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "256054944132399_City7.usdz",
+      "id": 256055446672500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "256058681482500_City7.glb",
+      "id": 256058707998600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "257171667121299_3_sfondo.jpg",
+      "id": 257171762543300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257179650209800_City5.glb",
+      "id": 257179685464199
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257293507738600_City1.usdz",
+      "id": 257293549716900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257296395917500_City1.glb",
+      "id": 257296431422300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "257406953836799_3_sfondo.jpg",
+      "id": 257407056770800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257411152693299_City7.glb",
+      "id": 257411182824500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257494287809000_City7.usdz",
+      "id": 257494346632699
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257498493393900_City7.glb",
+      "id": 257498528382600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257826088850899_City1.usdz",
+      "id": 257826117218200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257831190924100_City1.glb",
+      "id": 257831228147000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257881291416600_City5.usdz",
+      "id": 257881347839400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257884623665700_City5.glb",
+      "id": 257884647115400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "257935093821500_3_sfondo.jpg",
+      "id": 257935212172699
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257948534150800_Firenze.glb",
+      "id": 257948612880899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258053860414900_Firenze.usdz",
+      "id": 258053964208200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258057425709099_Firenze.glb",
+      "id": 258057489679500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258109454595800_Firenze.glb",
+      "id": 258109534367000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258122434820000_Firenze.glb",
+      "id": 258122513646299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258128249791299_3_sfondo.jpg",
+      "id": 258128395833700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258173737346399_Firenze.usdz",
+      "id": 258173790400300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258176997268699_Firenze.glb",
+      "id": 258177056757800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258269589202599_3_sfondo.jpg",
+      "id": 258269701428300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258276571551000_City1.glb",
+      "id": 258276632648899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258306122590100_3_sfondo.jpg",
+      "id": 258306248702400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258330504091299_City3.glb",
+      "id": 258330539182800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258352996686000_3_sfondo.jpg",
+      "id": 258353121777500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258356316505900_City5.glb",
+      "id": 258356384138900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258374561308299_3_sfondo.jpg",
+      "id": 258374683203600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258378542961400_City7.glb",
+      "id": 258378568667900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258397121894400_3_sfondo.jpg",
+      "id": 258397147544799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258401079085199_Firenze.glb",
+      "id": 258401174248700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258428036352000_3_sfondo.jpg",
+      "id": 258428065046299
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258432202600300_Scorrevole.glb",
+      "id": 258432228464400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258454820784900_Scorrevole.usdz",
+      "id": 258454841367900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258457945737199_Scorrevole.glb",
+      "id": 258457987042800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258482057953900_Firenze.usdz",
+      "id": 258482179777600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258485493568099_Firenze.glb",
+      "id": 258485551025200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258504759085600_City7.usdz",
+      "id": 258504780979299
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258508325435699_City7.glb",
+      "id": 258508375983199
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258554231455699_City3.usdz",
+      "id": 258554257784600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258557286921500_City3.glb",
+      "id": 258557316284200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258578253021700_City5.usdz",
+      "id": 258578275388499
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258581550071299_City5.glb",
+      "id": 258581598490599
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258598732269100_City1.usdz",
+      "id": 258598759085899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258601672910700_City1.glb",
+      "id": 258601701016499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258650956862700_360_city1.jpg",
+      "id": 258651028156900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258668039576099_City1.usdz",
+      "id": 258668098038999
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258671657419600_City1.glb",
+      "id": 258671688897400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258704646467700_360_city7.jpg",
+      "id": 258704734212500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258719782009700_City7.usdz",
+      "id": 258719812112800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258723011900400_City7.glb",
+      "id": 258723067126199
     }
   ],
   "users": [
