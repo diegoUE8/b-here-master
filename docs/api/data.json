@@ -15,7 +15,7 @@
           "name": "image"
         },
         "folder": "/textures/waiting-room/",
-        "file": "waiting.jpg"
+        "file": "waiting-room.jpg"
       },
       "orientation": {
         "latitude": 0,
@@ -24,33 +24,28 @@
       "zoom": 75
     },
     {
+      "id": 170427763402500,
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Reception room",
+      "name": "Welcome Room",
+      "likes": 134,
+      "liked": false,
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
-        "folder": "/uploads/",
-        "file": "338288798580700_reception.jpg",
-        "id": 338288819976600
+        "folder": "/textures/welcome-room/",
+        "file": "welcome-room.jpg"
       },
       "orientation": {
-        "latitude": -12.3,
-        "longitude": 0.7999999999999758
+        "latitude": 0,
+        "longitude": 0
       },
       "zoom": 75,
-      "id": 337881532453700,
-      "items": [
-      ],
-      "hidden": null
+      "items": []
     }
-  ],
-  "menu": [
-  ],
-  "assets": [
   ]
 }

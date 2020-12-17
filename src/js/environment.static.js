@@ -4,6 +4,7 @@ export const environmentStatic = {
 	channelName: 'BHere',
 	flags: {
 		production: false,
+		useProxy: false,
 		useToken: false,
 		selfService: true,
 		guidedTourRequest: true,
@@ -15,7 +16,7 @@ export const environmentStatic = {
 		viewer: true,
 		maxQuality: false,
 	},
-	logo: '/b-here/img/logo.png',
+	logo: '/b-here/img/background.png',
 	background: {
 		image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
@@ -30,9 +31,13 @@ export const environmentStatic = {
 		menuBackOverBackground: '#0099ff',
 		menuBackOverForeground: '#ffffff',
 	},
+	editor: {
+		disabledViewTypes: ['waiting-room', 'room-3d'],
+		disabledViewItemTypes: ['texture'],
+	},
 	assets: './',
 	worker: './js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/frau/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
 	language: '',
 	market: '',
 	url: {
@@ -58,7 +63,7 @@ export const environmentStatic = {
 				'plane': '/plane-modal.html',
 				'curved-plane': '/curved-plane-modal.html',
 				'texture': '/texture-modal.html',
-				'gltf': '/gltf-modal.html',
+				'model': '/item-model-modal.html',
 			},
 			remove: '/remove-modal.html',
 		}
