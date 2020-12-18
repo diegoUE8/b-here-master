@@ -294,7 +294,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Modello 3D",
@@ -315,17 +315,23 @@
       "id": 337129518224500,
       "items": [
         {
-          "id": 1111,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
             "folder": "/models/",
-            "file": "Ma_belle.glb"
-          }
+            "file": "Ma_belle.glb",
+            "id": 275394662915700,
+            "chromaKeyColor": null
+          },
+          "id": 275395653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
@@ -369,7 +375,7 @@
     },
     {
       "type": {
-        "id": 1,
+        "id": 5,
         "name": "model"
       },
       "name": "Modello 3D 2",
@@ -390,17 +396,23 @@
       "id": 337129519224500,
       "items": [
         {
-          "id": 1112,
           "type": {
             "id": 4,
-            "name": "gltf"
+            "name": "model"
           },
-          "title": "Model",
-          "abstract": "Abstract",
           "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
             "folder": "/models/",
-            "file": "poltrona.glb"
-          }
+            "file": "poltrona.glb",
+            "id": 275494662915700,
+            "chromaKeyColor": null
+          },
+          "id": 275495653766300,
+          "position": null,
+          "rotation": null
         },
         {
           "type": {
