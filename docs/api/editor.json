@@ -644,8 +644,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "186175827342299_360_city7.jpg",
-        "id": 186175971583399
+        "file": "178568691585000_360_city7_2.jpg",
+        "id": 178568782539299
       },
       "orientation": {
         "latitude": -4.310963728122627,
@@ -703,8 +703,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "186228533027600_360_city1.jpg",
-        "id": 186228710591199
+        "file": "178902063613000_360_city1_2.jpg",
+        "id": 178902358319200
       },
       "orientation": {
         "latitude": -4.4,
@@ -1490,7 +1490,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Apertura Anta",
+          "title": "Scorrevole",
           "abstract": null,
           "viewId": 110743163977199,
           "position": [
@@ -2102,31 +2102,14 @@
           },
           "title": "Dettagli Prodotto",
           "abstract": null,
-          "viewId": 36239239323700,
+          "viewId": 175582138015200,
           "position": [
             0.991245650027655,
-            -0.11813472838997564,
+            -0.13613472838997565,
             0.05895970869567263
           ],
           "asset": null,
           "id": 104190679939200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 180117093208199,
-          "position": [
-            0.9794289104521644,
-            -0.19183082151349984,
-            0.06260946644032257
-          ],
-          "asset": null,
-          "id": 104214508570500,
           "keepOrientation": null
         },
         {
@@ -2272,8 +2255,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "186265044469100_360_city1.jpg",
-        "id": 186265089662100
+        "file": "179144294310300_360_city1_2.jpg",
+        "id": 179144354304499
       },
       "orientation": {
         "latitude": 0,
@@ -2298,6 +2281,23 @@
           "asset": null,
           "id": 175604526448800,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 246450449087500,
+          "position": [
+            0.3679436870699211,
+            -0.4427087790918077,
+            -0.8176957747600466
+          ],
+          "asset": null,
+          "link": null,
+          "id": 179182257227600
         }
       ],
       "hidden": null
@@ -2314,8 +2314,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "186293172593600_360_city7.jpg",
-        "id": 186293237585300
+        "file": "179517235708700_360_city7_3.jpg",
+        "id": 179517317234900
       },
       "orientation": {
         "latitude": 0,
@@ -2355,8 +2355,8 @@
             -0.8476477987494877
           ],
           "asset": null,
-          "link": null,
-          "id": 257453359144800
+          "id": 257453359144800,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -2373,14 +2373,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "183764720857699_sfondo.jpg",
-        "id": 183764840867900
+        "file": "178922398807800_360_sfondo3.jpg",
+        "id": 178922435052600
       },
       "orientation": {
         "latitude": 17.5,
         "longitude": 118.1
       },
-      "zoom": 46.3092,
+      "zoom": 58.5404,
       "id": 183788620172200,
       "items": [
         {
@@ -2454,14 +2454,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "246433494814299_3_sfondo.jpg",
-        "id": 246433592133500
+        "file": "179196327854899_360_sfondo3.jpg",
+        "id": 179196386628900
       },
       "orientation": {
         "latitude": 16.4,
         "longitude": 123.9
       },
-      "zoom": 47.1801,
+      "zoom": 59.6801,
       "id": 246450449087500,
       "items": [
         {
@@ -2497,8 +2497,8 @@
             -0.617427818242672
           ],
           "asset": null,
-          "link": null,
-          "id": 257314942405399
+          "id": 257314942405399,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -2535,14 +2535,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "255107278025199_3_sfondo.jpg",
-        "id": 255107508080000
+        "file": "178436979615300_360_sfondo3.jpg",
+        "id": 178437036798600
       },
       "orientation": {
         "latitude": 20,
         "longitude": 120.4
       },
-      "zoom": 40,
+      "zoom": 52.5,
       "id": 255139962540699,
       "items": [
         {
@@ -2616,14 +2616,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "255704370460499_3_sfondo.jpg",
-        "id": 255704492222100
+        "file": "178979363599499_360_sfondo3.jpg",
+        "id": 178979412779299
       },
       "orientation": {
         "latitude": 22.2,
         "longitude": 289.7
       },
-      "zoom": 27.5,
+      "zoom": 46.4117,
       "id": 255725576747900,
       "items": [
         {
@@ -2659,8 +2659,8 @@
             0.6867052639532493
           ],
           "asset": null,
-          "link": null,
-          "id": 255852249999000
+          "id": 255852249999000,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -2697,14 +2697,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "255983249091599_3_sfondo.jpg",
-        "id": 255983359717400
+        "file": "178586038363100_360_sfondo3.jpg",
+        "id": 178586102783900
       },
       "orientation": {
         "latitude": 13.400000000000002,
         "longitude": 121.7
       },
-      "zoom": 44.4954,
+      "zoom": 56.9954,
       "id": 256000798963299,
       "items": [
         {
@@ -2740,8 +2740,8 @@
             -0.6007555736893083
           ],
           "asset": null,
-          "link": null,
-          "id": 256084055605599
+          "id": 256084055605599,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -2778,14 +2778,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "257171667121299_3_sfondo.jpg",
-        "id": 257171762543300
+        "file": "179021312328300_360_sfondo3.jpg",
+        "id": 179021362321600
       },
       "orientation": {
         "latitude": 16.9,
         "longitude": 302.1
       },
-      "zoom": 34.1111,
+      "zoom": 52.4901,
       "id": 257194446841500,
       "items": [
         {
@@ -2859,14 +2859,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "257406953836799_3_sfondo.jpg",
-        "id": 257407056770800
+        "file": "179544732994900_360_sfondo4.jpg",
+        "id": 179544799752900
       },
       "orientation": {
-        "latitude": 16.2,
-        "longitude": 122.50000000000001
+        "latitude": 16.7,
+        "longitude": 117.90000000000002
       },
-      "zoom": 45.2045,
+      "zoom": 70.2045,
       "id": 257412329346300,
       "items": [
         {
@@ -2940,14 +2940,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "257935093821500_3_sfondo.jpg",
-        "id": 257935212172699
+        "file": "179425398968000_360_sfondo4.jpg",
+        "id": 179425459169599
       },
       "orientation": {
-        "latitude": 13.299999999999999,
-        "longitude": 113.4
+        "latitude": 13.799999999999999,
+        "longitude": 110.4
       },
-      "zoom": 49.4924,
+      "zoom": 75,
       "id": 257951063000700,
       "items": [
         {
@@ -2983,8 +2983,8 @@
             -0.6499588140776471
           ],
           "asset": null,
-          "link": null,
-          "id": 258079443668600
+          "id": 258079443668600,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3021,14 +3021,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258128249791299_3_sfondo.jpg",
-        "id": 258128395833700
+        "file": "179284953211600_360_sfondo3.jpg",
+        "id": 179285002185600
       },
       "orientation": {
         "latitude": 11.999999999999998,
         "longitude": 122.80000000000001
       },
-      "zoom": 58.1466,
+      "zoom": 70.6466,
       "id": 258129813910500,
       "items": [
         {
@@ -3064,8 +3064,8 @@
             -0.5992478929989253
           ],
           "asset": null,
-          "link": null,
-          "id": 258200721849900
+          "id": 258200721849900,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3102,14 +3102,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258269589202599_3_sfondo.jpg",
-        "id": 258269701428300
+        "file": "178171920719300_360_sfondo3.jpg",
+        "id": 178172114532699
       },
       "orientation": {
         "latitude": 22.2,
         "longitude": 127.7
       },
-      "zoom": 43.7188,
+      "zoom": 56.2188,
       "id": 258277603341700,
       "items": [
         {
@@ -3145,8 +3145,8 @@
             -0.47246813001356386
           ],
           "asset": null,
-          "link": null,
-          "id": 259014171148200
+          "id": 259014171148200,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3183,14 +3183,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258306122590100_3_sfondo.jpg",
-        "id": 258306248702400
+        "file": "178219371901099_360_sfondo3.jpg",
+        "id": 178219414658300
       },
       "orientation": {
         "latitude": 21.8,
         "longitude": 123.30000000000001
       },
-      "zoom": 15,
+      "zoom": 51.9673,
       "id": 258333500660600,
       "items": [
         {
@@ -3226,8 +3226,8 @@
             -0.5660078662013224
           ],
           "asset": null,
-          "link": null,
-          "id": 259039237178700
+          "id": 259039237178700,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3264,14 +3264,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258352996686000_3_sfondo.jpg",
-        "id": 258353121777500
+        "file": "178339236462300_360_sfondo3.jpg",
+        "id": 178339286496200
       },
       "orientation": {
         "latitude": 21.599999999999998,
         "longitude": 304.29999999999995
       },
-      "zoom": 15,
+      "zoom": 39.7194,
       "id": 258357100231700,
       "items": [
         {
@@ -3307,8 +3307,8 @@
             0.5648746604704546
           ],
           "asset": null,
-          "link": null,
-          "id": 259060263810299
+          "id": 259060263810299,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3345,14 +3345,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258374561308299_3_sfondo.jpg",
-        "id": 258374683203600
+        "file": "178362785145600_360_sfondo3.jpg",
+        "id": 178363022036499
       },
       "orientation": {
         "latitude": 15.400000000000006,
         "longitude": 125.20000000000002
       },
-      "zoom": 56.6576,
+      "zoom": 69.1576,
       "id": 258379328599699,
       "items": [
         {
@@ -3388,8 +3388,8 @@
             -0.5712524535459068
           ],
           "asset": null,
-          "link": null,
-          "id": 259096827497400
+          "id": 259096827497400,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3426,8 +3426,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258397121894400_3_sfondo.jpg",
-        "id": 258397147544799
+        "file": "178384893031700_360_sfondo3.jpg",
+        "id": 178384936279600
       },
       "orientation": {
         "latitude": 21.9,
@@ -3469,8 +3469,8 @@
             -0.5448988294254044
           ],
           "asset": null,
-          "link": null,
-          "id": 259193983972800
+          "id": 259193983972800,
+          "keepOrientation": null
         }
       ],
       "hidden": null,
@@ -3588,8 +3588,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258650956862700_360_city1.jpg",
-        "id": 258651028156900
+        "file": "177917124051200_360_city1_2.jpg",
+        "id": 177917193655900
       },
       "orientation": {
         "latitude": -4.3,
@@ -3612,7 +3612,6 @@
             0.018297084628012047
           ],
           "asset": null,
-          "link": null,
           "id": 258965234110000,
           "keepOrientation": null
         }
@@ -3651,8 +3650,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "258704646467700_360_city7.jpg",
-        "id": 258704734212500
+        "file": "178076966002000_360_city7_2.jpg",
+        "id": 178077084915600
       },
       "orientation": {
         "latitude": -2.4000000000000004,
@@ -3675,7 +3674,6 @@
             0.010037897867780893
           ],
           "asset": null,
-          "link": null,
           "id": 258994088684200,
           "keepOrientation": null
         }
@@ -3714,8 +3712,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "106897886957300_360_city3.jpg",
-        "id": 106897921487899
+        "file": "177455012818300_360_city3_2.jpg",
+        "id": 177455207421700
       },
       "orientation": {
         "latitude": 0,
@@ -3773,8 +3771,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "107399922073900_360_city5.jpg",
-        "id": 107399965982400
+        "file": "178961183938599_360_city5_2.jpg",
+        "id": 178961225278000
       },
       "orientation": {
         "latitude": 0,
@@ -3854,8 +3852,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "109186645937100_360_city5.jpg",
-        "id": 109186696519199
+        "file": "178999868155899_360_city5_2.jpg",
+        "id": 178999946069100
       },
       "orientation": {
         "latitude": 0,
@@ -3878,8 +3876,8 @@
             -0.003877035688869772
           ],
           "asset": null,
-          "link": null,
-          "id": 109222694947100
+          "id": 109222694947100,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -3895,10 +3893,11 @@
             -0.8235452485853503
           ],
           "asset": null,
-          "link": null,
-          "id": 109279575971200
+          "id": 109279575971200,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -3912,8 +3911,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "109321526016199_360_firenze.jpg",
-        "id": 109321576662100
+        "file": "179222603507900_360_firenze_2.jpg",
+        "id": 179222691271800
       },
       "orientation": {
         "latitude": 0,
@@ -3936,8 +3935,8 @@
             0.06976357603137358
           ],
           "asset": null,
-          "link": null,
-          "id": 109341135489000
+          "id": 109341135489000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -3953,10 +3952,11 @@
             -0.8456555742763845
           ],
           "asset": null,
-          "link": null,
-          "id": 109385999841000
+          "id": 109385999841000,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -3970,8 +3970,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "109447981451499_360_firenze.jpg",
-        "id": 109448025665900
+        "file": "179350816502400_360_firenze_2.jpg",
+        "id": 179350905295300
       },
       "orientation": {
         "latitude": 0,
@@ -3994,7 +3994,6 @@
             0.048936283053587666
           ],
           "asset": null,
-          "link": null,
           "id": 109467002180100,
           "keepOrientation": null
         },
@@ -4012,11 +4011,11 @@
             -0.8294503185524346
           ],
           "asset": null,
-          "link": null,
           "id": 109496350754599,
           "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -4030,8 +4029,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "109646967780100_360_city3.jpg",
-        "id": 109647243741699
+        "file": "177900324200799_360_city3_2.jpg",
+        "id": 177900533930599
       },
       "orientation": {
         "latitude": 0,
@@ -4092,8 +4091,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "109916662165299_360_city5.jpg",
-        "id": 109916740520400
+        "file": "178059928070300_360_city5_2.jpg",
+        "id": 178059993544900
       },
       "orientation": {
         "latitude": 0,
@@ -4154,8 +4153,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "109965526224800_360_firenze.jpg",
-        "id": 109965608809899
+        "file": "177987348988800_360_firenze_2.jpg",
+        "id": 177987426805400
       },
       "orientation": {
         "latitude": 0,
@@ -4212,16 +4211,16 @@
       "name": "Animazione 1",
       "asset": {
         "type": {
-          "id": 2,
-          "name": "video"
+          "id": 1,
+          "name": "image"
         },
         "folder": "/uploads/",
-        "file": "175485150708400_animazione2.mp4",
-        "id": 175485201115100
+        "file": "178644175079099_360_scorrevole.jpg",
+        "id": 178644278665800
       },
       "orientation": {
-        "latitude": 0.20000000000000462,
-        "longitude": 358.7
+        "latitude": -2.2999999999999954,
+        "longitude": 359.8
       },
       "zoom": 75,
       "id": 110743163977199,
@@ -4244,7 +4243,27 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178662925117299_Scorrevole.usdz",
+          "id": 178662953973300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178666205803300_Scorrevole.glb",
+          "id": 178666254752499
+        }
+      }
     },
     {
       "type": {
@@ -4254,16 +4273,16 @@
       "name": "Scorrevole",
       "asset": {
         "type": {
-          "id": 2,
-          "name": "video"
+          "id": 1,
+          "name": "image"
         },
         "folder": "/uploads/",
-        "file": "175789407012500_animazione2.mp4",
-        "id": 175789443480200
+        "file": "177934871466300_360_scorrevole.jpg",
+        "id": 177935139686499
       },
       "orientation": {
-        "latitude": 0.9999999999999998,
-        "longitude": 0.9999999999999997
+        "latitude": -1.6000000000000003,
+        "longitude": 0.6999999999999996
       },
       "zoom": 75,
       "id": 110870063301800,
@@ -4286,7 +4305,27 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178026735669700_Scorrevole.usdz",
+          "id": 178026765334300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178030917100300_Scorrevole.glb",
+          "id": 178030960339900
+        }
+      }
     }
   ],
   "menu": [
@@ -6403,6 +6442,339 @@
       "folder": "/uploads/",
       "file": "175789407012500_animazione2.mp4",
       "id": 175789443480200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177455012818300_360_city3_2.jpg",
+      "id": 177455207421700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177900324200799_360_city3_2.jpg",
+      "id": 177900533930599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177917124051200_360_city1_2.jpg",
+      "id": 177917193655900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177934871466300_360_scorrevole.jpg",
+      "id": 177935139686499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177974806074200_360_firenze_2.jpg",
+      "id": 177974872938200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177987348988800_360_firenze_2.jpg",
+      "id": 177987426805400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178026735669700_Scorrevole.usdz",
+      "id": 178026765334300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178030917100300_Scorrevole.glb",
+      "id": 178030960339900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178059928070300_360_city5_2.jpg",
+      "id": 178059993544900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178076966002000_360_city7_2.jpg",
+      "id": 178077084915600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178171920719300_360_sfondo3.jpg",
+      "id": 178172114532699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178219371901099_360_sfondo3.jpg",
+      "id": 178219414658300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178339236462300_360_sfondo3.jpg",
+      "id": 178339286496200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178362785145600_360_sfondo3.jpg",
+      "id": 178363022036499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178384893031700_360_sfondo3.jpg",
+      "id": 178384936279600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178436979615300_360_sfondo3.jpg",
+      "id": 178437036798600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178551600048700_360_sfondo3.jpg",
+      "id": 178551655296199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178568691585000_360_city7_2.jpg",
+      "id": 178568782539299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178586038363100_360_sfondo3.jpg",
+      "id": 178586102783900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178644175079099_360_scorrevole.jpg",
+      "id": 178644278665800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178662925117299_Scorrevole.usdz",
+      "id": 178662953973300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178666205803300_Scorrevole.glb",
+      "id": 178666254752499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178902063613000_360_city1_2.jpg",
+      "id": 178902358319200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178922398807800_360_sfondo3.jpg",
+      "id": 178922435052600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178961183938599_360_city5_2.jpg",
+      "id": 178961225278000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178979363599499_360_sfondo3.jpg",
+      "id": 178979412779299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178999868155899_360_city5_2.jpg",
+      "id": 178999946069100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179021312328300_360_sfondo3.jpg",
+      "id": 179021362321600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179144294310300_360_city1_2.jpg",
+      "id": 179144354304499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179196327854899_360_sfondo3.jpg",
+      "id": 179196386628900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179222603507900_360_firenze_2.jpg",
+      "id": 179222691271800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179284953211600_360_sfondo3.jpg",
+      "id": 179285002185600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179332780703700_360_sfondo3.jpg",
+      "id": 179333015142200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179350816502400_360_firenze_2.jpg",
+      "id": 179350905295300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179425398968000_360_sfondo4.jpg",
+      "id": 179425459169599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179517235708700_360_city7_3.jpg",
+      "id": 179517317234900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179544732994900_360_sfondo4.jpg",
+      "id": 179544799752900
     }
   ],
   "users": [

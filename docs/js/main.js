@@ -17496,7 +17496,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
 
       var image = titleTexture.image;
       var title = new THREE.Sprite(titleMaterial);
-      title.scale.set(0.04 * image.width / image.height, 0.04, 0.04); //0.03
+      title.scale.set(0.03 * image.width / image.height, 0.03, 0.03); //0.03
 
       title.position.set(0, -3.5, 0);
       nav.add(title);

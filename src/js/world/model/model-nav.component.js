@@ -175,7 +175,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			// console.log(titleTexture);
 			const image = titleTexture.image;
 			const title = new THREE.Sprite(titleMaterial);
-			title.scale.set(0.04 * image.width / image.height, 0.04, 0.04);//0.03
+			title.scale.set(0.03 * image.width / image.height, 0.03, 0.03);//0.03
 			title.position.set(0, -3.5, 0);
 			nav.add(title);
 		}
