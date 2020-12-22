@@ -798,29 +798,12 @@
           "abstract": null,
           "viewId": 101260600040800,
           "position": [
-            -0.01693300444129616,
-            -0.04559107949938011,
-            0.9988166632724307
+            -0.035653990886371556,
+            -0.04246539027175332,
+            0.9984615583801623
           ],
           "asset": null,
           "id": 101417709395100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Welcome Room",
-          "abstract": null,
-          "viewId": 376789637631099,
-          "position": [
-            -0.8519555385220704,
-            -0.5216420356563874,
-            0.04540205962100181
-          ],
-          "asset": null,
-          "id": 101603135187200,
           "keepOrientation": null
         },
         {
@@ -832,9 +815,9 @@
           "abstract": "Contribuiscono in maniera determinante all’armonia della facciata di qualsiasi edificio.\nUn’estetica ricercata, ottimale per un’ampia gamma di soluzioni architettoniche.\nQuesto nuovo sistema di profili permette di raggiungere già con un semplice doppio vetro i più alti standard prescritti\ndalle norme di risparmio energetico. Inoltre è ora certificato per i massimi livelli di isolamento termico.\nGrazie a queste particolari proprietà termoplastiche i profilati GEALAN si prestano alla realizzazione di finestre con\nindiscussi vantaggi di impatto ambientale.",
           "viewId": 101028713006200,
           "position": [
-            -0.9792303009031953,
-            -0.19726713568918314,
-            0.04683689752772873
+            -0.9908835063350308,
+            -0.17065599964393133,
+            0.051
           ],
           "asset": null,
           "id": 101669008665100,
@@ -849,13 +832,31 @@
           "abstract": null,
           "viewId": 106904653480700,
           "position": [
-            -0.9627573859109106,
-            -0.26555689277944994,
-            0.050771572472336234
+            -0.9655159444625963,
+            -0.253,
+            0.051
           ],
           "asset": null,
           "link": null,
           "id": 107053057783100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.8332472098569982,
+            -0.521,
+            0.051
+          ],
+          "asset": null,
+          "link": null,
+          "id": 176282711655700,
           "keepOrientation": null
         }
       ],
@@ -1489,7 +1490,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Animazione",
+          "title": "Apertura Anta",
           "abstract": null,
           "viewId": 110743163977199,
           "position": [
@@ -1570,7 +1571,7 @@
           "viewId": 101245003287599,
           "position": [
             0.986,
-            -0.0870310450528054,
+            -0.06103104505280538,
             0
           ],
           "asset": null,
@@ -1604,7 +1605,7 @@
           "viewId": 101322525583300,
           "position": [
             0.9698383287524075,
-            -0.241,
+            -0.267,
             0
           ],
           "asset": null,
@@ -4215,12 +4216,12 @@
           "name": "video"
         },
         "folder": "/uploads/",
-        "file": "110741377714399_animazione.mp4",
-        "id": 110741495699400
+        "file": "175485150708400_animazione2.mp4",
+        "id": 175485201115100
       },
       "orientation": {
-        "latitude": 0.30000000000000004,
-        "longitude": 19.400000000000002
+        "latitude": 0.20000000000000462,
+        "longitude": 358.7
       },
       "zoom": 75,
       "id": 110743163977199,
@@ -4257,12 +4258,12 @@
           "name": "video"
         },
         "folder": "/uploads/",
-        "file": "110868370339399_animazione.mp4",
-        "id": 110868390321899
+        "file": "175789407012500_animazione2.mp4",
+        "id": 175789443480200
       },
       "orientation": {
-        "latitude": -0.1,
-        "longitude": 12.700000000000001
+        "latitude": 0.9999999999999998,
+        "longitude": 0.9999999999999997
       },
       "zoom": 75,
       "id": 110870063301800,
@@ -6375,6 +6376,33 @@
       "folder": "/uploads/",
       "file": "110868370339399_animazione.mp4",
       "id": 110868390321899
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175300485466300_animazione2.mp4",
+      "id": 175300594530200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175485150708400_animazione2.mp4",
+      "id": 175485201115100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175789407012500_animazione2.mp4",
+      "id": 175789443480200
     }
   ],
   "users": [

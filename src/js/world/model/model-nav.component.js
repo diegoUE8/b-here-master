@@ -157,7 +157,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			// color: 0xff0000,
 		});
 		const sprite = new THREE.Sprite(material);
-		sprite.scale.set(0.03, 0.03, 0.03);
+		sprite.scale.set(0.04, 0.04, 0.04);//0.03
 		nav.add(sprite);
 
 		let titleMaterial;
@@ -175,7 +175,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			// console.log(titleTexture);
 			const image = titleTexture.image;
 			const title = new THREE.Sprite(titleMaterial);
-			title.scale.set(0.03 * image.width / image.height, 0.03, 0.03);
+			title.scale.set(0.04 * image.width / image.height, 0.04, 0.04);//0.03
 			title.position.set(0, -3.5, 0);
 			nav.add(title);
 		}
@@ -203,7 +203,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			const from = { scale: sprite.scale.x };
 			gsap.to(from, {
 				duration: 0.35,
-				scale: 0.04,
+				scale: 0.07,//0.04
 				delay: 0,
 				ease: Power2.easeOut,
 				overwrite: true,
@@ -224,7 +224,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			const from = { scale: sprite.scale.x };
 			gsap.to(from, {
 				duration: 0.35,
-				scale: 0.03,
+				scale: 0.04,//0.03
 				delay: 0,
 				ease: Power2.easeOut,
 				overwrite: true,
