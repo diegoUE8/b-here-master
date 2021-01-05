@@ -139,7 +139,7 @@
           },
           "title": "Tour House",
           "abstract": null,
-          "viewId": 502403878376800,
+          "viewId": 376789637631099,
           "position": [
             -0.6105040351259335,
             -0.027079882956122275,
@@ -9315,6 +9315,4308 @@
           "id": 272407910712500
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Welcome Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "881576921902800_Unreal Engine Demo 360 2020.11.10 - 13.33.11.59.jpg",
+        "id": 881577304654200
+      },
+      "orientation": {
+        "latitude": -0.6,
+        "longitude": 89.5
+      },
+      "zoom": 75,
+      "id": 376789637631099,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 376847775559700,
+          "position": [
+            -0.08783838577665949,
+            -0.0721131905598011,
+            -0.9935210645635232
+          ],
+          "asset": null,
+          "id": 875768630007600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "House Tour",
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            0.09490218840045289,
+            -0.06120628117720767,
+            0.9936032235159372
+          ],
+          "asset": null,
+          "id": 875789603501000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Cinema",
+          "abstract": null,
+          "viewId": 376822678396500,
+          "position": [
+            -0.9963304902360907,
+            -0.06601841613358903,
+            0.05447130397855086
+          ],
+          "asset": null,
+          "id": 875817081900200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cinema",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "376818430530399_cinema.jpg",
+        "id": 376818447190500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 376822678396500,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.950465086127377,
+            1.4060176862564182,
+            -0.0453554092340824
+          ],
+          "rotation": [
+            1.539,
+            -1.5,
+            1.5384694344301348,
+            "XYZ"
+          ],
+          "scale": [
+            22,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "870159514944100_Piva - sistemi oscuranti.mp4",
+            "id": 870159547967099,
+            "chromaKeyColor": null
+          },
+          "id": 870162569009500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ingresso",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8012476057915302,
+            -0.1962586205628084,
+            -0.5652298895742547
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870250594547899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 376847775559700,
+          "position": [
+            0.8011559202843578,
+            -0.1973551811205881,
+            0.5649779853040147
+          ],
+          "asset": null,
+          "link": null,
+          "id": 870267303200300,
+          "keepOrientation": null
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "875681821864200_Room3D.jpg",
+        "id": 875682136418800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 376847775559700,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.530784358348615,
+            -0.15578057588520222,
+            11.12046315239471
+          ],
+          "rotation": [
+            -3.12649946017066,
+            -1.5433981346627177,
+            -3.1286644800441987,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
+            "id": 870332089861100,
+            "chromaKeyColor": null
+          },
+          "id": 870333877423800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ingresso",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.8457509713421903,
+            -0.28071875329535684,
+            0.4537645601212617
+          ],
+          "asset": null,
+          "id": 870406895800600,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambiente 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "522972127978900_Unreal Engine Demo 360 2020.11.06 - 09.42.37.83.jpg",
+        "id": 522972228833000
+      },
+      "orientation": {
+        "latitude": -15.8,
+        "longitude": 355.2
+      },
+      "zoom": 75,
+      "id": 459498566687500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459540659817000,
+          "position": [
+            0.9640329239345478,
+            -0.26547517161976725,
+            0.012784945195879414
+          ],
+          "asset": null,
+          "id": 459818702556100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459517947815699,
+          "position": [
+            -0.050019200256808276,
+            -0.23139658460886495,
+            0.9715727971886726
+          ],
+          "asset": null,
+          "id": 459843230705600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ingresso",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.9999674948432845,
+            -0.007727093148036416,
+            -0.0023024526764728512
+          ],
+          "asset": null,
+          "id": 522887701924200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambiente 1 - 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "523034373497199_Unreal Engine Demo 360 2020.11.06 - 09.43.19.21.jpg",
+        "id": 523034460521000
+      },
+      "orientation": {
+        "latitude": -8.5,
+        "longitude": 356
+      },
+      "zoom": 75,
+      "id": 459517947815699,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459498566687500,
+          "position": [
+            -0.8877171437952076,
+            -0.43432723981878957,
+            0.15270272218749167
+          ],
+          "asset": null,
+          "id": 459777397799500,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459540659817000,
+          "position": [
+            -0.6844541343895132,
+            -0.31967260911009054,
+            -0.6552342794007725
+          ],
+          "asset": null,
+          "id": 459794810385499,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambiente 1 - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "523086666180899_Unreal Engine Demo 360 2020.11.06 - 09.44.02.28.jpg",
+        "id": 523086771367799
+      },
+      "orientation": {
+        "latitude": -5,
+        "longitude": 359.5
+      },
+      "zoom": 75,
+      "id": 459540659817000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459498566687500,
+          "position": [
+            -0.9699300416209825,
+            -0.22885808357570814,
+            -0.08282325726010496
+          ],
+          "asset": null,
+          "id": 459715718571600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459578920550100,
+          "position": [
+            -0.022916472261241223,
+            -0.11495434384913347,
+            -0.9931064062472434
+          ],
+          "asset": null,
+          "id": 459733074916299,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459517947815699,
+          "position": [
+            -0.9163024305123344,
+            -0.2123342617389949,
+            0.33956445209848535
+          ],
+          "asset": null,
+          "id": 459754835026200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Spazi Classici e Moderni.",
+          "viewId": 459540659817000,
+          "position": [
+            0.9176305384585357,
+            -0.15721043347847405,
+            0.36501927961932124
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "868738800348599_544223346617299_Interno_PVC-2.jpg",
+            "id": 868738826265199,
+            "chromaKeyColor": null
+          },
+          "id": 544383629261099,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Scheda Tecnica",
+          "viewId": 459540659817000,
+          "position": [
+            0.8867407706433983,
+            -0.1565290267714852,
+            -0.43495915837779975
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "868824535298500_544735444142999_Interno_PVC.jpg",
+            "id": 868824556077700,
+            "chromaKeyColor": null
+          },
+          "id": 544488547763500,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambiente 1 - 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "523134116765300_Unreal Engine Demo 360 2020.11.06 - 09.44.39.17.jpg",
+        "id": 523134209079000
+      },
+      "orientation": {
+        "latitude": -7.5,
+        "longitude": 357.5
+      },
+      "zoom": 75,
+      "id": 459578920550100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459599064816400,
+          "position": [
+            0.5212529146820137,
+            -0.13215648881240055,
+            -0.8431073842638808
+          ],
+          "asset": null,
+          "id": 459656421102200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459540659817000,
+          "position": [
+            -0.8847374600197689,
+            -0.40242940189431026,
+            0.2351386895616192
+          ],
+          "asset": null,
+          "id": 459686421004400,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Ambiente 1 - 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "523298518536000_Unreal Engine Demo 360 2020.11.06 - 09.46.26.98.jpg",
+        "id": 523298628978099
+      },
+      "orientation": {
+        "latitude": -2.4000000000000004,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 459599064816400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 459578920550100,
+          "position": [
+            -0.058203549983907095,
+            -0.39245199683538057,
+            0.9179290696721578
+          ],
+          "asset": null,
+          "id": 459623530005199,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": true
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "City 74 - dettagli 7 -1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178568691585000_360_city7_2.jpg",
+        "id": 178568782539299
+      },
+      "orientation": {
+        "latitude": -4.310963728122627,
+        "longitude": 359.7347735655041
+      },
+      "zoom": 75,
+      "id": 343790068431900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            0.8580455949986967,
+            -0.5133220600353502,
+            -0.016069212314150285
+          ],
+          "asset": null,
+          "id": 505821066574900,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 256000798963299,
+          "position": [
+            0.3082282660364793,
+            -0.44540232720358675,
+            -0.840602226345954
+          ],
+          "asset": null,
+          "id": 505839869664500,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "City 74 - dettagli 1 -1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178902063613000_360_city1_2.jpg",
+        "id": 178902358319200
+      },
+      "orientation": {
+        "latitude": -4.4,
+        "longitude": 359.90000000000003
+      },
+      "zoom": 75,
+      "id": 36239239323700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 183788620172200,
+          "position": [
+            0.3146953638870255,
+            -0.4489641807200909,
+            -0.8363001807834016
+          ],
+          "asset": null,
+          "id": 36291858611700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101115292443699,
+          "position": [
+            0.8434716387988248,
+            -0.537157943372146,
+            0.004115630478013887
+          ],
+          "asset": null,
+          "id": 36317490376000,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour House",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "106814988666099_1_2.jpg",
+        "id": 106815455567799
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101028713006200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            0.9458850560819436,
+            -0.3243714921683787,
+            -0.00919759475723327
+          ],
+          "asset": null,
+          "id": 101405859494600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Notte",
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            -0.035653990886371556,
+            -0.04246539027175332,
+            0.9984615583801623
+          ],
+          "asset": null,
+          "id": 101417709395100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Contribuiscono in maniera determinante all’armonia della facciata di qualsiasi edificio.\nUn’estetica ricercata, ottimale per un’ampia gamma di soluzioni architettoniche.\nQuesto nuovo sistema di profili permette di raggiungere già con un semplice doppio vetro i più alti standard prescritti\ndalle norme di risparmio energetico. Inoltre è ora certificato per i massimi livelli di isolamento termico.\nGrazie a queste particolari proprietà termoplastiche i profilati GEALAN si prestano alla realizzazione di finestre con\nindiscussi vantaggi di impatto ambientale.",
+          "viewId": 101028713006200,
+          "position": [
+            -0.9908835063350308,
+            -0.17065599964393133,
+            0.051
+          ],
+          "asset": null,
+          "id": 101669008665100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 106904653480700,
+          "position": [
+            -0.9655159444625963,
+            -0.253,
+            0.051
+          ],
+          "asset": null,
+          "link": null,
+          "id": 107053057783100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.8332472098569982,
+            -0.521,
+            0.051
+          ],
+          "asset": null,
+          "link": null,
+          "id": 176282711655700,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "107185750463700_2_2.jpg",
+        "id": 107185811837599
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101097786721600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101115292443699,
+          "position": [
+            0.999623798352125,
+            -0.02476441090980351,
+            -0.011789220515383404
+          ],
+          "asset": null,
+          "id": 101719340340800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            0.6064190783537101,
+            -0.1386141440373339,
+            -0.7829699997327063
+          ],
+          "asset": null,
+          "id": 101730561276600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            0.25902802889609633,
+            -0.33406354458798443,
+            0.9062593604611843
+          ],
+          "asset": null,
+          "id": 101750629599000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            0.15545651586481943,
+            -0.2410654093093463,
+            0.9579774215030793
+          ],
+          "asset": null,
+          "id": 101759670563000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.9411826222242801,
+            -0.3376240531637617,
+            0.01361140508182525
+          ],
+          "asset": null,
+          "id": 101770713831800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Serramento con apertura scorrevole e fisso laterale",
+          "abstract": "City74",
+          "viewId": 101097786721600,
+          "position": [
+            -0.20406682272352084,
+            -0.02943706670006981,
+            -0.9785142773448035
+          ],
+          "asset": null,
+          "id": 104561838915399,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Portafinestra a 2 ante con apertura a ribalta",
+          "abstract": "City74",
+          "viewId": 101097786721600,
+          "position": [
+            -0.9920078812505935,
+            -0.12616107225250617,
+            0.0019358163152625367
+          ],
+          "asset": null,
+          "id": 104584480068800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Finestra a 1 anta con apertura a ribalta",
+          "abstract": "City74",
+          "viewId": 101097786721600,
+          "position": [
+            0.9717717805739449,
+            -0.060116877520711,
+            0.22813497653210602
+          ],
+          "asset": null,
+          "id": 104600678024700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Porta Doppia Scorrevole",
+          "abstract": "City74",
+          "viewId": 101097786721600,
+          "position": [
+            0.4932608102278153,
+            -0.08530981782584256,
+            0.8656881702298587
+          ],
+          "asset": null,
+          "id": 104617607751199,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Portoncino apertura esterna 1 anta",
+          "abstract": "City74",
+          "viewId": 101097786721600,
+          "position": [
+            0.15222067503615497,
+            -0.09036265432810628,
+            0.9842070192771014
+          ],
+          "asset": null,
+          "id": 104632519389200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "107927967896099_3_2.jpg",
+        "id": 107928219361700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101115292443699,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 36239239323700,
+          "position": [
+            0.891780990612549,
+            -0.2646156091515002,
+            -0.3670221303620277
+          ],
+          "asset": null,
+          "id": 101800746456000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101115292443699,
+          "position": [
+            0.99742202399247,
+            -0.0654425235075936,
+            0.02943776777751102
+          ],
+          "asset": null,
+          "id": 101846126276500,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9531604714399614,
+            -0.23137625941200907,
+            0.19480796252940238
+          ],
+          "asset": null,
+          "id": 101996871224800,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "275330742686999_4_2.jpg",
+        "id": 275330808883500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101149927283600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            -0.2694643392209211,
+            -0.09272304435635544,
+            0.9585360749254676
+          ],
+          "asset": null,
+          "id": 102020559401800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101175998344000,
+          "position": [
+            0.9986570878426557,
+            -0.049485870664247845,
+            -0.01533523740368228
+          ],
+          "asset": null,
+          "id": 102033066336800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.6223226324944767,
+            -0.20595193789169813,
+            -0.7551809984128299
+          ],
+          "asset": null,
+          "id": 102052319664000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9548762430849591,
+            -0.2925366689134071,
+            -0.05131917510055511
+          ],
+          "asset": null,
+          "id": 102059909619000,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "101172631933799_5.jpg",
+        "id": 101172675836900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101175998344000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 343790068431900,
+          "position": [
+            0.989493374865401,
+            -0.141644500258087,
+            0.028977519633602542
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102099338139699,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 7",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101175998344000,
+          "position": [
+            0.998483041393676,
+            -0.047381407042519946,
+            0.028046716668903966
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102138776503900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101149927283600,
+          "position": [
+            -0.7419920232818482,
+            -0.6160402533708502,
+            -0.2644659592705414
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102228439418400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            -0.7199908648360591,
+            -0.33469330307160844,
+            0.6079420592718027
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102237187788800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.7218504169831768,
+            -0.17466856371088607,
+            -0.6696438369404966
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102245610564399
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9659753953756174,
+            -0.23374350940578054,
+            -0.11070459493439999
+          ],
+          "asset": null,
+          "link": null,
+          "id": 102253340928199
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "165968473071100_4.jpg",
+        "id": 165968534197400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101191715010900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "viewId": 101191715010900,
+          "position": [
+            0.9912121180914459,
+            -0.13097308027586965,
+            -0.018563113739887265
+          ],
+          "asset": null,
+          "id": 102293784127600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 343790068431900,
+          "position": [
+            0.9813931725055712,
+            -0.19112876535157358,
+            -0.018363986893738676
+          ],
+          "asset": null,
+          "id": 102335883026800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.24528988706791402,
+            -0.33142070764657505,
+            0.9110396181534881
+          ],
+          "asset": null,
+          "id": 102390587233000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.8147186461925963,
+            -0.20754444164459263,
+            0.5414414393898362
+          ],
+          "asset": null,
+          "id": 102398556810200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "108751378743100_5_2.jpg",
+        "id": 108751724649300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101203645959499,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101203645959499,
+          "position": [
+            0.9830952646217984,
+            -0.18245560378167294,
+            -0.015285722974777774
+          ],
+          "asset": null,
+          "id": 103716256909500,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Scorrevole",
+          "abstract": null,
+          "viewId": 110743163977199,
+          "position": [
+            0.9629283648304054,
+            -0.2688783127264274,
+            -0.02175815135601287
+          ],
+          "asset": null,
+          "id": 103786841553300,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            -0.058108370770230046,
+            -0.1759401723312345,
+            0.9826843201183609
+          ],
+          "asset": null,
+          "id": 103826745043399,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.4073018459795557,
+            -0.3584150173381211,
+            -0.8400261195987662
+          ],
+          "asset": null,
+          "id": 103839481501700,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 8",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "108386393878199_6_2.jpg",
+        "id": 108386434836900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101245003287599,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "viewId": 101245003287599,
+          "position": [
+            0.986,
+            -0.06103104505280538,
+            0
+          ],
+          "asset": null,
+          "id": 103868673319000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 107413001285500,
+          "position": [
+            0.996,
+            -0.152,
+            0
+          ],
+          "asset": null,
+          "id": 103895220297800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Notte",
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            0.9698383287524075,
+            -0.267,
+            0
+          ],
+          "asset": null,
+          "id": 103948676968000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            -0.7725215130923218,
+            -0.18950569774037507,
+            -0.6060512373830147
+          ],
+          "asset": null,
+          "id": 103967528742999,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101097786721600,
+          "position": [
+            -0.9371650126397545,
+            -0.2614181069749179,
+            0.23104612619470427
+          ],
+          "asset": null,
+          "id": 103975167966500,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - Zona Notte",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177429565707200_9.jpg",
+        "id": 177429614598900
+      },
+      "orientation": {
+        "latitude": -1.1999999999999993,
+        "longitude": 272.3
+      },
+      "zoom": 75,
+      "id": 101260600040800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Bagno",
+          "abstract": null,
+          "viewId": 101302991658300,
+          "position": [
+            0.32271083393363376,
+            -0.0821864603427129,
+            -0.9429226391375882
+          ],
+          "asset": null,
+          "id": 104341464360100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            0.031343667001755816,
+            -0.1656144908990257,
+            -0.9856923530915411
+          ],
+          "asset": null,
+          "id": 104349827103199,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101282744228800,
+          "position": [
+            0.924265960967517,
+            -0.37320769137293974,
+            0.08030225710945472
+          ],
+          "asset": null,
+          "id": 104365607700700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Giorno",
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            -0.9928681560878826,
+            -0.05963456579959132,
+            -0.10323053418704263
+          ],
+          "asset": null,
+          "id": 104375208178800,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 10",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177073214061899_7.jpg",
+        "id": 177073560035599
+      },
+      "orientation": {
+        "latitude": 0.17189441111938208,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101282744228800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "viewId": 101282744228800,
+          "position": [
+            1,
+            0.07400000000000002,
+            0
+          ],
+          "asset": null,
+          "id": 104402878282700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 257412329346300,
+          "position": [
+            1,
+            -0.09458958616238103,
+            0
+          ],
+          "asset": null,
+          "id": 104416359071300,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 175920234676100,
+          "position": [
+            0.999955854964398,
+            0.003,
+            0
+          ],
+          "asset": null,
+          "id": 104444563596400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            0.06641338409386072,
+            -0.38043148054417475,
+            0.9224213522160948
+          ],
+          "asset": null,
+          "id": 104453524241900,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            0.03428123497136981,
+            -0.13768016580395795,
+            0.9898833107356809
+          ],
+          "asset": null,
+          "id": 104461289818199,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 11",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175955884693000_8.jpg",
+        "id": 175955955151300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101302991658300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Firenze",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101302991658300,
+          "position": [
+            0.9860154711789579,
+            0.12736114600374948,
+            -0.10748315721241702
+          ],
+          "asset": null,
+          "id": 104485404698799,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            -0.9571206868876665,
+            -0.2862180291367067,
+            0.04471275577260549
+          ],
+          "asset": null,
+          "id": 104497484412700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 109450037861400,
+          "position": [
+            0.9937612341795642,
+            0.022677650112420174,
+            -0.1091985971855322
+          ],
+          "asset": null,
+          "link": null,
+          "id": 257996825179099,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 12",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175352858010300_9.jpg",
+        "id": 175353233045500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101322525583300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Giorno",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            0.269707040756819,
+            -0.10460764961446552,
+            -0.9572436219731825
+          ],
+          "asset": null,
+          "id": 104005663372999,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            0.014801160402687636,
+            -0.2040579896257668,
+            -0.9788469045364676
+          ],
+          "asset": null,
+          "id": 104019193454700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            -0.6700495396329755,
+            -0.2800766512457442,
+            -0.6874523138841032
+          ],
+          "asset": null,
+          "id": 104033811218499,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
+          "viewId": 101322525583300,
+          "position": [
+            0.9696949745035588,
+            -0.24399949193339168,
+            -0.01248616669715928
+          ],
+          "asset": null,
+          "id": 104059222038200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 109203291446700,
+          "position": [
+            0.9467535698429415,
+            -0.3214526309454898,
+            -0.018052258802410664
+          ],
+          "asset": null,
+          "id": 104073384442600,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101343185766000,
+          "position": [
+            -0.761347510800265,
+            -0.21838399417542992,
+            0.610457532418289
+          ],
+          "asset": null,
+          "id": 104134278476100,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 13",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175442062877700_11.jpg",
+        "id": 175442145555900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101343185766000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City 74",
+          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "viewId": 101343185766000,
+          "position": [
+            0.997154991172555,
+            -0.042250919153979986,
+            0.06242422134320489
+          ],
+          "asset": null,
+          "id": 104168917913000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 175582138015200,
+          "position": [
+            0.991245650027655,
+            -0.13613472838997565,
+            0.05895970869567263
+          ],
+          "asset": null,
+          "id": 104190679939200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            -0.6930591797843496,
+            -0.29764465077943014,
+            0.656564265840775
+          ],
+          "asset": null,
+          "id": 104223537049099,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            -0.8903091589554093,
+            -0.4530675734865931,
+            -0.04560016814752131
+          ],
+          "asset": null,
+          "id": 104230584849900,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Zona Giorno",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            -0.9673257542807514,
+            -0.07081442202335418,
+            0.2434465089884714
+          ],
+          "asset": null,
+          "id": 104244856968600,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Tour - 14",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175658496656200_10.jpg",
+        "id": 175658523245500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 101358797035400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Firenze",
+          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "viewId": 101358797035400,
+          "position": [
+            0.9915509856412822,
+            0.10045229894121281,
+            0.08207300720229162
+          ],
+          "asset": null,
+          "id": 104289369700300,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            -0.7175499786649632,
+            -0.34313543791475626,
+            -0.6061188822046047
+          ],
+          "asset": null,
+          "id": 104302272337199,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettagli Prodotto",
+          "abstract": null,
+          "viewId": 109323010355600,
+          "position": [
+            0.9827120102073238,
+            -0.17074753891809255,
+            0.07157082469620628
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258145662976100,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "City 74 - dettagli 1 -2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179144294310300_360_city1_2.jpg",
+        "id": 179144354304499
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 175582138015200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101343185766000,
+          "position": [
+            0.8470708117272785,
+            -0.5314332789964656,
+            -0.007050524431130745
+          ],
+          "asset": null,
+          "id": 175604526448800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 246450449087500,
+          "position": [
+            0.3679436870699211,
+            -0.4427087790918077,
+            -0.8176957747600466
+          ],
+          "asset": null,
+          "link": null,
+          "id": 179182257227600
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "City 74 - dettagli 7 -2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179517235708700_360_city7_3.jpg",
+        "id": 179517317234900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 175920234676100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101282744228800,
+          "position": [
+            0.8799062146641575,
+            -0.4751332905450073,
+            0.0036619136072830972
+          ],
+          "asset": null,
+          "id": 175939711038299,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 257412329346300,
+          "position": [
+            0.28591780582627335,
+            -0.44692753057586154,
+            -0.8476477987494877
+          ],
+          "asset": null,
+          "id": 257453359144800,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City74 - 1a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178922398807800_360_sfondo3.jpg",
+        "id": 178922435052600
+      },
+      "orientation": {
+        "latitude": 17.5,
+        "longitude": 118.1
+      },
+      "zoom": 58.5404,
+      "id": 183788620172200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "183778044615500_City1.glb",
+            "id": 183778092631699,
+            "chromaKeyColor": null
+          },
+          "id": 183788638875299,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101115292443699,
+          "position": [
+            0.5382314260950158,
+            -0.5416351667294124,
+            -0.6457075794240975
+          ],
+          "asset": null,
+          "id": 255949969228100,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257826088850899_City1.usdz",
+          "id": 257826117218200
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257831190924100_City1.glb",
+          "id": 257831228147000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 1b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179196327854899_360_sfondo3.jpg",
+        "id": 179196386628900
+      },
+      "orientation": {
+        "latitude": 16.4,
+        "longitude": 123.9
+      },
+      "zoom": 59.6801,
+      "id": 246450449087500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "246441419807000_City1.glb",
+            "id": 246441463250200,
+            "chromaKeyColor": null
+          },
+          "id": 246450465194400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101343185766000,
+          "position": [
+            0.593679984877661,
+            -0.5160687597750461,
+            -0.617427818242672
+          ],
+          "asset": null,
+          "id": 257314942405399,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257293507738600_City1.usdz",
+          "id": 257293549716900
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257296395917500_City1.glb",
+          "id": 257296431422300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 3a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178436979615300_360_sfondo3.jpg",
+        "id": 178437036798600
+      },
+      "orientation": {
+        "latitude": 20,
+        "longitude": 120.4
+      },
+      "zoom": 52.5,
+      "id": 255139962540699,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "255123482160100_City3.glb",
+            "id": 255123527028099,
+            "chromaKeyColor": null
+          },
+          "id": 255139983046900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            0.5147303715256786,
+            -0.5820472451476896,
+            -0.6295026997916864
+          ],
+          "asset": null,
+          "id": 255464090594900,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255561710884499_City3.usdz",
+          "id": 255561749354899
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255566569131700_City3.glb",
+          "id": 255566632139800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 5a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178979363599499_360_sfondo3.jpg",
+        "id": 178979412779299
+      },
+      "orientation": {
+        "latitude": 22.2,
+        "longitude": 289.7
+      },
+      "zoom": 46.4117,
+      "id": 255725576747900,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "255712370432500_City5.glb",
+            "id": 255712413399600,
+            "chromaKeyColor": null
+          },
+          "id": 255725599292899,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            -0.41815840451741887,
+            -0.5946254528611644,
+            0.6867052639532493
+          ],
+          "asset": null,
+          "id": 255852249999000,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255825631471100_City5.usdz",
+          "id": 255825676443799
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "255831476207200_City5.glb",
+          "id": 255831504578100
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 7a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178586038363100_360_sfondo3.jpg",
+        "id": 178586102783900
+      },
+      "orientation": {
+        "latitude": 13.400000000000002,
+        "longitude": 121.7
+      },
+      "zoom": 56.9954,
+      "id": 256000798963299,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "255988174245399_City7.glb",
+            "id": 255988215348799,
+            "chromaKeyColor": null
+          },
+          "id": 256000814275199,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            0.6617347774644299,
+            -0.4485530347409671,
+            -0.6007555736893083
+          ],
+          "asset": null,
+          "id": 256084055605599,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "256054944132399_City7.usdz",
+          "id": 256055446672500
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "256058681482500_City7.glb",
+          "id": 256058707998600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 5b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179021312328300_360_sfondo3.jpg",
+        "id": 179021362321600
+      },
+      "orientation": {
+        "latitude": 16.9,
+        "longitude": 302.1
+      },
+      "zoom": 52.4901,
+      "id": 257194446841500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "257179650209800_City5.glb",
+            "id": 257179685464199,
+            "chromaKeyColor": null
+          },
+          "id": 257194465069400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            -0.5702474066981913,
+            -0.5178506268211868,
+            0.6376900684932232
+          ],
+          "asset": null,
+          "id": 257246137995600,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257881291416600_City5.usdz",
+          "id": 257881347839400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257884623665700_City5.glb",
+          "id": 257884647115400
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 7b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179544732994900_360_sfondo4.jpg",
+        "id": 179544799752900
+      },
+      "orientation": {
+        "latitude": 16.7,
+        "longitude": 117.90000000000002
+      },
+      "zoom": 70.2045,
+      "id": 257412329346300,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "257411152693299_City7.glb",
+            "id": 257411182824500,
+            "chromaKeyColor": null
+          },
+          "id": 257412344145900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101282744228800,
+          "position": [
+            0.633767849652176,
+            -0.5003642496924323,
+            -0.5898931516613716
+          ],
+          "asset": null,
+          "id": 257520150868899,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257494287809000_City7.usdz",
+          "id": 257494346632699
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "257498493393900_City7.glb",
+          "id": 257498528382600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Firenze a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179425398968000_360_sfondo4.jpg",
+        "id": 179425459169599
+      },
+      "orientation": {
+        "latitude": 13.799999999999999,
+        "longitude": 110.4
+      },
+      "zoom": 75,
+      "id": 257951063000700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "257948534150800_Firenze.glb",
+            "id": 257948612880899,
+            "chromaKeyColor": null
+          },
+          "id": 257951073800400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101302991658300,
+          "position": [
+            0.6170760062743003,
+            -0.44358848326274,
+            -0.6499588140776471
+          ],
+          "asset": null,
+          "id": 258079443668600,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258053860414900_Firenze.usdz",
+          "id": 258053964208200
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258057425709099_Firenze.glb",
+          "id": 258057489679500
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Firenze b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179284953211600_360_sfondo3.jpg",
+        "id": 179285002185600
+      },
+      "orientation": {
+        "latitude": 11.999999999999998,
+        "longitude": 122.80000000000001
+      },
+      "zoom": 70.6466,
+      "id": 258129813910500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258122434820000_Firenze.glb",
+            "id": 258122513646299,
+            "chromaKeyColor": null
+          },
+          "id": 258129825553099,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            0.6587797521172215,
+            -0.4548749288944387,
+            -0.5992478929989253
+          ],
+          "asset": null,
+          "id": 258200721849900,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258173737346399_Firenze.usdz",
+          "id": 258173790400300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258176997268699_Firenze.glb",
+          "id": 258177056757800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178171920719300_360_sfondo3.jpg",
+        "id": 178172114532699
+      },
+      "orientation": {
+        "latitude": 22.2,
+        "longitude": 127.7
+      },
+      "zoom": 56.2188,
+      "id": 258277603341700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258276571551000_City1.glb",
+            "id": 258276632648899,
+            "chromaKeyColor": null
+          },
+          "id": 258277614106900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.6358157446006147,
+            -0.6103377794626939,
+            -0.47246813001356386
+          ],
+          "asset": null,
+          "id": 259014171148200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258598732269100_City1.usdz",
+          "id": 258598759085899
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258601672910700_City1.glb",
+          "id": 258601701016499
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178219371901099_360_sfondo3.jpg",
+        "id": 178219414658300
+      },
+      "orientation": {
+        "latitude": 21.8,
+        "longitude": 123.30000000000001
+      },
+      "zoom": 51.9673,
+      "id": 258333500660600,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258330504091299_City3.glb",
+            "id": 258330539182800,
+            "chromaKeyColor": null
+          },
+          "id": 258333511138699,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.5783789387268143,
+            -0.5874631040631146,
+            -0.5660078662013224
+          ],
+          "asset": null,
+          "id": 259039237178700,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258554231455699_City3.usdz",
+          "id": 258554257784600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258557286921500_City3.glb",
+          "id": 258557316284200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178339236462300_360_sfondo3.jpg",
+        "id": 178339286496200
+      },
+      "orientation": {
+        "latitude": 21.599999999999998,
+        "longitude": 304.29999999999995
+      },
+      "zoom": 39.7194,
+      "id": 258357100231700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258356316505900_City5.glb",
+            "id": 258356384138900,
+            "chromaKeyColor": null
+          },
+          "id": 258357117779000,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            -0.6066863267182885,
+            -0.5593284535328583,
+            0.5648746604704546
+          ],
+          "asset": null,
+          "id": 259060263810299,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258578253021700_City5.usdz",
+          "id": 258578275388499
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258581550071299_City5.glb",
+          "id": 258581598490599
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178362785145600_360_sfondo3.jpg",
+        "id": 178363022036499
+      },
+      "orientation": {
+        "latitude": 15.400000000000006,
+        "longitude": 125.20000000000002
+      },
+      "zoom": 69.1576,
+      "id": 258379328599699,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258378542961400_City7.glb",
+            "id": 258378568667900,
+            "chromaKeyColor": null
+          },
+          "id": 258379338219799,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.627878041255043,
+            -0.5286206575868104,
+            -0.5712524535459068
+          ],
+          "asset": null,
+          "id": 259096827497400,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258504759085600_City7.usdz",
+          "id": 258504780979299
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258508325435699_City7.glb",
+          "id": 258508375983199
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Firenze",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178384893031700_360_sfondo3.jpg",
+        "id": 178384936279600
+      },
+      "orientation": {
+        "latitude": 21.9,
+        "longitude": 121.9
+      },
+      "zoom": 75,
+      "id": 258401814223700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258401079085199_Firenze.glb",
+            "id": 258401174248700,
+            "chromaKeyColor": null
+          },
+          "id": 258401828879399,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.5520512561318666,
+            -0.6311296826279462,
+            -0.5448988294254044
+          ],
+          "asset": null,
+          "id": 259193983972800,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258482057953900_Firenze.usdz",
+          "id": 258482179777600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258485493568099_Firenze.glb",
+          "id": 258485551025200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "City 74 - Scorrevole",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "258428036352000_3_sfondo.jpg",
+        "id": 258428065046299
+      },
+      "orientation": {
+        "latitude": 13.600000000000001,
+        "longitude": 126.4
+      },
+      "zoom": 23.4412,
+      "id": 258433199429200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "258432202600300_Scorrevole.glb",
+            "id": 258432228464400,
+            "chromaKeyColor": null
+          },
+          "id": 258433206771400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.652448794255756,
+            -0.45539586393812764,
+            -0.6057434919025186
+          ],
+          "asset": null,
+          "link": null,
+          "id": 259154936187400
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258454820784900_Scorrevole.usdz",
+          "id": 258454841367900
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258457945737199_Scorrevole.glb",
+          "id": 258457987042800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info prodotto City74 - 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177917124051200_360_city1_2.jpg",
+        "id": 177917193655900
+      },
+      "orientation": {
+        "latitude": -4.3,
+        "longitude": 359.1
+      },
+      "zoom": 75,
+      "id": 258654773202199,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.935134561463948,
+            -0.35381996643737484,
+            0.018297084628012047
+          ],
+          "asset": null,
+          "id": 258965234110000,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258668039576099_City1.usdz",
+          "id": 258668098038999
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258671657419600_City1.glb",
+          "id": 258671688897400
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info prodotto City74 - 7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178076966002000_360_city7_2.jpg",
+        "id": 178077084915600
+      },
+      "orientation": {
+        "latitude": -2.4000000000000004,
+        "longitude": 359.5
+      },
+      "zoom": 75,
+      "id": 258706573018600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.9156963688496456,
+            -0.4017454426399509,
+            0.010037897867780893
+          ],
+          "asset": null,
+          "id": 258994088684200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258719782009700_City7.usdz",
+          "id": 258719812112800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "258723011900400_City7.glb",
+          "id": 258723067126199
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto City74 - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177455012818300_360_city3_2.jpg",
+        "id": 177455207421700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 106904653480700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101028713006200,
+          "position": [
+            0.9158759153310339,
+            -0.4011718508341348,
+            -0.015246436136214356
+          ],
+          "asset": null,
+          "id": 106948344907100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 255139962540699,
+          "position": [
+            0.23834301997421853,
+            -0.4561870885246424,
+            -0.857371532705034
+          ],
+          "asset": null,
+          "id": 107011580869200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto City74 - 5a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178961183938599_360_city5_2.jpg",
+        "id": 178961225278000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 107413001285500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back ",
+          "abstract": null,
+          "viewId": 101245003287599,
+          "position": [
+            0.9309395637391711,
+            -0.36515273306943596,
+            0.003874299555113172
+          ],
+          "asset": null,
+          "id": 109016108688100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 255725576747900,
+          "position": [
+            0.26429763398355105,
+            -0.4255957475119199,
+            -0.8654565386953101
+          ],
+          "asset": null,
+          "id": 109042393051400,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto Firenze",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "107532891242699_360_firenze.jpg",
+        "id": 107532955152800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 107534543863000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto - City74 - 5b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178999868155899_360_city5_2.jpg",
+        "id": 178999946069100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109203291446700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101322525583300,
+          "position": [
+            0.9315970181071364,
+            -0.3634720958315217,
+            -0.003877035688869772
+          ],
+          "asset": null,
+          "id": 109222694947100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 257194446841500,
+          "position": [
+            0.3548478294571766,
+            -0.44255648392270114,
+            -0.8235452485853503
+          ],
+          "asset": null,
+          "id": 109279575971200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto Firenze 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179222603507900_360_firenze_2.jpg",
+        "id": 179222691271800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109323010355600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101358797035400,
+          "position": [
+            0.93128910015654,
+            -0.35753832716079065,
+            0.06976357603137358
+          ],
+          "asset": null,
+          "id": 109341135489000,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 258129813910500,
+          "position": [
+            0.2945930482406607,
+            -0.44506357481100833,
+            -0.8456555742763845
+          ],
+          "asset": null,
+          "id": 109385999841000,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto Firenze 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179350816502400_360_firenze_2.jpg",
+        "id": 179350905295300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109450037861400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101302991658300,
+          "position": [
+            0.9406959136507035,
+            -0.33570290174761275,
+            0.048936283053587666
+          ],
+          "asset": null,
+          "id": 109467002180100,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 257951063000700,
+          "position": [
+            0.3432757462986152,
+            -0.44065171173659773,
+            -0.8294503185524346
+          ],
+          "asset": null,
+          "id": 109496350754599,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info prodotto City74 - 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177900324200799_360_city3_2.jpg",
+        "id": 177900533930599
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109649163793399,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.9206736375367839,
+            -0.3898628333466916,
+            -0.019157878788535417
+          ],
+          "asset": null,
+          "id": 109666962319799,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "109831099770800_City3.usdz",
+          "id": 109831687637000
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "109835542814000_City3.glb",
+          "id": 109835584777200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info prodotto City 74 -5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178059928070300_360_city5_2.jpg",
+        "id": 178059993544900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109918685177400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.9436746089614622,
+            -0.33087494979437676,
+            -2.0953785572463127e-16
+          ],
+          "asset": null,
+          "id": 109930032097299,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "109939986162800_City5.usdz",
+          "id": 109940022862300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "109943636034700_City5.glb",
+          "id": 109943672087699
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Info Prodotto Firenze",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177987348988800_360_firenze_2.jpg",
+        "id": 177987426805400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109966411536599,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.9540536492639601,
+            -0.29282390688852394,
+            0.06352789844361177
+          ],
+          "asset": null,
+          "id": 109991264701500,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "110002492094299_Firenze.usdz",
+          "id": 110002563011600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "110007692450900_Firenze.glb",
+          "id": 110007761367799
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Animazione 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "178644175079099_360_scorrevole.jpg",
+        "id": 178644278665800
+      },
+      "orientation": {
+        "latitude": -2.2999999999999954,
+        "longitude": 359.8
+      },
+      "zoom": 75,
+      "id": 110743163977199,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101203645959499,
+          "position": [
+            0.999250726147765,
+            0.018194644175903506,
+            -0.03416052131447398
+          ],
+          "asset": null,
+          "id": 110774064775200,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178662925117299_Scorrevole.usdz",
+          "id": 178662953973300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178666205803300_Scorrevole.glb",
+          "id": 178666254752499
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Scorrevole",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177934871466300_360_scorrevole.jpg",
+        "id": 177935139686499
+      },
+      "orientation": {
+        "latitude": -1.6000000000000003,
+        "longitude": 0.6999999999999996
+      },
+      "zoom": 75,
+      "id": 110870063301800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 376789637631099,
+          "position": [
+            0.9955008717743581,
+            0.025893655821350097,
+            -0.09114566849115235
+          ],
+          "asset": null,
+          "id": 110884386248999,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178026735669700_Scorrevole.usdz",
+          "id": 178026765334300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "178030917100300_Scorrevole.glb",
+          "id": 178030960339900
+        }
+      }
     }
   ],
   "menu": [
@@ -9333,9 +13635,9 @@
       "order": 10
     },
     {
-      "id": 513782032617300,
+      "id": 513783500794400,
       "parentId": 513759169265300,
-      "viewId": 502403878376800,
+      "viewId": 376789637631099,
       "name": "House",
       "order": 0
     },
@@ -9361,11 +13663,151 @@
       "order": 30
     },
     {
+      "id": 513782032617300,
+      "parentId": null,
+      "viewId": null,
+      "name": "Tour House Menù",
+      "order": 20
+    },
+    {
+      "id": 258758027430200,
+      "parentId": 513782032617300,
+      "viewId": null,
+      "name": "House Tour",
+      "order": 0
+    },
+    {
+      "id": 258767495975699,
+      "parentId": 258758027430200,
+      "viewId": 101028713006200,
+      "name": "Zona Giorno",
+      "order": 0
+    },
+    {
+      "id": 258767996791400,
+      "parentId": 258758027430200,
+      "viewId": 101260600040800,
+      "name": "Zona Notte",
+      "order": 10
+    },
+    {
+      "id": 258768783075000,
+      "parentId": 258758027430200,
+      "viewId": 101302991658300,
+      "name": "Zona Bagno",
+      "order": 20
+    },
+    {
+      "id": 258810927399499,
+      "parentId": 513782032617300,
+      "viewId": 376822678396500,
+      "name": "Cinema",
+      "order": 10
+    },
+    {
+      "id": 258820311512200,
+      "parentId": 513782032617300,
+      "viewId": 376847775559700,
+      "name": "Gallery",
+      "order": 20
+    },
+    {
+      "id": 258827874418500,
+      "parentId": 513782032617300,
+      "viewId": null,
+      "name": "Dettagli Prodotto",
+      "order": 30
+    },
+    {
+      "id": 258841372771700,
+      "parentId": 258827874418500,
+      "viewId": 258654773202199,
+      "name": "City74 - 1",
+      "order": 0
+    },
+    {
+      "id": 109749323649799,
+      "parentId": 258827874418500,
+      "viewId": 109649163793399,
+      "name": "City74 - 3",
+      "order": 10
+    },
+    {
+      "id": 109749912684200,
+      "parentId": 258827874418500,
+      "viewId": 109918685177400,
+      "name": "City 74 -5",
+      "order": 20
+    },
+    {
+      "id": 258841903308299,
+      "parentId": 258827874418500,
+      "viewId": 258706573018600,
+      "name": "City74 - 7",
+      "order": 30
+    },
+    {
+      "id": 109750357212600,
+      "parentId": 258827874418500,
+      "viewId": 109966411536599,
+      "name": "Firenze",
+      "order": 40
+    },
+    {
+      "id": 110901012198600,
+      "parentId": 258827874418500,
+      "viewId": 110870063301800,
+      "name": "Scorrevole",
+      "order": 50
+    },
+    {
+      "id": 258864998508500,
+      "parentId": 513782032617300,
+      "viewId": null,
+      "name": "Modelli 3D",
+      "order": 40
+    },
+    {
+      "id": 258873716313700,
+      "parentId": 258864998508500,
+      "viewId": 258277603341700,
+      "name": "City 74 - 1",
+      "order": 0
+    },
+    {
+      "id": 258874198238500,
+      "parentId": 258864998508500,
+      "viewId": 258333500660600,
+      "name": "City 74 - 3",
+      "order": 10
+    },
+    {
+      "id": 258874614972099,
+      "parentId": 258864998508500,
+      "viewId": 258357100231700,
+      "name": "City 74 - 5",
+      "order": 20
+    },
+    {
+      "id": 258875151124000,
+      "parentId": 258864998508500,
+      "viewId": 258379328599699,
+      "name": "City 74 - 7",
+      "order": 30
+    },
+    {
+      "id": 258875735303300,
+      "parentId": 258864998508500,
+      "viewId": 258401814223700,
+      "name": "Firenze",
+      "order": 40
+    },
+    {
       "id": 513846642724000,
       "parentId": null,
       "viewId": null,
       "name": "Media",
-      "order": 20
+      "order": 30
     },
     {
       "id": 513862283120100,
@@ -9414,7 +13856,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Studio",
-      "order": 30
+      "order": 40
     },
     {
       "id": 513912292927600,
@@ -9449,7 +13891,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Video 360",
-      "order": 40
+      "order": 50
     },
     {
       "id": 513958863172400,
@@ -9505,7 +13947,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Modelli3D",
-      "order": 50
+      "order": 60
     },
     {
       "id": 514014889240800,
@@ -9533,7 +13975,7 @@
       "parentId": null,
       "viewId": 497938223526200,
       "name": "Ambiente Grid",
-      "order": 60
+      "order": 70
     }
   ],
   "assets": [
@@ -11114,6 +15556,2311 @@
       "folder": "/uploads/",
       "file": "272407883190599_triceratopsSkeleton.glb",
       "id": 272407910712500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "376786242325500_welcome.jpg",
+      "id": 376786554950299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "376818430530399_cinema.jpg",
+      "id": 376818447190500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "376838452017900_Room3D.jpg",
+      "id": 376838570051600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "376863435191700_reception.jpg",
+      "id": 376863464651200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "376884681974999_studioTV.jpg",
+      "id": 376884747611900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459185876710300_Unreal Engine Demo 360 2020.11.05 - 12.28.39.28.jpg",
+      "id": 459185996902100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459231761795900_Unreal Engine Demo 360 2020.11.05 - 12.29.26.53.jpg",
+      "id": 459231832476099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459262702175800_Unreal Engine Demo 360 2020.11.05 - 12.30.15.43.jpg",
+      "id": 459262814637800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459496536773400_Unreal Engine Demo 360 2020.11.05 - 15.11.16.12.jpg",
+      "id": 459496620241099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459515917179300_Unreal Engine Demo 360 2020.11.05 - 15.13.17.74.jpg",
+      "id": 459515998913000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459537986964900_Unreal Engine Demo 360 2020.11.05 - 15.15.59.35.jpg",
+      "id": 459538101632599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459577591286700_Unreal Engine Demo 360 2020.11.05 - 15.17.10.54.jpg",
+      "id": 459577984493700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459597164072699_Unreal Engine Demo 360 2020.11.05 - 15.20.56.87.jpg",
+      "id": 459597246742900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459932730745399_Unreal Engine Demo 360 2020.11.05 - 15.26.48.39.jpg",
+      "id": 459933223805399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "459951575874400_Unreal Engine Demo 360 2020.11.05 - 15.28.28.86.jpg",
+      "id": 459951654370100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "460002360786900_Unreal Engine Demo 360 2020.11.05 - 15.31.29.19.jpg",
+      "id": 460002447870900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "460020767175100_Unreal Engine Demo 360 2020.11.05 - 15.34.10.35.jpg",
+      "id": 460020851620800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "460039946553999_Unreal Engine Demo 360 2020.11.05 - 15.35.01.57.jpg",
+      "id": 460040018746599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "460057122166499_Unreal Engine Demo 360 2020.11.05 - 15.35.55.31.jpg",
+      "id": 460057237421700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "460076360530699_Unreal Engine Demo 360 2020.11.05 - 15.36.39.30.jpg",
+      "id": 460076394746799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "522692113046199_render360.jpg",
+      "id": 522692442188499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "522972127978900_Unreal Engine Demo 360 2020.11.06 - 09.42.37.83.jpg",
+      "id": 522972228833000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "523034373497199_Unreal Engine Demo 360 2020.11.06 - 09.43.19.21.jpg",
+      "id": 523034460521000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "523086666180899_Unreal Engine Demo 360 2020.11.06 - 09.44.02.28.jpg",
+      "id": 523086771367799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "523134116765300_Unreal Engine Demo 360 2020.11.06 - 09.44.39.17.jpg",
+      "id": 523134209079000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "523298518536000_Unreal Engine Demo 360 2020.11.06 - 09.46.26.98.jpg",
+      "id": 523298628978099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "543110748126899_Interno_PVC.jpg",
+      "id": 543110775716500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "543798358789399_Interno_PVC-2.jpg",
+      "id": 543798379617300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "544223346617299_Interno_PVC-2.jpg",
+      "id": 544223377015700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "544231527667199_Interno_PVC.jpg",
+      "id": 544231546364499,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "544381760014600_Interno_PVC-2.jpg",
+      "id": 544382044861699,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "544486621024700_Interno_PVC.jpg",
+      "id": 544486645579500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "544707513294399_Interno_PVC-2.jpg",
+      "id": 544707796716999,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "544735444142999_Interno_PVC.jpg",
+      "id": 544735456064000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "808616016947500_hereoesvalley.jpg",
+      "id": 808616125904300
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 809811117432800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 809917091564500,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 809987160936900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868672283571700_543110748126899_Interno_PVC.jpg",
+      "id": 868672315384300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868691123179900_543110748126899_Interno_PVC.jpg",
+      "id": 868691140162500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868706735137900_543798358789399_Interno_PVC-2.jpg",
+      "id": 868706752683800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868738800348599_544223346617299_Interno_PVC-2.jpg",
+      "id": 868738826265199,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 868824556077700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "869971737062100_studioTV.jpg",
+      "id": 869971930629100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "870159514944100_Piva - sistemi oscuranti.mp4",
+      "id": 870159547967099
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
+      "id": 870332089861100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 870574520889699,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "870581893205000_868738800348599_544223346617299_Interno_PVC-2.jpg",
+      "id": 870581917071900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 870609338848399,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 871306922816000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "871399600969899_871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
+      "id": 871399615228800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "875681821864200_Room3D.jpg",
+      "id": 875682136418800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "881576921902800_Unreal Engine Demo 360 2020.11.10 - 13.33.11.59.jpg",
+      "id": 881577304654200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "881691597556100_870332078464899_Piva Group - spot ottobre 2020.mp4",
+      "id": 881691619676700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "343775492435499_piva-7.jpg",
+      "id": 343775670121800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "502793355562599_360_2.jpg",
+      "id": 502793661072600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "505403415463299_360_3.jpg",
+      "id": 505403700962100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "36178062783199_360_city7.jpg",
+      "id": 36178226900700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "36237155757299_360_city1.jpg",
+      "id": 36237200873400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "37788393982900_PVC Italia_291019_web_Pagina_11.jpg",
+      "id": 37788413202500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "38596034028000_grafica_dark.jpg",
+      "id": 38596053607300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "38679236691900_grafica_dark.jpg",
+      "id": 38679283160800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101026725671000_1.jpg",
+      "id": 101027066094300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101085913889500_2.jpg",
+      "id": 101085972502299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101111326616900_3.jpg",
+      "id": 101111391896800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101139886569400_4.jpg",
+      "id": 101139944498500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101172631933799_5.jpg",
+      "id": 101172675836900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101191157633000_6.jpg",
+      "id": 101191219365200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101200002104300_7.jpg",
+      "id": 101200074221199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101240964633100_8.jpg",
+      "id": 101241051740100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101257370658200_9.jpg",
+      "id": 101257467735999
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101278993922800_10.jpg",
+      "id": 101279091965799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101299473867500_11.jpg",
+      "id": 101299581473500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101318685539999_12.jpg",
+      "id": 101318770412000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101339111203700_13.jpg",
+      "id": 101339187405299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "101357097504700_14.jpg",
+      "id": 101357120729199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275179242629500_1_2.jpg",
+      "id": 275179532290900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275273528391500_2_2.jpg",
+      "id": 275273596695999
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275330742686999_4_2.jpg",
+      "id": 275330808883500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275427404688099_6_2.jpg",
+      "id": 275427479254100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275506052066100_360_city7_2.jpg",
+      "id": 275506093745199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275567514648999_3_2.jpg",
+      "id": 275567594121599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275636797904199_360_city1_2.jpg",
+      "id": 275636840329899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "275773459186200_13_2.jpg",
+      "id": 275773541191799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "276159268642500_12_2.jpg",
+      "id": 276159635737399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "276402188474399_10_2.jpg",
+      "id": 276402220119400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "276441645037200_8_2.jpg",
+      "id": 276441716054199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "276459434419000_7_2.jpg",
+      "id": 276459511699699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99360540548900_360_city7_loghi.jpg",
+      "id": 99360666847200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99467755361399_360_city7_loghi.jpg",
+      "id": 99467804691899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99544355577800_360_city7_loghi.jpg",
+      "id": 99544395313100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99560724317100_360_city7_loghi.jpg",
+      "id": 99560784321100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "99811457285500_360_city1_loghi.jpg",
+      "id": 99811510517499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "100324077521100_360_city1_loghi.jpg",
+      "id": 100324261875700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "100443556270200_360_city7_loghi.jpg",
+      "id": 100443596437399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "158008359588200_1.jpg",
+      "id": 158008974694499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "160034712781700_2.jpg",
+      "id": 160035011507300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "160054478504600_2.jpg",
+      "id": 160054555345700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "165755495615600_3.jpg",
+      "id": 165755861982899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "165953663265700_4.jpg",
+      "id": 165953731514600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "165968473071100_4.jpg",
+      "id": 165968534197400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "166132156628900_5.jpg",
+      "id": 166132204386900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "166245130022900_6.jpg",
+      "id": 166245196985100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175352858010300_9.jpg",
+      "id": 175353233045500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175442062877700_11.jpg",
+      "id": 175442145555900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175556744239300_360_city1_loghi.jpg",
+      "id": 175556911763199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175658496656200_10.jpg",
+      "id": 175658523245500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175764336113400_7.jpg",
+      "id": 175764402277600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175904823297900_360_city7_loghi.jpg",
+      "id": 175904890021600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175955884693000_8.jpg",
+      "id": 175955955151300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177073214061899_7.jpg",
+      "id": 177073560035599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177429565707200_9.jpg",
+      "id": 177429614598900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "182341998312900_sfondo.jpg",
+      "id": 182342165236000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "183764720857699_sfondo.jpg",
+      "id": 183764840867900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "183778044615500_City1.glb",
+      "id": 183778092631699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "185029254697900_360_city1.jpg",
+      "id": 185029395606099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "185106422018700_360_city7.jpg",
+      "id": 185106468344400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186175827342299_360_city7.jpg",
+      "id": 186175971583399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186228533027600_360_city1.jpg",
+      "id": 186228710591199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186265044469100_360_city1.jpg",
+      "id": 186265089662100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "186293172593600_360_city7.jpg",
+      "id": 186293237585300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "245893331825200_welcome.jpg",
+      "id": 245893713359600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "246192272388099_AdobeStock_334933730.jpeg",
+      "id": 246192332671700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "246232917586800_City1.glb",
+      "id": 246232976906900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "246433494814299_3_sfondo.jpg",
+      "id": 246433592133500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "246441419807000_City1.glb",
+      "id": 246441463250200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "255107278025199_3_sfondo.jpg",
+      "id": 255107508080000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255123482160100_City3.glb",
+      "id": 255123527028099
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255561710884499_City3.usdz",
+      "id": 255561749354899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255566569131700_City3.glb",
+      "id": 255566632139800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "255704370460499_3_sfondo.jpg",
+      "id": 255704492222100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255712370432500_City5.glb",
+      "id": 255712413399600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255825631471100_City5.usdz",
+      "id": 255825676443799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255831476207200_City5.glb",
+      "id": 255831504578100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "255983249091599_3_sfondo.jpg",
+      "id": 255983359717400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "255988174245399_City7.glb",
+      "id": 255988215348799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "256054944132399_City7.usdz",
+      "id": 256055446672500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "256058681482500_City7.glb",
+      "id": 256058707998600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "257171667121299_3_sfondo.jpg",
+      "id": 257171762543300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257179650209800_City5.glb",
+      "id": 257179685464199
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257293507738600_City1.usdz",
+      "id": 257293549716900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257296395917500_City1.glb",
+      "id": 257296431422300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "257406953836799_3_sfondo.jpg",
+      "id": 257407056770800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257411152693299_City7.glb",
+      "id": 257411182824500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257494287809000_City7.usdz",
+      "id": 257494346632699
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257498493393900_City7.glb",
+      "id": 257498528382600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257826088850899_City1.usdz",
+      "id": 257826117218200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257831190924100_City1.glb",
+      "id": 257831228147000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257881291416600_City5.usdz",
+      "id": 257881347839400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257884623665700_City5.glb",
+      "id": 257884647115400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "257935093821500_3_sfondo.jpg",
+      "id": 257935212172699
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "257948534150800_Firenze.glb",
+      "id": 257948612880899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258053860414900_Firenze.usdz",
+      "id": 258053964208200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258057425709099_Firenze.glb",
+      "id": 258057489679500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258109454595800_Firenze.glb",
+      "id": 258109534367000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258122434820000_Firenze.glb",
+      "id": 258122513646299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258128249791299_3_sfondo.jpg",
+      "id": 258128395833700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258173737346399_Firenze.usdz",
+      "id": 258173790400300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258176997268699_Firenze.glb",
+      "id": 258177056757800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258269589202599_3_sfondo.jpg",
+      "id": 258269701428300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258276571551000_City1.glb",
+      "id": 258276632648899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258306122590100_3_sfondo.jpg",
+      "id": 258306248702400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258330504091299_City3.glb",
+      "id": 258330539182800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258352996686000_3_sfondo.jpg",
+      "id": 258353121777500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258356316505900_City5.glb",
+      "id": 258356384138900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258374561308299_3_sfondo.jpg",
+      "id": 258374683203600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258378542961400_City7.glb",
+      "id": 258378568667900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258397121894400_3_sfondo.jpg",
+      "id": 258397147544799
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258401079085199_Firenze.glb",
+      "id": 258401174248700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258428036352000_3_sfondo.jpg",
+      "id": 258428065046299
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258432202600300_Scorrevole.glb",
+      "id": 258432228464400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258454820784900_Scorrevole.usdz",
+      "id": 258454841367900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258457945737199_Scorrevole.glb",
+      "id": 258457987042800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258482057953900_Firenze.usdz",
+      "id": 258482179777600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258485493568099_Firenze.glb",
+      "id": 258485551025200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258504759085600_City7.usdz",
+      "id": 258504780979299
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258508325435699_City7.glb",
+      "id": 258508375983199
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258554231455699_City3.usdz",
+      "id": 258554257784600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258557286921500_City3.glb",
+      "id": 258557316284200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258578253021700_City5.usdz",
+      "id": 258578275388499
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258581550071299_City5.glb",
+      "id": 258581598490599
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258598732269100_City1.usdz",
+      "id": 258598759085899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258601672910700_City1.glb",
+      "id": 258601701016499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258650956862700_360_city1.jpg",
+      "id": 258651028156900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258668039576099_City1.usdz",
+      "id": 258668098038999
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258671657419600_City1.glb",
+      "id": 258671688897400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258704646467700_360_city7.jpg",
+      "id": 258704734212500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258719782009700_City7.usdz",
+      "id": 258719812112800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "258723011900400_City7.glb",
+      "id": 258723067126199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "106814988666099_1_2.jpg",
+      "id": 106815455567799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "106897886957300_360_city3.jpg",
+      "id": 106897921487899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "107185750463700_2_2.jpg",
+      "id": 107185811837599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "107399922073900_360_city5.jpg",
+      "id": 107399965982400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "107532891242699_360_firenze.jpg",
+      "id": 107532955152800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "107549259527299_animazione.mp4",
+      "id": 107549276907500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "107698941514500_animazione.mp4",
+      "id": 107698966953899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "107927967896099_3_2.jpg",
+      "id": 107928219361700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "108386393878199_6_2.jpg",
+      "id": 108386434836900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "108751378743100_5_2.jpg",
+      "id": 108751724649300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109186645937100_360_city5.jpg",
+      "id": 109186696519199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109321526016199_360_firenze.jpg",
+      "id": 109321576662100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109447981451499_360_firenze.jpg",
+      "id": 109448025665900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109646967780100_360_city3.jpg",
+      "id": 109647243741699
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "109831099770800_City3.usdz",
+      "id": 109831687637000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "109835542814000_City3.glb",
+      "id": 109835584777200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109916662165299_360_city5.jpg",
+      "id": 109916740520400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "109939986162800_City5.usdz",
+      "id": 109940022862300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "109943636034700_City5.glb",
+      "id": 109943672087699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109965526224800_360_firenze.jpg",
+      "id": 109965608809899
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "110002492094299_Firenze.usdz",
+      "id": 110002563011600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "110007692450900_Firenze.glb",
+      "id": 110007761367799
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "110741377714399_animazione.mp4",
+      "id": 110741495699400
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "110868370339399_animazione.mp4",
+      "id": 110868390321899
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175300485466300_animazione2.mp4",
+      "id": 175300594530200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175485150708400_animazione2.mp4",
+      "id": 175485201115100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175789407012500_animazione2.mp4",
+      "id": 175789443480200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177455012818300_360_city3_2.jpg",
+      "id": 177455207421700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177900324200799_360_city3_2.jpg",
+      "id": 177900533930599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177917124051200_360_city1_2.jpg",
+      "id": 177917193655900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177934871466300_360_scorrevole.jpg",
+      "id": 177935139686499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177974806074200_360_firenze_2.jpg",
+      "id": 177974872938200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177987348988800_360_firenze_2.jpg",
+      "id": 177987426805400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178026735669700_Scorrevole.usdz",
+      "id": 178026765334300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178030917100300_Scorrevole.glb",
+      "id": 178030960339900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178059928070300_360_city5_2.jpg",
+      "id": 178059993544900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178076966002000_360_city7_2.jpg",
+      "id": 178077084915600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178171920719300_360_sfondo3.jpg",
+      "id": 178172114532699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178219371901099_360_sfondo3.jpg",
+      "id": 178219414658300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178339236462300_360_sfondo3.jpg",
+      "id": 178339286496200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178362785145600_360_sfondo3.jpg",
+      "id": 178363022036499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178384893031700_360_sfondo3.jpg",
+      "id": 178384936279600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178436979615300_360_sfondo3.jpg",
+      "id": 178437036798600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178551600048700_360_sfondo3.jpg",
+      "id": 178551655296199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178568691585000_360_city7_2.jpg",
+      "id": 178568782539299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178586038363100_360_sfondo3.jpg",
+      "id": 178586102783900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178644175079099_360_scorrevole.jpg",
+      "id": 178644278665800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178662925117299_Scorrevole.usdz",
+      "id": 178662953973300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178666205803300_Scorrevole.glb",
+      "id": 178666254752499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178902063613000_360_city1_2.jpg",
+      "id": 178902358319200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178922398807800_360_sfondo3.jpg",
+      "id": 178922435052600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178961183938599_360_city5_2.jpg",
+      "id": 178961225278000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178979363599499_360_sfondo3.jpg",
+      "id": 178979412779299
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "178999868155899_360_city5_2.jpg",
+      "id": 178999946069100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179021312328300_360_sfondo3.jpg",
+      "id": 179021362321600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179144294310300_360_city1_2.jpg",
+      "id": 179144354304499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179196327854899_360_sfondo3.jpg",
+      "id": 179196386628900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179222603507900_360_firenze_2.jpg",
+      "id": 179222691271800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179284953211600_360_sfondo3.jpg",
+      "id": 179285002185600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179332780703700_360_sfondo3.jpg",
+      "id": 179333015142200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179350816502400_360_firenze_2.jpg",
+      "id": 179350905295300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179425398968000_360_sfondo4.jpg",
+      "id": 179425459169599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179517235708700_360_city7_3.jpg",
+      "id": 179517317234900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179544732994900_360_sfondo4.jpg",
+      "id": 179544799752900
     }
   ],
   "users": [
