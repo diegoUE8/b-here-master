@@ -203,7 +203,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			const from = { scale: sprite.scale.x };
 			gsap.to(from, {
 				duration: 0.35,
-				scale: 0.04,
+				scale: 0.05,
 				delay: 0,
 				ease: Power2.easeOut,
 				overwrite: true,
