@@ -13617,10 +13617,10 @@
         "id": 1282202920232199
       },
       "orientation": {
-        "latitude": 18.499999999999996,
-        "longitude": 146.60000000000002
+        "latitude": 18.4,
+        "longitude": 145.70000000000002
       },
-      "zoom": 56.1038,
+      "zoom": 52.3938,
       "id": 1281805251054400,
       "items": [
         {
@@ -13668,8 +13668,8 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "1285710432074500_FREE_Porsche_911_Carrera_4S.usdz",
-          "id": 1285710854728200
+          "file": "1288344596144900_porsche.usdz",
+          "id": 1288344983684900
         },
         "gltf": {
           "type": {
@@ -18023,6 +18023,15 @@
       "folder": "/uploads/",
       "file": "1285715637913399_porsche.glb",
       "id": 1285715657621000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1288344596144900_porsche.usdz",
+      "id": 1288344983684900
     }
   ],
   "users": [
