@@ -38,12 +38,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1035733607068499_reception.jpg",
-        "id": 1035733717225099
+        "file": "1374667164614000_reception.jpg",
+        "id": 1374667586038400
       },
       "orientation": {
-        "latitude": -5.1000000000000005,
-        "longitude": 0.1
+        "latitude": -3.7,
+        "longitude": 358.49999999999994
       },
       "zoom": 75,
       "items": [
@@ -56,9 +56,9 @@
           "abstract": null,
           "viewId": 496175462352500,
           "position": [
-            -0.6412348500905625,
-            -0.019295799966614003,
-            -0.7671020395833806
+            0.5864494921787085,
+            0.03481635686433473,
+            -0.8092371805707089
           ],
           "asset": null,
           "id": 498242270907400,
@@ -73,9 +73,9 @@
           "abstract": null,
           "viewId": 502924660957900,
           "position": [
-            0.2364904581266543,
-            0.03306150393789761,
-            0.9710711612299119
+            0.5851312679920337,
+            0.0485185864001866,
+            0.8094858528669678
           ],
           "asset": null,
           "id": 503566773717800,
@@ -86,33 +86,16 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Cinema 360",
+          "title": "Cinema",
           "abstract": null,
           "viewId": 503042843844599,
           "position": [
-            0.01630575104293238,
-            0.05257721460550288,
-            0.9984837299562035
+            0.9026044172682898,
+            0.04038651753769761,
+            0.4285722752686511
           ],
           "asset": null,
           "id": 503596647375400,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Cinema Relax",
-          "abstract": null,
-          "viewId": 503340859465600,
-          "position": [
-            0.013092797833764037,
-            -0.03476582036052297,
-            0.9993097199464959
-          ],
-          "asset": null,
-          "id": 503610775957400,
           "keepOrientation": null
         },
         {
@@ -124,9 +107,9 @@
           "abstract": null,
           "viewId": 503992413864500,
           "position": [
-            -0.8891688233180002,
-            -0.018088485623425847,
-            -0.45722162058145754
+            -0.763476892970212,
+            0.028830438406909607,
+            0.6451913202468063
           ],
           "asset": null,
           "id": 505647227663200,
@@ -141,9 +124,9 @@
           "abstract": null,
           "viewId": 376789637631099,
           "position": [
-            -0.6105040351259335,
-            -0.027079882956122275,
-            0.7915500635045365
+            -0.37680013496605474,
+            0.03428237791892551,
+            0.925659968267931
           ],
           "asset": null,
           "id": 505677256133999,
@@ -158,9 +141,9 @@
           "abstract": null,
           "viewId": 498478142881399,
           "position": [
-            -0.8676022476530584,
-            -0.011679574880240611,
-            0.49712164245582585
+            -0.36936723389399034,
+            0.05753426120184048,
+            -0.927500757581071
           ],
           "asset": null,
           "id": 505729885600300,
@@ -175,9 +158,9 @@
           "abstract": null,
           "viewId": 505860010418200,
           "position": [
-            0.012214493174105414,
-            0.019844600187923885,
-            -0.9997284621335341
+            -0.7438889136633863,
+            0.013783517434993467,
+            -0.6681611323444566
           ],
           "asset": null,
           "id": 505902776846400,
@@ -192,84 +175,13 @@
           "abstract": null,
           "viewId": 406765685595300,
           "position": [
-            0.18536170587119405,
-            0.024198673055167385,
-            -0.9823723643399634
+            0.9107935485679565,
+            0.03335063948798386,
+            -0.41151287553700194
           ],
           "asset": null,
           "id": 505930399337800,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Timesquare",
-          "abstract": null,
-          "viewId": 503728853890500,
-          "position": [
-            -0.9542407827765673,
-            -0.013516229708390493,
-            -0.29873372762450884
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1113457071397499
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Lab",
-          "abstract": null,
-          "viewId": 494049323116800,
-          "position": [
-            -0.9395120472482796,
-            -0.01832739175785049,
-            0.3420251742002347
-          ],
-          "asset": null,
-          "link": null,
-          "id": 494160432389700
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            19.9675249914034,
-            0.23494230413983846,
-            1.114786002516193
-          ],
-          "rotation": [
-            2.9338812545869817,
-            -1.5138017648125823,
-            2.934208931206679,
-            "XYZ"
-          ],
-          "scale": [
-            10,
-            5.5,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "63226774199600_green-screen_girl.mp4",
-            "id": 63227187339100,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ]
-          },
-          "id": 63216493843500
         }
       ],
       "hidden": null
@@ -880,348 +792,6 @@
         }
       ],
       "hidden": null
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "panorama-grid"
-      },
-      "name": "Composizione Grid",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "497925894343399_Composizione2_x0_y0.jpg",
-        "id": 497925921781700
-      },
-      "tiles": [
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497925894343399_Composizione2_x0_y0.jpg",
-            "id": 497925921781700
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.7292353315295166,
-                0.01544949486690902,
-                0.6840885500849969
-              ],
-              "asset": null,
-              "link": null,
-              "id": 497962304965499
-            }
-          ],
-          "indices": {
-            "x": 0,
-            "y": 0
-          },
-          "id": 497938223690499
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497926982575100_Composizione2_x2_y0.jpg",
-            "id": 497927055202199
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.8526968940405368,
-                -0.02602351734115944,
-                0.5217573990264209
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498121585493300
-            }
-          ],
-          "indices": {
-            "x": 0,
-            "y": 2
-          },
-          "id": 497938223703400
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497926905704200_Composizione2_x4_y0.jpg",
-            "id": 497926972583099
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.9236977482482699,
-                0.0002887365929043848,
-                0.383121895109449
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498166618256400
-            }
-          ],
-          "indices": {
-            "x": 0,
-            "y": 4
-          },
-          "id": 497938223705299
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497926950671600_Composizione2_x0_y2.jpg",
-            "id": 497927040061600
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.5801025148191629,
-                -0.015795668295906066,
-                0.814390305175331
-              ],
-              "asset": null,
-              "link": null,
-              "id": 497985445620999,
-              "keepOrientation": null
-            }
-          ],
-          "indices": {
-            "x": 2,
-            "y": 0
-          },
-          "id": 497938223706299
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497926821002299_Composizione2_x2_y2.jpg",
-            "id": 497926953552600
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.7658104399977651,
-                -0.04671944165893141,
-                0.6413670273419949
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498134935344200
-            }
-          ],
-          "indices": {
-            "x": 2,
-            "y": 2
-          },
-          "id": 497938223708200
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497927037951400_Composizione2_x4_y2.jpg",
-            "id": 497927087911999
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.8716953069195962,
-                -0.017231775443707856,
-                0.48974519682117207
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498179707454099
-            }
-          ],
-          "indices": {
-            "x": 2,
-            "y": 4
-          },
-          "id": 497938223709600
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497926738615300_Composizione2_x0_y4.jpg",
-            "id": 497926941478800
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.0689369193859819,
-                0.004799515088211005,
-                0.9976094755967831
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498105371636200
-            }
-          ],
-          "indices": {
-            "x": 4,
-            "y": 0
-          },
-          "id": 497938223711400
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497927198833100_Composizione2_x2_y4.jpg",
-            "id": 497927219439999
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.09879641647265369,
-                0.0037743914745798544,
-                0.9951005085222088
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498148211716800
-            }
-          ],
-          "indices": {
-            "x": 4,
-            "y": 2
-          },
-          "id": 497938223712699
-        },
-        {
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "497927267331899_Composizione2_x4_y4.jpg",
-            "id": 497927286059599
-          },
-          "navs": [
-            {
-              "type": {
-                "id": 1,
-                "name": "nav"
-              },
-              "title": "Welcome Room",
-              "abstract": null,
-              "viewId": 170427763402500,
-              "position": [
-                0.7763229312033705,
-                -0.02019268828059645,
-                0.6300118743546106
-              ],
-              "asset": null,
-              "link": null,
-              "id": 498192476277400
-            }
-          ],
-          "indices": {
-            "x": 4,
-            "y": 4
-          },
-          "id": 497938223735699
-        }
-      ],
-      "invertAxes": true,
-      "flipAxes": false,
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 497938223526200
     },
     {
       "type": {
@@ -8266,140 +7836,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Studio Meeting",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "1038427949596199_Unreal Engine Demo 360 2020.11.25 - 17.26.23.56.jpg",
-        "id": 1038428294926000
-      },
-      "orientation": {
-        "latitude": -8.5,
-        "longitude": 357.59999999999997
-      },
-      "zoom": 75,
-      "id": 505820256936299,
-      "items": [
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            19.469870189596772,
-            -0.3629244105965589,
-            9.12851515383423
-          ],
-          "rotation": [
-            0.21775079697284555,
-            -1.5158988054579317,
-            0.21743300665599222,
-            "XYZ"
-          ],
-          "scale": [
-            12,
-            8,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 4,
-              "name": "publisher-stream"
-            },
-            "folder": "",
-            "file": "publisherStream",
-            "id": 511287996253000,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ]
-          },
-          "id": 511248420310099
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            18.953801812498526,
-            -0.496880697545686,
-            -12.584282852988313
-          ],
-          "rotation": [
-            1.2840299366145276,
-            -1.5028139878608022,
-            1.283401920303518,
-            "XYZ"
-          ],
-          "scale": [
-            12,
-            8,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
-            },
-            "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 511485695637800,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ],
-            "index": 0
-          },
-          "id": 511450783594900
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Welcome Room",
-          "abstract": null,
-          "viewId": 170427763402500,
-          "position": [
-            0.9728670532429378,
-            0.16777530459173645,
-            -0.1593146066233505
-          ],
-          "asset": null,
-          "id": 511566035550300,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D - Watch",
-          "abstract": null,
-          "viewId": 505860010419310,
-          "position": [
-            0.9107317753657072,
-            -0.4121510104210588,
-            -0.026441973226818658
-          ],
-          "asset": null,
-          "id": 513629349082800,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Studio TV",
       "asset": {
         "type": {
@@ -13304,6 +12740,112 @@
           "id": 1362192996243600
         }
       }
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "panorama-grid"
+      },
+      "name": "Kitchen Grid",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1374938127826999_Composizione1_x0_y0.jpg",
+        "id": 1374938529802800
+      },
+      "tiles": [
+        {
+          "id": 1374946040865399,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1374938127826999_Composizione1_x0_y0.jpg",
+            "id": 1374938529802800
+          },
+          "navs": []
+        },
+        {
+          "id": 1374946040874800,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1374939585855899_Composizione1_x2_y0.jpg",
+            "id": 1374939670547900
+          },
+          "navs": []
+        },
+        {
+          "id": 1374946040877000,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1374939783752800_Composizione1_x4_y0.jpg",
+            "id": 1374939852938700
+          },
+          "navs": []
+        },
+        {
+          "id": 1374946040878699,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1374939535994000_Composizione1_x0_y2.jpg",
+            "id": 1374939626350300
+          },
+          "navs": []
+        },
+        {
+          "id": 1374946040880200,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1374939903756199_Composizione1_x2_y2.jpg",
+            "id": 1374939934741699
+          },
+          "navs": []
+        },
+        {
+          "id": 1374946040881400,
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1374939778462699_Composizione1_x4_y2.jpg",
+            "id": 1374939818566100
+          },
+          "navs": []
+        }
+      ],
+      "invertAxes": true,
+      "flipAxes": false,
+      "orientation": {
+        "latitude": -13.600000000000001,
+        "longitude": 357.90000000000003
+      },
+      "zoom": 75,
+      "id": 1374946040706500,
+      "items": [],
+      "hidden": null
     }
   ],
   "menu": [
@@ -13348,6 +12890,13 @@
       "viewId": 503992413864500,
       "name": "Cantinavirtuale",
       "order": 30
+    },
+    {
+      "id": 1374974181091900,
+      "parentId": 513759169265300,
+      "viewId": 1374946040706500,
+      "name": "Kitchen Grid",
+      "order": 40
     },
     {
       "id": 513782032617300,
@@ -13560,18 +13109,11 @@
       "order": 10
     },
     {
-      "id": 63750857452200,
-      "parentId": 513904544668199,
-      "viewId": 505820256936299,
-      "name": "Studio Old",
-      "order": 20
-    },
-    {
       "id": 5979484252499,
       "parentId": 513904544668199,
       "viewId": 50,
       "name": "Live 360",
-      "order": 30
+      "order": 20
     },
     {
       "id": 513946905350299,
@@ -13663,13 +13205,6 @@
       "viewId": 1281805251054400,
       "name": "Porsche",
       "order": 30
-    },
-    {
-      "id": 514041769202200,
-      "parentId": null,
-      "viewId": 497938223526200,
-      "name": "Ambiente Grid",
-      "order": 70
     }
   ],
   "assets": [
@@ -17760,6 +17295,78 @@
       "folder": "/uploads/",
       "file": "1364469633028000_1190780441996200_Room3D.jpg",
       "id": 1364469786436300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1373474832578300_reception.jpg",
+      "id": 1373475065533400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374667164614000_reception.jpg",
+      "id": 1374667586038400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374938127826999_Composizione1_x0_y0.jpg",
+      "id": 1374938529802800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374939535994000_Composizione1_x0_y2.jpg",
+      "id": 1374939626350300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374939585855899_Composizione1_x2_y0.jpg",
+      "id": 1374939670547900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374939778462699_Composizione1_x4_y2.jpg",
+      "id": 1374939818566100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374939783752800_Composizione1_x4_y0.jpg",
+      "id": 1374939852938700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1374939903756199_Composizione1_x2_y2.jpg",
+      "id": 1374939934741699
     }
   ],
   "users": [
