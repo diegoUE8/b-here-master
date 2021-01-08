@@ -1235,12 +1235,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1190780441996200_Room3D.jpg",
-        "id": 1190780589814500
+        "file": "1364469633028000_1190780441996200_Room3D.jpg",
+        "id": 1364469786436300
       },
       "orientation": {
-        "latitude": -0.1,
-        "longitude": 18.3
+        "latitude": -0.2999999999999998,
+        "longitude": 28.299999999999955
       },
       "zoom": 75,
       "id": 338065166299600,
@@ -1428,8 +1428,8 @@
             0.4695636826224273
           ],
           "asset": null,
-          "link": null,
-          "id": 6622881616000
+          "id": 6622881616000,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -6863,99 +6863,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambientazione ",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "502393023473100_Unreal Engine Demo 360 2020.11.05 - 15.26.48.39.jpg",
-        "id": 502393055231299
-      },
-      "orientation": {
-        "latitude": -4.6000000000000005,
-        "longitude": 354.5
-      },
-      "zoom": 75,
-      "id": 502403878376800,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Welcome Room",
-          "abstract": null,
-          "viewId": 170427763402500,
-          "position": [
-            -0.9927594125901388,
-            -0.11321175210910782,
-            0.04014782557086585
-          ],
-          "asset": null,
-          "link": null,
-          "id": 502431436242900
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 502470063259599,
-          "position": [
-            0.7256183142186478,
-            -0.22935466244814043,
-            -0.6487484110838247
-          ],
-          "asset": null,
-          "link": null,
-          "id": 502836674108799
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 502451615749200,
-          "position": [
-            0.9444176798104591,
-            -0.3254516783138294,
-            -0.04643760484931316
-          ],
-          "asset": null,
-          "link": null,
-          "id": 502846824186700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 502505718892300,
-          "position": [
-            0.8735042949764291,
-            -0.2588637796057536,
-            0.4122860539309511
-          ],
-          "asset": null,
-          "link": null,
-          "id": 502855308410400
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Ambientazione 2",
       "asset": {
         "type": {
@@ -8685,86 +8592,6 @@
         "id": 5,
         "name": "model"
       },
-      "name": "Dress",
-      "likes": 172,
-      "liked": false,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/models/black_dress_with_lace_accents/",
-          "file": "Black_dress_with_lace_accents.usdz"
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/models/black_dress_with_lace_accents/",
-          "file": "scene.gltf"
-        }
-      },
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/textures/back3D/",
-        "file": "office.jpg"
-      },
-      "zoom": 65,
-      "id": 505860010419300,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/models/black_dress_with_lace_accents",
-            "file": "scene.gltf",
-            "id": 276294662915700,
-            "chromaKeyColor": null
-          },
-          "id": 276295653766300,
-          "position": null,
-          "rotation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 505820256936299,
-          "position": [
-            0.8235178188706878,
-            -0.5096103442510957,
-            0.24923021292520825
-          ],
-          "asset": null,
-          "link": null,
-          "id": 513584249798100
-        }
-      ],
-      "orientation": {
-        "latitude": 15,
-        "longitude": 180
-      },
-      "hidden": false
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
       "name": "Watch",
       "likes": 172,
       "liked": false,
@@ -9564,82 +9391,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Ambiente 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "522972127978900_Unreal Engine Demo 360 2020.11.06 - 09.42.37.83.jpg",
-        "id": 522972228833000
-      },
-      "orientation": {
-        "latitude": -15.8,
-        "longitude": 355.2
-      },
-      "zoom": 75,
-      "id": 459498566687500,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459540659817000,
-          "position": [
-            0.9640329239345478,
-            -0.26547517161976725,
-            0.012784945195879414
-          ],
-          "asset": null,
-          "id": 459818702556100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459517947815699,
-          "position": [
-            -0.050019200256808276,
-            -0.23139658460886495,
-            0.9715727971886726
-          ],
-          "asset": null,
-          "id": 459843230705600,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Ingresso",
-          "abstract": null,
-          "viewId": 376789637631099,
-          "position": [
-            -0.9999674948432845,
-            -0.007727093148036416,
-            -0.0023024526764728512
-          ],
-          "asset": null,
-          "id": 522887701924200,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Ambiente 1 - 2",
       "asset": {
         "type": {
@@ -9689,134 +9440,6 @@
           ],
           "asset": null,
           "id": 459794810385499,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": true
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Ambiente 1 - 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "523086666180899_Unreal Engine Demo 360 2020.11.06 - 09.44.02.28.jpg",
-        "id": 523086771367799
-      },
-      "orientation": {
-        "latitude": -5,
-        "longitude": 359.5
-      },
-      "zoom": 75,
-      "id": 459540659817000,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459498566687500,
-          "position": [
-            -0.9699300416209825,
-            -0.22885808357570814,
-            -0.08282325726010496
-          ],
-          "asset": null,
-          "id": 459715718571600,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459578920550100,
-          "position": [
-            -0.022916472261241223,
-            -0.11495434384913347,
-            -0.9931064062472434
-          ],
-          "asset": null,
-          "id": 459733074916299,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 459517947815699,
-          "position": [
-            -0.9163024305123344,
-            -0.2123342617389949,
-            0.33956445209848535
-          ],
-          "asset": null,
-          "id": 459754835026200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Spazi Classici e Moderni.",
-          "viewId": 459540659817000,
-          "position": [
-            0.9176305384585357,
-            -0.15721043347847405,
-            0.36501927961932124
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "868738800348599_544223346617299_Interno_PVC-2.jpg",
-            "id": 868738826265199,
-            "chromaKeyColor": null
-          },
-          "id": 544383629261099,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Scheda Tecnica",
-          "viewId": 459540659817000,
-          "position": [
-            0.8867407706433983,
-            -0.1565290267714852,
-            -0.43495915837779975
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "868824535298500_544735444142999_Interno_PVC.jpg",
-            "id": 868824556077700,
-            "chromaKeyColor": null
-          },
-          "id": 544488547763500,
           "keepOrientation": null
         }
       ],
@@ -18119,6 +17742,24 @@
       "file": "1362330160462699_Piva Group - spot ottobre 2020.mp4",
       "id": 1362330200328000,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1364383417117100_room3D.jpg",
+      "id": 1364383709196900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1364469633028000_1190780441996200_Room3D.jpg",
+      "id": 1364469786436300
     }
   ],
   "users": [
