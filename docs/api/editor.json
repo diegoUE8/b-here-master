@@ -1544,47 +1544,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "4",
-      "asset": {
-        "type": {
-          "id": 2,
-          "name": "video"
-        },
-        "folder": "/uploads/",
-        "file": "248475855237600_4.mp4",
-        "id": 248476329563499
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 248478926694400,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 337881532453700,
-          "position": [
-            0.8864144228614914,
-            -0.462486956470552,
-            0.01937230078578333
-          ],
-          "asset": null,
-          "link": null,
-          "id": 248527314680900
-        }
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Showroom ",
       "asset": {
         "type": {
@@ -16367,15 +16326,6 @@
       "folder": "/uploads/",
       "file": "1281387468276400_179544732994900_360_sfondo4.jpg",
       "id": 1281387548743000
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1281761015464800_porsche.glb",
-      "id": 1281761056170700
     },
     {
       "type": {
