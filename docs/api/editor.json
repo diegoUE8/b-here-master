@@ -12628,87 +12628,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Porsche",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "1282202857426300_246192272388099_AdobeStock_334933730.jpeg",
-        "id": 1282202920232199
-      },
-      "orientation": {
-        "latitude": 18.4,
-        "longitude": 145.70000000000002
-      },
-      "zoom": 52.3938,
-      "id": 1281805251054400,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "1362200946538300_porsche.glb",
-            "id": 1362201005211700,
-            "chromaKeyColor": null
-          },
-          "id": 1281805275088900,
-          "position": null,
-          "rotation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 170427763402500,
-          "position": [
-            0.7004362128234768,
-            -0.5479732134543961,
-            -0.4572903553563842
-          ],
-          "asset": null,
-          "id": 1285683223981400,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "1288344596144900_porsche.usdz",
-          "id": 1288344983684900
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "1362192394991000_porsche.glb",
-          "id": 1362192996243600
-        }
-      }
-    },
-    {
-      "type": {
         "id": 3,
         "name": "panorama-grid"
       },
@@ -13164,13 +13083,6 @@
       "viewId": 337129519224500,
       "name": "Poltrona",
       "order": 20
-    },
-    {
-      "id": 1281824618875300,
-      "parentId": 514006762002499,
-      "viewId": 1281805251054400,
-      "name": "Porsche",
-      "order": 30
     }
   ],
   "assets": [
@@ -17059,33 +16971,6 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1281172843138900_porsche.glb",
-      "id": 1281173505620699
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1281225526504000_logows3.glb",
-      "id": 1281225546245199
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1281339927560400_porsche.glb",
-      "id": 1281339975244900
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -17113,116 +16998,12 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1282125941596099_porsche2.glb",
-      "id": 1282126766135900,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
       "folder": "/uploads/",
       "file": "1282202857426300_246192272388099_AdobeStock_334933730.jpeg",
       "id": 1282202920232199
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1285710432074500_FREE_Porsche_911_Carrera_4S.usdz",
-      "id": 1285710854728200
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1285715637913399_porsche.glb",
-      "id": 1285715657621000
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1288344596144900_porsche.usdz",
-      "id": 1288344983684900
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1291822111988100_porsche.glb",
-      "id": 1291822644881100,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1291837508125700_porsche.usdz",
-      "id": 1291837544925799
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1291848475021400_porsche.glb",
-      "id": 1291848509273900
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1356089742658000_porsche.glb",
-      "id": 1356090295386900,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1356414659041900_porsche.glb",
-      "id": 1356414952487900,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1362192394991000_porsche.glb",
-      "id": 1362192996243600
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "1362200946538300_porsche.glb",
-      "id": 1362201005211700,
-      "chromaKeyColor": null
     },
     {
       "type": {
