@@ -671,6 +671,23 @@
           "asset": null,
           "link": null,
           "id": 497250803555200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 496714309658099,
+          "position": [
+            0.9831636203786351,
+            -0.15349892104161358,
+            -0.09913312666831249
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1627942051705200
         }
       ],
       "hidden": null
@@ -1392,7 +1409,7 @@
             "file": "nextAttendeeStream",
             "id": 595663310605300,
             "chromaKeyColor": null,
-            "index": 2
+            "index": 1
           },
           "id": 595497438718400
         },
