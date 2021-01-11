@@ -10,7 +10,7 @@ import MessageService from '../message/message.service';
 import StateService from '../state/state.service';
 import StreamService from '../stream/stream.service';
 import { RoleType } from '../user/user';
-import { AgoraMuteAudioEvent, AgoraMuteVideoEvent, AgoraPeerEvent, AgoraRemoteEvent, AgoraStatus, AgoraUnmuteAudioEvent, AgoraUnmuteVideoEvent, AgoraVolumeLevelsEvent, MessageType, StreamQualities, USE_AUTODETECT, USE_RTM, USE_VOLUME_INDICATOR } from './agora.types';
+import { AgoraMuteAudioEvent, AgoraMuteVideoEvent, AgoraPeerEvent, AgoraRemoteEvent, AgoraStatus, AgoraUnmuteAudioEvent, AgoraUnmuteVideoEvent, AgoraVolumeLevelsEvent, getStreamQuality, MessageType, USE_AUTODETECT, USE_RTM, USE_VOLUME_INDICATOR } from './agora.types';
 
 export default class AgoraService extends Emittable {
 
@@ -48,15 +48,9 @@ export default class AgoraService extends Emittable {
 		const state = StateService.state;
 		StateService.patchState({
 			devices: (state.role !== RoleType.Attendee && defaultDevices) ? defaultDevices : { videos: [], audios: [] },
-			quality: this.getStreamQuality(state),
+			quality: getStreamQuality(state),
 			membersCount: 0,
 		});
-	}
-
-	getStreamQuality(state) {
-		const lowestQuality = StreamQualities[StreamQualities.length - 1];
-		const highestQuality = environment.flags.maxQuality ? StreamQualities[0] : StreamQualities[StreamQualities.length - 2];
-		return state.role === RoleType.Publisher ? highestQuality : lowestQuality;
 	}
 
 	/*
@@ -477,11 +471,6 @@ export default class AgoraService extends Emittable {
 		if (USE_AUTODETECT) {
 			StateService.state.devices.video = StateService.state.devices.videos[0] || null;
 			StateService.state.devices.audio = StateService.state.devices.audios[0] || null;
-			/*
-			const cameraId = devices.videos.length ? devices.videos[0].deviceId : null;
-			const microphoneId = devices.audios.length ? devices.audios[0].deviceId : null;
-			this.createLocalStream(uid, microphoneId, cameraId);
-			*/
 		}
 	}
 
@@ -499,23 +488,45 @@ export default class AgoraService extends Emittable {
 		]).then(success => {
 			const quality = Object.assign({}, StateService.state.quality);
 			this.createLocalStreamWithOptions(options, quality);
-			/*
-			// console.log('AgoraService.createMediaStream', uid, options);
-			const local = AgoraRTC.createStream(options);
-			StreamService.local = local;
-			// console.log('AgoraService.createMediaStream', uid, local.getId());
-			// console.log('AgoraService.setVideoEncoderConfiguration', quality);
-			local.setVideoEncoderConfiguration(quality);
-			this.initLocalStream(options);
-			*/
 		});
 	}
 
 	createLocalStreamWithOptions(options, quality) {
+		/*
+		const getUserMedia = navigator.mediaDevices.getUserMedia;
+		navigator.mediaDevices.getUserMedia = function(options) {
+			if (options.video) {
+				options.video.width = { ideal: 4096 };
+				options.video.height = { ideal: 2160 };
+				console.log('getUserMedia', options.video.width.ideal, options.video.height.ideal);
+			}
+			console.log('getUserMedia', options);
+			return getUserMedia.call(navigator.mediaDevices, options);
+		}
+		*/
 		const local = AgoraRTC.createStream(options);
+		/*
+		// force video quality
+		quality = {
+			resolution: {
+				width: 1920,
+				height: 1080
+			},
+			frameRate: {
+				min: 30,
+				max: 30
+			},
+			bitrate: {
+				min: 2000,
+				max: 4000
+			}
+		};
+		*/
 		if (quality) {
+			local.setVideoProfile(quality.profile);
 			local.setVideoEncoderConfiguration(quality);
 		}
+		// console.log('local', local.attributes);
 		local.init(() => {
 			StreamService.local = local;
 			setTimeout(() => {
@@ -535,34 +546,8 @@ export default class AgoraService extends Emittable {
 		});
 	}
 
-	createLocalStream(uid, microphoneId, cameraId) {
-		// console.log('createLocalStream', uid, microphoneId, cameraId);
-		if (microphoneId || cameraId) {
-			const options = {
-				streamID: uid,
-				microphoneId: microphoneId,
-				cameraId: cameraId,
-				audio: microphoneId ? true : false,
-				video: cameraId ? true : false,
-				screen: false,
-			};
-			this.createLocalStreamWithOptions(options);
-			/*
-			StreamService.local = AgoraRTC.createStream({
-				streamID: uid,
-				microphoneId: microphoneId,
-				cameraId: cameraId,
-				audio: microphoneId ? true : false,
-				video: cameraId ? true : false,
-				screen: false,
-			});
-			this.initLocalStream();
-			*/
-		}
-	}
-
+	/*
 	createMediaVideoStream(video, callback) {
-		// this.releaseStream('_mediaVideoStream')
 		const videoStream = video.captureStream(60);
 		const stream = AgoraRTC.createStream({
 			audio: true,
@@ -574,6 +559,7 @@ export default class AgoraService extends Emittable {
 			callback(stream.getVideoTrack(), stream.getAudioTrack());
 		});
 	}
+	*/
 
 	publishLocalStream() {
 		const client = this.client;

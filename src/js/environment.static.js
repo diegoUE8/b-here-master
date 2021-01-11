@@ -16,7 +16,7 @@ export const environmentStatic = {
 		viewer: true,
 		maxQuality: false,
 	},
-	logo: '/b-here/img/background.png',
+	logo: null, //'/b-here/img/logo.png'
 	background: {
 		image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
@@ -37,7 +37,7 @@ export const environmentStatic = {
 	},
 	assets: './',
 	worker: './js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws/docs/',
 	language: '',
 	market: '',
 	url: {
