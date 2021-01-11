@@ -167,7 +167,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			const from = { scale: icon.scale.x };
 			gsap.to(from, {
 				duration: 0.35,
-				scale: 0.05,
+				scale: 0.04,
 				delay: 0,
 				ease: Power2.easeOut,
 				overwrite: true,

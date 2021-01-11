@@ -14334,11 +14334,11 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var light2 = new THREE.DirectionalLight(0xffe699, 1.5);
     light2.position.set(40, -40, 40);
     light2.target.position.set(0, 0, 0);
-    scene.add(light2);
+    objects.add(light2);
     var light3 = new THREE.DirectionalLight(0xffe699, 1);
     light3.position.set(0, 50, 0);
     light3.target.position.set(0, 0, 0);
-    scene.add(light3);
+    objects.add(light3);
     var light = new THREE.AmbientLight(0x101010);
     objects.add(light);
     this.addControllers(); //
@@ -15547,7 +15547,7 @@ var ModelComponent = /*#__PURE__*/function (_Component) {
 
     };
 
-    this.host.objects.add(group);
+    this.getContainer().add(group);
     this.onCreate(function (mesh, item) {
       return _this.onMount(mesh, item);
     }, function (mesh, item) {
@@ -15557,10 +15557,14 @@ var ModelComponent = /*#__PURE__*/function (_Component) {
 
   _proto.onDestroy = function onDestroy() {
     var group = this.group;
-    this.host.objects.remove(group);
+    this.getContainer().remove(group);
     delete group.userData.render;
     this.disposeObject(group);
     this.group = null;
+  };
+
+  _proto.getContainer = function getContainer() {
+    return this.host.objects;
   };
 
   _proto.getName = function getName(name) {
@@ -17150,6 +17154,10 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     _ModelComponent.prototype.onDestroy.call(this);
   };
 
+  _proto3.getContainer = function getContainer() {
+    return this.host.cameraGroup;
+  };
+
   _proto3.onCreate = function onCreate(mount, dismount) {
     // this.renderOrder = environment.renderOrder.menu;
     var menuGroup = this.menuGroup = new THREE.Group(); // menuGroup.lookAt(ModelMenuComponent.ORIGIN);
@@ -17166,12 +17174,14 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
 
     if (this.host.renderer.xr.isPresenting) {
       camera = this.host.renderer.xr.getCamera(camera);
-      camera.getWorldDirection(position); // group.position.set(position.x, position.y - 0.4, position.z);
-
+      camera.getWorldDirection(position);
+      position.y += 0.5;
+      position.multiplyScalar(3);
+      this.host.cameraGroup.worldToLocal(position);
+      position.y += this.host.cameraGroup.position.y;
       group.position.copy(position);
-      group.position.multiplyScalar(3);
       group.scale.set(1, 1, 1);
-      group.lookAt(ModelMenuComponent.ORIGIN);
+      group.lookAt(camera.position); // group.lookAt(ModelMenuComponent.ORIGIN);
     } else {
       camera.getWorldDirection(position);
 
@@ -17458,8 +17468,7 @@ ModelMenuComponent.meta = {
     var box = new THREE.Box3().setFromObject(mesh);
     var size = box.max.clone().sub(box.min);
     var max = Math.max(size.x, size.y, size.z);
-    var scale = 2.5 / max; //1.7
-
+    var scale = 1.7 / max;
     mesh.scale.set(scale, scale, scale); // repos
 
     var dummy;
@@ -17874,7 +17883,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       };
       gsap.to(from, {
         duration: 0.35,
-        scale: 0.05,
+        scale: 0.04,
         delay: 0,
         ease: Power2.easeOut,
         overwrite: true,
