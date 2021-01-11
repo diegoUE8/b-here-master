@@ -1,6 +1,6 @@
 /**
  * @license b-here-master v1.0.0
- * (c) 2020 Luca Zampetti <lzampetti@gmail.com>
+ * (c) 2021 Luca Zampetti <lzampetti@gmail.com>
  * License: MIT
  */
 
@@ -259,7 +259,29 @@ function _readOnlyError(name) {
       remove: '/remove-modal.html'
     }
   }
-};var NODE = typeof module !== 'undefined' && module.exports;
+};var Utils = /*#__PURE__*/function () {
+  function Utils() {}
+
+  Utils.merge = function merge(target, source) {
+    var _this = this;
+
+    if (typeof source === 'object') {
+      Object.keys(source).forEach(function (key) {
+        var value = source[key];
+
+        if (typeof value === 'object' && !Array.isArray(value)) {
+          target[key] = _this.merge(target[key], value);
+        } else {
+          target[key] = value;
+        }
+      });
+    }
+
+    return target;
+  };
+
+  return Utils;
+}();var NODE = typeof module !== 'undefined' && module.exports;
 var PARAMS = NODE ? {
   get: function get() {}
 } : new URLSearchParams(window.location.search);
@@ -328,21 +350,6 @@ var Environment = /*#__PURE__*/function () {
     }
   }
 
-  Environment.merge = function merge(target, source) {
-    var _this = this;
-
-    Object.keys(source).forEach(function (key) {
-      var value = source[key];
-
-      if (typeof value === 'object' && !Array.isArray(value)) {
-        target[key] = _this.merge(target[key], value);
-      } else {
-        target[key] = value;
-      }
-    });
-    return target;
-  };
-
   return Environment;
 }();
 var defaultOptions = {
@@ -394,13 +401,10 @@ var defaultAppOptions = {
 };
 var environmentOptions = window.STATIC ? environmentStatic : environmentServed;
 var options = Object.assign(defaultOptions, defaultAppOptions, environmentOptions);
-
-if (typeof window.bhere === 'object') {
-  options = Environment.merge(options, window.bhere);
-}
-
+options = Utils.merge(options, window.bhere);
 var environment = new Environment(options);
-console.log('environment', environment);var LABELS = Object.assign({
+console.log('environment', environment);var _Utils$merge;
+var LABELS = Utils.merge((_Utils$merge = {
   browse: 'Browse',
   cancel: 'Cancel',
   drag_and_drop_images: 'Drag And Drop your images here',
@@ -414,8 +418,18 @@ console.log('environment', environment);var LABELS = Object.assign({
   select_file: 'Select a file...',
   update: 'Update',
   upload: 'Upload',
-  waiting_host: 'waiting host'
-}, window.labels || {});
+  waiting_host: 'waiting host',
+  // editor
+  editor_image: 'Image',
+  editor_video: 'Video',
+  editor_model: 'Model',
+  editor_publisher_stream: 'Publisher Stream',
+  editor_next_attendee_stream: 'Next Attendee Stream',
+  editor_waiting_room: 'Waiting Room',
+  editor_panorama: 'Panorama',
+  editor_panorama_grid: 'Panorama Grid',
+  editor_room_3d: 'Room 3D'
+}, _Utils$merge["editor_model"] = 'Model', _Utils$merge.editor_nav = 'Nav Tooltip', _Utils$merge.editor_gltf = 'Gltf Model', _Utils$merge.editor_plane = 'Plane', _Utils$merge.editor_curved_plane = 'Curved Plane', _Utils$merge.editor_texture = 'Texture', _Utils$merge), window.labels);
 
 var LabelPipe = /*#__PURE__*/function (_Pipe) {
   _inheritsLoose(LabelPipe, _Pipe);
@@ -427,6 +441,16 @@ var LabelPipe = /*#__PURE__*/function (_Pipe) {
   LabelPipe.transform = function transform(key) {
     var labels = LABELS;
     return labels[key] || "#" + key + "#";
+  };
+
+  LabelPipe.getKeys = function getKeys() {
+    for (var _len = arguments.length, keys = new Array(_len), _key = 0; _key < _len; _key++) {
+      keys[_key] = arguments[_key];
+    }
+
+    return this.transform(keys.map(function (x) {
+      return x.replace('-', '_');
+    }).join('_'));
   };
 
   return LabelPipe;
@@ -480,7 +504,62 @@ LabelPipe.meta = {
     })).pipe(operators.catchError(function (error) {
       return rxjs.throwError(_this.getError(error, response_));
     }));
-  };
+  }
+  /*
+  // !!! todo mapping response.data
+  static http$(method, url, data, format = 'json') {
+  	const methods = ['POST', 'PUT', 'PATCH'];
+  	const body = (data && methods.indexOf(method) !== -1) ? JSON.stringify(data) : undefined;
+  	const queryString = (data && methods.indexOf(method) !== -1) ? Object.keys(data).map(function(key) {
+  	    return key + '=' + encodeURI(data[key]);
+  	}).join('&') : undefined;
+  	if (queryString) {
+  		url = `${url}?${queryString}`;
+  	}
+  	let response_ = null;
+  	return from(fetch(url, {
+  		method: method,
+  		headers: {
+  			'Accept': 'application/json',
+  			'Content-Type': 'application/json',
+  		},
+  		body: body,
+  	}).then((response) => {
+  		response_ = new HttpResponse(response);
+  		try {
+  			const contentType = response.headers.get('content-type');
+  			let typedResponse;
+  			if (contentType && format === 'json' && contentType.indexOf('application/json') !== -1) {
+  				typedResponse = response.json();
+  			} else if (format === 'blob') {
+  				typedResponse = response.blob();
+  			} else {
+  				typedResponse = response.text();
+  			}
+  			return typedResponse.then(data => {
+  				response_.data = data;
+  				if (response.ok) {
+  					return Promise.resolve(response_);
+  				} else {
+  					return Promise.reject(response_);
+  				}
+  			});
+  		} catch(error) {
+  			if (response.ok) {
+  				console.warn('HttpService.http$', 'Cannot parse response');
+  				return Promise.resolve(response_);
+  			} else {
+  				return Promise.reject(this.getError(error, response_));
+  			}
+  		}
+  	})).pipe(
+  		catchError(error => {
+  			return throwError(this.getError(error, response_));
+  		}),
+  	);
+  }
+  */
+  ;
 
   HttpService.get$ = function get$(url, data, format) {
     var query = this.query(data);
@@ -627,12 +706,14 @@ var User = function User(options) {
   		map((user) => this.mapUser(user)),
   	);
   }
-  	static register$(payload) {
+  
+  static register$(payload) {
   	return HttpService.post$('/api/user/register', payload).pipe(
   		map((user) => this.mapUser(user)),
   	);
   }
-  	static update(payload) {
+  
+  static update(payload) {
   	return HttpService.post$('/api/user/updateprofile', payload).pipe(
   		map((user) => this.mapUser(user)),
   	);
@@ -675,6 +756,11 @@ UserService.user$ = new rxjs.BehaviorSubject(null);var AccessComponent = /*#__PU
     this.initRequestForm();
     this.state.status = 'self-service-tour';
     this.pushChanges();
+
+    if (STATIC && window.navigator.userAgent.indexOf('OculusBrowser') !== -1) {
+      this.test();
+      this.onSubmit();
+    }
   };
 
   _proto.onGuidedTourRequest = function onGuidedTourRequest() {
@@ -1192,7 +1278,215 @@ var DeviceService = /*#__PURE__*/function () {
   }]);
 
   return DeviceService;
-}();var AgoraDevicePreviewComponent = /*#__PURE__*/function (_Component) {
+}();var StateService = /*#__PURE__*/function () {
+  function StateService() {}
+
+  StateService.patchState = function patchState(state) {
+    state = Object.assign({}, this.state, state);
+    this.state = state;
+  };
+
+  _createClass(StateService, null, [{
+    key: "state",
+    set: function set(state) {
+      this.state$.next(state);
+    },
+    get: function get() {
+      return this.state$.getValue();
+    }
+  }]);
+
+  return StateService;
+}();
+
+_defineProperty(StateService, "state$", new rxjs.BehaviorSubject({}));var StreamQualities = [{
+  // id: 1,
+  // name: '4K 2160p 3840x2160',
+  profile: '4K',
+  resolution: {
+    width: 3840,
+    height: 2160
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 8910,
+    max: 13500
+  }
+}, {
+  // id: 2,
+  // name: 'HD 1440p 2560×1440',
+  profile: '1440p',
+  resolution: {
+    width: 2560,
+    height: 1440
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 4850,
+    max: 7350
+  }
+}, {
+  // id: 3,
+  // name: 'HD 1080p 1920x1080',
+  profile: '1080p',
+  resolution: {
+    width: 1920,
+    height: 1080
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 2080,
+    max: 4780
+  }
+}, {
+  // id: 4,
+  // name: 'LOW 720p 1280x720',
+  profile: '720p_3',
+  resolution: {
+    width: 1280,
+    height: 720
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 1130,
+    max: 1710
+  }
+}, {
+  // id: 5,
+  // name: 'LOWEST 240p 320x240',
+  profile: '240p_1',
+  resolution: {
+    width: 320,
+    height: 240
+  },
+  frameRate: {
+    min: 15,
+    max: 15
+  },
+  bitrate: {
+    min: 140,
+    max: 200
+  }
+}];
+function getStreamQuality(state) {
+  var lowestQuality = StreamQualities[StreamQualities.length - 1];
+  var highestQuality = environment.flags.maxQuality ? StreamQualities[0] : StreamQualities[StreamQualities.length - 2];
+  return state.role === RoleType.Publisher ? highestQuality : lowestQuality;
+}
+var AgoraStatus = {
+  Link: 'link',
+  Name: 'name',
+  Device: 'device',
+  ShouldConnect: 'should-connect',
+  Connecting: 'connecting',
+  Connected: 'connected',
+  Disconnected: 'disconnected'
+};
+var MessageType = {
+  AgoraEvent: 'agoraEvent',
+  Ping: 'ping',
+  RequestControl: 'requestControl',
+  RequestControlAccepted: 'requestControlAccepted',
+  RequestControlRejected: 'requestControlRejected',
+  RequestControlDismiss: 'requestControlDismiss',
+  RequestControlDismissed: 'requestControlDismissed',
+  RequestPeerInfo: 'requestPeerInfo',
+  RequestPeerInfoResult: 'requestPeerInfoResult',
+  RequestInfo: 'requestInfo',
+  RequestInfoResult: 'requestInfoResult',
+  RequestInfoDismiss: 'requestInfoDismiss',
+  RequestInfoDismissed: 'requestInfoDismissed',
+  RequestInfoRejected: 'requestInfoRejected',
+  SlideChange: 'slideChange',
+  ControlInfo: 'controlInfo',
+  AddLike: 'addLike',
+  ShowPanel: 'showPanel',
+  PlayMedia: 'playMedia',
+  NavToView: 'navToView',
+  NavToGrid: 'navToGrid',
+  VRStarted: 'vrStarted',
+  VREnded: 'vrEnded',
+  VRState: 'vrState',
+  MenuToggle: 'menuToggle'
+};
+var AgoraEvent = function AgoraEvent(options) {
+  Object.assign(this, options);
+};
+var AgoraPeerEvent = /*#__PURE__*/function (_AgoraEvent) {
+  _inheritsLoose(AgoraPeerEvent, _AgoraEvent);
+
+  function AgoraPeerEvent() {
+    return _AgoraEvent.apply(this, arguments) || this;
+  }
+
+  return AgoraPeerEvent;
+}(AgoraEvent);
+var AgoraRemoteEvent = /*#__PURE__*/function (_AgoraEvent2) {
+  _inheritsLoose(AgoraRemoteEvent, _AgoraEvent2);
+
+  function AgoraRemoteEvent() {
+    return _AgoraEvent2.apply(this, arguments) || this;
+  }
+
+  return AgoraRemoteEvent;
+}(AgoraEvent);
+var AgoraMuteVideoEvent = /*#__PURE__*/function (_AgoraEvent3) {
+  _inheritsLoose(AgoraMuteVideoEvent, _AgoraEvent3);
+
+  function AgoraMuteVideoEvent() {
+    return _AgoraEvent3.apply(this, arguments) || this;
+  }
+
+  return AgoraMuteVideoEvent;
+}(AgoraEvent);
+var AgoraUnmuteVideoEvent = /*#__PURE__*/function (_AgoraEvent4) {
+  _inheritsLoose(AgoraUnmuteVideoEvent, _AgoraEvent4);
+
+  function AgoraUnmuteVideoEvent() {
+    return _AgoraEvent4.apply(this, arguments) || this;
+  }
+
+  return AgoraUnmuteVideoEvent;
+}(AgoraEvent);
+var AgoraMuteAudioEvent = /*#__PURE__*/function (_AgoraEvent5) {
+  _inheritsLoose(AgoraMuteAudioEvent, _AgoraEvent5);
+
+  function AgoraMuteAudioEvent() {
+    return _AgoraEvent5.apply(this, arguments) || this;
+  }
+
+  return AgoraMuteAudioEvent;
+}(AgoraEvent);
+var AgoraUnmuteAudioEvent = /*#__PURE__*/function (_AgoraEvent6) {
+  _inheritsLoose(AgoraUnmuteAudioEvent, _AgoraEvent6);
+
+  function AgoraUnmuteAudioEvent() {
+    return _AgoraEvent6.apply(this, arguments) || this;
+  }
+
+  return AgoraUnmuteAudioEvent;
+}(AgoraEvent);
+var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
+  _inheritsLoose(AgoraVolumeLevelsEvent, _AgoraEvent7);
+
+  function AgoraVolumeLevelsEvent() {
+    return _AgoraEvent7.apply(this, arguments) || this;
+  }
+
+  return AgoraVolumeLevelsEvent;
+}(AgoraEvent);var AgoraDevicePreviewComponent = /*#__PURE__*/function (_Component) {
   _inheritsLoose(AgoraDevicePreviewComponent, _Component);
 
   function AgoraDevicePreviewComponent() {
@@ -1243,14 +1537,28 @@ var DeviceService = /*#__PURE__*/function () {
 
     if (this.video_ || this.audio_) {
       if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-        navigator.mediaDevices.getUserMedia({
+        var state = StateService.state;
+        var quality = getStreamQuality(state);
+        var options = {
           video: this.video_ ? {
-            deviceId: this.video_
+            deviceId: this.video_,
+            width: {
+              ideal: quality.resolution.width
+            },
+            height: {
+              ideal: quality.resolution.height
+            },
+            frameRate: {
+              ideal: quality.frameRate.min,
+              max: quality.frameRate.max
+            }
           } : false,
           audio: this.audio_ ? {
             deviceId: this.audio_
           } : false
-        }).then(function (stream) {
+        };
+        console.log('AgoraDevicePreviewComponent.initStream.getUserMedia', options);
+        navigator.mediaDevices.getUserMedia(options).then(function (stream) {
           if (_this.hasPreview) {
             if ('srcObject' in preview) {
               preview.srcObject = stream;
@@ -1359,28 +1667,7 @@ AgoraDevicePreviewComponent.meta = {
   selector: '[agora-device-preview]',
   outputs: ['stream', 'change'],
   inputs: ['video', 'audio']
-};var StateService = /*#__PURE__*/function () {
-  function StateService() {}
-
-  StateService.patchState = function patchState(state) {
-    state = Object.assign({}, this.state, state);
-    this.state = state;
-  };
-
-  _createClass(StateService, null, [{
-    key: "state",
-    set: function set(state) {
-      this.state$.next(state);
-    },
-    get: function get() {
-      return this.state$.getValue();
-    }
-  }]);
-
-  return StateService;
-}();
-
-_defineProperty(StateService, "state$", new rxjs.BehaviorSubject({}));var Emittable = /*#__PURE__*/function () {
+};var Emittable = /*#__PURE__*/function () {
   function Emittable() {
     this.events = {};
   }
@@ -1700,183 +1987,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   }
 
   return streams;
-}), operators.shareReplay(1)));var StreamQualities = [{
-  id: 1,
-  name: '4K 2160p 3840x2160',
-  resolution: {
-    width: 3840,
-    height: 2160
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 8910,
-    max: 13500
-  }
-}, {
-  id: 2,
-  name: 'HD 1440p 2560×1440',
-  resolution: {
-    width: 2560,
-    height: 1440
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 4850,
-    max: 7350
-  }
-}, {
-  id: 3,
-  name: 'HD 1080p 1920x1080',
-  resolution: {
-    width: 1920,
-    height: 1080
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 2080,
-    max: 4780
-  }
-}, {
-  id: 4,
-  name: 'LOW 720p 960x720',
-  resolution: {
-    width: 960,
-    height: 720
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 910,
-    max: 1380
-  }
-}, {
-  id: 5,
-  name: 'LOWEST 240p 320x240',
-  resolution: {
-    width: 320,
-    height: 240
-  },
-  frameRate: {
-    min: 15,
-    max: 15
-  },
-  bitrate: {
-    min: 140,
-    max: 200
-  }
-}];
-var AgoraStatus = {
-  Link: 'link',
-  Name: 'name',
-  Device: 'device',
-  ShouldConnect: 'should-connect',
-  Connecting: 'connecting',
-  Connected: 'connected',
-  Disconnected: 'disconnected'
-};
-var MessageType = {
-  AgoraEvent: 'agoraEvent',
-  Ping: 'ping',
-  RequestControl: 'requestControl',
-  RequestControlAccepted: 'requestControlAccepted',
-  RequestControlRejected: 'requestControlRejected',
-  RequestControlDismiss: 'requestControlDismiss',
-  RequestControlDismissed: 'requestControlDismissed',
-  RequestPeerInfo: 'requestPeerInfo',
-  RequestPeerInfoResult: 'requestPeerInfoResult',
-  RequestInfo: 'requestInfo',
-  RequestInfoResult: 'requestInfoResult',
-  RequestInfoDismiss: 'requestInfoDismiss',
-  RequestInfoDismissed: 'requestInfoDismissed',
-  RequestInfoRejected: 'requestInfoRejected',
-  SlideChange: 'slideChange',
-  ControlInfo: 'controlInfo',
-  AddLike: 'addLike',
-  ShowPanel: 'showPanel',
-  PlayMedia: 'playMedia',
-  NavToView: 'navToView',
-  NavToGrid: 'navToGrid',
-  VRStarted: 'vrStarted',
-  VREnded: 'vrEnded',
-  VRState: 'vrState'
-};
-var AgoraEvent = function AgoraEvent(options) {
-  Object.assign(this, options);
-};
-var AgoraPeerEvent = /*#__PURE__*/function (_AgoraEvent) {
-  _inheritsLoose(AgoraPeerEvent, _AgoraEvent);
-
-  function AgoraPeerEvent() {
-    return _AgoraEvent.apply(this, arguments) || this;
-  }
-
-  return AgoraPeerEvent;
-}(AgoraEvent);
-var AgoraRemoteEvent = /*#__PURE__*/function (_AgoraEvent2) {
-  _inheritsLoose(AgoraRemoteEvent, _AgoraEvent2);
-
-  function AgoraRemoteEvent() {
-    return _AgoraEvent2.apply(this, arguments) || this;
-  }
-
-  return AgoraRemoteEvent;
-}(AgoraEvent);
-var AgoraMuteVideoEvent = /*#__PURE__*/function (_AgoraEvent3) {
-  _inheritsLoose(AgoraMuteVideoEvent, _AgoraEvent3);
-
-  function AgoraMuteVideoEvent() {
-    return _AgoraEvent3.apply(this, arguments) || this;
-  }
-
-  return AgoraMuteVideoEvent;
-}(AgoraEvent);
-var AgoraUnmuteVideoEvent = /*#__PURE__*/function (_AgoraEvent4) {
-  _inheritsLoose(AgoraUnmuteVideoEvent, _AgoraEvent4);
-
-  function AgoraUnmuteVideoEvent() {
-    return _AgoraEvent4.apply(this, arguments) || this;
-  }
-
-  return AgoraUnmuteVideoEvent;
-}(AgoraEvent);
-var AgoraMuteAudioEvent = /*#__PURE__*/function (_AgoraEvent5) {
-  _inheritsLoose(AgoraMuteAudioEvent, _AgoraEvent5);
-
-  function AgoraMuteAudioEvent() {
-    return _AgoraEvent5.apply(this, arguments) || this;
-  }
-
-  return AgoraMuteAudioEvent;
-}(AgoraEvent);
-var AgoraUnmuteAudioEvent = /*#__PURE__*/function (_AgoraEvent6) {
-  _inheritsLoose(AgoraUnmuteAudioEvent, _AgoraEvent6);
-
-  function AgoraUnmuteAudioEvent() {
-    return _AgoraEvent6.apply(this, arguments) || this;
-  }
-
-  return AgoraUnmuteAudioEvent;
-}(AgoraEvent);
-var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
-  _inheritsLoose(AgoraVolumeLevelsEvent, _AgoraEvent7);
-
-  function AgoraVolumeLevelsEvent() {
-    return _AgoraEvent7.apply(this, arguments) || this;
-  }
-
-  return AgoraVolumeLevelsEvent;
-}(AgoraEvent);var AgoraService = /*#__PURE__*/function (_Emittable) {
+}), operators.shareReplay(1)));var AgoraService = /*#__PURE__*/function (_Emittable) {
   _inheritsLoose(AgoraService, _Emittable);
 
   AgoraService.getSingleton = function getSingleton(defaultDevices) {
@@ -1921,18 +2032,10 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
         videos: [],
         audios: []
       },
-      quality: _this.getStreamQuality(state),
+      quality: getStreamQuality(state),
       membersCount: 0
     });
     return _this;
-  }
-
-  var _proto = AgoraService.prototype;
-
-  _proto.getStreamQuality = function getStreamQuality(state) {
-    var lowestQuality = StreamQualities[StreamQualities.length - 1];
-    var highestQuality = environment.flags.maxQuality ? StreamQualities[0] : StreamQualities[StreamQualities.length - 2];
-    return state.role === RoleType.Publisher ? highestQuality : lowestQuality;
   }
   /*
   getInitialStatus(role, link, name) {
@@ -1948,7 +2051,9 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
   	return AgoraStatus.ShouldConnect;
   }
   */
-  ;
+
+
+  var _proto = AgoraService.prototype;
 
   _proto.addStreamDevice = function addStreamDevice(src) {
     this.removeStreamDevice();
@@ -2438,27 +2543,48 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
       var quality = Object.assign({}, StateService.state.quality);
 
       _this6.createLocalStreamWithOptions(options, quality);
-      /*
-      // console.log('AgoraService.createMediaStream', uid, options);
-      const local = AgoraRTC.createStream(options);
-      StreamService.local = local;
-      // console.log('AgoraService.createMediaStream', uid, local.getId());
-      // console.log('AgoraService.setVideoEncoderConfiguration', quality);
-      local.setVideoEncoderConfiguration(quality);
-      this.initLocalStream(options);
-      */
-
     });
   };
 
   _proto.createLocalStreamWithOptions = function createLocalStreamWithOptions(options, quality) {
     var _this7 = this;
 
+    /*
+    const getUserMedia = navigator.mediaDevices.getUserMedia;
+    navigator.mediaDevices.getUserMedia = function(options) {
+    	if (options.video) {
+    		options.video.width = { ideal: 4096 };
+    		options.video.height = { ideal: 2160 };
+    		console.log('getUserMedia', options.video.width.ideal, options.video.height.ideal);
+    	}
+    	console.log('getUserMedia', options);
+    	return getUserMedia.call(navigator.mediaDevices, options);
+    }
+    */
     var local = AgoraRTC.createStream(options);
+    /*
+    // force video quality
+    quality = {
+    	resolution: {
+    		width: 1920,
+    		height: 1080
+    	},
+    	frameRate: {
+    		min: 30,
+    		max: 30
+    	},
+    	bitrate: {
+    		min: 2000,
+    		max: 4000
+    	}
+    };
+    */
 
     if (quality) {
+      local.setVideoProfile(quality.profile);
       local.setVideoEncoderConfiguration(quality);
-    }
+    } // console.log('local', local.attributes);
+
 
     local.init(function () {
       StreamService.local = local;
@@ -2479,47 +2605,22 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
     }, function (error) {
       console.log('AgoraService.initLocalStream.init.error', error);
     });
-  };
-
-  _proto.createLocalStream = function createLocalStream(uid, microphoneId, cameraId) {
-    // console.log('createLocalStream', uid, microphoneId, cameraId);
-    if (microphoneId || cameraId) {
-      var options = {
-        streamID: uid,
-        microphoneId: microphoneId,
-        cameraId: cameraId,
-        audio: microphoneId ? true : false,
-        video: cameraId ? true : false,
-        screen: false
-      };
-      this.createLocalStreamWithOptions(options);
-      /*
-      StreamService.local = AgoraRTC.createStream({
-      	streamID: uid,
-      	microphoneId: microphoneId,
-      	cameraId: cameraId,
-      	audio: microphoneId ? true : false,
-      	video: cameraId ? true : false,
-      	screen: false,
-      });
-      this.initLocalStream();
-      */
-    }
-  };
-
-  _proto.createMediaVideoStream = function createMediaVideoStream(video, callback) {
-    // this.releaseStream('_mediaVideoStream')
-    var videoStream = video.captureStream(60);
-    var stream = AgoraRTC.createStream({
-      audio: true,
-      video: true,
-      videoSource: videoStream.getVideoTracks()[0],
-      audioSource: videoStream.getAudioTracks()[0]
-    });
-    stream.init(function () {
-      callback(stream.getVideoTrack(), stream.getAudioTrack());
-    });
-  };
+  }
+  /*
+  createMediaVideoStream(video, callback) {
+  	const videoStream = video.captureStream(60);
+  	const stream = AgoraRTC.createStream({
+  		audio: true,
+  		video: true,
+  		videoSource: videoStream.getVideoTracks()[0],
+  		audioSource: videoStream.getAudioTracks()[0],
+  	});
+  	stream.init(() => {
+  		callback(stream.getVideoTrack(), stream.getAudioTrack());
+  	});
+  }
+  */
+  ;
 
   _proto.publishLocalStream = function publishLocalStream() {
     var client = this.client;
@@ -5818,19 +5919,7 @@ ToastOutletComponent.meta = {
   template:
   /* html */
   "\n\t<div class=\"toast-outlet__container\" [class]=\"{ active: toast }\">\n\t\t<div class=\"toast-outlet__toast\" [innerHTML]=\"lastMessage\"></div>\n\t</div>\n\t"
-};var _EditorLocale;
-
-var EditorLocale = (_EditorLocale = {
-  'image': 'Image',
-  'video': 'Video',
-  'model': 'Model',
-  'publisher-stream': 'Publisher Stream',
-  'next-attendee-stream': 'Next Attendee Stream',
-  'waiting-room': 'Waiting Room',
-  'panorama': 'Panorama',
-  'panorama-grid': 'Panorama Grid',
-  'room-3d': 'Room 3D'
-}, _EditorLocale["model"] = 'Model', _EditorLocale['nav'] = 'Nav Tooltip', _EditorLocale['gltf'] = 'Gltf Model', _EditorLocale['plane'] = 'Plane', _EditorLocale['curved-plane'] = 'Curved Plane', _EditorLocale['texture'] = 'Texture', _EditorLocale);var AsideComponent = /*#__PURE__*/function (_Component) {
+};var AsideComponent = /*#__PURE__*/function (_Component) {
   _inheritsLoose(AsideComponent, _Component);
 
   function AsideComponent() {
@@ -5845,7 +5934,7 @@ var EditorLocale = (_EditorLocale = {
       var type = ViewType[key];
       return {
         type: type,
-        name: EditorLocale[type.name],
+        name: LabelPipe.getKeys('editor', type.name),
         disabled: environment.editor.disabledViewTypes.indexOf(type.name) !== -1
       };
     });
@@ -5853,7 +5942,7 @@ var EditorLocale = (_EditorLocale = {
       var type = ViewItemType[key];
       return {
         type: type,
-        name: EditorLocale[type.name],
+        name: LabelPipe.getKeys('editor', type.name),
         disabled: environment.editor.disabledViewItemTypes.indexOf(type.name) !== -1
       };
     });
@@ -6472,11 +6561,6 @@ AsideComponent.meta = {
         case ViewItemType.Nav.name:
         case ViewItemType.Plane.name:
         case ViewItemType.CurvedPlane.name:
-        case ViewItemType.Model.name:
-          if (event.value === ViewItemType.Model.name && this.view.type.name === ViewType.Model.name) {
-            return;
-          }
-
           this.onViewHitted(function (position) {
             _this8.onOpenModal(event, {
               view: _this8.view,
@@ -6486,6 +6570,29 @@ AsideComponent.meta = {
           ToastService.open$({
             message: 'Click a point on the view'
           });
+          break;
+
+        case ViewItemType.Model.name:
+          if (event.type === 'viewItem') {
+            if (this.view.type.name === ViewType.Model.name) {
+              return;
+            }
+
+            this.onViewHitted(function (position) {
+              _this8.onOpenModal(event, {
+                view: _this8.view,
+                position: position
+              });
+            });
+            ToastService.open$({
+              message: 'Click a point on the view'
+            });
+          } else {
+            this.onOpenModal(event, {
+              view: this.view
+            });
+          }
+
           break;
 
         default:
@@ -7396,14 +7503,17 @@ CurvedPlaneModalComponent.meta = {
   _proto.onInit = function onInit() {
     var _this = this;
 
-    var object = new THREE.Object3D();
+    /*
+    const object = new THREE.Object3D();
     object.position.copy(this.position);
     object.lookAt(ItemModelModalComponent.ORIGIN);
+    */
     var form = this.form = new rxcompForm.FormGroup({
       type: ViewItemType.Model,
       position: new rxcompForm.FormControl(this.position.multiplyScalar(4).toArray(), rxcompForm.RequiredValidator()),
-      rotation: new rxcompForm.FormControl(object.rotation.toArray(), rxcompForm.RequiredValidator()),
+      rotation: new rxcompForm.FormControl([0, 0, 0], rxcompForm.RequiredValidator()),
       // [0, -Math.PI / 2, 0],
+      // rotation: new FormControl(object.rotation.toArray(), RequiredValidator()), // [0, -Math.PI / 2, 0],
       scale: new rxcompForm.FormControl([1, 1, 1], rxcompForm.RequiredValidator()),
       asset: new rxcompForm.FormControl(null, rxcompForm.RequiredValidator())
     });
@@ -8321,14 +8431,14 @@ RemoveModalComponent.meta = {
       this.pushChanges();
       var changes = this.form.value;
       var payload = Object.assign({}, changes);
-      var _view = this.view;
+      var view = this.view;
       var item = new ViewItem(payload);
-      EditorService.inferItemUpdate$(_view, item).pipe(operators.first()).subscribe(function (response) {
+      EditorService.inferItemUpdate$(view, item).pipe(operators.first()).subscribe(function (response) {
         // console.log('UpdateViewItemComponent.onSubmit.inferItemUpdate$.success', response);
-        EditorService.inferItemUpdateResult$(_view, item);
+        EditorService.inferItemUpdateResult$(view, item);
 
         _this5.update.next({
-          view: _view,
+          view: view,
           item: item
         });
 
@@ -8375,7 +8485,7 @@ RemoveModalComponent.meta = {
   };
 
   _proto.getTitle = function getTitle(item) {
-    return EditorLocale[item.type.name];
+    return LabelPipe.getKeys('editor', item.type.name);
   };
 
   return UpdateViewItemComponent;
@@ -8664,7 +8774,7 @@ UpdateViewTileComponent.meta = {
   };
 
   _proto.getTitle = function getTitle(view) {
-    return EditorLocale[view.type.name];
+    return LabelPipe.getKeys('editor', view.type.name);
   };
 
   return UpdateViewComponent;
@@ -10453,10 +10563,13 @@ var LoaderService = /*#__PURE__*/function () {
     }
 
     var item = this.items[ref];
-    item.next({
-      loaded: loaded,
-      total: total
-    });
+
+    if (item) {
+      item.next({
+        loaded: loaded,
+        total: total
+      });
+    }
 
     if (loaded >= total) {
       setTimeout(function () {
@@ -10465,15 +10578,6 @@ var LoaderService = /*#__PURE__*/function () {
         _this2.switchLoaders();
       }, 300);
     }
-    /*
-    if (loaded < total) {
-    	const item = this.items[ref];
-    	item.next({ loaded, total });
-    } else {
-    	delete this.items[ref];
-    }
-    */
-
 
     this.switchLoaders();
   };
@@ -10518,40 +10622,7 @@ _defineProperty(LoaderService, "progress$", new rxjs.ReplaySubject(1).pipe(opera
   progress.title = Math.round(progress.value * 100) + "%";
   LoaderService.progress = progress;
   return progress;
-})));var DebugService = /*#__PURE__*/function () {
-  DebugService.getService = function getService() {
-    if (!this.service_) {
-      this.service_ = new DebugService();
-    }
-
-    return this.service_;
-  };
-
-  _createClass(DebugService, [{
-    key: "message",
-    get: function get() {
-      return this.message$.getValue();
-    }
-  }]);
-
-  function DebugService() {
-    if (DebugService.service_) {
-      throw 'DebugService is a singleton class!';
-    }
-
-    this.message$ = new rxjs.BehaviorSubject(null);
-  }
-
-  var _proto = DebugService.prototype;
-
-  _proto.setMessage = function setMessage(message) {
-    if (this.message !== message) {
-      this.message$.next(message);
-    }
-  };
-
-  return DebugService;
-}();var EnvMapLoader = /*#__PURE__*/function () {
+})));var EnvMapLoader = /*#__PURE__*/function () {
   function EnvMapLoader() {}
 
   EnvMapLoader.load = function load(item, renderer, callback) {
@@ -10701,8 +10772,8 @@ _defineProperty(LoaderService, "progress$", new rxjs.ReplaySubject(1).pipe(opera
   EnvMapLoader.loadVideoBackground = function loadVideoBackground(folder, file, renderer, callback) {
     var _this = this;
 
-    var progressRef = LoaderService.getRef();
-    var debugService = DebugService.getService();
+    var progressRef = LoaderService.getRef(); // const debugService = DebugService.getService();
+
     this.video = true;
     var video = this.video;
 
@@ -10739,12 +10810,10 @@ _defineProperty(LoaderService, "progress$", new rxjs.ReplaySubject(1).pipe(opera
 
     video.src = folder + file;
     video.load();
-    video.play().then(function () {
-      // console.log('EnvMapLoader.loadVideoBackground.play');
-      debugService.setMessage("play " + video.src);
+    video.play().then(function () {// console.log('EnvMapLoader.loadVideoBackground.play');
+      // debugService.setMessage(`play ${video.src}`);
     }, function (error) {
-      console.log('EnvMapLoader.loadVideoBackground.play.error', error);
-      debugService.setMessage("play.error " + video.src);
+      console.log('EnvMapLoader.loadVideoBackground.play.error', error); // debugService.setMessage(`play.error ${video.src}`);
     });
   };
 
@@ -10962,7 +11031,9 @@ _defineProperty(LoaderService, "progress$", new rxjs.ReplaySubject(1).pipe(opera
   };
 
   return EmittableMesh;
-}(FreezableMesh);var Interactive = function Interactive() {};
+}(FreezableMesh);// import DebugService from '../debug.service';
+
+var Interactive = function Interactive() {};
 Interactive.items = [];
 Interactive.hittest = interactiveHittest.bind(Interactive);
 Interactive.dispose = interactiveDispose.bind(Interactive);
@@ -10973,7 +11044,7 @@ function interactiveHittest(raycaster, down, event) {
     down = false;
   }
 
-  var debugService = DebugService.getService();
+  // const debugService = DebugService.getService();
   var dirty = false;
 
   if (this.down !== down) {
@@ -10995,8 +11066,8 @@ function interactiveHittest(raycaster, down, event) {
     if (i === 0) {
       if (_this.lastIntersectedObject !== object || dirty) {
         _this.lastIntersectedObject = object;
-        hit = object;
-        debugService.setMessage(hit.name || hit.id); // haptic feedback
+        hit = object; // debugService.setMessage(hit.name || hit.id);
+        // haptic feedback
       } else if (object.intersection && (Math.abs(object.intersection.point.x - intersection.point.x) > 0.01 || Math.abs(object.intersection.point.y - intersection.point.y) > 0.01)) {
         object.intersection = intersection;
         object.emit('move', object);
@@ -11265,8 +11336,20 @@ var Panorama = /*#__PURE__*/function () {
   };
 
   _proto.load = function load(item, renderer, callback) {
+    var _this = this;
+
+    if (!item.asset) {
+      return;
+    }
+
+    this.currentAsset = item.asset.folder + item.asset.file;
     var material = this.mesh.material;
     EnvMapLoader.load(item, renderer, function (envMap, texture, rgbe, video, pmremGenerator) {
+      if (item.asset.folder + item.asset.file !== _this.currentAsset) {
+        texture.dispose();
+        return;
+      }
+
       if (material.uniforms.texture.value) {
         material.uniforms.texture.value.dispose();
         material.uniforms.texture.value = null;
@@ -11301,7 +11384,7 @@ var Panorama = /*#__PURE__*/function () {
   };
 
   _proto.setVideo = function setVideo(video) {
-    var _this = this;
+    var _this2 = this;
 
     // console.log('Panorama.setVideo', video);
     if (video) {
@@ -11312,7 +11395,7 @@ var Panorama = /*#__PURE__*/function () {
         texture.mapping = THREE.UVMapping;
         texture.format = THREE.RGBFormat;
         texture.needsUpdate = true;
-        var material = _this.mesh.material;
+        var material = _this2.mesh.material;
         material.map = texture;
         material.uniforms.texture.value = texture;
         material.uniforms.resolution.value = new THREE.Vector2(texture.width, texture.height);
@@ -13205,7 +13288,183 @@ var PointerElement = /*#__PURE__*/function () {
   };
 
   return PointerElement;
-}();/**
+}();var Emittable$1 = /*#__PURE__*/function () {
+  function Emittable() {
+    this.events = {};
+  }
+
+  var _proto = Emittable.prototype;
+
+  _proto.on = function on(type, callback) {
+    var _this = this;
+
+    var event = this.events[type] = this.events[type] || [];
+    event.push(callback);
+    return function () {
+      _this.events[type] = event.filter(function (x) {
+        return x !== callback;
+      });
+    };
+  };
+
+  _proto.off = function off(type, callback) {
+    var event = this.events[type];
+
+    if (event) {
+      this.events[type] = event.filter(function (x) {
+        return x !== callback;
+      });
+    }
+  };
+
+  _proto.emit = function emit(type, data) {
+    var event = this.events[type];
+
+    if (event) {
+      event.forEach(function (callback) {
+        // callback.call(this, data);
+        callback(data);
+      });
+    }
+
+    var broadcast = this.events.broadcast;
+
+    if (broadcast) {
+      broadcast.forEach(function (callback) {
+        callback(type, data);
+      });
+    }
+  };
+
+  return Emittable;
+}();var Gamepad = /*#__PURE__*/function (_Emittable) {
+  _inheritsLoose(Gamepad, _Emittable);
+
+  function Gamepad(gamepad) {
+    var _this;
+
+    _this = _Emittable.call(this) || this;
+    _this.gamepad = gamepad;
+    _this.buttons = {};
+    _this.axes = {};
+    return _this;
+  }
+
+  var _proto = Gamepad.prototype;
+
+  _proto.update = function update() {
+    this.updateButtons();
+    this.updateAxes();
+  };
+
+  _proto.updateButtons = function updateButtons() {
+    var _this2 = this;
+
+    this.gamepad.buttons.forEach(function (x, i) {
+      var pressed = x.pressed;
+      var button = _this2.buttons[i] || (_this2.buttons[i] = new GamepadButton(i, _this2));
+
+      if (button.pressed !== pressed) {
+        button.pressed = pressed;
+
+        if (pressed) {
+          _this2.emit('press', button);
+        } else if (status !== undefined) {
+          _this2.emit('release', button);
+        }
+      }
+    });
+  };
+
+  _proto.updateAxes = function updateAxes() {
+    var axes = this.gamepad.axes;
+
+    for (var i = 0; i < axes.length; i += 2) {
+      var index = Math.floor(i / 2);
+      var axis = this.axes[index] || (this.axes[index] = new GamepadAxis(index, this));
+      var x = axes[i];
+      var y = axes[i + 1];
+
+      if (axis.x !== x || axis.y !== y) {
+        axis.x = x;
+        axis.y = y;
+
+        if (Math.abs(x) > Math.abs(y)) {
+          var left = x < -0.85;
+          var right = x > 0.85;
+
+          if (axis.left !== left) {
+            axis.left = left;
+            this.emit(left ? 'left' : 'none', axis); // console.log(`${axis.gamepad.hand} ${axis.gamepad.index} left ${left}`);
+          }
+
+          if (axis.right !== right) {
+            axis.right = right;
+            this.emit(right ? 'right' : 'none', axis); // console.log(`${axis.gamepad.hand} ${axis.gamepad.index} right ${right}`);
+          }
+        } else {
+          var up = y < -0.85;
+          var down = y > 0.85;
+
+          if (axis.up !== up) {
+            axis.up = up;
+            this.emit(up ? 'up' : 'none', axis); // console.log(`${axis.gamepad.hand} ${axis.gamepad.index} up ${up}`);
+          }
+
+          if (axis.down !== down) {
+            axis.down = down;
+            this.emit(down ? 'down' : 'none', axis); // console.log(`${axis.gamepad.hand} ${axis.gamepad.index} down ${down}`);
+          }
+        }
+
+        this.emit('axis', axis);
+      }
+    }
+  };
+
+  _proto.feedback = function feedback(strength, duration) {
+    if (strength === void 0) {
+      strength = 0.1;
+    }
+
+    if (duration === void 0) {
+      duration = 50;
+    }
+
+    // !!! care for battery
+    var actuators = this.gamepad.hapticActuators;
+
+    if (actuators && actuators.length) {
+      return actuators[0].pulse(strength, duration);
+    } else {
+      return Promise.reject();
+    }
+  };
+
+  return Gamepad;
+}(Emittable$1);
+
+var GamepadButton = function GamepadButton(index, gamepad) {
+  this.index = index;
+  this.gamepad = gamepad;
+  this.pressed = false;
+};
+
+var GamepadAxis = /*#__PURE__*/function (_THREE$Vector) {
+  _inheritsLoose(GamepadAxis, _THREE$Vector);
+
+  function GamepadAxis(index, gamepad) {
+    var _this3;
+
+    _this3 = _THREE$Vector.call(this) || this;
+    _this3.index = index;
+    _this3.gamepad = gamepad;
+    _this3.left = _this3.right = _this3.up = _this3.down = false;
+    return _this3;
+  }
+
+  return GamepadAxis;
+}(THREE.Vector2);/**
  * @webxr-input-profiles/motion-controllers 1.0.0 https://github.com/immersive-web/webxr-input-profiles
  */
 var Constants = {
@@ -14069,17 +14328,13 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var pointer = this.pointer = new PointerElement('#ff4332');
     var mainLight = new THREE.PointLight(0xffffff);
     mainLight.position.set(-50, 0, -50);
-    scene.add(mainLight);
-    var light2 = new THREE.DirectionalLight(0xffe699, 3);
+    objects.add(mainLight);
+    var light2 = new THREE.DirectionalLight(0xffe699, 5);
     light2.position.set(5, -5, 5);
     light2.target.position.set(0, 0, 0);
-    scene.add(light2);
-    var light3 = new THREE.DirectionalLight(0xffe699, 3);
-    light3.position.set(0, 50, 0);
-    light3.target.position.set(0, 0, 0);
-    scene.add(light3);
+    objects.add(light2);
     var light = new THREE.AmbientLight(0x101010);
-    scene.add(light);
+    objects.add(light);
     this.addControllers(); //
 
     this.resize(); //
@@ -14169,61 +14424,154 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
   };
 
   _proto.addControllers = function addControllers() {
+    var controllerGroup = this.controllerGroup = new THREE.Group();
+    this.controllers = [];
+    this.controllerModelFactory = new XRControllerModelFactory();
+    this.addController(0);
+    this.addController(1);
+    this.cameraGroup.add(controllerGroup);
+  };
+
+  _proto.addController = function addController(index) {
     var _this3 = this;
 
     var renderer = this.renderer;
-    var scene = this.scene;
-    var controllerGroup = this.controllerGroup = new THREE.Group();
-    var controller1 = this.controller1 = renderer.xr.getController(0);
-    controller1.name = '[controller1]';
-    this.onSelect1Start = this.onSelect1Start.bind(this);
-    this.onSelect1End = this.onSelect1End.bind(this);
-    controller1.addEventListener('selectstart', this.onSelect1Start);
-    controller1.addEventListener('selectend', this.onSelect1End);
-    controller1.addEventListener('connected', function (event) {
-      controller1.add(_this3.buildController(event.data));
-    });
-    controller1.addEventListener('disconnected', function () {
-      while (controller1.children.length) {
-        controller1.remove(controller1.children[0]);
-      }
-    });
-    controllerGroup.add(controller1);
-    var controller2 = this.controller2 = renderer.xr.getController(1);
-    controller2.name = '[controller2]';
-    this.onSelect2Start = this.onSelect2Start.bind(this);
-    this.onSelect2End = this.onSelect2End.bind(this);
-    controller2.addEventListener('selectstart', this.onSelect2Start);
-    controller2.addEventListener('selectend', this.onSelect2End);
-    controller2.addEventListener('connected', function (event) {
-      controller2.add(_this3.buildController(event.data));
+    var controllerGroup = this.controllerGroup;
+    var controller = renderer.xr.getController(index);
+    var controllerModelFactory = this.controllerModelFactory;
+    controller.name = "[controller" + (index + 1) + "]";
+    controllerGroup.add(controller);
 
-      {
+    var setController = function setController(controller) {
+      console.log('setController', _this3);
+      _this3.controller = controller;
+    };
+
+    var onSelectStart = function onSelectStart(event) {
+      controller.userData.isSelecting = true;
+      setController(controller);
+    };
+
+    var onSelectEnd = function onSelectEnd(event) {
+      controller.userData.isSelecting = false;
+    }; // const debugService = DebugService.getService();
+    // debugService.setMessage('DebugService 1001');
+
+
+    var onPress = function onPress(event) {
+      // console.log('Gamepad.onPress', event, controller);
+      // debugService.setMessage('Gamepad.onPress ' + event.index);
+
+      /*
+      case 0:
+      	// select
+      	break;
+      case 1:
+      	// squeeze
+      	break;
+      case 4:
+      	// x / a
+      	break;
+      case 5:
+      	// y / b
+      	break;
+      */
+      switch (event.index) {
+        case 0:
+          // select
+          break;
+
+        case 1:
+          // squeeze
+          break;
+
+        case 4:
+          // x / a
+          MessageService.send({
+            type: MessageType.MenuToggle
+          });
+          break;
+      }
+    };
+
+    var onLeft = function onLeft(event) {
+      console.log('Gamepad.onLeft', event, controller); // debugService.setMessage('Gamepad.onLeft');
+
+      _this3.cameraGroup.rotation.y += Math.PI / 180 * 45;
+    };
+
+    var onRight = function onRight(event) {
+      console.log('Gamepad.onRight', event, controller); // debugService.setMessage('Gamepad.onRight');
+
+      _this3.cameraGroup.rotation.y -= Math.PI / 180 * 45;
+    };
+
+    var onUp = function onUp(event) {
+      console.log('Gamepad.onUp', event, controller); // debugService.setMessage('Gamepad.onUp');
+
+      _this3.cameraGroup.position.y += 1;
+    };
+
+    var onDown = function onDown(event) {
+      console.log('Gamepad.onDown', event, controller); // debugService.setMessage('Gamepad.onDown');
+
+      _this3.cameraGroup.position.y -= 1;
+    };
+
+    var onConnected = function onConnected(event) {
+      controller.add(_this3.buildController(event.data));
+
+      if ( event.data.handedness === 'left') {
         var phone = _this3.phone = new PhoneElement();
-        controller2.add(phone.mesh);
+        controller.add(phone.mesh);
       }
-    });
-    controller2.addEventListener('disconnected', function () {
-      while (controller2.children.length) {
-        controller2.remove(controller2.children[0]);
+
+      if ( event.data.handedness === 'right') {
+        var controllerGrip = renderer.xr.getControllerGrip(index);
+        controllerGrip.name = "[controller-grip" + (index + 1) + "]";
+        controllerGrip.add(controllerModelFactory.createControllerModel(controllerGrip));
+        controllerGroup.add(controllerGrip);
       }
-    });
-    controllerGroup.add(controller2);
-    this.controllers = [this.controller1, this.controller2]; // The XRControllerModelFactory will automatically fetch controller models
-    // that match what the user is holding as closely as possible. The models
-    // should be attached to the object returned from getControllerGrip in
-    // order to match the orientation of the held device.
 
-    var controllerModelFactory = new XRControllerModelFactory();
-    var controllerGrip1 = this.controllerGrip1 = renderer.xr.getControllerGrip(0);
-    controllerGrip1.name = '[controller-grip1]';
-    controllerGrip1.add(controllerModelFactory.createControllerModel(controllerGrip1));
-    controllerGroup.add(controllerGrip1);
+      var gamepad = new Gamepad(event.data.gamepad);
+      gamepad.on('press', onPress);
+      gamepad.on('left', onLeft);
+      gamepad.on('right', onRight);
+      gamepad.on('up', onUp);
+      gamepad.on('down', onDown);
+      controller.userData.gamepad = gamepad;
+    };
 
-    scene.add(controllerGroup);
+    var onDisconnected = function onDisconnected(event) {
+      while (controller.children.length) {
+        controller.remove(controller.children[0]);
+      }
+
+      var controllerGrip = renderer.xr.getControllerGrip(index);
+
+      while (controllerGrip.children.length) {
+        controllerGrip.remove(controllerGrip.children[0]);
+      }
+
+      controllerGroup.remove(controllerGrip);
+      var gamepad = controller.userData.gamepad;
+      gamepad.off('press', onPress);
+      gamepad.off('left', onLeft);
+      gamepad.off('right', onRight);
+      gamepad.off('up', onUp);
+      gamepad.off('down', onDown);
+    };
+
+    controller.addEventListener('selectstart', onSelectStart);
+    controller.addEventListener('selectend', onSelectEnd);
+    controller.addEventListener('connected', onConnected);
+    controller.addEventListener('disconnected', onDisconnected);
+    var controllers = this.controllers;
+    controllers.push(controller);
   };
 
   _proto.buildController = function buildController(data) {
+    console.log('buildController', data);
     var geometry, material;
 
     switch (data.targetRayMode) {
@@ -14245,24 +14593,6 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
         });
         return new THREE.Mesh(geometry, material);
     }
-  };
-
-  _proto.onSelect1Start = function onSelect1Start() {
-    this.controller1.userData.isSelecting = true;
-    this.controller = this.controller1;
-  };
-
-  _proto.onSelect1End = function onSelect1End() {
-    this.controller1.userData.isSelecting = false;
-  };
-
-  _proto.onSelect2Start = function onSelect2Start() {
-    this.controller2.userData.isSelecting = true;
-    this.controller = this.controller2;
-  };
-
-  _proto.onSelect2End = function onSelect2End() {
-    this.controller2.userData.isSelecting = false;
   };
 
   _proto.onTween = function onTween() {// this.render();
@@ -14349,6 +14679,9 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
 
       if (renderer.xr.isPresenting) {
         gsap.ticker.tick();
+        this.controllers.forEach(function (controller) {
+          controller.userData.gamepad.update();
+        });
       }
       /*
       const objects = this.objects;
@@ -14567,7 +14900,7 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
 
   _proto.onVRStarted = function onVRStarted() {
     // this.objects.rotation.y = - Math.PI / 2;
-    this.objects.position.y = 1.5;
+    this.objects.position.y = 1.3;
     this.scene.add(this.indicator.mesh);
     MessageService.send({
       type: MessageType.VRStarted
@@ -14577,6 +14910,8 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
   _proto.onVREnded = function onVREnded() {
     // this.objects.rotation.y = 0;
     this.objects.position.y = 0;
+    this.cameraGroup.rotation.y = 0;
+    this.cameraGroup.position.y = 0;
     this.scene.remove(this.indicator.mesh);
     MessageService.send({
       type: MessageType.VREnded
@@ -15393,7 +15728,8 @@ var ModelBannerComponent = /*#__PURE__*/function (_ModelComponent) {
   	super.onInit();
   	console.log('ModelBannerComponent.onInit', this.item);
   }
-  	onView() {
+  
+  onView() {
   	console.log('ModelBannerComponent.onView', this.item);
   	if (this.viewed) {
   		return;
@@ -15882,7 +16218,40 @@ ModelCurvedPlaneComponent.meta = {
   },
   outputs: ['down', 'play'],
   inputs: ['item', 'items']
-};var ModelDebugComponent = /*#__PURE__*/function (_ModelComponent) {
+};var DebugService = /*#__PURE__*/function () {
+  DebugService.getService = function getService() {
+    if (!this.service_) {
+      this.service_ = new DebugService();
+    }
+
+    return this.service_;
+  };
+
+  _createClass(DebugService, [{
+    key: "message",
+    get: function get() {
+      return this.message$.getValue();
+    }
+  }]);
+
+  function DebugService() {
+    if (DebugService.service_) {
+      throw 'DebugService is a singleton class!';
+    }
+
+    this.message$ = new rxjs.BehaviorSubject(null);
+  }
+
+  var _proto = DebugService.prototype;
+
+  _proto.setMessage = function setMessage(message) {
+    if (this.message !== message) {
+      this.message$.next(message);
+    }
+  };
+
+  return DebugService;
+}();var ModelDebugComponent = /*#__PURE__*/function (_ModelComponent) {
   _inheritsLoose(ModelDebugComponent, _ModelComponent);
 
   function ModelDebugComponent() {
@@ -15949,7 +16318,7 @@ ModelCurvedPlaneComponent.meta = {
     });
     var text = new THREE.Mesh(geometry, material);
     text.renderer = environment.renderOrder.debug;
-    text.position.y = 2;
+    text.position.y = 0;
     return text;
   };
 
@@ -16303,7 +16672,7 @@ var ModelGridComponent = /*#__PURE__*/function (_ModelComponent) {
     /*
     mesh.userData = {
     	render: () => {
-    		}
+    			}
     };
     */
 
@@ -16583,10 +16952,7 @@ ModelGridComponent.meta = {
   _proto.onOver = function onOver() {
     var _this2 = this;
 
-    /*
-    const debugService = DebugService.getService();
-    debugService.setMessage('over ' + this.name);
-    */
+    // DebugService.getService().setMessage('over ' + this.name);
     gsap.to(this, {
       duration: 0.4,
       tween: 1,
@@ -16696,12 +17062,26 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     this.onDown = this.onDown.bind(this);
     this.onToggle = this.onToggle.bind(this); // console.log('ModelMenuComponent.onInit');
 
-    var vrService = this.vrService = VRService.getService();
-    vrService.session$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (session) {
-      if (session) {
-        _this4.addToggler();
-      } else {
-        _this4.removeMenu();
+    /*
+    const vrService = this.vrService = VRService.getService();
+    vrService.session$.pipe(
+    	takeUntil(this.unsubscribe$),
+    ).subscribe((session) => {
+    	if (session) {
+    		this.addToggler();
+    	} else {
+    		this.removeMenu();
+    	}
+    });
+    */
+
+    MessageService.in$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (message) {
+      // DebugService.getService().setMessage('ModelMenuComponent.MessageService ' + message.type);
+      switch (message.type) {
+        case MessageType.MenuToggle:
+          _this4.onToggle();
+
+          break;
       }
     });
   };
@@ -16779,36 +17159,26 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     var position = this.position;
 
     if (this.host.renderer.xr.isPresenting) {
-      camera = this.host.renderer.xr.getCamera(camera); // camera.updateMatrixWorld(); // make sure the camera matrix is updated
-      // camera.matrixWorldInverse.getInverse(camera.matrixWorld);
-
-      camera.getWorldDirection(position);
-      position.multiplyScalar(3); // move body, not the camera
-      // VR.body.position.add(lookDirection);
-      // console.log(position.x + '|' + position.y + '|' + position.z);
+      camera = this.host.renderer.xr.getCamera(camera);
+      camera.getWorldDirection(position); // group.position.set(position.x, position.y - 0.4, position.z);
 
       group.position.copy(position);
+      group.position.multiplyScalar(3);
       group.scale.set(1, 1, 1);
-      group.lookAt(ModelMenuComponent.ORIGIN); // }
+      group.lookAt(ModelMenuComponent.ORIGIN);
     } else {
-      camera.getWorldDirection(position); // console.log(position);
-      // if (position.lengthSq() > 0.01) {
-      // normalize so we can get a constant speed
-      // position.normalize();
+      camera.getWorldDirection(position);
 
       if (OrbitService.mode === OrbitMode.Model) {
         position.multiplyScalar(0.01);
       } else {
         position.multiplyScalar(3);
-      } // move body, not the camera
-      // VR.body.position.add(lookDirection);
-      // console.log(position.x + '|' + position.y + '|' + position.z);
-
+      }
 
       group.position.copy(position);
       var s = 1 / camera.zoom;
       group.scale.set(s, s, s);
-      group.lookAt(ModelMenuComponent.ORIGIN); // }
+      group.lookAt(ModelMenuComponent.ORIGIN);
     }
   };
 
@@ -16834,10 +17204,11 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
       if (button.item.backItem) {
         this.addMenu(button.item.backItem.backItem);
       } else {
+        /*
         if (this.host.renderer.xr.isPresenting) {
-          this.addToggler();
+        	this.addToggler();
         }
-
+        */
         this.toggle.next();
       }
     } else {
@@ -16867,10 +17238,11 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     this.removeMenu(); // nav to view
 
     if (item && item.type.name !== 'menu-group') {
+      /*
       if (this.host.renderer.xr.isPresenting) {
-        this.addToggler();
+      	this.addToggler();
       }
-
+      */
       this.nav.next(item);
       return;
     }
@@ -17007,54 +17379,32 @@ ModelMenuComponent.meta = {
   }
   */
   _proto.onInit = function onInit() {
-    var _this = this;
-
     _ModelEditableCompone.prototype.onInit.call(this);
 
     this.progress = null;
-
+    /*
     if (this.view.type.name === ViewType.Model.name) {
-      var vrService = this.vrService = VRService.getService();
-      vrService.session$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (session) {
-        var group = _this.group;
-
-        if (session) {
-          group.position.z = -2;
-        } else {
-          group.position.z = 0;
-        }
-      });
-    } // console.log('ModelModelComponent.onInit');
-
+    	const vrService = this.vrService = VRService.getService();
+    	vrService.session$.pipe(
+    		takeUntil(this.unsubscribe$),
+    	).subscribe((session) => {
+    		this.onUpdateVRSession(session);
+    	});
+    }
+    */
+    // console.log('ModelModelComponent.onInit');
   };
 
   _proto.onChanges = function onChanges() {
     this.editing = this.item.selected;
   };
 
-  _proto.createStand = function createStand() {
-    var geometry = new THREE.BoxBufferGeometry(3, 3, 3);
-    var material = new THREE.MeshBasicMaterial();
-    /*
-    const material = new THREE.ShaderMaterial({
-    	vertexShader: VERTEX_SHADER,
-    	fragmentShader: FRAGMENT_SHADER,
-    	uniforms: {
-    		texture: { type: "t", value: null },
-    		resolution: { value: new THREE.Vector2() }
-    	},
-    });
-    */
-
-    var stand = this.stand = new THREE.Mesh(geometry, material);
-  };
-
   _proto.onCreate = function onCreate(mount, dismount) {
-    var _this2 = this;
+    var _this = this;
 
     // this.renderOrder = environment.renderOrder.model;
     this.loadGltfModel(environment.getPath(this.item.asset.folder), this.item.asset.file, function (mesh) {
-      _this2.onGltfModelLoaded(mesh, mount, dismount);
+      _this.onGltfModelLoaded(mesh, mount, dismount);
     });
   };
 
@@ -17096,7 +17446,7 @@ ModelMenuComponent.meta = {
   };
 
   _proto.onGltfModelLoaded = function onGltfModelLoaded(mesh, mount, dismount) {
-    var _this3 = this;
+    var _this2 = this;
 
     // scale
     var box = new THREE.Box3().setFromObject(mesh);
@@ -17110,6 +17460,7 @@ ModelMenuComponent.meta = {
     var item = this.item;
 
     if (view.type.name === ViewType.Model.name) {
+      // this.onUpdateVRSession(this.vrService.currentSession);
       dummy = new THREE.Group();
       dummy.add(mesh);
       box.setFromObject(dummy);
@@ -17134,7 +17485,7 @@ ModelMenuComponent.meta = {
         ease: Power2.easeInOut,
         onUpdate: onUpdate,
         onComplete: function onComplete() {
-          _this3.updateHelper();
+          _this2.updateHelper();
         }
       });
     } else {
@@ -17194,6 +17545,34 @@ ModelMenuComponent.meta = {
     this.pushChanges();
     */
 
+  }
+  /*
+  onUpdateVRSession(session) {
+  	const group = this.group;
+  	if (session) {
+  		group.position.z = -2;
+  	} else {
+  		group.position.z = 0;
+  	}
+  }
+  */
+  ;
+
+  _proto.render = function render(time, tick) {
+    var view = this.view;
+    var item = this.item;
+
+    if (view.type.name === ViewType.Model.name) {
+      var group = this.group;
+
+      if (this.host.renderer.xr.isPresenting) {
+        group.position.z = -2;
+        group.rotation.y -= Math.PI / 180 / 60 * 5;
+      } else {
+        group.position.z = 0;
+        group.rotation.y = 0;
+      }
+    }
   } // called by UpdateViewItemComponent
   ;
 
@@ -17220,14 +17599,14 @@ ModelMenuComponent.meta = {
   ;
 
   _proto.onUpdateAsset = function onUpdateAsset(item, mesh) {
-    var _this4 = this;
+    var _this3 = this;
 
     // console.log('ModelModelComponent.onUpdateAsset', item);
     this.loadGltfModel(environment.getPath(item.asset.folder), item.asset.file, function (mesh) {
-      _this4.onGltfModelLoaded(mesh, function (mesh, item) {
-        return _this4.onMount(mesh, item);
+      _this3.onGltfModelLoaded(mesh, function (mesh, item) {
+        return _this3.onMount(mesh, item);
       }, function (mesh, item) {
-        return _this4.onDismount(mesh, item);
+        return _this3.onDismount(mesh, item);
       });
     });
     /*
@@ -17266,7 +17645,7 @@ ModelMenuComponent.meta = {
   };
 
   _proto.makeInteractive = function makeInteractive(mesh) {
-    var _this5 = this;
+    var _this4 = this;
 
     var newChild = null;
     mesh.traverse(function (child) {
@@ -17282,7 +17661,7 @@ ModelMenuComponent.meta = {
         newChild.scale.copy(child.scale);
         newChild.on('down', function () {
           // console.log('ModelModelComponent.down');
-          _this5.down.next(_this5);
+          _this4.down.next(_this4);
         });
         parent.remove(child);
         parent.add(newChild);
@@ -17442,12 +17821,6 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
     this.editing = this.item.selected;
   };
 
-  _proto.onDestroy = function onDestroy() {
-    Interactive.dispose(this.sphere);
-
-    _ModelEditableCompone.prototype.onDestroy.call(this);
-  };
-
   _proto.onCreate = function onCreate(mount, dismount) {
     var _THREE$Vector,
         _this = this;
@@ -17464,42 +17837,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
     var position = (_THREE$Vector = new THREE.Vector3()).set.apply(_THREE$Vector, this.item.position).normalize().multiplyScalar(ModelNavComponent.RADIUS);
 
     nav.position.set(position.x, position.y, position.z);
-    var map = ModelNavComponent.getTexture(mode);
-    map.disposable = false;
-    map.encoding = THREE.sRGBEncoding;
-    var material = new THREE.SpriteMaterial({
-      depthTest: false,
-      depthWrite: false,
-      transparent: true,
-      map: map,
-      sizeAttenuation: false,
-      opacity: 0 // color: 0xff0000,
-
-    });
-    var sprite = new THREE.Sprite(material);
-    sprite.scale.set(0.03, 0.03, 0.03);
-    nav.add(sprite);
-    var titleMaterial;
-    var titleTexture = ModelNavComponent.getTitleTexture(this.item, mode);
-
-    if (titleTexture) {
-      titleMaterial = new THREE.SpriteMaterial({
-        depthTest: false,
-        depthWrite: false,
-        transparent: true,
-        map: titleTexture,
-        sizeAttenuation: false,
-        opacity: 0 // color: 0xff0000,
-
-      }); // console.log(titleTexture);
-
-      var image = titleTexture.image;
-      var title = new THREE.Sprite(titleMaterial);
-      title.scale.set(0.03 * image.width / image.height, 0.03, 0.03);
-      title.position.set(0, -3.5, 0);
-      nav.add(title);
-    }
-
+    this.onCreateSprites(nav);
     var geometry = ModelNavComponent.getNavGeometry();
     var sphere = new InteractiveMesh(geometry, new THREE.MeshBasicMaterial({
       depthTest: false,
@@ -17523,8 +17861,9 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       */
       _this.over.next(_this);
 
+      var icon = _this.icon;
       var from = {
-        scale: sprite.scale.x
+        scale: icon.scale.x
       };
       gsap.to(from, {
         duration: 0.35,
@@ -17533,7 +17872,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         ease: Power2.easeOut,
         overwrite: true,
         onUpdate: function onUpdate() {
-          sprite.scale.set(from.scale, from.scale, from.scale);
+          icon.scale.set(from.scale, from.scale, from.scale);
         },
         onComplete: function onComplete() {
           /*
@@ -17547,8 +17886,9 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
     sphere.on('out', function () {
       _this.out.next(_this);
 
+      var icon = _this.icon;
       var from = {
-        scale: sprite.scale.x
+        scale: icon.scale.x
       };
       gsap.to(from, {
         duration: 0.35,
@@ -17557,7 +17897,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         ease: Power2.easeOut,
         overwrite: true,
         onUpdate: function onUpdate() {
-          sprite.scale.set(from.scale, from.scale, from.scale);
+          icon.scale.set(from.scale, from.scale, from.scale);
         },
         onComplete: function onComplete() {
           /*
@@ -17579,20 +17919,90 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       ease: Power2.easeInOut,
       overwrite: true,
       onUpdate: function onUpdate() {
-        // console.log(index, from.opacity);
-        material.opacity = from.opacity;
-        material.needsUpdate = true;
-
-        if (titleMaterial) {
-          titleMaterial.opacity = from.opacity;
-          titleMaterial.needsUpdate = true;
-        }
+        _this.materials.forEach(function (material) {
+          material.opacity = from.opacity;
+          material.needsUpdate = true;
+        });
       }
     });
 
     if (typeof mount === 'function') {
       mount(nav, this.item);
     }
+  };
+
+  _proto.onCreateSprites = function onCreateSprites(mesh, opacity) {
+    if (opacity === void 0) {
+      opacity = 0;
+    }
+
+    this.onRemoveSprite(this.icon);
+    this.onRemoveSprite(this.title);
+    var mode = this.mode = ModelNavComponent.getNavMode(this.item, this.view);
+
+    if (mode === NavModeType.None) {
+      return;
+    }
+
+    var map = ModelNavComponent.getTexture(mode);
+    map.disposable = false;
+    map.encoding = THREE.sRGBEncoding;
+    var material = new THREE.SpriteMaterial({
+      depthTest: false,
+      depthWrite: false,
+      transparent: true,
+      map: map,
+      sizeAttenuation: false,
+      opacity: opacity // color: 0xff0000,
+
+    });
+    var materials = [material];
+    var icon = this.icon = new THREE.Sprite(material);
+    icon.scale.set(0.03, 0.03, 0.03);
+    mesh.add(icon);
+    var titleMaterial;
+    var titleTexture = ModelNavComponent.getTitleTexture(this.item, mode);
+
+    if (titleTexture) {
+      titleMaterial = new THREE.SpriteMaterial({
+        depthTest: false,
+        depthWrite: false,
+        transparent: true,
+        map: titleTexture,
+        sizeAttenuation: false,
+        opacity: opacity // color: 0xff0000,
+
+      }); // console.log(titleTexture);
+
+      var image = titleTexture.image;
+      var title = this.title = new THREE.Sprite(titleMaterial);
+      title.scale.set(0.03 * image.width / image.height, 0.03, 0.03);
+      title.position.set(0, -3.5, 0);
+      mesh.add(title);
+      materials.push(titleMaterial);
+    }
+
+    this.materials = materials;
+  };
+
+  _proto.onRemoveSprite = function onRemoveSprite(sprite) {
+    if (sprite) {
+      if (sprite.parent) {
+        sprite.parent.remove(sprite);
+      }
+
+      if (sprite.material.map && sprite.material.map.disposable !== false) {
+        sprite.material.map.dispose();
+      }
+
+      sprite.material.dispose();
+    }
+  };
+
+  _proto.onDestroy = function onDestroy() {
+    Interactive.dispose(this.sphere);
+
+    _ModelEditableCompone.prototype.onDestroy.call(this);
   };
 
   _proto.shouldShowPanel = function shouldShowPanel() {
@@ -17603,11 +18013,20 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
   _proto.onUpdate = function onUpdate(item, mesh) {
     var _THREE$Vector2;
 
+    this.item = item;
+    this.onCreateSprites(this.mesh, 1);
+
     var position = (_THREE$Vector2 = new THREE.Vector3()).set.apply(_THREE$Vector2, item.position).normalize().multiplyScalar(ModelNavComponent.RADIUS);
 
-    mesh.position.set(position.x, position.y, position.z); // console.log('onUpdate', mesh.position);
+    mesh.position.set(position.x, position.y, position.z); // console.log('onUpdate', item, mesh.position);
 
     this.updateHelper();
+    /*
+    this.onCreate(
+    	(mesh, item) => this.onMount(mesh, item),
+    	(mesh, item) => this.onDismount(mesh, item)
+    );
+    */
   } // called by WorldComponent
   ;
 
