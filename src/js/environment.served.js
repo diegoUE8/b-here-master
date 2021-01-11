@@ -16,7 +16,7 @@ export const environmentServed = {
 		viewer: true,
 		maxQuality: false,
 	},
-	logo: null,
+	logo: '/Modules/B-Here/Client/docs/img/logo.png',
 	background: {
 		image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
