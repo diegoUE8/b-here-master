@@ -6247,24 +6247,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "107549259527299_animazione.mp4",
-      "id": 107549276907500
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "107698941514500_animazione.mp4",
-      "id": 107698966953899
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -6397,51 +6379,6 @@
       "folder": "/uploads/",
       "file": "110007692450900_Firenze.glb",
       "id": 110007761367799
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "110741377714399_animazione.mp4",
-      "id": 110741495699400
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "110868370339399_animazione.mp4",
-      "id": 110868390321899
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "175300485466300_animazione2.mp4",
-      "id": 175300594530200
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "175485150708400_animazione2.mp4",
-      "id": 175485201115100
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "175789407012500_animazione2.mp4",
-      "id": 175789443480200
     },
     {
       "type": {
