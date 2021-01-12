@@ -6720,16 +6720,16 @@
       "username": "publisher",
       "password": "publisher",
       "type": "publisher",
-      "firstName": "Ospitante",
-      "lastName": ""
+      "firstName": "User",
+      "lastName": "Publisher"
     },
     {
       "id": "1601892639986",
       "username": "attendee",
       "password": "attendee",
       "type": "attendee",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "User",
+      "lastName": "Attendee"
     }
   ]
 }
