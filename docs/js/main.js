@@ -17466,7 +17466,8 @@ ModelMenuComponent.meta = {
     var box = new THREE.Box3().setFromObject(mesh);
     var size = box.max.clone().sub(box.min);
     var max = Math.max(size.x, size.y, size.z);
-    var scale = 1.7 / max;
+    var scale = 2 / max; //1.7
+
     mesh.scale.set(scale, scale, scale); // repos
 
     var dummy;
@@ -17881,7 +17882,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       };
       gsap.to(from, {
         duration: 0.35,
-        scale: 0.04,
+        scale: 0.05,
         delay: 0,
         ease: Power2.easeOut,
         overwrite: true,
