@@ -5968,6 +5968,23 @@
           "asset": null,
           "link": null,
           "id": 1714410935594499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Renzo Frau fonda Poltrona Frau a Torino nel 1912. Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.\n",
+          "viewId": 1700176747592700,
+          "position": [
+            0.9882398830137225,
+            0.09636003184513058,
+            0.11872943141373879
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719220307192700
         }
       ],
       "hidden": null
@@ -6273,6 +6290,40 @@
           "asset": null,
           "link": null,
           "id": 1704394562139100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1700511169485499,
+          "position": [
+            0.9689646619396023,
+            -0.2369122507117372,
+            -0.07056960659498576
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719175859555200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Renzo Frau fonda Poltrona Frau a Torino nel 1912. Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.\n",
+          "viewId": 1700511169485499,
+          "position": [
+            -0.9503190537765792,
+            0.08329403282128817,
+            0.2999263244957892
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719195453404700
         }
       ]
     },
@@ -6841,8 +6892,8 @@
         "id": 1700554925607100
       },
       "orientation": {
-        "latitude": -0.6000000000000005,
-        "longitude": 217.49999999999997
+        "latitude": -0.7000000000000005,
+        "longitude": 219.79999999999998
       },
       "zoom": 75,
       "id": 1700566251094000,
@@ -6861,8 +6912,8 @@
             0.6763401959132349
           ],
           "asset": null,
-          "link": null,
-          "id": 1704702107071899
+          "id": 1704702107071899,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6878,8 +6929,8 @@
             0.5393112194729401
           ],
           "asset": null,
-          "link": null,
-          "id": 1704711012636599
+          "id": 1704711012636599,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6895,8 +6946,8 @@
             0.6666551894484621
           ],
           "asset": null,
-          "link": null,
-          "id": 1704719775176500
+          "id": 1704719775176500,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6912,8 +6963,8 @@
             -0.3449525323710582
           ],
           "asset": null,
-          "link": null,
-          "id": 1704731669549899
+          "id": 1704731669549899,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6929,8 +6980,8 @@
             -0.6320497203516965
           ],
           "asset": null,
-          "link": null,
-          "id": 1704741900661100
+          "id": 1704741900661100,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6946,8 +6997,8 @@
             -0.6090875508546915
           ],
           "asset": null,
-          "link": null,
-          "id": 1704754730497799
+          "id": 1704754730497799,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6963,8 +7014,8 @@
             -0.7894509582321669
           ],
           "asset": null,
-          "link": null,
-          "id": 1704767145945300
+          "id": 1704767145945300,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6980,8 +7031,8 @@
             -0.25302339235237953
           ],
           "asset": null,
-          "link": null,
-          "id": 1704775952870000
+          "id": 1704775952870000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6997,8 +7048,8 @@
             -0.9110141421424945
           ],
           "asset": null,
-          "link": null,
-          "id": 1704786607410699
+          "id": 1704786607410699,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7014,8 +7065,8 @@
             -0.9570568689853164
           ],
           "asset": null,
-          "link": null,
-          "id": 1704793752244599
+          "id": 1704793752244599,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7031,8 +7082,8 @@
             -0.26682394805798915
           ],
           "asset": null,
-          "link": null,
-          "id": 1713873964646899
+          "id": 1713873964646899,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7048,8 +7099,8 @@
             0.9407542845969084
           ],
           "asset": null,
-          "link": null,
-          "id": 1713902886079100
+          "id": 1713902886079100,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -7160,6 +7211,57 @@
           "asset": null,
           "link": null,
           "id": 1704852328992500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1701035311177200,
+          "position": [
+            0.8619023146230539,
+            -0.3434539683439715,
+            -0.373046607914079
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1718847902688700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncina",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1701035311177200,
+          "position": [
+            0.9506111799136092,
+            -0.1513233914629066,
+            0.27099744614925747
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1718869024748100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1701035311177200,
+          "position": [
+            0.38485797345315986,
+            -0.3682457276455867,
+            0.8463329276001845
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1718888398001599
         }
       ]
     },
@@ -7340,8 +7442,8 @@
         "id": 1701674334704000
       },
       "orientation": {
-        "latitude": -20.900000000000002,
-        "longitude": 174.00000000000003
+        "latitude": -19.500000000000004,
+        "longitude": 163.30000000000004
       },
       "zoom": 75,
       "id": 1701676131028800,
@@ -7445,8 +7547,8 @@
             -0.3366465239094457
           ],
           "asset": null,
-          "link": null,
-          "id": 1714031638688000
+          "id": 1714031638688000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7462,8 +7564,8 @@
             0.6863316609183321
           ],
           "asset": null,
-          "link": null,
-          "id": 1714088986131100
+          "id": 1714088986131100,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -7557,6 +7659,57 @@
           "asset": null,
           "link": null,
           "id": 1705401215823599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Letto",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "viewId": 1701690568253700,
+          "position": [
+            0.8707730749714381,
+            -0.4865733992251299,
+            0.07071477265245546
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1718928496578800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1701690568253700,
+          "position": [
+            -0.13237429737858625,
+            -0.28224264929360926,
+            0.9501663708599932
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1718953652203899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncina",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1701690568253700,
+          "position": [
+            0.6237336809536093,
+            -0.16359585230202667,
+            0.7643249913182446
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1718974046810600
         }
       ]
     },
@@ -8021,6 +8174,40 @@
           "asset": null,
           "link": null,
           "id": 1706092705175500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": null,
+          "viewId": 1702478679502300,
+          "position": [
+            0.7947518662368571,
+            -0.6047215221260923,
+            0.051781770832356425
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719007125267699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702478679502300,
+          "position": [
+            0.9875817385804269,
+            -0.1432741821408601,
+            0.06445788046724002
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719027183443900
         }
       ]
     },
@@ -8164,6 +8351,24 @@
           "asset": null,
           "link": null,
           "id": 1714349078605099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Renzo Frau fonda Poltrona Frau a Torino nel 1912. Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.",
+          "viewId": 1702490204320500,
+          "position": [
+            0.8669745065552128,
+            0.15244203915665233,
+            -0.4744645715763262
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719102079391300,
+          "keepOrientation": null
         }
       ]
     },
@@ -8400,6 +8605,23 @@
           "asset": null,
           "link": null,
           "id": 1714496025557000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Leathership",
+          "abstract": "Il Salone del Mobile 2014 ha chiuso i battenti con un numero record di visitatori e un forte consenso per la nuova collezione Poltrona Frau. Molto apprezzato l'allestimento pensato da Michele De Lucchi che all'interno di suggestivi paesaggi domestici ha sottolineato la Leathership™.\nLa Pelle, materia d'elezione di Poltrona Frau, ingrediente base di un patrimonio unico, che racchiude storia, eleganza, comfort e prestigio, e 13 nuovi prodotti che arredano con eleganza il vivere quotidiano a casa e a lavoro. \nContinuate a seguire la Leathership™ Poltrona Frau sul sito e visitando il Poltrona Frau Museum.",
+          "viewId": 1702511139684399,
+          "position": [
+            0.9964358127688663,
+            -0.0759955195850279,
+            0.036610818546580305
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1719320614333200
         }
       ],
       "hidden": null
@@ -9440,8 +9662,8 @@
         "id": 1702623033421600
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -4.4,
+        "longitude": 46.800000000000004
       },
       "zoom": 75,
       "id": 1702624911223800,
@@ -9460,8 +9682,8 @@
             -0.6368604472338639
           ],
           "asset": null,
-          "link": null,
-          "id": 1707097550780400
+          "id": 1707097550780400,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -9477,8 +9699,8 @@
             -0.32284401153403564
           ],
           "asset": null,
-          "link": null,
-          "id": 1707134348093300
+          "id": 1707134348093300,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -9494,8 +9716,8 @@
             0.899178488784546
           ],
           "asset": null,
-          "link": null,
-          "id": 1707148664637900
+          "id": 1707148664637900,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -9511,8 +9733,8 @@
             0.8669968518635652
           ],
           "asset": null,
-          "link": null,
-          "id": 1707156523350800
+          "id": 1707156523350800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -9528,8 +9750,8 @@
             0.6818797283326448
           ],
           "asset": null,
-          "link": null,
-          "id": 1707168635958900
+          "id": 1707168635958900,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -9545,11 +9767,11 @@
             -0.03402733431189536
           ],
           "asset": null,
-          "link": null,
           "id": 1714730641307900,
           "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -9659,8 +9881,8 @@
         "id": 1702650005476400
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -4.4,
+        "longitude": 246.3
       },
       "zoom": 75,
       "id": 1702651642222500,
@@ -9679,8 +9901,8 @@
             -0.9188636969707474
           ],
           "asset": null,
-          "link": null,
-          "id": 1707204194839000
+          "id": 1707204194839000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -9696,10 +9918,11 @@
             -0.9822861945887295
           ],
           "asset": null,
-          "link": null,
-          "id": 1707211163296199
+          "id": 1707211163296199,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -10056,8 +10279,8 @@
         "id": 1703089999637900
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -0.5,
+        "longitude": 7.7
       },
       "zoom": 75,
       "id": 1703092193842300,
@@ -10076,8 +10299,8 @@
             0.6470012526089617
           ],
           "asset": null,
-          "link": null,
-          "id": 1709354486389299
+          "id": 1709354486389299,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10093,8 +10316,8 @@
             -0.49948631590621934
           ],
           "asset": null,
-          "link": null,
-          "id": 1709364497545600
+          "id": 1709364497545600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10110,8 +10333,8 @@
             -0.095256775901971
           ],
           "asset": null,
-          "link": null,
-          "id": 1709372033888999
+          "id": 1709372033888999,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10127,8 +10350,8 @@
             -0.10802855263877369
           ],
           "asset": null,
-          "link": null,
-          "id": 1709420580850600
+          "id": 1709420580850600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10144,8 +10367,8 @@
             -0.6476217729392993
           ],
           "asset": null,
-          "link": null,
-          "id": 1709430062214200
+          "id": 1709430062214200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10161,8 +10384,8 @@
             0.31229509958424717
           ],
           "asset": null,
-          "link": null,
-          "id": 1709438902870200
+          "id": 1709438902870200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10178,8 +10401,8 @@
             -0.22561668454408976
           ],
           "asset": null,
-          "link": null,
-          "id": 1709455117246999
+          "id": 1709455117246999,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10195,8 +10418,8 @@
             -0.6975327053672994
           ],
           "asset": null,
-          "link": null,
-          "id": 1715634826076800
+          "id": 1715634826076800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10212,10 +10435,11 @@
             0.11367951001372636
           ],
           "asset": null,
-          "link": null,
-          "id": 1715657529514799
+          "id": 1715657529514799,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -10587,8 +10811,8 @@
         "id": 1703124233026400
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 0.8999999999999999,
+        "longitude": 340.2
       },
       "zoom": 75,
       "id": 1703126098901100,
@@ -10607,8 +10831,8 @@
             0.31135069464140364
           ],
           "asset": null,
-          "link": null,
-          "id": 1709640233785000
+          "id": 1709640233785000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10624,8 +10848,8 @@
             0.30925667906854043
           ],
           "asset": null,
-          "link": null,
-          "id": 1709649846772600
+          "id": 1709649846772600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10641,8 +10865,8 @@
             -0.13567938536227597
           ],
           "asset": null,
-          "link": null,
-          "id": 1709665778999599
+          "id": 1709665778999599,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10658,8 +10882,8 @@
             -0.07870798543390303
           ],
           "asset": null,
-          "link": null,
-          "id": 1709674350546799
+          "id": 1709674350546799,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10675,8 +10899,8 @@
             0.648253724270734
           ],
           "asset": null,
-          "link": null,
-          "id": 1709684503391899
+          "id": 1709684503391899,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10692,8 +10916,8 @@
             0.1142908104722956
           ],
           "asset": null,
-          "link": null,
-          "id": 1714816159099300
+          "id": 1714816159099300,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10709,8 +10933,8 @@
             -0.32362398318941604
           ],
           "asset": null,
-          "link": null,
-          "id": 1714830630787799
+          "id": 1714830630787799,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10726,10 +10950,11 @@
             -0.8590499921369313
           ],
           "asset": null,
-          "link": null,
-          "id": 1714851197113199
+          "id": 1714851197113199,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -10747,8 +10972,8 @@
         "id": 1703132715516900
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -12.4,
+        "longitude": 21.900000000000002
       },
       "zoom": 75,
       "id": 1703137677334300,
@@ -10767,8 +10992,8 @@
             0.39823415541732143
           ],
           "asset": null,
-          "link": null,
-          "id": 1709698007404999
+          "id": 1709698007404999,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10784,8 +11009,8 @@
             -0.653686513342745
           ],
           "asset": null,
-          "link": null,
-          "id": 1709717144898499
+          "id": 1709717144898499,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10801,8 +11026,8 @@
             -0.5284976272428843
           ],
           "asset": null,
-          "link": null,
-          "id": 1709724290362300
+          "id": 1709724290362300,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10818,8 +11043,8 @@
             0.3271804124682613
           ],
           "asset": null,
-          "link": null,
-          "id": 1709734580330000
+          "id": 1709734580330000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10835,8 +11060,8 @@
             -0.052531630131359794
           ],
           "asset": null,
-          "link": null,
-          "id": 1714870449587100
+          "id": 1714870449587100,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10852,8 +11077,8 @@
             0.8086599654018589
           ],
           "asset": null,
-          "link": null,
-          "id": 1714884930132600
+          "id": 1714884930132600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -10869,10 +11094,11 @@
             -0.8316270871816784
           ],
           "asset": null,
-          "link": null,
-          "id": 1714899797037100
+          "id": 1714899797037100,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -11988,8 +12214,8 @@
         "id": 1703212862724900
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -7.6000000000000005,
+        "longitude": 28.3
       },
       "zoom": 75,
       "id": 1703214465990000,
@@ -12008,8 +12234,8 @@
             0.46990404226500776
           ],
           "asset": null,
-          "link": null,
-          "id": 1710227031924600
+          "id": 1710227031924600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12025,8 +12251,8 @@
             0.7704355203490515
           ],
           "asset": null,
-          "link": null,
-          "id": 1710240509775400
+          "id": 1710240509775400,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12042,8 +12268,8 @@
             0.3599106810323018
           ],
           "asset": null,
-          "link": null,
-          "id": 1710246300535800
+          "id": 1710246300535800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12059,8 +12285,8 @@
             0.12539398650382794
           ],
           "asset": null,
-          "link": null,
-          "id": 1715299829469200
+          "id": 1715299829469200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12076,8 +12302,8 @@
             0.9688523919471196
           ],
           "asset": null,
-          "link": null,
-          "id": 1715328701377699
+          "id": 1715328701377699,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12093,10 +12319,11 @@
             0.735841927072501
           ],
           "asset": null,
-          "link": null,
-          "id": 1715341890040499
+          "id": 1715341890040499,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -12384,8 +12611,8 @@
         "id": 1703394435979500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -12.900000000000002,
+        "longitude": 263
       },
       "zoom": 75,
       "id": 1703396150944400,
@@ -12404,8 +12631,8 @@
             -0.9497434867699986
           ],
           "asset": null,
-          "link": null,
-          "id": 1710539595034800
+          "id": 1710539595034800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12421,8 +12648,8 @@
             -0.9096920782471201
           ],
           "asset": null,
-          "link": null,
-          "id": 1710549057642800
+          "id": 1710549057642800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12438,8 +12665,8 @@
             -0.7470548289314897
           ],
           "asset": null,
-          "link": null,
-          "id": 1710558289744099
+          "id": 1710558289744099,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12455,8 +12682,8 @@
             0.8300495410913059
           ],
           "asset": null,
-          "link": null,
-          "id": 1710568587580900
+          "id": 1710568587580900,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12472,8 +12699,8 @@
             -0.7616994155372981
           ],
           "asset": null,
-          "link": null,
-          "id": 1715485078260300
+          "id": 1715485078260300,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12489,10 +12716,11 @@
             -0.056647197322318134
           ],
           "asset": null,
-          "link": null,
-          "id": 1715542894848900
+          "id": 1715542894848900,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -12838,8 +13066,8 @@
         "id": 1703440692540200
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -29.1,
+        "longitude": 299.9
       },
       "zoom": 75,
       "id": 1703442005187100,
@@ -12858,8 +13086,8 @@
             -0.9438351345182343
           ],
           "asset": null,
-          "link": null,
-          "id": 1710814312555499
+          "id": 1710814312555499,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12875,8 +13103,8 @@
             0.6179775742491207
           ],
           "asset": null,
-          "link": null,
-          "id": 1710826425416899
+          "id": 1710826425416899,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12892,10 +13120,11 @@
             0.46354732640535307
           ],
           "asset": null,
-          "link": null,
-          "id": 1710839625820099
+          "id": 1710839625820099,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -12913,8 +13142,8 @@
         "id": 1703451205771700
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -12,
+        "longitude": 281
       },
       "zoom": 75,
       "id": 1703452820484400,
@@ -12933,8 +13162,8 @@
             -0.7086885567500033
           ],
           "asset": null,
-          "link": null,
-          "id": 1710853490255500
+          "id": 1710853490255500,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12950,8 +13179,8 @@
             -0.6591464480590606
           ],
           "asset": null,
-          "link": null,
-          "id": 1710863129096099
+          "id": 1710863129096099,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12967,8 +13196,8 @@
             -0.946581166460246
           ],
           "asset": null,
-          "link": null,
-          "id": 1710883871496999
+          "id": 1710883871496999,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -12984,7 +13213,6 @@
             -0.7664541489060812
           ],
           "asset": null,
-          "link": null,
           "id": 1715849877651400,
           "keepOrientation": null
         },
@@ -13002,10 +13230,11 @@
             -0.21956546484012282
           ],
           "asset": null,
-          "link": null,
-          "id": 1715876340381600
+          "id": 1715876340381600,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
