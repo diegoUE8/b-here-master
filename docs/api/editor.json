@@ -213,6 +213,24 @@
           "asset": null,
           "id": 313939089806200,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Showroom",
+          "abstract": null,
+          "viewId": 1699696473480899,
+          "position": [
+            0.7519847268036653,
+            -0.13494689928695391,
+            -0.6452195789239921
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1712768569019399,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -5657,8 +5675,8 @@
         "id": 1699694889712100
       },
       "orientation": {
-        "latitude": -6.8999999999999995,
-        "longitude": 90.80000000000001
+        "latitude": -2.599999999999999,
+        "longitude": 90.40000000000002
       },
       "zoom": 75,
       "id": 1699696473480899,
@@ -5677,8 +5695,8 @@
             0.9328994314638553
           ],
           "asset": null,
-          "link": null,
-          "id": 1702103520510000
+          "id": 1702103520510000,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -5789,6 +5807,40 @@
           "asset": null,
           "link": null,
           "id": 1703845172143499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1700165015653099,
+          "position": [
+            -0.827346355801139,
+            -0.34563116180659864,
+            0.4427607791243438
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1716101382278600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1700165015653099,
+          "position": [
+            -0.5704236643144883,
+            -0.15008879583880935,
+            0.8075210192643212
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1716114053597099
         }
       ],
       "hidden": null
@@ -5899,6 +5951,23 @@
           "asset": null,
           "link": null,
           "id": 1703902497606400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1700176747592700,
+          "position": [
+            -0.9299268067296673,
+            -0.3119535137379433,
+            -0.19473350865250455
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714410935594499
         }
       ],
       "hidden": null
@@ -6043,6 +6112,23 @@
           "asset": null,
           "link": null,
           "id": 1704304925665800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1700187883289800,
+          "position": [
+            0.8813798208517796,
+            -0.2615352232886425,
+            -0.39340683569893
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714367518590500
         }
       ],
       "hidden": null
@@ -6330,6 +6416,74 @@
           "asset": null,
           "id": 1704511789568200,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1700527472836000,
+          "position": [
+            0.7379880502323459,
+            -0.24878579470583678,
+            -0.6272792568440674
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713450802333400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1700527472836000,
+          "position": [
+            -0.8517905309716849,
+            -0.18335456904953745,
+            -0.49074840127669633
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713478854360300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1700527472836000,
+          "position": [
+            -0.7219211890131442,
+            -0.24498737048005687,
+            0.6471560748066232
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713506133336700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1700527472836000,
+          "position": [
+            0.7811939000063521,
+            -0.2824256874259594,
+            0.5567511308249312
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713527466143600
         }
       ],
       "hidden": null
@@ -6423,6 +6577,40 @@
           "asset": null,
           "link": null,
           "id": 1702413902538900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.",
+          "viewId": 1700538792756700,
+          "position": [
+            0.41800117305281664,
+            -0.2894417248907255,
+            0.8611030758386308
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713326036136499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.",
+          "viewId": 1700538792756700,
+          "position": [
+            0.5036803659999081,
+            -0.4488610638995751,
+            -0.73812589320599
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713415987810599
         }
       ]
     },
@@ -6600,6 +6788,40 @@
           "asset": null,
           "link": null,
           "id": 1704635336631900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1700548823343300,
+          "position": [
+            0.6144096276059171,
+            -0.38092763209643,
+            -0.6909377313554131
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713555411770400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1700548823343300,
+          "position": [
+            0.3797978877359816,
+            -0.2838349267550535,
+            0.8804494868107086
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713590790500100
         }
       ]
     },
@@ -6794,6 +7016,40 @@
           "asset": null,
           "link": null,
           "id": 1704793752244599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1700566251094000,
+          "position": [
+            0.9186741370775269,
+            -0.29127789241136887,
+            -0.26682394805798915
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713873964646899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1700566251094000,
+          "position": [
+            0.24425074754928777,
+            -0.23520830838678627,
+            0.9407542845969084
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713902886079100
         }
       ],
       "hidden": null
@@ -7030,6 +7286,40 @@
           "asset": null,
           "link": null,
           "id": 1705171213496999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1701658570525700,
+          "position": [
+            0.8859061448949436,
+            -0.2260467458175479,
+            -0.4050594661808017
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713942457605000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano ",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1701658570525700,
+          "position": [
+            0.6001565305419653,
+            -0.2795645764333368,
+            0.7494369796397025
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1713971978451599
         }
       ],
       "hidden": null
@@ -7050,8 +7340,8 @@
         "id": 1701674334704000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -20.900000000000002,
+        "longitude": 174.00000000000003
       },
       "zoom": 75,
       "id": 1701676131028800,
@@ -7070,8 +7360,8 @@
             -0.8178148268157802
           ],
           "asset": null,
-          "link": null,
-          "id": 1705217321144200
+          "id": 1705217321144200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7087,8 +7377,8 @@
             -0.14586392852521624
           ],
           "asset": null,
-          "link": null,
-          "id": 1705225263666600
+          "id": 1705225263666600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7104,8 +7394,8 @@
             -0.6446523761128916
           ],
           "asset": null,
-          "link": null,
-          "id": 1705232604136800
+          "id": 1705232604136800,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7121,8 +7411,8 @@
             0.6991412270006164
           ],
           "asset": null,
-          "link": null,
-          "id": 1705241982867499
+          "id": 1705241982867499,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -7138,10 +7428,45 @@
             0.26348107287029376
           ],
           "asset": null,
+          "id": 1705251160034400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.",
+          "viewId": 1701676131028800,
+          "position": [
+            -0.8211793263027332,
+            -0.46079673609160493,
+            -0.3366465239094457
+          ],
+          "asset": null,
           "link": null,
-          "id": 1705251160034400
+          "id": 1714031638688000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Letto",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.",
+          "viewId": 1701676131028800,
+          "position": [
+            -0.6693203733409119,
+            -0.28453310712791585,
+            0.6863316609183321
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714088986131100
         }
-      ]
+      ],
+      "hidden": null
     },
     {
       "type": {
@@ -7341,6 +7666,40 @@
           "asset": null,
           "link": null,
           "id": 1705485185536800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Letto",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.",
+          "viewId": 1701700664152300,
+          "position": [
+            0.8981465924299057,
+            -0.4382599521112207,
+            -0.03550933513907566
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714109606248000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1701700664152300,
+          "position": [
+            -0.4328887015765443,
+            -0.44571467312726404,
+            -0.7835469368240998
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714132201349899
         }
       ]
     },
@@ -7484,6 +7843,41 @@
           "asset": null,
           "link": null,
           "id": 1705581935372500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Scrivania",
+          "abstract": "A differenza del tavolo da pranzo, dedicato alla socialità, a casa la scrivania era considerata di solito un angolo privato, riservato allo studio, al lavoro, alla concentrazione. In ufficio, poteva oscillare fra i due estremi di un oggetto imponente e massiccio, di alta rappresentanza, o un mobile triste, anodino e puramente funzionale.",
+          "viewId": 1702465749001199,
+          "position": [
+            0.8534296268546333,
+            -0.46204975119959585,
+            0.24118022187391913
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714188849465000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702465749001199,
+          "position": [
+            -0.7715452754442251,
+            -0.5582639513818443,
+            0.3050561399598846
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714219083040299,
+          "keepOrientation": null
         }
       ]
     },
@@ -7753,6 +8147,23 @@
           "asset": null,
           "link": null,
           "id": 1706175063251600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702490204320500,
+          "position": [
+            0.934238361287031,
+            -0.3141241016786109,
+            0.16889266723078475
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714349078605099
         }
       ]
     },
@@ -7845,6 +8256,23 @@
           "asset": null,
           "link": null,
           "id": 1706246767261400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702499681176100,
+          "position": [
+            0.6987336681915418,
+            -0.7101856002850009,
+            -0.08606784581610703
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714444606020300
         }
       ],
       "hidden": null
@@ -7938,6 +8366,40 @@
           "asset": null,
           "id": 1706358764749999,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702511139684399,
+          "position": [
+            0.9464909363922082,
+            -0.3174204809774724,
+            0.05830219192647073
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714474630995200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702511139684399,
+          "position": [
+            -0.7906375163233058,
+            -0.2936737480701962,
+            0.5372597579165195
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714496025557000
         }
       ],
       "hidden": null
@@ -8124,6 +8586,23 @@
           "asset": null,
           "link": null,
           "id": 1706491777017700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1702532557898700,
+          "position": [
+            -0.8591746977411484,
+            -0.47788206501114106,
+            -0.18288677016693658
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714543599590900
         }
       ],
       "hidden": null
@@ -8183,6 +8662,40 @@
           "asset": null,
           "link": null,
           "id": 1706519534162599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702543715791900,
+          "position": [
+            0.8397019992725673,
+            -0.25243487070788834,
+            0.480808889755946
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714557264922000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702543715791900,
+          "position": [
+            0.8383376639051522,
+            -0.2624097192644541,
+            0.4778400365327317
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714574948753700
         }
       ],
       "hidden": null
@@ -8351,6 +8864,23 @@
           "asset": null,
           "link": null,
           "id": 1706633179289800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702568290969499,
+          "position": [
+            0.8390770248631683,
+            -0.2715025646682843,
+            0.4714192441185642
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714607605529500
         }
       ]
     },
@@ -8409,6 +8939,23 @@
           "asset": null,
           "link": null,
           "id": 1706658123816300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702579080633100,
+          "position": [
+            0.9029484798746258,
+            -0.21513455435232592,
+            0.3720230721551136
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714625588436700
         }
       ]
     },
@@ -8501,6 +9048,57 @@
           "asset": null,
           "link": null,
           "id": 1706903660006600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702592278001000,
+          "position": [
+            -0.3330392785943219,
+            -0.36638084419659767,
+            -0.8688209918729877
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1716002475783700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702592278001000,
+          "position": [
+            0.9716563096339513,
+            -0.19716436373528032,
+            -0.13042327101170553
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1716017159761099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702592278001000,
+          "position": [
+            -0.8998645578048056,
+            -0.21976282560634408,
+            0.3767599741058986
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1716038011417599
         }
       ]
     },
@@ -8627,6 +9225,40 @@
           "asset": null,
           "link": null,
           "id": 1707038543441699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702603439488000,
+          "position": [
+            0.7616453795041791,
+            -0.2673234375466296,
+            -0.5902834027974936
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714659156336800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncina",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702603439488000,
+          "position": [
+            -0.48929595653207447,
+            -0.30455687630034134,
+            -0.8172114634655714
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715977927706099
         }
       ],
       "hidden": null
@@ -8737,6 +9369,57 @@
           "asset": null,
           "link": null,
           "id": 1711239871571400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1702612796352699,
+          "position": [
+            -0.78402172223107,
+            -0.20677443418951097,
+            0.585281361770076
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714679571675100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702612796352699,
+          "position": [
+            0.03422104660402645,
+            -0.3303172632908832,
+            0.9432493973183055
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715937293370900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1702612796352699,
+          "position": [
+            0.8596131340416322,
+            -0.33880630670914297,
+            -0.3824598623610493
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715953413084500
         }
       ],
       "hidden": null
@@ -8847,6 +9530,24 @@
           "asset": null,
           "link": null,
           "id": 1707168635958900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1702624911223800,
+          "position": [
+            0.9619163202777903,
+            -0.2712178705448114,
+            -0.03402733431189536
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714730641307900,
+          "keepOrientation": null
         }
       ]
     },
@@ -9140,6 +9841,23 @@
           "asset": null,
           "link": null,
           "id": 1709036182287300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1702662625131399,
+          "position": [
+            -0.5628531218916528,
+            -0.18433065347773747,
+            0.8057410088640706
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714790913760000
         }
       ],
       "hidden": null
@@ -9301,6 +10019,23 @@
           "asset": null,
           "link": null,
           "id": 1709339099441700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703071562793400,
+          "position": [
+            0.8710291122034488,
+            -0.24094704360169855,
+            0.4280803754830082
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714768958056199
         }
       ],
       "hidden": null
@@ -9445,6 +10180,40 @@
           "asset": null,
           "link": null,
           "id": 1709455117246999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703092193842300,
+          "position": [
+            0.6925920470140612,
+            -0.18375086763291457,
+            -0.6975327053672994
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715634826076800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703092193842300,
+          "position": [
+            0.9896606787814475,
+            -0.08745690296874187,
+            0.11367951001372636
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715657529514799
         }
       ]
     },
@@ -9571,6 +10340,57 @@
           "asset": null,
           "link": null,
           "id": 1709532806805600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703103402929900,
+          "position": [
+            0.9019110923899923,
+            -0.18485945661252004,
+            0.390363116501565
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715676156764400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncina",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703103402929900,
+          "position": [
+            0.9534699377123523,
+            -0.13096869284234666,
+            -0.2715552970832458
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715700585501700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703103402929900,
+          "position": [
+            -0.49287234316870376,
+            -0.44071427244552025,
+            -0.750231819774533
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715720722328300
         }
       ]
     },
@@ -9697,6 +10517,57 @@
           "asset": null,
           "link": null,
           "id": 1709597557878699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703113539004200,
+          "position": [
+            0.8062734793146519,
+            -0.1048586121981221,
+            0.5821750149239739
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715737133292799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncina",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703113539004200,
+          "position": [
+            0.6936305896336576,
+            -0.4353199034955957,
+            -0.5739104344277508
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715759579389599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703113539004200,
+          "position": [
+            0.9882308766232881,
+            -0.10125835261194861,
+            -0.11465810269964401
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715779011679600
         }
       ]
     },
@@ -9806,6 +10677,57 @@
           "asset": null,
           "link": null,
           "id": 1709684503391899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 1",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703126098901100,
+          "position": [
+            0.9843305931493619,
+            -0.1342791645483816,
+            0.1142908104722956
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714816159099300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 2",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703126098901100,
+          "position": [
+            0.9406640374363796,
+            -0.10207196568356128,
+            -0.32362398318941604
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714830630787799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 3",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703126098901100,
+          "position": [
+            -0.29891775581938357,
+            -0.41554937885339377,
+            -0.8590499921369313
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714851197113199
         }
       ]
     },
@@ -9898,6 +10820,57 @@
           "asset": null,
           "link": null,
           "id": 1709734580330000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 1",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703137677334300,
+          "position": [
+            0.970970010515562,
+            -0.2333616646220012,
+            -0.052531630131359794
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714870449587100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 2",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703137677334300,
+          "position": [
+            0.44684698789725513,
+            -0.38261838659872943,
+            0.8086599654018589
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714884930132600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 3",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703137677334300,
+          "position": [
+            -0.5355178622985247,
+            -0.14702723225625633,
+            -0.8316270871816784
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714899797037100
         }
       ]
     },
@@ -9973,6 +10946,57 @@
           "asset": null,
           "link": null,
           "id": 1709772461305600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 2",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703149666060099,
+          "position": [
+            -0.8832466016451674,
+            -0.4661650583080614,
+            -0.05065154582936617
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714919814199700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 1",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703149666060099,
+          "position": [
+            0.3164311392416323,
+            -0.2912879068330074,
+            -0.9027860707006329
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714934719441900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano 3",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703149666060099,
+          "position": [
+            0.9781214638228656,
+            -0.11951946222766942,
+            0.17027477839604882
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714952556208900
         }
       ]
     },
@@ -10117,6 +11141,57 @@
           "asset": null,
           "link": null,
           "id": 1709954002652299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703162476357000,
+          "position": [
+            0.9905528468603912,
+            -0.1370695569966948,
+            -0.00412239269163014
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715046089547200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703162476357000,
+          "position": [
+            0.472680932223715,
+            -0.19093173130545787,
+            0.8603009998208885
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715059490602800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703162476357000,
+          "position": [
+            0.7542426394578643,
+            -0.28212277256533286,
+            -0.5928952538380481
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715081810539299
         }
       ]
     },
@@ -10294,6 +11369,57 @@
           "asset": null,
           "link": null,
           "id": 1709990731502900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703173489591300,
+          "position": [
+            0.9294348946251713,
+            -0.20004594214979654,
+            -0.31005224992329444
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714980260584800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703173489591300,
+          "position": [
+            0.9543777207930175,
+            -0.12955400815843307,
+            0.2690333158254008
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715003687063800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703173489591300,
+          "position": [
+            0.5322630081639487,
+            -0.4112515861458293,
+            0.7399785287647229
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715024776490700
         }
       ]
     },
@@ -10420,6 +11546,57 @@
           "asset": null,
           "link": null,
           "id": 1710062077440800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703184539147199,
+          "position": [
+            -0.975652624593442,
+            -0.21871865838670349,
+            0.016251295254477726
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715105059927099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703184539147199,
+          "position": [
+            -0.5073220764121517,
+            -0.25170915587057197,
+            -0.8241764444800562
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715143669878899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703184539147199,
+          "position": [
+            0.024728901856332863,
+            -0.25196644675190477,
+            0.9674199662629459
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715159456007799
         }
       ],
       "hidden": null
@@ -10564,6 +11741,57 @@
           "asset": null,
           "link": null,
           "id": 1710141732541800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703194441498299,
+          "position": [
+            0.9468765431103116,
+            -0.2669773183773899,
+            0.17929842046009192
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715237408807400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703194441498299,
+          "position": [
+            0.9917375274306786,
+            -0.12278785887556898,
+            -0.03714590688672698
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715259753045300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703194441498299,
+          "position": [
+            0.5533750345859096,
+            -0.267140008730617,
+            -0.7889311039833892
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715274798822200
         }
       ]
     },
@@ -10690,6 +11918,57 @@
           "asset": null,
           "link": null,
           "id": 1710202492500800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703202806971199,
+          "position": [
+            0.9229221889645596,
+            -0.09698357275377864,
+            -0.3725705567174866
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715179911693800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703202806971199,
+          "position": [
+            0.7335563758281898,
+            -0.40669870798667374,
+            0.5445100590473806
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715199028762100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703202806971199,
+          "position": [
+            0.917529605116689,
+            -0.1462686507755933,
+            0.3697903534905963
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715219096317200
         }
       ]
     },
@@ -10765,6 +12044,57 @@
           "asset": null,
           "link": null,
           "id": 1710246300535800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Letto",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "viewId": 1703214465990000,
+          "position": [
+            0.8943625435751402,
+            -0.42940888299904023,
+            0.12539398650382794
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715299829469200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703214465990000,
+          "position": [
+            -0.11813847551907544,
+            -0.21764269622565716,
+            0.9688523919471196
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715328701377699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703214465990000,
+          "position": [
+            0.6638152792367624,
+            -0.1337383019708544,
+            0.735841927072501
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715341890040499
         }
       ]
     },
@@ -10840,6 +12170,57 @@
           "asset": null,
           "id": 1710296537068999,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703372493174600,
+          "position": [
+            0.6507887276097615,
+            -0.2906685145597586,
+            -0.7014170276374044
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715360675889500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703372493174600,
+          "position": [
+            0.3186650850107891,
+            -0.3145410036437819,
+            0.8941568769638965
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715374344846699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Letto",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "viewId": 1703372493174600,
+          "position": [
+            -0.9037497456169236,
+            -0.38648244408582944,
+            -0.18403183885075333
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715395672143000
         }
       ],
       "hidden": null
@@ -10933,6 +12314,57 @@
           "asset": null,
           "link": null,
           "id": 1710458375237699
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Letto",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "viewId": 1703383980586600,
+          "position": [
+            0.8205000646012706,
+            -0.21597866801611723,
+            0.5292757872331725
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715410555888000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703383980586600,
+          "position": [
+            0.9724538472869174,
+            -0.15277688956780286,
+            -0.17604754162117706
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715432180011600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltroncine",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703383980586600,
+          "position": [
+            0.7314931590263982,
+            -0.315842147104211,
+            -0.6042859392789001
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715451853043600
         }
       ]
     },
@@ -11025,6 +12457,40 @@
           "asset": null,
           "link": null,
           "id": 1710568587580900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703396150944400,
+          "position": [
+            -0.6175147282725297,
+            -0.196187565193725,
+            -0.7616994155372981
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715485078260300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703396150944400,
+          "position": [
+            0.907434860798421,
+            -0.4163569003190368,
+            -0.056647197322318134
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715542894848900
         }
       ]
     },
@@ -11100,6 +12566,40 @@
           "asset": null,
           "link": null,
           "id": 1710609556614600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedia",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703405869373900,
+          "position": [
+            0.30488592717604074,
+            -0.30458655484822295,
+            0.9023699917526605
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715508270870600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703405869373900,
+          "position": [
+            0.9705479068232674,
+            -0.2004918031098618,
+            -0.1335657046053763
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715528464903999
         }
       ]
     },
@@ -11175,6 +12675,23 @@
           "asset": null,
           "link": null,
           "id": 1710717197674200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703417592352399,
+          "position": [
+            0.8956944417755168,
+            -0.4206934724120303,
+            0.14404328947352507
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715567050425700
         }
       ],
       "hidden": null
@@ -11285,6 +12802,23 @@
           "asset": null,
           "link": null,
           "id": 1710781400159400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703428032330799,
+          "position": [
+            0.815540190533295,
+            -0.3173760914330467,
+            0.48390765049914153
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715602540446000
         }
       ]
     },
@@ -11435,6 +12969,41 @@
           "asset": null,
           "link": null,
           "id": 1710883871496999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "viewId": 1703452820484400,
+          "position": [
+            -0.5482219495659693,
+            -0.3346651037062912,
+            -0.7664541489060812
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715849877651400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": "Elemento centrale dell’arredo, il divano è ciò che per primo caratterizza lo stile di un ambiente, il “la” a cui accordare tutto il resto. La sua funzione è molto cambiata negli anni: da oggetto di pura rappresentanza a parte sempre più integrata nella vita quotidiana, di volta in volta area di socializzazione, o, al contrario, privatissima isola di gioco, ascolto, visione o relax.\n",
+          "viewId": 1703452820484400,
+          "position": [
+            0.9456571720168405,
+            -0.2398406130384357,
+            -0.21956546484012282
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715876340381600
         }
       ]
     },
@@ -11527,6 +13096,23 @@
           "asset": null,
           "link": null,
           "id": 1710996584398700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedie e poltroncine",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703464403303700,
+          "position": [
+            0.7771682224001084,
+            -0.25943348200888483,
+            0.5733269769548621
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1715822297035500
         }
       ],
       "hidden": null
@@ -11671,6 +13257,23 @@
           "asset": null,
           "link": null,
           "id": 1711104548841900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sedia",
+          "abstract": "Rigorose, civettuole, snelle, abbondanti, curve, dritte, imbottite, rigide, pieghevoli, con braccioli o senza... forse nessun altro elemento d'arredo è così facilmente soggetto al gusto, potremmo quasi dire al capriccio, come la sedia.\n",
+          "viewId": 1703474681500600,
+          "position": [
+            0.9717398831613028,
+            -0.2092821031401089,
+            0.10919066250788273
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1714707590329400
         }
       ]
     }
@@ -11701,7 +13304,7 @@
       "id": 401886671727100,
       "parentId": null,
       "viewId": 498478142881399,
-      "name": "Showroom ",
+      "name": "Showroom Dress",
       "order": 30
     },
     {
