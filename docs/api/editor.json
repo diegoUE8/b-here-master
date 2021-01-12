@@ -5841,6 +5841,33 @@
           "asset": null,
           "link": null,
           "id": 1716114053597099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": null,
+          "viewId": 1700165015653099,
+          "position": [
+            -0.7221842055471669,
+            -0.20310326964262912,
+            0.661210280560338
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724679960868900_poltrone.jpg",
+            "id": 1724679996405399,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 1724637014075399,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -5985,6 +6012,31 @@
           "asset": null,
           "link": null,
           "id": 1719220307192700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": null,
+          "viewId": 1700176747592700,
+          "position": [
+            -0.8076085962006496,
+            -0.39234279869551547,
+            0.44026751373975603
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725131034433700_poltrone.jpg",
+            "id": 1725131052723799
+          },
+          "link": null,
+          "id": 1725131870140600
         }
       ],
       "hidden": null
@@ -6535,6 +6587,56 @@
           "asset": null,
           "link": null,
           "id": 1713527466143600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1700527472836000,
+          "position": [
+            -0.567195203935017,
+            -0.24377240704623215,
+            0.7866794863195562
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724880356681499_poltrone.jpg",
+            "id": 1724880382950000
+          },
+          "link": null,
+          "id": 1724888476631299
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1700527472836000,
+          "position": [
+            -0.7012809413439,
+            -0.3435530319678546,
+            -0.6246409813112712
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724903572839700_divano.jpg",
+            "id": 1724903595962700
+          },
+          "link": null,
+          "id": 1724904341473200
         }
       ],
       "hidden": null
@@ -6662,6 +6764,56 @@
           "asset": null,
           "link": null,
           "id": 1713415987810599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1700538792756700,
+          "position": [
+            0.2045800081359086,
+            -0.3472329305908157,
+            -0.9151919537367148
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724829411353000_poltrone.jpg",
+            "id": 1724829443549600
+          },
+          "link": null,
+          "id": 1724836807027700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1700538792756700,
+          "position": [
+            0.5882728692371981,
+            -0.4501186205293682,
+            0.6718096894003338
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724850674853199_divano.jpg",
+            "id": 1724850691535100
+          },
+          "link": null,
+          "id": 1724857902242299
         }
       ]
     },
@@ -7101,6 +7253,56 @@
           "asset": null,
           "id": 1713902886079100,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": null,
+          "viewId": 1700566251094000,
+          "position": [
+            0.8133425532340653,
+            -0.3321778919880306,
+            -0.47763138420028467
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724930829562600_divano.jpg",
+            "id": 1724930849140300
+          },
+          "link": null,
+          "id": 1724936514170199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1700566251094000,
+          "position": [
+            0.018715665223146872,
+            -0.25033846522388414,
+            0.9679774670438384
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724953337809600_poltrone.jpg",
+            "id": 1724953353533099
+          },
+          "link": null,
+          "id": 1724960520453099
         }
       ],
       "hidden": null
@@ -7422,6 +7624,56 @@
           "asset": null,
           "link": null,
           "id": 1713971978451599
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": null,
+          "viewId": 1701658570525700,
+          "position": [
+            0.8972679959611626,
+            -0.22033571200098784,
+            0.38257328375208977
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1724980816830000_divano.jpg",
+            "id": 1724980841331899
+          },
+          "link": null,
+          "id": 1724984879017999
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": null,
+          "viewId": 1701658570525700,
+          "position": [
+            -0.8147043061765676,
+            -0.513364730801711,
+            -0.26965449498616617
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725012391096100_poltrone.jpg",
+            "id": 1725012402953300
+          },
+          "link": null,
+          "id": 1725013089829600
         }
       ],
       "hidden": null
@@ -7566,6 +7818,56 @@
           "asset": null,
           "id": 1714088986131100,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrone",
+          "abstract": null,
+          "viewId": 1701676131028800,
+          "position": [
+            -0.7690039210365183,
+            -0.3240622359430812,
+            -0.551014189169418
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725034504133199_poltrone.jpg",
+            "id": 1725034520786800
+          },
+          "link": null,
+          "id": 1725044584944000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": null,
+          "viewId": 1701676131028800,
+          "position": [
+            0.9377379769442621,
+            -0.24625070082260067,
+            0.24496546479220463
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725058124005800_divano.jpg",
+            "id": 1725058148974200
+          },
+          "link": null,
+          "id": 1725063628900400
         }
       ],
       "hidden": null
@@ -8023,14 +8325,39 @@
           "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702465749001199,
           "position": [
-            -0.7715452754442251,
-            -0.5582639513818443,
-            0.3050561399598846
+            -0.8878672358905426,
+            -0.4599596803665547,
+            0.011351822284738229
           ],
           "asset": null,
           "link": null,
           "id": 1714219083040299,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Poltrona",
+          "abstract": null,
+          "viewId": 1702465749001199,
+          "position": [
+            -0.7632675356828227,
+            -0.38337844633257906,
+            0.5200419558653788
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725092927064499_poltrone.jpg",
+            "id": 1725092948501400
+          },
+          "link": null,
+          "id": 1725097671545999
         }
       ]
     },
@@ -8825,6 +9152,31 @@
           "asset": null,
           "link": null,
           "id": 1714543599590900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702532557898700,
+          "position": [
+            0.04285373003580058,
+            -0.35288510158212855,
+            0.9346847933412575
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725178459692699_poltrone.jpg",
+            "id": 1725178474869900
+          },
+          "link": null,
+          "id": 1725185628622900
         }
       ],
       "hidden": null
@@ -8918,6 +9270,31 @@
           "asset": null,
           "link": null,
           "id": 1714574948753700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702543715791900,
+          "position": [
+            -0.9325287591847806,
+            -0.32167745954087784,
+            0.16405403169876914
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725159930506700_poltrone.jpg",
+            "id": 1725159945804300
+          },
+          "link": null,
+          "id": 1725166063444200
         }
       ],
       "hidden": null
@@ -9027,7 +9404,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 1706606934524600
+          "id": 1706606934524600,
+          "keepOrientation": null
         }
       ]
     },
@@ -9103,6 +9481,56 @@
           "asset": null,
           "link": null,
           "id": 1714607605529500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702568290969499,
+          "position": [
+            -0.8867593107357067,
+            -0.36375491812237115,
+            0.28520218155778787
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725259293674799_divano.jpg",
+            "id": 1725259314629100
+          },
+          "link": null,
+          "id": 1725267479329000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702568290969499,
+          "position": [
+            -0.3297048740719736,
+            -0.32297034598410396,
+            0.8871216667560838
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725274890929200_poltrone.jpg",
+            "id": 1725274908629699
+          },
+          "link": null,
+          "id": 1725280369545400
         }
       ]
     },
@@ -9481,6 +9909,31 @@
           "asset": null,
           "link": null,
           "id": 1715977927706099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702603439488000,
+          "position": [
+            0.5291294392809724,
+            -0.41303384014279343,
+            -0.7412321386604206
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725303851166700_poltrone.jpg",
+            "id": 1725303868520000
+          },
+          "link": null,
+          "id": 1725308502275999
         }
       ],
       "hidden": null
@@ -9769,6 +10222,56 @@
           "asset": null,
           "id": 1714730641307900,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Divano",
+          "abstract": null,
+          "viewId": 1702624911223800,
+          "position": [
+            0.7688137369087558,
+            -0.2974884282317985,
+            0.5660618985663745
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725328248138700_divano.jpg",
+            "id": 1725328263430900
+          },
+          "link": null,
+          "id": 1725339982679100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1702624911223800,
+          "position": [
+            -0.4756637778297655,
+            -0.45263050346382966,
+            0.7542344448477513
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725350705604300_poltrone.jpg",
+            "id": 1725350724226400
+          },
+          "link": null,
+          "id": 1725359217494800
         }
       ],
       "hidden": null
@@ -10259,6 +10762,56 @@
           "asset": null,
           "link": null,
           "id": 1714768958056199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703071562793400,
+          "position": [
+            0.46140178389401926,
+            -0.4788237759372006,
+            -0.7468843186308428
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725372922686700_poltrone.jpg",
+            "id": 1725372943968000
+          },
+          "link": null,
+          "id": 1725377385382700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703071562793400,
+          "position": [
+            0.9254067177001802,
+            -0.16729113921537067,
+            -0.340053057000525
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725387647910799_divano.jpg",
+            "id": 1725387667514199
+          },
+          "link": null,
+          "id": 1725388433507799
         }
       ],
       "hidden": null
@@ -10436,6 +10989,33 @@
           ],
           "asset": null,
           "id": 1715657529514799,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703092193842300,
+          "position": [
+            0.9517342265285557,
+            -0.09842366288458693,
+            -0.2907141975178945
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725551483622399_divano.jpg",
+            "id": 1725551498818300,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 1725540080693000,
           "keepOrientation": null
         }
       ],
@@ -10615,6 +11195,31 @@
           "asset": null,
           "link": null,
           "id": 1715720722328300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703103402929900,
+          "position": [
+            0.9750180358598968,
+            -0.1307798173291297,
+            0.1795451729433813
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725575347704100_divano.jpg",
+            "id": 1725575365722100
+          },
+          "link": null,
+          "id": 1725581300459999
         }
       ]
     },
@@ -10792,6 +11397,31 @@
           "asset": null,
           "link": null,
           "id": 1715779011679600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703113539004200,
+          "position": [
+            0.8659634483937224,
+            -0.18505613192097334,
+            -0.46460901205691213
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725602912478899_divano.jpg",
+            "id": 1725602939823700
+          },
+          "link": null,
+          "id": 1725603640710600
         }
       ]
     },
@@ -10952,6 +11582,31 @@
           "asset": null,
           "id": 1714851197113199,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703126098901100,
+          "position": [
+            0.6902291998350023,
+            -0.4292676215621668,
+            0.582505760292113
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725410278041000_poltrone.jpg",
+            "id": 1725410297504100
+          },
+          "link": null,
+          "id": 1725416600708600
         }
       ],
       "hidden": null
@@ -11096,6 +11751,31 @@
           "asset": null,
           "id": 1714899797037100,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703137677334300,
+          "position": [
+            -0.8796340107051235,
+            -0.24389401941457417,
+            -0.4083622344250533
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725426830648700_poltrone.jpg",
+            "id": 1725426848645900
+          },
+          "link": null,
+          "id": 1725434433561700
         }
       ],
       "hidden": null
@@ -11223,6 +11903,31 @@
           "asset": null,
           "link": null,
           "id": 1714952556208900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703149666060099,
+          "position": [
+            0.9528998038747791,
+            -0.18197117068136565,
+            -0.24262822757515454
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725450338618399_poltrone.jpg",
+            "id": 1725450357032599
+          },
+          "link": null,
+          "id": 1725451034733600
         }
       ]
     },
@@ -11646,6 +12351,31 @@
           "asset": null,
           "link": null,
           "id": 1715024776490700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703173489591300,
+          "position": [
+            0.5711183120595673,
+            -0.4597982087999126,
+            -0.6800069711514894
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725468302469299_poltrone.jpg",
+            "id": 1725468351942099
+          },
+          "link": null,
+          "id": 1725479127749299
         }
       ]
     },
@@ -11823,6 +12553,31 @@
           "asset": null,
           "link": null,
           "id": 1715159456007799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1703184539147199,
+          "position": [
+            -0.5463179167879715,
+            -0.24087194059071182,
+            0.8021953889374558
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "1725506036246399_poltrone.jpg",
+            "id": 1725506055986700
+          },
+          "link": null,
+          "id": 1725506825524499
         }
       ],
       "hidden": null
@@ -14779,6 +15534,287 @@
       "folder": "/uploads/",
       "file": "1703472713353400_Frau_55.jpg",
       "id": 1703472763593600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724635896407100_poltrone.jpg",
+      "id": 1724635948157500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724679960868900_poltrone.jpg",
+      "id": 1724679996405399,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724829411353000_poltrone.jpg",
+      "id": 1724829443549600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724850674853199_divano.jpg",
+      "id": 1724850691535100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724880356681499_poltrone.jpg",
+      "id": 1724880382950000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724903572839700_divano.jpg",
+      "id": 1724903595962700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724930829562600_divano.jpg",
+      "id": 1724930849140300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724953337809600_poltrone.jpg",
+      "id": 1724953353533099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1724980816830000_divano.jpg",
+      "id": 1724980841331899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725012391096100_poltrone.jpg",
+      "id": 1725012402953300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725034504133199_poltrone.jpg",
+      "id": 1725034520786800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725058124005800_divano.jpg",
+      "id": 1725058148974200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725092927064499_poltrone.jpg",
+      "id": 1725092948501400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725131034433700_poltrone.jpg",
+      "id": 1725131052723799
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725159930506700_poltrone.jpg",
+      "id": 1725159945804300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725178459692699_poltrone.jpg",
+      "id": 1725178474869900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725259293674799_divano.jpg",
+      "id": 1725259314629100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725274890929200_poltrone.jpg",
+      "id": 1725274908629699
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725303851166700_poltrone.jpg",
+      "id": 1725303868520000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725328248138700_divano.jpg",
+      "id": 1725328263430900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725350705604300_poltrone.jpg",
+      "id": 1725350724226400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725372922686700_poltrone.jpg",
+      "id": 1725372943968000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725387647910799_divano.jpg",
+      "id": 1725387667514199
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725410278041000_poltrone.jpg",
+      "id": 1725410297504100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725426830648700_poltrone.jpg",
+      "id": 1725426848645900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725450338618399_poltrone.jpg",
+      "id": 1725450357032599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725468302469299_poltrone.jpg",
+      "id": 1725468351942099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725506036246399_poltrone.jpg",
+      "id": 1725506055986700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725551483622399_divano.jpg",
+      "id": 1725551498818300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725575347704100_divano.jpg",
+      "id": 1725575365722100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1725602912478899_divano.jpg",
+      "id": 1725602939823700
     }
   ],
   "users": [
