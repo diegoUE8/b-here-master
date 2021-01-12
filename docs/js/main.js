@@ -138,7 +138,8 @@ function _readOnlyError(name) {
     viewer: true,
     maxQuality: false
   },
-  logo: '/Modules/B-Here/Client/docs/img/logo.png',
+  logo: null,
+  //'/Modules/B-Here/Client/docs/img/logo.png
   background: {
     image: '/Modules/B-Here/Client/docs/img/background.jpg',
     video: '/Modules/B-Here/Client/docs/img/background.mp4'
@@ -207,7 +208,8 @@ function _readOnlyError(name) {
     viewer: true,
     maxQuality: false
   },
-  logo: '/b-here/img/logo.png',
+  logo: null,
+  //'/b-here/img/logo.png
   background: {
     image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
