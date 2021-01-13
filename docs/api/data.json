@@ -14767,16 +14767,16 @@
       "username": "publisher",
       "password": "publisher",
       "type": "publisher",
-      "firstName": "User",
-      "lastName": "Publisher"
+      "firstName": "Publisher",
+      "lastName": ""
     },
     {
       "id": "1601892639986",
       "username": "attendee",
       "password": "attendee",
       "type": "attendee",
-      "firstName": "User",
-      "lastName": "Attendee"
+      "firstName": "Attendee",
+      "lastName": ""
     }
   ]
 }
