@@ -2569,168 +2569,6 @@
         "id": 5,
         "name": "model"
       },
-      "name": "Firenze a",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "179425398968000_360_sfondo4.jpg",
-        "id": 179425459169599
-      },
-      "orientation": {
-        "latitude": 13.799999999999999,
-        "longitude": 110.4
-      },
-      "zoom": 75,
-      "id": 257951063000700,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "257948534150800_Firenze.glb",
-            "id": 257948612880899,
-            "chromaKeyColor": null
-          },
-          "id": 257951073800400,
-          "position": null,
-          "rotation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 101302991658300,
-          "position": [
-            0.6170760062743003,
-            -0.44358848326274,
-            -0.6499588140776471
-          ],
-          "asset": null,
-          "id": 258079443668600,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "258053860414900_Firenze.usdz",
-          "id": 258053964208200
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "258057425709099_Firenze.glb",
-          "id": 258057489679500
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Firenze b",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "179284953211600_360_sfondo3.jpg",
-        "id": 179285002185600
-      },
-      "orientation": {
-        "latitude": 11.999999999999998,
-        "longitude": 122.80000000000001
-      },
-      "zoom": 70.6466,
-      "id": 258129813910500,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "258122434820000_Firenze.glb",
-            "id": 258122513646299,
-            "chromaKeyColor": null
-          },
-          "id": 258129825553099,
-          "position": null,
-          "rotation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 101358797035400,
-          "position": [
-            0.6587797521172215,
-            -0.4548749288944387,
-            -0.5992478929989253
-          ],
-          "asset": null,
-          "id": 258200721849900,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "258173737346399_Firenze.usdz",
-          "id": 258173790400300
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "258176997268699_Firenze.glb",
-          "id": 258177056757800
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
       "name": "City 74 - 1",
       "asset": {
         "type": {
@@ -3047,87 +2885,6 @@
           "folder": "/uploads/",
           "file": "258508325435699_City7.glb",
           "id": 258508375983199
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Firenze",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "178384893031700_360_sfondo3.jpg",
-        "id": 178384936279600
-      },
-      "orientation": {
-        "latitude": 21.9,
-        "longitude": 121.9
-      },
-      "zoom": 75,
-      "id": 258401814223700,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "258401079085199_Firenze.glb",
-            "id": 258401174248700,
-            "chromaKeyColor": null
-          },
-          "id": 258401828879399,
-          "position": null,
-          "rotation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 376789637631099,
-          "position": [
-            0.5520512561318666,
-            -0.6311296826279462,
-            -0.5448988294254044
-          ],
-          "asset": null,
-          "id": 259193983972800,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "258482057953900_Firenze.usdz",
-          "id": 258482179777600
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "258485493568099_Firenze.glb",
-          "id": 258485551025200
         }
       }
     },
@@ -3492,23 +3249,6 @@
           "asset": null,
           "id": 109341135489000,
           "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 258129813910500,
-          "position": [
-            0.2945930482406607,
-            -0.44506357481100833,
-            -0.8456555742763845
-          ],
-          "asset": null,
-          "id": 109385999841000,
-          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -3550,23 +3290,6 @@
           ],
           "asset": null,
           "id": 109467002180100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 257951063000700,
-          "position": [
-            0.3432757462986152,
-            -0.44065171173659773,
-            -0.8294503185524346
-          ],
-          "asset": null,
-          "id": 109496350754599,
           "keepOrientation": null
         }
       ],
@@ -3736,42 +3459,22 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "110002492094299_Firenze.usdz",
-          "id": 110002563011600
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "110007692450900_Firenze.glb",
-          "id": 110007761367799
-        }
-      }
+      "hidden": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Animazione 1",
+      "name": "Scorrevole",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "178644175079099_360_scorrevole.jpg",
-        "id": 178644278665800
+        "file": "48622212207799_360_scorrevole2.jpg",
+        "id": 48622272796400
       },
       "orientation": {
         "latitude": -2.2999999999999954,
@@ -3789,55 +3492,35 @@
           "abstract": null,
           "viewId": 101203645959499,
           "position": [
-            0.999250726147765,
-            0.018194644175903506,
-            -0.03416052131447398
+            0.7647969277373093,
+            -0.29915574972948045,
+            -0.5706062536700464
           ],
           "asset": null,
           "id": 110774064775200,
           "keepOrientation": null
         }
       ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "178662925117299_Scorrevole.usdz",
-          "id": 178662953973300
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "178666205803300_Scorrevole.glb",
-          "id": 178666254752499
-        }
-      }
+      "hidden": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Scorrevole",
+      "name": "Info Scorrevole",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "177934871466300_360_scorrevole.jpg",
-        "id": 177935139686499
+        "file": "48473253271500_360_scorrevole2.jpg",
+        "id": 48473435506300
       },
       "orientation": {
-        "latitude": -1.6000000000000003,
-        "longitude": 0.6999999999999996
+        "latitude": -1.6000000000000005,
+        "longitude": 0.3999999999999997
       },
       "zoom": 75,
       "id": 110870063301800,
@@ -3851,36 +3534,16 @@
           "abstract": null,
           "viewId": 376789637631099,
           "position": [
-            0.9955008717743581,
-            0.025893655821350097,
-            -0.09114566849115235
+            0.8049320228170734,
+            -0.2921791683370078,
+            -0.5164453235663082
           ],
           "asset": null,
           "id": 110884386248999,
           "keepOrientation": null
         }
       ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "178026735669700_Scorrevole.usdz",
-          "id": 178026765334300
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "178030917100300_Scorrevole.glb",
-          "id": 178030960339900
-        }
-      }
+      "hidden": null
     }
   ],
   "menu": [
@@ -4016,13 +3679,6 @@
       "viewId": 258379328599699,
       "name": "City 74 - 7",
       "order": 30
-    },
-    {
-      "id": 258875735303300,
-      "parentId": 258864998508500,
-      "viewId": 258401814223700,
-      "name": "Firenze",
-      "order": 40
     }
   ],
   "assets": [
@@ -4140,15 +3796,6 @@
       "file": "544735444142999_Interno_PVC.jpg",
       "id": 544735456064000,
       "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "808616016947500_hereoesvalley.jpg",
-      "id": 808616125904300
     },
     {
       "type": {
@@ -5198,75 +4845,12 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "257948534150800_Firenze.glb",
-      "id": 257948612880899
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258053860414900_Firenze.usdz",
-      "id": 258053964208200
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258057425709099_Firenze.glb",
-      "id": 258057489679500
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258109454595800_Firenze.glb",
-      "id": 258109534367000
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258122434820000_Firenze.glb",
-      "id": 258122513646299
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
       "folder": "/uploads/",
       "file": "258128249791299_3_sfondo.jpg",
       "id": 258128395833700
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258173737346399_Firenze.usdz",
-      "id": 258173790400300
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258176997268699_Firenze.glb",
-      "id": 258177056757800
     },
     {
       "type": {
@@ -5351,66 +4935,12 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258401079085199_Firenze.glb",
-      "id": 258401174248700
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
       "folder": "/uploads/",
       "file": "258428036352000_3_sfondo.jpg",
       "id": 258428065046299
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258432202600300_Scorrevole.glb",
-      "id": 258432228464400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258454820784900_Scorrevole.usdz",
-      "id": 258454841367900
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258457945737199_Scorrevole.glb",
-      "id": 258457987042800
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258482057953900_Firenze.usdz",
-      "id": 258482179777600
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "258485493568099_Firenze.glb",
-      "id": 258485551025200
     },
     {
       "type": {
@@ -5702,24 +5232,6 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "110002492094299_Firenze.usdz",
-      "id": 110002563011600
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "110007692450900_Firenze.glb",
-      "id": 110007761367799
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -5771,24 +5283,6 @@
       "folder": "/uploads/",
       "file": "177987348988800_360_firenze_2.jpg",
       "id": 177987426805400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "178026735669700_Scorrevole.usdz",
-      "id": 178026765334300
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "178030917100300_Scorrevole.glb",
-      "id": 178030960339900
     },
     {
       "type": {
@@ -5897,24 +5391,6 @@
       "folder": "/uploads/",
       "file": "178644175079099_360_scorrevole.jpg",
       "id": 178644278665800
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "178662925117299_Scorrevole.usdz",
-      "id": 178662953973300
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "178666205803300_Scorrevole.glb",
-      "id": 178666254752499
     },
     {
       "type": {
@@ -6050,6 +5526,24 @@
       "folder": "/uploads/",
       "file": "179544732994900_360_sfondo4.jpg",
       "id": 179544799752900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "48473253271500_360_scorrevole2.jpg",
+      "id": 48473435506300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "48622212207799_360_scorrevole2.jpg",
+      "id": 48622272796400
     }
   ],
   "users": [

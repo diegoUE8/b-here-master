@@ -17969,8 +17969,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       };
       gsap.to(from, {
         duration: 0.35,
-        scale: 0.07,
-        //0.04
+        scale: 0.05,
         delay: 0,
         ease: Power2.easeOut,
         overwrite: true,
@@ -17995,8 +17994,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       };
       gsap.to(from, {
         duration: 0.35,
-        scale: 0.04,
-        //0.03
+        scale: 0.03,
         delay: 0,
         ease: Power2.easeOut,
         overwrite: true,
