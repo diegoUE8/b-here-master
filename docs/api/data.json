@@ -1335,14 +1335,14 @@
           ],
           "asset": {
             "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
+              "id": 4,
+              "name": "publisher-stream"
             },
             "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 595198805589300,
+            "file": "publisherStream",
+            "id": 417733852337999,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 1
           },
           "id": 595187295984100
         },
@@ -1407,9 +1407,9 @@
             },
             "folder": "",
             "file": "nextAttendeeStream",
-            "id": 595663310605300,
+            "id": 418494317317399,
             "chromaKeyColor": null,
-            "index": 1
+            "index": 0
           },
           "id": 595497438718400
         },
@@ -7491,8 +7491,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1618243025775600_green-screen_girl.mp4",
-            "id": 1618244276386699,
+            "file": "417699874209100_green-screen_girl.mp4",
+            "id": 417700302906200,
             "chromaKeyColor": [
               0,
               1,
@@ -7780,8 +7780,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "494479339889700_greenscreen_boy2.mp4",
-            "id": 494479584655899,
+            "file": "417666558496999_greenscreen_boy2.mp4",
+            "id": 417667077523099,
             "chromaKeyColor": [
               0,
               1,
@@ -10888,20 +10888,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "498014396259400_greenscreen_boy.mp4",
-      "id": 498014417638000,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -11232,17 +11218,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 511125725968799,
-      "chromaKeyColor": null,
-      "index": 0
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -11254,21 +11229,6 @@
         1,
         0
       ]
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 511485695637800,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ],
-      "index": 0
     },
     {
       "type": {
@@ -11332,20 +11292,6 @@
       "folder": "/uploads/",
       "file": "1036662919419999_websolute.mp4",
       "id": 1036663213509699
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1036704882249599_greenscreen_boy.mp4",
-      "id": 1036704911076000,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
     },
     {
       "type": {
@@ -11467,20 +11413,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "494479339889700_greenscreen_boy2.mp4",
-      "id": 494479584655899,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -11514,16 +11446,6 @@
       "folder": "/uploads/",
       "file": "406760058598800_studio_lucioff.jpg",
       "id": 406760302780100
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 406813850199100,
-      "chromaKeyColor": null
     },
     {
       "type": {
@@ -11842,30 +11764,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 511373910307800,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ],
-      "index": 0
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "512010559424300_lavagna.jpg",
-      "id": 512010596580499
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -11936,25 +11834,6 @@
       "folder": "/uploads/",
       "file": "515365193890200_infovideo2.mp4",
       "id": 515365234089400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "516393511668800_lavagna.jpg",
-      "id": 516393556246500
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 516468203393499,
-      "chromaKeyColor": null
     },
     {
       "type": {
@@ -12041,36 +11920,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 595198805589300,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 595459761248000,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 595663310605300,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -12151,20 +12000,6 @@
       "folder": "/uploads/",
       "file": "95243282411900_qrcode.png",
       "id": 95243329446900
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "63226774199600_green-screen_girl.mp4",
-      "id": 63227187339100,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
     },
     {
       "type": {
@@ -12536,21 +12371,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 809811117432800,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ],
-      "index": 0
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -12562,16 +12382,6 @@
         1,
         0
       ]
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "next-attendee-stream"
-      },
-      "folder": "",
-      "file": "nextAttendeeStream",
-      "id": 809987160936900,
-      "chromaKeyColor": null
     },
     {
       "type": {
@@ -14665,20 +14475,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1618243025775600_green-screen_girl.mp4",
-      "id": 1618244276386699,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -14759,6 +14555,54 @@
       "folder": "/uploads/",
       "file": "1788148814052899_360_firenze_2.jpg",
       "id": 1788148879267000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "417666558496999_greenscreen_boy2.mp4",
+      "id": 417667077523099,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "417699874209100_green-screen_girl.mp4",
+      "id": 417700302906200,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 417733852337999,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 418494317317399,
+      "chromaKeyColor": null
     }
   ],
   "users": [
