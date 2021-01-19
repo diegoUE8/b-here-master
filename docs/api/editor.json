@@ -550,50 +550,16 @@
           ],
           "asset": {
             "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
+              "id": 4,
+              "name": "publisher-stream"
             },
             "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 595198805589300,
-            "chromaKeyColor": null,
-            "index": 0
-          },
-          "id": 595187295984100
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            21.4,
-            -4.1,
-            5
-          ],
-          "rotation": [
-            -2.566,
-            -1.2764691094822895,
-            -2.586022669543313,
-            "XYZ"
-          ],
-          "scale": [
-            7,
-            4.8,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
-            },
-            "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 595459761248000,
+            "file": "publisherStream",
+            "id": 4785467437499,
             "chromaKeyColor": null,
             "index": 1
           },
-          "id": 595393831847099
+          "id": 595187295984100
         },
         {
           "type": {
@@ -631,30 +597,42 @@
         },
         {
           "type": {
-            "id": 1,
-            "name": "nav"
+            "id": 2,
+            "name": "plane"
           },
           "title": "Accedi",
           "abstract": "connettiti con il tuo telefono..",
           "viewId": 406765685595300,
           "position": [
-            0.36739081467807216,
-            -0.15539955123244212,
-            -0.9169923493502756
+            7.5,
+            2,
+            -19.000226929224635
           ],
           "asset": {
             "type": {
-              "id": 1,
-              "name": "image"
+              "id": 5,
+              "name": "next-attendee-stream"
             },
-            "folder": "/uploads/",
-            "file": "95243282411900_qrcode.png",
-            "id": 95243329446900,
-            "chromaKeyColor": null
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 595663310605300,
+            "chromaKeyColor": null,
+            "index": 1
           },
           "link": null,
           "id": 95244501881700,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "rotation": [
+            0.02233128273750267,
+            0.004733537400283535,
+            0.002546707480056705,
+            "XYZ"
+          ],
+          "scale": [
+            15.5,
+            8.7,
+            1
+          ]
         },
         {
           "type": {
@@ -14260,6 +14238,229 @@
           "id": 1714707590329400
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio TV 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "5053510616699_cinema_living.jpg",
+        "id": 5053693380900
+      },
+      "orientation": {
+        "latitude": -0.30861616722998253,
+        "longitude": 351.18089464633135
+      },
+      "zoom": 75,
+      "id": 5061429935900,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            18.305551200452168,
+            -7.8304100882628855,
+            -1.895118227777652
+          ],
+          "rotation": [
+            -1.333341951740953,
+            -1.1561964180740785,
+            -1.312289949644378,
+            "XYZ"
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 5097756535200,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 5085480148199
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            0.7042884413077554,
+            0.003149768199392747,
+            0.7099069448882597
+          ],
+          "asset": null,
+          "id": 5125832676200,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.86853754021205,
+            1.3321801036820553,
+            -2.285551231842125
+          ],
+          "rotation": [
+            0.05776857312039378,
+            -1.4560763492039537,
+            0.057389689139840785,
+            "XYZ"
+          ],
+          "scale": [
+            24,
+            11,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 6653273699200,
+            "chromaKeyColor": null,
+            "index": 1
+          },
+          "id": 5141851551400
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio TV 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "5508980619999_studioTV_2.jpg",
+        "id": 5509064707699
+      },
+      "orientation": {
+        "latitude": 0.8202399856622717,
+        "longitude": 5.770612281966166
+      },
+      "zoom": 75,
+      "id": 5515327931299,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            21.9,
+            1.2,
+            2.6775804724158627
+          ],
+          "rotation": [
+            2.752,
+            -1.6262131315477804,
+            2.753720591994936,
+            "XYZ"
+          ],
+          "scale": [
+            6,
+            4.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 73055797043500,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 73038413974300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            -0.07594998997329301,
+            0.01382320480808197,
+            0.9970158063099553
+          ],
+          "asset": null,
+          "id": 73118106836300,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            24.907694931875767,
+            2.2000000000000006,
+            -7.999999999999988
+          ],
+          "rotation": [
+            -0.01884807276011514,
+            -0.5888255565424758,
+            -0.01046878940590367,
+            "XYZ"
+          ],
+          "scale": [
+            11.98,
+            7,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "6227424071699_websolute.mp4",
+            "id": 6227751593100,
+            "chromaKeyColor": null
+          },
+          "id": 187314775158399
+        }
+      ],
+      "hidden": null
     }
   ],
   "menu": [
@@ -14346,6 +14547,27 @@
       "viewId": 248430441511900,
       "name": "3 - Tour",
       "order": 20
+    },
+    {
+      "id": 5442023098100,
+      "parentId": null,
+      "viewId": null,
+      "name": "Studio TV",
+      "order": 70
+    },
+    {
+      "id": 5449538379000,
+      "parentId": 5442023098100,
+      "viewId": 5061429935900,
+      "name": "Condivisione",
+      "order": 0
+    },
+    {
+      "id": 6049339114699,
+      "parentId": 5442023098100,
+      "viewId": 5515327931299,
+      "name": "Green Screen",
+      "order": 10
     }
   ],
   "assets": [
@@ -14937,7 +15159,8 @@
       "folder": "",
       "file": "nextAttendeeStream",
       "id": 595663310605300,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 1
     },
     {
       "type": {
@@ -15815,6 +16038,118 @@
       "folder": "/uploads/",
       "file": "1725602912478899_divano.jpg",
       "id": 1725602939823700
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 4785467437499,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "5053510616699_cinema_living.jpg",
+      "id": 5053693380900
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 5097756535200,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 5155717348499,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 5425345404600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "5508980619999_studioTV_2.jpg",
+      "id": 5509064707699
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "6217141734400_green-screen_girl.mp4",
+      "id": 6218288182800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "6227424071699_websolute.mp4",
+      "id": 6227751593100,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 6572623412000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "6592367240000_24359364107_152b0152ff_k.jpg",
+      "id": 6592417172800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 6653273699200,
+      "chromaKeyColor": null
     }
   ],
   "users": [

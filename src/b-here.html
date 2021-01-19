@@ -245,7 +245,10 @@
 					</button>
 				</div>
 			</div>
-			<div class="members">users <span class="members__count" [innerHTML]="state.membersCount"></span></div>
+			<div class="members">
+				<svg class="spy" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#users"></use></svg>
+				<span class="members__count" [innerHTML]="state.membersCount"></span>
+			</div>
 		</div>
 		<div class="group--local" [class]="{ publisher: state.role == 'publisher', viewer: state.role == 'viewer' }" *if="state.live">
 			<button type="button" class="btn--control" [class]="{ active: state.control }" (click)="onToggleControl($event)" *if="state.role == 'publisher'">
@@ -259,9 +262,12 @@
 					<svg class="mic-muted" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#mic-muted"></use></svg>
 				</div>
 			</div>
+			<div class="agora-stream agora-stream--screen" agora-stream [stream]="screen" *if="screen">
+				<div class="agora-stream__player"></div>
+			</div>
 		</div>
 		<div class="group--volume">
-			<button type="button" class="btn--volume" [class]="{ muted: state.volumeMuted }" (click)="onToggleVolume($event)">
+			<button type="button" class="btn--volume" [class]="{ muted: state.volumeMuted }" (click)="toggleVolume($event)">
 				<svg width="24" height="24" viewBox="0 0 24 24" *if="!state.volumeMuted"><use xlink:href="#volume-on"></use></svg>
 				<svg width="24" height="24" viewBox="0 0 24 24" *if="state.volumeMuted"><use xlink:href="#volume-off"></use></svg>
 			</button>
@@ -275,6 +281,9 @@
 			</button>
 			<button type="button" class="btn--mic" [class]="{ muted: state.audioMuted, disabled: !local }" (click)="toggleAudio()">
 				<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#mic"></use></svg>
+			</button>
+			<button type="button" class="btn--screen" [class]="{ active: screen }" (click)="toggleScreen()" *if="state.role == 'publisher' || state.role == 'attendee'">
+				<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#screen"></use></svg>
 			</button>
 		</div>
 		<div class="group--ar-vr">
