@@ -8421,6 +8421,23 @@
           "asset": null,
           "id": 505821066574900,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 426567696850200,
+          "position": [
+            0.3401572283160192,
+            -0.42714490698216157,
+            -0.8377590873655529
+          ],
+          "asset": null,
+          "link": null,
+          "id": 426766367751300
         }
       ],
       "hidden": null
@@ -8463,6 +8480,23 @@
           "asset": null,
           "id": 36317490376000,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Modello 3D",
+          "abstract": null,
+          "viewId": 426450141363500,
+          "position": [
+            0.2824111968426793,
+            -0.4536926826674141,
+            -0.8452259257689215
+          ],
+          "asset": null,
+          "link": null,
+          "id": 426710750889299
         }
       ],
       "hidden": null
@@ -10572,6 +10606,168 @@
       "id": 1374946040706500,
       "items": [],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Infisso 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "426445358964799_360_sfondo4.jpg",
+        "id": 426445432032500
+      },
+      "orientation": {
+        "latitude": 16.5,
+        "longitude": 138.39999999999998
+      },
+      "zoom": 70.1764,
+      "id": 426450141363500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "426373875704799_City1.glb",
+            "id": 426374197170200,
+            "chromaKeyColor": null
+          },
+          "id": 426450159235800,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101115292443699,
+          "position": [
+            0.7114046671508761,
+            -0.6380393521333365,
+            -0.29463398426730003
+          ],
+          "asset": null,
+          "link": null,
+          "id": 426738450135000
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "426513507329900_City1.usdz",
+          "id": 426513542164600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "426517659030700_City1.glb",
+          "id": 426517688500800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Infisso 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "426550880597799_360_sfondo4.jpg",
+        "id": 426550947728100
+      },
+      "orientation": {
+        "latitude": 16.400000000000002,
+        "longitude": 122.4
+      },
+      "zoom": 62.5,
+      "id": 426567696850200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "426564762867799_City7.glb",
+            "id": 426564794497600,
+            "chromaKeyColor": null
+          },
+          "id": 426567708737899,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 101191715010900,
+          "position": [
+            0.6231825828864417,
+            -0.5743642038571687,
+            -0.530800555495663
+          ],
+          "asset": null,
+          "link": null,
+          "id": 426787888785499
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "426638172683000_City7.usdz",
+          "id": 426638196994300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "426641175006300_City7.glb",
+          "id": 426641204605300
+        }
+      }
     }
   ],
   "menu": [
@@ -10784,6 +10980,20 @@
       "viewId": 337129519224500,
       "name": "Poltrona",
       "order": 20
+    },
+    {
+      "id": 426469839614200,
+      "parentId": 514006762002499,
+      "viewId": 426450141363500,
+      "name": "Infisso 1",
+      "order": 30
+    },
+    {
+      "id": 426582935321000,
+      "parentId": 514006762002499,
+      "viewId": 426567696850200,
+      "name": "Infisso 2",
+      "order": 40
     }
   ],
   "assets": [
@@ -14603,6 +14813,87 @@
       "file": "nextAttendeeStream",
       "id": 418494317317399,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "426373875704799_City1.glb",
+      "id": 426374197170200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "426383474738499_3_sfondo.jpg",
+      "id": 426383603267400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "426445358964799_360_sfondo4.jpg",
+      "id": 426445432032500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "426513507329900_City1.usdz",
+      "id": 426513542164600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "426517659030700_City1.glb",
+      "id": 426517688500800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "426550880597799_360_sfondo4.jpg",
+      "id": 426550947728100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "426564762867799_City7.glb",
+      "id": 426564794497600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "426638172683000_City7.usdz",
+      "id": 426638196994300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "426641175006300_City7.glb",
+      "id": 426641204605300
     }
   ],
   "users": [
