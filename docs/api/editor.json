@@ -10768,6 +10768,86 @@
           "id": 426641204605300
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio TV 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "84247396454200_ue_set.jpg",
+        "id": 84247445964300
+      },
+      "orientation": {
+        "latitude": -2.8020407126352467,
+        "longitude": 1.7791945591054743
+      },
+      "zoom": 62.5,
+      "id": 83875099535100,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            29.000000000000057,
+            0.3,
+            4.1
+          ],
+          "rotation": [
+            -1.352936056144964,
+            -1.5690608775456345,
+            -1.3526269286436214,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 84476480959400,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 84395371226000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "position": [
+            0.9279350319402754,
+            -0.3426355039843437,
+            0.1467565600148588
+          ],
+          "asset": null,
+          "id": 84497694311100,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
     }
   ],
   "menu": [
@@ -10884,18 +10964,25 @@
       "order": 0
     },
     {
+      "id": 84276131668299,
+      "parentId": 513904544668199,
+      "viewId": 83875099535100,
+      "name": "Studio TV",
+      "order": 10
+    },
+    {
       "id": 513912891850099,
       "parentId": 513904544668199,
       "viewId": 505860010418200,
-      "name": "Studio TV",
-      "order": 10
+      "name": "Studio TV_old",
+      "order": 20
     },
     {
       "id": 5979484252499,
       "parentId": 513904544668199,
       "viewId": 50,
       "name": "Live 360",
-      "order": 20
+      "order": 30
     },
     {
       "id": 513946905350299,
@@ -14894,6 +14981,39 @@
       "folder": "/uploads/",
       "file": "426641175006300_City7.glb",
       "id": 426641204605300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "83863734137400_ue_set.jpg",
+      "id": 83864029046500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "84247396454200_ue_set.jpg",
+      "id": 84247445964300
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 84476480959400,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
     }
   ],
   "users": [
