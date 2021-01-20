@@ -14365,10 +14365,10 @@
         "id": 5509064707699
       },
       "orientation": {
-        "latitude": 0.8202399856622717,
-        "longitude": 5.770612281966166
+        "latitude": 0.27290637985919375,
+        "longitude": 0.08012238395777516
       },
-      "zoom": 75,
+      "zoom": 35.4167,
       "id": 5515327931299,
       "items": [
         {
@@ -14377,19 +14377,19 @@
             "name": "plane"
           },
           "position": [
-            21.9,
-            1.2,
-            2.6775804724158627
+            22.5,
+            0.7,
+            2.2775804724158624
           ],
           "rotation": [
             2.752,
-            -1.6262131315477804,
+            -1.6964532925199431,
             2.753720591994936,
             "XYZ"
           ],
           "scale": [
             6,
-            4.5,
+            3.5,
             1
           ],
           "asset": {
@@ -14418,9 +14418,9 @@
           "abstract": null,
           "viewId": 338065166299600,
           "position": [
-            -0.07594998997329301,
-            0.01382320480808197,
-            0.9970158063099553
+            -0.08881860470749642,
+            0.08700544266995516,
+            0.9922405496670746
           ],
           "asset": null,
           "id": 73118106836300,
@@ -14458,6 +14458,179 @@
             "chromaKeyColor": null
           },
           "id": 187314775158399
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio TV 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "74878227927900_ue_set.jpg",
+        "id": 74878397498099
+      },
+      "orientation": {
+        "latitude": -0.6135315051761694,
+        "longitude": 0.9371804177428222
+      },
+      "zoom": 75,
+      "id": 74890347457800,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0.5,
+            2.7
+          ],
+          "rotation": [
+            0.5614622464223358,
+            -1.50398325601663,
+            0.560456057825707,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            5.63,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 75040962380800,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 74931686038799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Start Room",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "position": [
+            0.9285954088685554,
+            -0.34715714248598195,
+            0.13112011687459768
+          ],
+          "asset": null,
+          "id": 75069582374400,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Studio TV 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "75621480689000_MeetingRoom.jpg",
+        "id": 75621676466400
+      },
+      "orientation": {
+        "latitude": -0.10873595315539131,
+        "longitude": 0.39999999999997726
+      },
+      "zoom": 75,
+      "id": 75276012710500,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.985392916332284,
+            0.7610173951283759,
+            0.07016055962841886
+          ],
+          "rotation": [
+            1.6627295592008255,
+            -1.5325747856544105,
+            1.6627963737271008,
+            "XYZ"
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 75661013717700,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 75649872138600
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.975098391350997,
+            5.8,
+            0
+          ],
+          "rotation": [
+            1.6510850072591507,
+            -1.5557962211180154,
+            1.651184667359234,
+            "XYZ"
+          ],
+          "scale": [
+            23.2,
+            14.3,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 75772354425800,
+            "chromaKeyColor": null,
+            "index": 1
+          },
+          "id": 75677619295000
         }
       ],
       "hidden": null
@@ -14552,22 +14725,36 @@
       "id": 5442023098100,
       "parentId": null,
       "viewId": null,
-      "name": "Studio TV",
+      "name": "Studio Lab",
       "order": 70
     },
     {
       "id": 5449538379000,
       "parentId": 5442023098100,
       "viewId": 5061429935900,
-      "name": "Condivisione",
+      "name": "Condivisione 1",
       "order": 0
+    },
+    {
+      "id": 75797120510800,
+      "parentId": 5442023098100,
+      "viewId": 75276012710500,
+      "name": "Condivisione 2",
+      "order": 10
+    },
+    {
+      "id": 75139699536200,
+      "parentId": 5442023098100,
+      "viewId": 74890347457800,
+      "name": "Green Screen 1",
+      "order": 20
     },
     {
       "id": 6049339114699,
       "parentId": 5442023098100,
       "viewId": 5515327931299,
-      "name": "Green Screen",
-      "order": 10
+      "name": "Green Screen 2",
+      "order": 30
     }
   ],
   "assets": [
@@ -16149,6 +16336,68 @@
       "folder": "",
       "file": "publisherStream",
       "id": 6653273699200,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "74878227927900_ue_set.jpg",
+      "id": 74878397498099
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 75040962380800,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "75267285710000_Meeting-Room-3.jpg",
+      "id": 75267339254900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "75621480689000_MeetingRoom.jpg",
+      "id": 75621676466400
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 75661013717700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 75772354425800,
       "chromaKeyColor": null
     }
   ],
