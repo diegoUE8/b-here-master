@@ -538,7 +538,7 @@
             17.758087433043727
           ],
           "rotation": [
-            -3.1278414980164966,
+            -3.0754816204566673,
             -0.0066053831311385335,
             -3.1352686504709197,
             "XYZ"
@@ -555,7 +555,7 @@
             },
             "folder": "",
             "file": "publisherStream",
-            "id": 4785467437499,
+            "id": 148499478830599,
             "chromaKeyColor": null,
             "index": 1
           },
@@ -14320,7 +14320,7 @@
           "position": [
             19.86853754021205,
             1.3321801036820553,
-            -2.285551231842125
+            -2.485551231842125
           ],
           "rotation": [
             0.05776857312039378,
@@ -14330,7 +14330,7 @@
           ],
           "scale": [
             24,
-            11,
+            13.5,
             1
           ],
           "asset": {
@@ -14340,7 +14340,7 @@
             },
             "folder": "",
             "file": "publisherStream",
-            "id": 6653273699200,
+            "id": 148222172858499,
             "chromaKeyColor": null,
             "index": 1
           },
@@ -14615,8 +14615,8 @@
             "XYZ"
           ],
           "scale": [
-            23.2,
-            14.3,
+            23,
+            13,
             1
           ],
           "asset": {
@@ -14626,7 +14626,7 @@
             },
             "folder": "",
             "file": "publisherStream",
-            "id": 75772354425800,
+            "id": 148390281175099,
             "chromaKeyColor": null,
             "index": 1
           },
@@ -16398,6 +16398,36 @@
       "folder": "",
       "file": "publisherStream",
       "id": 75772354425800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 148222172858499,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 148390281175099,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 148499478830599,
       "chromaKeyColor": null
     }
   ],
