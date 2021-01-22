@@ -10848,6 +10848,50 @@
         }
       ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Diaper",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177864544153300_dressroom.jpeg",
+        "id": 177864591052200
+      },
+      "orientation": {
+        "latitude": 23.599999999999998,
+        "longitude": 239.60000000000002
+      },
+      "zoom": 62.107,
+      "id": 177890328131200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "178354684861700_Pannolino.glb",
+            "id": 178355003295200,
+            "chromaKeyColor": null
+          },
+          "id": 177890343129000,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null
     }
   ],
   "menu": [
@@ -11081,6 +11125,13 @@
       "viewId": 426567696850200,
       "name": "Infisso 2",
       "order": 40
+    },
+    {
+      "id": 177898879024400,
+      "parentId": 514006762002499,
+      "viewId": 177890328131200,
+      "name": "Diaper",
+      "order": 50
     }
   ],
   "assets": [
@@ -15014,6 +15065,25 @@
         0
       ],
       "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177864544153300_dressroom.jpeg",
+      "id": 177864591052200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "178354684861700_Pannolino.glb",
+      "id": 178355003295200,
+      "chromaKeyColor": null
     }
   ],
   "users": [
