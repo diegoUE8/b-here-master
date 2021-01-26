@@ -457,7 +457,98 @@ var LabelPipe = /*#__PURE__*/function (_Pipe) {
 }(rxcomp.Pipe);
 LabelPipe.meta = {
   name: 'label'
-};var HttpService = /*#__PURE__*/function () {
+};var ControlsComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(ControlsComponent, _Component);
+
+  function ControlsComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  var _proto = ControlsComponent.prototype;
+
+  _proto.onInit = function onInit() {
+    console.log(this.group, this.fields);
+  };
+
+  _proto.getControl = function getControl(name) {
+    return this.group.get(name);
+  };
+
+  _createClass(ControlsComponent, [{
+    key: "group",
+    get: function get() {
+      if (this.formGroup) {
+        return this.formGroup;
+      } else {
+        if (!this.host) {
+          throw 'missing form collection';
+        }
+
+        return this.host.control;
+      }
+    }
+  }]);
+
+  return ControlsComponent;
+}(rxcomp.Component);
+ControlsComponent.meta = {
+  selector: '[controls]',
+  inputs: ['formGroup', 'fields'],
+  hosts: {
+    host: rxcompForm.FormAbstractCollectionDirective
+  },
+  template:
+  /* html */
+  "\n\t\t<div *for=\"let field of fields\">\n\t\t\t<div *if=\"['text', 'email', 'url'].indexOf(field.type) !== -1\" control-text [control]=\"getControl(field.name)\" [label]=\"field.label | label\"></div>\n\t\t\t<div *if=\"field.type == 'select'\" control-select [control]=\"getControl(field.name)\" [label]=\"field.label | label\"></div>\n\t\t\t<div *if=\"field.type == 'custom-select'\" control-custom-select [control]=\"getControl(field.name)\" [label]=\"field.label | label\"></div>\n\t\t\t<div *if=\"field.type == 'textarea'\" control-textarea [control]=\"getControl(field.name)\" [label]=\"field.label | label\"></div>\n\t\t\t<div *if=\"field.type == 'checkbox'\" control-checkbox [control]=\"getControl(field.name)\" [label]=\"field.label | label\"></div>\n\t\t\t<input *if=\"field.type == 'hidden'\" [name]=\"field.name\" [formControl]=\"getControl(field.name)\" value=\"\" type=\"text\" style=\"display:none !important;\" />\n\t\t</div>\n\t"
+};
+function fieldsToFormControls(fields) {
+  var controls = fields.reduce(function (p, c, i) {
+    var validators = [];
+
+    if (c.required) {
+      validators.push(c.type === 'checkbox' ? rxcompForm.Validators.RequiredTrueValidator() : rxcompForm.Validators.RequiredValidator());
+    }
+
+    if (c.type === 'email') {
+      validators.push(rxcompForm.Validators.EmailValidator());
+    }
+
+    if (c.type === 'url') {
+      validators.push(rxcompForm.Validators.PatternValidator('(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})'));
+    }
+
+    if (c.pattern != null) {
+      validators.push(rxcompForm.Validators.PatternValidator(c.pattern));
+    }
+
+    p[c.name] = new rxcompForm.FormControl(c.value || null, validators);
+
+    if (c.type === 'select' || c.type === 'custom-select') {
+      var options = (c.options || []).slice();
+      options.unshift({
+        id: null,
+        name: LabelPipe.transform('select')
+      });
+      p[c.name].options = options;
+    }
+
+    return p;
+  }, {});
+  return controls;
+}
+function fieldsToFormGroup(fields) {
+  return new rxcompForm.FormGroup(fieldsToFormControls(fields));
+}
+function patchFields(fields, form) {
+  var testValues = fields.reduce(function (p, c, i) {
+    if (c.test) {
+      p[c.name] = c.test;
+    }
+
+    return p;
+  }, {});
+  form.patch(testValues);
+}var HttpService = /*#__PURE__*/function () {
   function HttpService() {}
 
   HttpService.http$ = function http$(method, url, data, format) {
@@ -788,15 +879,6 @@ UserService.user$ = new rxjs.BehaviorSubject(null);var AccessComponent = /*#__PU
       this.formSubscription.unsubscribe();
     }
 
-    var form = this.form = new rxcompForm.FormGroup({
-      firstName: new rxcompForm.FormControl(null, rxcompForm.Validators.RequiredValidator()),
-      lastName: new rxcompForm.FormControl(null, rxcompForm.Validators.RequiredValidator()),
-      email: new rxcompForm.FormControl(null, [rxcompForm.Validators.RequiredValidator(), rxcompForm.Validators.EmailValidator()]),
-      role: new rxcompForm.FormControl(null, rxcompForm.Validators.RequiredValidator()),
-      privacy: new rxcompForm.FormControl(null, rxcompForm.Validators.RequiredTrueValidator()),
-      checkRequest: window.antiforgery || '',
-      checkField: ''
-    });
     var data = this.data = window.data || {
       roles: [{
         id: 1,
@@ -815,13 +897,68 @@ UserService.user$ = new rxjs.BehaviorSubject(null);var AccessComponent = /*#__PU
         name: 'Altro'
       }]
     };
-    var controls = this.controls = form.controls;
-    var options = data.roles.slice();
-    options.unshift({
-      id: null,
-      name: LabelPipe.transform('select')
+    var fields = this.fields = window.fields || [{
+      type: 'text',
+      name: 'firstName',
+      label: 'access_first_name',
+      required: true,
+      test: 'Jhon'
+    }, {
+      type: 'text',
+      name: 'lastName',
+      label: 'access_last_name',
+      required: true,
+      test: 'Appleseed'
+    }, {
+      type: 'email',
+      name: 'email',
+      label: 'access_email',
+      required: true,
+      test: 'jhonappleseed@gmail.com'
+    }, {
+      type: 'custom-select',
+      name: 'role',
+      label: 'access_role',
+      required: true,
+      options: window.data.roles,
+      test: window.data.roles[0].id
+    }, {
+      type: 'checkbox',
+      name: 'privacy',
+      label: 'access_privacy_disclaimer',
+      required: true,
+      test: true
+    }];
+    fields.push({
+      type: 'hidden',
+      name: 'checkField',
+      test: ''
+    }, {
+      type: 'none',
+      name: 'checkRequest',
+      value: window.antiforgery || '',
+      test: window.antiforgery || ''
     });
+    var form = this.form = fieldsToFormGroup(fields);
+    /*
+    const form = this.form = new FormGroup({
+    	firstName: new FormControl(null, Validators.RequiredValidator()),
+    	lastName: new FormControl(null, Validators.RequiredValidator()),
+    	email: new FormControl(null, [Validators.RequiredValidator(), Validators.EmailValidator()]),
+    	role: new FormControl(null, Validators.RequiredValidator()),
+    	privacy: new FormControl(null, Validators.RequiredTrueValidator()),
+    	checkRequest: window.antiforgery || '',
+    	checkField: '',
+    });
+    */
+
+    var controls = this.controls = form.controls;
+    /*
+    const options = data.roles.slice();
+    options.unshift({ id: null, name: LabelPipe.transform('select') });
     controls.role.options = options;
+    */
+
     this.formSubscription = form.changes$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (changes) {
       _this.pushChanges();
     });
@@ -857,17 +994,18 @@ UserService.user$ = new rxjs.BehaviorSubject(null);var AccessComponent = /*#__PU
         checkField: ''
       });
     } else {
+      patchFields(this.fields, this.form);
+      /*
       this.form.patch({
-        firstName: 'Jhon',
-        lastName: 'Appleseed',
-        email: 'jhonappleseed@gmail.com',
-        role: this.controls.role.options.find(function (x) {
-          return x.id !== null;
-        }).id,
-        privacy: true,
-        checkRequest: window.antiforgery || '',
-        checkField: ''
+      	firstName: 'Jhon',
+      	lastName: 'Appleseed',
+      	email: 'jhonappleseed@gmail.com',
+      	role: this.controls.role.options.find(x => x.id !== null).id,
+      	privacy: true,
+      	checkRequest: window.antiforgery || '',
+      	checkField: ''
       });
+      */
     }
   };
 
@@ -1556,8 +1694,8 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
           audio: this.audio_ ? {
             deviceId: this.audio_
           } : false
-        };
-        console.log('AgoraDevicePreviewComponent.initStream.getUserMedia', options);
+        }; // console.log('AgoraDevicePreviewComponent.initStream.getUserMedia', options);
+
         navigator.mediaDevices.getUserMedia(options).then(function (stream) {
           if (_this.hasPreview) {
             if ('srcObject' in preview) {
@@ -1765,7 +1903,8 @@ _defineProperty(MessageService, "in$", new rxjs.ReplaySubject(1));
 
 _defineProperty(MessageService, "send", MessageService.in);
 
-_defineProperty(MessageService, "out$", new rxjs.ReplaySubject(1));var StreamServiceMode = {
+_defineProperty(MessageService, "out$", new rxjs.ReplaySubject(1));var MAX_VISIBLE_STREAMS = 8;
+var StreamServiceMode = {
   Client: 'client',
   Editor: 'editor'
 };
@@ -1775,18 +1914,24 @@ var StreamService = /*#__PURE__*/function () {
 
   StreamService.orderedRemotes$ = function orderedRemotes$() {
     return rxjs.combineLatest([StreamService.remotes$, rxjs.interval(1000)]).pipe(operators.map(function (datas) {
-      var remotes = [];
-      datas[0].forEach(function (remote) {
+      var orderedRemotes = [];
+      var remotes = datas[0];
+      remotes.forEach(function (remote) {
         // const audioLevel = remote.getAudioLevel();
         // console.log('audioLevel', audioLevel, remote);
         if (remote.clientInfo) {
           remote.clientInfo.audioLevel = remote.getAudioLevel();
           remote.clientInfo.peekAudioLevel = Math.max(remote.clientInfo.audioLevel, 0.2);
+          /*
+          if (remote.clientInfo.screenUid !== remote.getId()) {
+          	orderedRemotes.push(remote);
+          }
+          */
         }
 
-        remotes.push(remote);
+        orderedRemotes.push(remote);
       });
-      remotes.sort(function (a, b) {
+      orderedRemotes.sort(function (a, b) {
         if (a.clientInfo && b.clientInfo) {
           if (a.clientInfo.role === RoleType.Publisher) {
             return -1;
@@ -1800,14 +1945,14 @@ var StreamService = /*#__PURE__*/function () {
           return 0;
         }
       });
-      remotes.forEach(function (remote, i) {
+      orderedRemotes.forEach(function (remote, i) {
         if (remote.clientInfo) {
           remote.clientInfo.order = i;
         }
-      }); // !!! hard limit max 8 visible stream
+      }); // !!! hard limit max visible stream
 
-      remotes.length = Math.min(remotes.length, 8);
-      return remotes;
+      orderedRemotes.length = Math.min(orderedRemotes.length, MAX_VISIBLE_STREAMS);
+      return orderedRemotes;
     }), operators.distinctUntilChanged(function (a, b) {
       return a.map(function (remote) {
         return remote.clientInfo ? remote.clientInfo.uid : '';
@@ -1817,7 +1962,7 @@ var StreamService = /*#__PURE__*/function () {
     }));
   };
 
-  StreamService.editorStreams$ = function editorStreams$() {
+  StreamService.getEditorStreams$ = function getEditorStreams$() {
     var _this = this;
 
     return rxjs.of(null).pipe(operators.switchMap(function () {
@@ -1848,7 +1993,8 @@ var StreamService = /*#__PURE__*/function () {
                 return 'editor';
               },
               clientInfo: {
-                role: RoleType.Publisher
+                role: RoleType.Publisher,
+                uid: 'editor'
               }
             };
             var fakeAttendeeStream = {
@@ -1856,11 +2002,12 @@ var StreamService = /*#__PURE__*/function () {
                 return 'editor';
               },
               clientInfo: {
-                role: RoleType.Attendee
+                role: RoleType.Attendee,
+                uid: 'editor'
               }
             };
 
-            _this.editor$.next([fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream]); // StreamService.editor = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
+            _this.editorStreams$.next([fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream]); // StreamService.editorStreams = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
 
           };
 
@@ -1870,12 +2017,70 @@ var StreamService = /*#__PURE__*/function () {
         });
       }
 
-      return _this.editor$;
+      return _this.editorStreams$;
+    }), operators.shareReplay(1));
+  };
+
+  StreamService.getEditorScreens$ = function getEditorScreens$() {
+    var _this2 = this;
+
+    return rxjs.of(null).pipe(operators.switchMap(function () {
+      if (navigator.mediaDevices && navigator.mediaDevices.getDisplayMedia && _this2.mode === StreamServiceMode.Editor) {
+        var body = document.querySelector('body');
+        var media = document.createElement('div');
+        var video = document.createElement('video');
+        media.setAttribute('id', 'stream-editor-screen');
+        media.setAttribute('style', 'position:absolute; top: 5000px; line-height: 0;');
+        media.appendChild(video);
+        body.appendChild(media);
+        navigator.mediaDevices.getDisplayMedia({
+          screen: {
+            width: 800,
+            height: 450
+          }
+        }).then(function (stream) {
+          // console.log(stream);
+          if ('srcObject' in video) {
+            video.srcObject = stream;
+          } else {
+            video.src = window.URL.createObjectURL(stream);
+          }
+
+          video.oncanplay = function () {
+            var fakePublisherScreen = {
+              getId: function getId() {
+                return 'editor-screen';
+              },
+              clientInfo: {
+                role: RoleType.Publisher,
+                uid: 'editor-screen_'
+              }
+            };
+            var fakeAttendeeScreen = {
+              getId: function getId() {
+                return 'editor-screen';
+              },
+              clientInfo: {
+                role: RoleType.Attendee,
+                uid: 'editor-screen_'
+              }
+            };
+
+            _this2.editorScreens$.next([fakePublisherScreen, fakeAttendeeScreen]);
+          };
+
+          video.play();
+        }).catch(function (error) {
+          console.log('EditorComponent.getUserMedia.error', error.name, error.message);
+        });
+      }
+
+      return _this2.editorScreens$;
     }), operators.shareReplay(1));
   };
 
   StreamService.getPublisherStreamId$ = function getPublisherStreamId$() {
-    var _this2 = this;
+    var _this3 = this;
 
     var publisherStreamId = this.publisherStreamId;
 
@@ -1883,7 +2088,7 @@ var StreamService = /*#__PURE__*/function () {
       return rxjs.of(publisherStreamId);
     } else {
       return this.streams$.pipe(operators.map(function () {
-        return _this2.publisherStreamId;
+        return _this3.publisherStreamId;
       }), operators.filter(function (x) {
         return x;
       }));
@@ -1902,13 +2107,58 @@ var StreamService = /*#__PURE__*/function () {
     }
   };
 
+  StreamService.remoteAdd = function remoteAdd(stream) {
+    var remotes = this.remotes.slice();
+    remotes.push(stream);
+    this.remotes = remotes;
+  };
+
+  StreamService.remoteRemove = function remoteRemove(streamId) {
+    var remotes = this.remotes.slice();
+    var remote = remotes.find(function (x) {
+      return x.getId() === streamId;
+    }); // console.log('StreamService.remoteRemove', streamId, remote);
+
+    if (remote) {
+      if (remote.isPlaying()) {
+        remote.stop();
+      }
+
+      remotes.splice(remotes.indexOf(remote), 1);
+      this.remotes = remotes;
+    }
+
+    return remote;
+  };
+
+  StreamService.remoteSetClientInfo = function remoteSetClientInfo(remoteId, clientInfo) {
+    var remotes = this.remotes;
+    var remote = remotes.find(function (x) {
+      return x.getId() === remoteId;
+    });
+
+    if (remote) {
+      remote.clientInfo = clientInfo;
+    }
+
+    this.remotes = remotes;
+  };
+
   _createClass(StreamService, null, [{
-    key: "editor",
-    set: function set(editor) {
-      this.editor$.next(editor);
+    key: "editorStreams",
+    set: function set(editorStreams) {
+      this.editorStreams$.next(editorStreams);
     },
     get: function get() {
-      return this.editor$.getValue();
+      return this.editorStreams$.getValue();
+    }
+  }, {
+    key: "editorScreens",
+    set: function set(editorScreens) {
+      this.editorScreens$.next(editorScreens);
+    },
+    get: function get() {
+      return this.editorScreens$.getValue();
     }
   }, {
     key: "local",
@@ -1917,6 +2167,14 @@ var StreamService = /*#__PURE__*/function () {
     },
     get: function get() {
       return this.local$.getValue();
+    }
+  }, {
+    key: "screen",
+    set: function set(screen) {
+      this.screen$.next(screen);
+    },
+    get: function get() {
+      return this.screen$.getValue();
     }
   }, {
     key: "remotes",
@@ -1961,30 +2219,52 @@ var StreamService = /*#__PURE__*/function () {
 
 _defineProperty(StreamService, "mode", StreamServiceMode.Client);
 
-_defineProperty(StreamService, "editor$", new rxjs.BehaviorSubject(null));
+_defineProperty(StreamService, "editorStreams$", new rxjs.BehaviorSubject(null));
+
+_defineProperty(StreamService, "editorScreens$", new rxjs.BehaviorSubject(null));
 
 _defineProperty(StreamService, "local$", new rxjs.BehaviorSubject(null));
+
+_defineProperty(StreamService, "screen$", new rxjs.BehaviorSubject(null));
 
 _defineProperty(StreamService, "remotes$", new rxjs.BehaviorSubject([]));
 
 _defineProperty(StreamService, "peers$", new rxjs.BehaviorSubject([]));
 
-_defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.local$, StreamService.remotes$, StreamService.editorStreams$()]).pipe(operators.map(function (data) {
+_defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.local$, StreamService.screen$, StreamService.remotes$, StreamService.getEditorStreams$(), StreamService.getEditorScreens$()]).pipe(operators.map(function (data) {
   var local = data[0];
-  var remotes = data[1];
-  var editor = data[2];
+  var screen = data[1];
+  var remotes = data[2];
+  var editorStreams = data[3];
+  var editorScreens = data[4];
   var streams = remotes;
 
   if (local) {
+    // my stream
     streams = streams.slice();
     streams.push(local);
   }
 
-  if (editor) {
+  if (screen) {
+    // my screen
+    streams = streams.slice();
+    streams.push(screen);
+  }
+
+  if (editorStreams) {
     var _streams;
 
-    (_streams = streams).push.apply(_streams, editor);
+    // editor streams
+    (_streams = streams).push.apply(_streams, editorStreams);
   }
+
+  if (editorScreens) {
+    var _streams2;
+
+    // editor screens
+    (_streams2 = streams).push.apply(_streams2, editorScreens);
+  } // console.log('StreamService.streams$', streams, local, screen, remotes);
+
 
   return streams;
 }), operators.shareReplay(1)));var AgoraService = /*#__PURE__*/function (_Emittable) {
@@ -2266,22 +2546,22 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       clientInit();
     }
 
+    client.on('error', this.onError);
     client.on('stream-published', this.onStreamPublished);
     client.on('stream-unpublished', this.onStreamUnpublished); //subscribe remote stream
 
     client.on('stream-added', this.onStreamAdded);
+    client.on('stream-removed', this.onStreamRemoved);
     client.on('stream-subscribed', this.onStreamSubscribed);
     client.on('mute-video', this.onMuteVideo);
     client.on('unmute-video', this.onUnmuteVideo);
     client.on('mute-audio', this.onMuteAudio);
     client.on('unmute-audio', this.onUnmuteAudio);
 
-    client.on('error', this.onError);
     client.on('peer-online', this.onPeerConnect); // Occurs when the peer user leaves the channel; for example, the peer user calls Client.leave.
 
     client.on('peer-leave', this.onPeerLeaved); // client.on('connection-state-change', this.onConnectionStateChange);
 
-    client.on('stream-removed', this.onStreamRemoved);
     client.on('onTokenPrivilegeWillExpire', this.onTokenPrivilegeWillExpire);
     client.on('onTokenPrivilegeDidExpire', this.onTokenPrivilegeDidExpire); // console.log('agora rtm sdk version: ' + AgoraRTM.VERSION + ' compatible');
 
@@ -2632,7 +2912,8 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     local.clientInfo = {
       role: StateService.state.role,
       name: StateService.state.name,
-      uid: StateService.state.uid
+      uid: StateService.state.uid,
+      screenUid: StateService.state.screenUid
     };
     StreamService.local = local;
   };
@@ -2657,13 +2938,25 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       connecting: false
     });
     this.unpublishLocalStream();
+    this.unpublishScreenStream();
     StreamService.remotes = [];
     StreamService.peers = [];
     return new Promise(function (resolve, reject) {
       _this9.leaveMessageChannel().then(function () {
-        var client = _this9.client;
+        return Promise.all([_this9.leaveClient(), _this9.leaveScreenClient()]);
+      }, reject);
+    });
+  };
+
+  _proto.leaveClient = function leaveClient() {
+    var _this10 = this;
+
+    return new Promise(function (resolve, reject) {
+      var client = _this10.client;
+
+      if (client) {
         client.leave(function () {
-          _this9.client = null; // console.log('Leave channel successfully');
+          _this10.client = null; // console.log('Leave channel successfully');
 
           if (environment.flags.useProxy) {
             client.stopProxyServer();
@@ -2671,26 +2964,28 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
 
           resolve();
         }, function (error) {
-          console.log('AgoraService.leaveChannel.error', error);
+          console.log('AgoraService.leaveClient.error', error);
           reject(error);
         });
-      }, reject);
+      } else {
+        resolve();
+      }
     });
   };
 
   _proto.leaveMessageChannel = function leaveMessageChannel() {
-    var _this10 = this;
+    var _this11 = this;
 
     return new Promise(function (resolve, reject) {
       {
-        _this10.unobserveMemberCount();
+        _this11.unobserveMemberCount();
 
-        var channel = _this10.channel;
-        var messageClient = _this10.messageClient;
+        var channel = _this11.channel;
+        var messageClient = _this11.messageClient;
         channel.leave().then(function () {
-          _this10.channel = null;
+          _this11.channel = null;
           messageClient.logout().then(function () {
-            _this10.messageClient = null;
+            _this11.messageClient = null;
             resolve();
           }, reject);
         }, reject);
@@ -2747,7 +3042,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.toggleControl = function toggleControl() {
-    var _this11 = this;
+    var _this12 = this;
 
     if (StateService.state.control) {
       this.sendRemoteControlDismiss().then(function (control) {
@@ -2763,7 +3058,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
           spying: false
         });
 
-        _this11.sendRemoteControlRequest().then(function (control) {
+        _this12.sendRemoteControlRequest().then(function (control) {
           // console.log('AgoraService.sendRemoteControlRequest', control);
           StateService.patchState({
             control: control
@@ -2781,7 +3076,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.toggleSpy = function toggleSpy(remoteId) {
-    var _this12 = this;
+    var _this13 = this;
 
     if (StateService.state.control) {
       this.sendRemoteControlDismiss().then(function (control) {
@@ -2789,7 +3084,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
           control: false
         });
 
-        _this12.sendSpyRemoteRequestInfo(remoteId).then(function (info) {
+        _this13.sendSpyRemoteRequestInfo(remoteId).then(function (info) {
           StateService.patchState({
             spying: remoteId
           });
@@ -2800,7 +3095,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         // console.log('AgoraService.sendRemoteInfoDismiss', spying);
         // StateService.patchState({ spying: !spying });
         if (StateService.state.spying !== remoteId) {
-          _this12.sendSpyRemoteRequestInfo(remoteId).then(function (info) {
+          _this13.sendSpyRemoteRequestInfo(remoteId).then(function (info) {
             StateService.patchState({
               spying: remoteId
             });
@@ -2825,12 +3120,12 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendRemoteControlDismiss = function sendRemoteControlDismiss() {
-    var _this13 = this;
+    var _this14 = this;
 
     return new Promise(function (resolve, reject) {
-      _this13.sendMessage({
+      _this14.sendMessage({
         type: MessageType.RequestControlDismiss,
-        messageId: _this13.newMessageId()
+        messageId: _this14.newMessageId()
       }).then(function (message) {
         // console.log('AgoraService.sendRemoteControlDismiss return', message);
         if (message.type === MessageType.RequestControlDismissed) {
@@ -2843,12 +3138,12 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendRemoteControlRequest = function sendRemoteControlRequest() {
-    var _this14 = this;
+    var _this15 = this;
 
     return new Promise(function (resolve, reject) {
-      _this14.sendMessage({
+      _this15.sendMessage({
         type: MessageType.RequestControl,
-        messageId: _this14.newMessageId()
+        messageId: _this15.newMessageId()
       }).then(function (message) {
         // console.log('AgoraService.sendRemoteControlRequest.response', message);
         if (message.type === MessageType.RequestControlAccepted) {
@@ -2862,13 +3157,13 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendRemoteRequestPeerInfo = function sendRemoteRequestPeerInfo(remoteId) {
-    var _this15 = this;
+    var _this16 = this;
 
     // console.log('AgoraService.sendRemoteRequestPeerInfo', remoteId);
     return new Promise(function (resolve, reject) {
-      _this15.sendMessage({
+      _this16.sendMessage({
         type: MessageType.RequestPeerInfo,
-        messageId: _this15.newMessageId(),
+        messageId: _this16.newMessageId(),
         remoteId: remoteId
       }).then(function (message) {
         // console.log('AgoraService.sendRemoteRequestPeerInfo.response', message);
@@ -2881,7 +3176,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
             if (message.clientInfo.control === true) {
               state.locked = true;
 
-              _this15.sendControlRemoteRequestInfo(message.clientInfo.uid);
+              _this16.sendControlRemoteRequestInfo(message.clientInfo.uid);
             }
 
             StateService.patchState(state);
@@ -2894,13 +3189,13 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendControlRemoteRequestInfo = function sendControlRemoteRequestInfo(remoteId) {
-    var _this16 = this;
+    var _this17 = this;
 
     // console.log('AgoraService.sendControlRemoteRequestInfo', remoteId);
     return new Promise(function (resolve, reject) {
-      _this16.sendMessage({
+      _this17.sendMessage({
         type: MessageType.RequestInfo,
-        messageId: _this16.newMessageId(),
+        messageId: _this17.newMessageId(),
         remoteId: remoteId
       }).then(function (message) {
         if (message.type === MessageType.RequestInfoResult) {
@@ -2911,12 +3206,12 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendSpyRemoteRequestInfo = function sendSpyRemoteRequestInfo(remoteId) {
-    var _this17 = this;
+    var _this18 = this;
 
     return new Promise(function (resolve, reject) {
-      _this17.sendMessage({
+      _this18.sendMessage({
         type: MessageType.RequestInfo,
-        messageId: _this17.newMessageId(),
+        messageId: _this18.newMessageId(),
         remoteId: remoteId
       }).then(function (message) {
         // console.log('AgoraService.sendSpyRemoteRequestInfo.response', message);
@@ -2931,12 +3226,12 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendRemoteInfoDismiss = function sendRemoteInfoDismiss(remoteId) {
-    var _this18 = this;
+    var _this19 = this;
 
     return new Promise(function (resolve, reject) {
-      _this18.sendMessage({
+      _this19.sendMessage({
         type: MessageType.RequestInfoDismiss,
-        messageId: _this18.newMessageId(),
+        messageId: _this19.newMessageId(),
         remoteId: remoteId
       }).then(function (message) {
         // console.log('AgoraService.sendRemoteInfoDismiss.response', message);
@@ -2978,7 +3273,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.sendMessage = function sendMessage(message) {
-    var _this19 = this;
+    var _this20 = this;
 
     return new Promise(function (resolve, reject) {
       if (StateService.state.connected) {
@@ -3003,7 +3298,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
             var text = JSON.stringify(message);
 
             if (message.messageId) {
-              _this19.once("message-" + message.messageId, function (message) {
+              _this20.once("message-" + message.messageId, function (message) {
                 resolve(message);
               });
             } // console.log('AgoraService.sendMessage.sending', message.type);
@@ -3024,13 +3319,13 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
           }
         };
 
-        var channel = _this19.channel;
+        var channel = _this20.channel;
 
         if (channel) {
           send(message, channel);
         } else {
           try {
-            _this19.once("channel", function (channel) {
+            _this20.once("channel", function (channel) {
               send(message, channel);
             });
           } catch (error) {
@@ -3117,7 +3412,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       } // discard message delivered to specific remoteId when differs from current state uid;
 
 
-      if (message.remoteId && message.remoteId !== StateService.state.uid) {
+      if (message.remoteId && message.remoteId !== StateService.state.uid && message.remoteId !== StateService.state.screenUid) {
         return;
       } // !!! check position !!!
 
@@ -3148,7 +3443,8 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     local.clientInfo = {
       role: StateService.state.role,
       name: StateService.state.name,
-      uid: StateService.state.uid
+      uid: StateService.state.uid,
+      screenUid: StateService.state.screenUid
     };
     StreamService.local = local;
   };
@@ -3168,8 +3464,8 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
 
     var streamId = stream.getId();
 
-    if (streamId !== StateService.state.uid) {
-      // console.log('AgoraService.onStreamAdded', streamId, StateService.state.uid);
+    if (streamId !== StateService.state.uid && streamId !== StateService.state.screenUid) {
+      // console.log('AgoraService.onStreamAdded', streamId, StateService.state.uid, StateService.state.screenUid);
       client.subscribe(stream, function (error) {
         console.log('AgoraService.onStreamAdded.subscribe.error', error);
       });
@@ -3180,7 +3476,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     var stream = event.stream;
     var streamId = stream.getId();
 
-    if (streamId !== StateService.state.uid) {
+    if (streamId !== StateService.state.uid && streamId !== StateService.state.screenUid) {
       // !!! this happen on oculus removed timeout
       // console.log('AgoraService.onStreamRemoved', streamId);
       this.remoteRemove(streamId);
@@ -3205,6 +3501,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       var remote = this.remoteRemove(clientId);
 
       if (remote.clientInfo) {
+        // !!! remove screenRemote?
         if (remote.clientInfo.role === RoleType.Publisher) {
           StateService.patchState({
             hosted: false,
@@ -3251,47 +3548,24 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
 
   _proto.remoteAdd = function remoteAdd(stream) {
     // console.log('AgoraService.remoteAdd', stream);
-    var remotes = StreamService.remotes;
-    remotes.push(stream);
-    StreamService.remotes = remotes;
+    StreamService.remoteAdd(stream);
     this.broadcastEvent(new AgoraRemoteEvent({
       stream: stream
     }));
     var remoteId = stream.getId();
     this.sendRemoteRequestPeerInfo(remoteId).then(function (message) {
-      var remotes = StreamService.remotes;
-      var remote = remotes.find(function (x) {
-        return x.getId() === remoteId;
-      });
-
-      if (remote) {
-        remote.clientInfo = message.clientInfo;
-      }
-
-      StreamService.remotes = remotes;
+      StreamService.remoteSetClientInfo(remoteId, message.clientInfo);
     });
   };
 
   _proto.remoteRemove = function remoteRemove(streamId) {
     // console.log('AgoraService.remoteRemove', streamId);
-    var remotes = StreamService.remotes;
-    var remote = remotes.find(function (x) {
-      return x.getId() === streamId;
-    });
+    var remote = StreamService.remoteRemove(streamId);
 
-    if (remote) {
-      if (remote.isPlaying()) {
-        remote.stop();
-      }
-
-      remotes.splice(remotes.indexOf(remote), 1);
-      StreamService.remotes = remotes;
-
-      if (remote.clientInfo && remote.clientInfo.role === RoleType.Publisher) {
-        StateService.patchState({
-          hosted: false
-        });
-      }
+    if (remote && remote.clientInfo && remote.clientInfo.role === RoleType.Publisher && remote.clientInfo.screenUid !== streamId) {
+      StateService.patchState({
+        hosted: false
+      });
     }
 
     return remote;
@@ -3364,6 +3638,207 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         console.log('AgoraService.onTokenPrivilegeDidExpire.renewed');
       }
     });
+  } // screen
+  ;
+
+  _proto.toggleScreen = function toggleScreen() {
+    var _this21 = this;
+
+    var screen = StreamService.screen;
+
+    if (screen) {
+      this.unpublishScreenStream();
+    } else {
+      if (this.screenClient) {
+        this.createScreenStream(StateService.state.screenUid);
+      } else {
+        this.createScreenClient(function () {
+          var channelNameLink = _this21.getChannelNameLink();
+
+          _this21.rtcToken$(channelNameLink).subscribe(function (token) {
+            // console.log('AgoraService.rtcToken$', token);
+            _this21.screenJoin(token.token, channelNameLink);
+          });
+        });
+      }
+    } // console.log(screen);
+
+  };
+
+  _proto.createScreenClient = function createScreenClient(next) {
+    var _this22 = this;
+
+    if (this.screenClient) {
+      next();
+    }
+
+    var screenClient = this.screenClient = AgoraRTC.createClient({
+      mode: 'live',
+      codec: 'h264'
+    }); // rtc, vp8
+
+    var clientInit = function clientInit() {
+      if (environment.flags.useProxy) {
+        screenClient.startProxyServer();
+      }
+
+      screenClient.init(environment.appKey, function () {
+        // console.log('AgoraRTC screenClient initialized');
+        next();
+      }, function (error) {
+        // console.log('AgoraRTC client init failed', error);
+        _this22.screenClient = null;
+      });
+    };
+
+    clientInit();
+    screenClient.on('error', this.onScreenError);
+    screenClient.on('stream-published', this.onScreenStreamPublished);
+    screenClient.on('stream-unpublished', this.onScreenStreamUnpublished); // only for remotes
+    // screenClient.on('stream-added', this.onScreenStreamAdded);
+    // screenClient.on('stream-removed', this.onScreenStreamRemoved);
+    // screenClient.on('stream-subscribed', this.onScreenStreamSubscribed);
+    // screenClient.on('peer-online', this.onScreenPeerConnect);
+    // screenClient.on('peer-leave', this.onScreenPeerLeaved);
+    // screenClient.on('onTokenPrivilegeWillExpire', this.onScreenTokenPrivilegeWillExpire);
+    // screenClient.on('onTokenPrivilegeDidExpire', this.onScreenTokenPrivilegeDidExpire);
+  };
+
+  _proto.screenJoin = function screenJoin(token, channelNameLink) {
+    var _this23 = this;
+
+    var screenClient = this.screenClient;
+    var screenClientId = null; // console.log('AgoraService.join', { token, channelNameLink, screenClientId });
+
+    screenClient.join(token, channelNameLink, screenClientId, function (uid) {
+      // console.log('AgoraService.join', uid);
+      StateService.patchState({
+        screenUid: uid
+      });
+
+      _this23.createScreenStream(uid);
+    }, function (error) {
+      console.log('AgoraService.screenJoin.error', error);
+
+      if (error === 'DYNAMIC_KEY_EXPIRED') {
+        _this23.rtcToken$(channelNameLink).subscribe(function (token) {
+          _this23.screenJoin(token.token, channelNameLink);
+        });
+      }
+    });
+  };
+
+  _proto.createScreenStream = function createScreenStream(screenUid) {
+    var _this24 = this;
+
+    var options = {
+      streamID: screenUid,
+      audio: false,
+      video: false,
+      screen: true
+    };
+    /*
+    // Set relevant properties according to the browser.
+    // Note that you need to implement isFirefox and isCompatibleChrome.
+    if (isFirefox()) {
+    	options.mediaSource = 'window';
+    } else if (!isCompatibleChrome()) {
+    	options.extensionId = 'minllpmhdgpndnkomcoccfekfegnlikg';
+    }
+    */
+
+    var quality = Object.assign({}, StateService.state.quality);
+    var stream = AgoraRTC.createStream(options);
+
+    if (quality) {
+      stream.setScreenProfile('720p_1'); // stream.setVideoProfile(quality.profile);
+      // stream.setVideoEncoderConfiguration(quality);
+    } // Initialize the stream.
+
+
+    stream.init(function () {
+      StreamService.screen = stream;
+      setTimeout(function () {
+        _this24.publishScreenStream();
+      }, 1);
+    }, function (error) {
+      console.log('AgoraService.createScreenStream.screen.init.error', error);
+    });
+  };
+
+  _proto.publishScreenStream = function publishScreenStream() {
+    var screenClient = this.screenClient;
+    var screen = StreamService.screen; // publish screen stream
+
+    screenClient.publish(screen, function (error) {
+      console.log('AgoraService.publishScreenStream.error', screen.getId(), error);
+    });
+    screen.clientInfo = {
+      role: StateService.state.role,
+      name: StateService.state.name,
+      uid: StateService.state.uid,
+      screenUid: StateService.state.screenUid
+    };
+    StreamService.screen = screen;
+  };
+
+  _proto.unpublishScreenStream = function unpublishScreenStream() {
+    var screenClient = this.screenClient;
+    var screen = StreamService.screen; // console.log('AgoraService.unpublishScreenStream', screen, screenClient);
+
+    if (screenClient && screen) {
+      screenClient.unpublish(screen, function (error) {
+        console.log('AgoraService.unpublishScreenStream.error', screen.getId(), error);
+      });
+    }
+
+    StreamService.screen = null;
+  };
+
+  _proto.leaveScreenClient = function leaveScreenClient() {
+    var _this25 = this;
+
+    return new Promise(function (resolve, reject) {
+      var screenClient = _this25.screenClient;
+
+      if (screenClient) {
+        screenClient.leave(function () {
+          _this25.screenClient = null; // console.log('Leave channel successfully');
+
+          if (environment.flags.useProxy) {
+            screenClient.stopProxyServer();
+          }
+
+          resolve();
+        }, function (error) {
+          console.log('AgoraService.leaveScreenClient.error', error);
+          reject(error);
+        });
+      } else {
+        resolve();
+      }
+    });
+  };
+
+  _proto.onScreenError = function onScreenError(error) {
+    console.log('AgoraService.onScreenError', error);
+  };
+
+  _proto.onScreenStreamPublished = function onScreenStreamPublished(event) {
+    // console.log('AgoraService.onScreenStreamPublished');
+    var screen = StreamService.screen;
+    screen.clientInfo = {
+      role: StateService.state.role,
+      name: StateService.state.name,
+      uid: StateService.state.uid,
+      screenUid: StateService.state.screenUid
+    };
+    StreamService.screen = screen;
+  };
+
+  _proto.onScreenStreamUnpublished = function onScreenStreamUnpublished(event) {
+    // console.log('AgoraService.onScreenStreamUnpublished');
+    StreamService.screen = null;
   };
 
   return AgoraService;
@@ -4275,13 +4750,41 @@ var View = /*#__PURE__*/function () {
 
   _proto.updateIndices = function updateIndices(items) {
     if (items) {
-      var nextAttendeeStreamIndex = 0;
+      var publisherStreamIndex = 0;
+      var attendeeStreamIndex = 0;
+      var publisherScreenIndex = 0;
+      var attendeeScreenIndex = 0;
       items.forEach(function (item, index) {
         item.index = index;
 
-        if (item.asset && item.asset.file === 'nextAttendeeStream') {
-          item.asset.index = nextAttendeeStreamIndex++;
+        if (item.asset) {
+          switch (item.asset.file) {
+            case 'publisherStream':
+              item.asset.index = publisherStreamIndex++;
+              break;
+
+            case 'nextAttendeeStream':
+              item.asset.index = attendeeStreamIndex++;
+              break;
+
+            case 'publisherScreen':
+              item.asset.index = publisherScreenIndex++;
+              break;
+
+            case 'attendeeScreen':
+              item.asset.index = attendeeScreenIndex++;
+              break;
+          }
         }
+        /*
+        if (item.asset && item.asset.file === 'publisherStream') {
+        	item.asset.index = publisherStreamIndex++;
+        }
+        if (item.asset && item.asset.file === 'nextAttendeeStream') {
+        	item.asset.index = attendeeStreamIndex++;
+        }
+        */
+
       });
     }
   };
@@ -4927,6 +5430,7 @@ var VRService = /*#__PURE__*/function () {
     this.view = null;
     this.form = null;
     this.local = null;
+    this.screen = null;
     this.remotes = [];
     var vrService = this.vrService = VRService.getService();
     vrService.status$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (status) {
@@ -5072,6 +5576,12 @@ var VRService = /*#__PURE__*/function () {
 
       _this5.pushChanges();
     });
+    StreamService.screen$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (screen) {
+      // console.log('AgoraComponent.screen', screen);
+      _this5.screen = screen;
+
+      _this5.pushChanges();
+    });
     StreamService.orderedRemotes$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (remotes) {
       // console.log('AgoraComponent.remotes', remotes);
       _this5.remotes = remotes;
@@ -5087,6 +5597,7 @@ var VRService = /*#__PURE__*/function () {
             role: StateService.state.role,
             name: StateService.state.name,
             uid: StateService.state.uid,
+            screenUid: StateService.state.screenUid,
             control: StateService.state.control
           };
           MessageService.sendBack(message);
@@ -5285,7 +5796,17 @@ var VRService = /*#__PURE__*/function () {
     }
   };
 
-  _proto.onToggleVolume = function onToggleVolume() {
+  _proto.toggleScreen = function toggleScreen() {
+    if (this.agora) {
+      this.agora.toggleScreen();
+    } else {
+      this.patchState({
+        screen: !this.state.screen
+      });
+    }
+  };
+
+  _proto.toggleVolume = function toggleVolume() {
     var volumeMuted = !this.state.volumeMuted;
     StateService.patchState({
       volumeMuted: volumeMuted
@@ -5421,13 +5942,27 @@ var AssetType = {
   // fbx, gltf, glb, usdz ...
   PublisherStream: {
     id: 4,
-    name: 'publisher-stream'
+    name: 'publisher-stream',
+    file: 'publisherStream'
   },
   // valore fisso di file a ‘publisherStream’ e folder string.empty
-  NextAttendeeStream: {
+  AttendeeStream: {
     id: 5,
-    name: 'next-attendee-stream'
-  } // valore fisso di file a ‘nextAttendeeStream’ e folder string.empty
+    name: 'next-attendee-stream',
+    file: 'nextAttendeeStream'
+  },
+  // valore fisso di file a ‘nextAttendeeStream’ e folder string.empty
+  PublisherScreen: {
+    id: 6,
+    name: 'publisher-screen',
+    file: 'publisherScreen'
+  },
+  // valore fisso di file a ‘publisherScreen’ e folder string.empty
+  AttendeeScreen: {
+    id: 7,
+    name: 'attendee-screen',
+    file: 'attendeeScreen'
+  } // valore fisso di file a ‘attendeeScreen’ e folder string.empty
 
 };
 var AssetGroupType = {
@@ -5446,8 +5981,36 @@ var AssetGroupType = {
     id: 4,
     name: 'Attendee',
     ids: [5]
+  },
+  PublisherScreen: {
+    id: 5,
+    name: 'PublisherScreen',
+    ids: [6]
+  },
+  AttendeeScreen: {
+    id: 6,
+    name: 'AttendeeScreen',
+    ids: [7]
   }
 };
+var STREAM_TYPES = [AssetType.PublisherStream.name, AssetType.AttendeeStream.name, AssetType.PublisherScreen.name, AssetType.AttendeeScreen.name];
+function assetIsStream(asset) {
+  return asset && STREAM_TYPES.indexOf(asset.type.name) !== -1;
+}
+function assetTypeById(id) {
+  var type = Object.keys(AssetType).reduce(function (p, key) {
+    var type = AssetType[key];
+    return type.id === id ? type : p;
+  }, null);
+  return type; // return Object.keys(AssetType).map(x => AssetType[x]).find(x => x.id === id);
+}
+function assetGroupTypeById(id) {
+  var type = Object.keys(AssetGroupType).reduce(function (p, key) {
+    var type = AssetGroupType[key];
+    return type.id === id ? type : p;
+  }, null);
+  return type; // return Object.keys(AssetGroupType).map(x => AssetGroupType[x]).find(x => x.id === id);
+}
 function assetGroupTypeFromItem(item) {
   var key;
 
@@ -5461,13 +6024,17 @@ function assetGroupTypeFromItem(item) {
   return AssetGroupType[key || 'ImageOrVideo'];
 }
 function assetPayloadFromGroupTypeId(groupTypeId) {
-  var type = groupTypeId === AssetGroupType.Publisher.id ? AssetType.PublisherStream : AssetType.NextAttendeeStream;
-  var file = groupTypeId === AssetGroupType.Publisher.id ? 'publisherStream' : 'nextAttendeeStream';
+  var groupType = assetGroupTypeById(groupTypeId);
+  var type = assetTypeById(groupType.ids[0]);
+  var file = type.file; // const type = groupTypeId === AssetGroupType.Publisher.id ? AssetType.PublisherStream : AssetType.AttendeeStream;
+  // const file = groupTypeId === AssetGroupType.Publisher.id ? 'publisherStream' : 'nextAttendeeStream';
+
   var asset = {
     type: type,
     folder: '',
     file: file
   };
+  console.log('assetPayloadFromGroupTypeId', asset);
   return new Asset(asset);
 }
 function assetTypeFromPath(path) {
@@ -5530,7 +6097,7 @@ function mapAsset(asset) {
 }var MIME_IMAGE = ['bmp', 'gif', 'ico', 'jpeg', 'jpg', 'png', 'svg', 'tif', 'tiff', 'webp'];
 var MIME_VIDEO = ['mp4', 'avi', 'mpeg', 'ogv', 'ts', 'webm', '3gp', '3g2'];
 var MIME_MODEL = ['fbx', 'gltf', 'glb', 'obj', 'usdz'];
-var MIME_STREAM = ['publisherStream', 'nextAttendeeStream'];
+var MIME_STREAM = ['publisherStream', 'nextAttendeeStream', 'publisherScreen', 'attendeeScreen'];
 function isImage(path) {
   return new RegExp("/.(" + MIME_IMAGE.join('|') + ")$/i").test(path);
 }
@@ -5576,7 +6143,9 @@ var AssetPipe = /*#__PURE__*/function (_Pipe) {
           break;
 
         case AssetType.PublisherStream.name:
-        case AssetType.NextAttendeeStream.name:
+        case AssetType.AttendeeStream.name:
+        case AssetType.PublisherScreen.name:
+        case AssetType.AttendeeScreen.name:
           asset = environment.getPath(asset.file);
           break;
 
@@ -6292,53 +6861,47 @@ AsideComponent.meta = {
     });
     this.loadView();
     StreamService.mode = StreamServiceMode.Editor; // this.getUserMedia();
-  };
-
-  _proto.getUserMedia = function getUserMedia() {
-    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-      var body = document.querySelector('body');
-      var media = document.createElement('div');
-      var video = document.createElement('video');
-      media.setAttribute('id', 'stream-editor');
-      media.setAttribute('style', 'position:absolute; top: 5000px; line-height: 0;');
-      media.appendChild(video);
-      body.appendChild(media);
-      navigator.mediaDevices.getUserMedia({
-        video: {
-          width: 800,
-          height: 450
-        }
-      }).then(function (stream) {
-        // console.log(stream);
-        if ('srcObject' in video) {
-          video.srcObject = stream;
-        } else {
-          video.src = window.URL.createObjectURL(stream);
-        }
-
-        video.play();
-        var fakePublisherStream = {
-          getId: function getId() {
-            return 'editor';
-          },
-          clientInfo: {
-            role: RoleType.Publisher
-          }
-        };
-        var fakeAttendeeStream = {
-          getId: function getId() {
-            return 'editor';
-          },
-          clientInfo: {
-            role: RoleType.Attendee
-          }
-        };
-        StreamService.editor = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
-      }).catch(function (error) {
-        console.log('EditorComponent.getUserMedia.error', error.name, error.message);
-      });
-    }
-  };
+  }
+  /*
+  getUserMedia() {
+  	if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  		const body = document.querySelector('body');
+  		const media = document.createElement('div');
+  		const video = document.createElement('video');
+  		media.setAttribute('id', 'stream-editor');
+  		media.setAttribute('style', 'position:absolute; top: 5000px; line-height: 0;');
+  		media.appendChild(video);
+  		body.appendChild(media);
+  		navigator.mediaDevices.getUserMedia({
+  			video: { width: 800, height: 450 },
+  		}).then((stream) => {
+  			// console.log(stream);
+  			if ('srcObject' in video) {
+  				video.srcObject = stream;
+  			} else {
+  				video.src = window.URL.createObjectURL(stream);
+  			}
+  			video.play();
+  			const fakePublisherStream = {
+  				getId: () => 'editor',
+  				clientInfo: {
+  					role: RoleType.Publisher,
+  				}
+  			};
+  			const fakeAttendeeStream = {
+  				getId: () => 'editor',
+  				clientInfo: {
+  					role: RoleType.Attendee,
+  				}
+  			};
+  			StreamService.editorStreams = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
+  		}).catch((error) => {
+  			console.log('EditorComponent.getUserMedia.error', error.name, error.message);
+  		});
+  	}
+  }
+  */
+  ;
 
   _proto.loadView = function loadView() {
     var _this4 = this;
@@ -6507,42 +7070,52 @@ AsideComponent.meta = {
       if (event instanceof ModalResolveEvent) {
         console.log('EditorComponent.onOpenModal.resolve', event);
 
-        switch (modal.value) {
-          case ViewItemType.Nav.name:
-          case ViewItemType.Plane.name:
-          case ViewItemType.CurvedPlane.name:
-          case ViewItemType.Model.name:
-            var tile = EditorService.getTile(_this7.view);
+        switch (modal.type) {
+          case 'view':
+            switch (modal.value) {
+              case ViewType.Panorama.name:
+              case ViewType.PanoramaGrid.name:
+              case ViewType.Model.name:
+                _this7.data.views.push(event.data);
 
-            if (tile) {
-              var navs = tile.navs || [];
-              navs.push(event.data);
-              Object.assign(tile, {
-                navs: navs
-              });
+                ViewService.viewId = event.data.id;
 
-              _this7.view.updateCurrentItems();
-            } else {
-              var items = _this7.view.items || [];
-              items.push(event.data);
-              Object.assign(_this7.view, {
-                items: items
-              });
+                _this7.pushChanges(); // !!!
+
+
+                break;
             }
-
-            _this7.pushChanges();
 
             break;
 
-          case ViewType.Panorama.name:
-          case ViewType.PanoramaGrid.name:
-          case ViewType.Model.name:
-            _this7.data.views.push(event.data);
+          case 'viewItem':
+            switch (modal.value) {
+              case ViewItemType.Nav.name:
+              case ViewItemType.Plane.name:
+              case ViewItemType.CurvedPlane.name:
+              case ViewItemType.Model.name:
+                var tile = EditorService.getTile(_this7.view);
 
-            ViewService.viewId = event.data.id;
+                if (tile) {
+                  var navs = tile.navs || [];
+                  navs.push(event.data);
+                  Object.assign(tile, {
+                    navs: navs
+                  });
 
-            _this7.pushChanges(); // !!!
+                  _this7.view.updateCurrentItems();
+                } else {
+                  var items = _this7.view.items || [];
+                  items.push(event.data);
+                  Object.assign(_this7.view, {
+                    items: items
+                  });
+                }
 
+                _this7.pushChanges();
+
+                break;
+            }
 
             break;
         }
@@ -6850,8 +7423,20 @@ var MenuService = /*#__PURE__*/function () {
     });
   };
 
+  _createClass(MenuService, null, [{
+    key: "active",
+    set: function set(active) {
+      this.active$.next(active);
+    },
+    get: function get() {
+      return this.active$.getValue();
+    }
+  }]);
+
   return MenuService;
 }();
+
+_defineProperty(MenuService, "active$", new rxjs.BehaviorSubject(false));
 
 _defineProperty(MenuService, "menu$_", new rxjs.BehaviorSubject([]));var AssetService = /*#__PURE__*/function () {
   function AssetService() {}
@@ -8332,7 +8917,8 @@ RemoveModalComponent.meta = {
             control = new rxcompForm.FormControl(value, optional ? undefined : rxcompForm.RequiredValidator());
             control.options = Object.keys(AssetGroupType).map(function (x) {
               return AssetGroupType[x];
-            });
+            }); // console.log(control.options);
+
             break;
 
           case 'link':
@@ -9990,6 +10576,109 @@ HtmlPipe.meta = {
 IdDirective.meta = {
   selector: '[id]',
   inputs: ['id']
+};var LayoutComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(LayoutComponent, _Component);
+
+  function LayoutComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  var _proto = LayoutComponent.prototype;
+
+  _proto.onInit = function onInit() {
+    this.state = {
+      status: 'connected',
+      role: 'publisher',
+      membersCount: 1,
+      live: true
+    };
+    this.view = {
+      likes: 41
+    };
+    this.local = {};
+    this.screen = {};
+    this.remotes = new Array(8).fill(0).map(function (x, i) {
+      return {
+        id: i + 1
+      };
+    });
+  };
+
+  _proto.patchState = function patchState(state) {
+    this.state = Object.assign({}, this.state, state);
+    this.pushChanges();
+  };
+
+  _proto.toggleCamera = function toggleCamera() {
+    this.patchState({
+      cameraMuted: !this.state.cameraMuted
+    });
+  };
+
+  _proto.toggleAudio = function toggleAudio() {
+    this.patchState({
+      audioMuted: !this.state.audioMuted
+    });
+  };
+
+  _proto.toggleScreen = function toggleScreen() {
+    this.patchState({
+      screen: !this.state.screen
+    });
+  };
+
+  _proto.toggleVolume = function toggleVolume() {
+    this.patchState({
+      volumeMuted: !this.state.volumeMuted
+    });
+  };
+
+  _proto.onToggleControl = function onToggleControl() {
+    this.patchState({
+      control: !this.state.control,
+      spying: false
+    });
+  };
+
+  _proto.onToggleSpy = function onToggleSpy(remoteId) {
+    var spying = this.state.spying === remoteId ? null : remoteId;
+    this.patchState({
+      spying: spying,
+      control: false
+    });
+  };
+
+  _proto.addLike = function addLike() {
+    this.view.liked = true; // view.liked;
+
+    this.showLove(this.view);
+  };
+
+  _proto.showLove = function showLove(view) {
+    var _this = this;
+
+    if (view && this.view.id === view.id) {
+      var skipTimeout = this.view.showLove;
+      this.view.likes = view.likes;
+      this.view.showLove = true;
+      this.pushChanges();
+
+      if (!skipTimeout) {
+        setTimeout(function () {
+          _this.view.showLove = false;
+
+          _this.pushChanges();
+        }, 3100);
+      }
+    }
+  };
+
+  _proto.disconnect = function disconnect() {};
+
+  return LayoutComponent;
+}(rxcomp.Component);
+LayoutComponent.meta = {
+  selector: '[layout-component]'
 };var UID = 0;
 var ImageServiceEvent = {
   Progress: 'progress',
@@ -11749,12 +12438,24 @@ var MediaLoader = /*#__PURE__*/function () {
     return item.asset && item.asset.file && (item.asset.file.indexOf('.mp4') !== -1 || item.asset.file.indexOf('.webm') !== -1);
   };
 
+  MediaLoader.isStream = function isStream(item) {
+    return assetIsStream(item.asset);
+  };
+
   MediaLoader.isPublisherStream = function isPublisherStream(item) {
     return item.asset && item.asset.type.name === AssetType.PublisherStream.name;
   };
 
-  MediaLoader.isNextAttendeeStream = function isNextAttendeeStream(item) {
-    return item.asset && item.asset.type.name === AssetType.NextAttendeeStream.name;
+  MediaLoader.isAttendeeStream = function isAttendeeStream(item) {
+    return item.asset && item.asset.type.name === AssetType.AttendeeStream.name;
+  };
+
+  MediaLoader.isPublisherScreen = function isPublisherScreen(item) {
+    return item.asset && item.asset.type.name === AssetType.PublisherScreen.name;
+  };
+
+  MediaLoader.isAttendeeScreen = function isAttendeeScreen(item) {
+    return item.asset && item.asset.type.name === AssetType.AttendeeScreen.name;
   };
 
   _createClass(MediaLoader, [{
@@ -11763,14 +12464,29 @@ var MediaLoader = /*#__PURE__*/function () {
       return MediaLoader.isVideo(this.item);
     }
   }, {
+    key: "isStream",
+    get: function get() {
+      return MediaLoader.isStream(this.item);
+    }
+  }, {
     key: "isPublisherStream",
     get: function get() {
       return MediaLoader.isPublisherStream(this.item);
     }
   }, {
-    key: "isNextAttendeeStream",
+    key: "isAttendeeStream",
     get: function get() {
-      return MediaLoader.isNextAttendeeStream(this.item);
+      return MediaLoader.isAttendeeStream(this.item);
+    }
+  }, {
+    key: "isPublisherScreen",
+    get: function get() {
+      return MediaLoader.isPublisherScreen(this.item);
+    }
+  }, {
+    key: "isAttendeeScreen",
+    get: function get() {
+      return MediaLoader.isAttendeeScreen(this.item);
     }
   }, {
     key: "isPlayableVideo",
@@ -11780,7 +12496,7 @@ var MediaLoader = /*#__PURE__*/function () {
   }, {
     key: "isAutoplayVideo",
     get: function get() {
-      return this.isPublisherStream || this.isNextAttendeeStream || this.isVideo && this.item.asset.autoplay != null;
+      return this.isStream || this.isVideo && this.item.asset.autoplay != null;
     }
   }, {
     key: "muted",
@@ -11813,9 +12529,9 @@ var MediaLoader = /*#__PURE__*/function () {
     var _this2 = this;
 
     var item = this.item;
-    var texture; // console.log('MediaLoader.load', item, this.isPublisherStream);
+    var texture; // console.log('MediaLoader.load', item, this.isStream);
 
-    if ((this.isPublisherStream || this.isNextAttendeeStream) && item.streamId) {
+    if (this.isStream && item.streamId) {
       var streamId = item.streamId;
       var target = "#stream-" + streamId;
       var video = document.querySelector(target + " video");
@@ -11960,85 +12676,6 @@ var MediaLoader = /*#__PURE__*/function () {
 }();
 MediaLoader.events$ = new rxjs.ReplaySubject(1);var VERTEX_SHADER$1 = "\n#extension GL_EXT_frag_depth : enable\n\nvarying vec2 vUv;\nvoid main() {\n\tvUv = uv;\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}\n";
 var FRAGMENT_SHADER$1 = "\n#extension GL_EXT_frag_depth : enable\n\nvarying vec2 vUv;\nuniform bool video;\nuniform float opacity;\nuniform float overlay;\nuniform float tween;\nuniform sampler2D textureA;\nuniform sampler2D textureB;\nuniform vec2 resolutionA;\nuniform vec2 resolutionB;\nuniform vec3 overlayColor;\n\nvoid main() {\n\tvec4 color;\n\tvec4 colorA = texture2D(textureA, vUv);\n\tif (video) {\n\t\tvec4 colorB = texture2D(textureB, vUv);\n\t\tcolor = vec4(colorA.rgb + (overlayColor * overlay * 0.2) + (colorB.rgb * tween * colorB.a), opacity);\n\t} else {\n\t\tcolor = vec4(colorA.rgb + (overlayColor * overlay * 0.2), opacity);\n\t}\n\tgl_FragColor = color;\n}\n";
-/*
-const FRAGMENT_SHADER_BAK = `
-#extension GL_EXT_frag_depth : enable
-
-varying vec2 vUv;
-uniform bool video;
-uniform float opacity;
-uniform float overlay;
-uniform float tween;
-uniform sampler2D textureA;
-uniform sampler2D textureB;
-uniform vec2 resolutionA;
-uniform vec2 resolutionB;
-uniform vec3 overlayColor;
-
-mat3 rotate(float a) {
-	return mat3(
-		cos(a), sin(a), 0.0,
-		-sin(a), cos(a), 0.0,
-		0.0, 0.0, 1.0
-	);
-}
-
-mat3 translate(vec2 t) {
-	return mat3(
-		1.0, 0.0, 0.0,
-		0.0, 1.0, 0.0,
-		t.x, t.y, 1.0
-	);
-}
-
-mat3 scale(vec2 s) {
-	return mat3(
-		s.x, 0.0, 0.0,
-		0.0, s.y, 0.0,
-		0.0, 0.0, 1.0
-	);
-}
-
-vec2 getUV2(vec2 vUv, vec2 t, vec2 s, float a) {
-	mat3 transform = scale(s) * rotate(a);
-	return (vec3(vUv + t, 0.0) * transform).xy;
-}
-
-void main() {
-	vec4 color;
-	vec4 colorA = texture2D(textureA, vUv);
-	if (video) {
-		float rA = resolutionA.x / resolutionA.y;
-		float rB = resolutionB.x / resolutionB.y;
-		float aspect = 1.0 / rA * rB;
-		vec2 s = vec2(3.0 / aspect, 3.0);
-		vec2 t = vec2(
-			-(resolutionA.x - resolutionB.x / s.x) * 0.5 / resolutionA.x,
-			-(resolutionA.y - resolutionB.y / s.y) * 0.5 / resolutionA.y
-		);
-		t = vec2(
-			-(resolutionA.x - resolutionB.x / s.y) * 0.5 / resolutionA.x,
-			-(resolutionA.y - resolutionB.y / s.y) * 0.5 / resolutionA.y
-		);
-		// float dx = (resolutionA.x - resolutionB.x) / resolutionA.x * 0.5;
-		// float dy = (resolutionA.y - resolutionB.y) / resolutionA.y * 0.5;
-		// t = vec2(-0.5 + dx, -0.5 - dy);
-		vec2 uv2 = clamp(
-			getUV2(vUv, t, s, 0.0),
-			vec2(0.0,0.0),
-			vec2(1.0,1.0)
-		);
-		vec4 colorB = texture2D(textureB, uv2);
-		colorB = texture2D(textureB, vUv);
-		color = vec4(colorA.rgb + (overlayColor * overlay * 0.2) + (colorB.rgb * tween * colorB.a), opacity);
-	} else {
-		color = vec4(colorA.rgb + (overlayColor * overlay * 0.2), opacity);
-	}
-	gl_FragColor = color;
-}
-`;
-*/
-
 var FRAGMENT_CHROMA_KEY_SHADER = "\n#extension GL_EXT_frag_depth : enable\n\n#define threshold 0.55\n#define padding 0.05\n\nvarying vec2 vUv;\nuniform bool video;\nuniform float opacity;\nuniform float overlay;\nuniform float tween;\nuniform sampler2D textureA;\nuniform sampler2D textureB;\nuniform vec2 resolutionA;\nuniform vec2 resolutionB;\nuniform vec3 chromaKeyColor;\nuniform vec3 overlayColor;\n\nvoid main() {\n\tvec4 color;\n\tvec4 colorA = texture2D(textureA, vUv);\n\tvec4 chromaKey = vec4(chromaKeyColor, 1.0);\n    vec3 chromaKeyDiff = colorA.rgb - chromaKey.rgb;\n    float chromaKeyValue = smoothstep(threshold - padding, threshold + padding, dot(chromaKeyDiff, chromaKeyDiff));\n\tcolor = vec4(colorA.rgb + (overlayColor * overlay * 0.2), opacity * chromaKeyValue);\n\tgl_FragColor = color;\n}\n";
 
 var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
@@ -12137,7 +12774,55 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
     return material;
   };
 
+  MediaMesh.isPublisherStream = function isPublisherStream(stream) {
+    return stream.clientInfo && stream.clientInfo.role === RoleType.Publisher;
+  };
+
+  MediaMesh.isAttendeeStream = function isAttendeeStream(stream) {
+    return stream.clientInfo && stream.clientInfo.role === RoleType.Attendee;
+  };
+
+  MediaMesh.isPublisherScreen = function isPublisherScreen(stream) {
+    return stream.clientInfo && stream.clientInfo.role === RoleType.Publisher && stream.clientInfo.uid !== stream.getId();
+  };
+
+  MediaMesh.isAttendeeScreen = function isAttendeeScreen(stream) {
+    return stream.clientInfo && stream.clientInfo.role === RoleType.Attendee && stream.clientInfo.uid !== stream.getId();
+  };
+
+  MediaMesh.getTypeMatcher = function getTypeMatcher(assetType) {
+    var matcher;
+
+    switch (assetType.name) {
+      case AssetType.PublisherStream.name:
+        matcher = this.isPublisherStream;
+        break;
+
+      case AssetType.AttendeeStream.name:
+        matcher = this.isAttendeeStream;
+        break;
+
+      case AssetType.PublisherScreen.name:
+        matcher = this.isPublisherScreen;
+        break;
+
+      case AssetType.AttendeeScreen.name:
+        matcher = this.isAttendeeScreen;
+        break;
+
+      default:
+        matcher = function matcher(stream) {
+          return false;
+        };
+
+    }
+
+    return matcher;
+  };
+
   MediaMesh.getStreamId$ = function getStreamId$(item) {
+    var _this2 = this;
+
     if (!item.asset) {
       return rxjs.of(null);
     }
@@ -12145,37 +12830,32 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
     var assetType = item.asset.type;
     var file = item.asset.file;
 
-    if (assetType.name !== AssetType.PublisherStream.name && assetType.name !== AssetType.NextAttendeeStream.name) {
-      return rxjs.of(file);
-    }
-
-    return StreamService.streams$.pipe(operators.map(function (streams) {
-      // console.log('MediaMesh.getStreamId$', streams, item.asset);
-      var stream;
-
-      if (assetType.name === AssetType.PublisherStream.name) {
-        stream = streams.find(function (x) {
-          return x.clientInfo && x.clientInfo.role === RoleType.Publisher;
-        });
-      } else if (assetType.name === AssetType.NextAttendeeStream.name) {
+    if (assetIsStream(item.asset)) {
+      return StreamService.streams$.pipe(operators.map(function (streams) {
+        var stream;
         var i = 0;
+
+        var matchType = _this2.getTypeMatcher(assetType);
+
         streams.forEach(function (x) {
-          if (x.clientInfo && x.clientInfo.role === RoleType.Attendee) {
+          if (matchType(x)) {
             if (i === item.asset.index) {
               stream = x;
             }
 
             i++;
           }
-        });
-      }
+        }); // console.log('MediaMesh.getStreamId$', assetType.name, stream, streams);
 
-      if (stream) {
-        return stream.getId();
-      } else {
-        return null;
-      }
-    }));
+        if (stream) {
+          return stream.getId();
+        } else {
+          return null;
+        }
+      }));
+    } else {
+      return rxjs.of(file);
+    }
   };
 
   MediaMesh.getMaterialByItem = function getMaterialByItem(item) {
@@ -12230,7 +12910,7 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
   var _proto = MediaMesh.prototype;
 
   _proto.load = function load(callback) {
-    var _this2 = this;
+    var _this3 = this;
 
     if (!this.item.asset) {
       this.onAppear();
@@ -12254,7 +12934,7 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
         material.needsUpdate = true;
 
         if (mediaLoader.isPlayableVideo) {
-          _this2.createTextureB(textureA, function (textureB) {
+          _this3.createTextureB(textureA, function (textureB) {
             // console.log('MediaMesh.textureB', textureB);
             textureB.minFilter = THREE.LinearFilter;
             textureB.magFilter = THREE.LinearFilter;
@@ -12272,23 +12952,23 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
         }
       }
 
-      _this2.onAppear();
+      _this3.onAppear();
 
       if (mediaLoader.isPlayableVideo) {
         material.uniforms.video.value = true;
-        _this2.onOver = _this2.onOver.bind(_this2);
-        _this2.onOut = _this2.onOut.bind(_this2);
-        _this2.onToggle = _this2.onToggle.bind(_this2);
+        _this3.onOver = _this3.onOver.bind(_this3);
+        _this3.onOut = _this3.onOut.bind(_this3);
+        _this3.onToggle = _this3.onToggle.bind(_this3);
 
-        _this2.on('over', _this2.onOver);
+        _this3.on('over', _this3.onOver);
 
-        _this2.on('out', _this2.onOut);
+        _this3.on('out', _this3.onOut);
 
-        _this2.on('down', _this2.onToggle);
+        _this3.on('down', _this3.onToggle);
       }
 
       if (typeof callback === 'function') {
-        callback(_this2);
+        callback(_this3);
       }
     });
   };
@@ -12335,7 +13015,7 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
   };
 
   _proto.events$ = function events$() {
-    var _this3 = this;
+    var _this4 = this;
 
     var item = this.item;
     var items = this.items;
@@ -12353,9 +13033,9 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
         if (eventItem) {
           // console.log('MediaLoader.events$.eventItem', event, eventItem);
           if (event instanceof MediaLoaderPlayEvent) {
-            _this3.play();
+            _this4.play();
           } else if (event instanceof MediaLoaderPauseEvent) {
-            _this3.pause();
+            _this4.pause();
           }
         }
       }
@@ -16201,6 +16881,8 @@ ModelEditableComponent.meta = {
               playing: playing
             });
           });
+        } else if (_this.mesh) {
+          dismount(_this.mesh, item);
         } // console.log('streamId', streamId, mesh);
 
       }
@@ -17152,6 +17834,9 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     });
     */
 
+    LoaderService.progress$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (progress) {
+      return _this4.loading = progress.count > 0;
+    });
     MessageService.in$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (message) {
       // DebugService.getService().setMessage('ModelMenuComponent.MessageService ' + message.type);
       switch (message.type) {
@@ -17265,40 +17950,6 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     }
   };
 
-  _proto3.onToggle = function onToggle() {
-    if (StateService.state.locked || StateService.state.spying) {
-      return;
-    }
-
-    if (this.buttons) {
-      this.removeMenu();
-      this.toggle.next();
-    } else {
-      this.addMenu();
-      this.toggle.next(this);
-    }
-  };
-
-  _proto3.onDown = function onDown(button) {
-    // this.down.next(this.item);
-    if (button.item && button.item.type.name === 'back') {
-      this.removeMenu();
-
-      if (button.item.backItem) {
-        this.addMenu(button.item.backItem.backItem);
-      } else {
-        /*
-        if (this.host.renderer.xr.isPresenting) {
-        	this.addToggler();
-        }
-        */
-        this.toggle.next();
-      }
-    } else {
-      this.addMenu(button.item);
-    }
-  };
-
   _proto3.items$ = function items$(item) {
     if (item === void 0) {
       item = null;
@@ -17330,6 +17981,7 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
       return;
     }
 
+    MenuService.active = true;
     this.items$(item).subscribe(function (items) {
       if (items) {
         items = items.slice();
@@ -17379,6 +18031,7 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
   };
 
   _proto3.removeMenu = function removeMenu() {
+    MenuService.active = false;
     this.removeButtons();
     this.removeToggler();
   };
@@ -17434,6 +18087,58 @@ var ModelMenuComponent = /*#__PURE__*/function (_ModelComponent) {
     this.toggler = null;
   };
 
+  _proto3.onDown = function onDown(button) {
+    // this.down.next(this.item);
+    if (button.item && button.item.type.name === 'back') {
+      this.removeMenu();
+
+      if (button.item.backItem) {
+        this.addMenu(button.item.backItem.backItem);
+      } else {
+        /*
+        if (this.host.renderer.xr.isPresenting) {
+        	this.addToggler();
+        }
+        */
+        this.toggle.next();
+      }
+    } else {
+      this.addMenu(button.item);
+    }
+  };
+
+  _proto3.onToggle = function onToggle() {
+    if (StateService.state.locked || StateService.state.spying) {
+      return;
+    }
+
+    if (MenuService.active) {
+      this.removeMenu();
+      this.toggle.next();
+    } else {
+      this.addMenu();
+      this.toggle.next(this);
+    }
+  };
+
+  _createClass(ModelMenuComponent, [{
+    key: "loading",
+    get: function get() {
+      return this.loading_;
+    },
+    set: function set(loading) {
+      if (this.loading_ !== loading) {
+        this.loading_ = loading;
+
+        var _getContext = rxcomp.getContext(this),
+            node = _getContext.node;
+
+        var btn = node.querySelector('.btn--menu');
+        btn.classList.toggle('loading', loading);
+      }
+    }
+  }]);
+
   return ModelMenuComponent;
 }(ModelComponent);
 ModelMenuComponent.ORIGIN = new THREE.Vector3();
@@ -17456,12 +18161,9 @@ ModelMenuComponent.meta = {
 
   var _proto = ModelModelComponent.prototype;
 
-  /*
-  static getInteractiveGeometry() {
-  	return ModelModelComponent.interactiveGeometry || (ModelModelComponent.interactiveGeometry = new THREE.SphereBufferGeometry(1, 8, 8));
-  }
-  */
   _proto.onInit = function onInit() {
+    var _this = this;
+
     _ModelEditableCompone.prototype.onInit.call(this);
 
     this.progress = null;
@@ -17476,7 +18178,10 @@ ModelMenuComponent.meta = {
     	});
     }
     */
-    // console.log('ModelModelComponent.onInit');
+
+    MenuService.active$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (active) {
+      return _this.freezed = active;
+    }); // console.log('ModelModelComponent.onInit');
   };
 
   _proto.onChanges = function onChanges() {
@@ -17484,11 +18189,11 @@ ModelMenuComponent.meta = {
   };
 
   _proto.onCreate = function onCreate(mount, dismount) {
-    var _this = this;
+    var _this2 = this;
 
     // this.renderOrder = environment.renderOrder.model;
     this.loadGltfModel(environment.getPath(this.item.asset.folder), this.item.asset.file, function (mesh) {
-      _this.onGltfModelLoaded(mesh, mount, dismount);
+      _this2.onGltfModelLoaded(mesh, mount, dismount);
     });
   };
 
@@ -17530,7 +18235,7 @@ ModelMenuComponent.meta = {
   };
 
   _proto.onGltfModelLoaded = function onGltfModelLoaded(mesh, mount, dismount) {
-    var _this2 = this;
+    var _this3 = this;
 
     // scale
     var box = new THREE.Box3().setFromObject(mesh);
@@ -17571,7 +18276,7 @@ ModelMenuComponent.meta = {
         ease: Power2.easeInOut,
         onUpdate: onUpdate,
         onComplete: function onComplete() {
-          _this2.updateHelper();
+          _this3.updateHelper();
         }
       });
     } else {
@@ -17624,6 +18329,7 @@ ModelMenuComponent.meta = {
 
     if (typeof mount === 'function') {
       mount(dummy, this.item);
+      this.freezed = MenuService.active;
     }
     /*
     this.progress = null;
@@ -17701,14 +18407,14 @@ ModelMenuComponent.meta = {
   ;
 
   _proto.onUpdateAsset = function onUpdateAsset(item, mesh) {
-    var _this3 = this;
+    var _this4 = this;
 
     // console.log('ModelModelComponent.onUpdateAsset', item);
     this.loadGltfModel(environment.getPath(item.asset.folder), item.asset.file, function (mesh) {
-      _this3.onGltfModelLoaded(mesh, function (mesh, item) {
-        return _this3.onMount(mesh, item);
+      _this4.onGltfModelLoaded(mesh, function (mesh, item) {
+        return _this4.onMount(mesh, item);
       }, function (mesh, item) {
-        return _this3.onDismount(mesh, item);
+        return _this4.onDismount(mesh, item);
       });
     });
     /*
@@ -17747,7 +18453,7 @@ ModelMenuComponent.meta = {
   };
 
   _proto.makeInteractive = function makeInteractive(mesh) {
-    var _this4 = this;
+    var _this5 = this;
 
     var newChild = null;
     mesh.traverse(function (child) {
@@ -17763,7 +18469,7 @@ ModelMenuComponent.meta = {
         newChild.scale.copy(child.scale);
         newChild.on('down', function () {
           // console.log('ModelModelComponent.down');
-          _this4.down.next(_this4);
+          _this5.down.next(_this5);
         });
         parent.remove(child);
         parent.add(newChild);
@@ -17774,6 +18480,33 @@ ModelMenuComponent.meta = {
       this.makeInteractive(mesh);
     }
   };
+
+  _createClass(ModelModelComponent, [{
+    key: "freezed",
+
+    /*
+    static getInteractiveGeometry() {
+    	return ModelModelComponent.interactiveGeometry || (ModelModelComponent.interactiveGeometry = new THREE.SphereBufferGeometry(1, 8, 8));
+    }
+    */
+    get: function get() {
+      return this.freezed_;
+    },
+    set: function set(freezed) {
+      if (this.freezed_ !== freezed) {
+        this.freezed_ = freezed;
+        var mesh = this.mesh;
+
+        if (mesh) {
+          mesh.traverse(function (child) {
+            if (child instanceof InteractiveMesh) {
+              child.freezed = freezed;
+            }
+          });
+        }
+      }
+    }
+  }]);
 
   return ModelModelComponent;
 }(ModelEditableComponent);
@@ -18491,6 +19224,8 @@ ModelPictureComponent.meta = {
               playing: playing
             });
           });
+        } else if (_this.mesh) {
+          dismount(_this.mesh, item);
         } // console.log('streamId', streamId, mesh);
 
       }
@@ -18581,29 +19316,36 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
   var _proto = ModelProgressComponent.prototype;
 
   _proto.onInit = function onInit() {
+    var _this = this;
+
     this.title_ = '';
+    this.visible_ = this.host.renderer.xr.isPresenting;
 
     _ModelComponent.prototype.onInit.call(this);
 
-    this.progress = LoaderService.progress;
+    var vrService = this.vrService = VRService.getService();
+    vrService.session$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (session) {
+      return _this.visible = session != null;
+    }); // loose
+    // this.progress = LoaderService.progress;
   };
 
   _proto.onCreate = function onCreate(mount, dismount) {
-    var _this = this;
+    var _this2 = this;
 
     // console.log('ModelProgressComponent.onCreate');
     this.getCanvasTexture().then(function (result) {
-      var mesh = _this.createMesh(result);
+      var mesh = _this2.createMesh(result);
 
       if (typeof mount === 'function') {
         mount(mesh);
       }
 
-      LoaderService.progress$.pipe(operators.takeUntil(_this.unsubscribe$)).subscribe(function (progress) {
+      LoaderService.progress$.pipe(operators.takeUntil(_this2.unsubscribe$)).subscribe(function (progress) {
         if (progress.count) {
-          _this.title = progress.value === 0 ? LabelPipe.transform('loading') : progress.title;
+          _this2.title = progress.value === 0 ? LabelPipe.transform('loading') : progress.title;
         } else {
-          _this.title = _this.getTitle();
+          _this2.title = _this2.getTitle();
         }
       });
     });
@@ -18639,7 +19381,7 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
   };
 
   _proto.hide = function hide() {
-    var material = this.material;
+    this.mesh.remove(this.banner);
     this.material.opacity = 0;
     this.material.needsUpdate = true;
     /*
@@ -18693,7 +19435,7 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
   };
 
   _proto.updateProgress = function updateProgress() {
-    var _this2 = this;
+    var _this3 = this;
 
     this.getCanvasTexture().then(function (result) {
       // console.log('ModelProgressComponent.updateProgress', result);
@@ -18702,12 +19444,12 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
       var height = width / 360 * 2.4;
       var w = result.width * height / result.height;
       var repeat = width / w;
-      _this2.texture.repeat.x = repeat;
+      _this3.texture.repeat.x = repeat;
     });
   };
 
   _proto.getCanvasTexture = function getCanvasTexture() {
-    var _this3 = this;
+    var _this4 = this;
 
     return new Promise(function (resolve, reject) {
       var MIN_W = 512;
@@ -18717,16 +19459,16 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
       var L = Math.floor(H * 0.05);
       var canvas;
 
-      if (_this3.canvas) {
-        canvas = _this3.canvas;
+      if (_this4.canvas) {
+        canvas = _this4.canvas;
       } else {
-        canvas = _this3.canvas = document.createElement('canvas'); // canvas.classList.add('canvas--debug');
+        canvas = _this4.canvas = document.createElement('canvas'); // canvas.classList.add('canvas--debug');
         // document.querySelector('body').appendChild(canvas);
       }
 
       canvas.width = W;
       canvas.height = H;
-      var text = _this3.title_; // console.log('ModelProgressComponent.getCanvasTexture', text);
+      var text = _this4.title_; // console.log('ModelProgressComponent.getCanvasTexture', text);
 
       var ctx = canvas.getContext('2d'); // const ctx = text.material.map.image.getContext('2d');
 
@@ -18757,11 +19499,11 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
 
       var texture;
 
-      if (_this3.texture) {
-        texture = _this3.texture;
+      if (_this4.texture) {
+        texture = _this4.texture;
         texture.needsUpdate = true;
       } else {
-        texture = _this3.texture = new THREE.CanvasTexture(canvas);
+        texture = _this4.texture = new THREE.CanvasTexture(canvas);
       } // console.log(F, L, W, H);
 
 
@@ -18782,7 +19524,24 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
       if (this.title_ !== title) {
         this.title_ = title;
 
-        if (title !== '') {
+        if (title !== '' && this.visible_) {
+          this.updateProgress();
+          this.show();
+        } else {
+          this.hide();
+        }
+      }
+    }
+  }, {
+    key: "visible",
+    get: function get() {
+      return this.visible_;
+    },
+    set: function set(visible) {
+      if (this.visible_ !== visible) {
+        this.visible_ = visible;
+
+        if (visible && this.title_ !== '') {
           this.updateProgress();
           this.show();
         } else {
@@ -19046,6 +19805,6 @@ ModelTextComponent.meta = {
 }(rxcomp.Module);
 AppModule.meta = {
   imports: [rxcomp.CoreModule, rxcompForm.FormModule, EditorModule],
-  declarations: [AccessComponent, AgoraComponent, AgoraDeviceComponent, AgoraDevicePreviewComponent, AgoraLinkComponent, AgoraNameComponent, AgoraStreamComponent, AssetPipe, ControlAssetComponent, ControlMenuComponent, ControlModelComponent, ControlAssetsComponent, ControlCheckboxComponent, ControlCustomSelectComponent, ControlLinkComponent, ControlNumberComponent, ControlPasswordComponent, ControlRequestModalComponent, ControlSelectComponent, ControlTextComponent, ControlTextareaComponent, ControlVectorComponent, DisabledDirective, DropDirective, DropdownDirective, DropdownItemDirective, ErrorsComponent, HtmlPipe, HlsDirective, IdDirective, InputValueComponent, LabelPipe, LazyDirective, ModalComponent, ModalOutletComponent, ModelBannerComponent, ModelComponent, ModelCurvedPlaneComponent, ModelDebugComponent, ModelModelComponent, ModelGridComponent, ModelMenuComponent, ModelNavComponent, ModelPanelComponent, ModelPictureComponent, ModelPlaneComponent, ModelProgressComponent, ModelRoomComponent, ModelTextComponent, SvgIconStructure, TestComponent, TryInARComponent, TryInARModalComponent, UploadItemComponent, ValueDirective, WorldComponent],
+  declarations: [AccessComponent, AgoraComponent, AgoraDeviceComponent, AgoraDevicePreviewComponent, AgoraLinkComponent, AgoraNameComponent, AgoraStreamComponent, AssetPipe, ControlAssetComponent, ControlMenuComponent, ControlModelComponent, ControlAssetsComponent, ControlCheckboxComponent, ControlCustomSelectComponent, ControlLinkComponent, ControlNumberComponent, ControlPasswordComponent, ControlRequestModalComponent, ControlSelectComponent, ControlTextComponent, ControlTextareaComponent, ControlVectorComponent, ControlsComponent, DisabledDirective, DropDirective, DropdownDirective, DropdownItemDirective, ErrorsComponent, HtmlPipe, HlsDirective, IdDirective, InputValueComponent, LabelPipe, LazyDirective, LayoutComponent, ModalComponent, ModalOutletComponent, ModelBannerComponent, ModelComponent, ModelCurvedPlaneComponent, ModelDebugComponent, ModelModelComponent, ModelGridComponent, ModelMenuComponent, ModelNavComponent, ModelPanelComponent, ModelPictureComponent, ModelPlaneComponent, ModelProgressComponent, ModelRoomComponent, ModelTextComponent, SvgIconStructure, TestComponent, TryInARComponent, TryInARModalComponent, UploadItemComponent, ValueDirective, WorldComponent],
   bootstrap: AppComponent
 };rxcomp.Browser.bootstrap(AppModule);})));
