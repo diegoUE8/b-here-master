@@ -27,6 +27,7 @@ import ControlSelectComponent from './forms/control-select.component';
 import ControlTextComponent from './forms/control-text.component';
 import ControlTextareaComponent from './forms/control-textarea.component';
 import ControlVectorComponent from './forms/control-vector.component';
+import ControlsComponent from './forms/controls.component';
 import DisabledDirective from './forms/disabled.directive';
 import ErrorsComponent from './forms/errors.component';
 import InputValueComponent from './forms/input-value.component';
@@ -35,6 +36,7 @@ import ValueDirective from './forms/value.directive';
 import HtmlPipe from './html/html.pipe';
 import IdDirective from './id/id.directive';
 import LabelPipe from './label/label.pipe';
+import LayoutComponent from './layout/layout.component';
 import LazyDirective from './lazy/lazy.directive';
 import ModalOutletComponent from './modal/modal-outlet.component';
 import ModalComponent from './modal/modal.component';
@@ -90,6 +92,7 @@ AppModule.meta = {
 		ControlTextComponent,
 		ControlTextareaComponent,
 		ControlVectorComponent,
+		ControlsComponent,
 		DisabledDirective,
 		DropDirective,
 		DropdownDirective,
@@ -101,6 +104,7 @@ AppModule.meta = {
 		InputValueComponent,
 		LabelPipe,
 		LazyDirective,
+		LayoutComponent,
 		ModalComponent,
 		ModalOutletComponent,
 		ModelBannerComponent,
