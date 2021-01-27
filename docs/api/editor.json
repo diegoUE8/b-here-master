@@ -550,14 +550,15 @@
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream"
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 148499478830599,
+            "file": "publisherScreen",
+            "id": 587816978614800,
             "chromaKeyColor": null,
-            "index": 1
+            "index": 0
           },
           "id": 595187295984100
         },
@@ -600,9 +601,9 @@
             "id": 2,
             "name": "plane"
           },
-          "title": "Accedi",
-          "abstract": "connettiti con il tuo telefono..",
-          "viewId": 406765685595300,
+          "title": "Welcome",
+          "abstract": null,
+          "viewId": 338065166299600,
           "position": [
             7.5,
             2,
@@ -620,7 +621,7 @@
             "index": 1
           },
           "link": null,
-          "id": 95244501881700,
+          "id": 97324753863099,
           "keepOrientation": null,
           "rotation": [
             0.02233128273750267,
@@ -633,24 +634,6 @@
             8.7,
             1
           ]
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Welcome",
-          "abstract": null,
-          "viewId": 338065166299600,
-          "position": [
-            -0.09537453528469773,
-            -0.014718483939465435,
-            0.995332640000192
-          ],
-          "asset": null,
-          "link": null,
-          "id": 97324753863099,
-          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -14266,61 +14249,49 @@
             "id": 2,
             "name": "plane"
           },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 338065166299600,
           "position": [
-            18.305551200452168,
-            -7.8304100882628855,
-            -1.895118227777652
-          ],
-          "rotation": [
-            -1.333341951740953,
-            -1.1561964180740785,
-            -1.312289949644378,
-            "XYZ"
-          ],
-          "scale": [
-            0,
-            0,
-            1
+            19.44263422260958,
+            1.100904337448389,
+            -2.3019363346030612
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream"
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 5097756535200,
+            "file": "publisherScreen",
+            "id": 587890213149400,
             "chromaKeyColor": null,
             "index": 0
           },
-          "id": 5085480148199
+          "id": 5125832676200,
+          "keepOrientation": null,
+          "rotation": [
+            0.04030865244876102,
+            -1.4452684103560305,
+            0.03999183172338834,
+            "XYZ"
+          ],
+          "scale": [
+            23,
+            12.5,
+            1
+          ]
         },
         {
           "type": {
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
-          "abstract": null,
-          "viewId": 338065166299600,
           "position": [
             0.7042884413077554,
             0.003149768199392747,
             0.7099069448882597
-          ],
-          "asset": null,
-          "id": 5125832676200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            19.86853754021205,
-            1.3321801036820553,
-            -2.485551231842125
           ],
           "rotation": [
             0.05776857312039378,
@@ -14333,18 +14304,12 @@
             13.5,
             1
           ],
-          "asset": {
-            "type": {
-              "id": 4,
-              "name": "publisher-stream"
-            },
-            "folder": "",
-            "file": "publisherStream",
-            "id": 148222172858499,
-            "chromaKeyColor": null,
-            "index": 1
-          },
-          "id": 5141851551400
+          "asset": null,
+          "id": 5141851551400,
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "keepOrientation": null
         }
       ],
       "hidden": null
@@ -14492,7 +14457,7 @@
           "position": [
             20,
             0.5,
-            2.7
+            2.9000000000000004
           ],
           "rotation": [
             0.5614622464223358,
@@ -14501,7 +14466,7 @@
             "XYZ"
           ],
           "scale": [
-            10,
+            9,
             5.63,
             1
           ],
@@ -14570,40 +14535,6 @@
             "name": "plane"
           },
           "position": [
-            19.985392916332284,
-            0.7610173951283759,
-            0.07016055962841886
-          ],
-          "rotation": [
-            1.6627295592008255,
-            -1.5325747856544105,
-            1.6627963737271008,
-            "XYZ"
-          ],
-          "scale": [
-            0,
-            0,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 4,
-              "name": "publisher-stream"
-            },
-            "folder": "",
-            "file": "publisherStream",
-            "id": 75661013717700,
-            "chromaKeyColor": null,
-            "index": 0
-          },
-          "id": 75649872138600
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
             19.975098391350997,
             5.8,
             0
@@ -14621,14 +14552,15 @@
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream"
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 148390281175099,
+            "file": "publisherScreen",
+            "id": 588196943332500,
             "chromaKeyColor": null,
-            "index": 1
+            "index": 0
           },
           "id": 75677619295000
         }
@@ -16428,6 +16360,40 @@
       "folder": "",
       "file": "publisherStream",
       "id": 148499478830599,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 587816978614800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 587890213149400,
+      "chromaKeyColor": null,
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 588196943332500,
       "chromaKeyColor": null
     }
   ],
