@@ -858,7 +858,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "521999985248899_Fater Business Campus.mp4",
+            "file": "521999985248899_Fater.mp4",
             "id": 522000345850700,
             "chromaKeyColor": null
           },
@@ -1103,8 +1103,8 @@
             "XYZ"
           ],
           "scale": [
-            26,
-            14.5,
+            25,
+            14,
             1
           ],
           "asset": {
@@ -1113,8 +1113,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1210750471794200_Poltrona Frau's stand at Salone Internazionale del Mobile 2018..mp4",
-            "id": 1210750490297300,
+            "file": "521999985248899_Fater.mp4",
+            "id": 522000345850700,
             "chromaKeyColor": null
           },
           "id": 1012264477564600
@@ -1335,7 +1335,8 @@
             "folder": "",
             "file": "publisherStream",
             "id": 595121345079100,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "index": 0
           },
           "id": 595115093509400
         },
@@ -1362,14 +1363,15 @@
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream"
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 417733852337999,
+            "file": "publisherScreen",
+            "id": 585580556336700,
             "chromaKeyColor": null,
-            "index": 1
+            "index": 0
           },
           "id": 595187295984100
         },
@@ -6658,7 +6660,7 @@
             "name": "plane"
           },
           "position": [
-            20.009643265025993,
+            20.409643265026,
             1.5,
             -2.3236918829441127
           ],
@@ -6670,7 +6672,7 @@
           ],
           "scale": [
             23.6,
-            10.8,
+            13.2,
             1
           ],
           "asset": {
@@ -6681,7 +6683,8 @@
             "folder": "",
             "file": "publisherStream",
             "id": 493815820327000,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "index": 0
           },
           "id": 503361976257400
         },
@@ -6701,6 +6704,41 @@
           "asset": null,
           "id": 503530522292899,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.846672815781535,
+            1.5516573562481097,
+            -2.4307544131630996
+          ],
+          "rotation": [
+            -0.18239593310759217,
+            -1.4468917280378613,
+            -0.18102808347776245,
+            "XYZ"
+          ],
+          "scale": [
+            23.6,
+            13,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 586474539911300,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 586313121732899
         }
       ],
       "hidden": null
@@ -7437,7 +7475,8 @@
               0,
               1,
               0
-            ]
+            ],
+            "index": 0
           },
           "id": 510987983371000
         },
@@ -15164,7 +15203,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "521999985248899_Fater Business Campus.mp4",
+      "file": "521999985248899_Fater.mp4",
       "id": 522000345850700,
       "chromaKeyColor": null
     },
@@ -15203,6 +15242,28 @@
       "folder": "/uploads/",
       "file": "523905495599899_Pannolino.glb",
       "id": 523905543586800
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 585580556336700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 586474539911300,
+      "chromaKeyColor": null
     }
   ],
   "users": [
