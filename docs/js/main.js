@@ -1,5 +1,5 @@
 /**
- * @license b-here-master v1.0.0
+ * @license b-here v1.0.0
  * (c) 2021 Luca Zampetti <lzampetti@gmail.com>
  * License: MIT
  */
@@ -198,7 +198,7 @@ function _readOnlyError(name) {
   channelName: 'BHere',
   flags: {
     production: false,
-    useProxy: false,
+    useProxy: true,
     useToken: false,
     selfService: true,
     guidedTourRequest: true,
