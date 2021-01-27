@@ -4,7 +4,7 @@ export const environmentStatic = {
 	channelName: 'BHere',
 	flags: {
 		production: false,
-		useProxy: true,
+		useProxy: false,
 		useToken: false,
 		selfService: true,
 		guidedTourRequest: true,
