@@ -9,6 +9,7 @@ export const environmentStatic = {
 		selfService: true,
 		guidedTourRequest: true,
 		editor: true,
+		editorAssetScreen: true,
 		ar: true,
 		menu: true,
 		attendee: true,
