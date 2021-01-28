@@ -176,8 +176,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1619091546450500_websolute.mp4",
-            "id": 1619091771669400,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 1618924423273499
@@ -758,7 +758,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "496831457089100_Bizzarre forme di vita.mp4",
+            "file": "496831457089100_Bizzarre.mp4",
             "id": 496831554076800,
             "chromaKeyColor": null
           },
@@ -875,7 +875,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1210791893780700_Home Stories - Trailer ITA.mp4",
+            "file": "1210791893780700_Home.mp4",
             "id": 1210791940902900,
             "chromaKeyColor": null
           },
@@ -1120,7 +1120,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1210750471794200_Poltrona Frau's stand at Salone Internazionale del Mobile 2018..mp4",
+            "file": "1210750471794200_Poltrona.mp4",
             "id": 1210750490297300,
             "chromaKeyColor": null
           },
@@ -6595,8 +6595,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "503059584758200_websolute.mp4",
-            "id": 503059867815699,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 503060637283800
@@ -7511,8 +7511,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1095969519913800_websolute.mp4",
-            "id": 1095969709275800,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 1095971628725800
@@ -7800,8 +7800,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1036662919419999_websolute.mp4",
-            "id": 1036663213509699,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 1036664256859600
@@ -8318,8 +8318,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1362307763666200_Piva - sistemi oscuranti.mp4",
-            "id": 1362307833629400,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 870162569009500
@@ -8410,8 +8410,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1362330160462699_Piva Group - spot ottobre 2020.mp4",
-            "id": 1362330200328000,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 870333877423800
@@ -19872,7 +19872,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "496831457089100_Bizzarre forme di vita.mp4",
+      "file": "496831457089100_Bizzarre.mp4",
       "id": 496831554076800
     },
     {
@@ -20076,30 +20076,12 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "503059584758200_websolute.mp4",
-      "id": 503059867815699
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
       "folder": "/uploads/",
       "file": "503338504819700_cinema_living.jpg",
       "id": 503338545122000
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "503359500357500_websolute.mp4",
-      "id": 503359776884900
     },
     {
       "type": {
@@ -20293,15 +20275,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1036662919419999_websolute.mp4",
-      "id": 1036663213509699
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -20317,15 +20290,6 @@
       "folder": "/uploads/",
       "file": "1038556132507500_Unreal Engine Demo 360 2020.11.25 - 17.19.12.06.jpg",
       "id": 1038556340252499
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1038615921102900_websolute.mp4",
-      "id": 1038616127894899
     },
     {
       "type": {
@@ -20353,15 +20317,6 @@
       "folder": "/uploads/",
       "file": "1095869630150900_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
       "id": 1095869673977500
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1095969519913800_websolute.mp4",
-      "id": 1095969709275800
     },
     {
       "type": {
@@ -20475,15 +20430,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1190780441996200_Room3D.jpg",
-      "id": 1190780589814500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "1191521744348700_office.jpg",
       "id": 1191521957608300
     },
@@ -20503,7 +20449,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "1210750471794200_Poltrona Frau's stand at Salone Internazionale del Mobile 2018..mp4",
+      "file": "1210750471794200_Poltrona.mp4",
       "id": 1210750490297300,
       "chromaKeyColor": null
     },
@@ -20513,7 +20459,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "1210791893780700_Home Stories - Trailer ITA.mp4",
+      "file": "1210791893780700_Home.mp4",
       "id": 1210791940902900,
       "chromaKeyColor": null
     },
@@ -20525,15 +20471,6 @@
       "folder": "/uploads/",
       "file": "1211620114703500_CINEMA_ipf.jpg",
       "id": 1211620271231300
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "248218427091600_SIDIM 360 Video Experience - Salon International du Design de Montréal-z-0ghI2MWo4_1.mp4",
-      "id": 248220077983300
     },
     {
       "type": {
@@ -20800,15 +20737,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "514654221587099_infovideo.mp4",
-      "id": 514654707333700
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -20824,24 +20752,6 @@
       "folder": "/uploads/",
       "file": "515032324211800_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
       "id": 515032344926100
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "515100445148600_infovideo.mp4",
-      "id": 515100520653300
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "515365193890200_infovideo2.mp4",
-      "id": 515365234089400
     },
     {
       "type": {
@@ -20864,15 +20774,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "518676744030699_infovideo2.mp4",
-      "id": 518677392651799
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -20888,24 +20789,6 @@
       "folder": "/uploads/",
       "file": "518857885550599_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
       "id": 518857901216400
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "518885743124900_infovideo2.mp4",
-      "id": 518885898536000
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "518932199530400_infovideo2.mp4",
-      "id": 518932379829100
     },
     {
       "type": {
@@ -20999,15 +20882,6 @@
       "folder": "/uploads/",
       "file": "35409103424400_infovideo2.mp4",
       "id": 35409710841900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "95243282411900_qrcode.png",
-      "id": 95243329446900
     },
     {
       "type": {
@@ -23364,35 +23238,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1362307763666200_Piva - sistemi oscuranti.mp4",
-      "id": 1362307833629400,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1362330160462699_Piva Group - spot ottobre 2020.mp4",
-      "id": 1362330200328000,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1364383417117100_room3D.jpg",
-      "id": 1364383709196900
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -23489,16 +23334,6 @@
       "folder": "/uploads/",
       "file": "1618672137639599_skipefrontcall.jpg",
       "id": 1618672185914600,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1619091546450500_websolute.mp4",
-      "id": 1619091771669400,
       "chromaKeyColor": null
     },
     {
