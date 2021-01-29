@@ -37,8 +37,8 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "881576921902800_Unreal Engine Demo 360 2020.11.10 - 13.33.11.59.jpg",
-        "id": 881577304654200
+        "file": "245893331825200_welcome.jpg",
+        "id": 245893713359600
       },
       "orientation": {
         "latitude": 0,
@@ -150,7 +150,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "870159514944100_Piva - sistemi oscuranti.mp4",
+            "file": "870159514944100_Piva.mp4",
             "id": 870159547967099,
             "chromaKeyColor": null
           },
@@ -242,7 +242,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
+            "file": "870332078464899_Piva.mp4",
             "id": 870332089861100,
             "chromaKeyColor": null
           },
@@ -3901,7 +3901,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "870159514944100_Piva - sistemi oscuranti.mp4",
+      "file": "870159514944100_Piva.mp4",
       "id": 870159547967099
     },
     {
@@ -3910,7 +3910,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
+      "file": "870332078464899_Piva.mp4",
       "id": 870332089861100
     },
     {
@@ -3969,24 +3969,6 @@
       "folder": "/uploads/",
       "file": "875681821864200_Room3D.jpg",
       "id": 875682136418800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "881576921902800_Unreal Engine Demo 360 2020.11.10 - 13.33.11.59.jpg",
-      "id": 881577304654200
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "881691597556100_870332078464899_Piva Group - spot ottobre 2020.mp4",
-      "id": 881691619676700
     },
     {
       "type": {
