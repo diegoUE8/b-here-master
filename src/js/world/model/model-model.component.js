@@ -1,4 +1,6 @@
 // import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { takeUntil } from 'rxjs/operators';
+import MenuService from '../../editor/menu/menu.service';
 import { environment } from '../../environment';
 import LoaderService from '../../loader/loader.service';
 import { ViewType } from '../../view/view';
@@ -14,6 +16,23 @@ export default class ModelModelComponent extends ModelEditableComponent {
 	}
 	*/
 
+	get freezed() {
+		return this.freezed_;
+	}
+	set freezed(freezed) {
+		if (this.freezed_ !== freezed) {
+			this.freezed_ = freezed;
+			const mesh = this.mesh;
+			if (mesh) {
+				mesh.traverse((child) => {
+					if (child instanceof InteractiveMesh) {
+						child.freezed = freezed;
+					}
+				});
+			}
+		}
+	}
+
 	onInit() {
 		super.onInit();
 		this.progress = null;
@@ -28,6 +47,9 @@ export default class ModelModelComponent extends ModelEditableComponent {
 			});
 		}
 		*/
+		MenuService.active$.pipe(
+			takeUntil(this.unsubscribe$),
+		).subscribe(active => this.freezed = active);
 		// console.log('ModelModelComponent.onInit');
 	}
 
@@ -166,6 +188,7 @@ export default class ModelModelComponent extends ModelEditableComponent {
 		}
 		if (typeof mount === 'function') {
 			mount(dummy, this.item);
+			this.freezed = MenuService.active;
 		}
 		/*
 		this.progress = null;

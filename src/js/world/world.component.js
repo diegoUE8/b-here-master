@@ -4,7 +4,6 @@ import { auditTime, filter, shareReplay, takeUntil, tap } from 'rxjs/operators';
 import { MessageType } from '../agora/agora.types';
 import { DEBUG } from '../environment';
 import KeyboardService from '../keyboard/keyboard.service';
-import LabelPipe from '../label/label.pipe';
 import MessageService from '../message/message.service';
 import { Rect } from '../rect/rect';
 import StateService from '../state/state.service';
@@ -27,9 +26,6 @@ import { XRControllerModelFactory } from './webxr/xr-controller-model-factory';
 const ORIGIN = new THREE.Vector3();
 const USE_SHADOW = false;
 const USE_PHONE = true;
-
-const loadingBanner = { title: LabelPipe.transform('loading') };
-const waitingBanner = { title: LabelPipe.transform('waiting_host') };
 
 export default class WorldComponent extends Component {
 
@@ -230,6 +226,9 @@ export default class WorldComponent extends Component {
 		}
 		const view = this.view_;
 		if (view) {
+			if (this.views) {
+				this.views.forEach(view => delete view.onUpdateAsset);
+			}
 			const message = this.requestInfoResult;
 			if (message) {
 				if (view instanceof PanoramaGridView && message.gridIndex !== undefined) {
@@ -237,20 +236,31 @@ export default class WorldComponent extends Component {
 				}
 			}
 			view.ready = false;
-			// this.loading = loadingBanner;
+			// this.loading = LOADING_BANNER;
 			// this.waiting = null;
 			this.pushChanges();
 			this.panorama.change(view, this.renderer, (envMap, texture, rgbe) => {
 				// this.scene.background = envMap;
 				this.scene.environment = envMap;
 				view.ready = true;
-				// this.waiting = (view && view.type.name === 'waiting-room') ? waitingBanner : null;
+				view.onUpdateAsset = () => {
+					this.onViewAssetDidChange();
+				};
+				// this.waiting = (view && view.type.name === 'waiting-room') ? WAITING_BANNER : null;
 				this.pushChanges();
 				// this.render();
 			}, (view) => {
 				this.setViewOrientation(view);
 				// this.loading = null;
 				// this.pushChanges();
+			});
+		}
+	}
+
+	onViewAssetDidChange() {
+		if (this.panorama) {
+			this.panorama.crossfade(this.view, this.renderer, (envMap, texture, rgbe) => {
+				this.scene.environment = envMap;
 			});
 		}
 	}
@@ -443,6 +453,7 @@ export default class WorldComponent extends Component {
 	}
 
 	onModelDown(event) {
+		// vr controller model grab
 		const controller = this.controller;
 		if (controller && this.renderer.xr.isPresenting) {
 			const target = this.tempTarget = event.mesh;
@@ -458,6 +469,7 @@ export default class WorldComponent extends Component {
 	}
 
 	onModelDistance(direction) {
+		// vr controller model distance
 		const controller = this.controller;
 		const target = this.tempTarget;
 		if (controller && target && this.renderer.xr.isPresenting) {
@@ -472,6 +484,7 @@ export default class WorldComponent extends Component {
 	}
 
 	onModelUp() {
+		// vr controller model release
 		const target = this.tempTarget;
 		const parent = this.tempParent;
 		if (target && parent) {
@@ -895,7 +908,7 @@ export default class WorldComponent extends Component {
 	onGridMove(event) {
 		// console.log('WorldComponent.onGridMove', event, this.view);
 		this.view.items = [];
-		// this.loading = loadingBanner;
+		// this.loading = LOADING_BANNER;
 		this.pushChanges();
 		this.orbit.walk(event.position, (headingLongitude, headingLatitude) => {
 			const tile = this.view.getTile(event.indices.x, event.indices.y);

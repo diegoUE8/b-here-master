@@ -4,8 +4,12 @@ import LabelPipe from '../../label/label.pipe';
 import LoaderService from '../../loader/loader.service';
 import { ViewType } from '../../view/view';
 import { PANORAMA_RADIUS } from '../panorama/panorama';
+import VRService from '../vr.service';
 import WorldComponent from '../world.component';
 import ModelComponent from './model.component';
+
+export const LOADING_BANNER = { title: LabelPipe.transform('loading') };
+export const WAITING_BANNER = { title: LabelPipe.transform('waiting_host') };
 
 const PANEL_RADIUS = PANORAMA_RADIUS - 0.01;
 
@@ -17,7 +21,22 @@ export default class ModelProgressComponent extends ModelComponent {
 	set title(title) {
 		if (this.title_ !== title) {
 			this.title_ = title;
-			if (title !== '') {
+			if (title === WAITING_BANNER.title || (title !== '' && this.visible_)) {
+				this.updateProgress();
+				this.show();
+			} else {
+				this.hide();
+			}
+		}
+	}
+
+	get visible() {
+		return this.visible_;
+	}
+	set visible(visible) {
+		if (this.visible_ !== visible) {
+			this.visible_ = visible;
+			if (visible && this.title_ !== '') {
 				this.updateProgress();
 				this.show();
 			} else {
@@ -28,8 +47,13 @@ export default class ModelProgressComponent extends ModelComponent {
 
 	onInit() {
 		this.title_ = '';
+		this.visible_ = this.host.renderer.xr.isPresenting;
 		super.onInit();
-		this.progress = LoaderService.progress;
+		const vrService = this.vrService = VRService.getService();
+		vrService.session$.pipe(
+			takeUntil(this.unsubscribe$),
+		).subscribe((session) => this.visible = session != null); // loose
+		// this.progress = LoaderService.progress;
 	}
 
 	onCreate(mount, dismount) {
@@ -43,7 +67,7 @@ export default class ModelProgressComponent extends ModelComponent {
 				takeUntil(this.unsubscribe$)
 			).subscribe(progress => {
 				if (progress.count) {
-					this.title = progress.value === 0 ? LabelPipe.transform('loading') : progress.title;
+					this.title = progress.value === 0 ? LOADING_BANNER.title : progress.title;
 				} else {
 					this.title = this.getTitle();
 				}
@@ -53,7 +77,7 @@ export default class ModelProgressComponent extends ModelComponent {
 
 	getTitle() {
 		if (this.view && this.view.type.name === ViewType.WaitingRoom.name) {
-			return LabelPipe.transform('waiting_host');
+			return WAITING_BANNER.title;
 		} else {
 			return '';
 		}
@@ -81,7 +105,7 @@ export default class ModelProgressComponent extends ModelComponent {
 	}
 
 	hide() {
-		const material = this.material;
+		this.mesh.remove(this.banner);
 		this.material.opacity = 0;
 		this.material.needsUpdate = true;
 		/*

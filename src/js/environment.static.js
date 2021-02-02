@@ -9,6 +9,7 @@ export const environmentStatic = {
 		selfService: true,
 		guidedTourRequest: true,
 		editor: true,
+		editorAssetScreen: true,
 		ar: true,
 		menu: true,
 		attendee: true,
@@ -67,5 +68,7 @@ export const environmentStatic = {
 			},
 			remove: '/remove-modal.html',
 		}
-	}
+	},
+	languages: ['en'],
+	defaultLanguage: 'en',
 };
