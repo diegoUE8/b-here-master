@@ -139,8 +139,7 @@ function _readOnlyError(name) {
     viewer: true,
     maxQuality: false
   },
-  logo: null,
-  //'/Modules/B-Here/Client/docs/img/logo.png'
+  logo: '/Modules/B-Here/Client/docs/img/logo.png',
   background: {
     image: '/Modules/B-Here/Client/docs/img/background.jpg',
     video: '/Modules/B-Here/Client/docs/img/background.mp4'
@@ -148,11 +147,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#522a6e',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#522a6e',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#522a6e',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -212,8 +211,7 @@ function _readOnlyError(name) {
     viewer: true,
     maxQuality: false
   },
-  logo: null,
-  //'/b-here/img/logo.png'
+  logo: '/b-here/img/logo.png',
   background: {
     image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
@@ -221,11 +219,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#522a6e',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#522a6e',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#522a6e',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -366,11 +364,11 @@ var defaultOptions = {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#522a6e',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#522a6e',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#522a6e',
     menuBackOverForeground: '#ffffff'
   },
   editor: {

@@ -17,13 +17,13 @@ body {
 body {
   --background: #ffffff;
   --background-negative: #101010;
-  --background-primary: #0099ff;
+  --background-primary: #522a6e;
   --background-secondary: #ff4332;
   --background-tertiary: #d8dfe4;
   --background-primary-disabled: #c4d3dd;
   --foreground: #101010;
   --foreground-negative: #ffffff;
-  --foreground-primary: #0099ff;
+  --foreground-primary: #522a6e;
   --foreground-secondary: #ff4332;
   --foreground-tertiary: #6d7b84;
   --foreground-primary-disabled: #c4d3dd;
@@ -4422,7 +4422,7 @@ body {
     width: 66px;
     fill: currentColor; }
   .group--logo img {
-    max-width: 160px;
+    max-width: 100px;
     max-height: 60px; }
   @media (max-width: 767.98px) {
     .group--logo {
