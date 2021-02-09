@@ -74,7 +74,7 @@
           "viewId": 101028713006200,
           "position": [
             0.09490218840045289,
-            -0.06120628117720767,
+            -0.05520628117720767,
             0.9936032235159372
           ],
           "asset": null,
@@ -90,13 +90,194 @@
           "abstract": null,
           "viewId": 376822678396500,
           "position": [
-            -0.9963304902360907,
-            -0.06601841613358903,
-            0.05447130397855086
+            -0.9980572887424654,
+            -0.0340704428021003,
+            0.05456571137375981
           ],
           "asset": null,
           "id": 875817081900200,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -21.557074974775343,
+            -4.181789737424433,
+            -19.680299035207625
+          ],
+          "rotation": [
+            -0.009236880342732548,
+            0.021725363332266684,
+            0.001642859040783216,
+            "XYZ"
+          ],
+          "scale": [
+            9,
+            5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "131279384774900_Piva Group - spot ottobre 2020.mp4",
+            "id": 131279396595800,
+            "chromaKeyColor": null
+          },
+          "id": 131141588110400
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            45,
+            19.57016631272882,
+            0.8583900039082297
+          ],
+          "rotation": [
+            1.6400772211405865,
+            -1.0067789085344603,
+            1.6590086752108093,
+            "XYZ"
+          ],
+          "scale": [
+            10,
+            4,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "131953929302100_logoPiva.jpg",
+            "id": 131953947997100,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 131955109341000
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -4.100000000000002,
+            -0.4993975256474571,
+            -43.556757659145106
+          ],
+          "rotation": [
+            0.0350916157684309,
+            0.038185208397274975,
+            -0.019405529155365635,
+            "XYZ"
+          ],
+          "scale": [
+            5,
+            2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "132066658530200_logoPiva.jpg",
+            "id": 132066664658500,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 132068258286300
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -22.17078378142561,
+            -0.06808668557062975,
+            1.2468642149623308
+          ],
+          "rotation": [
+            -2.8908947669339877,
+            1.5167377154778834,
+            2.891245867854879,
+            "XYZ"
+          ],
+          "scale": [
+            1.25,
+            0.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "132207663033900_logoPiva.jpg",
+            "id": 132207712111300,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 132209065887900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            2.5,
+            0.1,
+            24
+          ],
+          "rotation": [
+            3.1172849797436895,
+            -0.028834363304876928,
+            3.140891716466967,
+            "XYZ"
+          ],
+          "scale": [
+            2.5,
+            1,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "132318489959400_logoPiva.jpg",
+            "id": 132318495991400,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 132319949007300
         }
       ],
       "hidden": false
@@ -221,9 +402,9 @@
             "name": "plane"
           },
           "position": [
-            20.530784358348615,
-            -0.15578057588520222,
-            11.12046315239471
+            19.3307843583486,
+            0.44421942411479776,
+            10.92046315239471
           ],
           "rotation": [
             -3.12649946017066,
@@ -233,7 +414,7 @@
           ],
           "scale": [
             12,
-            6.75,
+            7.2,
             1
           ],
           "asset": {
@@ -264,6 +445,76 @@
           "asset": null,
           "id": 870406895800600,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.593402057268293,
+            0.4,
+            11.2
+          ],
+          "rotation": [
+            0.4150585134838645,
+            -1.527655867172776,
+            0.414936773204203,
+            "XYZ"
+          ],
+          "scale": [
+            13,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "68066297006300_tv.png",
+            "id": 68066309188000,
+            "chromaKeyColor": null
+          },
+          "id": 68067858303000
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.80070159705177,
+            6.7,
+            12
+          ],
+          "rotation": [
+            2.0117593842295465,
+            -1.43,
+            2.015637251331763,
+            "XYZ"
+          ],
+          "scale": [
+            5,
+            2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "132479494444300_logoPiva.jpg",
+            "id": 132479501802300,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 132481427426000
         }
       ],
       "hidden": null
@@ -284,8 +535,8 @@
         "id": 178568782539299
       },
       "orientation": {
-        "latitude": -4.310963728122627,
-        "longitude": 359.7347735655041
+        "latitude": -0.8109637281226272,
+        "longitude": 359.3347735655041
       },
       "zoom": 75,
       "id": 343790068431900,
@@ -325,7 +576,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -343,8 +595,8 @@
         "id": 178902358319200
       },
       "orientation": {
-        "latitude": -4.4,
-        "longitude": 359.90000000000003
+        "latitude": -2.3000000000000003,
+        "longitude": 359.1
       },
       "zoom": 75,
       "id": 36239239323700,
@@ -384,7 +636,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -398,12 +651,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "106814988666099_1_2.jpg",
+        "file": "68264969068800_1.jpg",
         "id": 106815455567799
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -4.532648296317726,
+        "longitude": 2.2830948764290824
       },
       "zoom": 75,
       "id": 101028713006200,
@@ -417,9 +670,9 @@
           "abstract": null,
           "viewId": 101097786721600,
           "position": [
-            0.9458850560819436,
-            -0.3243714921683787,
-            -0.00919759475723327
+            0.9352185863214988,
+            -0.33115026553920507,
+            0.06220302817310599
           ],
           "asset": null,
           "id": 101405859494600,
@@ -434,9 +687,9 @@
           "abstract": null,
           "viewId": 101260600040800,
           "position": [
-            -0.035653990886371556,
-            -0.04246539027175332,
-            0.9984615583801623
+            -0.159479386347274,
+            -0.03721314029779905,
+            0.9864996236793369
           ],
           "asset": null,
           "id": 101417709395100,
@@ -447,13 +700,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "City 74",
-          "abstract": "Contribuiscono in maniera determinante all’armonia della facciata di qualsiasi edificio.\nUn’estetica ricercata, ottimale per un’ampia gamma di soluzioni architettoniche.\nQuesto nuovo sistema di profili permette di raggiungere già con un semplice doppio vetro i più alti standard prescritti\ndalle norme di risparmio energetico. Inoltre è ora certificato per i massimi livelli di isolamento termico.\nGrazie a queste particolari proprietà termoplastiche i profilati GEALAN si prestano alla realizzazione di finestre con\nindiscussi vantaggi di impatto ambientale.",
+          "title": "City74 Essenziale",
+          "abstract": "Consente di avere fino a 3 cm di vetro in più rispetto ad una finestra a battente standard, aumentando l’ingresso della luce nello spazio che diventa un vero elemento naturale di arredo.",
           "viewId": 101028713006200,
           "position": [
-            -0.9908835063350308,
-            -0.17065599964393133,
-            0.051
+            -0.930280716959153,
+            -0.2794014103751941,
+            -0.2377238724535609
           ],
           "asset": null,
           "id": 101669008665100,
@@ -464,16 +717,15 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 106904653480700,
           "position": [
-            -0.9655159444625963,
-            -0.253,
-            0.051
+            -0.9885509375974967,
+            -0.14093056255519187,
+            -0.05390380610854307
           ],
           "asset": null,
-          "link": null,
           "id": 107053057783100,
           "keepOrientation": null
         },
@@ -486,17 +738,34 @@
           "abstract": null,
           "viewId": 376789637631099,
           "position": [
-            -0.8332472098569982,
-            -0.521,
-            0.051
+            -0.9114901179784353,
+            -0.40776514088954846,
+            -0.053975500951680175
+          ],
+          "asset": null,
+          "id": 176282711655700,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Il senso della Luce",
+          "abstract": "Le finestre moderne tendono ad essere realizzate con sezioni sempre più ridotte, questo per garantire, durante tutto l’arco della giornata, la massima luminosità all’ambiente in cui sono inserite. Sezioni più ridotte ma con standard di isolamento termico e acustico invariati.",
+          "viewId": 101028713006200,
+          "position": [
+            -0.9517789518130609,
+            -0.27738751407078155,
+            0.13104577033717288
           ],
           "asset": null,
           "link": null,
-          "id": 176282711655700,
-          "keepOrientation": null
+          "id": 125172844055000
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -546,9 +815,9 @@
           "abstract": null,
           "viewId": 101191715010900,
           "position": [
-            0.6064190783537101,
-            -0.1386141440373339,
-            -0.7829699997327063
+            0.23826146165762563,
+            -0.34406730266380653,
+            -0.9082120716696208
           ],
           "asset": null,
           "id": 101730561276600,
@@ -563,29 +832,12 @@
           "abstract": null,
           "viewId": 101203645959499,
           "position": [
-            0.25902802889609633,
-            -0.33406354458798443,
-            0.9062593604611843
+            0.17162776209742617,
+            -0.3205317468990599,
+            0.9315596118914057
           ],
           "asset": null,
           "id": 101750629599000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101245003287599,
-          "position": [
-            0.15545651586481943,
-            -0.2410654093093463,
-            0.9579774215030793
-          ],
-          "asset": null,
-          "id": 101759670563000,
           "keepOrientation": null
         },
         {
@@ -610,8 +862,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Serramento con apertura scorrevole e fisso laterale",
-          "abstract": "City74",
+          "title": "City74",
+          "abstract": "Serramento con apertura scorrevole e fisso laterale",
           "viewId": 101097786721600,
           "position": [
             -0.20406682272352084,
@@ -627,13 +879,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Portafinestra a 2 ante con apertura a ribalta",
-          "abstract": "City74",
+          "title": "City74",
+          "abstract": "Portafinestra a 2 ante con apertura a ribalta",
           "viewId": 101097786721600,
           "position": [
-            -0.9920078812505935,
-            -0.12616107225250617,
-            0.0019358163152625367
+            -0.992103450541418,
+            -0.12517352167171727,
+            0.007895118498941736
           ],
           "asset": null,
           "id": 104584480068800,
@@ -644,8 +896,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Finestra a 1 anta con apertura a ribalta",
-          "abstract": "City74",
+          "title": "City74",
+          "abstract": "Finestra a 1 anta con apertura a ribalta",
           "viewId": 101097786721600,
           "position": [
             0.9717717805739449,
@@ -661,8 +913,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Porta Doppia Scorrevole",
-          "abstract": "City74",
+          "title": "City74",
+          "abstract": "Porta Doppia Scorrevole",
           "viewId": 101097786721600,
           "position": [
             0.4932608102278153,
@@ -678,8 +930,8 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Portoncino apertura esterna 1 anta",
-          "abstract": "City74",
+          "title": "City74",
+          "abstract": "Portoncino apertura esterna 1 anta",
           "viewId": 101097786721600,
           "position": [
             0.15222067503615497,
@@ -705,7 +957,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "107927967896099_3_2.jpg",
+        "file": "68602219150800_3.jpg",
         "id": 107928219361700
       },
       "orientation": {
@@ -720,13 +972,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 36239239323700,
           "position": [
-            0.891780990612549,
-            -0.2646156091515002,
-            -0.3670221303620277
+            0.9996099688188126,
+            -0.027896191562396484,
+            -0.0013087147765874828
           ],
           "asset": null,
           "id": 101800746456000,
@@ -741,9 +993,9 @@
           "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
           "viewId": 101115292443699,
           "position": [
-            0.99742202399247,
-            -0.0654425235075936,
-            0.02943776777751102
+            0.7031741385767286,
+            -0.044724808296531554,
+            0.7096096267383315
           ],
           "asset": null,
           "id": 101846126276500,
@@ -758,16 +1010,34 @@
           "abstract": null,
           "viewId": 101097786721600,
           "position": [
-            -0.9531604714399614,
-            -0.23137625941200907,
-            0.19480796252940238
+            -0.9605432471112809,
+            -0.2687410775431377,
+            0.07165824216285452
           ],
           "asset": null,
           "id": 101996871224800,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City74",
+          "abstract": "Grazie al profilo utilizzato, un infisso estremamente versatile e soddisfa ogni combinazione di forme, colori e materiali. Nello sviluppo del Sistema City74 grande attenzione è stata dedicata alla stabilità dei profili. Generosa la dimensione della camera principale destinata ad accogliere i rinforzi in acciaio.",
+          "viewId": 101115292443699,
+          "position": [
+            0.6853531621523107,
+            -0.04632414577389881,
+            -0.726735933228946
+          ],
+          "asset": null,
+          "link": null,
+          "id": 126795957654400
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -781,227 +1051,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "275330742686999_4_2.jpg",
-        "id": 275330808883500
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 101149927283600,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101191715010900,
-          "position": [
-            -0.2694643392209211,
-            -0.09272304435635544,
-            0.9585360749254676
-          ],
-          "asset": null,
-          "id": 102020559401800,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101175998344000,
-          "position": [
-            0.9986570878426557,
-            -0.049485870664247845,
-            -0.01533523740368228
-          ],
-          "asset": null,
-          "id": 102033066336800,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101028713006200,
-          "position": [
-            -0.6223226324944767,
-            -0.20595193789169813,
-            -0.7551809984128299
-          ],
-          "asset": null,
-          "id": 102052319664000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101097786721600,
-          "position": [
-            -0.9548762430849591,
-            -0.2925366689134071,
-            -0.05131917510055511
-          ],
-          "asset": null,
-          "id": 102059909619000,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Tour - 5",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "101172631933799_5.jpg",
-        "id": 101172675836900
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 101175998344000,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Dettagli Prodotto",
-          "abstract": null,
-          "viewId": 343790068431900,
-          "position": [
-            0.989493374865401,
-            -0.141644500258087,
-            0.028977519633602542
-          ],
-          "asset": null,
-          "link": null,
-          "id": 102099338139699,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 7",
-          "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
-          "viewId": 101175998344000,
-          "position": [
-            0.998483041393676,
-            -0.047381407042519946,
-            0.028046716668903966
-          ],
-          "asset": null,
-          "link": null,
-          "id": 102138776503900
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101149927283600,
-          "position": [
-            -0.7419920232818482,
-            -0.6160402533708502,
-            -0.2644659592705414
-          ],
-          "asset": null,
-          "link": null,
-          "id": 102228439418400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101191715010900,
-          "position": [
-            -0.7199908648360591,
-            -0.33469330307160844,
-            0.6079420592718027
-          ],
-          "asset": null,
-          "link": null,
-          "id": 102237187788800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101028713006200,
-          "position": [
-            -0.7218504169831768,
-            -0.17466856371088607,
-            -0.6696438369404966
-          ],
-          "asset": null,
-          "link": null,
-          "id": 102245610564399
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101097786721600,
-          "position": [
-            -0.9659753953756174,
-            -0.23374350940578054,
-            -0.11070459493439999
-          ],
-          "asset": null,
-          "link": null,
-          "id": 102253340928199
-        }
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Tour - 6",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "165968473071100_4.jpg",
+        "file": "68533300036500_2.jpg",
         "id": 165968534197400
       },
       "orientation": {
@@ -1017,12 +1067,12 @@
             "name": "nav"
           },
           "title": "City 74",
-          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "abstract": "Realizzato con un profilo a 6 camere, 2 guarnizioni e un telaio da 74mm. Le guarnizioni di questo sistema sono state progettate per realizzare serramenti di facile lavorazione, senza rinunciare alla qualità dei materiali.",
           "viewId": 101191715010900,
           "position": [
-            0.9912121180914459,
-            -0.13097308027586965,
-            -0.018563113739887265
+            0.984,
+            -0.11882075402348917,
+            0.15
           ],
           "asset": null,
           "id": 102293784127600,
@@ -1033,13 +1083,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 343790068431900,
           "position": [
-            0.9813931725055712,
-            -0.19112876535157358,
-            -0.018363986893738676
+            0.9985792167643608,
+            -0.05120486979137911,
+            -0.01475158147196092
           ],
           "asset": null,
           "id": 102335883026800,
@@ -1054,9 +1104,9 @@
           "abstract": null,
           "viewId": 101097786721600,
           "position": [
-            -0.24528988706791402,
-            -0.33142070764657505,
-            0.9110396181534881
+            -0.11458429213080039,
+            -0.32006772903720937,
+            0.9404398379619225
           ],
           "asset": null,
           "id": 102390587233000,
@@ -1071,35 +1121,70 @@
           "abstract": null,
           "viewId": 101028713006200,
           "position": [
-            -0.8147186461925963,
-            -0.20754444164459263,
-            0.5414414393898362
+            -0.7417501315747586,
+            -0.22250683952243458,
+            0.6326906421582084
           ],
           "asset": null,
           "id": 102398556810200,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City74 Essenziale ",
+          "abstract": "Consente di avere fino a 3 cm di vetro in più rispetto ad una finestra a battente standard, aumentando l’ingresso della luce nello spazio che diventa un vero elemento naturale di arredo.",
+          "viewId": 101191715010900,
+          "position": [
+            0.28046329276157766,
+            -0.05400421601672457,
+            -0.9583443462898672
+          ],
+          "asset": null,
+          "id": 126590510558400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "City74",
+          "abstract": "Grazie al profilo utilizzato, un infisso estremamente versatile e soddisfa ogni combinazione di forme, colori e materiali. Nello sviluppo del Sistema City74 grande attenzione è stata dedicata alla stabilità dei profili. Generosa la dimensione della camera principale destinata ad accogliere i rinforzi in acciaio.",
+          "viewId": 101191715010900,
+          "position": [
+            -0.6549215394839776,
+            -0.042805972835057556,
+            -0.754483549064909
+          ],
+          "asset": null,
+          "id": 126740894339700,
+          "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Tour - 7",
+      "name": "Tour - 5",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "108751378743100_5_2.jpg",
+        "file": "68681399625600_4.jpg",
         "id": 108751724649300
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -8.2,
+        "longitude": 359
       },
       "zoom": 75,
       "id": 101203645959499,
@@ -1113,9 +1198,9 @@
           "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
           "viewId": 101203645959499,
           "position": [
-            0.9830952646217984,
-            -0.18245560378167294,
-            -0.015285722974777774
+            0.9450012578652363,
+            -0.1614546992538665,
+            -0.28443804724748883
           ],
           "asset": null,
           "id": 103716256909500,
@@ -1126,13 +1211,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Scorrevole",
+          "title": "Dettaglio Scorrevole",
           "abstract": null,
           "viewId": 110743163977199,
           "position": [
-            0.9629283648304054,
-            -0.2688783127264274,
-            -0.02175815135601287
+            0.9581399630029896,
+            -0.15415873978096836,
+            0.24125276007907812
           ],
           "asset": null,
           "id": 103786841553300,
@@ -1143,13 +1228,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Zona Notte",
           "abstract": null,
-          "viewId": 101245003287599,
+          "viewId": 101322525583300,
           "position": [
-            -0.058108370770230046,
-            -0.1759401723312345,
-            0.9826843201183609
+            0.258,
+            -0.002526730956344241,
+            0.9649374174495826
           ],
           "asset": null,
           "id": 103826745043399,
@@ -1164,54 +1249,29 @@
           "abstract": null,
           "viewId": 101097786721600,
           "position": [
-            -0.4073018459795557,
-            -0.3584150173381211,
-            -0.8400261195987662
+            -0.15476436639865682,
+            -0.3356373341794609,
+            -0.9291908150633685
           ],
           "asset": null,
           "id": 103839481501700,
           "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Tour - 8",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
         },
-        "folder": "/uploads/",
-        "file": "108386393878199_6_2.jpg",
-        "id": 108386434836900
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 101245003287599,
-      "items": [
         {
           "type": {
             "id": 1,
             "name": "nav"
           },
-          "title": "City 74",
+          "title": null,
           "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
-          "viewId": 101245003287599,
+          "viewId": 101203645959499,
           "position": [
-            0.986,
-            -0.06103104505280538,
-            0
+            0.258,
+            -0.1121465646906133,
+            0.9612395699353272
           ],
           "asset": null,
-          "id": 103868673319000,
+          "id": 68881109951000,
           "keepOrientation": null
         },
         {
@@ -1219,71 +1279,21 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 107413001285500,
           "position": [
-            0.996,
-            -0.152,
-            0
+            0.258,
+            -0.1978345747696141,
+            0.9475265087561044
           ],
           "asset": null,
-          "id": 103895220297800,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Zona Notte",
-          "abstract": null,
-          "viewId": 101322525583300,
-          "position": [
-            0.9698383287524075,
-            -0.267,
-            0
-          ],
-          "asset": null,
-          "id": 103948676968000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101203645959499,
-          "position": [
-            -0.7725215130923218,
-            -0.18950569774037507,
-            -0.6060512373830147
-          ],
-          "asset": null,
-          "id": 103967528742999,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101097786721600,
-          "position": [
-            -0.9371650126397545,
-            -0.2614181069749179,
-            0.23104612619470427
-          ],
-          "asset": null,
-          "id": 103975167966500,
+          "id": 69066610774300,
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -1312,7 +1322,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Bagno",
+          "title": "Bathroom",
           "abstract": null,
           "viewId": 101302991658300,
           "position": [
@@ -1329,33 +1339,16 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Bedroom",
           "abstract": null,
           "viewId": 101322525583300,
           "position": [
-            0.031343667001755816,
-            -0.1656144908990257,
-            -0.9856923530915411
+            0.03958404750729902,
+            -0.038126722383144955,
+            -0.9984885859253768
           ],
           "asset": null,
           "id": 104349827103199,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101282744228800,
-          "position": [
-            0.924265960967517,
-            -0.37320769137293974,
-            0.08030225710945472
-          ],
-          "asset": null,
-          "id": 104365607700700,
           "keepOrientation": null
         },
         {
@@ -1374,116 +1367,23 @@
           "asset": null,
           "id": 104375208178800,
           "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Tour - 10",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "177073214061899_7.jpg",
-        "id": 177073560035599
-      },
-      "orientation": {
-        "latitude": 0.17189441111938208,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 101282744228800,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
-          "viewId": 101282744228800,
-          "position": [
-            1,
-            0.07400000000000002,
-            0
-          ],
-          "asset": null,
-          "id": 104402878282700,
-          "keepOrientation": null
         },
         {
           "type": {
             "id": 1,
             "name": "nav"
           },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 257412329346300,
-          "position": [
-            1,
-            -0.09458958616238103,
-            0
-          ],
-          "asset": null,
-          "id": 104416359071300,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Dettagli Prodotto",
-          "abstract": null,
-          "viewId": 175920234676100,
-          "position": [
-            0.999955854964398,
-            0.003,
-            0
-          ],
-          "asset": null,
-          "id": 104444563596400,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
+          "title": "City74",
+          "abstract": "Realizzato con un profilo a 6 camere, 2 guarnizioni e un telaio da 74mm. Le guarnizioni di questo sistema sono state progettate per realizzare serramenti di facile lavorazione, senza rinunciare alla qualità dei materiali.",
           "viewId": 101260600040800,
           "position": [
-            0.06641338409386072,
-            -0.38043148054417475,
-            0.9224213522160948
+            0.9742078044060074,
+            -0.04521024938638736,
+            0.22107733304173735
           ],
           "asset": null,
-          "id": 104453524241900,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 101028713006200,
-          "position": [
-            0.03428123497136981,
-            -0.13768016580395795,
-            0.9898833107356809
-          ],
-          "asset": null,
-          "id": 104461289818199,
-          "keepOrientation": null
+          "link": null,
+          "id": 130445820774700
         }
       ],
       "hidden": null
@@ -1493,19 +1393,19 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Tour - 11",
+      "name": "Tour - Bagno",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "175955884693000_8.jpg",
+        "file": "130123158447800_6.jpg",
         "id": 175955955151300
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 0.6859297656785848,
+        "longitude": 1.0040223993445099
       },
       "zoom": 75,
       "id": 101302991658300,
@@ -1519,9 +1419,9 @@
           "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
           "viewId": 101302991658300,
           "position": [
-            0.9860154711789579,
-            0.12736114600374948,
-            -0.10748315721241702
+            0.9760043984499521,
+            0.09052381142691435,
+            -0.19982253191896857
           ],
           "asset": null,
           "id": 104485404698799,
@@ -1532,13 +1432,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Hallway",
           "abstract": null,
           "viewId": 101260600040800,
           "position": [
-            -0.9571206868876665,
-            -0.2862180291367067,
-            0.04471275577260549
+            -0.9861163732626682,
+            -0.15413037771008356,
+            0.06179259705036647
           ],
           "asset": null,
           "id": 104497484412700,
@@ -1549,40 +1449,57 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 109450037861400,
           "position": [
-            0.9937612341795642,
-            0.022677650112420174,
-            -0.1091985971855322
+            0.9986196595724148,
+            -0.04821318326576487,
+            0.020839013288931448
           ],
           "asset": null,
-          "link": null,
           "id": 257996825179099,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Il senso della Luce",
+          "abstract": "Le finestre moderne tendono ad essere realizzate con sezioni sempre più ridotte, questo per garantire, durante tutto l’arco della giornata, la massima luminosità all’ambiente in cui sono inserite. Sezioni più ridotte ma con standard di isolamento termico e acustico invariati.",
+          "viewId": 101302991658300,
+          "position": [
+            0.9666162396518894,
+            0.091,
+            0.23691312842626802
+          ],
+          "asset": null,
+          "id": 130226422430000,
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Tour - 12",
+      "name": "Tour - Notte - 1",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "175352858010300_9.jpg",
+        "file": "69215686556700_7.jpg",
         "id": 175353233045500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -9.100000000000001,
+        "longitude": 91.2
       },
       "zoom": 75,
       "id": 101322525583300,
@@ -1596,9 +1513,9 @@
           "abstract": null,
           "viewId": 101245003287599,
           "position": [
-            0.269707040756819,
-            -0.10460764961446552,
-            -0.9572436219731825
+            0.6834717108385834,
+            -0.09717305186372675,
+            -0.7234803511325442
           ],
           "asset": null,
           "id": 104005663372999,
@@ -1611,28 +1528,11 @@
           },
           "title": null,
           "abstract": null,
-          "viewId": 101260600040800,
-          "position": [
-            0.014801160402687636,
-            -0.2040579896257668,
-            -0.9788469045364676
-          ],
-          "asset": null,
-          "id": 104019193454700,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
           "viewId": 101358797035400,
           "position": [
-            -0.6700495396329755,
-            -0.2800766512457442,
-            -0.6874523138841032
+            -0.2998759039984525,
+            -0.4610158117577013,
+            -0.8351879210755497
           ],
           "asset": null,
           "id": 104033811218499,
@@ -1647,9 +1547,9 @@
           "abstract": "Le finestre moderne tendono ad essere\nrealizzate con sezioni sempre più ridotte,\nquesto per garantire, durante tutto l’arco\ndella giornata, la massima luminosità\nall’ambiente in cui sono inserite. Sezioni\npiù ridotte ma con standard di isolamento\ntermico e acustico invariati.",
           "viewId": 101322525583300,
           "position": [
-            0.9696949745035588,
-            -0.24399949193339168,
-            -0.01248616669715928
+            0.9877263522837463,
+            -0.12969030613416008,
+            0.08704641002977992
           ],
           "asset": null,
           "id": 104059222038200,
@@ -1660,13 +1560,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 109203291446700,
           "position": [
-            0.9467535698429415,
-            -0.3214526309454898,
-            -0.018052258802410664
+            0.9762520318439085,
+            -0.19796706064594832,
+            0.0879830280215653
           ],
           "asset": null,
           "id": 104073384442600,
@@ -1677,75 +1577,16 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
-          "abstract": null,
-          "viewId": 101343185766000,
-          "position": [
-            -0.761347510800265,
-            -0.21838399417542992,
-            0.610457532418289
-          ],
-          "asset": null,
-          "id": 104134278476100,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Tour - 13",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175442062877700_11.jpg",
-        "id": 175442145555900
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 101343185766000,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "City 74",
-          "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
-          "viewId": 101343185766000,
-          "position": [
-            0.997154991172555,
-            -0.042250919153979986,
-            0.06242422134320489
-          ],
-          "asset": null,
-          "id": 104168917913000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 175582138015200,
           "position": [
-            0.991245650027655,
-            -0.13613472838997565,
-            0.05895970869567263
+            -0.020496329536502076,
+            -0.023503764822048627,
+            0.999513618473866
           ],
           "asset": null,
-          "id": 104190679939200,
+          "id": 129444468300700,
           "keepOrientation": null
         },
         {
@@ -1753,33 +1594,16 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
-          "abstract": null,
-          "viewId": 101358797035400,
-          "position": [
-            -0.6930591797843496,
-            -0.29764465077943014,
-            0.656564265840775
-          ],
-          "asset": null,
-          "id": 104223537049099,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
+          "title": "City74",
+          "abstract": "Realizzato con un profilo a 6 camere, 2 guarnizioni e un telaio da 74mm. Le guarnizioni di questo sistema sono state progettate per realizzare serramenti di facile lavorazione, senza rinunciare alla qualità dei materiali.",
           "viewId": 101322525583300,
           "position": [
-            -0.8903091589554093,
-            -0.4530675734865931,
-            -0.04560016814752131
+            -0.5156342716203128,
+            -0.021867332469884867,
+            0.8565296945822959
           ],
           "asset": null,
-          "id": 104230584849900,
+          "id": 129540030241800,
           "keepOrientation": null
         },
         {
@@ -1787,27 +1611,45 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Zona Giorno",
-          "abstract": null,
-          "viewId": 101245003287599,
+          "title": null,
+          "abstract": "Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
+          "viewId": 101322525583300,
           "position": [
-            -0.9673257542807514,
-            -0.07081442202335418,
-            0.2434465089884714
+            0.4904698887441052,
+            -0.02522751841336349,
+            0.8710929115485031
           ],
           "asset": null,
-          "id": 104244856968600,
+          "id": 129584033860800,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Hallway",
+          "abstract": null,
+          "viewId": 101260600040800,
+          "position": [
+            0.5500590062448885,
+            -0.5629488429901552,
+            -0.6168660225891287
+          ],
+          "asset": null,
+          "id": 130366328255200,
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Tour - 14",
+      "name": "Tour - Notte - 2",
       "asset": {
         "type": {
           "id": 1,
@@ -1833,9 +1675,9 @@
           "abstract": "Profilo a 6 camere, 2 guarnizioni e un telaio da 74 mm. Il serramento monta di serie ferramenta a ribalta con due punti di sicurezza sulle finestre e 4 punti di sicurezza sulle porte finestre, vetri basso emissivi con gas argon e microventilazione. A richiesta è possibile inserire vetri Selettivi, StopSol e vetrate isolanti ad alta protezione acustica.",
           "viewId": 101358797035400,
           "position": [
-            0.9915509856412822,
-            0.10045229894121281,
-            0.08207300720229162
+            0.9908677393207362,
+            0.014543163255469069,
+            -0.1340508096802788
           ],
           "asset": null,
           "id": 104289369700300,
@@ -1863,21 +1705,21 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Dettagli Prodotto",
+          "title": "Dettaglio Prodotto",
           "abstract": null,
           "viewId": 109323010355600,
           "position": [
-            0.9827120102073238,
-            -0.17074753891809255,
-            0.07157082469620628
+            0.9912155780719497,
+            0.10954611239615775,
+            0.07410348875983262
           ],
           "asset": null,
-          "link": null,
           "id": 258145662976100,
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -1895,8 +1737,8 @@
         "id": 179144354304499
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -2.2,
+        "longitude": 359.9
       },
       "zoom": 75,
       "id": 175582138015200,
@@ -1908,7 +1750,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 101343185766000,
+          "viewId": 101322525583300,
           "position": [
             0.8470708117272785,
             -0.5314332789964656,
@@ -1932,70 +1774,12 @@
             -0.8176957747600466
           ],
           "asset": null,
-          "link": null,
-          "id": 179182257227600
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "City 74 - dettagli 7 -2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "179517235708700_360_city7_3.jpg",
-        "id": 179517317234900
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 175920234676100,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 101282744228800,
-          "position": [
-            0.8799062146641575,
-            -0.4751332905450073,
-            0.0036619136072830972
-          ],
-          "asset": null,
-          "id": 175939711038299,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 257412329346300,
-          "position": [
-            0.28591780582627335,
-            -0.44692753057586154,
-            -0.8476477987494877
-          ],
-          "asset": null,
-          "id": 257453359144800,
+          "id": 179182257227600,
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -2013,10 +1797,10 @@
         "id": 178922435052600
       },
       "orientation": {
-        "latitude": 17.5,
-        "longitude": 118.1
+        "latitude": 19.4,
+        "longitude": 110.3
       },
-      "zoom": 58.5404,
+      "zoom": 75,
       "id": 183788620172200,
       "items": [
         {
@@ -2094,10 +1878,10 @@
         "id": 179196386628900
       },
       "orientation": {
-        "latitude": 16.4,
-        "longitude": 123.9
+        "latitude": 19.4,
+        "longitude": 107.4
       },
-      "zoom": 59.6801,
+      "zoom": 75,
       "id": 246450449087500,
       "items": [
         {
@@ -2126,7 +1910,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 101343185766000,
+          "viewId": 101322525583300,
           "position": [
             0.593679984877661,
             -0.5160687597750461,
@@ -2175,8 +1959,8 @@
         "id": 178437036798600
       },
       "orientation": {
-        "latitude": 20,
-        "longitude": 120.4
+        "latitude": 20.599999999999998,
+        "longitude": 106.50000000000001
       },
       "zoom": 52.5,
       "id": 255139962540699,
@@ -2256,10 +2040,10 @@
         "id": 178979412779299
       },
       "orientation": {
-        "latitude": 22.2,
-        "longitude": 289.7
+        "latitude": 13.399999999999999,
+        "longitude": 285.3
       },
-      "zoom": 46.4117,
+      "zoom": 53.9628,
       "id": 255725576747900,
       "items": [
         {
@@ -2288,7 +2072,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 101245003287599,
+          "viewId": 101203645959499,
           "position": [
             -0.41815840451741887,
             -0.5946254528611644,
@@ -2337,10 +2121,10 @@
         "id": 178586102783900
       },
       "orientation": {
-        "latitude": 13.400000000000002,
-        "longitude": 121.7
+        "latitude": 15.100000000000001,
+        "longitude": 112.2
       },
-      "zoom": 56.9954,
+      "zoom": 75,
       "id": 256000798963299,
       "items": [
         {
@@ -2418,10 +2202,10 @@
         "id": 179021362321600
       },
       "orientation": {
-        "latitude": 16.9,
-        "longitude": 302.1
+        "latitude": 19.2,
+        "longitude": 291.20000000000005
       },
-      "zoom": 52.4901,
+      "zoom": 64.9901,
       "id": 257194446841500,
       "items": [
         {
@@ -2480,87 +2264,6 @@
           "folder": "/uploads/",
           "file": "257884623665700_City5.glb",
           "id": 257884647115400
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "City 74 - 7b",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "179544732994900_360_sfondo4.jpg",
-        "id": 179544799752900
-      },
-      "orientation": {
-        "latitude": 16.7,
-        "longitude": 117.90000000000002
-      },
-      "zoom": 70.2045,
-      "id": 257412329346300,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "257411152693299_City7.glb",
-            "id": 257411182824500,
-            "chromaKeyColor": null
-          },
-          "id": 257412344145900,
-          "position": null,
-          "rotation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Back",
-          "abstract": null,
-          "viewId": 101282744228800,
-          "position": [
-            0.633767849652176,
-            -0.5003642496924323,
-            -0.5898931516613716
-          ],
-          "asset": null,
-          "id": 257520150868899,
-          "keepOrientation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "257494287809000_City7.usdz",
-          "id": 257494346632699
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "257498493393900_City7.glb",
-          "id": 257498528382600
         }
       }
     },
@@ -3028,8 +2731,8 @@
         "id": 177455207421700
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -3.2,
+        "longitude": 359.9
       },
       "zoom": 75,
       "id": 106904653480700,
@@ -3069,7 +2772,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -3087,8 +2791,8 @@
         "id": 178961225278000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -1.6,
+        "longitude": 356
       },
       "zoom": 75,
       "id": 107413001285500,
@@ -3100,7 +2804,7 @@
           },
           "title": "Back ",
           "abstract": null,
-          "viewId": 101245003287599,
+          "viewId": 101203645959499,
           "position": [
             0.9309395637391711,
             -0.36515273306943596,
@@ -3128,7 +2832,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -3168,8 +2873,8 @@
         "id": 178999946069100
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -4,
+        "longitude": 352.9
       },
       "zoom": 75,
       "id": 109203291446700,
@@ -3209,7 +2914,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -3477,8 +3183,8 @@
         "id": 48622272796400
       },
       "orientation": {
-        "latitude": -2.2999999999999954,
-        "longitude": 359.8
+        "latitude": -0.0999999999999952,
+        "longitude": 359.40000000000003
       },
       "zoom": 75,
       "id": 110743163977199,
@@ -3501,7 +3207,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -4372,7 +4079,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "165968473071100_4.jpg",
+      "file": "68533300036500_2.jpg",
       "id": 165968534197400
     },
     {
@@ -4399,7 +4106,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "175352858010300_9.jpg",
+      "file": "69215686556700_7.jpg",
       "id": 175353233045500
     },
     {
@@ -4453,7 +4160,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "175955884693000_8.jpg",
+      "file": "130123158447800_6.jpg",
       "id": 175955955151300
     },
     {
@@ -4462,7 +4169,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "177073214061899_7.jpg",
+      "file": "129873334702900_5.jpg",
       "id": 177073560035599
     },
     {
@@ -5056,7 +4763,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "106814988666099_1_2.jpg",
+      "file": "68264969068800_1.jpg",
       "id": 106815455567799
     },
     {
@@ -5101,7 +4808,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "107927967896099_3_2.jpg",
+      "file": "68602219150800_3.jpg",
       "id": 107928219361700
     },
     {
@@ -5119,7 +4826,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "108751378743100_5_2.jpg",
+      "file": "68681399625600_4.jpg",
       "id": 108751724649300
     },
     {
@@ -5526,6 +5233,105 @@
       "folder": "/uploads/",
       "file": "48622212207799_360_scorrevole2.jpg",
       "id": 48622272796400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "68066297006300_tv.png",
+      "id": 68066309188000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "131279384774900_Piva Group - spot ottobre 2020.mp4",
+      "id": 131279396595800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "131794730253000_logo.png",
+      "id": 131794738777800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "131953929302100_logoPiva.jpg",
+      "id": 131953947997100,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "132066658530200_logoPiva.jpg",
+      "id": 132066664658500,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "132207663033900_logoPiva.jpg",
+      "id": 132207712111300,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "132318489959400_logoPiva.jpg",
+      "id": 132318495991400,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "132479494444300_logoPiva.jpg",
+      "id": 132479501802300,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
     }
   ],
   "users": [
