@@ -19544,6 +19544,1380 @@
           "id": 416796782041600
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "268891152799799_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+        "id": 268891367790200
+      },
+      "orientation": {
+        "latitude": -16.189062971738462,
+        "longitude": 357.66578599357075
+      },
+      "zoom": 52.7138,
+      "id": 268893094743400,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            40.959770464949266,
+            -10.890187602316313,
+            0.047029299600662586
+          ],
+          "rotation": [
+            -1.5860140660568816,
+            -1.4156473661105389,
+            -1.58619904673417,
+            "XYZ"
+          ],
+          "scale": [
+            17,
+            10,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "274414351699400_greenback_noaudio.mp4",
+            "id": 273653157760599,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 273654716731700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Hall",
+          "abstract": null,
+          "viewId": 4969031361500,
+          "position": [
+            0.41458355165678457,
+            -0.410953203946749,
+            0.811934691253889
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2847091959600
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "274088318935600_AdobeStock_392268168_Editorial_Use_Only.jpeg",
+        "id": 274088380940400
+      },
+      "orientation": {
+        "latitude": -11.877915811821953,
+        "longitude": 197.82887622765918
+      },
+      "zoom": 75,
+      "id": 274090380292499,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -15.339455574154742,
+            -5.2027061031771815,
+            -5.866428363480114
+          ],
+          "rotation": [
+            -0.7240838289504224,
+            1.0490954215287058,
+            0.6540915570555899,
+            "XYZ"
+          ],
+          "scale": [
+            23.84,
+            13,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "3669035823400_beautiful.mp4",
+            "id": 3669073928300,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 3670836457399
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -19.096459711988913,
+            -4.524484822531035,
+            3.8541229299375726
+          ],
+          "rotation": [
+            -2.2763558149237597,
+            1.2690635532978098,
+            2.299252505183558,
+            "XYZ"
+          ],
+          "scale": [
+            21.33,
+            12,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "4382742853199_16927758_man-wearing-virtual-reality-goggles-studio-shot-green-screen_by_kinomaster_preview.mp4",
+            "id": 3793083153599,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 3794036537100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Hall",
+          "abstract": null,
+          "viewId": 4969031361500,
+          "position": [
+            0.8852377519804201,
+            -0.03636309160931502,
+            0.46371526612487624
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2873253889600
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre Hall",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "5568096573400_AdobeStock_392264342_Editorial_Use_Only.jpeg",
+        "id": 4961631582000
+      },
+      "orientation": {
+        "latitude": -12.600000000000001,
+        "longitude": 3.500000000000057
+      },
+      "zoom": 75,
+      "id": 4969031361500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 268893094743400,
+          "position": [
+            0.44860463567813086,
+            0.030004953168922262,
+            -0.893226501864685
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1720773862200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 274090380292499,
+          "position": [
+            0.41288786456095206,
+            0.04768567521963899,
+            0.909532675431259
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1734238337700
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature Water",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "5910742053800_AdobeStock_234993308.jpeg",
+        "id": 5753735998200
+      },
+      "orientation": {
+        "latitude": -12.2,
+        "longitude": 316.70000000000005
+      },
+      "zoom": 75,
+      "id": 5756254101400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 10534988683399,
+          "position": [
+            0.1961725000158068,
+            -0.1935417884434432,
+            -0.9612793175574214
+          ],
+          "asset": null,
+          "id": 3485455138400,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10.971167172806988,
+            -0.9623270148943658,
+            -16.694532565565495
+          ],
+          "rotation": [
+            -0.05757952645408478,
+            -0.580639040827521,
+            -0.03161015082557889,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 3512148376400,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 3489201609400
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature Cathedral",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "5950287990800_AdobeStock_230364066.jpeg",
+        "id": 5950495521899
+      },
+      "orientation": {
+        "latitude": -3.3999999999999995,
+        "longitude": 355.2
+      },
+      "zoom": 75,
+      "id": 5957226043400,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.826339155181387,
+            0.07950246809956449,
+            -2.6286793378591096
+          ],
+          "rotation": [
+            0.030235045994046483,
+            -1.4389203449876669,
+            0.02997267170455138,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 3449112371100,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 3426929194200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 5756254101400,
+          "position": [
+            0.9543922874487347,
+            -0.09374394114292206,
+            0.2834562314668072
+          ],
+          "asset": null,
+          "id": 3468614771400,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature Louvre",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "9101827196900_louvre 1.jpg",
+        "id": 6088096223600
+      },
+      "orientation": {
+        "latitude": -3.4000000000000004,
+        "longitude": 333.7
+      },
+      "zoom": 75,
+      "id": 6096040693600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            3.6515123881800857,
+            0.31219619469082927,
+            -19.66135780700275
+          ],
+          "rotation": [
+            0.015877334795131176,
+            -0.18360546836037767,
+            0.002899049724773705,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 3730452665700,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 3717356028500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 5957226043400,
+          "position": [
+            0.5851829301554848,
+            -0.09229099490013588,
+            -0.8056322427230578
+          ],
+          "asset": null,
+          "id": 3752086682100,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Banksy",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "9179415444600_8 1.jpg",
+        "id": 6131743324399
+      },
+      "orientation": {
+        "latitude": -9.999999999999998,
+        "longitude": 357.49999999999983
+      },
+      "zoom": 75,
+      "id": 6135483200900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 827584112500,
+          "position": [
+            -0.9736924452739749,
+            -0.22786617613551852,
+            -0.00016670262240215303
+          ],
+          "asset": null,
+          "link": null,
+          "id": 920654604600
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Orchestra",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "10481216386700_orchestra.mp4",
+        "id": 6236010196300
+      },
+      "orientation": {
+        "latitude": 1.5999999999999979,
+        "longitude": 4.199999999999989
+      },
+      "zoom": 75,
+      "id": 6270237480899,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature Beach",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "10532277681800_AdobeStock_226557861.jpeg",
+        "id": 10532308320400
+      },
+      "orientation": {
+        "latitude": -12.72880804720505,
+        "longitude": 330.9147303683563
+      },
+      "zoom": 75,
+      "id": 10534988683399,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            16.225673529219847,
+            -8.233048627284145,
+            -11.653004915727848
+          ],
+          "rotation": [
+            0.08278904878553571,
+            -0.9463444045059524,
+            0.06721785811846769,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 3570085725700,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 3540496886600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 10696672247600,
+          "position": [
+            0.848249578015209,
+            -0.5212462355593538,
+            -0.09367505170653669
+          ],
+          "asset": null,
+          "link": null,
+          "id": 3582082165800
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature Forest",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "10693693587500_AdobeStock_278317215.jpeg",
+        "id": 10693798975599
+      },
+      "orientation": {
+        "latitude": 1.9000000000000004,
+        "longitude": 172.39999999999998
+      },
+      "zoom": 75,
+      "id": 10696672247600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 6096040693600,
+          "position": [
+            -0.8394791966005218,
+            -0.2375185542467873,
+            0.48873266195688025
+          ],
+          "asset": null,
+          "link": null,
+          "id": 3611297679200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -19.655467389704455,
+            0.43372057445554313,
+            3.670761250143999
+          ],
+          "rotation": [
+            3.0239824538144617,
+            1.3849129308048167,
+            -3.0259903235369494,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 3629410240700,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 3615564782400
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Uffizi 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "626352572300_uffizi2 1.jpg",
+        "id": 626524397400
+      },
+      "orientation": {
+        "latitude": -7.1000000000000005,
+        "longitude": 322.9
+      },
+      "zoom": 75,
+      "id": 631893128900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 744885722900,
+          "position": [
+            0.977423265345031,
+            -0.17796411474416715,
+            0.11389703343626678
+          ],
+          "asset": null,
+          "id": 776251486500,
+          "keepOrientation": null
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Uffizi 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "742940421300_uffizi2_3.jpg",
+        "id": 742965326900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 744885722900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 631893128900,
+          "position": [
+            -0.8869094178422675,
+            -0.1542533119241675,
+            -0.4354280655896168
+          ],
+          "asset": null,
+          "link": null,
+          "id": 761982981400,
+          "keepOrientation": null
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Banksy 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "894920479300_7 1.jpg",
+        "id": 817573833300
+      },
+      "orientation": {
+        "latitude": -11.900000000000002,
+        "longitude": 88.10000000000008
+      },
+      "zoom": 75,
+      "id": 827584112500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 6135483200900,
+          "position": [
+            -0.06294584760291161,
+            -0.2571142301325838,
+            -0.9643288302922813
+          ],
+          "asset": null,
+          "link": null,
+          "id": 907567648000
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Museum 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1017882209200_31072159940_50fb0f58e7_o.jpg",
+        "id": 1017902566600
+      },
+      "orientation": {
+        "latitude": -1.1000000000000005,
+        "longitude": 358.1999999999999
+      },
+      "zoom": 75,
+      "id": 1025350569900,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre Live",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1535926645300_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+        "id": 1536066507600
+      },
+      "orientation": {
+        "latitude": -10.100000000000001,
+        "longitude": 357.6
+      },
+      "zoom": 47.4876,
+      "id": 1547725229400,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            28.548631997120687,
+            -6.855366696455918,
+            -0.05460978682290934
+          ],
+          "rotation": [
+            -1.5485590026845946,
+            -1.4476868938599028,
+            -1.5483894747760991,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 1599164023200,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 1579470701700
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre Attendee",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "5232190278200_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+        "id": 5201799348900
+      },
+      "orientation": {
+        "latitude": -8.671474064210125,
+        "longitude": 356.52852181578345
+      },
+      "zoom": 56.0883,
+      "id": 5210651489000,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.39375751181782,
+            -1.8278995914600886,
+            0.14200291037570223
+          ],
+          "rotation": [
+            -1.0282190481711915,
+            -1.5458107050336143,
+            -1.028080998970571,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 5317037756300,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 5247759041300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Brick House",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "41387570124000_AdobeStock_334933730.jpeg",
+        "id": 41387581848400
+      },
+      "orientation": {
+        "latitude": 10.200000000000003,
+        "longitude": 91.7
+      },
+      "zoom": 47.3678,
+      "id": 41411885225100,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "41454761927600_brick_house.glb",
+            "id": 41402953979700,
+            "chromaKeyColor": null
+          },
+          "id": 41411906247200,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "41487533607900_brick_house.glb",
+          "id": 41487616912100
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Scan Dress",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "41589028261900_AdobeStock_326519034.jpeg",
+        "id": 41589036091600
+      },
+      "orientation": {
+        "latitude": 21.200000000000003,
+        "longitude": 64.10000000000001
+      },
+      "zoom": 66.6234,
+      "id": 41590724044000,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "41579701578500_palestinian-dress.glb",
+            "id": 41579744192700,
+            "chromaKeyColor": null
+          },
+          "id": 41590749926500,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "41615670829800_palestinian-dress.glb",
+          "id": 41615773970000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Cathedral",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "41894913953800_AdobeStock_334933730.jpeg",
+        "id": 41894934803500
+      },
+      "orientation": {
+        "latitude": 10,
+        "longitude": 1.5
+      },
+      "zoom": 35.8864,
+      "id": 41916683932400,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "41907824628800_Cathedral.glb",
+            "id": 41907939821100,
+            "chromaKeyColor": null
+          },
+          "id": 41916705463300,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "41928132838800_Cathedral.glb",
+          "id": 41928417319000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "bathroom_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60563035118600_bigelli_1.jpg",
+        "id": 60563411293300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60570881790700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Kitchen",
+          "abstract": null,
+          "viewId": 60611057197800,
+          "position": [
+            -0.9908463426446377,
+            -0.0630294143773243,
+            0.11937679083890881
+          ],
+          "asset": null,
+          "link": null,
+          "id": 60834452473000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "kitchen_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60597672184200_scavolini_1.jpg",
+        "id": 60597688531000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60611057197800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "kitchen_2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60638543245400_scavolini_2.jpg",
+        "id": 60638562572000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60647136038100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "kitchen_3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60677675973200_scavolini_3.jpg",
+        "id": 60677695815500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60680028779900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "kitchen_4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60700236376100_scavolini_4.jpg",
+        "id": 60700253399100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60703162671500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "kitchen_5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60734135154900_scavolini_5.jpg",
+        "id": 60734153112600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60737524893100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "kitchen_6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60750314160700_scavolini_6.jpg",
+        "id": 60750330047100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 60752845456500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "bathroom",
+          "abstract": null,
+          "viewId": 60570881790700,
+          "position": [
+            0.8406355846504542,
+            -0.02606910093158183,
+            0.5409733965695617
+          ],
+          "asset": null,
+          "link": null,
+          "id": 60800019493100
+        }
+      ]
     }
   ],
   "menu": [
@@ -19751,6 +21125,13 @@
       "order": 70
     },
     {
+      "id": 41264055807900,
+      "parentId": 513946905350299,
+      "viewId": 6270237480899,
+      "name": "Orchestra",
+      "order": 80
+    },
+    {
       "id": 514006762002499,
       "parentId": null,
       "viewId": null,
@@ -19791,6 +21172,146 @@
       "viewId": 426567696850200,
       "name": "Infisso 2",
       "order": 40
+    },
+    {
+      "id": 41771518598200,
+      "parentId": 514006762002499,
+      "viewId": 41411885225100,
+      "name": "Brick House",
+      "order": 50
+    },
+    {
+      "id": 41772132945000,
+      "parentId": 514006762002499,
+      "viewId": 41916683932400,
+      "name": "Cathedral",
+      "order": 60
+    },
+    {
+      "id": 41773001862500,
+      "parentId": 514006762002499,
+      "viewId": 41590724044000,
+      "name": "Scan Dress",
+      "order": 70
+    },
+    {
+      "id": 40982979157200,
+      "parentId": null,
+      "viewId": null,
+      "name": "Theatre",
+      "order": 60
+    },
+    {
+      "id": 40991533068300,
+      "parentId": 40982979157200,
+      "viewId": null,
+      "name": "Theatre",
+      "order": 0
+    },
+    {
+      "id": 41054746886900,
+      "parentId": 40991533068300,
+      "viewId": 268893094743400,
+      "name": "Theatre 1",
+      "order": 0
+    },
+    {
+      "id": 41055396276400,
+      "parentId": 40991533068300,
+      "viewId": 274090380292499,
+      "name": "Theatre 2",
+      "order": 10
+    },
+    {
+      "id": 41055964651100,
+      "parentId": 40991533068300,
+      "viewId": 4969031361500,
+      "name": "Theatre Hall",
+      "order": 20
+    },
+    {
+      "id": 41210115576300,
+      "parentId": 40991533068300,
+      "viewId": 1547725229400,
+      "name": "Theatre Live",
+      "order": 30
+    },
+    {
+      "id": 41210410931800,
+      "parentId": 40991533068300,
+      "viewId": 5210651489000,
+      "name": "Theatre Attendee",
+      "order": 40
+    },
+    {
+      "id": 41005778890500,
+      "parentId": 40982979157200,
+      "viewId": null,
+      "name": "Environment",
+      "order": 10
+    },
+    {
+      "id": 41122273535300,
+      "parentId": 41005778890500,
+      "viewId": 6096040693600,
+      "name": "Louvre",
+      "order": 0
+    },
+    {
+      "id": 41122730615700,
+      "parentId": 41005778890500,
+      "viewId": 5957226043400,
+      "name": "Cathedral",
+      "order": 10
+    },
+    {
+      "id": 41123228158400,
+      "parentId": 41005778890500,
+      "viewId": 5756254101400,
+      "name": "Water",
+      "order": 20
+    },
+    {
+      "id": 41123615333500,
+      "parentId": 41005778890500,
+      "viewId": 10534988683399,
+      "name": "Beach",
+      "order": 30
+    },
+    {
+      "id": 41127432135700,
+      "parentId": 41005778890500,
+      "viewId": 10696672247600,
+      "name": "Forest",
+      "order": 40
+    },
+    {
+      "id": 41049197040700,
+      "parentId": 40982979157200,
+      "viewId": null,
+      "name": "Museum",
+      "order": 20
+    },
+    {
+      "id": 41228393027800,
+      "parentId": 41049197040700,
+      "viewId": 631893128900,
+      "name": "Uffizi",
+      "order": 0
+    },
+    {
+      "id": 41228925644300,
+      "parentId": 41049197040700,
+      "viewId": 6135483200900,
+      "name": "Banksy",
+      "order": 10
+    },
+    {
+      "id": 41229402666200,
+      "parentId": 41049197040700,
+      "viewId": 1025350569900,
+      "name": "Museum",
+      "order": 20
     }
   ],
   "assets": [
@@ -24386,6 +25907,481 @@
       "file": "publisherScreen",
       "id": 588925961632700,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "268891152799799_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+      "id": 268891367790200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "274414351699400_greenback_noaudio.mp4",
+      "id": 273653157760599,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "274088318935600_AdobeStock_392268168_Editorial_Use_Only.jpeg",
+      "id": 274088380940400
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "4382742853199_16927758_man-wearing-virtual-reality-goggles-studio-shot-green-screen_by_kinomaster_preview.mp4",
+      "id": 3793083153599,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "5568096573400_AdobeStock_392264342_Editorial_Use_Only.jpeg",
+      "id": 4961631582000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "5910742053800_AdobeStock_234993308.jpeg",
+      "id": 5753735998200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "5950287990800_AdobeStock_230364066.jpeg",
+      "id": 5950495521899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9101827196900_louvre 1.jpg",
+      "id": 6088096223600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9179415444600_8 1.jpg",
+      "id": 6131743324399
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "10481216386700_orchestra.mp4",
+      "id": 6236010196300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "10532277681800_AdobeStock_226557861.jpeg",
+      "id": 10532308320400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "10693693587500_AdobeStock_278317215.jpeg",
+      "id": 10693798975599
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "626352572300_uffizi2 1.jpg",
+      "id": 626524397400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "742940421300_uffizi2_3.jpg",
+      "id": 742965326900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "894920479300_7 1.jpg",
+      "id": 817573833300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1017882209200_31072159940_50fb0f58e7_o.jpg",
+      "id": 1017902566600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1080301493500_31072155080_c966bf3560_o.jpg",
+      "id": 1080321175000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1535926645300_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+      "id": 1536066507600
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 1599164023200,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3075118186700,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3361761686400,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3449112371100,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3512148376400,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3570085725700,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3629410240700,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 3730452665700,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "5232190278200_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+      "id": 5201799348900
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 5317037756300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 5486298341600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "41387570124000_AdobeStock_334933730.jpeg",
+      "id": 41387581848400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "41454761927600_brick_house.glb",
+      "id": 41402953979700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "41487533607900_brick_house.glb",
+      "id": 41487616912100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "41579701578500_palestinian-dress.glb",
+      "id": 41579744192700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "41589028261900_AdobeStock_326519034.jpeg",
+      "id": 41589036091600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "41615670829800_palestinian-dress.glb",
+      "id": 41615773970000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "41894913953800_AdobeStock_334933730.jpeg",
+      "id": 41894934803500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "41907824628800_Cathedral.glb",
+      "id": 41907939821100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "41928132838800_Cathedral.glb",
+      "id": 41928417319000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60563035118600_bigelli_1.jpg",
+      "id": 60563411293300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60597672184200_scavolini_1.jpg",
+      "id": 60597688531000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60638543245400_scavolini_2.jpg",
+      "id": 60638562572000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60677675973200_scavolini_3.jpg",
+      "id": 60677695815500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60700236376100_scavolini_4.jpg",
+      "id": 60700253399100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60734135154900_scavolini_5.jpg",
+      "id": 60734153112600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60750314160700_scavolini_6.jpg",
+      "id": 60750330047100
     }
   ],
   "users": [
