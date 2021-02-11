@@ -20603,7 +20603,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "62409979768300_brick_house.usdz",
+          "id": 62410754299600
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -20631,10 +20639,10 @@
         "id": 41589036091600
       },
       "orientation": {
-        "latitude": 21.200000000000003,
-        "longitude": 64.10000000000001
+        "latitude": 18.700000000000003,
+        "longitude": 62.10000000000001
       },
-      "zoom": 66.6234,
+      "zoom": 57.7706,
       "id": 41590724044000,
       "items": [
         {
@@ -20659,7 +20667,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "62460300941100_palestinian-dress.usdz",
+          "id": 62460440481700
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -20715,7 +20731,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "62434339143800_Cathedral.usdz",
+          "id": 62434394598200
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -20754,9 +20778,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Kitchen",
+          "title": "Welcome Room",
           "abstract": null,
-          "viewId": 60611057197800,
+          "viewId": 170427763402500,
           "position": [
             -0.9908463426446377,
             -0.0630294143773243,
@@ -20764,7 +20788,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 60834452473000
+          "id": 60834452473000,
+          "keepOrientation": null
         }
       ]
     },
@@ -20788,7 +20813,63 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 60611057197800
+      "id": 60611057197800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60647136038100,
+          "keepOrientation": true,
+          "position": [
+            0.8179911629045575,
+            -0.5750971653007906,
+            -0.012397897928472963
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62005671169100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60680028779900,
+          "keepOrientation": true,
+          "position": [
+            0.9580812150691146,
+            -0.2863448291148285,
+            0.009328674658743914
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62017395966800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60752845456500,
+          "keepOrientation": true,
+          "position": [
+            -0.03266669549426624,
+            -0.3981417060571832,
+            -0.9167420950863773
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62035843936800
+        }
+      ]
     },
     {
       "type": {
@@ -20810,7 +20891,45 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 60647136038100
+      "id": 60647136038100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60680028779900,
+          "keepOrientation": true,
+          "position": [
+            0.880251725619216,
+            -0.4728253724959937,
+            -0.03991323926239315
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62055426097200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60611057197800,
+          "keepOrientation": true,
+          "position": [
+            -0.9036941140705831,
+            -0.42323720249396074,
+            -0.0648630759313049
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62067337208900
+        }
+      ]
     },
     {
       "type": {
@@ -20832,7 +20951,63 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 60680028779900
+      "id": 60680028779900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60703162671500,
+          "keepOrientation": true,
+          "position": [
+            0.04121160423867771,
+            -0.4042256798046487,
+            -0.9137303778809942
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62082043674200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60647136038100,
+          "keepOrientation": true,
+          "position": [
+            -0.8602629188749844,
+            -0.5092581955088887,
+            -0.02457235673928313
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62092189181100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60611057197800,
+          "keepOrientation": false,
+          "position": [
+            -0.9591626134337475,
+            -0.2820924947335923,
+            -0.02075826114879661
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62100293303300
+        }
+      ]
     },
     {
       "type": {
@@ -20854,7 +21029,63 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 60703162671500
+      "id": 60703162671500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60680028779900,
+          "keepOrientation": true,
+          "position": [
+            -0.027707395349753455,
+            -0.4247521018671586,
+            0.9048856017212139
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62117042512400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60737524893100,
+          "keepOrientation": true,
+          "position": [
+            -0.8602309557159081,
+            -0.509696387289069,
+            0.014570367619479618
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62130788166400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60752845456500,
+          "keepOrientation": true,
+          "position": [
+            -0.9637796806554617,
+            -0.2664155663812784,
+            0.012307442683148496
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62145860730300
+        }
+      ]
     },
     {
       "type": {
@@ -20876,7 +21107,45 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 60737524893100
+      "id": 60737524893100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60752845456500,
+          "keepOrientation": true,
+          "position": [
+            -0.889307088273323,
+            -0.4471705806853836,
+            0.09576729356268301
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62157197704200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60703162671500,
+          "keepOrientation": true,
+          "position": [
+            0.8548720748852938,
+            -0.49288777397324285,
+            0.16203511301262533
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62168996387000
+        }
+      ]
     },
     {
       "type": {
@@ -20905,17 +21174,54 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "bathroom",
+          "title": null,
           "abstract": null,
-          "viewId": 60570881790700,
+          "viewId": 60611057197800,
+          "keepOrientation": true,
           "position": [
-            0.8406355846504542,
-            -0.02606910093158183,
-            0.5409733965695617
+            -0.16343011232787724,
+            -0.4475707189561244,
+            0.8791877216599395
           ],
           "asset": null,
           "link": null,
-          "id": 60800019493100
+          "id": 62190975285800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60737524893100,
+          "keepOrientation": true,
+          "position": [
+            0.8529941203441374,
+            -0.5215911885001449,
+            -0.018538142769376632
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62202413537900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 60703162671500,
+          "keepOrientation": true,
+          "position": [
+            0.954066629709539,
+            -0.29955732781751854,
+            -0.004719473011799543
+          ],
+          "asset": null,
+          "link": null,
+          "id": 62210544976200
         }
       ]
     }
@@ -20971,11 +21277,25 @@
       "order": 40
     },
     {
+      "id": 61860031348300,
+      "parentId": 513759169265300,
+      "viewId": 60570881790700,
+      "name": "Bathroom",
+      "order": 50
+    },
+    {
+      "id": 61923750695200,
+      "parentId": 513759169265300,
+      "viewId": 60611057197800,
+      "name": "Kitchen Oriented",
+      "order": 60
+    },
+    {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 50
+      "order": 70
     },
     {
       "id": 513846642724000,
@@ -21191,7 +21511,7 @@
       "id": 41773001862500,
       "parentId": 514006762002499,
       "viewId": 41590724044000,
-      "name": "Scan Dress",
+      "name": "ArtecScan Dress",
       "order": 70
     },
     {
@@ -26382,6 +26702,33 @@
       "folder": "/uploads/",
       "file": "60750314160700_scavolini_6.jpg",
       "id": 60750330047100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "62409979768300_brick_house.usdz",
+      "id": 62410754299600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "62434339143800_Cathedral.usdz",
+      "id": 62434394598200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "62460300941100_palestinian-dress.usdz",
+      "id": 62460440481700
     }
   ],
   "users": [
