@@ -22455,6 +22455,28 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Reception - Prysmian",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "152593020457100_reception.jpg",
+        "id": 152593477530300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 152612870502300
     }
   ],
   "menu": [
@@ -22534,6 +22556,13 @@
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
       "order": 80
+    },
+    {
+      "id": 153477037956700,
+      "parentId": 513759169265300,
+      "viewId": 152612870502300,
+      "name": "Reception - Prysmian",
+      "order": 90
     },
     {
       "id": 513846642724000,
@@ -28012,6 +28041,15 @@
       "folder": "/uploads/",
       "file": "133826067441500_Stand_9.jpg",
       "id": 133826081970300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "152593020457100_reception.jpg",
+      "id": 152593477530300
     }
   ],
   "users": [

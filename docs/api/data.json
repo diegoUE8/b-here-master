@@ -22455,6 +22455,28 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Reception - Prysmian",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "152593020457100_reception.jpg",
+        "id": 152593477530300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 152612870502300
     }
   ],
   "menu": [
@@ -28012,6 +28034,15 @@
       "folder": "/uploads/",
       "file": "133826067441500_Stand_9.jpg",
       "id": 133826081970300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "152593020457100_reception.jpg",
+      "id": 152593477530300
     }
   ],
   "users": [
