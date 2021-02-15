@@ -31,7 +31,7 @@
 		access_phone_number: 'Telefono',
 		access_website: 'Sito Web',
 		access_role: 'Ruolo',
-		access_privacy_disclaimer: 'Ho letto l\'<a href="/it/it/pagineinterne/informativa_sulla_privacy" target="_blank">informativa</a> e do il consenso al trattamento del dato',
+		access_privacy_disclaimer: 'Ho letto l\'<a href="/it/it/pagineinterne/informativa_sulla_privacy" target="_blank" rel="noopener noreferrer">informativa</a> e do il consenso al trattamento del dato',
 		access_take_part: 'partecipa al meeting',
 		access_send: 'Invia',
 		access_sent: 'Inviato!',
@@ -65,13 +65,13 @@
 		--font-primary: GT Walsheim,Maven Pro,Arial,sans-serif;
 		--background: #ffffff;
 		--background-negative: #101010;
-		--background-primary: #522a6e;
+		--background-primary: #0099ff;
 		--background-secondary: #ff4332;
 		--background-tertiary: #d8dfe4;
 		--background-primary-disabled: #c4d3dd;
 		--foreground: #101010;
 		--foreground-negative: #ffffff;
-		--foreground-primary: #522a6e;
+		--foreground-primary: #0099ff;
 		--foreground-secondary: #ff4332;
 		--foreground-tertiary: #6d7b84;
 		--foreground-primary-disabled: #c4d3dd;
@@ -84,12 +84,6 @@
 		<img [src]="env.background.image" *if="env.background.image" />
 		<video [src]="env.background.video" *if="env.background.video" oncanplay="this.muted = true; this.classList.add('ready');" playsinline autoplay muted loop></video>
 	</div>
-	<!--
-	<div class="background background--image background--video">
-		<img src="/b-here/img/background.jpg" />
-		<video src="/b-here/img/background.mp4" oncanplay="this.muted = true;" playsinline autoplay muted loop></video>
-	</div>
-	-->
 	<div class="ui ui--info ui--info-centered" *if="state.status == 'access'">
 		<button type="button" class="btn--absolute" (click)="onLogin($event)">
 			<span [innerHTML]="'access_cta' | label"></span>

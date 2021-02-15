@@ -17,7 +17,7 @@ export const environmentStatic = {
 		viewer: true,
 		maxQuality: false,
 	},
-	logo: '/b-here/img/logo.png',
+	logo: null, //'/b-here/img/logo.png'
 	background: {
 		image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
@@ -25,11 +25,11 @@ export const environmentStatic = {
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#522a6e',
+		menuOverBackground: '#0099ff',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#522a6e',
+		menuBackBackground: '#0099ff',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#522a6e',
+		menuBackOverBackground: '#0099ff',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {

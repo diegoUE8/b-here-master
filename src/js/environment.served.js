@@ -17,7 +17,7 @@ export const environmentServed = {
 		viewer: true,
 		maxQuality: false,
 	},
-	logo: '/Modules/B-Here/Client/docs/img/logo.png',
+	logo: null, //'/Modules/B-Here/Client/docs/img/logo.png'
 	background: {
 		image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
@@ -25,11 +25,11 @@ export const environmentServed = {
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#522a6e',
+		menuOverBackground: '#0099ff',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#522a6e',
+		menuBackBackground: '#0099ff',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#522a6e',
+		menuBackOverBackground: '#0099ff',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {
