@@ -23304,26 +23304,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "607758934776200_office.jpg",
-      "id": 607759346365100
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "607838611903099_office2.jpg",
       "id": 607838664641700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "607858261789500_office.jpg",
-      "id": 607858323741399
     },
     {
       "type": {
@@ -23358,35 +23340,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1038427949596199_Unreal Engine Demo 360 2020.11.25 - 17.26.23.56.jpg",
-      "id": 1038428294926000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1038556132507500_Unreal Engine Demo 360 2020.11.25 - 17.19.12.06.jpg",
-      "id": 1038556340252499
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "1095774681316800_Room3D_3.jpg",
       "id": 1095774847884299
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1095840534160400_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
-      "id": 1095840737322799
     },
     {
       "type": {
@@ -23459,15 +23414,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "337927391396000_cinema.jpg",
-      "id": 337927407295700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "338060923701800_Room3D.jpg",
       "id": 338061126996100
     },
@@ -23482,15 +23428,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "406760058598800_studio_lucioff.jpg",
-      "id": 406760302780100
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -23502,15 +23439,6 @@
         1,
         0
       ]
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1191521744348700_office.jpg",
-      "id": 1191521957608300
     },
     {
       "type": {
@@ -26330,15 +26258,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1373474832578300_reception.jpg",
-      "id": 1373475065533400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "1374667164614000_reception.jpg",
       "id": 1374667586038400
     },
@@ -27326,15 +27245,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "426383474738499_3_sfondo.jpg",
-      "id": 426383603267400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "426445358964799_360_sfondo4.jpg",
       "id": 426445432032500
     },
@@ -27391,15 +27301,6 @@
       "folder": "/uploads/",
       "file": "426641175006300_City7.glb",
       "id": 426641204605300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "83863734137400_ue_set.jpg",
-      "id": 83864029046500
     },
     {
       "type": {
@@ -27619,15 +27520,6 @@
       "folder": "/uploads/",
       "file": "1017882209200_31072159940_50fb0f58e7_o.jpg",
       "id": 1017902566600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1080301493500_31072155080_c966bf3560_o.jpg",
-      "id": 1080321175000
     },
     {
       "type": {
