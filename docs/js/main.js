@@ -404,7 +404,8 @@ var defaultAppOptions = {
     attendee: true,
     streamer: true,
     viewer: true,
-    maxQuality: false
+    maxQuality: false,
+    heroku: HEROKU
   }
 };
 var environmentOptions = window.STATIC ? environmentStatic : environmentServed;
@@ -3610,7 +3611,7 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
       } else {
         devices_ = AgoraService.devices_ = [];
         var constraints = {
-          audio: false,
+          audio: true,
           video: true
         };
 
@@ -3652,8 +3653,6 @@ var AgoraChecklistComponent = /*#__PURE__*/function (_Component) {
   _proto.onInit = function onInit() {
     var _this = this;
 
-    this.flags = environment.flags;
-    this.editorLink = environment.url.editor;
     this.platform = DeviceService.platform; // !!!
 
     this.checklist = {};
@@ -3892,13 +3891,6 @@ var AgoraChecklistComponent = /*#__PURE__*/function (_Component) {
   _proto.openHttps = function openHttps() {
     window.location.href = window.location.href.replace('http://', 'https://').replace(':5000', ':6443');
   };
-
-  _createClass(AgoraChecklistComponent, [{
-    key: "heroku",
-    get: function get() {
-      return HEROKU;
-    }
-  }]);
 
   return AgoraChecklistComponent;
 }(rxcomp.Component);
@@ -4632,8 +4624,6 @@ AgoraDeviceComponent.meta = {
   _proto.onInit = function onInit() {
     var _this = this;
 
-    this.flags = environment.flags;
-    this.editorLink = environment.url.editor;
     this.state = {};
     var form = this.form = new rxcompForm.FormGroup({
       link: new rxcompForm.FormControl(null, [rxcompForm.Validators.PatternValidator(/^\d{9}-\d{4}-\d{13}$/), rxcompForm.Validators.RequiredValidator()]),
@@ -4772,13 +4762,6 @@ AgoraDeviceComponent.meta = {
     var s = '000000000' + num;
     return s.substr(s.length - size);
   };
-
-  _createClass(AgoraLinkComponent, [{
-    key: "heroku",
-    get: function get() {
-      return HEROKU;
-    }
-  }]);
 
   return AgoraLinkComponent;
 }(rxcomp.Component);
@@ -7701,7 +7684,6 @@ AsideComponent.meta = {
         node = _getContext.node;
 
     node.classList.remove('hidden');
-    this.flags = environment.flags;
     this.aside = false;
     this.settings = false;
     this.state = {};
@@ -10065,7 +10047,6 @@ UpdateViewTileComponent.meta = {
     var _this = this;
 
     this.busy = false;
-    this.flags = environment.flags;
     var form = this.form = new rxcompForm.FormGroup();
     this.controls = form.controls;
     this.doUpdateForm();
@@ -10293,6 +10274,22 @@ EditorModule.meta = {
   imports: [],
   declarations: [].concat(factories, pipes),
   exports: [].concat(factories, pipes)
+};var FlagPipe = /*#__PURE__*/function (_Pipe) {
+  _inheritsLoose(FlagPipe, _Pipe);
+
+  function FlagPipe() {
+    return _Pipe.apply(this, arguments) || this;
+  }
+
+  FlagPipe.transform = function transform(key) {
+    var flags = environment.flags;
+    return flags[key] || false;
+  };
+
+  return FlagPipe;
+}(rxcomp.Pipe);
+FlagPipe.meta = {
+  name: 'flag'
 };var UploadItem = function UploadItem(file) {
   this.file = file;
   this.name = file.name;
@@ -11572,6 +11569,7 @@ IdDirective.meta = {
   var _proto = LayoutComponent.prototype;
 
   _proto.onInit = function onInit() {
+    this.env = environment;
     this.state = {
       status: 'connected',
       role: 'publisher',
@@ -11913,6 +11911,22 @@ LazyDirective.meta = {
 }(rxcomp.Component);
 ModalComponent.meta = {
   selector: '[modal]'
+};var SlugPipe = /*#__PURE__*/function (_Pipe) {
+  _inheritsLoose(SlugPipe, _Pipe);
+
+  function SlugPipe() {
+    return _Pipe.apply(this, arguments) || this;
+  }
+
+  SlugPipe.transform = function transform(key) {
+    var url = environment.url;
+    return url[key] || "#" + key;
+  };
+
+  return SlugPipe;
+}(rxcomp.Pipe);
+SlugPipe.meta = {
+  name: 'slug'
 };var SvgIconStructure = /*#__PURE__*/function (_Structure) {
   _inheritsLoose(SvgIconStructure, _Structure);
 
@@ -20817,6 +20831,6 @@ ModelTextComponent.meta = {
 }(rxcomp.Module);
 AppModule.meta = {
   imports: [rxcomp.CoreModule, rxcompForm.FormModule, EditorModule],
-  declarations: [AccessComponent, AgoraCheckComponent, AgoraChecklistComponent, AgoraComponent, AgoraDeviceComponent, AgoraDevicePreviewComponent, AgoraLinkComponent, AgoraLoginComponent, AgoraNameComponent, AgoraStreamComponent, AssetPipe, ControlAssetComponent, ControlMenuComponent, ControlModelComponent, ControlAssetsComponent, ControlLocalizedAssetComponent, ControlCheckboxComponent, ControlCustomSelectComponent, ControlLinkComponent, ControlNumberComponent, ControlPasswordComponent, ControlRequestModalComponent, ControlSelectComponent, ControlTextComponent, ControlTextareaComponent, ControlVectorComponent, ControlsComponent, DisabledDirective, DropDirective, DropdownDirective, DropdownItemDirective, ErrorsComponent, HtmlPipe, HlsDirective, IdDirective, InputValueComponent, LabelPipe, LazyDirective, LayoutComponent, ModalComponent, ModalOutletComponent, ModelBannerComponent, ModelComponent, ModelCurvedPlaneComponent, ModelDebugComponent, ModelModelComponent, ModelGridComponent, ModelMenuComponent, ModelNavComponent, ModelPanelComponent, ModelPictureComponent, ModelPlaneComponent, ModelProgressComponent, ModelRoomComponent, ModelTextComponent, SvgIconStructure, TestComponent, TryInARComponent, TryInARModalComponent, UploadItemComponent, ValueDirective, WorldComponent],
+  declarations: [AccessComponent, AgoraCheckComponent, AgoraChecklistComponent, AgoraComponent, AgoraDeviceComponent, AgoraDevicePreviewComponent, AgoraLinkComponent, AgoraLoginComponent, AgoraNameComponent, AgoraStreamComponent, AssetPipe, ControlAssetComponent, ControlAssetsComponent, ControlCheckboxComponent, ControlCustomSelectComponent, ControlLinkComponent, ControlLocalizedAssetComponent, ControlMenuComponent, ControlModelComponent, ControlNumberComponent, ControlPasswordComponent, ControlRequestModalComponent, ControlsComponent, ControlSelectComponent, ControlTextareaComponent, ControlTextComponent, ControlVectorComponent, DisabledDirective, DropDirective, DropdownDirective, DropdownItemDirective, ErrorsComponent, FlagPipe, HlsDirective, HtmlPipe, IdDirective, InputValueComponent, LabelPipe, LayoutComponent, LazyDirective, ModalComponent, ModalOutletComponent, ModelBannerComponent, ModelComponent, ModelCurvedPlaneComponent, ModelDebugComponent, ModelGridComponent, ModelMenuComponent, ModelModelComponent, ModelNavComponent, ModelPanelComponent, ModelPictureComponent, ModelPlaneComponent, ModelProgressComponent, ModelRoomComponent, ModelTextComponent, SlugPipe, SvgIconStructure, TestComponent, TryInARComponent, TryInARModalComponent, UploadItemComponent, ValueDirective, WorldComponent],
   bootstrap: AppComponent
 };rxcomp.Browser.bootstrap(AppModule);})));
