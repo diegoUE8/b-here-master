@@ -218,8 +218,8 @@
         "id": 496169572686700
       },
       "orientation": {
-        "latitude": -9.8,
-        "longitude": 273.2
+        "latitude": -12.1,
+        "longitude": 317
       },
       "zoom": 75,
       "id": 496175462352500,
@@ -238,8 +238,8 @@
             -0.9419869081246351
           ],
           "asset": null,
-          "link": null,
-          "id": 496451409311600
+          "id": 496451409311600,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -255,8 +255,8 @@
             -0.14736721562307295
           ],
           "asset": null,
-          "link": null,
-          "id": 496462625992900
+          "id": 496462625992900,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -272,7 +272,6 @@
             0.8562553347951268
           ],
           "asset": null,
-          "link": null,
           "id": 496564534081299,
           "keepOrientation": null
         },
@@ -290,11 +289,12 @@
             0.44969201966480243
           ],
           "asset": null,
-          "link": null,
-          "id": 498285801953499
+          "id": 498285801953499,
+          "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -8591,7 +8591,7 @@
           ],
           "asset": null,
           "id": 101405859494600,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -8703,7 +8703,7 @@
           ],
           "asset": null,
           "id": 101719340340800,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -8714,9 +8714,9 @@
           "abstract": null,
           "viewId": 101191715010900,
           "position": [
-            0.6064190783537101,
-            -0.1386141440373339,
-            -0.7829699997327063
+            0.2194102268867923,
+            -0.34290301199984413,
+            -0.9133874734738381
           ],
           "asset": null,
           "id": 101730561276600,
@@ -8737,7 +8737,7 @@
           ],
           "asset": null,
           "id": 101750629599000,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -8754,7 +8754,7 @@
           ],
           "asset": null,
           "id": 101759670563000,
-          "keepOrientation": null
+          "keepOrientation": false
         },
         {
           "type": {
@@ -8771,7 +8771,7 @@
           ],
           "asset": null,
           "id": 101770713831800,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -8932,7 +8932,7 @@
           ],
           "asset": null,
           "id": 101996871224800,
-          "keepOrientation": null
+          "keepOrientation": true
         }
       ],
       "hidden": null
@@ -9169,7 +9169,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "165968473071100_4.jpg",
+        "file": "213995922801000_2.jpg",
         "id": 165968534197400
       },
       "orientation": {
@@ -9228,7 +9228,7 @@
           ],
           "asset": null,
           "id": 102390587233000,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -9245,10 +9245,11 @@
           ],
           "asset": null,
           "id": 102398556810200,
-          "keepOrientation": null
+          "keepOrientation": true
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -9304,7 +9305,7 @@
           ],
           "asset": null,
           "id": 103826745043399,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -9321,7 +9322,7 @@
           ],
           "asset": null,
           "id": 103839481501700,
-          "keepOrientation": null
+          "keepOrientation": true
         }
       ],
       "hidden": null
@@ -9431,7 +9432,7 @@
           ],
           "asset": null,
           "id": 103975167966500,
-          "keepOrientation": null
+          "keepOrientation": false
         }
       ],
       "hidden": null
@@ -10918,7 +10919,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 1702196400832000
+          "id": 1702196400832000,
+          "keepOrientation": true
         },
         {
           "type": {
@@ -11579,7 +11581,7 @@
           ],
           "asset": null,
           "id": 1704433974644400,
-          "keepOrientation": null
+          "keepOrientation": false
         },
         {
           "type": {
@@ -11643,7 +11645,7 @@
           "position": [
             -0.7120810554912036,
             -0.6075369978813253,
-            0.35190817923981255
+            0.3519081792398126
           ],
           "asset": null,
           "id": 1704485730648500,
@@ -11869,13 +11871,14 @@
           "abstract": null,
           "viewId": 1700527472836000,
           "position": [
-            0.9559478944391503,
+            0.9559478944391504,
             -0.29352697939063765,
             -0.002352761603591405
           ],
           "asset": null,
           "link": null,
-          "id": 1702394923014399
+          "id": 1702394923014399,
+          "keepOrientation": false
         },
         {
           "type": {
@@ -12222,13 +12225,13 @@
           "abstract": null,
           "viewId": 1700548823343300,
           "position": [
-            0.6543551449479704,
-            -0.33820597817331344,
-            0.6763401959132349
+            0.6543551449479705,
+            -0.3382059781733135,
+            0.6763401959132348
           ],
           "asset": null,
           "id": 1704702107071899,
-          "keepOrientation": null
+          "keepOrientation": true
         },
         {
           "type": {
@@ -24874,7 +24877,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "165968473071100_4.jpg",
+      "file": "213995922801000_2.jpg",
       "id": 165968534197400
     },
     {

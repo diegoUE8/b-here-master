@@ -3611,7 +3611,7 @@ var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
       } else {
         devices_ = AgoraService.devices_ = [];
         var constraints = {
-          audio: false,
+          audio: true,
           video: true
         };
 

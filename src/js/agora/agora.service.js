@@ -1475,7 +1475,7 @@ export default class AgoraService extends Emittable {
 			} else {
 				devices_ = AgoraService.devices_ = [];
 				var constraints = {
-					audio: false,
+					audio: true,
 					video: true,
 				};
 				if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
