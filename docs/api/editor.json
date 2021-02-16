@@ -22479,7 +22479,620 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 152612870502300
+      "id": 152612870502300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 240038710459000,
+          "keepOrientation": false,
+          "position": [
+            -0.41477866404917807,
+            0.06672776546067721,
+            -0.9074723495325925
+          ],
+          "asset": null,
+          "link": null,
+          "id": 240211527646200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Talkshow",
+          "abstract": null,
+          "viewId": 237700666550300,
+          "keepOrientation": false,
+          "position": [
+            -0.3685096407100383,
+            0.049543041231278055,
+            0.928302823312153
+          ],
+          "asset": null,
+          "link": null,
+          "id": 240268426277800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Ufficio",
+          "abstract": null,
+          "viewId": 236945839365200,
+          "keepOrientation": false,
+          "position": [
+            -0.8020359163206464,
+            -0.016916115450050256,
+            0.5970362082569043
+          ],
+          "asset": null,
+          "link": null,
+          "id": 240299708752500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sala Riunioni",
+          "abstract": null,
+          "viewId": 237420078589600,
+          "keepOrientation": false,
+          "position": [
+            -0.9160467770133401,
+            -0.01465181475411662,
+            0.4008037258408196
+          ],
+          "asset": null,
+          "link": null,
+          "id": 240317555552800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sala Presentazioni",
+          "abstract": null,
+          "viewId": 238015413368400,
+          "keepOrientation": false,
+          "position": [
+            -0.8309340725485557,
+            -0.02188985776118753,
+            -0.5559401057713561
+          ],
+          "asset": null,
+          "link": null,
+          "id": 240369021539700
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Prysmian - 2a",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "236919456629000_office_dark.jpg",
+        "id": 236919580441100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 236945839365200,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.774241703063662,
+            -3.9,
+            -5.404567770759872
+          ],
+          "rotation": [
+            -0.6038788436507618,
+            -1.249,
+            -0.596961315870979,
+            "XYZ"
+          ],
+          "scale": [
+            5.7,
+            4.1,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 237042160358600,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 236961149725900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            8.800000000000004,
+            -0.7999999999999999,
+            17.453651296838498
+          ],
+          "rotation": [
+            -3.0791150402130985,
+            0.018426627279846765,
+            -3.135114105018475,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 237214264555600,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 237098220190400
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            6.200000000000006,
+            1.7000000000000002,
+            -16.096777155906636
+          ],
+          "rotation": [
+            0.007110251051993045,
+            -0.09057630635933897,
+            -0.005121955227811517,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 237347209221000,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 237232972477600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 152612870502300,
+          "keepOrientation": false,
+          "position": [
+            -0.1175988323112742,
+            -0.020430404334388017,
+            0.9928510025264407
+          ],
+          "asset": null,
+          "link": null,
+          "id": 237374578361400
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Prysmian 2b",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "237401430085600_2_b.jpeg",
+        "id": 237401441445700
+      },
+      "orientation": {
+        "latitude": -6.213383073354751,
+        "longitude": 29.543333117593424
+      },
+      "zoom": 75,
+      "id": 237420078589600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.30362538034441,
+            -2.6636645781362924,
+            15.760895204877363
+          ],
+          "rotation": [
+            -3.1121824658585235,
+            0.018453292519943296,
+            -3.1234968141978596,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 237485069237700,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 237443600410300
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            27.357187038975155,
+            0.7,
+            1.7
+          ],
+          "rotation": [
+            2.7946704539644833,
+            -1.5053530350603368,
+            2.795355092766158,
+            "XYZ"
+          ],
+          "scale": [
+            9.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 237545639725800,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 237499427597500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 152612870502300,
+          "keepOrientation": false,
+          "position": [
+            -0.20602864599963522,
+            0.1665885439166948,
+            0.9642616108003432
+          ],
+          "asset": null,
+          "link": null,
+          "id": 237662233652600
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Prysmian - talkshow",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "237698071481000_2_c.jpg",
+        "id": 237698100287800
+      },
+      "orientation": {
+        "latitude": -3.778130240865403,
+        "longitude": 6.341532623908066
+      },
+      "zoom": 75,
+      "id": 237700666550300,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            34.40000000000006,
+            0.8999999999999997,
+            9.599999999999994
+          ],
+          "rotation": [
+            0.5385535321298281,
+            -1.5660591102530426,
+            0.5327818300572253,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 237791289404200,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0
+          },
+          "id": 237723761296700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            9.665922212684661,
+            0.8757751101005509,
+            16.50256159767621
+          ],
+          "rotation": [
+            3.1015024687340698,
+            -0.9322372297067089,
+            3.104263559306168,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 237907436663400,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 237818578615800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 152612870502300,
+          "keepOrientation": false,
+          "position": [
+            -0.06631128997829788,
+            0.018472394080796744,
+            0.9976279784961617
+          ],
+          "asset": null,
+          "link": null,
+          "id": 237947509813300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Prysmian - Presentazioni",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "237991065426200_2_d.jpeg",
+        "id": 237991426295200
+      },
+      "orientation": {
+        "latitude": -2.059444586438491,
+        "longitude": 38.803025741380836
+      },
+      "zoom": 75,
+      "id": 238015413368400,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10,
+            0.4,
+            -0.49681884156502476
+          ],
+          "rotation": [
+            -0.5826352594813918,
+            -1.5093307220362608,
+            -0.5796562878004689,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 238378751538900,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 238297896414800
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Prysmian - Gallery",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "240024892107700_Room3D.jpg",
+        "id": 240025278380300
+      },
+      "orientation": {
+        "latitude": -1.519435910316932,
+        "longitude": 359.068736557421
+      },
+      "zoom": 75,
+      "id": 240038710459000,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.386186126542228,
+            0.1,
+            1.2
+          ],
+          "rotation": [
+            2.7879990937548924,
+            -1.5685337526524263,
+            2.788223483488103,
+            "XYZ"
+          ],
+          "scale": [
+            12.139999999999997,
+            6.77,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "240071395739300_prysmian.mp4",
+            "id": 240071453402000,
+            "chromaKeyColor": null
+          },
+          "id": 240073385636600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 152612870502300,
+          "keepOrientation": false,
+          "position": [
+            0.9540550183469392,
+            -0.296315573164663,
+            0.044453380828894704
+          ],
+          "asset": null,
+          "link": null,
+          "id": 240183870626400
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -28053,6 +28666,158 @@
       "folder": "/uploads/",
       "file": "152593020457100_reception.jpg",
       "id": 152593477530300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "236919456629000_office_dark.jpg",
+      "id": 236919580441100
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 237042160358600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 237214264555600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 237347209221000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "237401430085600_2_b.jpeg",
+      "id": 237401441445700
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 237485069237700,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 237545639725800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "237698071481000_2_c.jpg",
+      "id": 237698100287800
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 237791289404200,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 237907436663400,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "237991065426200_2_d.jpeg",
+      "id": 237991426295200
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 238378751538900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "240024892107700_Room3D.jpg",
+      "id": 240025278380300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "240071395739300_prysmian.mp4",
+      "id": 240071453402000
     }
   ],
   "users": [
