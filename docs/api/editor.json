@@ -6637,7 +6637,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Cinema Relax",
+      "name": "Cinema Smart Glass",
       "asset": {
         "type": {
           "id": 1,
@@ -6648,8 +6648,8 @@
         "id": 503338545122000
       },
       "orientation": {
-        "latitude": -0.8,
-        "longitude": 351.9
+        "latitude": -1.923508023893553,
+        "longitude": 352.60469253753865
       },
       "zoom": 75,
       "id": 503340859465600,
@@ -6677,12 +6677,13 @@
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream"
+              "id": 8,
+              "name": "smart-device-stream",
+              "file": "smartDeviceStream"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 493815820327000,
+            "file": "smartDeviceStream",
+            "id": 306376497100900,
             "chromaKeyColor": null,
             "index": 0
           },
@@ -6741,7 +6742,8 @@
           "id": 586313121732899
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -11069,24 +11071,24 @@
       "order": 10
     },
     {
+      "id": 513864036920900,
+      "parentId": 513846642724000,
+      "viewId": 503340859465600,
+      "name": "Smart Glass",
+      "order": 20
+    },
+    {
       "id": 513863498165500,
       "parentId": 513846642724000,
       "viewId": 503042843844599,
       "name": "Cinema 360",
-      "order": 20
+      "order": 30
     },
     {
       "id": 1096415127937000,
       "parentId": 513846642724000,
       "viewId": 1036547102860500,
       "name": "Cinema Live",
-      "order": 30
-    },
-    {
-      "id": 513864036920900,
-      "parentId": 513846642724000,
-      "viewId": 503340859465600,
-      "name": "Cinema Relax",
       "order": 40
     },
     {
@@ -15263,6 +15265,17 @@
       "folder": "",
       "file": "publisherScreen",
       "id": 586474539911300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 8,
+        "name": "smart-device-stream",
+        "file": "smartDeviceStream"
+      },
+      "folder": "",
+      "file": "smartDeviceStream",
+      "id": 306376497100900,
       "chromaKeyColor": null
     }
   ],
