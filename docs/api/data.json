@@ -90,9 +90,9 @@
           "abstract": null,
           "viewId": 503992413864500,
           "position": [
-            0.11567829263788731,
-            0.06906730144170219,
-            0.9908825563526408
+            0.13633981345047716,
+            0.057684384274386095,
+            0.9889812774158944
           ],
           "asset": null,
           "id": 505647227663200,
@@ -107,9 +107,9 @@
           "abstract": null,
           "viewId": 376789637631099,
           "position": [
-            -0.7098210859342751,
-            0.04205163884017304,
-            0.7031256542282767
+            0.738685543500976,
+            0.07274734721322591,
+            -0.6701130436695784
           ],
           "asset": null,
           "id": 505677256133999,
@@ -141,9 +141,9 @@
           "abstract": null,
           "viewId": 406765685595300,
           "position": [
-            0.7395082468487962,
-            0.09606519713454334,
-            -0.6662574808151284
+            0.7518935320087531,
+            -0.019264707487513206,
+            0.6590030254625714
           ],
           "asset": null,
           "id": 505930399337800,
@@ -198,6 +198,24 @@
           "asset": null,
           "link": null,
           "id": 416898754782400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Tour Company",
+          "abstract": null,
+          "viewId": 152612870502300,
+          "keepOrientation": false,
+          "position": [
+            -0.7075773259112939,
+            0.0420811615139331,
+            0.7053818141275413
+          ],
+          "asset": null,
+          "link": null,
+          "id": 299173114303700
         }
       ],
       "hidden": null
@@ -7981,8 +7999,8 @@
         "id": 493986922923599
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -4.1000000000000005,
+        "longitude": 161.10000000000002
       },
       "zoom": 75,
       "id": 493990083977500,
@@ -7994,17 +8012,19 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 170427763402500,
+          "viewId": 152612870502300,
           "position": [
             -0.8487620712723277,
             -0.45864899668918335,
             0.2631426309162267
           ],
           "asset": null,
-          "link": null,
-          "id": 494011660065699
+          "id": 494011660065699,
+          "keepOrientation": null
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -8035,7 +8055,7 @@
           },
           "title": "Back",
           "abstract": null,
-          "viewId": 170427763402500,
+          "viewId": 152612870502300,
           "position": [
             0.9201115332237139,
             -0.3915394263102343,
@@ -8043,7 +8063,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 494085639078100
+          "id": 494085639078100,
+          "keepOrientation": null
         }
       ]
     },
@@ -22570,6 +22591,24 @@
           "asset": null,
           "link": null,
           "id": 240369021539700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Lab 360",
+          "abstract": null,
+          "viewId": 494049323116800,
+          "keepOrientation": false,
+          "position": [
+            -0.9344425445998314,
+            -0.033697398250762185,
+            -0.3545160309392535
+          ],
+          "asset": null,
+          "link": null,
+          "id": 298319334358400
         }
       ]
     },
@@ -22799,7 +22838,7 @@
           ],
           "scale": [
             9.8,
-            7.2,
+            7.4,
             1
           ],
           "asset": {
@@ -22810,7 +22849,7 @@
             },
             "folder": "",
             "file": "publisherScreen",
-            "id": 237545639725800,
+            "id": 298471286880000,
             "chromaKeyColor": null,
             "index": 0
           },
@@ -22872,7 +22911,7 @@
           ],
           "rotation": [
             0.5385535321298281,
-            -1.5660591102530426,
+            -1.461339355133384,
             0.5327818300572253,
             "XYZ"
           ],
@@ -22972,8 +23011,8 @@
         "id": 237991426295200
       },
       "orientation": {
-        "latitude": -2.059444586438491,
-        "longitude": 38.803025741380836
+        "latitude": -2.0594445864384925,
+        "longitude": 16.50302574138076
       },
       "zoom": 75,
       "id": 238015413368400,
@@ -23012,6 +23051,24 @@
             "index": 0
           },
           "id": 238297896414800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 152612870502300,
+          "keepOrientation": false,
+          "position": [
+            0.20616958594356505,
+            -0.012331127324687259,
+            0.9784385750422768
+          ],
+          "asset": null,
+          "link": null,
+          "id": 298757718158400
         }
       ],
       "hidden": null,
@@ -23089,6 +23146,42 @@
           "asset": null,
           "link": null,
           "id": 240183870626400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 494049323116800,
+          "keepOrientation": false,
+          "position": [
+            0.00016407693726970196,
+            -0.1581581763295356,
+            0.9874137756477142
+          ],
+          "asset": null,
+          "link": null,
+          "id": 298352743338800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 493990083977500,
+          "keepOrientation": false,
+          "position": [
+            0.31939052230017084,
+            -0.13904223535913932,
+            0.9373670311309
+          ],
+          "asset": null,
+          "link": null,
+          "id": 298370867726900
         }
       ],
       "hidden": null,
@@ -23146,38 +23239,38 @@
       "order": 40
     },
     {
+      "id": 153477037956700,
+      "parentId": 513759169265300,
+      "viewId": 152612870502300,
+      "name": "Company",
+      "order": 50
+    },
+    {
       "id": 133270976231600,
       "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 50
+      "order": 60
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 60
+      "order": 70
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 70
+      "order": 80
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 80
-    },
-    {
-      "id": 153477037956700,
-      "parentId": 513759169265300,
-      "viewId": 152612870502300,
-      "name": "Reception - Prysmian",
       "order": 90
     },
     {
@@ -28818,6 +28911,42 @@
       "folder": "/uploads/",
       "file": "240071395739300_prysmian.mp4",
       "id": 240071453402000
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 298471286880000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "298845870867300_2_d.jpeg",
+      "id": 298846427918300
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 298877928291200,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0
     }
   ],
   "users": [
