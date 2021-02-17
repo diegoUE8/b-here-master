@@ -6740,6 +6740,32 @@
             "index": 0
           },
           "id": 586313121732899
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Smart Glass",
+          "abstract": null,
+          "viewId": 503340859465600,
+          "keepOrientation": false,
+          "position": [
+            0.9441909010194024,
+            -0.3074830723059057,
+            -0.11814272164416291
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "307452775272300_qrcode.jpeg",
+            "id": 307452785784300
+          },
+          "link": null,
+          "id": 307472293689200
         }
       ],
       "hidden": null,
@@ -15277,6 +15303,15 @@
       "file": "smartDeviceStream",
       "id": 306376497100900,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "307452775272300_qrcode.jpeg",
+      "id": 307452785784300
     }
   ],
   "users": [
