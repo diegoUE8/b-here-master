@@ -6691,32 +6691,6 @@
             "index": 0
           },
           "id": 586313121732899
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Smart Glass",
-          "abstract": null,
-          "viewId": 503340859465600,
-          "keepOrientation": false,
-          "position": [
-            0.9441909010194024,
-            -0.3074830723059057,
-            -0.11814272164416291
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "307452775272300_qrcode.jpeg",
-            "id": 307452785784300
-          },
-          "link": null,
-          "id": 307472293689200
         }
       ],
       "hidden": null,
@@ -11379,16 +11353,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "501968211716500_zalando.jpg",
-      "id": 501968228236500,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "503040529477200_cinema.jpg",
       "id": 503040551095599
     },
@@ -11502,15 +11466,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "510617342656000_welcome.jpg",
-      "id": 510617543470400
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -11545,24 +11500,6 @@
       "folder": "/uploads/",
       "file": "607838611903099_office2.jpg",
       "id": 607838664641700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1035714199097000_reception.jpg",
-      "id": 1035714270486500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1035733607068499_reception.jpg",
-      "id": 1035733717225099
     },
     {
       "type": {
@@ -11867,16 +11804,6 @@
       "folder": "/uploads/",
       "file": "501791658253100_zalando.jpg",
       "id": 501791667225100
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "501968211716500_zalando.jpg",
-      "id": 501968228236500,
-      "chromaKeyColor": null
     },
     {
       "type": {
@@ -12442,72 +12369,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "870159514944100_Piva - sistemi oscuranti.mp4",
-      "id": 870159547967099
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "870332078464899_Piva Group - spot ottobre 2020.mp4",
-      "id": 870332089861100
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
-      "id": 870574520889699,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "870581893205000_868738800348599_544223346617299_Interno_PVC-2.jpg",
-      "id": 870581917071900,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
-      "id": 870609338848399,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
-      "id": 871306922816000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "871399600969899_871306732427900_870609327100700_870574512676700_868824535298500_544735444142999_Interno_PVC.jpg",
-      "id": 871399615228800
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -12523,15 +12384,6 @@
       "folder": "/uploads/",
       "file": "881576921902800_Unreal.jpg",
       "id": 881577304654200
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "881691597556100_870332078464899_Piva Group - spot ottobre 2020.mp4",
-      "id": 881691619676700
     },
     {
       "type": {
@@ -12612,15 +12464,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "101026725671000_1.jpg",
-      "id": 101027066094300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "101085913889500_2.jpg",
       "id": 101085972502299
     },
@@ -12684,15 +12527,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "101257370658200_9.jpg",
-      "id": 101257467735999
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "101278993922800_10.jpg",
       "id": 101279091965799
     },
@@ -12738,35 +12572,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "275179242629500_1_2.jpg",
-      "id": 275179532290900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "275273528391500_2_2.jpg",
-      "id": 275273596695999
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "275330742686999_4_2.jpg",
       "id": 275330808883500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "275427404688099_6_2.jpg",
-      "id": 275427479254100
     },
     {
       "type": {
@@ -12909,71 +12716,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "158008359588200_1.jpg",
-      "id": 158008974694499
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "160034712781700_2.jpg",
-      "id": 160035011507300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "160054478504600_2.jpg",
-      "id": 160054555345700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "165755495615600_3.jpg",
-      "id": 165755861982899
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "165953663265700_4.jpg",
-      "id": 165953731514600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "165968473071100_4.jpg",
       "id": 165968534197400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "166132156628900_5.jpg",
-      "id": 166132204386900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "166245130022900_6.jpg",
-      "id": 166245196985100
     },
     {
       "type": {
@@ -13010,15 +12754,6 @@
       "folder": "/uploads/",
       "file": "175658496656200_10.jpg",
       "id": 175658523245500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "175764336113400_7.jpg",
-      "id": 175764402277600
     },
     {
       "type": {
@@ -14007,15 +13742,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "177934871466300_360_scorrevole.jpg",
-      "id": 177935139686499
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "177974806074200_360_firenze_2.jpg",
       "id": 177974872938200
     },
@@ -14144,15 +13870,6 @@
       "folder": "/uploads/",
       "file": "178586038363100_360_sfondo3.jpg",
       "id": 178586102783900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "178644175079099_360_scorrevole.jpg",
-      "id": 178644278665800
     },
     {
       "type": {
@@ -14324,15 +14041,6 @@
       "folder": "/uploads/",
       "file": "1281801798009700_255107278025199_3_sfondo.jpg",
       "id": 1281801928464200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1364383417117100_room3D.jpg",
-      "id": 1364383709196900
     },
     {
       "type": {
@@ -14644,24 +14352,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "177864544153300_dressroom.jpeg",
-      "id": 177864591052200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "523838460439500_img1.jpg",
-      "id": 523838491817600
-    },
-    {
-      "type": {
         "id": 6,
         "name": "publisher-screen",
         "file": "publisherScreen"
@@ -14692,15 +14382,6 @@
       "file": "smartDeviceStream",
       "id": 306376497100900,
       "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "307452775272300_qrcode.jpeg",
-      "id": 307452785784300
     }
   ],
   "users": [
