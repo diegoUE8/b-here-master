@@ -15,6 +15,7 @@ export const environmentStatic = {
 		attendee: true,
 		streamer: true,
 		viewer: true,
+		smartDevice: true,
 		maxQuality: false,
 	},
 	logo: null, //'/b-here/img/logo.png'
@@ -47,6 +48,7 @@ export const environmentStatic = {
 		editor: '/editor',
 		selfServiceTour: '/self-service-tour',
 		guidedTour: '/guided-tour',
+		accessCode: '/access-code',
 	},
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',

@@ -893,8 +893,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1210791893780700_Home.mp4",
-            "id": 1210791940902900,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 1009904475382800
@@ -1138,8 +1138,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1210750471794200_Poltrona.mp4",
-            "id": 1210750490297300,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 1012264477564600
@@ -7437,7 +7437,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1095869630150900_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
+        "file": "1095869630150900_Unreal.jpg",
         "id": 1095869673977500
       },
       "orientation": {
@@ -8226,7 +8226,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "881576921902800_Unreal Engine Demo 360 2020.11.10 - 13.33.11.59.jpg",
+        "file": "881576921902800_Unreal.jpg",
         "id": 881577304654200
       },
       "orientation": {
@@ -20002,7 +20002,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "9101827196900_louvre 1.jpg",
+        "file": "9101827196900_louvre.jpg",
         "id": 6088096223600
       },
       "orientation": {
@@ -20084,7 +20084,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "9179415444600_8 1.jpg",
+        "file": "9179415444600_8.jpg",
         "id": 6131743324399
       },
       "orientation": {
@@ -20316,7 +20316,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "626352572300_uffizi2 1.jpg",
+        "file": "626352572300_uffizi2.jpg",
         "id": 626524397400
       },
       "orientation": {
@@ -23123,8 +23123,8 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "240071395739300_prysmian.mp4",
-            "id": 240071453402000,
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
             "chromaKeyColor": null
           },
           "id": 240073385636600
@@ -23182,6 +23182,67 @@
           "asset": null,
           "link": null,
           "id": 298370867726900
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Smart Glass",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "458079140548900_cinema_living.jpg",
+        "id": 458079159162000
+      },
+      "orientation": {
+        "latitude": -1.9730016715395466,
+        "longitude": 352.572522253698
+      },
+      "zoom": 75,
+      "id": 458088603295000,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10.8,
+            0.8999999999999999,
+            -1.3504712144238122
+          ],
+          "rotation": [
+            0.048556471358575576,
+            -1.4629368738392545,
+            0.048274739760330844,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 8,
+              "name": "smart-device-stream",
+              "file": "smartDeviceStream"
+            },
+            "folder": "",
+            "file": "smartDeviceStream",
+            "id": 458189215023900,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 458100455609200
         }
       ],
       "hidden": null,
@@ -23309,18 +23370,25 @@
       "order": 30
     },
     {
+      "id": 458217964676200,
+      "parentId": 513846642724000,
+      "viewId": 458088603295000,
+      "name": "Smart Glass",
+      "order": 40
+    },
+    {
       "id": 513864036920900,
       "parentId": 513846642724000,
       "viewId": 503340859465600,
       "name": "Cinema Condivisione",
-      "order": 40
+      "order": 50
     },
     {
       "id": 6785420617299,
       "parentId": 513846642724000,
       "viewId": 337929883149900,
       "name": "Cinema Room",
-      "order": 50
+      "order": 60
     },
     {
       "id": 513904544668199,
@@ -23340,14 +23408,14 @@
       "id": 84276131668299,
       "parentId": 513904544668199,
       "viewId": 83875099535100,
-      "name": "Studio TV",
+      "name": "Studio TV 1",
       "order": 10
     },
     {
       "id": 513912891850099,
       "parentId": 513904544668199,
       "viewId": 505860010418200,
-      "name": "Studio TV_old",
+      "name": "Studio TV 2",
       "order": 20
     },
     {
@@ -23856,25 +23924,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "501968211716500_zalando.jpg",
-      "id": 501968228236500,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "502922419749100_Room3D_2.jpg",
-      "id": 502922805656300
-    },
-    {
-      "type": {
         "id": 2,
         "name": "video"
       },
@@ -24001,15 +24050,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "510617342656000_welcome.jpg",
-      "id": 510617543470400
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -24051,24 +24091,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1035714199097000_reception.jpg",
-      "id": 1035714270486500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1035733607068499_reception.jpg",
-      "id": 1035733717225099
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "1036542055470199_cinema.jpg",
       "id": 1036542155893500
     },
@@ -24087,7 +24109,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1095869630150900_Unreal Engine Demo 360 2020.11.26 - 09.24.58.98.jpg",
+      "file": "1095869630150900_Unreal.jpg",
       "id": 1095869673977500
     },
     {
@@ -24157,15 +24179,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "338288798580700_reception.jpg",
-      "id": 338288819976600
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -24186,26 +24199,6 @@
       "folder": "",
       "file": "publisherStream",
       "id": 1191591518010600,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1210750471794200_Poltrona.mp4",
-      "id": 1210750490297300,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "1210791893780700_Home.mp4",
-      "id": 1210791940902900,
       "chromaKeyColor": null
     },
     {
@@ -24399,16 +24392,6 @@
     },
     {
       "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "501968211716500_zalando.jpg",
-      "id": 501968228236500,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
         "id": 3,
         "name": "model"
       },
@@ -24477,70 +24460,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "514510765163600_ddb7155a401093a87475ee1244fc22e2.jpg",
-      "id": 514510791948800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "514848614541100_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long.jpg",
-      "id": 514848635449200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "515032324211800_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
-      "id": 515032344926100
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "518438439125500_ANATOMY-A-2.jpg",
-      "id": 518438448964200,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "518605338665800_ddb7155a401093a87475ee1244fc22e2.jpg",
-      "id": 518605357386000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "518781662038299_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long.jpg",
-      "id": 518781671687800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "518857885550599_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size.jpg",
-      "id": 518857901216400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "595057513066100_office_dark.jpg",
       "id": 595057634810800
     },
@@ -24560,36 +24479,9 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "34118693301900_ANATOMY-A-2.jpg",
-      "id": 34118728848900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "34502276694399_ANATOMY-A-2_dark.jpg",
-      "id": 34502310367200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "34565818549400_ANATOMY-A-2_dark.jpg",
       "id": 34565846015400,
       "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "34717525810100_Mandy-2016-Charlotte-Riley-Oscars-Red-Carpet-ALine-Floorlength-VNeck-Full-Sleeve-Taffeta-Lace-Plus-size_dark.jpg",
-      "id": 34717561065900
     },
     {
       "type": {
@@ -24700,15 +24592,6 @@
       "folder": "/uploads/",
       "file": "376838452017900_Room3D.jpg",
       "id": 376838570051600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "376863435191700_reception.jpg",
-      "id": 376863464651200
     },
     {
       "type": {
@@ -25150,7 +25033,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "881576921902800_Unreal Engine Demo 360 2020.11.10 - 13.33.11.59.jpg",
+      "file": "881576921902800_Unreal.jpg",
       "id": 881577304654200
     },
     {
@@ -25241,15 +25124,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "101026725671000_1.jpg",
-      "id": 101027066094300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "101085913889500_2.jpg",
       "id": 101085972502299
     },
@@ -25313,15 +25187,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "101257370658200_9.jpg",
-      "id": 101257467735999
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "101278993922800_10.jpg",
       "id": 101279091965799
     },
@@ -25367,35 +25232,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "275179242629500_1_2.jpg",
-      "id": 275179532290900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "275273528391500_2_2.jpg",
-      "id": 275273596695999
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "275330742686999_4_2.jpg",
       "id": 275330808883500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "275427404688099_6_2.jpg",
-      "id": 275427479254100
     },
     {
       "type": {
@@ -25538,71 +25376,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "158008359588200_1.jpg",
-      "id": 158008974694499
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "160034712781700_2.jpg",
-      "id": 160035011507300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "160054478504600_2.jpg",
-      "id": 160054555345700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "165755495615600_3.jpg",
-      "id": 165755861982899
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "165953663265700_4.jpg",
-      "id": 165953731514600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "213995922801000_2.jpg",
       "id": 165968534197400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "166132156628900_5.jpg",
-      "id": 166132204386900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "166245130022900_6.jpg",
-      "id": 166245196985100
     },
     {
       "type": {
@@ -25639,15 +25414,6 @@
       "folder": "/uploads/",
       "file": "175658496656200_10.jpg",
       "id": 175658523245500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "175764336113400_7.jpg",
-      "id": 175764402277600
     },
     {
       "type": {
@@ -25765,15 +25531,6 @@
       "folder": "/uploads/",
       "file": "186293172593600_360_city7.jpg",
       "id": 186293237585300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "245893331825200_welcome.jpg",
-      "id": 245893713359600
     },
     {
       "type": {
@@ -26654,15 +26411,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "177934871466300_360_scorrevole.jpg",
-      "id": 177935139686499
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "177974806074200_360_firenze_2.jpg",
       "id": 177974872938200
     },
@@ -26791,15 +26539,6 @@
       "folder": "/uploads/",
       "file": "178586038363100_360_sfondo3.jpg",
       "id": 178586102783900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "178644175079099_360_scorrevole.jpg",
-      "id": 178644278665800
     },
     {
       "type": {
@@ -26989,15 +26728,6 @@
       "folder": "/uploads/",
       "file": "1364469633028000_1190780441996200_Room3D.jpg",
       "id": 1364469786436300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1374667164614000_reception.jpg",
-      "id": 1374667586038400
     },
     {
       "type": {
@@ -28184,7 +27914,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "9101827196900_louvre 1.jpg",
+      "file": "9101827196900_louvre.jpg",
       "id": 6088096223600
     },
     {
@@ -28193,7 +27923,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "9179415444600_8 1.jpg",
+      "file": "9179415444600_8.jpg",
       "id": 6131743324399
     },
     {
@@ -28229,7 +27959,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "626352572300_uffizi2 1.jpg",
+      "file": "626352572300_uffizi2.jpg",
       "id": 626524397400
     },
     {
@@ -28905,15 +28635,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "240071395739300_prysmian.mp4",
-      "id": 240071453402000
-    },
-    {
-      "type": {
         "id": 6,
         "name": "publisher-screen",
         "file": "publisherScreen"
@@ -28947,6 +28668,26 @@
         0
       ],
       "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "458079140548900_cinema_living.jpg",
+      "id": 458079159162000
+    },
+    {
+      "type": {
+        "id": 8,
+        "name": "smart-device-stream",
+        "file": "smartDeviceStream"
+      },
+      "folder": "",
+      "file": "smartDeviceStream",
+      "id": 458189215023900,
+      "chromaKeyColor": null
     }
   ],
   "users": [
