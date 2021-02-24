@@ -105,11 +105,11 @@
           },
           "title": "Tour House",
           "abstract": null,
-          "viewId": 376789637631099,
+          "viewId": 101028713006200,
           "position": [
             0.738685543500976,
-            0.07274734721322591,
-            -0.6701130436695784
+            0.0727473472132259,
+            -0.6701130436695782
           ],
           "asset": null,
           "id": 505677256133999,
@@ -8219,7 +8219,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Entrè Room",
+      "name": " Hall Room",
       "asset": {
         "type": {
           "id": 1,
@@ -8230,8 +8230,8 @@
         "id": 881577304654200
       },
       "orientation": {
-        "latitude": -0.6,
-        "longitude": 89.5
+        "latitude": -9.5,
+        "longitude": 81.49999999999999
       },
       "zoom": 75,
       "id": 376789637631099,
@@ -8286,9 +8286,28 @@
           "asset": null,
           "id": 875817081900200,
           "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "position": [
+            -0.6783563875433104,
+            -0.037730872161281896,
+            0.7337635809749207
+          ],
+          "asset": null,
+          "link": null,
+          "id": 524404810259900
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "ar": null
     },
     {
       "type": {
@@ -8623,13 +8642,13 @@
           "abstract": null,
           "viewId": 101260600040800,
           "position": [
-            -0.035653990886371556,
-            -0.04246539027175332,
+            -0.03565399088637155,
+            -0.04246539027175331,
             0.9984615583801623
           ],
           "asset": null,
           "id": 101417709395100,
-          "keepOrientation": null
+          "keepOrientation": false
         },
         {
           "type": {
@@ -8675,9 +8694,9 @@
           "abstract": null,
           "viewId": 376789637631099,
           "position": [
-            -0.8332472098569982,
-            -0.521,
-            0.051
+            -0.8467579424252347,
+            -0.5294477830645953,
+            0.0518269422961504
           ],
           "asset": null,
           "link": null,
@@ -8720,7 +8739,7 @@
           "position": [
             0.999623798352125,
             -0.02476441090980351,
-            -0.011789220515383404
+            -0.011789220515383407
           ],
           "asset": null,
           "id": 101719340340800,
@@ -8735,9 +8754,9 @@
           "abstract": null,
           "viewId": 101191715010900,
           "position": [
-            0.2194102268867923,
-            -0.34290301199984413,
-            -0.9133874734738381
+            0.21941022688679226,
+            -0.3429030119998441,
+            -0.913387473473838
           ],
           "asset": null,
           "id": 101730561276600,
@@ -8758,7 +8777,7 @@
           ],
           "asset": null,
           "id": 101750629599000,
-          "keepOrientation": true
+          "keepOrientation": false
         },
         {
           "type": {
@@ -8769,7 +8788,7 @@
           "abstract": null,
           "viewId": 101245003287599,
           "position": [
-            0.15545651586481943,
+            0.1554565158648194,
             -0.2410654093093463,
             0.9579774215030793
           ],
@@ -9288,8 +9307,8 @@
         "id": 108751724649300
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -1.9000000000000004,
+        "longitude": 356.6
       },
       "zoom": 75,
       "id": 101203645959499,
@@ -9320,13 +9339,13 @@
           "abstract": null,
           "viewId": 101245003287599,
           "position": [
-            -0.058108370770230046,
-            -0.1759401723312345,
-            0.9826843201183609
+            -0.058108370770230025,
+            -0.17594017233123443,
+            0.9826843201183607
           ],
           "asset": null,
           "id": 103826745043399,
-          "keepOrientation": true
+          "keepOrientation": false
         },
         {
           "type": {
@@ -9343,10 +9362,11 @@
           ],
           "asset": null,
           "id": 103839481501700,
-          "keepOrientation": true
+          "keepOrientation": false
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -9508,7 +9528,7 @@
           "position": [
             0.031343667001755816,
             -0.1656144908990257,
-            -0.9856923530915411
+            -0.9856923530915412
           ],
           "asset": null,
           "id": 104349827103199,
@@ -9702,8 +9722,8 @@
         "id": 175353233045500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -14.514134913096278,
+        "longitude": 119.27694456502104
       },
       "zoom": 75,
       "id": 101322525583300,
@@ -9734,7 +9754,7 @@
           "abstract": null,
           "viewId": 101260600040800,
           "position": [
-            0.014801160402687636,
+            0.014801160402687637,
             -0.2040579896257668,
             -0.9788469045364676
           ],
@@ -9811,7 +9831,8 @@
           "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -10941,7 +10962,7 @@
           "asset": null,
           "link": null,
           "id": 1702196400832000,
-          "keepOrientation": true
+          "keepOrientation": false
         },
         {
           "type": {
@@ -12252,7 +12273,7 @@
           ],
           "asset": null,
           "id": 1704702107071899,
-          "keepOrientation": true
+          "keepOrientation": false
         },
         {
           "type": {
@@ -23267,7 +23288,7 @@
     {
       "id": 513783500794400,
       "parentId": 513759169265300,
-      "viewId": 376789637631099,
+      "viewId": 101028713006200,
       "name": "House",
       "order": 0
     },
