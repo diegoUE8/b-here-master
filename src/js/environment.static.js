@@ -37,7 +37,7 @@ export const environmentStatic = {
 		disabledViewTypes: ['waiting-room', 'room-3d'],
 		disabledViewItemTypes: ['texture'],
 	},
-	assets: './',
+	assets: '/b-here/',
 	worker: './js/workers/image.service.worker.js',
 	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws/docs/',
 	language: '',
