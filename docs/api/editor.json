@@ -23268,6 +23268,198 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Silentia Plus",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "25037478584200_sfondo.jpg",
+        "id": 25037495638400
+      },
+      "orientation": {
+        "latitude": 27.1,
+        "longitude": 303.9
+      },
+      "zoom": 75,
+      "id": 25057327082100,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "25048893696800_salice_silentia_plus.glb",
+            "id": 25048909721000,
+            "chromaKeyColor": null
+          },
+          "id": 25057349321400,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "25076691683900_salice_silentia_plus.usdz",
+          "id": 25076709197300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "25087098724700_salice_silentia_plus.glb",
+          "id": 25087174642300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Sincronizzatore Futura Push",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "25105579664300_sfondo.jpg",
+        "id": 25105594184000
+      },
+      "orientation": {
+        "latitude": 26.9,
+        "longitude": 343.40000000000003
+      },
+      "zoom": 58.6212,
+      "id": 25134886131400,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "25111083254100_salice_sincronizzatore_futura_push.glb",
+            "id": 25111113905000,
+            "chromaKeyColor": null
+          },
+          "id": 25134906274500,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "25159322251100_salice_sincronizzatore_futura_push.usdz",
+          "id": 25159355030500
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "25165308236800_salice_sincronizzatore_futura_push.glb",
+          "id": 25165362874600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Wind",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "25184684572500_sfondo.jpg",
+        "id": 25184700534800
+      },
+      "orientation": {
+        "latitude": 9.1,
+        "longitude": 342.6
+      },
+      "zoom": 41.2927,
+      "id": 25195717133500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "25191597098400_salice_wind.glb",
+            "id": 25191633117500,
+            "chromaKeyColor": null
+          },
+          "id": 25195744237700,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "25225812864500_salice_wind.usdz",
+          "id": 25225842171800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "25232300152400_salice_wind.glb",
+          "id": 25232329257900
+        }
+      }
     }
   ],
   "menu": [
@@ -23578,6 +23770,34 @@
       "viewId": 41590724044000,
       "name": "ArtecScan Dress",
       "order": 70
+    },
+    {
+      "id": 25251552423400,
+      "parentId": 514006762002499,
+      "viewId": null,
+      "name": "Salice",
+      "order": 80
+    },
+    {
+      "id": 25257972192600,
+      "parentId": 25251552423400,
+      "viewId": 25057327082100,
+      "name": "Silentia Plus",
+      "order": 0
+    },
+    {
+      "id": 25259017963300,
+      "parentId": 25251552423400,
+      "viewId": 25134886131400,
+      "name": "Sincronizzatore Futura Push",
+      "order": 10
+    },
+    {
+      "id": 25259801832700,
+      "parentId": 25251552423400,
+      "viewId": 25195717133500,
+      "name": "Wind",
+      "order": 20
     },
     {
       "id": 40982979157200,
@@ -28700,6 +28920,114 @@
       "file": "smartDeviceStream",
       "id": 458189215023900,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "25037478584200_sfondo.jpg",
+      "id": 25037495638400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25048893696800_salice_silentia_plus.glb",
+      "id": 25048909721000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25076691683900_salice_silentia_plus.usdz",
+      "id": 25076709197300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25087098724700_salice_silentia_plus.glb",
+      "id": 25087174642300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "25105579664300_sfondo.jpg",
+      "id": 25105594184000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25111083254100_salice_sincronizzatore_futura_push.glb",
+      "id": 25111113905000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25159322251100_salice_sincronizzatore_futura_push.usdz",
+      "id": 25159355030500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25165308236800_salice_sincronizzatore_futura_push.glb",
+      "id": 25165362874600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "25184684572500_sfondo.jpg",
+      "id": 25184700534800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25191597098400_salice_wind.glb",
+      "id": 25191633117500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25225812864500_salice_wind.usdz",
+      "id": 25225842171800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25232300152400_salice_wind.glb",
+      "id": 25232329257900
     }
   ],
   "users": [
