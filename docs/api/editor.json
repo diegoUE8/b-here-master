@@ -37,8 +37,9 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/welcome-room/",
-        "file": "welcome-room.jpg"
+        "folder": "/uploads/",
+        "file": "366809780226400_AdobeStock_275639285.jpeg",
+        "id": 366810012960800
       },
       "orientation": {
         "latitude": 0,
@@ -52,13 +53,13 @@
             "name": "plane"
           },
           "position": [
-            10,
+            18,
             -1.5,
             -0.2720639049267597
           ],
           "rotation": [
-            -1.3854483767991999,
-            -1.4969144724541035,
+            -1.385,
+            -1.497,
             -1.3849529387173296,
             "XYZ"
           ],
@@ -83,7 +84,553 @@
           },
           "id": 348012191253800
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "366858395942900_AdobeStock_416479857_Editorial_Use_Only.jpeg",
+        "id": 366858424197300
+      },
+      "orientation": {
+        "latitude": -12.200000000000001,
+        "longitude": 180.2
+      },
+      "zoom": 75,
+      "id": 366863827371000,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "366895535102400_AdobeStock_252891744.jpeg",
+        "id": 366892706189700
+      },
+      "orientation": {
+        "latitude": -8.000000000000002,
+        "longitude": 23.5
+      },
+      "zoom": 75,
+      "id": 366896835035700,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Slide Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "366976375024100_AdobeStock_366041984.jpeg",
+        "id": 366930964536800
+      },
+      "orientation": {
+        "latitude": 1.200000000000002,
+        "longitude": 359.5
+      },
+      "zoom": 75,
+      "id": 366942225120900,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Innovation Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "366990679205800_AdobeStock_393316454.jpeg",
+        "id": 366990730758600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 366996163428300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Abstract Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367005451273100_AdobeStock_357705653.jpeg",
+        "id": 367005481180100
+      },
+      "orientation": {
+        "latitude": -3.9000000000000004,
+        "longitude": 19.900000000000006
+      },
+      "zoom": 75,
+      "id": 367011553551300,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Finance Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367027147664600_AdobeStock_378203154.jpeg",
+        "id": 367027161666600
+      },
+      "orientation": {
+        "latitude": -2.1,
+        "longitude": 332.7
+      },
+      "zoom": 75,
+      "id": 367033229130200,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367073565731700_AdobeStock_210639467.jpeg",
+        "id": 367051757541800
+      },
+      "orientation": {
+        "latitude": -6.3,
+        "longitude": 348.9
+      },
+      "zoom": 75,
+      "id": 367059750233400,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Nature 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367140188566500_AdobeStock_388120010.jpeg",
+        "id": 367116220177700
+      },
+      "orientation": {
+        "latitude": -1.2999999999999974,
+        "longitude": 356.3
+      },
+      "zoom": 75,
+      "id": 367118649967100,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "International 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367159193379700_AdobeStock_316415997.jpeg",
+        "id": 367159245434300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 367168769772900,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "International 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367204416768700_AdobeStock_267734861.jpeg",
+        "id": 367186212557100
+      },
+      "orientation": {
+        "latitude": -7.6,
+        "longitude": 149.1
+      },
+      "zoom": 75,
+      "id": 367196514228100,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Outdoor",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367239758794300_AdobeStock_287002095.jpeg",
+        "id": 367239826860900
+      },
+      "orientation": {
+        "latitude": -0.2999999999999998,
+        "longitude": 226.9
+      },
+      "zoom": 75,
+      "id": 367249534262600,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Sicurity 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367271664772600_AdobeStock_113816801.jpeg",
+        "id": 367271731332700
+      },
+      "orientation": {
+        "latitude": 0.9,
+        "longitude": 284.4
+      },
+      "zoom": 75,
+      "id": 367277069945000,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Sicurity 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367289928853600_AdobeStock_190098579.jpeg",
+        "id": 367289989344000
+      },
+      "orientation": {
+        "latitude": -1.4000000000000004,
+        "longitude": 352.20000000000005
+      },
+      "zoom": 75,
+      "id": 367296378747900,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Indoor 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367318971736900_31940058340_fb4b52bfc5_o.jpg",
+        "id": 367319029343000
+      },
+      "orientation": {
+        "latitude": -9.8,
+        "longitude": 354.9
+      },
+      "zoom": 75,
+      "id": 367323919708900,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Indoor 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367341146861300_AdobeStock_284219447.jpeg",
+        "id": 367341205396000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 367342586413100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Indoor 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "368516929001300_AdobeStock_365680503.jpeg",
+        "id": 367399572815500
+      },
+      "orientation": {
+        "latitude": -5.099999999999998,
+        "longitude": 60.70000000000003
+      },
+      "zoom": 75,
+      "id": 367401950955400,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Indoor 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367418631641100_AdobeStock_327083455.jpeg",
+        "id": 367418706849600
+      },
+      "orientation": {
+        "latitude": -3.500000000000001,
+        "longitude": 156.90000000000003
+      },
+      "zoom": 75,
+      "id": 367420534114100,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Indoor 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "368554547238900_AdobeStock_326695411.jpeg",
+        "id": 367555363933700
+      },
+      "orientation": {
+        "latitude": -3.5000000000000013,
+        "longitude": 3.4000000000000448
+      },
+      "zoom": 75,
+      "id": 367561975321800,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367578824474300_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+        "id": 367578891330700
+      },
+      "orientation": {
+        "latitude": -8,
+        "longitude": 356.3
+      },
+      "zoom": 58.8847,
+      "id": 367583491017000,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Theatre 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367598528119700_AdobeStock_392268168_Editorial_Use_Only.jpeg",
+        "id": 367598585161400
+      },
+      "orientation": {
+        "latitude": -9.3,
+        "longitude": 212.4
+      },
+      "zoom": 75,
+      "id": 367600493516200,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Hall 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "367611048866600_AdobeStock_417152387_Editorial_Use_Only.jpeg",
+        "id": 367611071877500
+      },
+      "orientation": {
+        "latitude": -3.000000000000002,
+        "longitude": 271.29999999999995
+      },
+      "zoom": 75,
+      "id": 367616613120500,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Hall 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "368044225700700_AdobeStock_179657581.jpeg",
+        "id": 368024080555800
+      },
+      "orientation": {
+        "latitude": -8.1,
+        "longitude": 237.79999999999998
+      },
+      "zoom": 75,
+      "id": 368025836335400,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
@@ -110,6 +657,213 @@
       "folder": "/uploads/",
       "file": "356093246745100_Greta_lq.mp4",
       "id": 356093513987700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "366809780226400_AdobeStock_275639285.jpeg",
+      "id": 366810012960800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "366858395942900_AdobeStock_416479857_Editorial_Use_Only.jpeg",
+      "id": 366858424197300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "366895535102400_AdobeStock_252891744.jpeg",
+      "id": 366892706189700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "366976375024100_AdobeStock_366041984.jpeg",
+      "id": 366930964536800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "366990679205800_AdobeStock_393316454.jpeg",
+      "id": 366990730758600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367005451273100_AdobeStock_357705653.jpeg",
+      "id": 367005481180100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367027147664600_AdobeStock_378203154.jpeg",
+      "id": 367027161666600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367073565731700_AdobeStock_210639467.jpeg",
+      "id": 367051757541800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367140188566500_AdobeStock_388120010.jpeg",
+      "id": 367116220177700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367159193379700_AdobeStock_316415997.jpeg",
+      "id": 367159245434300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367204416768700_AdobeStock_267734861.jpeg",
+      "id": 367186212557100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367239758794300_AdobeStock_287002095.jpeg",
+      "id": 367239826860900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367271664772600_AdobeStock_113816801.jpeg",
+      "id": 367271731332700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367289928853600_AdobeStock_190098579.jpeg",
+      "id": 367289989344000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367318971736900_31940058340_fb4b52bfc5_o.jpg",
+      "id": 367319029343000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367341146861300_AdobeStock_284219447.jpeg",
+      "id": 367341205396000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "368516929001300_AdobeStock_365680503.jpeg",
+      "id": 367399572815500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367418631641100_AdobeStock_327083455.jpeg",
+      "id": 367418706849600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "368554547238900_AdobeStock_326695411.jpeg",
+      "id": 367555363933700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367578824474300_AdobeStock_392266237_Editorial_Use_Only.jpeg",
+      "id": 367578891330700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367598528119700_AdobeStock_392268168_Editorial_Use_Only.jpeg",
+      "id": 367598585161400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "367611048866600_AdobeStock_417152387_Editorial_Use_Only.jpeg",
+      "id": 367611071877500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "368044225700700_AdobeStock_179657581.jpeg",
+      "id": 368024080555800
     }
   ],
   "users": [
