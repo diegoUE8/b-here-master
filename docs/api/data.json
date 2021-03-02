@@ -45,7 +45,80 @@
         "longitude": 0
       },
       "zoom": 75,
-      "items": []
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            10,
+            -1.5,
+            -0.2720639049267597
+          ],
+          "rotation": [
+            -1.3854483767991999,
+            -1.4969144724541035,
+            -1.3849529387173296,
+            "XYZ"
+          ],
+          "scale": [
+            8,
+            10.8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "350259697678700_Greta_2.mp4",
+            "id": 348010325054300,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 348012191253800
+        }
+      ]
+    }
+  ],
+  "menu": [],
+  "assets": [
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "350259697678700_Greta_2.mp4",
+      "id": 348010325054300,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1601892639985",
+      "username": "publisher",
+      "password": "publisher",
+      "type": "publisher",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
+    },
+    {
+      "id": "1601892639986",
+      "username": "attendee",
+      "password": "attendee",
+      "type": "attendee",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
     }
   ]
 }
