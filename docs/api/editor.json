@@ -73,7 +73,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "350259697678700_Greta_2.mp4",
+            "file": "357044491634700_Greta_lq2.mp4",
             "id": 348010325054300,
             "chromaKeyColor": [
               0,
@@ -94,13 +94,22 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "350259697678700_Greta_2.mp4",
+      "file": "357044491634700_Greta_lq2.mp4",
       "id": 348010325054300,
       "chromaKeyColor": [
         0,
         1,
         0
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "356093246745100_Greta_lq.mp4",
+      "id": 356093513987700
     }
   ],
   "users": [
