@@ -631,6 +631,75 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Talk Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1774193061800_AdobeStock_386400713.jpeg",
+        "id": 1717812384200
+      },
+      "orientation": {
+        "latitude": -5.800000000000003,
+        "longitude": 359.2
+      },
+      "zoom": 75,
+      "id": 1741133248300,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Cinema",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1805483299500_cinema.jpg",
+        "id": 1805494082700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 1809985380300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Office Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1823562656400_office_dark.jpg",
+        "id": 1823576926500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 1830436125200
     }
   ],
   "menu": [],
@@ -864,6 +933,33 @@
       "folder": "/uploads/",
       "file": "368044225700700_AdobeStock_179657581.jpeg",
       "id": 368024080555800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1774193061800_AdobeStock_386400713.jpeg",
+      "id": 1717812384200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1805483299500_cinema.jpg",
+      "id": 1805494082700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1823562656400_office_dark.jpg",
+      "id": 1823576926500
     }
   ],
   "users": [
