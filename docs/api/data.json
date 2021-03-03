@@ -712,28 +712,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Room 3D 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "24014932058800_AdobeStock_381611810.jpeg",
-        "id": 24015209933300
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 24016746457500
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Meeting 2",
       "asset": {
         "type": {
