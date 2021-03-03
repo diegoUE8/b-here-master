@@ -96,19 +96,19 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Meeting 1",
+      "name": "Space ",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "366858395942900_AdobeStock_416479857_Editorial_Use_Only.jpeg",
+        "file": "21101667357200_spaceroom.jpeg",
         "id": 366858424197300
       },
       "orientation": {
-        "latitude": -12.200000000000001,
-        "longitude": 180.2
+        "latitude": -5.7,
+        "longitude": 358.5
       },
       "zoom": 75,
       "id": 366863827371000,
@@ -121,7 +121,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Meeting 2",
+      "name": "Meeting 1",
       "asset": {
         "type": {
           "id": 1,
@@ -132,8 +132,8 @@
         "id": 366892706189700
       },
       "orientation": {
-        "latitude": -8.000000000000002,
-        "longitude": 23.5
+        "latitude": -8.600000000000001,
+        "longitude": 352.7
       },
       "zoom": 75,
       "id": 366896835035700,
@@ -243,19 +243,19 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Nature 1",
+      "name": "Green",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "367073565731700_AdobeStock_210639467.jpeg",
+        "file": "23158475208600_AdobeStock_389725160.jpeg",
         "id": 367051757541800
       },
       "orientation": {
-        "latitude": -6.3,
-        "longitude": 348.9
+        "latitude": -5,
+        "longitude": 289.8
       },
       "zoom": 75,
       "id": 367059750233400,
@@ -268,7 +268,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Nature 2",
+      "name": "Outdoor",
       "asset": {
         "type": {
           "id": 1,
@@ -279,8 +279,8 @@
         "id": 367116220177700
       },
       "orientation": {
-        "latitude": -1.2999999999999974,
-        "longitude": 356.3
+        "latitude": -12.499999999999998,
+        "longitude": 352.90000000000003
       },
       "zoom": 75,
       "id": 367118649967100,
@@ -293,7 +293,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "International 1",
+      "name": "International ",
       "asset": {
         "type": {
           "id": 1,
@@ -318,44 +318,19 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "International 2",
+      "name": "Mars",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "367204416768700_AdobeStock_267734861.jpeg",
-        "id": 367186212557100
-      },
-      "orientation": {
-        "latitude": -7.6,
-        "longitude": 149.1
-      },
-      "zoom": 75,
-      "id": 367196514228100,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Outdoor",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367239758794300_AdobeStock_287002095.jpeg",
+        "file": "20120767922200_AdobeStock_189501033.jpeg",
         "id": 367239826860900
       },
       "orientation": {
-        "latitude": -0.2999999999999998,
-        "longitude": 226.9
+        "latitude": -4.4,
+        "longitude": 359.99999999999994
       },
       "zoom": 75,
       "id": 367249534262600,
@@ -368,7 +343,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Security 1",
+      "name": "Security",
       "asset": {
         "type": {
           "id": 1,
@@ -393,19 +368,19 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Security 2",
+      "name": "Fabric",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "367289928853600_AdobeStock_190098579.jpeg",
+        "file": "20252029269800_Unreal Engine Demo 360 2020.10.15 - 15.37.08.04.jpg",
         "id": 367289989344000
       },
       "orientation": {
-        "latitude": -1.4000000000000004,
-        "longitude": 352.20000000000005
+        "latitude": -8.400000000000002,
+        "longitude": 265.9
       },
       "zoom": 75,
       "id": 367296378747900,
@@ -455,82 +430,10 @@
       },
       "orientation": {
         "latitude": 0,
-        "longitude": 0
+        "longitude": 46.6
       },
       "zoom": 75,
-      "id": 367342586413100
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Indoor 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "368516929001300_AdobeStock_365680503.jpeg",
-        "id": 367399572815500
-      },
-      "orientation": {
-        "latitude": -5.099999999999998,
-        "longitude": 60.70000000000003
-      },
-      "zoom": 75,
-      "id": 367401950955400,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Indoor 4",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367418631641100_AdobeStock_327083455.jpeg",
-        "id": 367418706849600
-      },
-      "orientation": {
-        "latitude": -3.500000000000001,
-        "longitude": 156.90000000000003
-      },
-      "zoom": 75,
-      "id": 367420534114100,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Indoor 5",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "368554547238900_AdobeStock_326695411.jpeg",
-        "id": 367555363933700
-      },
-      "orientation": {
-        "latitude": -3.5000000000000013,
-        "longitude": 3.4000000000000448
-      },
-      "zoom": 75,
-      "id": 367561975321800,
+      "id": 367342586413100,
       "items": [],
       "hidden": null,
       "ar": null
@@ -551,10 +454,10 @@
         "id": 367578891330700
       },
       "orientation": {
-        "latitude": -8,
-        "longitude": 356.3
+        "latitude": -13.399999999999999,
+        "longitude": 0.6000000000000227
       },
-      "zoom": 58.8847,
+      "zoom": 53.0381,
       "id": 367583491017000,
       "items": [],
       "hidden": null,
@@ -565,57 +468,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Theatre 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367598528119700_AdobeStock_392268168_Editorial_Use_Only.jpeg",
-        "id": 367598585161400
-      },
-      "orientation": {
-        "latitude": -9.3,
-        "longitude": 212.4
-      },
-      "zoom": 75,
-      "id": 367600493516200,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Hall 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367611048866600_AdobeStock_417152387_Editorial_Use_Only.jpeg",
-        "id": 367611071877500
-      },
-      "orientation": {
-        "latitude": -3.000000000000002,
-        "longitude": 271.29999999999995
-      },
-      "zoom": 75,
-      "id": 367616613120500,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Hall 2",
+      "name": "Hall",
       "asset": {
         "type": {
           "id": 1,
@@ -709,7 +562,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Dreamlike 1",
+      "name": "Dreamlike",
       "asset": {
         "type": {
           "id": 1,
@@ -720,33 +573,183 @@
         "id": 7581378219400
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -14.600000000000001,
+        "longitude": 336.00000000000006
       },
       "zoom": 75,
-      "id": 7583608295000
+      "id": 7583608295000,
+      "items": [],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Dreamlike 2",
+      "name": "White Room",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "7599795070800_AdobeStock_335566971.jpeg",
-        "id": 7599805257400
+        "file": "21126537899800_AdobeStock_334933278.jpeg",
+        "id": 21126547930400
       },
       "orientation": {
-        "latitude": -4.300000000000001,
-        "longitude": 359.4
+        "latitude": -2.2,
+        "longitude": 354.9
       },
       "zoom": 75,
-      "id": 7601130338400,
+      "id": 21133728247500,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Room 3D 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "21483727863000_Room3D.jpg",
+        "id": 21483748458900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 21485598978400,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Condivision",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "23493508146600_360_living.jpg",
+        "id": 23493528061800
+      },
+      "orientation": {
+        "latitude": -1.2000000000000002,
+        "longitude": 352.5
+      },
+      "zoom": 75,
+      "id": 23496259736800,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "welcome room  2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "23569472437900_AdobeStock_188067576.jpeg",
+        "id": 23569487071800
+      },
+      "orientation": {
+        "latitude": 2.5,
+        "longitude": 359.59999999999997
+      },
+      "zoom": 75,
+      "id": 23571698022700,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Room 3D 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "23845795731900_AdobeStock_309370746.jpeg",
+        "id": 23845808874200
+      },
+      "orientation": {
+        "latitude": -0.9000000000000001,
+        "longitude": 0.5000000000000142
+      },
+      "zoom": 75,
+      "id": 23847060270500,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Room 3D 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24014932058800_AdobeStock_381611810.jpeg",
+        "id": 24015209933300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 24016746457500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24090722473300_AdobeStock_405135135.jpeg",
+        "id": 24090732809700
+      },
+      "orientation": {
+        "latitude": -4.6,
+        "longitude": 352.00000000000006
+      },
+      "zoom": 75,
+      "id": 24096731611000,
       "items": [],
       "hidden": null,
       "ar": null
@@ -792,7 +795,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "366858395942900_AdobeStock_416479857_Editorial_Use_Only.jpeg",
+      "file": "21101667357200_spaceroom.jpeg",
       "id": 366858424197300
     },
     {
@@ -846,7 +849,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "367073565731700_AdobeStock_210639467.jpeg",
+      "file": "23158475208600_AdobeStock_389725160.jpeg",
       "id": 367051757541800
     },
     {
@@ -882,7 +885,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "367239758794300_AdobeStock_287002095.jpeg",
+      "file": "20120767922200_AdobeStock_189501033.jpeg",
       "id": 367239826860900
     },
     {
@@ -900,7 +903,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "367289928853600_AdobeStock_190098579.jpeg",
+      "file": "20252029269800_Unreal Engine Demo 360 2020.10.15 - 15.37.08.04.jpg",
       "id": 367289989344000
     },
     {
@@ -1037,6 +1040,69 @@
       "folder": "/uploads/",
       "file": "7599795070800_AdobeStock_335566971.jpeg",
       "id": 7599805257400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "21126537899800_AdobeStock_334933278.jpeg",
+      "id": 21126547930400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "21483727863000_Room3D.jpg",
+      "id": 21483748458900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "23493508146600_360_living.jpg",
+      "id": 23493528061800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "23569472437900_AdobeStock_188067576.jpeg",
+      "id": 23569487071800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "23845795731900_AdobeStock_309370746.jpeg",
+      "id": 23845808874200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24014932058800_AdobeStock_381611810.jpeg",
+      "id": 24015209933300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24090722473300_AdobeStock_405135135.jpeg",
+      "id": 24090732809700
     }
   ],
   "users": [
