@@ -14,14 +14,17 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/waiting-room/",
-        "file": "waiting-room.jpg"
+        "folder": "/uploads/",
+        "file": "7553651794800_welcome.jpg",
+        "id": 7553852838600
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
-      "zoom": 75
+      "zoom": 75,
+      "items": [],
+      "ar": null
     },
     {
       "id": 170427763402500,
@@ -700,6 +703,53 @@
       },
       "zoom": 75,
       "id": 1830436125200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Dreamlike 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "7581367913400_AdobeStock_337516947.jpeg",
+        "id": 7581378219400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 7583608295000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Dreamlike 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "7599795070800_AdobeStock_335566971.jpeg",
+        "id": 7599805257400
+      },
+      "orientation": {
+        "latitude": -4.300000000000001,
+        "longitude": 359.4
+      },
+      "zoom": 75,
+      "id": 7601130338400,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
@@ -960,6 +1010,33 @@
       "folder": "/uploads/",
       "file": "1823562656400_office_dark.jpg",
       "id": 1823576926500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "7553651794800_welcome.jpg",
+      "id": 7553852838600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "7581367913400_AdobeStock_337516947.jpeg",
+      "id": 7581378219400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "7599795070800_AdobeStock_335566971.jpeg",
+      "id": 7599805257400
     }
   ],
   "users": [
