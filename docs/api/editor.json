@@ -193,7 +193,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Abstract Room",
+      "name": "Abstract",
       "asset": {
         "type": {
           "id": 1,
@@ -243,7 +243,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Green",
+      "name": "Green Park",
       "asset": {
         "type": {
           "id": 1,
@@ -268,7 +268,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Park",
+      "name": "Natural Environment",
       "asset": {
         "type": {
           "id": 1,
@@ -293,7 +293,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "International ",
+      "name": "International Room",
       "asset": {
         "type": {
           "id": 1,
@@ -343,7 +343,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Security",
+      "name": "Fabric",
       "asset": {
         "type": {
           "id": 1,
@@ -368,7 +368,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Fabric",
+      "name": "Security Room",
       "asset": {
         "type": {
           "id": 1,
