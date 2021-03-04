@@ -32,7 +32,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Welcome Room",
+      "name": "Welcome Room 1",
       "likes": 0,
       "liked": false,
       "asset": {
@@ -96,6 +96,31 @@
         "id": 2,
         "name": "panorama"
       },
+      "name": "Welcome Room 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "23569472437900_AdobeStock_188067576.jpeg",
+        "id": 23569487071800
+      },
+      "orientation": {
+        "latitude": 2.5,
+        "longitude": 359.59999999999997
+      },
+      "zoom": 75,
+      "id": 23571698022700,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
       "name": "Space ",
       "asset": {
         "type": {
@@ -112,31 +137,6 @@
       },
       "zoom": 75,
       "id": 366863827371000,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Meeting 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "366895535102400_AdobeStock_252891744.jpeg",
-        "id": 366892706189700
-      },
-      "orientation": {
-        "latitude": -8.600000000000001,
-        "longitude": 352.7
-      },
-      "zoom": 75,
-      "id": 366896835035700,
       "items": [],
       "hidden": null,
       "ar": null
@@ -637,56 +637,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Condivision",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "23493508146600_360_living.jpg",
-        "id": 23493528061800
-      },
-      "orientation": {
-        "latitude": -1.2000000000000002,
-        "longitude": 352.5
-      },
-      "zoom": 75,
-      "id": 23496259736800,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "welcome room  2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "23569472437900_AdobeStock_188067576.jpeg",
-        "id": 23569487071800
-      },
-      "orientation": {
-        "latitude": 2.5,
-        "longitude": 359.59999999999997
-      },
-      "zoom": 75,
-      "id": 23571698022700,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Room 3D 2",
       "asset": {
         "type": {
@@ -712,22 +662,22 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Meeting 2",
+      "name": "Condivision",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "24090722473300_AdobeStock_405135135.jpeg",
-        "id": 24090732809700
+        "file": "23493508146600_360_living.jpg",
+        "id": 23493528061800
       },
       "orientation": {
-        "latitude": -4.6,
-        "longitude": 352.00000000000006
+        "latitude": -1.2000000000000002,
+        "longitude": 352.5
       },
       "zoom": 75,
-      "id": 24096731611000,
+      "id": 23496259736800,
       "items": [],
       "hidden": null,
       "ar": null
@@ -753,6 +703,56 @@
       },
       "zoom": 75,
       "id": 52276856980400,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "366895535102400_AdobeStock_252891744.jpeg",
+        "id": 366892706189700
+      },
+      "orientation": {
+        "latitude": -8.600000000000001,
+        "longitude": 352.7
+      },
+      "zoom": 75,
+      "id": 366896835035700,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24090722473300_AdobeStock_405135135.jpeg",
+        "id": 24090732809700
+      },
+      "orientation": {
+        "latitude": -4.6,
+        "longitude": 352.00000000000006
+      },
+      "zoom": 75,
+      "id": 24096731611000,
       "items": [],
       "hidden": null,
       "ar": null
