@@ -10868,6 +10868,134 @@
         }
       ],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Pac Man",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "59549269661400_AdobeStock_334933376.jpeg",
+        "id": 59549282853500
+      },
+      "orientation": {
+        "latitude": 23.000000000000004,
+        "longitude": 108.70000000000005
+      },
+      "zoom": 52.5989,
+      "id": 59557482326500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "59479926020300_test.glb",
+            "id": 59479968958300,
+            "chromaKeyColor": null
+          },
+          "id": 59557499725300,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "59695059722100_Pacman_Arcade__animation.usdz",
+          "id": 59695071310300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "59712535488000_pacman.glb",
+          "id": 59712546066200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Maggiolino",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "60152337681200_AdobeStock_410699925.jpeg",
+        "id": 60115238480000
+      },
+      "orientation": {
+        "latitude": 24.400000000000002,
+        "longitude": 249.39999999999992
+      },
+      "zoom": 33.9473,
+      "id": 60124349530900,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "62311756061000_beetlefusca.glb",
+            "id": 60098233644600,
+            "chromaKeyColor": null
+          },
+          "id": 60124364394600,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "62350570468300_BeetleFusca_Version_1.usdz",
+          "id": 62350584436500
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "62356891638100_beetlefusca.glb",
+          "id": 62356927542000
+        }
+      }
     }
   ],
   "menu": [
@@ -11101,6 +11229,20 @@
       "viewId": 426567696850200,
       "name": "Infisso 2",
       "order": 40
+    },
+    {
+      "id": 62369758865200,
+      "parentId": 514006762002499,
+      "viewId": 59557482326500,
+      "name": "Pac Man",
+      "order": 50
+    },
+    {
+      "id": 62370351208800,
+      "parentId": 514006762002499,
+      "viewId": 60124349530900,
+      "name": "Maggiolino",
+      "order": 60
     }
   ],
   "assets": [
@@ -14382,6 +14524,79 @@
       "file": "smartDeviceStream",
       "id": 306376497100900,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "59479926020300_test.glb",
+      "id": 59479968958300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "59549269661400_AdobeStock_334933376.jpeg",
+      "id": 59549282853500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "59695059722100_Pacman_Arcade__animation.usdz",
+      "id": 59695071310300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "59712535488000_pacman.glb",
+      "id": 59712546066200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "62311756061000_beetlefusca.glb",
+      "id": 60098233644600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "60152337681200_AdobeStock_410699925.jpeg",
+      "id": 60115238480000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "62350570468300_BeetleFusca_Version_1.usdz",
+      "id": 62350584436500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "62356891638100_beetlefusca.glb",
+      "id": 62356927542000
     }
   ],
   "users": [
