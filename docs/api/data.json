@@ -268,19 +268,19 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Outdoor",
+      "name": "Park",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "367140188566500_AdobeStock_388120010.jpeg",
+        "file": "52209540763500_Unreal Engine Demo 360 2021.03.03 - 20.16.44.93.jpg",
         "id": 367116220177700
       },
       "orientation": {
-        "latitude": -12.499999999999998,
-        "longitude": 352.90000000000003
+        "latitude": -2.1999999999999975,
+        "longitude": 351.4
       },
       "zoom": 75,
       "id": 367118649967100,
@@ -731,6 +731,31 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "TV Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "52274054243900_Unreal Engine Demo 360 2021.03.03 - 15.53.53.81.jpg",
+        "id": 52274082565100
+      },
+      "orientation": {
+        "latitude": -1.1,
+        "longitude": 235.00000000000006
+      },
+      "zoom": 75,
+      "id": 52276856980400,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
@@ -836,7 +861,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "367140188566500_AdobeStock_388120010.jpeg",
+      "file": "52209540763500_Unreal Engine Demo 360 2021.03.03 - 20.16.44.93.jpg",
       "id": 367116220177700
     },
     {
@@ -1081,6 +1106,15 @@
       "folder": "/uploads/",
       "file": "24090722473300_AdobeStock_405135135.jpeg",
       "id": 24090732809700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "52274054243900_Unreal Engine Demo 360 2021.03.03 - 15.53.53.81.jpg",
+      "id": 52274082565100
     }
   ],
   "users": [
