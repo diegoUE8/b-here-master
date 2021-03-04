@@ -112,7 +112,45 @@
       },
       "zoom": 75,
       "id": 23571698022700,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            14.054275184088493,
+            -2.36194838019849,
+            -0.47849426722135274
+          ],
+          "rotation": [
+            -1.3709168552821234,
+            -1.4500063748494219,
+            -1.369488973514011,
+            "XYZ"
+          ],
+          "scale": [
+            19.2,
+            10.8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "70656848415800_Greta doppia_lq2.mp4",
+            "id": 70656996430900,
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ]
+          },
+          "id": 70659138813200
+        }
+      ],
       "hidden": null,
       "ar": null
     },
@@ -1115,6 +1153,20 @@
       "folder": "/uploads/",
       "file": "52274054243900_Unreal Engine Demo 360 2021.03.03 - 15.53.53.81.jpg",
       "id": 52274082565100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "70656848415800_Greta doppia_lq2.mp4",
+      "id": 70656996430900,
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ]
     }
   ],
   "users": [
