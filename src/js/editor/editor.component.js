@@ -20,7 +20,6 @@ export default class EditorComponent extends Component {
 	onInit() {
 		const { node } = getContext(this);
 		node.classList.remove('hidden');
-		this.flags = environment.flags;
 		this.aside = false;
 		this.settings = false;
 		this.state = {};
@@ -81,59 +80,22 @@ export default class EditorComponent extends Component {
 			this.hosted = state.hosted;
 			this.pushChanges();
 		});
-		this.loadView();
+		this.viewObserver$().pipe(
+			takeUntil(this.unsubscribe$)
+		).subscribe(view => {
+			// console.log('EditorComponent.viewObserver$', view);
+		});
 		StreamService.mode = StreamServiceMode.Editor;
 		// this.getUserMedia();
 	}
 
-	/*
-	getUserMedia() {
-		if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-			const body = document.querySelector('body');
-			const media = document.createElement('div');
-			const video = document.createElement('video');
-			media.setAttribute('id', 'stream-editor');
-			media.setAttribute('style', 'position:absolute; top: 5000px; line-height: 0;');
-			media.appendChild(video);
-			body.appendChild(media);
-			navigator.mediaDevices.getUserMedia({
-				video: { width: 800, height: 450 },
-			}).then((stream) => {
-				// console.log(stream);
-				if ('srcObject' in video) {
-					video.srcObject = stream;
-				} else {
-					video.src = window.URL.createObjectURL(stream);
-				}
-				video.play();
-				const fakePublisherStream = {
-					getId: () => 'editor',
-					clientInfo: {
-						role: RoleType.Publisher,
-					}
-				};
-				const fakeAttendeeStream = {
-					getId: () => 'editor',
-					clientInfo: {
-						role: RoleType.Attendee,
-					}
-				};
-				StreamService.editorStreams = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
-			}).catch((error) => {
-				console.log('EditorComponent.getUserMedia.error', error.name, error.message);
-			});
-		}
-	}
-	*/
-
-	loadView() {
-		EditorService.data$().pipe(
+	viewObserver$() {
+		return EditorService.data$().pipe(
 			switchMap(data => {
 				this.data = data;
 				this.views = data.views.filter(x => x.type.name !== 'waiting-room');
 				return ViewService.editorView$(data);
 			}),
-			takeUntil(this.unsubscribe$),
 			tap(view => {
 				this.view = null;
 				this.pushChanges();
@@ -143,15 +105,15 @@ export default class EditorComponent extends Component {
 				this.view = view;
 				this.pushChanges();
 			}),
-		).subscribe(view => {
-			// console.log('EditorComponent.view$', view);
-		});
+		);
 	}
 
-	onNavTo(viewId) {
+	onNavTo(navItem) {
+		// console.log('EditorComponent.onNavTo', navItem);
+		const viewId = navItem.viewId;
 		const view = this.data.views.find(x => x.id === viewId);
 		if (view) {
-			ViewService.viewId = viewId;
+			ViewService.action = { viewId, keepOrientation: navItem.keepOrientation };
 		}
 	}
 

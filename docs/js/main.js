@@ -134,9 +134,11 @@ function _readOnlyError(name) {
     editorAssetScreen: false,
     ar: true,
     menu: true,
+    chat: false,
     attendee: true,
     streamer: true,
     viewer: true,
+    smartDevice: true,
     maxQuality: false
   },
   logo: '/Modules/B-Here/Client/docs/img/logo.png',
@@ -168,7 +170,8 @@ function _readOnlyError(name) {
     access: '/',
     editor: '/editor',
     selfServiceTour: '/self-service-tour',
-    guidedTour: '/guided-tour'
+    guidedTour: '/guided-tour',
+    accessCode: '/access-code'
   },
   template: {
     tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
@@ -206,9 +209,11 @@ function _readOnlyError(name) {
     editorAssetScreen: true,
     ar: true,
     menu: true,
+    chat: true,
     attendee: true,
     streamer: true,
     viewer: true,
+    smartDevice: true,
     maxQuality: false
   },
   logo: '/b-here/img/logo.png',
@@ -230,7 +235,7 @@ function _readOnlyError(name) {
     disabledViewTypes: ['waiting-room', 'room-3d'],
     disabledViewItemTypes: ['texture']
   },
-  assets: './',
+  assets: '/b-here/',
   worker: './js/workers/image.service.worker.js',
   githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piva/docs/',
   language: '',
@@ -240,7 +245,8 @@ function _readOnlyError(name) {
     access: '/',
     editor: '/editor',
     selfServiceTour: '/self-service-tour',
-    guidedTour: '/guided-tour'
+    guidedTour: '/guided-tour',
+    accessCode: '/access-code'
   },
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
@@ -402,14 +408,126 @@ var defaultAppOptions = {
     attendee: true,
     streamer: true,
     viewer: true,
-    maxQuality: false
+    smartDevice: true,
+    maxQuality: false,
+    heroku: HEROKU
   }
 };
 var environmentOptions = window.STATIC ? environmentStatic : environmentServed;
 var options = Object.assign(defaultOptions, defaultAppOptions, environmentOptions);
 options = Utils.merge(options, window.bhere);
 var environment = new Environment(options);
-console.log('environment', environment);var _Utils$merge;
+console.log('environment', environment);var LocationService = /*#__PURE__*/function () {
+  function LocationService() {}
+
+  LocationService.has = function has(key) {
+    var params = new URLSearchParams(window.location.search); // console.log('LocationService.has', params);
+
+    return params.has(key);
+  };
+
+  LocationService.get = function get(key) {
+    var params = new URLSearchParams(window.location.search); // console.log('LocationService.get', params);
+
+    return params.get(key);
+  };
+
+  LocationService.set = function set(keyOrValue, value) {
+    var params = new URLSearchParams(window.location.search);
+
+    if (typeof keyOrValue === 'string') {
+      params.set(keyOrValue, value);
+    } else {
+      params.set(keyOrValue, '');
+    }
+
+    this.replace(params); // console.log('LocationService.set', params, keyOrValue, value);
+  };
+
+  LocationService.replace = function replace(params) {
+    if (window.history && window.history.pushState) {
+      var title = document.title;
+      var url = window.location.href.split('?')[0] + "?" + params.toString();
+      window.history.pushState(params.toString(), title, url);
+    }
+  };
+
+  LocationService.deserialize = function deserialize(key) {
+    var encoded = this.get('params');
+    return this.decode(key, encoded);
+  };
+
+  LocationService.serialize = function serialize(keyOrValue, value) {
+    var params = this.deserialize();
+    var encoded = this.encode(keyOrValue, value, params);
+    this.set('params', encoded);
+  };
+
+  LocationService.decode = function decode(key, encoded) {
+    var decoded = null;
+
+    if (encoded) {
+      var json = window.atob(encoded);
+      decoded = JSON.parse(json);
+    }
+
+    if (key && decoded) {
+      decoded = decoded[key];
+    }
+
+    return decoded || null;
+  };
+
+  LocationService.encode = function encode(keyOrValue, value, params) {
+    params = params || {};
+    var encoded = null;
+
+    if (typeof keyOrValue === 'string') {
+      params[keyOrValue] = value;
+    } else {
+      params = keyOrValue;
+    }
+
+    var json = JSON.stringify(params);
+    encoded = window.btoa(json);
+    return encoded;
+  };
+
+  return LocationService;
+}();var AccessCodeComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(AccessCodeComponent, _Component);
+
+  function AccessCodeComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  var _proto = AccessCodeComponent.prototype;
+
+  _proto.onInit = function onInit() {
+    this.env = environment;
+    var link = LocationService.get('link');
+
+    if (!link) {
+      window.location.href = "" + window.location.origin + environment.url.guidedTour;
+    }
+
+    var url = "" + window.location.origin + environment.url.guidedTour + "?link=" + link;
+
+    var _getContext = rxcomp.getContext(this),
+        node = _getContext.node;
+
+    var qrcode = new QRious({
+      element: node.querySelector('.qrcode'),
+      value: url,
+      size: 256
+    });
+  };
+
+  return AccessCodeComponent;
+}(rxcomp.Component);
+AccessCodeComponent.meta = {
+  selector: '[access-code-component]'
+};var _Utils$merge;
 var LABELS = Utils.merge((_Utils$merge = {
   browse: 'Browse',
   cancel: 'Cancel',
@@ -704,6 +822,7 @@ function patchFields(fields, form) {
   Attendee: 'attendee',
   Streamer: 'streamer',
   Viewer: 'viewer',
+  SmartDevice: 'smart-device',
   SelfService: 'self-service'
 };
 var User = function User(options) {
@@ -1069,357 +1188,39 @@ UserService.user$ = new rxjs.BehaviorSubject(null);var AccessComponent = /*#__PU
 }(rxcomp.Component);
 AccessComponent.meta = {
   selector: '[access-component]'
-};var AudioStreamService = /*#__PURE__*/function () {
-  function AudioStreamService() {}
+};var MessageService = /*#__PURE__*/function () {
+  function MessageService() {}
 
-  AudioStreamService.addSource = function addSource(streamOrElement) {
-    var key = streamOrElement instanceof MediaStream ? streamOrElement.id : streamOrElement;
-
-    if (!this.sources_[key]) {
-      if (streamOrElement instanceof MediaStream) {
-        this.sources_[key] = this.context.createMediaStreamSource(streamOrElement.clone());
-      } else {
-        this.sources_[key] = this.context.createMediaElementSource(streamOrElement);
-      } // this.sources_[key] = streamOrElement instanceof MediaStream ? this.context.createMediaStreamSource(streamOrElement) : this.context.createMediaElementSource(streamOrElement);
-
-    }
-
-    return this.sources_[key];
+  MessageService.message = function message(_message) {
+    this.message$.next(_message);
   };
 
-  AudioStreamService.removeSource = function removeSource(streamOrElement) {
-    var key = streamOrElement instanceof MediaStream ? streamOrElement.id : streamOrElement;
-    return this.removeSourceKey(key);
+  MessageService.in = function _in(message) {
+    this.in$.next(message);
   };
 
-  AudioStreamService.removeSourceKey = function removeSourceKey(key) {
-    // console.log('AudioStreamService.removeSourceKey', key);
-    var source;
+  MessageService.sendBack = function sendBack(message) {
+    message = Object.assign({}, message, {
+      remoteId: message.clientId
+    }); // console.log('MessageService.sendBack', message);
 
-    if (this.sources_[key]) {
-      source = this.sources_[key];
-      /*
-      if (source.mediaStream) {
-      	source.mediaStream.stop();
-      }
-      source.stop();
-      */
-
-      if (this.analyser) {
-        source.disconnect(this.analyser);
-      }
-
-      source.disconnect();
-      delete this.sources_[key];
-    }
-
-    return source;
+    this.in$.next(message);
   };
 
-  AudioStreamService.frequency$ = function frequency$(streamOrElement, fftSize) {
-    var _this = this;
-
-    if (fftSize === void 0) {
-      fftSize = 64;
-    }
-
-    if (fftSize % 2 === 1) {
-      throw fftSize;
-    }
-
-    var state = new Uint8Array(fftSize / 2);
-    var context = this.context;
-
-    if (context) {
-      var analyser = this.analyser; // Connect the output of the analyser to the destination
-      // analyser.connect(context.destination); // no audio !
-      // console.log(analyser.fftSize); // 2048 by default
-      // console.log(analyser.frequencyBinCount); // will give us 1024 data points
-
-      analyser.fftSize = fftSize; // 64
-      // console.log(analyser.frequencyBinCount); // fftSize/2 = 32 data points
-
-      var source = this.addSource(streamOrElement); // source.connect(context.destination); // no audio!
-      // Connect the output of the source to the input of the analyser
-
-      source.connect(analyser);
-      var state$ = new rxjs.BehaviorSubject(state);
-      return AudioStreamService.frame$.pipe(operators.withLatestFrom(state$), operators.map(function (_ref) {
-        var deltaTime = _ref[0],
-            state = _ref[1];
-        // Get the new frequency data
-        analyser.getByteFrequencyData(state);
-        /*
-        const max = state.reduce((p, c, i) => {
-        	return Math.max(c, p);
-        }, 0);
-        if (max > 0) {
-        	// console.log(max);
-        }
-        */
-        // Update the visualisation
-
-        return state;
-      }), operators.tap(function (state) {
-        return state$.next(state);
-      }), operators.finalize(function () {
-        _this.removeSource(streamOrElement);
-      }));
-    } else {
-      return rxjs.of(state);
-    }
-  } // unused
-  ;
-
-  AudioStreamService.volume$ = function volume$(streamOrElement) {
-    var _this2 = this;
-
-    var state = {
-      volume: 0,
-      clipped: false
-    };
-    var context = this.context; // console.log('AudioStreamService.volume$', context, state);
-
-    if (context) {
-      var source = this.addSource(streamOrElement);
-      var meter = AudioStreamService.audioMeterCreate();
-      source.connect(meter);
-      var state$ = new rxjs.BehaviorSubject(state);
-      return AudioStreamService.frame$.pipe(operators.withLatestFrom(state$), operators.map(function (_ref2) {
-        var deltaTime = _ref2[0],
-            state = _ref2[1];
-        state.clipped = meter.checkClipping();
-        state.volume = meter.volume;
-        return state;
-      }), operators.tap(function (state) {
-        return state$.next(state);
-      }), operators.finalize(function () {
-        _this2.removeSource(streamOrElement);
-      }));
-    } else {
-      return rxjs.of(state);
-    }
-  } // unused
-  ;
-
-  AudioStreamService.audioMeterCreate = function audioMeterCreate(clipLevel, averaging, clipLag) {
-    if (clipLevel === void 0) {
-      clipLevel = 0.98;
-    }
-
-    if (averaging === void 0) {
-      averaging = 0.95;
-    }
-
-    if (clipLag === void 0) {
-      clipLag = 750;
-    }
-
-    var context = this.context;
-
-    if (context) {
-      var processor = context.createScriptProcessor(512);
-      processor.onaudioprocess = this.audioMeterProcess;
-      processor.checkClipping = this.audioMeterClip;
-      processor.dispose = this.audioMeterDispose;
-      processor.clipping = false;
-      processor.lastClip = 0;
-      processor.volume = 0;
-      processor.clipLevel = clipLevel;
-      processor.averaging = averaging;
-      processor.clipLag = clipLag; // this will have no effect, since we don't copy the input to the output,
-      // but works around a current Chrome bug.
-
-      processor.connect(context.destination);
-      return processor;
-    }
+  MessageService.out = function out(message) {
+    this.out$.next(message);
   };
 
-  AudioStreamService.audioMeterProcess = function audioMeterProcess(event) {
-    var buffer = event.inputBuffer.getChannelData(0);
-    var bufferLength = buffer.length;
-    var sum = 0;
-    var x; // Do a root-mean-square on the samples: sum up the squares...
-
-    for (var i = 0; i < bufferLength; i++) {
-      x = buffer[i];
-
-      if (Math.abs(x) >= this.clipLevel) {
-        this.clipping = true;
-        this.lastClip = window.performance.now();
-      }
-
-      sum += x * x;
-    } // ... then take the square root of the sum.
-
-
-    var rms = Math.sqrt(sum / bufferLength); // Now smooth this out with the averaging factor applied
-    // to the previous sample - take the max here because we
-    // want "fast attack, slow release."
-
-    this.volume = Math.max(rms, this.volume * this.averaging);
-  };
-
-  AudioStreamService.audioMeterClip = function audioMeterClip() {
-    if (!this.clipping) {
-      return false;
-    }
-
-    if (this.lastClip + this.clipLag < window.performance.now()) {
-      this.clipping = false;
-    }
-
-    return this.clipping;
-  };
-
-  AudioStreamService.audioMeterDispose = function audioMeterDispose() {
-    this.disconnect();
-    this.onaudioprocess = null;
-  };
-
-  AudioStreamService.step$ = function step$(previous) {
-    /**
-     * This function returns an observable that will emit the next frame once the
-     * browser has returned an animation frame step. Given the previous frame it calculates
-     * the delta time, and we also clamp it to 30FPS in case we get long frames.
-     */
-    return rxjs.Observable.create(function (observer) {
-      requestAnimationFrame(function (startTime) {
-        // Millis to seconds
-        var deltaTime = previous ? (startTime - previous.startTime) / 1000 : 0;
-        observer.next({
-          startTime: startTime,
-          deltaTime: deltaTime
-        });
-      });
-    }).pipe(operators.map(function (frame) {
-      if (frame.deltaTime > 1 / 30) {
-        frame.deltaTime = 1 / 30;
-      }
-
-      return frame;
-    }));
-  };
-
-  AudioStreamService.dispose = function dispose() {
-    var _this3 = this;
-
-    var analyser = this.analyser;
-    Object.keys(this.sources_).forEach(function (key) {
-      _this3.removeSourceKey(key);
-    });
-    analyser.disconnect();
-    this.sources_ = {}; // this.context_.close().then(() => console.log('AudioStreamService.dispose'));
-    // this.context_ = null;
-  };
-
-  _createClass(AudioStreamService, null, [{
-    key: "context",
-    get: function get() {
-      if (!this.context_ && 'AudioContext' in window) {
-        this.context_ = new AudioContext();
-      }
-
-      return this.context_;
-    }
-    /*
-    static get processorNode() {
-    	if (!this.processorNode_) {
-    		this.processorNode_ = this.context.createScriptProcessor(BUFF_SIZE, 1, 1);
-    	}
-    	return this.processorNode_;
-    }
-    */
-
-    /*
-    static get gain() {
-    	if (!this.gain_) {
-    		this.gain_ = this.context.createGain();
-    	}
-    	return this.gain_;
-    }
-    */
-
-  }, {
-    key: "analyser",
-    get: function get() {
-      if (!this.analyser_) {
-        this.analyser_ = this.context.createAnalyser();
-      }
-
-      return this.analyser_;
-    }
-  }]);
-
-  return AudioStreamService;
+  return MessageService;
 }();
-AudioStreamService.sources_ = {};
-AudioStreamService.frame$ = rxjs.of(undefined).pipe(operators.expand(function (value) {
-  return AudioStreamService.step$(value);
-}), // Expand emits the first value provided to it, and in this
-//  case we just want to ignore the undefined input frame
-operators.filter(function (frame) {
-  return frame !== undefined;
-}), operators.map(function (frame) {
-  return frame.deltaTime;
-}), operators.share());var DevicePlatform = {
-  Unknown: 'unknown',
-  IOS: 'ios',
-  Android: 'android',
-  WindowsPhone: 'windowsPhone',
-  VRHeadset: 'vrHeadset'
-};
-var DeviceService = /*#__PURE__*/function () {
-  function DeviceService() {}
 
-  DeviceService.getDevicePlatform = function getDevicePlatform() {
-    var userAgent = navigator.userAgent || navigator.vendor || window.opera; // Windows Phone must come first because its UA also contains 'Android'
+_defineProperty(MessageService, "message$", new rxjs.ReplaySubject(1));
 
-    if (/windows phone/i.test(userAgent)) {
-      return DevicePlatform.WindowsPhone;
-    }
+_defineProperty(MessageService, "in$", new rxjs.ReplaySubject(1));
 
-    if (/android/i.test(userAgent)) {
-      return DevicePlatform.Android;
-    } // iOS detection from: http://stackoverflow.com/a/9039885/177710
-    // if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+_defineProperty(MessageService, "send", MessageService.in);
 
-
-    if (this.isIOS) {
-      return DevicePlatform.IOS;
-    }
-
-    if (this.isVRHeadset) {
-      return DevicePlatform.VRHeadset;
-    }
-
-    return DevicePlatform.Unknown;
-  };
-
-  _createClass(DeviceService, null, [{
-    key: "platform",
-    get: function get() {
-      if (!this.platform_) {
-        this.platform_ = this.getDevicePlatform();
-      }
-
-      return this.platform_;
-    }
-  }, {
-    key: "isIOS",
-    get: function get() {
-      return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) !== -1 // iPad on iOS 13 detection
-      || navigator.userAgent.indexOf('Mac') !== -1 && 'ontouchend' in document;
-    }
-  }, {
-    key: "isVRHeadset",
-    get: function get() {
-      return navigator.userAgent.indexOf('VR') !== -1 || navigator.userAgent.indexOf('Quest') !== -1 || navigator.userAgent.indexOf('Oculus') !== -1;
-    }
-  }]);
-
-  return DeviceService;
-}();var StateService = /*#__PURE__*/function () {
+_defineProperty(MessageService, "out$", new rxjs.ReplaySubject(1));var StateService = /*#__PURE__*/function () {
   function StateService() {}
 
   StateService.patchState = function patchState(state) {
@@ -1440,377 +1241,7 @@ var DeviceService = /*#__PURE__*/function () {
   return StateService;
 }();
 
-_defineProperty(StateService, "state$", new rxjs.BehaviorSubject({}));var StreamQualities = [{
-  // id: 1,
-  // name: '4K 2160p 3840x2160',
-  profile: '4K',
-  resolution: {
-    width: 3840,
-    height: 2160
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 8910,
-    max: 13500
-  }
-}, {
-  // id: 2,
-  // name: 'HD 1440p 2560×1440',
-  profile: '1440p',
-  resolution: {
-    width: 2560,
-    height: 1440
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 4850,
-    max: 7350
-  }
-}, {
-  // id: 3,
-  // name: 'HD 1080p 1920x1080',
-  profile: '1080p',
-  resolution: {
-    width: 1920,
-    height: 1080
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 2080,
-    max: 4780
-  }
-}, {
-  // id: 4,
-  // name: 'LOW 720p 1280x720',
-  profile: '720p_3',
-  resolution: {
-    width: 1280,
-    height: 720
-  },
-  frameRate: {
-    min: 15,
-    max: 30
-  },
-  bitrate: {
-    min: 1130,
-    max: 1710
-  }
-}, {
-  // id: 5,
-  // name: 'LOWEST 240p 320x240',
-  profile: '240p_1',
-  resolution: {
-    width: 320,
-    height: 240
-  },
-  frameRate: {
-    min: 15,
-    max: 15
-  },
-  bitrate: {
-    min: 140,
-    max: 200
-  }
-}];
-function getStreamQuality(state) {
-  var lowestQuality = StreamQualities[StreamQualities.length - 1];
-  var highestQuality = environment.flags.maxQuality ? StreamQualities[0] : StreamQualities[StreamQualities.length - 2];
-  return state.role === RoleType.Publisher ? highestQuality : lowestQuality;
-}
-var AgoraStatus = {
-  Idle: 'idle',
-  Link: 'link',
-  Login: 'login',
-  Name: 'name',
-  Device: 'device',
-  ShouldConnect: 'should-connect',
-  Connecting: 'connecting',
-  Connected: 'connected',
-  Disconnected: 'disconnected'
-};
-var MessageType = {
-  AgoraEvent: 'agoraEvent',
-  Ping: 'ping',
-  RequestControl: 'requestControl',
-  RequestControlAccepted: 'requestControlAccepted',
-  RequestControlRejected: 'requestControlRejected',
-  RequestControlDismiss: 'requestControlDismiss',
-  RequestControlDismissed: 'requestControlDismissed',
-  RequestPeerInfo: 'requestPeerInfo',
-  RequestPeerInfoResult: 'requestPeerInfoResult',
-  RequestInfo: 'requestInfo',
-  RequestInfoResult: 'requestInfoResult',
-  RequestInfoDismiss: 'requestInfoDismiss',
-  RequestInfoDismissed: 'requestInfoDismissed',
-  RequestInfoRejected: 'requestInfoRejected',
-  SlideChange: 'slideChange',
-  ControlInfo: 'controlInfo',
-  AddLike: 'addLike',
-  ShowPanel: 'showPanel',
-  PlayMedia: 'playMedia',
-  NavToView: 'navToView',
-  NavToGrid: 'navToGrid',
-  VRStarted: 'vrStarted',
-  VREnded: 'vrEnded',
-  VRState: 'vrState',
-  MenuToggle: 'menuToggle'
-};
-var AgoraEvent = function AgoraEvent(options) {
-  Object.assign(this, options);
-};
-var AgoraPeerEvent = /*#__PURE__*/function (_AgoraEvent) {
-  _inheritsLoose(AgoraPeerEvent, _AgoraEvent);
-
-  function AgoraPeerEvent() {
-    return _AgoraEvent.apply(this, arguments) || this;
-  }
-
-  return AgoraPeerEvent;
-}(AgoraEvent);
-var AgoraRemoteEvent = /*#__PURE__*/function (_AgoraEvent2) {
-  _inheritsLoose(AgoraRemoteEvent, _AgoraEvent2);
-
-  function AgoraRemoteEvent() {
-    return _AgoraEvent2.apply(this, arguments) || this;
-  }
-
-  return AgoraRemoteEvent;
-}(AgoraEvent);
-var AgoraMuteVideoEvent = /*#__PURE__*/function (_AgoraEvent3) {
-  _inheritsLoose(AgoraMuteVideoEvent, _AgoraEvent3);
-
-  function AgoraMuteVideoEvent() {
-    return _AgoraEvent3.apply(this, arguments) || this;
-  }
-
-  return AgoraMuteVideoEvent;
-}(AgoraEvent);
-var AgoraUnmuteVideoEvent = /*#__PURE__*/function (_AgoraEvent4) {
-  _inheritsLoose(AgoraUnmuteVideoEvent, _AgoraEvent4);
-
-  function AgoraUnmuteVideoEvent() {
-    return _AgoraEvent4.apply(this, arguments) || this;
-  }
-
-  return AgoraUnmuteVideoEvent;
-}(AgoraEvent);
-var AgoraMuteAudioEvent = /*#__PURE__*/function (_AgoraEvent5) {
-  _inheritsLoose(AgoraMuteAudioEvent, _AgoraEvent5);
-
-  function AgoraMuteAudioEvent() {
-    return _AgoraEvent5.apply(this, arguments) || this;
-  }
-
-  return AgoraMuteAudioEvent;
-}(AgoraEvent);
-var AgoraUnmuteAudioEvent = /*#__PURE__*/function (_AgoraEvent6) {
-  _inheritsLoose(AgoraUnmuteAudioEvent, _AgoraEvent6);
-
-  function AgoraUnmuteAudioEvent() {
-    return _AgoraEvent6.apply(this, arguments) || this;
-  }
-
-  return AgoraUnmuteAudioEvent;
-}(AgoraEvent);
-var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
-  _inheritsLoose(AgoraVolumeLevelsEvent, _AgoraEvent7);
-
-  function AgoraVolumeLevelsEvent() {
-    return _AgoraEvent7.apply(this, arguments) || this;
-  }
-
-  return AgoraVolumeLevelsEvent;
-}(AgoraEvent);var AgoraDevicePreviewComponent = /*#__PURE__*/function (_Component) {
-  _inheritsLoose(AgoraDevicePreviewComponent, _Component);
-
-  function AgoraDevicePreviewComponent() {
-    return _Component.apply(this, arguments) || this;
-  }
-
-  var _proto = AgoraDevicePreviewComponent.prototype;
-
-  _proto.onInit = function onInit() {
-    this.platform = DeviceService.platform;
-
-    var _getContext = rxcomp.getContext(this),
-        node = _getContext.node;
-
-    var preview = this.preview = node.querySelector('video');
-    this.onLoadedMetadata = this.onLoadedMetadata.bind(this);
-    preview.addEventListener('loadedmetadata', this.onLoadedMetadata);
-    var audio = node.querySelector('.audio');
-
-    if (this.hasPreview) {
-      var bars = this.bars = new Array(32).fill(0).map(function (x) {
-        var bar = document.createElement('div');
-        bar.classList.add('bar');
-        audio.appendChild(bar);
-        return bar;
-      });
-    }
-  };
-
-  _proto.onDestroy = function onDestroy() {
-    var preview = this.preview;
-    preview.removeEventListener('loadedmetadata', this.onLoadedMetadata);
-
-    if (this.hasPreview) {
-      AudioStreamService.dispose();
-    }
-  };
-
-  _proto.initStream = function initStream() {
-    var _this = this;
-
-    var preview = this.preview;
-
-    if (!this.preview) {
-      return;
-    } // console.log(this.video_, this.audio_);
-
-
-    if (this.video_ || this.audio_) {
-      if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-        var state = StateService.state;
-        var quality = getStreamQuality(state);
-        var options = {
-          video: this.video_ ? {
-            deviceId: this.video_,
-            width: {
-              ideal: quality.resolution.width
-            },
-            height: {
-              ideal: quality.resolution.height
-            },
-            frameRate: {
-              ideal: quality.frameRate.min,
-              max: quality.frameRate.max
-            }
-          } : false,
-          audio: this.audio_ ? {
-            deviceId: this.audio_
-          } : false
-        }; // console.log('AgoraDevicePreviewComponent.initStream.getUserMedia', options);
-
-        navigator.mediaDevices.getUserMedia(options).then(function (stream) {
-          if (_this.hasPreview) {
-            if ('srcObject' in preview) {
-              preview.srcObject = stream;
-            } else {
-              preview.src = window.URL.createObjectURL(stream);
-            }
-
-            if (_this.audio_) {
-              _this.analyzeData(stream);
-            }
-
-            _this.loadingStream_ = stream;
-          } else {
-            _this.stream.next(stream);
-          }
-        }).catch(function (error) {
-          console.log('AgoraDevicePreviewComponent.initStream.error', error.name, error.message);
-
-          _this.stream.next(null);
-        });
-      }
-    } else {
-      if (this.hasPreview) {
-        if ('srcObject' in preview) {
-          preview.srcObject = null;
-        } else {
-          preview.src = null;
-        }
-
-        this.analyzeData(null);
-      }
-
-      this.stream.next(null);
-    }
-  };
-
-  _proto.onLoadedMetadata = function onLoadedMetadata(event) {
-    this.preview.play();
-    this.stream.next(this.loadingStream_);
-  };
-
-  _proto.analyzeData = function analyzeData(stream) {
-    var _this2 = this;
-
-    if (this.frequencySubscription) {
-      this.frequencySubscription.unsubscribe();
-    } // console.log('AgoraDevicePreviewComponent.analyzeData', stream);
-
-
-    if (stream) {
-      this.frequencySubscription = AudioStreamService.frequency$(stream, 64).pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (frequency) {
-        // 32 data points
-        // console.log(frequency);
-        var spacing = 100 / 32;
-        var bars = _this2.bars;
-        bars.forEach(function (bar, i) {
-          var pow = Math.min(100, 5 + frequency[i]) / 100;
-          bar.style.left = i * spacing + '%';
-          bar.style.transform = "scale(1," + pow + ")";
-          bar.style.opacity = pow;
-        });
-      });
-    }
-  };
-
-  _createClass(AgoraDevicePreviewComponent, [{
-    key: "video",
-    get: function get() {
-      return this.video_;
-    },
-    set: function set(video) {
-      if (this.video_ !== video) {
-        this.video_ = video;
-
-        if (this.change) {
-          this.change.next();
-          this.initStream();
-        }
-      }
-    }
-  }, {
-    key: "audio",
-    get: function get() {
-      return this.audio_;
-    },
-    set: function set(audio) {
-      if (this.audio_ !== audio) {
-        this.audio_ = audio;
-
-        if (this.change) {
-          this.change.next();
-          this.initStream();
-        }
-      }
-    }
-  }, {
-    key: "hasPreview",
-    get: function get() {
-      return this.platform !== DevicePlatform.IOS && this.platform !== DevicePlatform.VRHeadset;
-    }
-  }]);
-
-  return AgoraDevicePreviewComponent;
-}(rxcomp.Component);
-AgoraDevicePreviewComponent.meta = {
-  selector: '[agora-device-preview]',
-  outputs: ['stream', 'change'],
-  inputs: ['video', 'audio']
-};var Emittable = /*#__PURE__*/function () {
+_defineProperty(StateService, "state$", new rxjs.BehaviorSubject({}));var Emittable = /*#__PURE__*/function () {
   function Emittable() {
     this.events = {};
   }
@@ -1876,39 +1307,84 @@ AgoraDevicePreviewComponent.meta = {
   };
 
   return Emittable;
-}();var MessageService = /*#__PURE__*/function () {
-  function MessageService() {}
+}();var SessionStorageService = /*#__PURE__*/function () {
+  function SessionStorageService() {}
 
-  MessageService.message = function message(_message) {
-    this.message$.next(_message);
+  SessionStorageService.delete = function _delete(name) {
+    if (this.isSessionStorageSupported()) {
+      window.sessionStorage.removeItem(name);
+    }
   };
 
-  MessageService.in = function _in(message) {
-    this.in$.next(message);
+  SessionStorageService.exist = function exist(name) {
+    if (this.isSessionStorageSupported()) {
+      return window.sessionStorage[name] !== undefined;
+    }
   };
 
-  MessageService.sendBack = function sendBack(message) {
-    message = Object.assign({}, message, {
-      remoteId: message.clientId
-    }); // console.log('MessageService.sendBack', message);
+  SessionStorageService.get = function get(name) {
+    var value = null;
 
-    this.in$.next(message);
+    if (this.isSessionStorageSupported() && window.sessionStorage[name] !== undefined) {
+      try {
+        value = JSON.parse(window.sessionStorage[name]);
+      } catch (e) {
+        console.log('SessionStorageService.get.error parsing', name, e);
+      }
+    }
+
+    return value;
   };
 
-  MessageService.out = function out(message) {
-    this.out$.next(message);
+  SessionStorageService.set = function set(name, value) {
+    if (this.isSessionStorageSupported()) {
+      try {
+        var cache = [];
+        var json = JSON.stringify(value, function (key, value) {
+          if (typeof value === 'object' && value !== null) {
+            if (cache.indexOf(value) !== -1) {
+              // Circular reference found, discard key
+              return;
+            }
+
+            cache.push(value);
+          }
+
+          return value;
+        });
+        window.sessionStorage.setItem(name, json);
+      } catch (e) {
+        console.log('SessionStorageService.set.error serializing', name, value, e);
+      }
+    }
   };
 
-  return MessageService;
-}();
+  SessionStorageService.isSessionStorageSupported = function isSessionStorageSupported() {
+    if (this.supported) {
+      return true;
+    }
 
-_defineProperty(MessageService, "message$", new rxjs.ReplaySubject(1));
+    var supported = false;
 
-_defineProperty(MessageService, "in$", new rxjs.ReplaySubject(1));
+    try {
+      supported = 'sessionStorage' in window && window.sessionStorage !== null;
 
-_defineProperty(MessageService, "send", MessageService.in);
+      if (supported) {
+        window.sessionStorage.setItem('test', '1');
+        window.sessionStorage.removeItem('test');
+      } else {
+        supported = false;
+      }
+    } catch (e) {
+      supported = false;
+    }
 
-_defineProperty(MessageService, "out$", new rxjs.ReplaySubject(1));var MAX_VISIBLE_STREAMS = 8;
+    this.supported = supported;
+    return supported;
+  };
+
+  return SessionStorageService;
+}();var MAX_VISIBLE_STREAMS = 8;
 var StreamServiceMode = {
   Client: 'client',
   Editor: 'editor'
@@ -2011,8 +1487,17 @@ var StreamService = /*#__PURE__*/function () {
                 uid: 'editor'
               }
             };
+            var fakeSmartDeviceStream = {
+              getId: function getId() {
+                return 'editor';
+              },
+              clientInfo: {
+                role: RoleType.SmartDevice,
+                uid: 'editor'
+              }
+            };
 
-            _this.editorStreams$.next([fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream]); // StreamService.editorStreams = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
+            _this.editorStreams$.next([fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeSmartDeviceStream]); // StreamService.editorStreams = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
 
           };
 
@@ -2272,7 +1757,201 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
 
 
   return streams;
-}), operators.shareReplay(1)));var AgoraService = /*#__PURE__*/function (_Emittable) {
+}), operators.shareReplay(1)));var USE_AUTODETECT = false;
+var StreamQualities = [{
+  // id: 1,
+  // name: '4K 2160p 3840x2160',
+  profile: '4K',
+  resolution: {
+    width: 3840,
+    height: 2160
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 8910,
+    max: 13500
+  }
+}, {
+  // id: 2,
+  // name: 'HD 1440p 2560×1440',
+  profile: '1440p',
+  resolution: {
+    width: 2560,
+    height: 1440
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 4850,
+    max: 7350
+  }
+}, {
+  // id: 3,
+  // name: 'HD 1080p 1920x1080',
+  profile: '1080p',
+  resolution: {
+    width: 1920,
+    height: 1080
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 2080,
+    max: 4780
+  }
+}, {
+  // id: 4,
+  // name: 'LOW 720p 1280x720',
+  profile: '720p_3',
+  resolution: {
+    width: 1280,
+    height: 720
+  },
+  frameRate: {
+    min: 15,
+    max: 30
+  },
+  bitrate: {
+    min: 1130,
+    max: 1710
+  }
+}, {
+  // id: 5,
+  // name: 'LOWEST 240p 320x240',
+  profile: '240p_1',
+  resolution: {
+    width: 320,
+    height: 240
+  },
+  frameRate: {
+    min: 15,
+    max: 15
+  },
+  bitrate: {
+    min: 140,
+    max: 200
+  }
+}];
+function getStreamQuality(state) {
+  var lowestQuality = StreamQualities[StreamQualities.length - 1];
+  var highestQuality = environment.flags.maxQuality ? StreamQualities[0] : StreamQualities[StreamQualities.length - 2];
+  return state.role === RoleType.Publisher || state.role === RoleType.SmartDevice ? highestQuality : lowestQuality;
+}
+var AgoraStatus = {
+  Idle: 'idle',
+  Checklist: 'checklist',
+  Link: 'link',
+  Login: 'login',
+  Name: 'name',
+  Device: 'device',
+  ShouldConnect: 'should-connect',
+  Connecting: 'connecting',
+  Connected: 'connected',
+  Disconnected: 'disconnected'
+};
+var MessageType = {
+  AgoraEvent: 'agoraEvent',
+  Ping: 'ping',
+  RequestControl: 'requestControl',
+  RequestControlAccepted: 'requestControlAccepted',
+  RequestControlRejected: 'requestControlRejected',
+  RequestControlDismiss: 'requestControlDismiss',
+  RequestControlDismissed: 'requestControlDismissed',
+  RequestPeerInfo: 'requestPeerInfo',
+  RequestPeerInfoResult: 'requestPeerInfoResult',
+  RequestInfo: 'requestInfo',
+  RequestInfoResult: 'requestInfoResult',
+  RequestInfoDismiss: 'requestInfoDismiss',
+  RequestInfoDismissed: 'requestInfoDismissed',
+  RequestInfoRejected: 'requestInfoRejected',
+  SlideChange: 'slideChange',
+  ControlInfo: 'controlInfo',
+  AddLike: 'addLike',
+  ShowPanel: 'showPanel',
+  PlayMedia: 'playMedia',
+  NavToView: 'navToView',
+  NavToGrid: 'navToGrid',
+  VRStarted: 'vrStarted',
+  VREnded: 'vrEnded',
+  VRState: 'vrState',
+  MenuToggle: 'menuToggle',
+  ChatMessage: 'chatMessage',
+  ChatTypingBegin: 'chatTypingBegin',
+  ChatTypingEnd: 'chatTypingEnd'
+};
+var AgoraEvent = function AgoraEvent(options) {
+  Object.assign(this, options);
+};
+var AgoraPeerEvent = /*#__PURE__*/function (_AgoraEvent) {
+  _inheritsLoose(AgoraPeerEvent, _AgoraEvent);
+
+  function AgoraPeerEvent() {
+    return _AgoraEvent.apply(this, arguments) || this;
+  }
+
+  return AgoraPeerEvent;
+}(AgoraEvent);
+var AgoraRemoteEvent = /*#__PURE__*/function (_AgoraEvent2) {
+  _inheritsLoose(AgoraRemoteEvent, _AgoraEvent2);
+
+  function AgoraRemoteEvent() {
+    return _AgoraEvent2.apply(this, arguments) || this;
+  }
+
+  return AgoraRemoteEvent;
+}(AgoraEvent);
+var AgoraMuteVideoEvent = /*#__PURE__*/function (_AgoraEvent3) {
+  _inheritsLoose(AgoraMuteVideoEvent, _AgoraEvent3);
+
+  function AgoraMuteVideoEvent() {
+    return _AgoraEvent3.apply(this, arguments) || this;
+  }
+
+  return AgoraMuteVideoEvent;
+}(AgoraEvent);
+var AgoraUnmuteVideoEvent = /*#__PURE__*/function (_AgoraEvent4) {
+  _inheritsLoose(AgoraUnmuteVideoEvent, _AgoraEvent4);
+
+  function AgoraUnmuteVideoEvent() {
+    return _AgoraEvent4.apply(this, arguments) || this;
+  }
+
+  return AgoraUnmuteVideoEvent;
+}(AgoraEvent);
+var AgoraMuteAudioEvent = /*#__PURE__*/function (_AgoraEvent5) {
+  _inheritsLoose(AgoraMuteAudioEvent, _AgoraEvent5);
+
+  function AgoraMuteAudioEvent() {
+    return _AgoraEvent5.apply(this, arguments) || this;
+  }
+
+  return AgoraMuteAudioEvent;
+}(AgoraEvent);
+var AgoraUnmuteAudioEvent = /*#__PURE__*/function (_AgoraEvent6) {
+  _inheritsLoose(AgoraUnmuteAudioEvent, _AgoraEvent6);
+
+  function AgoraUnmuteAudioEvent() {
+    return _AgoraEvent6.apply(this, arguments) || this;
+  }
+
+  return AgoraUnmuteAudioEvent;
+}(AgoraEvent);
+var AgoraVolumeLevelsEvent = /*#__PURE__*/function (_AgoraEvent7) {
+  _inheritsLoose(AgoraVolumeLevelsEvent, _AgoraEvent7);
+
+  function AgoraVolumeLevelsEvent() {
+    return _AgoraEvent7.apply(this, arguments) || this;
+  }
+
+  return AgoraVolumeLevelsEvent;
+}(AgoraEvent);var AgoraService = /*#__PURE__*/function (_Emittable) {
   _inheritsLoose(AgoraService, _Emittable);
 
   AgoraService.getSingleton = function getSingleton(defaultDevices) {
@@ -2330,7 +2009,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   	if (!name) {
   		return AgoraStatus.Name;
   	}
-  	if (role !== RoleType.Viewer) {
+  	if (role !== RoleType.Viewer && role !== RoleType.SmartDevice) {
   		return AgoraStatus.Device;
   	}
   	return AgoraStatus.ShouldConnect;
@@ -2383,7 +2062,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     inputs.audios = defaultAudios.slice();
     return rxjs.from(new Promise(function (resolve, reject) {
       var getDevices = function getDevices() {
-        AgoraRTC.getDevices(function (devices) {
+        AgoraService.getDevices().then(function (devices) {
           // console.log('AgoraRTC.getDevices', devices);
           tempStream.close();
 
@@ -2412,7 +2091,38 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
           } else {
             reject(inputs);
           }
+        }).catch(function (error) {
+          reject(error);
         });
+        /*
+        AgoraRTC.getDevices((devices) => {
+        	// console.log('AgoraRTC.getDevices', devices);
+        	tempStream.close();
+        	for (let i = 0; i < devices.length; i++) {
+        		const device = devices[i];
+        		// console.log('device', device.deviceId);
+        		if (device.kind === 'videoinput' && device.deviceId) {
+        			inputs.videos.push({
+        				label: device.label || 'camera-' + inputs.videos.length,
+        				deviceId: device.deviceId,
+        				kind: device.kind
+        			});
+        		}
+        		if (device.kind === 'audioinput' && device.deviceId) {
+        			inputs.audios.push({
+        				label: device.label || 'microphone-' + inputs.audios.length,
+        				deviceId: device.deviceId,
+        				kind: device.kind
+        			});
+        		}
+        	}
+        	if (inputs.videos.length > 0 || inputs.audios.length > 0) {
+        		resolve(inputs);
+        	} else {
+        		reject(inputs);
+        	}
+        });
+        */
       };
 
       var tempStream = AgoraRTC.createStream({
@@ -2448,7 +2158,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         _this2.createClient(function () {
           var channelNameLink = _this2.getChannelNameLink();
 
-          _this2.rtcToken$(channelNameLink).subscribe(function (token) {
+          AgoraService.rtcToken$(channelNameLink).subscribe(function (token) {
             // console.log('AgoraService.rtcToken$', token);
             _this2.join(token.token, channelNameLink);
           });
@@ -2483,31 +2193,6 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       this.membersCountSubscription = null;
       StateService.patchState({
         membersCount: 0
-      });
-    }
-  };
-
-  _proto.rtcToken$ = function rtcToken$(channelNameLink) {
-    if (environment.flags.useToken) {
-      return HttpService.post$('/api/token/rtc', {
-        channelName: channelNameLink,
-        uid: null
-      });
-    } else {
-      return rxjs.of({
-        token: null
-      });
-    }
-  };
-
-  _proto.rtmToken$ = function rtmToken$(uid) {
-    if (environment.flags.useToken) {
-      return HttpService.post$('/api/token/rtm', {
-        uid: uid
-      });
-    } else {
-      return rxjs.of({
-        token: null
       });
     }
   };
@@ -2603,12 +2288,27 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     return channelNameLink;
   };
 
+  AgoraService.getUniqueUserId = function getUniqueUserId() {
+    var mult = 10000000000000;
+    var a = (1 + Math.floor(Math.random() * 8)) * 100;
+    var b = (1 + Math.floor(Math.random() * 8)) * 10;
+    var c = (1 + Math.floor(Math.random() * 8)) * 1;
+    var combo = a + b + c;
+    var date = Date.now();
+    var uid = combo * mult + date; // console.log(combo);
+    // console.log(date);
+    // console.log(m);
+    // console.log('AgoraService.getUniqueUserId', uid);
+
+    return uid.toString();
+  };
+
   _proto.join = function join(token, channelNameLink) {
     var _this4 = this;
 
     this.channel = null;
     var client = this.client;
-    var clientId = null; // console.log('AgoraService.join', { token, channelNameLink, clientId });
+    var clientId = SessionStorageService.get('bHereClientId') || AgoraService.getUniqueUserId(); // console.log('AgoraService.join', { token, channelNameLink, clientId });
 
     client.join(token, channelNameLink, clientId, function (uid) {
       // console.log('AgoraService.join', uid);
@@ -2618,16 +2318,17 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         connected: true,
         uid: uid
       });
+      SessionStorageService.set('bHereClientId', uid);
 
       {
-        _this4.rtmToken$(uid).subscribe(function (token) {
+        AgoraService.rtmToken$(uid).subscribe(function (token) {
           // console.log('AgoraService.rtmToken$', token);
           _this4.joinMessageChannel(token.token, uid).then(function (success) {
             // console.log('joinMessageChannel.success', success);
             if (StateService.state.role !== RoleType.Viewer) {
-              _this4.autoDetectDevice();
-
-              _this4.createMediaStream(uid, StateService.state.devices.video, StateService.state.devices.audio);
+              _this4.autoDetectDevice().then(function (devices) {
+                _this4.createMediaStream(uid, devices.video, devices.audio);
+              });
             }
 
             _this4.observeMemberCount();
@@ -2640,7 +2341,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       console.log('AgoraService.join.error', error);
 
       if (error === 'DYNAMIC_KEY_EXPIRED') {
-        _this4.rtcToken$(channelNameLink).subscribe(function (token) {
+        AgoraService.rtcToken$(channelNameLink).subscribe(function (token) {
           _this4.join(token.token, channelNameLink);
         });
       }
@@ -2661,8 +2362,8 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         channel = messageClient.createChannel(StateService.state.channelNameLink);
         return channel.join();
       }).then(function () {
-        channel.on('ChannelMessage', _this5.onMessage);
         _this5.channel = channel;
+        channel.on('ChannelMessage', _this5.onMessage);
 
         _this5.emit('channel', channel); // console.log('AgoraService.joinMessageChannel.success');
 
@@ -2673,7 +2374,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.detectDevices = function detectDevices(next) {
-    AgoraRTC.getDevices(function (devices) {
+    AgoraService.getDevices().then(function (devices) {
       var videos = [];
       var audios = [];
 
@@ -2701,6 +2402,8 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         videos: videos,
         audios: audios
       });
+    }).catch(function (error) {
+      console.log('AgoraService.detectDevices', error);
     });
   };
 
@@ -2813,6 +2516,38 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   };
 
   _proto.autoDetectDevice = function autoDetectDevice() {
+    return new Promise(function (resolve, reject) {
+      var state = StateService.state;
+
+      if (state.role === RoleType.SmartDevice || USE_AUTODETECT) {
+        AgoraService.getDevices().then(function (inputDevices) {
+          var devices = {
+            videos: [],
+            audios: [],
+            video: null,
+            audio: null
+          };
+          inputDevices.forEach(function (x) {
+            if (x.kind === 'videoinput') {
+              devices.videos.push(x);
+            } else if (x.kind === 'audioinput') {
+              devices.audios.push(x);
+            }
+          }); // console.log(devices);
+
+          devices.video = devices.videos[0] || null;
+          devices.audio = devices.audios[0] || null;
+          StateService.patchState({
+            devices: devices
+          });
+          resolve(devices);
+        }).catch(function (error) {
+          reject(error);
+        });
+      } else {
+        resolve(state.devices);
+      }
+    });
   };
 
   _proto.createMediaStream = function createMediaStream(uid, video, audio) {
@@ -3343,6 +3078,56 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     });
   };
 
+  _proto.addOrUpdateChannelAttributes = function addOrUpdateChannelAttributes(messages) {
+    var messageClient = this.messageClient;
+
+    if (messageClient) {
+      var attributes = {};
+      messages.forEach(function (message) {
+        var key = message.date.toString();
+        attributes[key] = JSON.stringify(message);
+      });
+
+      if (Object.keys(attributes).length) {
+        // console.log('AgoraService.setChannelAttributes', attributes);
+        var promise = messageClient.addOrUpdateChannelAttributes(StateService.state.channelNameLink, attributes, {
+          enableNotificationToChannelMembers: false
+        });
+        return rxjs.from(promise);
+      } else {
+        return rxjs.of(null);
+      }
+    } else {
+      return rxjs.of(null);
+    }
+  };
+
+  _proto.getChannelAttributes = function getChannelAttributes() {
+    var messageClient = this.messageClient;
+
+    if (messageClient) {
+      var promise = messageClient.getChannelAttributes(StateService.state.channelNameLink);
+      return rxjs.from(promise).pipe(operators.map(function (attributes) {
+        return Object.keys(attributes).map(function (key) {
+          return attributes[key];
+        });
+      }), operators.map(function (attributes) {
+        attributes.sort(function (a, b) {
+          return a.lastUpdateTs - b.lastUpdateTs;
+        });
+        var messages = attributes.map(function (attribute) {
+          var message = JSON.parse(attribute.value); // console.log('AgoraService.getChannelAttributes.attribute', attribute, message);
+
+          return message;
+        }); // console.log('AgoraService.getChannelAttributes', messages);
+
+        return messages;
+      }));
+    } else {
+      return rxjs.of(null);
+    }
+  };
+
   _proto.checkBroadcastMessage = function checkBroadcastMessage(message) {
     // filter for broadcast
     // !!! filter events here
@@ -3469,10 +3254,9 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
       return;
     }
 
-    var streamId = stream.getId();
+    var streamId = stream.getId(); // console.log('AgoraService.onStreamAdded', streamId, StateService.state.uid, StateService.state.screenUid);
 
     if (streamId !== StateService.state.uid && streamId !== StateService.state.screenUid) {
-      // console.log('AgoraService.onStreamAdded', streamId, StateService.state.uid, StateService.state.screenUid);
       client.subscribe(stream, function (error) {
         console.log('AgoraService.onStreamAdded.subscribe.error', error);
       });
@@ -3627,7 +3411,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     console.log('AgoraService.onTokenPrivilegeWillExpire');
     var client = this.client;
     var channelNameLink = this.getChannelNameLink();
-    this.rtcToken$(channelNameLink).subscribe(function (token) {
+    AgoraService.rtcToken$(channelNameLink).subscribe(function (token) {
       if (token.token) {
         client.renewToken(token.token);
         console.log('AgoraService.onTokenPrivilegeWillExpire.renewed');
@@ -3639,7 +3423,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     console.log('AgoraService.onTokenPrivilegeDidExpire');
     var client = this.client;
     var channelNameLink = this.getChannelNameLink();
-    this.rtcToken$(channelNameLink).subscribe(function (token) {
+    AgoraService.rtcToken$(channelNameLink).subscribe(function (token) {
       if (token.token) {
         client.renewToken(token.token);
         console.log('AgoraService.onTokenPrivilegeDidExpire.renewed');
@@ -3662,7 +3446,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         this.createScreenClient(function () {
           var channelNameLink = _this21.getChannelNameLink();
 
-          _this21.rtcToken$(channelNameLink).subscribe(function (token) {
+          AgoraService.rtcToken$(channelNameLink).subscribe(function (token) {
             // console.log('AgoraService.rtcToken$', token);
             _this21.screenJoin(token.token, channelNameLink);
           });
@@ -3716,20 +3500,21 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
     var _this23 = this;
 
     var screenClient = this.screenClient;
-    var screenClientId = null; // console.log('AgoraService.join', { token, channelNameLink, screenClientId });
+    var screenClientId = AgoraService.getUniqueUserId(); // const screenClientId = SessionStorageService.get('bHereClientId') || AgoraService.getUniqueUserId();
+    // console.log('AgoraService.screenJoin', { token, channelNameLink, screenClientId });
 
-    screenClient.join(token, channelNameLink, screenClientId, function (uid) {
-      // console.log('AgoraService.join', uid);
+    screenClient.join(token, channelNameLink, screenClientId, function (screenUid) {
+      // console.log('AgoraService.join', screenUid);
       StateService.patchState({
-        screenUid: uid
+        screenUid: screenUid
       });
 
-      _this23.createScreenStream(uid);
+      _this23.createScreenStream(screenUid);
     }, function (error) {
       console.log('AgoraService.screenJoin.error', error);
 
       if (error === 'DYNAMIC_KEY_EXPIRED') {
-        _this23.rtcToken$(channelNameLink).subscribe(function (token) {
+        AgoraService.rtcToken$(channelNameLink).subscribe(function (token) {
           _this23.screenJoin(token.token, channelNameLink);
         });
       }
@@ -3848,10 +3633,1517 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   _proto.onScreenStreamUnpublished = function onScreenStreamUnpublished(event) {
     // console.log('AgoraService.onScreenStreamUnpublished');
     StreamService.screen = null;
+  } // tokens
+  ;
+
+  AgoraService.rtcToken$ = function rtcToken$(channelNameLink) {
+    if (environment.flags.useToken) {
+      return HttpService.post$('/api/token/rtc', {
+        channelName: channelNameLink,
+        uid: null
+      });
+    } else {
+      return rxjs.of({
+        token: null
+      });
+    }
+  };
+
+  AgoraService.rtmToken$ = function rtmToken$(uid) {
+    if (environment.flags.useToken) {
+      return HttpService.post$('/api/token/rtm', {
+        uid: uid
+      });
+    } else {
+      return rxjs.of({
+        token: null
+      });
+    }
+  } // checks
+  ;
+
+  AgoraService.checkRtcConnection = function checkRtcConnection() {
+    return new Promise(function (resolve, reject) {
+      var client = AgoraRTC.createClient({
+        mode: 'live',
+        codec: 'h264'
+      });
+
+      if (environment.flags.useProxy) {
+        client.startProxyServer(3);
+      }
+
+      client.init(environment.appKey, function () {
+        AgoraService.checkRtcTryJoin(client).then(function (uid) {
+          resolve(uid);
+        }).catch(function (error) {
+          reject(error);
+        }).finally(function () {
+          // clear
+          client.leave(function () {
+            if (environment.flags.useProxy) {
+              client.stopProxyServer();
+            }
+          }, function () {});
+        });
+      }, function (error) {
+        reject(error);
+      });
+    });
+  };
+
+  AgoraService.checkRtcTryJoin = function checkRtcTryJoin(client) {
+    return new Promise(function (resolve, reject) {
+      var channelName = 'checkRtcConnection';
+      AgoraService.rtcToken$(channelName).subscribe(function (token) {
+        client.join(token.token, channelName, null, function (uid) {
+          // this.createMediaStream(uid, StateService.state.devices.video, StateService.state.devices.audio);
+          resolve(uid);
+        }, function (error) {
+          if (error === 'DYNAMIC_KEY_EXPIRED') {
+            return AgoraService.checkRtcTryJoin(client);
+          } else {
+            console.log('AgoraService.checkRtcConnection.error', error);
+            reject(error);
+          }
+        });
+      });
+    });
+  };
+
+  AgoraService.checkRtmConnection = function checkRtmConnection(uid) {
+    return new Promise(function (resolve, reject) {
+
+      var client = AgoraRTM.createInstance(environment.appKey, {
+        logFilter: AgoraRTM.LOG_FILTER_OFF
+      });
+      client.setParameters({
+        logFilter: AgoraRTM.LOG_FILTER_OFF
+      });
+      var channel;
+      AgoraService.rtmToken$(uid).subscribe(function (token) {
+        // console.log('AgoraService.rtmToken$', token);
+        var channelName = 'checkRtcConnection';
+        client.login({
+          token: token.token,
+          uid: uid.toString()
+        }).then(function () {
+          channel = client.createChannel(channelName);
+          channel.join().then(function () {
+            resolve(uid);
+            channel.leave();
+          }).catch(function (error) {
+            reject(error);
+          }).finally(function () {
+            // clear
+            channel.leave().then(function () {
+              channel = null;
+              client.logout().then(function () {
+                client = null;
+              }).catch(function () {});
+            }).catch(function () {});
+          });
+        }).catch(function (error) {
+          reject(error);
+        }).finally(function () {
+          // clear
+          if (client) {
+            client.logout().then(function () {
+              client = null;
+            }).catch(function () {});
+          }
+        });
+      });
+    });
+  };
+
+  AgoraService.getDevices = function getDevices() {
+    return new Promise(function (resolve, reject) {
+      var devices_ = AgoraService.devices_;
+
+      if (devices_) {
+        resolve(devices_);
+      } else {
+        devices_ = AgoraService.devices_ = [];
+        var constraints = {
+          audio: true,
+          video: true
+        };
+
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+          navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
+            navigator.mediaDevices.enumerateDevices().then(function (devices) {
+              stream.getTracks().forEach(function (track) {
+                track.stop();
+              });
+              devices.forEach(function (device) {
+                devices_.push(device);
+              });
+              resolve(devices_);
+            }).catch(function (error) {
+              reject(error);
+            });
+          }).catch(function (error) {
+            reject(error);
+          });
+        } else {
+          reject('Media device not available');
+        }
+      }
+    });
   };
 
   return AgoraService;
-}(Emittable);var AgoraDeviceComponent = /*#__PURE__*/function (_Component) {
+}(Emittable);var ChatMessage = /*#__PURE__*/function () {
+  function ChatMessage(message, clientId, name) {
+    this.type = MessageType.ChatMessage;
+    this.clientId_ = clientId;
+
+    if (typeof message === 'string') {
+      this.date = Date.now();
+      this.clientId = clientId;
+      this.name = name;
+      this.message = message;
+    } else if (typeof message === 'object') {
+      this.date = message.date;
+      this.clientId = message.clientId;
+      this.name = message.name;
+      this.message = message.message;
+    }
+
+    var names = this.name.split(' ');
+    this.shortName = names[0].substr(0, 1).toUpperCase() + (names.length > 1 ? names[1] : names[0]).substr(0, 1).toUpperCase();
+  }
+
+  var _proto = ChatMessage.prototype;
+
+  _proto.getPayload = function getPayload() {
+    return {
+      date: this.date,
+      clientId: this.clientId,
+      name: this.name,
+      message: this.message
+    };
+  };
+
+  _proto.getCopy = function getCopy() {
+    return new ChatMessage({
+      date: this.date,
+      clientId: this.clientId,
+      name: this.name,
+      message: this.message
+    }, this.clientId_);
+  };
+
+  _createClass(ChatMessage, [{
+    key: "me",
+    get: function get() {
+      return this.clientId === this.clientId_;
+    }
+  }]);
+
+  return ChatMessage;
+}();
+
+var AgoraChatComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(AgoraChatComponent, _Component);
+
+  function AgoraChatComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  var _proto2 = AgoraChatComponent.prototype;
+
+  _proto2.onInit = function onInit() {
+    var _this = this;
+
+    var form = this.form = new rxcompForm.FormGroup({
+      message: null
+    });
+    var controls = this.controls = form.controls;
+    form.changes$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (changes) {
+      // console.log('AgoraChatComponent.changes$', form.value);
+      _this.checkTypings(changes);
+
+      _this.pushChanges();
+    });
+    StateService.state$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (state) {// console.log('AgoraChatComponent.state', state);
+    });
+    MessageService.out$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (message) {
+      // console.log('AgoraChatComponent.MessageService', message);
+      switch (message.type) {
+        case MessageType.ChatMessage:
+          _this.pushMessage(new ChatMessage(message, StateService.state.uid, StateService.state.name));
+
+          break;
+
+        case MessageType.ChatTypingBegin:
+          _this.typingBegin(message);
+
+          break;
+
+        case MessageType.ChatTypingEnd:
+          _this.typingEnd(message);
+
+          break;
+      }
+    });
+    this.messages = [];
+    this.groupedMessages = [];
+
+    if (this.demo) {
+      // !!! only for demo
+      var messages = AgoraChatComponent.getFakeList().map(function (x) {
+        return new ChatMessage(x, StateService.state.uid, StateService.state.name);
+      });
+      this.updateMessages(messages);
+      MessageService.in$.pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (message) {
+        message.clientId = message.clientId || StateService.state.uid; // console.log('AgoraChatComponent.MessageService.in$', message);
+
+        switch (message.type) {
+          case MessageType.ChatMessage:
+            break;
+
+          case MessageType.ChatTypingBegin:
+            MessageService.out(message);
+            break;
+
+          case MessageType.ChatTypingEnd:
+            MessageService.out(message);
+            break;
+        }
+      }); // !!! only for demo
+    } else {
+      var agora = this.agora = AgoraService.getSingleton();
+
+      if (agora) {
+        agora.getChannelAttributes().pipe(operators.first()).subscribe(function (messages) {
+          messages = messages.map(function (x) {
+            return new ChatMessage(x, StateService.state.uid, StateService.state.name);
+          }); // console.log('AgoraChatComponent.getChannelAttributes.messages', messages);
+
+          _this.updateMessages(messages);
+        });
+      }
+    }
+  };
+
+  _proto2.onView = function onView() {// this.scrollToBottom();
+  };
+
+  _proto2.onChanges = function onChanges() {// this.scrollToBottom();
+  };
+
+  _proto2.onSubmit = function onSubmit() {
+    var message = this.createMessage(this.form.value.message);
+    this.sendMessage(message);
+    this.form.get('message').value = null;
+
+    if (this.demo) {
+      this.randomMessage();
+    }
+  };
+
+  _proto2.createMessage = function createMessage(text) {
+    var message = new ChatMessage(text, StateService.state.uid, StateService.state.name);
+    return message;
+  };
+
+  _proto2.sendMessage = function sendMessage(message) {
+    this.pushMessage(message);
+    var agora = this.agora;
+
+    if (agora) {
+      agora.addOrUpdateChannelAttributes([message.getPayload()]).pipe(operators.first()).subscribe();
+    }
+
+    MessageService.send(message);
+  };
+
+  _proto2.onClose = function onClose(event) {
+    this.close.next();
+  };
+
+  _proto2.scrollToBottom = function scrollToBottom() {
+    var _getContext = rxcomp.getContext(this),
+        node = _getContext.node;
+
+    var scrollView = node.querySelector('.group--scrollview');
+    scrollView.scrollTop = scrollView.scrollHeight;
+  };
+
+  _proto2.pushMessage = function pushMessage(message) {
+    var messages = this.messages ? this.messages.slice() : [];
+    this.removeTyping({
+      type: MessageType.ChatTypingBegin,
+      clientId: message.clientId
+    }, this.messages);
+    messages.push(message);
+    this.updateMessages(messages);
+  };
+
+  _proto2.typingBegin = function typingBegin(message) {
+    // console.log('AgoraChatComponent.typingBegin', message);
+    var messages = this.messages ? this.messages.slice() : [];
+    messages.push(message);
+    this.updateMessages(messages);
+  };
+
+  _proto2.typingEnd = function typingEnd(message) {
+    // console.log('AgoraChatComponent.typingEnd', message);
+    var messages = this.messages ? this.messages.slice() : [];
+    this.removeTyping({
+      type: MessageType.ChatTypingBegin,
+      clientId: message.clientId
+    }, messages);
+    this.updateMessages(messages);
+  };
+
+  _proto2.removeTyping = function removeTyping(message, messages, recursive) {
+    if (recursive === void 0) {
+      recursive = true;
+    }
+
+    var index = messages.reduce(function (p, c, i) {
+      return c.type === message.type && c.clientId === message.clientId ? i : p;
+    }, -1);
+
+    if (index !== -1) {
+      messages.splice(index, 1);
+
+      if (recursive === true) {
+        this.removeTyping(message, messages, true);
+      }
+    }
+
+    return index;
+  };
+
+  _proto2.checkTypings = function checkTypings(changes) {
+    var typings = changes.message && changes.message.length > 0; // console.log('AgoraChatComponent.checkTypings', typings);
+
+    if (this.typings_ !== typings) {
+      this.typings_ = typings;
+
+      if (typings) {
+        MessageService.send({
+          type: MessageType.ChatTypingBegin
+        });
+      } else {
+        MessageService.send({
+          type: MessageType.ChatTypingEnd
+        });
+      }
+    }
+  };
+
+  _proto2.updateMessages = function updateMessages(messages) {
+    var _this2 = this;
+
+    this.messages = messages;
+
+    {
+      this.groupedMessages = [];
+      this.pushChanges();
+    }
+
+    var groupedMessages = [];
+    messages.forEach(function (message) {
+      if (message.type === MessageType.ChatMessage) {
+        // ChatMessage
+        var lastMessage = groupedMessages.length ? groupedMessages[groupedMessages.length - 1] : null;
+
+        if (lastMessage && lastMessage.clientId === message.clientId) {
+          lastMessage.message += "<br />" + message.message;
+        } else {
+          groupedMessages.push(message.getCopy());
+        }
+      } else if (message.type === MessageType.ChatTypingBegin) {
+        // ChatTypingBegin
+        var _lastMessage = groupedMessages.reduce(function (p, c, i) {
+          return c.clientId === message.clientId ? c : p;
+        }, null);
+
+        if (_lastMessage) {
+          _lastMessage.typing = true;
+        } // console.log('MessageType.ChatTypingBegin', lastMessage, message);
+
+      }
+    });
+    setTimeout(function () {
+      _this2.groupedMessages = groupedMessages;
+
+      _this2.pushChanges(); // console.log('AgoraChatComponent.updateMessages', messages, groupedMessages);
+
+
+      setTimeout(function () {
+        _this2.scrollToBottom();
+      }, 1);
+    }, 1);
+  };
+
+  _proto2.isValid = function isValid() {
+    var isValid = this.form.valid;
+    return isValid && this.form.value.message && this.form.value.message.length > 0;
+  } // demo
+  ;
+
+  _proto2.randomMessage = function randomMessage() {
+    var _this3 = this;
+
+    setTimeout(function () {
+      var message = _this3.createRandomMessage();
+
+      _this3.sendMessage(message);
+    }, (1 + Math.random() * 5) * 1000);
+  };
+
+  _proto2.createRandomMessage = function createRandomMessage(text) {
+    var message = new ChatMessage({
+      date: Date.now(),
+      clientId: '9fe0e1b9-6a6b-418b-b916-4bbff3eeb123',
+      name: 'Herman frederick',
+      message: 'Lorem ipsum dolor'
+    }, StateService.state.uid, StateService.state.name);
+    return message;
+  };
+
+  return AgoraChatComponent;
+}(rxcomp.Component);
+AgoraChatComponent.meta = {
+  selector: '[agora-chat]',
+  outputs: ['close'],
+  inputs: ['demo']
+};
+
+AgoraChatComponent.getFakeList = function () {
+  var messages = [{
+    "date": 1614592230000,
+    "name": "Jhon Appleseed",
+    "message": "Function-based web-enabled benchmark",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592240000,
+    "name": "Jhon Appleseed",
+    "message": "Customizable exuding superstructure",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592250000,
+    "name": "Gilles Pitkins",
+    "message": "Synergistic interactive archive",
+    "clientId": "cfe9ff5b-f7da-449d-bf5a-3184b5eba6ea"
+  }, {
+    "date": 1614592260000,
+    "name": "Jhon Appleseed",
+    "message": "Digitized client-server initiative",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592270000,
+    "name": "Jhon Appleseed",
+    "message": "Quality-focused tertiary open system",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592280000,
+    "name": "Jhon Appleseed",
+    "message": "Exclusive uniform middleware",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592290000,
+    "name": "John Pruckner",
+    "message": "Decentralized disintermediate extranet",
+    "clientId": "ae51e846-d043-41e9-bb5c-3189181e5b43"
+  }, {
+    "date": 1614592300000,
+    "name": "Lamont Georgievski",
+    "message": "Enhanced static approach",
+    "clientId": "1961cd9e-93aa-4bd0-b96a-89fcbd36b257"
+  }, {
+    "date": 1614592310000,
+    "name": "Jhon Appleseed",
+    "message": "Ergonomic clear-thinking info-mediaries",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592320000,
+    "name": "Jeri Pedroni",
+    "message": "Grass-roots dynamic encryption",
+    "clientId": "13d69bba-3656-449b-8fe3-d7a87062b044"
+  }, {
+    "date": 1614592330000,
+    "name": "Frederik Dechelle",
+    "message": "Compatible disintermediate policy",
+    "clientId": "9151ebe0-efa8-40b4-a341-b8fd489e9c88"
+  }, {
+    "date": 1614592340000,
+    "name": "Jhon Appleseed",
+    "message": "Inverse user-facing adapter",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592350000,
+    "name": "Jhon Appleseed",
+    "message": "Future-proofed even-keeled application",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592360000,
+    "name": "Cassie Jonathon",
+    "message": "Profit-focused content-based budgetary management",
+    "clientId": "5b3dc6f3-2a3d-493d-aac5-66ddfce2d709"
+  }, {
+    "date": 1614592370000,
+    "name": "Jhon Appleseed",
+    "message": "Managed intermediate monitoring",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592380000,
+    "name": "Jhon Appleseed",
+    "message": "Exclusive client-server encoding",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592390000,
+    "name": "Jhon Appleseed",
+    "message": "Cross-group system-worthy matrices",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592400000,
+    "name": "Jhon Appleseed",
+    "message": "Upgradable encompassing benchmark",
+    "clientId": "7341614597544882"
+  }, {
+    "date": 1614592410000,
+    "name": "Emelen Beevors",
+    "message": "Function-based full-range knowledge base",
+    "clientId": "c93aea47-ebd8-4e5e-88fd-52053dd35cd1"
+  }, {
+    "date": 1614592420000,
+    "name": "Jhon Appleseed",
+    "message": "Synergistic system-worthy capability",
+    "clientId": "7341614597544882"
+  }];
+
+  while (messages.length < 100) {
+    messages = messages.concat(messages);
+  } // return messages;
+
+
+  return messages.slice(0, 5);
+};var AgoraCheckComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(AgoraCheckComponent, _Component);
+
+  function AgoraCheckComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  return AgoraCheckComponent;
+}(rxcomp.Component);
+AgoraCheckComponent.meta = {
+  selector: '[agora-check]',
+  inputs: ['value'],
+  template:
+  /* html */
+  "\n\t\t<svg *if=\"value == null\" class=\"checkmark idle\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t<circle class=\"checkmark__circle\" cx=\"26\" cy=\"26\" r=\"25\" fill=\"none\"/>\n\t\t</svg>\n\t\t<svg *if=\"value === true\" class=\"checkmark success\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t<circle class=\"checkmark__circle\" cx=\"26\" cy=\"26\" r=\"25\" fill=\"none\"/>\n\t\t\t<path class=\"checkmark__icon\" fill=\"none\" d=\"M14.1 27.2l7.1 7.2 16.7-16.8\" stroke-linecap=\"round\"/>\n\t\t</svg>\n\t\t<svg *if=\"value === false\" class=\"checkmark error\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t<circle class=\"checkmark__circle\" cx=\"26\" cy=\"26\" r=\"25\" fill=\"none\"/>\n\t\t\t<path class=\"checkmark__icon\" stroke-linecap=\"round\" fill=\"none\" d=\"M16 16 36 36 M36 16 16 36\"/>\n\t\t</svg>\n\t"
+};var DevicePlatform = {
+  Unknown: 'unknown',
+  IOS: 'ios',
+  Android: 'android',
+  WindowsPhone: 'windowsPhone',
+  VRHeadset: 'vrHeadset'
+};
+var DeviceService = /*#__PURE__*/function () {
+  function DeviceService() {}
+
+  DeviceService.getDevicePlatform = function getDevicePlatform() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera; // Windows Phone must come first because its UA also contains 'Android'
+
+    if (/windows phone/i.test(userAgent)) {
+      return DevicePlatform.WindowsPhone;
+    }
+
+    if (/android/i.test(userAgent)) {
+      return DevicePlatform.Android;
+    } // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    // if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+
+
+    if (this.isIOS) {
+      return DevicePlatform.IOS;
+    }
+
+    if (this.isVRHeadset) {
+      return DevicePlatform.VRHeadset;
+    }
+
+    return DevicePlatform.Unknown;
+  };
+
+  _createClass(DeviceService, null, [{
+    key: "platform",
+    get: function get() {
+      if (!this.platform_) {
+        this.platform_ = this.getDevicePlatform();
+      }
+
+      return this.platform_;
+    }
+  }, {
+    key: "isIOS",
+    get: function get() {
+      return ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) !== -1 // iPad on iOS 13 detection
+      || navigator.userAgent.indexOf('Mac') !== -1 && 'ontouchend' in document;
+    }
+  }, {
+    key: "isVRHeadset",
+    get: function get() {
+      return navigator.userAgent.indexOf('VR') !== -1 || navigator.userAgent.indexOf('Quest') !== -1 || navigator.userAgent.indexOf('Oculus') !== -1;
+    }
+  }]);
+
+  return DeviceService;
+}();var LocalStorageService = /*#__PURE__*/function () {
+  function LocalStorageService() {}
+
+  LocalStorageService.delete = function _delete(name) {
+    if (this.isLocalStorageSupported()) {
+      window.localStorage.removeItem(name);
+    }
+  };
+
+  LocalStorageService.exist = function exist(name) {
+    if (this.isLocalStorageSupported()) {
+      return window.localStorage[name] !== undefined;
+    }
+  };
+
+  LocalStorageService.get = function get(name) {
+    var value = null;
+
+    if (this.isLocalStorageSupported() && window.localStorage[name] !== undefined) {
+      try {
+        value = JSON.parse(window.localStorage[name]);
+      } catch (e) {
+        console.log('LocalStorageService.get.error parsing', name, e);
+      }
+    }
+
+    return value;
+  };
+
+  LocalStorageService.set = function set(name, value) {
+    if (this.isLocalStorageSupported()) {
+      try {
+        var cache = [];
+        var json = JSON.stringify(value, function (key, value) {
+          if (typeof value === 'object' && value !== null) {
+            if (cache.indexOf(value) !== -1) {
+              // Circular reference found, discard key
+              return;
+            }
+
+            cache.push(value);
+          }
+
+          return value;
+        });
+        window.localStorage.setItem(name, json);
+      } catch (e) {
+        console.log('LocalStorageService.set.error serializing', name, value, e);
+      }
+    }
+  };
+
+  LocalStorageService.isLocalStorageSupported = function isLocalStorageSupported() {
+    if (this.supported) {
+      return true;
+    }
+
+    var supported = false;
+
+    try {
+      supported = 'localStorage' in window && window.localStorage !== null;
+
+      if (supported) {
+        window.localStorage.setItem('test', '1');
+        window.localStorage.removeItem('test');
+      } else {
+        supported = false;
+      }
+    } catch (e) {
+      supported = false;
+    }
+
+    this.supported = supported;
+    return supported;
+  };
+
+  return LocalStorageService;
+}();var TIMEOUT = 100;
+
+var AgoraChecklistComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(AgoraChecklistComponent, _Component);
+
+  function AgoraChecklistComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  var _proto = AgoraChecklistComponent.prototype;
+
+  _proto.onInit = function onInit() {
+    var _this = this;
+
+    this.platform = DeviceService.platform; // !!!
+
+    this.checklist = {};
+    this.errors = {};
+    this.state = {};
+    this.busy = true;
+    this.shouldCheckDevices = true;
+    LocalStorageService.set('checklist', false);
+    StateService.state$.pipe(operators.first()).subscribe(function (state) {
+      console.log('AgoraChecklistComponent', state);
+      _this.state = state;
+
+      if (state.role === RoleType.Viewer) {
+        _this.shouldCheckDevices = false;
+      }
+
+      _this.pushChanges();
+
+      setTimeout(function () {
+        _this.checkBrowser();
+      }, 1000);
+    });
+  };
+
+  _proto.checkBrowser = function checkBrowser() {
+    var _this2 = this;
+
+    var browser = AgoraRTC.checkSystemRequirements();
+    this.checklist.browser = browser;
+
+    if (browser) {
+      setTimeout(function () {
+        _this2.checkHttps();
+      }, TIMEOUT);
+    } else {
+      this.errors.browser = LabelPipe.transform('bhere_browser_error');
+      this.checkHttps(true);
+      this.checkAudio(true);
+      this.checkVideo(true);
+      this.checkRtc(true);
+      this.checkRtm(true);
+    }
+
+    this.pushChanges();
+  };
+
+  _proto.checkHttps = function checkHttps(skip) {
+    var _this3 = this;
+
+    var https = window.location.protocol === 'https:';
+    this.checklist.https = https;
+
+    if (skip) {
+      if (!https) {
+        this.errors.https = LabelPipe.transform('bhere_https_error');
+      }
+    } else if (https) {
+      setTimeout(function () {
+        if (_this3.shouldCheckDevices) {
+          _this3.checkAudio();
+        } else {
+          _this3.checkRtc();
+        }
+      }, TIMEOUT);
+      this.pushChanges();
+    } else {
+      this.errors.https = LabelPipe.transform('bhere_https_error');
+      this.checkAudio(true);
+      this.checkVideo(true);
+      this.checkRtc(true);
+      this.checkRtm(true);
+      this.pushChanges();
+    }
+  };
+
+  _proto.checkAudio = function checkAudio(skip) {
+    var _this4 = this;
+
+    if (skip) {
+      this.checklist.audio = false;
+    } else {
+      AgoraService.getDevices().then(function (devices) {
+        // console.log('checkAudio', devices);
+        var audioinput = devices.find(function (x) {
+          return x.kind === 'audioinput' && x.deviceId;
+        });
+        _this4.checklist.audio = audioinput != null;
+
+        _this4.pushChanges();
+
+        setTimeout(function () {
+          _this4.checkVideo();
+        }, TIMEOUT);
+      }).catch(function (error) {
+        _this4.checklist.audio = false;
+        _this4.errors.audio = error;
+
+        _this4.pushChanges();
+
+        setTimeout(function () {
+          _this4.checkVideo();
+        }, TIMEOUT);
+      });
+      /*
+      AgoraRTC.getDevices((devices) => {
+      	console.log('checkAudio', devices);
+      	const audioinput = devices.find(x => x.kind === 'audioinput' && x.deviceId);
+      	this.checklist.audio = audioinput != null;
+      	this.pushChanges();
+      	setTimeout(() => {
+      		this.checkVideo();
+      	}, TIMEOUT);
+      }, (error) => {
+      	this.checklist.audio = false;
+      	this.errors.audio = error;
+      	this.pushChanges();
+      	setTimeout(() => {
+      		this.checkVideo();
+      	}, TIMEOUT);
+      });
+      */
+    }
+  };
+
+  _proto.checkVideo = function checkVideo(skip) {
+    var _this5 = this;
+
+    if (skip) {
+      this.checklist.video = false;
+    } else {
+      AgoraService.getDevices().then(function (devices) {
+        // console.log('checkVideo', devices);
+        var videoinput = devices.find(function (x) {
+          return x.kind === 'videoinput' && x.deviceId;
+        });
+        _this5.checklist.video = videoinput != null;
+        setTimeout(function () {
+          _this5.checkRtc();
+        }, TIMEOUT);
+
+        _this5.pushChanges();
+      }).catch(function (error) {
+        _this5.checklist.video = false;
+        _this5.errors.video = error;
+        setTimeout(function () {
+          _this5.checkRtc();
+        }, TIMEOUT);
+
+        _this5.pushChanges();
+      });
+      /*
+      AgoraRTC.getDevices((devices) => {
+      	console.log('checkVideo', devices);
+      	const videoinput = devices.find(x => x.kind === 'videoinput' && x.deviceId);
+      	this.checklist.video = videoinput != null;
+      	setTimeout(() => {
+      		this.checkRtc();
+      	}, TIMEOUT);
+      	this.pushChanges();
+      }, (error) => {
+      	this.checklist.video = false;
+      	this.errors.video = error;
+      	setTimeout(() => {
+      		this.checkRtc();
+      	}, TIMEOUT);
+      	this.pushChanges();
+      });
+      */
+    }
+  };
+
+  _proto.checkRtc = function checkRtc(skip) {
+    var _this6 = this;
+
+    if (skip) {
+      this.checklist.rtc = false;
+    } else {
+      AgoraService.checkRtcConnection().then(function (uid) {
+        _this6.checklist.rtc = true;
+
+        _this6.pushChanges();
+
+        setTimeout(function () {
+          _this6.checkRtm(false, uid);
+        }, TIMEOUT);
+      }).catch(function (error) {
+        _this6.checklist.rtc = false;
+        _this6.errors.rtc = error;
+
+        _this6.checkRtm(true);
+
+        _this6.pushChanges();
+      });
+    }
+  };
+
+  _proto.checkRtm = function checkRtm(skip, uid) {
+    var _this7 = this;
+
+    if (skip) {
+      this.checklist.rtm = false;
+      this.onComplete();
+    } else {
+      AgoraService.checkRtmConnection(uid).then(function (_) {
+        _this7.checklist.rtm = true;
+      }).catch(function (error) {
+        _this7.checklist.rtm = false;
+        _this7.errors.rtm = error;
+      }).finally(function () {
+        _this7.onComplete();
+      });
+    }
+  };
+
+  _proto.onComplete = function onComplete() {
+    var _this8 = this;
+
+    console.log('AgoraChecklistComponent.onComplete');
+    var success = Object.keys(this.checklist).reduce(function (p, c) {
+      return p && _this8.checklist[c];
+    }, true);
+    this.checklist.success = success;
+    this.checklist.error = !success;
+    this.busy = false;
+    this.pushChanges();
+
+    if (state.role === RoleType.SmartDevice) {
+      this.onNext();
+    }
+  };
+
+  _proto.onNext = function onNext() {
+    if (this.checklist.success) {
+      LocalStorageService.set('checklist', true);
+    }
+
+    this.checked.next(this.checklist);
+  };
+
+  _proto.openHttps = function openHttps() {
+    window.location.href = window.location.href.replace('http://', 'https://').replace(':5000', ':6443');
+  };
+
+  return AgoraChecklistComponent;
+}(rxcomp.Component);
+AgoraChecklistComponent.meta = {
+  selector: '[agora-checklist]',
+  outputs: ['checked']
+};var AudioStreamService = /*#__PURE__*/function () {
+  function AudioStreamService() {}
+
+  AudioStreamService.addSource = function addSource(streamOrElement) {
+    var key = streamOrElement instanceof MediaStream ? streamOrElement.id : streamOrElement;
+
+    if (!this.sources_[key]) {
+      if (streamOrElement instanceof MediaStream) {
+        this.sources_[key] = this.context.createMediaStreamSource(streamOrElement.clone());
+      } else {
+        this.sources_[key] = this.context.createMediaElementSource(streamOrElement);
+      } // this.sources_[key] = streamOrElement instanceof MediaStream ? this.context.createMediaStreamSource(streamOrElement) : this.context.createMediaElementSource(streamOrElement);
+
+    }
+
+    return this.sources_[key];
+  };
+
+  AudioStreamService.removeSource = function removeSource(streamOrElement) {
+    var key = streamOrElement instanceof MediaStream ? streamOrElement.id : streamOrElement;
+    return this.removeSourceKey(key);
+  };
+
+  AudioStreamService.removeSourceKey = function removeSourceKey(key) {
+    // console.log('AudioStreamService.removeSourceKey', key);
+    var source;
+
+    if (this.sources_[key]) {
+      source = this.sources_[key];
+      /*
+      if (source.mediaStream) {
+      	source.mediaStream.stop();
+      }
+      source.stop();
+      */
+
+      if (this.analyser) {
+        source.disconnect(this.analyser);
+      }
+
+      source.disconnect();
+      delete this.sources_[key];
+    }
+
+    return source;
+  };
+
+  AudioStreamService.frequency$ = function frequency$(streamOrElement, fftSize) {
+    var _this = this;
+
+    if (fftSize === void 0) {
+      fftSize = 64;
+    }
+
+    if (fftSize % 2 === 1) {
+      throw fftSize;
+    }
+
+    var state = new Uint8Array(fftSize / 2);
+    var context = this.context;
+
+    if (context) {
+      var analyser = this.analyser;
+
+      if (analyser) {
+        // Connect the output of the analyser to the destination
+        // analyser.connect(context.destination); // no audio !
+        // console.log(analyser.fftSize); // 2048 by default
+        // console.log(analyser.frequencyBinCount); // will give us 1024 data points
+        analyser.fftSize = fftSize; // 64
+        // console.log(analyser.frequencyBinCount); // fftSize/2 = 32 data points
+
+        var source = this.addSource(streamOrElement); // source.connect(context.destination); // no audio!
+        // Connect the output of the source to the input of the analyser
+
+        source.connect(analyser);
+      }
+
+      var state$ = new rxjs.BehaviorSubject(state);
+      return AudioStreamService.frame$.pipe(operators.withLatestFrom(state$), operators.map(function (_ref) {
+        var deltaTime = _ref[0],
+            state = _ref[1];
+
+        if (analyser) {
+          // Get the new frequency data
+          analyser.getByteFrequencyData(state);
+          /*
+          const max = state.reduce((p, c, i) => {
+          	return Math.max(c, p);
+          }, 0);
+          if (max > 0) {
+          	// console.log(max);
+          }
+          */
+          // Update the visualisation
+        }
+
+        return state;
+      }), operators.tap(function (state) {
+        return state$.next(state);
+      }), operators.finalize(function () {
+        _this.removeSource(streamOrElement);
+      }));
+    } else {
+      return rxjs.of(state);
+    }
+  } // unused
+  ;
+
+  AudioStreamService.volume$ = function volume$(streamOrElement) {
+    var _this2 = this;
+
+    var state = {
+      volume: 0,
+      clipped: false
+    };
+    var context = this.context; // console.log('AudioStreamService.volume$', context, state);
+
+    if (context) {
+      var source = this.addSource(streamOrElement);
+      var meter = AudioStreamService.audioMeterCreate();
+      source.connect(meter);
+      var state$ = new rxjs.BehaviorSubject(state);
+      return AudioStreamService.frame$.pipe(operators.withLatestFrom(state$), operators.map(function (_ref2) {
+        var deltaTime = _ref2[0],
+            state = _ref2[1];
+        state.clipped = meter.checkClipping();
+        state.volume = meter.volume;
+        return state;
+      }), operators.tap(function (state) {
+        return state$.next(state);
+      }), operators.finalize(function () {
+        _this2.removeSource(streamOrElement);
+      }));
+    } else {
+      return rxjs.of(state);
+    }
+  } // unused
+  ;
+
+  AudioStreamService.audioMeterCreate = function audioMeterCreate(clipLevel, averaging, clipLag) {
+    if (clipLevel === void 0) {
+      clipLevel = 0.98;
+    }
+
+    if (averaging === void 0) {
+      averaging = 0.95;
+    }
+
+    if (clipLag === void 0) {
+      clipLag = 750;
+    }
+
+    var context = this.context;
+
+    if (context) {
+      var processor = context.createScriptProcessor(512);
+      processor.onaudioprocess = this.audioMeterProcess;
+      processor.checkClipping = this.audioMeterClip;
+      processor.dispose = this.audioMeterDispose;
+      processor.clipping = false;
+      processor.lastClip = 0;
+      processor.volume = 0;
+      processor.clipLevel = clipLevel;
+      processor.averaging = averaging;
+      processor.clipLag = clipLag; // this will have no effect, since we don't copy the input to the output,
+      // but works around a current Chrome bug.
+
+      processor.connect(context.destination);
+      return processor;
+    }
+  };
+
+  AudioStreamService.audioMeterProcess = function audioMeterProcess(event) {
+    var buffer = event.inputBuffer.getChannelData(0);
+    var bufferLength = buffer.length;
+    var sum = 0;
+    var x; // Do a root-mean-square on the samples: sum up the squares...
+
+    for (var i = 0; i < bufferLength; i++) {
+      x = buffer[i];
+
+      if (Math.abs(x) >= this.clipLevel) {
+        this.clipping = true;
+        this.lastClip = window.performance.now();
+      }
+
+      sum += x * x;
+    } // ... then take the square root of the sum.
+
+
+    var rms = Math.sqrt(sum / bufferLength); // Now smooth this out with the averaging factor applied
+    // to the previous sample - take the max here because we
+    // want "fast attack, slow release."
+
+    this.volume = Math.max(rms, this.volume * this.averaging);
+  };
+
+  AudioStreamService.audioMeterClip = function audioMeterClip() {
+    if (!this.clipping) {
+      return false;
+    }
+
+    if (this.lastClip + this.clipLag < window.performance.now()) {
+      this.clipping = false;
+    }
+
+    return this.clipping;
+  };
+
+  AudioStreamService.audioMeterDispose = function audioMeterDispose() {
+    this.disconnect();
+    this.onaudioprocess = null;
+  };
+
+  AudioStreamService.step$ = function step$(previous) {
+    /**
+     * This function returns an observable that will emit the next frame once the
+     * browser has returned an animation frame step. Given the previous frame it calculates
+     * the delta time, and we also clamp it to 30FPS in case we get long frames.
+     */
+    return rxjs.Observable.create(function (observer) {
+      requestAnimationFrame(function (startTime) {
+        // Millis to seconds
+        var deltaTime = previous ? (startTime - previous.startTime) / 1000 : 0;
+        observer.next({
+          startTime: startTime,
+          deltaTime: deltaTime
+        });
+      });
+    }).pipe(operators.map(function (frame) {
+      if (frame.deltaTime > 1 / 30) {
+        frame.deltaTime = 1 / 30;
+      }
+
+      return frame;
+    }));
+  };
+
+  AudioStreamService.dispose = function dispose() {
+    var _this3 = this;
+
+    Object.keys(this.sources_).forEach(function (key) {
+      _this3.removeSourceKey(key);
+    });
+    var analyser = this.analyser;
+
+    if (analyser) {
+      analyser.disconnect();
+    }
+
+    this.sources_ = {}; // this.context_.close().then(() => console.log('AudioStreamService.dispose'));
+    // this.context_ = null;
+  };
+
+  _createClass(AudioStreamService, null, [{
+    key: "context",
+    get: function get() {
+      if (!this.context_ && 'AudioContext' in window) {
+        this.context_ = new AudioContext();
+      }
+
+      return this.context_;
+    }
+    /*
+    static get processorNode() {
+    	if (!this.processorNode_) {
+    		this.processorNode_ = this.context.createScriptProcessor(BUFF_SIZE, 1, 1);
+    	}
+    	return this.processorNode_;
+    }
+    */
+
+    /*
+    static get gain() {
+    	if (!this.gain_) {
+    		this.gain_ = this.context.createGain();
+    	}
+    	return this.gain_;
+    }
+    */
+
+  }, {
+    key: "analyser",
+    get: function get() {
+      if (!this.analyser_) {
+        try {
+          this.analyser_ = this.context.createAnalyser();
+        } catch (error) {
+          console.log('AudioStreamService.analyser', error);
+        }
+      }
+
+      return this.analyser_;
+    }
+  }]);
+
+  return AudioStreamService;
+}();
+AudioStreamService.sources_ = {};
+AudioStreamService.frame$ = rxjs.of(undefined).pipe(operators.expand(function (value) {
+  return AudioStreamService.step$(value);
+}), // Expand emits the first value provided to it, and in this
+//  case we just want to ignore the undefined input frame
+operators.filter(function (frame) {
+  return frame !== undefined;
+}), operators.map(function (frame) {
+  return frame.deltaTime;
+}), operators.share());var AgoraDevicePreviewComponent = /*#__PURE__*/function (_Component) {
+  _inheritsLoose(AgoraDevicePreviewComponent, _Component);
+
+  function AgoraDevicePreviewComponent() {
+    return _Component.apply(this, arguments) || this;
+  }
+
+  var _proto = AgoraDevicePreviewComponent.prototype;
+
+  _proto.onInit = function onInit() {
+    this.init();
+  };
+
+  _proto.init = function init() {
+    if (this.initialized_) {
+      return;
+    }
+
+    this.initialized_ = true;
+    this.platform = DeviceService.platform;
+
+    var _getContext = rxcomp.getContext(this),
+        node = _getContext.node;
+
+    this.onLoadedMetadata = this.onLoadedMetadata.bind(this);
+    var preview = this.preview = node.querySelector('video');
+    preview.addEventListener('loadedmetadata', this.onLoadedMetadata);
+    var audio = node.querySelector('.audio');
+
+    if (this.hasPreview) {
+      var bars = this.bars = new Array(32).fill(0).map(function (x) {
+        var bar = document.createElement('div');
+        bar.classList.add('bar');
+        audio.appendChild(bar);
+        return bar;
+      });
+    }
+  };
+
+  _proto.onDestroy = function onDestroy() {
+    var preview = this.preview;
+    preview.removeEventListener('loadedmetadata', this.onLoadedMetadata);
+
+    if (this.hasPreview) {
+      AudioStreamService.dispose();
+    }
+  };
+
+  _proto.initStream = function initStream() {
+    var _this = this;
+
+    var preview = this.preview;
+
+    if (!this.preview) {
+      return;
+    } // console.log(this.video_, this.audio_);
+
+
+    if (this.video_ || this.audio_) {
+      // const { node } = getContext(this);
+      // node.classList.remove('ready');
+      if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        var state = StateService.state;
+        var quality = getStreamQuality(state);
+        var options = {
+          video: this.video_ ? {
+            deviceId: this.video_,
+            width: {
+              ideal: quality.resolution.width
+            },
+            height: {
+              ideal: quality.resolution.height
+            },
+            frameRate: {
+              ideal: quality.frameRate.min,
+              max: quality.frameRate.max
+            }
+          } : false,
+          audio: this.audio_ ? {
+            deviceId: this.audio_
+          } : false
+        }; // console.log('AgoraDevicePreviewComponent.initStream.getUserMedia', options);
+
+        navigator.mediaDevices.getUserMedia(options).then(function (stream) {
+          if (_this.hasPreview) {
+            if ('srcObject' in preview) {
+              preview.srcObject = stream;
+            } else {
+              preview.src = window.URL.createObjectURL(stream);
+            }
+
+            if (_this.audio_) {
+              _this.analyzeData(stream);
+            }
+
+            _this.loadingStream_ = stream;
+          } else {
+            _this.stream.next(stream);
+          }
+        }).catch(function (error) {
+          console.log('AgoraDevicePreviewComponent.initStream.error', error.name, error.message);
+
+          _this.stream.next(null);
+        });
+      }
+    } else {
+      if (this.hasPreview) {
+        if ('srcObject' in preview) {
+          preview.srcObject = null;
+        } else {
+          preview.src = null;
+        }
+
+        this.analyzeData(null);
+      }
+
+      this.stream.next(null);
+    }
+  };
+
+  _proto.onLoadedMetadata = function onLoadedMetadata(event) {
+    // console.log('AgoraDevicePreview.onLoadedMetadata', event);
+    var _getContext2 = rxcomp.getContext(this),
+        node = _getContext2.node;
+
+    node.classList.add('ready');
+    this.preview.play();
+    this.stream.next(this.loadingStream_);
+  };
+
+  _proto.analyzeData = function analyzeData(stream) {
+    var _this2 = this;
+
+    if (this.frequencySubscription) {
+      this.frequencySubscription.unsubscribe();
+    } // console.log('AgoraDevicePreviewComponent.analyzeData', stream);
+
+
+    if (stream) {
+      this.frequencySubscription = AudioStreamService.frequency$(stream, 64).pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (frequency) {
+        // 32 data points
+        // console.log(frequency);
+        var spacing = 100 / 32;
+        var bars = _this2.bars;
+        bars.forEach(function (bar, i) {
+          var pow = Math.min(100, 5 + frequency[i]) / 100;
+          bar.style.left = i * spacing + '%';
+          bar.style.transform = "scale(1," + pow + ")";
+          bar.style.opacity = pow;
+        });
+      });
+    }
+  };
+
+  _createClass(AgoraDevicePreviewComponent, [{
+    key: "video",
+    get: function get() {
+      return this.video_;
+    },
+    set: function set(video) {
+      if (this.video_ !== video) {
+        this.video_ = video;
+
+        if (this.change) {
+          this.change.next();
+          this.init();
+          this.initStream();
+        }
+      }
+    }
+  }, {
+    key: "audio",
+    get: function get() {
+      return this.audio_;
+    },
+    set: function set(audio) {
+      if (this.audio_ !== audio) {
+        this.audio_ = audio;
+
+        if (this.change) {
+          this.change.next();
+          this.init();
+          this.initStream();
+        }
+      }
+    }
+  }, {
+    key: "hasPreview",
+    get: function get() {
+      return this.platform !== DevicePlatform.IOS && this.platform !== DevicePlatform.VRHeadset;
+    }
+  }]);
+
+  return AgoraDevicePreviewComponent;
+}(rxcomp.Component);
+AgoraDevicePreviewComponent.meta = {
+  selector: '[agora-device-preview]',
+  outputs: ['stream', 'change'],
+  inputs: ['video', 'audio']
+};var AgoraDeviceComponent = /*#__PURE__*/function (_Component) {
   _inheritsLoose(AgoraDeviceComponent, _Component);
 
   function AgoraDeviceComponent() {
@@ -3973,7 +5265,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
   _createClass(AgoraDeviceComponent, [{
     key: "hasPreview",
     get: function get() {
-      return this.platform !== DevicePlatform.IOS && this.platform !== DevicePlatform.VRHeadset;
+      return this.platform !== DevicePlatform.IOS && this.platform !== DevicePlatform.VRHeadset; // && this.form && this.form.value.video;
     }
   }]);
 
@@ -3982,84 +5274,7 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
 AgoraDeviceComponent.meta = {
   selector: '[agora-device]',
   outputs: ['enter']
-};var LocationService = /*#__PURE__*/function () {
-  function LocationService() {}
-
-  LocationService.has = function has(key) {
-    var params = new URLSearchParams(window.location.search); // console.log('LocationService.has', params);
-
-    return params.has(key);
-  };
-
-  LocationService.get = function get(key) {
-    var params = new URLSearchParams(window.location.search); // console.log('LocationService.get', params);
-
-    return params.get(key);
-  };
-
-  LocationService.set = function set(keyOrValue, value) {
-    var params = new URLSearchParams(window.location.search);
-
-    if (typeof keyOrValue === 'string') {
-      params.set(keyOrValue, value);
-    } else {
-      params.set(keyOrValue, '');
-    }
-
-    this.replace(params); // console.log('LocationService.set', params, keyOrValue, value);
-  };
-
-  LocationService.replace = function replace(params) {
-    if (window.history && window.history.pushState) {
-      var title = document.title;
-      var url = window.location.href.split('?')[0] + "?" + params.toString();
-      window.history.pushState(params.toString(), title, url);
-    }
-  };
-
-  LocationService.deserialize = function deserialize(key) {
-    var encoded = this.get('params');
-    return this.decode(key, encoded);
-  };
-
-  LocationService.serialize = function serialize(keyOrValue, value) {
-    var params = this.deserialize();
-    var encoded = this.encode(keyOrValue, value, params);
-    this.set('params', encoded);
-  };
-
-  LocationService.decode = function decode(key, encoded) {
-    var decoded = null;
-
-    if (encoded) {
-      var json = window.atob(encoded);
-      decoded = JSON.parse(json);
-    }
-
-    if (key && decoded) {
-      decoded = decoded[key];
-    }
-
-    return decoded || null;
-  };
-
-  LocationService.encode = function encode(keyOrValue, value, params) {
-    params = params || {};
-    var encoded = null;
-
-    if (typeof keyOrValue === 'string') {
-      params[keyOrValue] = value;
-    } else {
-      params = keyOrValue;
-    }
-
-    var json = JSON.stringify(params);
-    encoded = window.btoa(json);
-    return encoded;
-  };
-
-  return LocationService;
-}();var AgoraLinkComponent = /*#__PURE__*/function (_Component) {
+};var AgoraLinkComponent = /*#__PURE__*/function (_Component) {
   _inheritsLoose(AgoraLinkComponent, _Component);
 
   function AgoraLinkComponent() {
@@ -4071,14 +5286,13 @@ AgoraDeviceComponent.meta = {
   _proto.onInit = function onInit() {
     var _this = this;
 
-    this.flags = environment.flags;
-    this.editorLink = environment.url.editor;
     this.state = {};
     var form = this.form = new rxcompForm.FormGroup({
       link: new rxcompForm.FormControl(null, [rxcompForm.Validators.PatternValidator(/^\d{9}-\d{4}-\d{13}$/), rxcompForm.Validators.RequiredValidator()]),
       linkAttendee: null,
       linkStreamer: null,
-      linkViewer: null // link: new FormControl(null),
+      linkViewer: null,
+      linkSmartDevice: null // link: new FormControl(null),
 
     });
     var controls = this.controls = form.controls;
@@ -4101,7 +5315,8 @@ AgoraDeviceComponent.meta = {
       link: this.getRoleMeetingId(timestamp, RoleType.Publisher),
       linkAttendee: this.getRoleMeetingId(timestamp, RoleType.Attendee),
       linkStreamer: this.getRoleMeetingId(timestamp, RoleType.Streamer),
-      linkViewer: this.getRoleMeetingId(timestamp, RoleType.Viewer)
+      linkViewer: this.getRoleMeetingId(timestamp, RoleType.Viewer),
+      linkSmartDevice: this.getRoleMeetingId(timestamp, RoleType.SmartDevice)
     });
   };
 
@@ -4127,7 +5342,8 @@ AgoraDeviceComponent.meta = {
           link: _this2.setRoleMeetingId(value, RoleType.Publisher),
           linkAttendee: _this2.setRoleMeetingId(value, RoleType.Attendee),
           linkStreamer: _this2.setRoleMeetingId(value, RoleType.Streamer),
-          linkViewer: _this2.setRoleMeetingId(value, RoleType.Viewer)
+          linkViewer: _this2.setRoleMeetingId(value, RoleType.Viewer),
+          linkSmartDevice: _this2.setRoleMeetingId(value, RoleType.SmartDevice)
         });
       } else {
         _this2.form.get('linkAttendee').reset();
@@ -4154,13 +5370,17 @@ AgoraDeviceComponent.meta = {
     }, -1);
   };
 
-  _proto.onCopyToClipBoard = function onCopyToClipBoard(meetingId) {
+  _proto.onCopyToClipBoard = function onCopyToClipBoard(meetingId, asAccessCode) {
+    if (asAccessCode === void 0) {
+      asAccessCode = false;
+    }
+
     var input = document.createElement('input');
     input.style.position = 'absolute';
     input.style.top = '1000vh'; // input.style.visibility = 'hidden';
 
     document.querySelector('body').appendChild(input);
-    input.value = this.getUrl(meetingId, true);
+    input.value = asAccessCode ? this.getAccessCodeUrl(meetingId, true) : this.getUrl(meetingId, true);
     input.focus();
     input.select();
     input.setSelectionRange(0, 99999);
@@ -4197,6 +5417,17 @@ AgoraDeviceComponent.meta = {
     return url;
   };
 
+  _proto.getAccessCodeUrl = function getAccessCodeUrl(meetingId, shareable) {
+    if (shareable === void 0) {
+      shareable = false;
+    }
+
+    var role = LocationService.get('role') || null;
+    var name = LocationService.get('name') || null;
+    var url = "" + window.location.origin + environment.url.accessCode + "?link=" + meetingId + (name ? "&name=" + name : '') + (role && !shareable ? "&role=" + role : '');
+    return url;
+  };
+
   _proto.replaceUrl = function replaceUrl(meetingId) {
     if ('history' in window) {
       var url = this.getUrl(meetingId); // console.log('AgoraLinkComponent.url', url);
@@ -4211,13 +5442,6 @@ AgoraDeviceComponent.meta = {
     var s = '000000000' + num;
     return s.substr(s.length - size);
   };
-
-  _createClass(AgoraLinkComponent, [{
-    key: "heroku",
-    get: function get() {
-      return HEROKU;
-    }
-  }]);
 
   return AgoraLinkComponent;
 }(rxcomp.Component);
@@ -4859,6 +6083,7 @@ var View = /*#__PURE__*/function () {
     if (items) {
       var publisherStreamIndex = 0;
       var attendeeStreamIndex = 0;
+      var smartDeviceStream = 0;
       var publisherScreenIndex = 0;
       var attendeeScreenIndex = 0;
       items.forEach(function (item, index) {
@@ -4872,6 +6097,10 @@ var View = /*#__PURE__*/function () {
 
             case 'nextAttendeeStream':
               item.asset.index = attendeeStreamIndex++;
+              break;
+
+            case 'smartDeviceStream':
+              item.asset.index = smartDeviceStream++;
               break;
 
             case 'publisherScreen':
@@ -5226,11 +6455,20 @@ function mapViewTile(tile) {
       return x.type.name !== 'waiting-room';
     });
     var initialViewId = LocationService.has('viewId') ? parseInt(LocationService.get('viewId')) : views.length ? views[0].id : null;
-    this.viewId$_.next(initialViewId);
-    return this.viewId$_.pipe(operators.distinctUntilChanged(), operators.map(function (viewId) {
+    this.action$_.next({
+      viewId: initialViewId
+    });
+    return this.action$_.pipe(operators.distinctUntilChanged(function (a, b) {
+      return a.viewId === b.viewId;
+    }), operators.map(function (action) {
       var view = data.views.find(function (view) {
-        return view.id === viewId;
+        return view.id === action.viewId;
       });
+
+      if (view) {
+        view.keepOrientation = action.keepOrientation || false;
+      }
+
       return view || _this.getWaitingRoom(data);
     }));
   };
@@ -5324,19 +6562,33 @@ function mapViewTile(tile) {
   };
 
   _createClass(ViewService, null, [{
-    key: "viewId",
-    set: function set(viewId) {
-      this.viewId$_.next(viewId);
+    key: "action",
+    // action: { viewId:number, keepOrientation:boolean };
+    set: function set(action) {
+      this.action$_.next(action);
     },
     get: function get() {
-      return this.viewId$_.getValue();
+      return this.action$_.getValue();
+    } // static viewId$_ = new BehaviorSubject(null);
+
+  }, {
+    key: "viewId",
+    set: function set(viewId) {
+      this.action$_.next({
+        viewId: viewId,
+        keepOrientation: false
+      });
+    },
+    get: function get() {
+      var action = this.action$_.getValue();
+      return action ? action.viewId : null;
     }
   }]);
 
   return ViewService;
 }();
 
-_defineProperty(ViewService, "viewId$_", new rxjs.BehaviorSubject(null));var XRStatus = {
+_defineProperty(ViewService, "action$_", new rxjs.BehaviorSubject(null));var XRStatus = {
   Waiting: 'waiting',
   Enabled: 'enabled',
   Ended: 'ended',
@@ -5599,13 +6851,19 @@ var VRService = /*#__PURE__*/function () {
     var status = AgoraStatus.Idle;
     var state = StateService.state;
 
-    if (!state.link) {
+    if (state.role === RoleType.SmartDevice) {
+      state.name = state.name || 'Smart Device';
+    }
+
+    if (!state.checklist) {
+      status = AgoraStatus.Checklist;
+    } else if (!state.link) {
       status = AgoraStatus.Link;
     } else if (!state.user.id && (state.role === RoleType.Publisher || state.role === RoleType.Attendee)) {
       status = AgoraStatus.Login;
     } else if (!state.name) {
       status = AgoraStatus.Name;
-    } else if (state.role !== RoleType.Viewer) {
+    } else if (state.role !== RoleType.Viewer && state.role !== RoleType.SmartDevice) {
       status = AgoraStatus.Device;
     } else {
       status = AgoraStatus.ShouldConnect;
@@ -5620,6 +6878,7 @@ var VRService = /*#__PURE__*/function () {
   _proto.initWithUser = function initWithUser(user) {
     var _this3 = this;
 
+    console.log('initWithUser', user);
     var link = LocationService.get('link') || null;
     var role = this.getLinkRole() || (user ? user.type : null);
     user = user || {
@@ -5632,13 +6891,17 @@ var VRService = /*#__PURE__*/function () {
       };
     }
 
+    var has3D = role !== RoleType.SmartDevice;
     var name = LocationService.get('name') || (user.firstName && user.lastName ? user.firstName + " " + user.lastName : null);
+    var checklist = LocalStorageService.get('checklist') || null;
     var hosted = role === RoleType.Publisher ? true : false;
     var live = DEBUG || role === RoleType.SelfService ? false : true;
     var state = {
       user: user,
       role: role,
+      has3D: has3D,
       name: name,
+      checklist: checklist,
       link: link,
       channelName: environment.channelName,
       uid: null,
@@ -5661,20 +6924,21 @@ var VRService = /*#__PURE__*/function () {
       _this3.pushChanges(); // console.log(state);
 
     });
-    this.loadView();
+    this.initAgora();
+    this.viewObserver$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (view) {// console.log('AgoraComponent.viewObserver$', view);
+    });
   };
 
-  _proto.loadView = function loadView() {
+  _proto.viewObserver$ = function viewObserver$() {
     var _this4 = this;
 
-    this.initAgora();
-    ViewService.data$().pipe(operators.switchMap(function (data) {
+    return ViewService.data$().pipe(operators.switchMap(function (data) {
       _this4.data = data;
       _this4.views = data.views.filter(function (x) {
         return x.type.name !== 'waiting-room';
       });
       return ViewService.hostedView$(data);
-    }), operators.takeUntil(this.unsubscribe$),
+    }),
     /*
     tap(view => {
     	this.view = null;
@@ -5683,6 +6947,7 @@ var VRService = /*#__PURE__*/function () {
     delay(1),
     */
     operators.tap(function (view) {
+      // !!! move navToView to user action?
       if (_this4.agora) {
         _this4.agora.navToView(view.id);
       }
@@ -5690,9 +6955,7 @@ var VRService = /*#__PURE__*/function () {
       _this4.view = view;
 
       _this4.pushChanges();
-    })).subscribe(function (view) {
-      console.log('AgoraComponent.hostedView$', view);
-    });
+    }));
   };
 
   _proto.initAgora = function initAgora() {
@@ -5775,22 +7038,7 @@ var VRService = /*#__PURE__*/function () {
         */
 
         case MessageType.NavToView:
-          if (message.viewId) {
-            if (ViewService.viewId !== message.viewId) {
-              ViewService.viewId = message.viewId;
-
-              if (message.gridIndex !== undefined) {
-                var view = _this5.data.views.find(function (x) {
-                  return x.id === message.viewId;
-                });
-
-                if (view instanceof PanoramaGridView) {
-                  view.index = message.gridIndex;
-                }
-              } // console.log('AgoraComponent.NavToView', message.viewId);
-
-            }
-          }
+          _this5.onRemoteNavTo(message);
 
           break;
 
@@ -5798,6 +7046,15 @@ var VRService = /*#__PURE__*/function () {
           ViewService.setViewLike$(message).pipe(operators.first()).subscribe(function (view) {
             return _this5.showLove(view);
           });
+          break;
+
+        case MessageType.ChatMessage:
+          if (!StateService.state.chat) {
+            StateService.patchState({
+              chatDirty: true
+            });
+          }
+
           break;
       }
     });
@@ -5812,27 +7069,39 @@ var VRService = /*#__PURE__*/function () {
     }
   };
 
+  _proto.onChecked = function onChecked(checklist) {
+    // console.log('AgoraComponent.onChecked', checklist);
+    StateService.patchState({
+      checklist: true
+    });
+    this.setNextStatus();
+  };
+
   _proto.onLink = function onLink(link) {
     var role = this.getLinkRole();
+    var has3D = role !== RoleType.SmartDevice;
     var user = StateService.state.user;
 
     if ((role === RoleType.Publisher || role === RoleType.Attendee) && (!user.id || user.type !== role)) {
       StateService.patchState({
         link: link,
         role: role,
+        has3D: has3D,
         status: AgoraStatus.Login
       });
     } else if (StateService.state.name) {
-      if (role === RoleType.Viewer) {
+      if (role === RoleType.Viewer || role === RoleType.SmartDevice) {
         StateService.patchState({
           link: link,
-          role: role
+          role: role,
+          has3D: has3D
         });
         this.connect();
       } else {
         StateService.patchState({
           link: link,
           role: role,
+          has3D: has3D,
           status: AgoraStatus.Device
         });
       }
@@ -5840,21 +7109,10 @@ var VRService = /*#__PURE__*/function () {
       StateService.patchState({
         link: link,
         role: role,
+        has3D: has3D,
         status: AgoraStatus.Name
       });
     }
-    /*
-    if (StateService.state.name) {
-    	if (StateService.state.role === RoleType.Viewer) {
-    		this.connect();
-    	} else {
-    		StateService.patchState({ link, status: AgoraStatus.Device });
-    	}
-    } else {
-    	StateService.patchState({ link, status: AgoraStatus.Name });
-    }
-    */
-
   };
 
   _proto.onLogin = function onLogin(user) {
@@ -5875,7 +7133,7 @@ var VRService = /*#__PURE__*/function () {
   };
 
   _proto.onName = function onName(name) {
-    if (StateService.state.role === RoleType.Viewer) {
+    if (StateService.state.role === RoleType.Viewer || StateService.state.role === RoleType.SmartDevice) {
       StateService.patchState({
         name: name
       });
@@ -5928,8 +7186,41 @@ var VRService = /*#__PURE__*/function () {
     }
   };
 
-  _proto.onNavTo = function onNavTo(viewId) {
-    ViewService.viewId = viewId;
+  _proto.onNavTo = function onNavTo(navItem) {
+    var viewId = navItem.viewId;
+    var view = this.data.views.find(function (x) {
+      return x.id === viewId;
+    });
+
+    if (view) {
+      ViewService.action = {
+        viewId: viewId,
+        keepOrientation: navItem.keepOrientation
+      };
+    }
+  };
+
+  _proto.onRemoteNavTo = function onRemoteNavTo(message) {
+    var viewId = message.viewId;
+    var gridIndex = message.gridIndex;
+
+    if (viewId && ViewService.viewId !== viewId) {
+      var view = this.data.views.find(function (x) {
+        return x.id === viewId;
+      });
+
+      if (view) {
+        ViewService.action = {
+          viewId: viewId,
+          keepOrientation: message.keepOrientation
+        };
+
+        if (gridIndex != null && view instanceof PanoramaGridView) {
+          view.index = gridIndex;
+        }
+      } // console.log('AgoraComponent.onRemoteNavTo', viewId, gridIndex);
+
+    }
   }
   /*
   onRemoteControlRequest(message) {
@@ -5998,6 +7289,49 @@ var VRService = /*#__PURE__*/function () {
     var volumeMuted = !this.state.volumeMuted;
     StateService.patchState({
       volumeMuted: volumeMuted
+    });
+  };
+
+  _proto.toggleFullScreen = function toggleFullScreen() {
+    var _getContext2 = rxcomp.getContext(this),
+        node = _getContext2.node;
+
+    var fullScreen = !this.state.fullScreen;
+
+    if (fullScreen) {
+      if (node.requestFullscreen) {
+        node.requestFullscreen();
+      } else if (node.webkitRequestFullscreen) {
+        node.webkitRequestFullscreen();
+      } else if (node.msRequestFullscreen) {
+        node.msRequestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+    }
+
+    StateService.patchState({
+      fullScreen: fullScreen
+    });
+  };
+
+  _proto.toggleChat = function toggleChat() {
+    StateService.patchState({
+      chat: !this.state.chat,
+      chatDirty: false
+    });
+    window.dispatchEvent(new Event('resize'));
+  };
+
+  _proto.onChatClose = function onChatClose() {
+    this.patchState({
+      chat: false
     });
   };
 
@@ -6085,6 +7419,16 @@ var VRService = /*#__PURE__*/function () {
   */
   ;
 
+  _createClass(AgoraComponent, [{
+    key: "uiClass",
+    get: function get() {
+      var uiClass = {};
+      uiClass[this.state.role] = true;
+      uiClass.chat = this.state.chat;
+      return uiClass;
+    }
+  }]);
+
   return AgoraComponent;
 }(rxcomp.Component);
 AgoraComponent.meta = {
@@ -6150,7 +7494,13 @@ var AssetType = {
     id: 7,
     name: 'attendee-screen',
     file: 'attendeeScreen'
-  } // valore fisso di file a ‘attendeeScreen’ e folder string.empty
+  },
+  // valore fisso di file a ‘attendeeScreen’ e folder string.empty
+  SmartDeviceStream: {
+    id: 8,
+    name: 'smart-device-stream',
+    file: 'smartDeviceStream'
+  } // valore fisso di file a smartDeviceStream e folder string.empty
 
 };
 var AssetGroupType = {
@@ -6187,7 +7537,12 @@ if (environment.flags.editorAssetScreen) {
   };
 }
 
-var STREAM_TYPES = [AssetType.PublisherStream.name, AssetType.AttendeeStream.name, AssetType.PublisherScreen.name, AssetType.AttendeeScreen.name];
+AssetGroupType.SmartDevice = {
+  id: 7,
+  name: 'Smart Device',
+  ids: [8]
+};
+var STREAM_TYPES = [AssetType.PublisherStream.name, AssetType.AttendeeStream.name, AssetType.PublisherScreen.name, AssetType.AttendeeScreen.name, AssetType.SmartDeviceStream.name];
 function assetIsStream(asset) {
   return asset && STREAM_TYPES.indexOf(asset.type.name) !== -1;
 }
@@ -6220,9 +7575,7 @@ function assetGroupTypeFromItem(item) {
 function assetPayloadFromGroupTypeId(groupTypeId) {
   var groupType = assetGroupTypeById(groupTypeId);
   var type = assetTypeById(groupType.ids[0]);
-  var file = type.file; // const type = groupTypeId === AssetGroupType.Publisher.id ? AssetType.PublisherStream : AssetType.AttendeeStream;
-  // const file = groupTypeId === AssetGroupType.Publisher.id ? 'publisherStream' : 'nextAttendeeStream';
-
+  var file = type.file;
   var asset = {
     type: type,
     folder: '',
@@ -6340,6 +7693,7 @@ var AssetPipe = /*#__PURE__*/function (_Pipe) {
         case AssetType.AttendeeStream.name:
         case AssetType.PublisherScreen.name:
         case AssetType.AttendeeScreen.name:
+        case AssetType.SmartDeviceStream.name:
           asset = environment.getPath(asset.file);
           break;
 
@@ -7099,7 +8453,6 @@ AsideComponent.meta = {
         node = _getContext.node;
 
     node.classList.remove('hidden');
-    this.flags = environment.flags;
     this.aside = false;
     this.settings = false;
     this.state = {};
@@ -7162,60 +8515,21 @@ AsideComponent.meta = {
 
       _this3.pushChanges();
     });
-    this.loadView();
+    this.viewObserver$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (view) {// console.log('EditorComponent.viewObserver$', view);
+    });
     StreamService.mode = StreamServiceMode.Editor; // this.getUserMedia();
-  }
-  /*
-  getUserMedia() {
-  	if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-  		const body = document.querySelector('body');
-  		const media = document.createElement('div');
-  		const video = document.createElement('video');
-  		media.setAttribute('id', 'stream-editor');
-  		media.setAttribute('style', 'position:absolute; top: 5000px; line-height: 0;');
-  		media.appendChild(video);
-  		body.appendChild(media);
-  		navigator.mediaDevices.getUserMedia({
-  			video: { width: 800, height: 450 },
-  		}).then((stream) => {
-  			// console.log(stream);
-  			if ('srcObject' in video) {
-  				video.srcObject = stream;
-  			} else {
-  				video.src = window.URL.createObjectURL(stream);
-  			}
-  			video.play();
-  			const fakePublisherStream = {
-  				getId: () => 'editor',
-  				clientInfo: {
-  					role: RoleType.Publisher,
-  				}
-  			};
-  			const fakeAttendeeStream = {
-  				getId: () => 'editor',
-  				clientInfo: {
-  					role: RoleType.Attendee,
-  				}
-  			};
-  			StreamService.editorStreams = [fakePublisherStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream, fakeAttendeeStream];
-  		}).catch((error) => {
-  			console.log('EditorComponent.getUserMedia.error', error.name, error.message);
-  		});
-  	}
-  }
-  */
-  ;
+  };
 
-  _proto.loadView = function loadView() {
+  _proto.viewObserver$ = function viewObserver$() {
     var _this4 = this;
 
-    EditorService.data$().pipe(operators.switchMap(function (data) {
+    return EditorService.data$().pipe(operators.switchMap(function (data) {
       _this4.data = data;
       _this4.views = data.views.filter(function (x) {
         return x.type.name !== 'waiting-room';
       });
       return ViewService.editorView$(data);
-    }), operators.takeUntil(this.unsubscribe$), operators.tap(function (view) {
+    }), operators.tap(function (view) {
       _this4.view = null;
 
       _this4.pushChanges();
@@ -7223,17 +8537,21 @@ AsideComponent.meta = {
       _this4.view = view;
 
       _this4.pushChanges();
-    })).subscribe(function (view) {// console.log('EditorComponent.view$', view);
-    });
+    }));
   };
 
-  _proto.onNavTo = function onNavTo(viewId) {
+  _proto.onNavTo = function onNavTo(navItem) {
+    // console.log('EditorComponent.onNavTo', navItem);
+    var viewId = navItem.viewId;
     var view = this.data.views.find(function (x) {
       return x.id === viewId;
     });
 
     if (view) {
-      ViewService.viewId = viewId;
+      ViewService.action = {
+        viewId: viewId,
+        keepOrientation: navItem.keepOrientation
+      };
     }
   };
 
@@ -8534,7 +9852,7 @@ ModelModalComponent.meta = {
       title: null,
       abstract: null,
       viewId: new rxcompForm.FormControl(null, rxcompForm.RequiredValidator()),
-      // keepOrientation: false,
+      keepOrientation: false,
       position: this.position.toArray(),
       asset: null,
       link: new rxcompForm.FormGroup({
@@ -9349,7 +10667,7 @@ UpdateViewItemComponent.meta = {
   inputs: ['view', 'item'],
   template:
   /* html */
-  "\n\t\t<div class=\"group--headline\" [class]=\"{ active: item.selected }\" (click)=\"onSelect($event)\">\n\t\t\t<!-- <div class=\"id\" [innerHTML]=\"item.id\"></div> -->\n\t\t\t<div class=\"icon\">\n\t\t\t\t<svg-icon [name]=\"item.type.name\"></svg-icon>\n\t\t\t</div>\n\t\t\t<div class=\"title\" [innerHTML]=\"getTitle(item)\"></div>\n\t\t\t<svg class=\"icon--caret-down\"><use xlink:href=\"#caret-down\"></use></svg>\n\t\t</div>\n\t\t<form [formGroup]=\"form\" (submit)=\"onSubmit()\" name=\"form\" role=\"form\" novalidate autocomplete=\"off\" *if=\"item.selected\">\n\t\t\t<div class=\"form-controls\">\n\t\t\t\t<div control-text [control]=\"controls.id\" label=\"Id\" [disabled]=\"true\"></div>\n\t\t\t\t<!-- <div control-text [control]=\"controls.type\" label=\"Type\" [disabled]=\"true\"></div> -->\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'nav'\">\n\t\t\t\t<div control-text [control]=\"controls.title\" label=\"Title\"></div>\n\t\t\t\t<div control-textarea [control]=\"controls.abstract\" label=\"Abstract\"></div>\n\t\t\t\t<div control-custom-select [control]=\"controls.viewId\" label=\"NavToView\"></div>\n\t\t\t\t<!-- <div control-checkbox [control]=\"controls.keepOrientation\" label=\"Keep Orientation\"></div> -->\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"3\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Image\" accept=\"image/jpeg, image/png\"></div>\n\t\t\t\t<div control-text [control]=\"controls.link.controls.title\" label=\"Link Title\"></div>\n\t\t\t\t<div control-text [control]=\"controls.link.controls.href\" label=\"Link Url\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'plane'\">\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"1\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.rotation\" label=\"Rotation\" [precision]=\"3\" [increment]=\"Math.PI / 360\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.scale\" label=\"Scale\" [precision]=\"2\"></div>\n\t\t\t\t<div control-custom-select [control]=\"controls.assetType\" label=\"Asset\" (change)=\"onAssetTypeDidChange($event)\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Localized Image or Video\" accept=\"image/jpeg, video/mp4\" *if=\"controls.assetType.value == 1\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.hasChromaKeyColor\" label=\"Use Green Screen\" *if=\"item.asset\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'curved-plane'\">\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"1\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.rotation\" label=\"Rotation\" [precision]=\"3\" [increment]=\"Math.PI / 360\"></div>\n\t\t\t\t<!-- <div control-vector [control]=\"controls.scale\" label=\"Scale\" [precision]=\"2\" [disabled]=\"true\"></div> -->\n\t\t\t\t<div control-number [control]=\"controls.radius\" label=\"Radius\" [precision]=\"2\"></div>\n\t\t\t\t<div control-number [control]=\"controls.height\" label=\"Height\" [precision]=\"2\"></div>\n\t\t\t\t<div control-number [control]=\"controls.arc\" label=\"Arc\" [precision]=\"0\"></div>\n\t\t\t\t<div control-custom-select [control]=\"controls.assetType\" label=\"Asset\" (change)=\"onAssetTypeDidChange($event)\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Image or Video\" accept=\"image/jpeg, video/mp4\" *if=\"controls.assetType.value == 1\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.hasChromaKeyColor\" label=\"Use Green Screen\" *if=\"item.asset\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'model'\">\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"1\" *if=\"view.type.name !== 'model'\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.rotation\" label=\"Rotation\" [precision]=\"3\" [increment]=\"Math.PI / 360\" *if=\"view.type.name !== 'model'\"></div>\n\t\t\t\t<div control-model [control]=\"controls.asset\" label=\"Model (.glb)\" accept=\".glb\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'texture'\">\n\t\t\t\t<div control-custom-select [control]=\"controls.assetType\" label=\"Asset\" (change)=\"onAssetTypeDidChange($event)\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Image or Video\" accept=\"image/jpeg, video/mp4\" *if=\"controls.assetType.value == 1\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.hasChromaKeyColor\" label=\"Use Green Screen\" *if=\"item.asset\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"group--cta\">\n\t\t\t\t<button type=\"submit\" class=\"btn--update\" [class]=\"{ busy: busy }\">\n\t\t\t\t\t<span [innerHTML]=\"'update' | label\"></span>\n\t\t\t\t</button>\n\t\t\t\t<button type=\"button\" class=\"btn--remove\" (click)=\"onRemove($event)\">\n\t\t\t\t\t<span [innerHTML]=\"'remove' | label\"></span>\n\t\t\t\t</button>\n\t\t\t</div>\n\t\t</form>\n\t"
+  "\n\t\t<div class=\"group--headline\" [class]=\"{ active: item.selected }\" (click)=\"onSelect($event)\">\n\t\t\t<!-- <div class=\"id\" [innerHTML]=\"item.id\"></div> -->\n\t\t\t<div class=\"icon\">\n\t\t\t\t<svg-icon [name]=\"item.type.name\"></svg-icon>\n\t\t\t</div>\n\t\t\t<div class=\"title\" [innerHTML]=\"getTitle(item)\"></div>\n\t\t\t<svg class=\"icon--caret-down\"><use xlink:href=\"#caret-down\"></use></svg>\n\t\t</div>\n\t\t<form [formGroup]=\"form\" (submit)=\"onSubmit()\" name=\"form\" role=\"form\" novalidate autocomplete=\"off\" *if=\"item.selected\">\n\t\t\t<div class=\"form-controls\">\n\t\t\t\t<div control-text [control]=\"controls.id\" label=\"Id\" [disabled]=\"true\"></div>\n\t\t\t\t<!-- <div control-text [control]=\"controls.type\" label=\"Type\" [disabled]=\"true\"></div> -->\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'nav'\">\n\t\t\t\t<div control-text [control]=\"controls.title\" label=\"Title\"></div>\n\t\t\t\t<div control-textarea [control]=\"controls.abstract\" label=\"Abstract\"></div>\n\t\t\t\t<div control-custom-select [control]=\"controls.viewId\" label=\"NavToView\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.keepOrientation\" label=\"Keep Orientation\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"3\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Image\" accept=\"image/jpeg, image/png\"></div>\n\t\t\t\t<div control-text [control]=\"controls.link.controls.title\" label=\"Link Title\"></div>\n\t\t\t\t<div control-text [control]=\"controls.link.controls.href\" label=\"Link Url\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'plane'\">\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"1\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.rotation\" label=\"Rotation\" [precision]=\"3\" [increment]=\"Math.PI / 360\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.scale\" label=\"Scale\" [precision]=\"2\"></div>\n\t\t\t\t<div control-custom-select [control]=\"controls.assetType\" label=\"Asset\" (change)=\"onAssetTypeDidChange($event)\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Localized Image or Video\" accept=\"image/jpeg, video/mp4\" *if=\"controls.assetType.value == 1\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.hasChromaKeyColor\" label=\"Use Green Screen\" *if=\"item.asset\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'curved-plane'\">\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"1\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.rotation\" label=\"Rotation\" [precision]=\"3\" [increment]=\"Math.PI / 360\"></div>\n\t\t\t\t<!-- <div control-vector [control]=\"controls.scale\" label=\"Scale\" [precision]=\"2\" [disabled]=\"true\"></div> -->\n\t\t\t\t<div control-number [control]=\"controls.radius\" label=\"Radius\" [precision]=\"2\"></div>\n\t\t\t\t<div control-number [control]=\"controls.height\" label=\"Height\" [precision]=\"2\"></div>\n\t\t\t\t<div control-number [control]=\"controls.arc\" label=\"Arc\" [precision]=\"0\"></div>\n\t\t\t\t<div control-custom-select [control]=\"controls.assetType\" label=\"Asset\" (change)=\"onAssetTypeDidChange($event)\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Image or Video\" accept=\"image/jpeg, video/mp4\" *if=\"controls.assetType.value == 1\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.hasChromaKeyColor\" label=\"Use Green Screen\" *if=\"item.asset\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'model'\">\n\t\t\t\t<div control-vector [control]=\"controls.position\" label=\"Position\" [precision]=\"1\" *if=\"view.type.name !== 'model'\"></div>\n\t\t\t\t<div control-vector [control]=\"controls.rotation\" label=\"Rotation\" [precision]=\"3\" [increment]=\"Math.PI / 360\" *if=\"view.type.name !== 'model'\"></div>\n\t\t\t\t<div control-model [control]=\"controls.asset\" label=\"Model (.glb)\" accept=\".glb\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"item.type.name == 'texture'\">\n\t\t\t\t<div control-custom-select [control]=\"controls.assetType\" label=\"Asset\" (change)=\"onAssetTypeDidChange($event)\"></div>\n\t\t\t\t<div control-localized-asset [control]=\"controls.asset\" label=\"Image or Video\" accept=\"image/jpeg, video/mp4\" *if=\"controls.assetType.value == 1\"></div>\n\t\t\t\t<div control-checkbox [control]=\"controls.hasChromaKeyColor\" label=\"Use Green Screen\" *if=\"item.asset\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"group--cta\">\n\t\t\t\t<button type=\"submit\" class=\"btn--update\" [class]=\"{ busy: busy }\">\n\t\t\t\t\t<span [innerHTML]=\"'update' | label\"></span>\n\t\t\t\t</button>\n\t\t\t\t<button type=\"button\" class=\"btn--remove\" (click)=\"onRemove($event)\">\n\t\t\t\t\t<span [innerHTML]=\"'remove' | label\"></span>\n\t\t\t\t</button>\n\t\t\t</div>\n\t\t</form>\n\t"
 };var UpdateViewTileComponent = /*#__PURE__*/function (_Component) {
   _inheritsLoose(UpdateViewTileComponent, _Component);
 
@@ -9458,7 +10776,6 @@ UpdateViewTileComponent.meta = {
     var _this = this;
 
     this.busy = false;
-    this.flags = environment.flags;
     var form = this.form = new rxcompForm.FormGroup();
     this.controls = form.controls;
     this.doUpdateForm();
@@ -9670,7 +10987,7 @@ UpdateViewComponent.meta = {
   inputs: ['view'],
   template:
   /* html */
-  "\n\t\t<div class=\"group--headline\" [class]=\"{ active: view.selected }\" (click)=\"onSelect($event)\">\n\t\t\t<!-- <div class=\"id\" [innerHTML]=\"view.id\"></div> -->\n\t\t\t<div class=\"icon\">\n\t\t\t\t<svg-icon [name]=\"view.type.name\"></svg-icon>\n\t\t\t</div>\n\t\t\t<div class=\"title\" [innerHTML]=\"getTitle(view)\"></div>\n\t\t\t<svg class=\"icon--caret-down\"><use xlink:href=\"#caret-down\"></use></svg>\n\t\t</div>\n\t\t<form [formGroup]=\"form\" (submit)=\"onSubmit()\" name=\"form\" role=\"form\" novalidate autocomplete=\"off\" *if=\"view.selected\">\n\t\t\t<div class=\"form-controls\">\n\t\t\t\t<div control-text [control]=\"controls.id\" label=\"Id\" [disabled]=\"true\"></div>\n\t\t\t\t<!-- <div control-text [control]=\"controls.type\" label=\"Type\" [disabled]=\"true\"></div> -->\n\t\t\t\t<div control-text [control]=\"controls.name\" label=\"Name\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'waiting-room'\">\n\t\t\t\t<div control-asset [control]=\"controls.asset\" label=\"Image\" accept=\"image/jpeg\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'panorama'\">\n\t\t\t\t<div control-checkbox [control]=\"controls.hidden\" label=\"Hide from menu\"></div>\n\t\t\t\t<div control-asset [control]=\"controls.asset\" label=\"Image or Video\" accept=\"image/jpeg, video/mp4\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'panorama-grid'\">\n\t\t\t\t<div control-checkbox [control]=\"controls.hidden\" label=\"Hide from menu\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'model'\">\n\t\t\t\t<div control-checkbox [control]=\"controls.hidden\" label=\"Hide from menu\"></div>\n\t\t\t\t<div control-asset [control]=\"controls.asset\" label=\"Image\" accept=\"image/jpeg\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name != 'waiting-room' && flags.ar\">\n\t\t\t\t<div control-model [control]=\"controls.usdz\" label=\"AR IOS (.usdz)\" accept=\".usdz\"></div>\n\t\t\t\t<div control-model [control]=\"controls.gltf\" label=\"AR Android (.glb)\" accept=\".glb\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"group--cta\">\n\t\t\t\t<button type=\"submit\" class=\"btn--update\" [class]=\"{ busy: busy }\">\n\t\t\t\t\t<span [innerHTML]=\"'update' | label\"></span>\n\t\t\t\t</button>\n\t\t\t\t<button type=\"button\" class=\"btn--remove\" *if=\"view.type.name != 'waiting-room'\" (click)=\"onRemove($event)\">\n\t\t\t\t\t<span [innerHTML]=\"'remove' | label\"></span>\n\t\t\t\t</button>\n\t\t\t</div>\n\t\t</form>\n\t"
+  "\n\t\t<div class=\"group--headline\" [class]=\"{ active: view.selected }\" (click)=\"onSelect($event)\">\n\t\t\t<!-- <div class=\"id\" [innerHTML]=\"view.id\"></div> -->\n\t\t\t<div class=\"icon\">\n\t\t\t\t<svg-icon [name]=\"view.type.name\"></svg-icon>\n\t\t\t</div>\n\t\t\t<div class=\"title\" [innerHTML]=\"getTitle(view)\"></div>\n\t\t\t<svg class=\"icon--caret-down\"><use xlink:href=\"#caret-down\"></use></svg>\n\t\t</div>\n\t\t<form [formGroup]=\"form\" (submit)=\"onSubmit()\" name=\"form\" role=\"form\" novalidate autocomplete=\"off\" *if=\"view.selected\">\n\t\t\t<div class=\"form-controls\">\n\t\t\t\t<div control-text [control]=\"controls.id\" label=\"Id\" [disabled]=\"true\"></div>\n\t\t\t\t<!-- <div control-text [control]=\"controls.type\" label=\"Type\" [disabled]=\"true\"></div> -->\n\t\t\t\t<div control-text [control]=\"controls.name\" label=\"Name\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'waiting-room'\">\n\t\t\t\t<div control-asset [control]=\"controls.asset\" label=\"Image\" accept=\"image/jpeg\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'panorama'\">\n\t\t\t\t<div control-checkbox [control]=\"controls.hidden\" label=\"Hide from menu\"></div>\n\t\t\t\t<div control-asset [control]=\"controls.asset\" label=\"Image or Video\" accept=\"image/jpeg, video/mp4\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'panorama-grid'\">\n\t\t\t\t<div control-checkbox [control]=\"controls.hidden\" label=\"Hide from menu\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name == 'model'\">\n\t\t\t\t<div control-checkbox [control]=\"controls.hidden\" label=\"Hide from menu\"></div>\n\t\t\t\t<div control-asset [control]=\"controls.asset\" label=\"Image\" accept=\"image/jpeg\"></div>\n\t\t\t\t<div control-text [control]=\"controls.latitude\" label=\"Latitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.longitude\" label=\"Longitude\" [disabled]=\"true\"></div>\n\t\t\t\t<div control-text [control]=\"controls.zoom\" label=\"Zoom\" [disabled]=\"true\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"form-controls\" *if=\"view.type.name != 'waiting-room' && ('ar' | flag)\">\n\t\t\t\t<div control-model [control]=\"controls.usdz\" label=\"AR IOS (.usdz)\" accept=\".usdz\"></div>\n\t\t\t\t<div control-model [control]=\"controls.gltf\" label=\"AR Android (.glb)\" accept=\".glb\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"group--cta\">\n\t\t\t\t<button type=\"submit\" class=\"btn--update\" [class]=\"{ busy: busy }\">\n\t\t\t\t\t<span [innerHTML]=\"'update' | label\"></span>\n\t\t\t\t</button>\n\t\t\t\t<button type=\"button\" class=\"btn--remove\" *if=\"view.type.name != 'waiting-room'\" (click)=\"onRemove($event)\">\n\t\t\t\t\t<span [innerHTML]=\"'remove' | label\"></span>\n\t\t\t\t</button>\n\t\t\t</div>\n\t\t</form>\n\t"
 };var factories = [AsideComponent, CurvedPlaneModalComponent, EditorComponent, ItemModelModalComponent, MenuBuilderComponent, ModelModalComponent, NavModalComponent, PanoramaModalComponent, PanoramaGridModalComponent, PlaneModalComponent, RemoveModalComponent, ToastOutletComponent, UpdateViewItemComponent, UpdateViewTileComponent, UpdateViewComponent];
 var pipes = [];
 var EditorModule = /*#__PURE__*/function (_Module) {
@@ -9686,6 +11003,22 @@ EditorModule.meta = {
   imports: [],
   declarations: [].concat(factories, pipes),
   exports: [].concat(factories, pipes)
+};var FlagPipe = /*#__PURE__*/function (_Pipe) {
+  _inheritsLoose(FlagPipe, _Pipe);
+
+  function FlagPipe() {
+    return _Pipe.apply(this, arguments) || this;
+  }
+
+  FlagPipe.transform = function transform(key) {
+    var flags = environment.flags;
+    return flags[key] || false;
+  };
+
+  return FlagPipe;
+}(rxcomp.Pipe);
+FlagPipe.meta = {
+  name: 'flag'
 };var UploadItem = function UploadItem(file) {
   this.file = file;
   this.name = file.name;
@@ -10965,22 +12298,30 @@ IdDirective.meta = {
   var _proto = LayoutComponent.prototype;
 
   _proto.onInit = function onInit() {
+    this.env = environment;
     this.state = {
-      status: 'connected',
-      role: 'publisher',
+      status: LocationService.get('status') || 'connected',
+      role: LocationService.get('role') || 'publisher',
       membersCount: 1,
-      live: true
+      live: true,
+      chat: false,
+      chatDirty: true,
+      name: "Jhon Appleseed",
+      uid: "7341614597544882"
     };
+    this.state.has3D = this.state.role !== RoleType.SmartDevice;
     this.view = {
       likes: 41
     };
     this.local = {};
-    this.screen = {};
+    this.screen = null;
     this.remotes = new Array(8).fill(0).map(function (x, i) {
       return {
         id: i + 1
       };
     });
+    StateService.patchState(this.state);
+    console.log('LayoutComponent', this); // console.log(AgoraService.getUniqueUserId());
   };
 
   _proto.patchState = function patchState(state) {
@@ -11009,6 +12350,49 @@ IdDirective.meta = {
   _proto.toggleVolume = function toggleVolume() {
     this.patchState({
       volumeMuted: !this.state.volumeMuted
+    });
+  };
+
+  _proto.toggleFullScreen = function toggleFullScreen() {
+    var _getContext = rxcomp.getContext(this),
+        node = _getContext.node;
+
+    var fullScreen = !this.state.fullScreen;
+
+    if (fullScreen) {
+      if (node.requestFullscreen) {
+        node.requestFullscreen();
+      } else if (node.webkitRequestFullscreen) {
+        node.webkitRequestFullscreen();
+      } else if (node.msRequestFullscreen) {
+        node.msRequestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+    }
+
+    this.patchState({
+      fullScreen: fullScreen
+    });
+  };
+
+  _proto.toggleChat = function toggleChat() {
+    this.patchState({
+      chat: !this.state.chat,
+      chatDirty: false
+    });
+    window.dispatchEvent(new Event('resize'));
+  };
+
+  _proto.onChatClose = function onChatClose() {
+    this.patchState({
+      chat: false
     });
   };
 
@@ -11053,6 +12437,16 @@ IdDirective.meta = {
   };
 
   _proto.disconnect = function disconnect() {};
+
+  _createClass(LayoutComponent, [{
+    key: "uiClass",
+    get: function get() {
+      var uiClass = {};
+      uiClass[this.state.role] = true;
+      uiClass.chat = this.state.chat;
+      return uiClass;
+    }
+  }]);
 
   return LayoutComponent;
 }(rxcomp.Component);
@@ -11306,6 +12700,22 @@ LazyDirective.meta = {
 }(rxcomp.Component);
 ModalComponent.meta = {
   selector: '[modal]'
+};var SlugPipe = /*#__PURE__*/function (_Pipe) {
+  _inheritsLoose(SlugPipe, _Pipe);
+
+  function SlugPipe() {
+    return _Pipe.apply(this, arguments) || this;
+  }
+
+  SlugPipe.transform = function transform(key) {
+    var url = environment.url;
+    return url[key] || "#" + key;
+  };
+
+  return SlugPipe;
+}(rxcomp.Pipe);
+SlugPipe.meta = {
+  name: 'slug'
 };var SvgIconStructure = /*#__PURE__*/function (_Structure) {
   _inheritsLoose(SvgIconStructure, _Structure);
 
@@ -11597,6 +13007,608 @@ UploadItemComponent.meta = {
 HlsDirective.meta = {
   selector: '[[hls]]',
   inputs: ['hls']
+};var VirtualItem = /*#__PURE__*/function (_Context) {
+  _inheritsLoose(VirtualItem, _Context);
+
+  function VirtualItem(key, $key, value, $value, index, count, parentInstance) {
+    var _this;
+
+    _this = _Context.call(this, parentInstance) || this;
+    _this[key] = $key;
+    _this[value] = $value;
+    _this.index = index;
+    _this.count = count;
+    return _this;
+  }
+
+  _createClass(VirtualItem, [{
+    key: "first",
+    get: function get() {
+      return this.index === 0;
+    }
+  }, {
+    key: "last",
+    get: function get() {
+      return this.index === this.count - 1;
+    }
+  }, {
+    key: "even",
+    get: function get() {
+      return this.index % 2 === 0;
+    }
+  }, {
+    key: "odd",
+    get: function get() {
+      return !this.even;
+    }
+  }]);
+
+  return VirtualItem;
+}(rxcomp.Context);var VirtualMode = {
+  Responsive: 1,
+  Grid: 2,
+  Centered: 3,
+  List: 4
+};
+
+var VirtualStructure = /*#__PURE__*/function (_Structure) {
+  _inheritsLoose(VirtualStructure, _Structure);
+
+  function VirtualStructure() {
+    return _Structure.apply(this, arguments) || this;
+  }
+
+  var _proto = VirtualStructure.prototype;
+
+  _proto.onInit = function onInit() {
+    var _getContext = rxcomp.getContext(this),
+        module = _getContext.module,
+        node = _getContext.node;
+
+    var template = node.firstElementChild;
+    var expression = node.getAttribute('*virtual');
+    node.removeAttribute('*virtual');
+    node.removeChild(template);
+    var tokens = this.tokens = this.getExpressionTokens(expression);
+    this.virtualFunction = module.makeFunction(tokens.iterable);
+    this.container = node;
+    this.template = template;
+    this.mode = this.mode || 1;
+    this.width = this.width || 250;
+    this.gutter = this.gutter !== undefined ? this.gutter : 20;
+    this.reverse = this.reverse === true ? true : false;
+    this.options = {
+      width: this.width,
+      gutter: this.gutter,
+      reverse: this.reverse,
+      containerWidth: 0,
+      containerHeight: 0,
+      top: 0,
+      cols: [0]
+    };
+    this.cachedRects = {};
+    this.cachedInstances = [];
+    this.cacheNodes = [];
+    this.items$ = new rxjs.BehaviorSubject([]);
+    this.update$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (visibleItems) {// console.log(visibleItems.length);
+    });
+  };
+
+  _proto.onChanges = function onChanges(changes) {
+    var context = rxcomp.getContext(this);
+    var module = context.module; // resolve
+
+    var items = module.resolve(this.virtualFunction, context.parentInstance, this) || [];
+    this.mode = this.mode || 1;
+    this.width = this.width || 250;
+    this.gutter = this.gutter !== undefined ? this.gutter : 20;
+    this.options.width = this.width;
+    this.updateView(true);
+    this.items$.next(items); // console.log('VirtualStructure', 'items.length', items.length);
+  };
+
+  _proto.update$ = function update$() {
+    var _this = this;
+
+    return rxjs.merge(this.scroll$(), this.resize$(), this.items$.pipe(operators.distinctUntilChanged())).pipe(operators.map(function (_) {
+      var visibleItems = _this.updateForward();
+
+      return visibleItems;
+    }));
+  };
+
+  _proto.updateForward = function updateForward() {
+    var _this2 = this;
+
+    var options = this.options;
+    var items = this.items$.getValue(); // console.log('VirtualStructure', 'items.length', items.length);
+
+    var total = items.length;
+    this.container.position = 'relative';
+    var highestHeight = 0;
+    var width = this.getWidth();
+    var gutter = this.getGutter(width);
+    var visibleItems = [];
+
+    for (var i = 0, len = items.length; i < len; i++) {
+      var item = items[i];
+      var col = void 0,
+          height = void 0,
+          top = void 0,
+          left = void 0,
+          bottom = void 0;
+      var rect = this.cachedRects[i];
+
+      if (rect) {
+        col = rect.col;
+        height = rect.height;
+        left = rect.left; // top = rect.top;
+        // bottom = rect.bottom;
+      } else {
+        col = this.getCol();
+        height = this.getHeight(width, item);
+      }
+
+      top = options.cols[col];
+
+      if (this.intersect(top + options.top, top + height + options.top, options.top, options.top + options.containerHeight)) {
+        if (!rect) {
+          left = this.getLeft(col, width, gutter);
+        }
+
+        var node = this.cachedNode(i, i, item, total);
+        node.style.position = 'absolute';
+        node.style.top = top + 'px';
+        node.style.left = left + 'px';
+        node.style.width = width + 'px';
+
+        if (height !== node.offsetHeight) {
+          height = node.offsetHeight;
+        }
+
+        bottom = top + height + options.gutter;
+        highestHeight = Math.max(highestHeight, bottom);
+        options.cols[col] = bottom;
+
+        if (!rect) {
+          this.cachedRects[i] = {
+            col: col,
+            width: width,
+            height: height,
+            left: left,
+            top: top,
+            bottom: bottom
+          };
+        } else {
+          rect.height = height;
+          rect.bottom = bottom;
+        }
+
+        visibleItems.push(item);
+      } else {
+        this.removeNode(i);
+        bottom = top + height + options.gutter;
+        options.cols[col] = bottom;
+        highestHeight = Math.max(highestHeight, bottom);
+      }
+    }
+
+    var removeIndex = items.length;
+
+    while (removeIndex < this.cacheNodes.length) {
+      this.removeNode(removeIndex);
+      removeIndex++;
+    }
+
+    this.cacheNodes.length = items.length;
+    var parentContainer = this.container.parentNode;
+
+    if (this.reverse && highestHeight < parentContainer.offsetHeight - 1) {
+      var diff = parentContainer.offsetHeight - 1 - highestHeight;
+      items.forEach(function (item, i) {
+        if (visibleItems.indexOf(item) !== -1) {
+          var _rect = _this2.cachedRects[i];
+
+          var _node = _this2.cachedNode(i, i, item, total);
+
+          _node.style.top = _rect.top + diff + 'px';
+        }
+      });
+      this.container.style.height = parentContainer.offsetHeight - 1 + "px";
+    } else {
+      this.container.style.height = highestHeight + "px";
+    }
+
+    return visibleItems;
+  }
+  /*
+  updateForward__() {
+  	const options = this.options;
+  	const items = this.items$.getValue();
+  	// console.log('VirtualStructure', 'items.length', items.length);
+  	const total = items.length;
+  	this.container.position = 'relative';
+  	let highestHeight = 0;
+  	const width = this.getWidth();
+  	const gutter = this.getGutter(width);
+  	const visibleItems = items.filter((item, i) => {
+  		let col, height, top, left, bottom;
+  		let rect = this.cachedRects[i];
+  		if (rect) {
+  			col = rect.col;
+  			height = rect.height;
+  			left = rect.left;
+  			// top = rect.top;
+  			// bottom = rect.bottom;
+  		} else {
+  			col = this.getCol();
+  			height = this.getHeight(width, item);
+  		}
+  		top = options.cols[col];
+  		if (this.intersect(top + options.top, top + height + options.top, options.top, options.top + options.containerHeight)) {
+  			if (!rect) {
+  				left = this.getLeft(col, width, gutter);
+  			}
+  			const node = this.cachedNode(i, i, item, total);
+  			node.style.position = 'absolute';
+  			node.style.top = top + 'px';
+  			node.style.left = left + 'px';
+  			node.style.width = width + 'px';
+  			if (height !== node.offsetHeight) {
+  				height = node.offsetHeight;
+  			}
+  			bottom = top + height + options.gutter;
+  			highestHeight = Math.max(highestHeight, bottom);
+  			options.cols[col] = bottom;
+  			if (!rect) {
+  				this.cachedRects[i] = { col, width, height, left, top, bottom };
+  			} else {
+  				rect.height = height;
+  				rect.bottom = bottom;
+  			}
+  			return true;
+  		} else {
+  			this.removeNode(i);
+  			bottom = top + height + options.gutter;
+  			options.cols[col] = bottom;
+  			highestHeight = Math.max(highestHeight, bottom);
+  			return false;
+  		}
+  	});
+  	let removeIndex = items.length;
+  	while (removeIndex < this.cacheNodes.length) {
+  		this.removeNode(removeIndex);
+  		removeIndex++;
+  	}
+  	this.cacheNodes.length = items.length;
+  	this.container.style.height = `${highestHeight}px`;
+  	return visibleItems;
+  }
+  
+  updateBackward__() {
+  	const options = this.options;
+  	const items = this.items$.getValue();
+  	// console.log('VirtualStructure', 'items.length', items.length);
+  	const total = items.length;
+  	this.container.position = 'relative';
+  	let lowestHeight = 0;
+  	const width = this.getWidth();
+  	const gutter = this.getGutter(width);
+  	const visibleItems = [];
+  	for (let i = items.length - 1; i >= 0; i--) {
+  		const item = items[i];
+  		let col, height, top, left, bottom;
+  		let rect = this.cachedRects[i];
+  		if (rect) {
+  			col = rect.col;
+  			height = rect.height;
+  			left = rect.left;
+  			// top = rect.top;
+  			// bottom = rect.bottom;
+  		} else {
+  			col = this.getCol();
+  			height = this.getHeight(width, item);
+  		}
+  		bottom = options.cols[col];
+  		if (this.intersect(bottom - height + options.top, bottom + options.top, options.top, options.top + options.containerHeight)) {
+  			if (!rect) {
+  				left = this.getLeft(col, width, gutter);
+  			}
+  			const node = this.cachedNode(i, i, item, total);
+  			node.style.position = 'absolute';
+  			node.style.top = top + 'px';
+  			node.style.left = left + 'px';
+  			node.style.width = width + 'px';
+  			if (height !== node.offsetHeight) {
+  				height = node.offsetHeight;
+  			}
+  			top = bottom - height - options.gutter;
+  			lowestHeight = Math.min(lowestHeight, -top);
+  			options.cols[col] = top;
+  			if (!rect) {
+  				this.cachedRects[i] = { col, width, height, left, top, bottom: bottom };
+  			} else {
+  				rect.height = height;
+  				rect.top = top;
+  			}
+  			visibleItems.push(item);
+  		} else {
+  			this.removeNode(i);
+  			top = bottom - height - options.gutter;
+  			options.cols[col] = top;
+  			lowestHeight = Math.min(lowestHeight, top);
+  		}
+  	}
+  	let removeIndex = items.length;
+  	while (removeIndex < this.cacheNodes.length) {
+  		this.removeNode(removeIndex);
+  		removeIndex++;
+  	}
+  	this.cacheNodes.length = items.length;
+  	this.container.style.height = `${-lowestHeight}px`;
+  	return visibleItems;
+  }
+  */
+  ;
+
+  _proto.getCols = function getCols() {
+    var options = this.options;
+    var cols = Math.floor((options.containerWidth + options.gutter) / (options.width + options.gutter)) || 1;
+    return new Array(cols).fill(0);
+  };
+
+  _proto.getCol = function getCol() {
+    var options = this.options;
+    var col;
+
+    switch (this.mode) {
+      case VirtualMode.Grid:
+      case VirtualMode.Centered:
+      case VirtualMode.Responsive:
+        col = options.cols.reduce(function (p, c, i, a) {
+          return c < a[p] ? i : p;
+        }, 0);
+        break;
+
+      case VirtualMode.List:
+      default:
+        col = 0;
+    }
+
+    return col;
+  };
+
+  _proto.getWidth = function getWidth() {
+    var options = this.options;
+    var width;
+
+    switch (this.mode) {
+      case VirtualMode.Grid:
+      case VirtualMode.Centered:
+        width = options.width;
+        break;
+
+      case VirtualMode.Responsive:
+        width = (options.containerWidth - (options.cols.length - 1) * options.gutter) / options.cols.length;
+        break;
+
+      case VirtualMode.List:
+      default:
+        width = options.containerWidth;
+    }
+
+    return width;
+  };
+
+  _proto.getHeight = function getHeight(width, item) {
+    var options = this.options;
+    var height;
+
+    switch (this.mode) {
+      case VirtualMode.Grid:
+      case VirtualMode.Centered:
+      case VirtualMode.Responsive:
+        height = options.width;
+        break;
+
+      case VirtualMode.List:
+      default:
+        height = 80;
+    }
+
+    return height;
+  };
+
+  _proto.getGutter = function getGutter(width) {
+    var options = this.options;
+    var gutter;
+
+    switch (this.mode) {
+      case VirtualMode.Grid:
+      case VirtualMode.Centered:
+        gutter = options.gutter;
+        break;
+
+      case VirtualMode.Responsive:
+        gutter = (options.containerWidth - options.cols.length * width) / (options.cols.length - 1);
+        break;
+
+      case VirtualMode.List:
+      default:
+        gutter = 0;
+    }
+
+    return gutter;
+  };
+
+  _proto.getLeft = function getLeft(index, width, gutter) {
+    var options = this.options;
+    var left;
+
+    switch (this.mode) {
+      case VirtualMode.Grid:
+      case VirtualMode.Responsive:
+        left = index * (width + gutter);
+        break;
+
+      case VirtualMode.Centered:
+        left = (options.containerWidth - options.cols.length * (width + gutter) + gutter) / 2 + index * (width + gutter);
+        break;
+
+      case VirtualMode.List:
+      default:
+        left = 0;
+    }
+
+    return left;
+  };
+
+  _proto.cachedNode = function cachedNode(index, i, value, total) {
+    if (this.cacheNodes[index]) {
+      return this.updateNode(index, i, value);
+    } else {
+      return this.createNode(index, i, value, total);
+    }
+  };
+
+  _proto.createNode = function createNode(index, i, value, total) {
+    var clonedNode = this.template.cloneNode(true);
+    delete clonedNode.rxcompId;
+    this.container.appendChild(clonedNode);
+    this.cacheNodes[index] = clonedNode;
+    var context = rxcomp.getContext(this);
+    var module = context.module;
+    var tokens = this.tokens;
+    var args = [tokens.key, i, tokens.value, value, i, total, context.parentInstance];
+    var instance = module.makeInstance(clonedNode, VirtualItem, context.selector, context.parentInstance, args);
+    var forItemContext = rxcomp.getContext(instance);
+    module.compile(clonedNode, forItemContext.instance);
+    this.cachedInstances[index] = instance;
+    return clonedNode;
+  };
+
+  _proto.updateNode = function updateNode(index, i, value) {
+    var instance = this.cachedInstances[index];
+    var tokens = this.tokens;
+
+    if (instance[tokens.key] !== i) {
+      instance[tokens.key] = i;
+      instance[tokens.value] = value;
+      instance.pushChanges();
+    } // console.log(index, i, value);
+
+
+    return this.cacheNodes[index];
+  };
+
+  _proto.removeNode = function removeNode(index) {
+    this.cachedInstances[index] = undefined;
+    var node = this.cacheNodes[index];
+
+    if (node) {
+      var context = rxcomp.getContext(this);
+      var module = context.module;
+      node.parentNode.removeChild(node);
+      module.remove(node);
+    }
+
+    this.cacheNodes[index] = undefined;
+    return node;
+  };
+
+  _proto.intersect = function intersect(top1, bottom1, top2, bottom2) {
+    return top2 < bottom1 && bottom2 > top1;
+  };
+
+  _proto.resize$ = function resize$() {
+    var _this3 = this;
+
+    return rxjs.fromEvent(window, 'resize').pipe(operators.auditTime(100), operators.startWith(null), operators.tap(function () {
+      return _this3.updateView(true);
+    }));
+  };
+
+  _proto.scroll$ = function scroll$() {
+    var _this4 = this;
+
+    var _getContext2 = rxcomp.getContext(this),
+        node = _getContext2.node; // console.log(node.parentNode, getComputedStyle(node.parentNode).overflowY, node.parentNode.style.overflowY);
+
+
+    if (node.parentNode && getComputedStyle(node.parentNode).overflowY === 'auto') {
+      return rxjs.fromEvent(node.parentNode, 'scroll').pipe(operators.tap(function () {
+        _this4.updateView();
+      }));
+    } else {
+      return rxjs.fromEvent(window, 'scroll').pipe(operators.tap(function () {
+        return _this4.updateView();
+      }));
+    }
+  };
+
+  _proto.updateView = function updateView(reset) {
+    var rect = this.container.getBoundingClientRect();
+    var options = this.options;
+    options.top = rect.top;
+    options.containerWidth = rect.width;
+    options.containerHeight = rect.height; // window.innerHeight;
+
+    options.cols = this.getCols();
+
+    if (reset) {
+      this.cachedRects = {};
+    }
+  };
+
+  _proto.getExpressionTokens = function getExpressionTokens(expression) {
+    if (expression === null) {
+      throw new Error('invalid virtual');
+    }
+
+    if (expression.trim().indexOf('let ') === -1 || expression.trim().indexOf(' of ') === -1) {
+      throw new Error('invalid virtual');
+    }
+
+    var expressions = expression.split(';').map(function (x) {
+      return x.trim();
+    }).filter(function (x) {
+      return x !== '';
+    });
+    var virtualExpressions = expressions[0].split(' of ').map(function (x) {
+      return x.trim();
+    });
+    var value = virtualExpressions[0].replace(/\s*let\s*/, '');
+    var iterable = virtualExpressions[1];
+    var key = 'index';
+    var keyValueMatches = value.match(/\[(.+)\s*,\s*(.+)\]/);
+
+    if (keyValueMatches) {
+      key = keyValueMatches[1];
+      value = keyValueMatches[2];
+    }
+
+    if (expressions.length > 1) {
+      var indexExpressions = expressions[1].split(/\s*let\s*|\s*=\s*index/).map(function (x) {
+        return x.trim();
+      });
+
+      if (indexExpressions.length === 3) {
+        key = indexExpressions[1];
+      }
+    }
+
+    return {
+      key: key,
+      value: value,
+      iterable: iterable
+    };
+  };
+
+  return VirtualStructure;
+}(rxcomp.Structure);
+VirtualStructure.meta = {
+  selector: '[*virtual]',
+  inputs: ['mode', 'width', 'gutter', 'reverse']
 };var LOADER_UID = 0;
 
 var LoaderService = /*#__PURE__*/function () {
@@ -12183,6 +14195,11 @@ function interactiveDispose(object) {
   }
 
   _createClass(InteractiveMesh, [{
+    key: "isInteractiveMesh",
+    get: function get() {
+      return true;
+    }
+  }, {
     key: "over",
     get: function get() {
       return this.over_;
@@ -12829,6 +14846,10 @@ var MediaLoader = /*#__PURE__*/function () {
     return item.asset && item.asset.type.name === AssetType.AttendeeStream.name;
   };
 
+  MediaLoader.isSmartDeviceStream = function isSmartDeviceStream(item) {
+    return item.asset && item.asset.type.name === AssetType.SmartDeviceStream.name;
+  };
+
   MediaLoader.isPublisherScreen = function isPublisherScreen(item) {
     return item.asset && item.asset.type.name === AssetType.PublisherScreen.name;
   };
@@ -12856,6 +14877,11 @@ var MediaLoader = /*#__PURE__*/function () {
     key: "isAttendeeStream",
     get: function get() {
       return MediaLoader.isAttendeeStream(this.item);
+    }
+  }, {
+    key: "isSmartDeviceStream",
+    get: function get() {
+      return MediaLoader.isSmartDeviceStream(this.item);
     }
   }, {
     key: "isPublisherScreen",
@@ -13161,6 +15187,10 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
     return stream.clientInfo && stream.clientInfo.role === RoleType.Attendee;
   };
 
+  MediaMesh.isSmartDeviceStream = function isSmartDeviceStream(stream) {
+    return stream.clientInfo && stream.clientInfo.role === RoleType.SmartDevice;
+  };
+
   MediaMesh.isPublisherScreen = function isPublisherScreen(stream) {
     return stream.clientInfo && stream.clientInfo.role === RoleType.Publisher && stream.clientInfo.uid !== stream.getId();
   };
@@ -13179,6 +15209,10 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
 
       case AssetType.AttendeeStream.name:
         matcher = this.isAttendeeStream;
+        break;
+
+      case AssetType.SmartDeviceStream.name:
+        matcher = this.isSmartDeviceStream;
         break;
 
       case AssetType.PublisherScreen.name:
@@ -13769,7 +15803,8 @@ var orbitMoveEvent = new OrbitMoveEvent();
 var orbitDragEvent = new OrbitDragEvent();
 var orbitResizeEvent = new OrbitResizeEvent();
 var DOLLY_MIN = 15;
-var DOLLY_MAX = 75;
+var DOLLY_MAX = 75; // 115
+
 var ZOOM_MIN = 15;
 var ZOOM_MAX = 75;
 
@@ -15492,7 +17527,7 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
           this.orbit.setOrientation(message.orientation);
           this.orbit.zoom = message.zoom;
           this.camera.updateProjectionMatrix();
-        } else {
+        } else if (!view.keepOrientation) {
           this.orbit.setOrientation(view.orientation);
           this.orbit.zoom = view.zoom;
           this.camera.updateProjectionMatrix();
@@ -16077,7 +18112,9 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
   _proto.onMenuNav = function onMenuNav(event) {
     // console.log('WorldComponent.onMenuNav', event.id, event);
     this.menu = undefined;
-    this.navTo.next(event.id);
+    this.navTo.next({
+      viewId: event.id
+    });
   };
 
   _proto.onMenuToggle = function onMenuToggle(event) {
@@ -16130,7 +18167,7 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
       this.resizeItem = event;
       this.select.next(event);
     } else {
-      this.navTo.next(event.item.viewId);
+      this.navTo.next(event.item);
     }
   };
 
@@ -16500,166 +18537,7 @@ WorldComponent.meta = {
   selector: '[world]',
   inputs: ['view', 'views', 'editor'],
   outputs: ['navTo', 'viewHit', 'dragEnd', 'resizeEnd', 'select']
-};var FreezableSprite = /*#__PURE__*/function (_THREE$Sprite) {
-  _inheritsLoose(FreezableSprite, _THREE$Sprite);
-
-  _createClass(FreezableSprite, [{
-    key: "freezed",
-    get: function get() {
-      return this.freezed_;
-    },
-    set: function set(freezed) {
-      // !!! cycle through freezable and not freezable
-      this.freezed_ = freezed;
-      this.children.filter(function (x) {
-        return x.__lookupGetter__('freezed');
-      }).forEach(function (x) {
-        return x.freezed = freezed;
-      });
-    }
-  }]);
-
-  function FreezableSprite(material) {
-    var _this;
-
-    material = material || new THREE.SpriteMaterial({
-      color: 0xff00ff // opacity: 1,
-      // transparent: true,
-
-    });
-    _this = _THREE$Sprite.call(this, material) || this;
-    _this.freezed = false;
-    return _this;
-  }
-
-  var _proto = FreezableSprite.prototype;
-
-  _proto.freeze = function freeze() {
-    this.freezed = true;
-  };
-
-  _proto.unfreeze = function unfreeze() {
-    this.freezed = false;
-  };
-
-  return FreezableSprite;
-}(THREE.Sprite);var EmittableSprite = /*#__PURE__*/function (_FreezableSprite) {
-  _inheritsLoose(EmittableSprite, _FreezableSprite);
-
-  function EmittableSprite(material) {
-    var _this;
-
-    material = material || new THREE.SpriteMaterial({
-      color: 0xff00ff // opacity: 1,
-      // transparent: true,
-
-    });
-    _this = _FreezableSprite.call(this, material) || this;
-    _this.events = {};
-    return _this;
-  }
-
-  var _proto = EmittableSprite.prototype;
-
-  _proto.on = function on(type, callback) {
-    var _this2 = this;
-
-    var event = this.events[type] = this.events[type] || [];
-    event.push(callback);
-    return function () {
-      _this2.events[type] = event.filter(function (x) {
-        return x !== callback;
-      });
-    };
-  };
-
-  _proto.off = function off(type, callback) {
-    var event = this.events[type];
-
-    if (event) {
-      this.events[type] = event.filter(function (x) {
-        return x !== callback;
-      });
-    }
-  };
-
-  _proto.emit = function emit(type, data) {
-    var event = this.events[type];
-
-    if (event) {
-      event.forEach(function (callback) {
-        // callback.call(this, data);
-        callback(data);
-      });
-    }
-
-    var broadcast = this.events.broadcast;
-
-    if (broadcast) {
-      broadcast.forEach(function (callback) {
-        callback(type, data);
-      });
-    }
-  };
-
-  return EmittableSprite;
-}(FreezableSprite);var InteractiveSprite = /*#__PURE__*/function (_EmittableSprite) {
-  _inheritsLoose(InteractiveSprite, _EmittableSprite);
-
-  function InteractiveSprite(material) {
-    var _this;
-
-    _this = _EmittableSprite.call(this, material) || this;
-    _this.depthTest = true;
-    _this.over_ = false;
-    _this.down_ = false;
-    Interactive.items.push(_assertThisInitialized(_this));
-    return _this;
-  }
-
-  _createClass(InteractiveSprite, [{
-    key: "over",
-    get: function get() {
-      return this.over_;
-    },
-    set: function set(over) {
-      if (this.over_ != over) {
-        this.over_ = over;
-        /*
-        if (over) {
-        	this.emit('hit', this);
-        }
-        */
-
-        if (over) {
-          this.emit('over', this);
-        } else {
-          this.emit('out', this);
-        }
-      }
-    }
-  }, {
-    key: "down",
-    get: function get() {
-      return this.down_;
-    },
-    set: function set(down) {
-      down = down && this.over;
-
-      if (this.down_ != down) {
-        this.down_ = down;
-
-        if (down) {
-          this.emit('down', this);
-        } else {
-          this.emit('up', this);
-        }
-      }
-    }
-  }]);
-
-  return InteractiveSprite;
-}(EmittableSprite);var deg = THREE.Math.degToRad;
+};var deg = THREE.Math.degToRad;
 var GEOMETRY = new THREE.BoxBufferGeometry(1, 1, 1); // const GEOMETRY = new THREE.IcosahedronBufferGeometry(0.5, 1);
 
 var ModelComponent = /*#__PURE__*/function (_Component) {
@@ -16788,7 +18666,7 @@ var ModelComponent = /*#__PURE__*/function (_Component) {
 
   _proto.disposeObject = function disposeObject(object) {
     object.traverse(function (child) {
-      if (child instanceof InteractiveMesh || child instanceof InteractiveSprite) {
+      if (child.isInteractiveMesh || child.isInteractiveSprite) {
         Interactive.dispose(child);
       }
 
@@ -18589,27 +20467,33 @@ ModelMenuComponent.meta = {
     var _this2 = this;
 
     // this.renderOrder = environment.renderOrder.model;
-    this.loadGltfModel(environment.getPath(this.item.asset.folder), this.item.asset.file, function (mesh) {
-      _this2.onGltfModelLoaded(mesh, mount, dismount);
+    this.loadGlb(environment.getPath(this.item.asset.folder), this.item.asset.file, function (mesh, animations) {
+      _this2.onGlbLoaded(mesh, animations, mount, dismount);
     });
   };
 
-  _proto.loadGltfModel = function loadGltfModel(path, file, callback) {
+  _proto.loadGlb = function loadGlb(path, file, callback) {
     var renderer = this.host.renderer; // const roughnessMipmapper = new RoughnessMipmapper(renderer); // optional
 
     var progressRef = LoaderService.getRef(); // console.log('progressRef');
 
-    var loader = new THREE.GLTFLoader().setPath(path);
-    loader.load(file, function (gltf) {
+    var loader = new THREE.GLTFLoader().setPath(path); // Optional: Provide a DRACOLoader instance to decode compressed mesh data
+
+    var decoderPath = environment.assets + "js/draco/"; // console.log(decoderPath);
+
+    var dracoLoader = new THREE.DRACOLoader();
+    dracoLoader.setDecoderPath(decoderPath);
+    loader.setDRACOLoader(dracoLoader);
+    loader.load(file, function (glb) {
       /*
-      gltf.scene.traverse((child) => {
+      glb.scene.traverse((child) => {
       	if (child.isMesh) {
       		// roughnessMipmapper.generateMipmaps(child.material);
       	}
       });
       */
       if (typeof callback === 'function') {
-        callback(gltf.scene);
+        callback(glb.scene, glb.animations);
       }
 
       LoaderService.setProgress(progressRef, 1); // this.progress = null;
@@ -18631,10 +20515,79 @@ ModelMenuComponent.meta = {
     });
   };
 
-  _proto.onGltfModelLoaded = function onGltfModelLoaded(mesh, mount, dismount) {
+  _proto.parseAnimations = function parseAnimations(mesh, animations) {
+    // animations
+    // console.log('ModelModelComponent.onGlbLoaded', 'animations', animations);
+    var actionIndex = this.actionIndex = -1;
+    var actions = this.actions = [];
+
+    if (animations && animations.length) {
+      var clock = this.clock = new THREE.Clock();
+      var mixer = this.mixer = new THREE.AnimationMixer(mesh);
+      mixer.timeScale = 1;
+      animations.forEach(function (animation) {
+        var action = mixer.clipAction(animation);
+        action.enabled = true;
+        action.setEffectiveTimeScale(1);
+        action.setEffectiveWeight(1); // action.setLoop(THREE.LoopPingPong);
+
+        action.setLoop(THREE.LoopRepeat); // action.clampWhenFinished = true; // pause on last frame
+
+        actions.push(action);
+      });
+    }
+  };
+
+  _proto.onClipToggle = function onClipToggle() {
+    var actions = this.actions;
+
+    if (actions.length === 1) {
+      var action = actions[0];
+
+      if (this.actionIndex === -1) {
+        this.actionIndex = 0;
+
+        if (action.paused || action.timeScale === 0) {
+          action.paused = false;
+        } else {
+          action.play();
+        }
+      } else if (this.actionIndex === 0) {
+        this.actionIndex = -1;
+        action.halt(0.3);
+      }
+    } else if (actions.length > 1) {
+      if (this.actionIndex > -1 && this.actionIndex < actions.length) {
+        var previousClip = actions[this.actionIndex];
+        previousClip.halt(0.3);
+      }
+
+      this.actionIndex++;
+
+      if (this.actionIndex === actions.length) {
+        this.actionIndex = -1; // nothing
+      } else {
+        var _action = actions[this.actionIndex]; // console.log(this.actionIndex, action);
+
+        if (_action.paused) {
+          _action.paused = false;
+        }
+
+        if (_action.timeScale === 0) {
+          _action.timeScale = 1;
+        }
+
+        _action.play();
+      }
+    }
+  };
+
+  _proto.onGlbLoaded = function onGlbLoaded(mesh, animations, mount, dismount) {
     var _this3 = this;
 
-    // scale
+    // animations
+    this.parseAnimations(mesh, animations); // scale
+
     var box = new THREE.Box3().setFromObject(mesh);
     var size = box.max.clone().sub(box.min);
     var max = Math.max(size.x, size.y, size.z);
@@ -18778,6 +20731,14 @@ ModelMenuComponent.meta = {
         }
       }
     }
+
+    var mixer = this.mixer;
+    var clock = this.clock;
+
+    if (mixer) {
+      var delta = clock.getDelta();
+      mixer.update(delta);
+    }
   } // called by UpdateViewItemComponent
   ;
 
@@ -18807,8 +20768,8 @@ ModelMenuComponent.meta = {
     var _this4 = this;
 
     // console.log('ModelModelComponent.onUpdateAsset', item);
-    this.loadGltfModel(environment.getPath(item.asset.folder), item.asset.file, function (mesh) {
-      _this4.onGltfModelLoaded(mesh, function (mesh, item) {
+    this.loadGlb(environment.getPath(item.asset.folder), item.asset.file, function (mesh, animations) {
+      _this4.onGlbLoaded(mesh, animations, function (mesh, item) {
         return _this4.onMount(mesh, item);
       }, function (mesh, item) {
         return _this4.onDismount(mesh, item);
@@ -18849,34 +20810,75 @@ ModelMenuComponent.meta = {
     this.editing = false;
   };
 
+  ModelModelComponent.getInteractiveDescriptors = function getInteractiveDescriptors() {
+    var descriptors = ModelModelComponent.interactiveDescriptors;
+
+    if (!descriptors) {
+      var freezableDescriptors = Object.getOwnPropertyDescriptors(FreezableMesh.prototype);
+      var emittableDescriptors = Object.getOwnPropertyDescriptors(EmittableMesh.prototype);
+      var interactiveDescriptors = Object.getOwnPropertyDescriptors(InteractiveMesh.prototype);
+      descriptors = Object.assign({}, freezableDescriptors, emittableDescriptors, interactiveDescriptors);
+      ModelModelComponent.interactiveDescriptors = descriptors;
+    }
+
+    return descriptors;
+  };
+
   _proto.makeInteractive = function makeInteractive(mesh) {
     var _this5 = this;
 
-    var newChild = null;
+    var interactiveDescriptors = ModelModelComponent.getInteractiveDescriptors();
     mesh.traverse(function (child) {
-      if (newChild === null && child.isMesh && !(child instanceof InteractiveMesh)) {
-        // roughnessMipmapper.generateMipmaps(child.material);
-        var parent = child.parent;
-        newChild = new InteractiveMesh(child.geometry, child.material); // newChild.depthTest = true;
-        // newChild.renderOrder = 0;
+      if (child.isMesh) {
+        Object.keys(interactiveDescriptors).forEach(function (key) {
+          if (key !== 'constructor') {
+            Object.defineProperty(child, key, interactiveDescriptors[key]);
+          }
+        });
+        child.freezed = false;
+        child.events = {};
+        child.depthTest = true;
+        child.over_ = false;
+        child.down_ = false;
+        Interactive.items.push(child);
+        child.on('down', function () {
+          // console.log('ModelModelComponent.down', child);
+          _this5.onClipToggle();
 
-        newChild.name = child.name;
-        newChild.position.copy(child.position);
-        newChild.rotation.copy(child.rotation);
-        newChild.scale.copy(child.scale);
-        newChild.on('down', function () {
-          // console.log('ModelModelComponent.down');
           _this5.down.next(_this5);
         });
-        parent.remove(child);
-        parent.add(newChild);
       }
     });
-
-    if (newChild !== null) {
-      this.makeInteractive(mesh);
-    }
-  };
+  }
+  /*
+  makeInteractive__(mesh) {
+  	let newChild = null;
+  	mesh.traverse((child) => {
+  		if (newChild === null && child.isMesh && !(child.isInteractiveMesh)) {
+  			// roughnessMipmapper.generateMipmaps(child.material);
+  			const parent = child.parent;
+  			newChild = new InteractiveMesh(child.geometry, child.material);
+  			// newChild.depthTest = true;
+  			// newChild.renderOrder = 0;
+  			newChild.name = child.name;
+  			newChild.position.copy(child.position);
+  			newChild.rotation.copy(child.rotation);
+  			newChild.scale.copy(child.scale);
+  			newChild.on('down', () => {
+  				// console.log('ModelModelComponent.down');
+  				this.onClipToggle();
+  				this.down.next(this);
+  			});
+  			parent.remove(child);
+  			parent.add(newChild);
+  		}
+  	});
+  	if (newChild !== null) {
+  		this.makeInteractive(mesh);
+  	}
+  }
+  */
+  ;
 
   _createClass(ModelModelComponent, [{
     key: "freezed",
@@ -18896,7 +20898,7 @@ ModelMenuComponent.meta = {
 
         if (mesh) {
           mesh.traverse(function (child) {
-            if (child instanceof InteractiveMesh) {
+            if (child.isInteractiveMesh) {
               child.freezed = freezed;
             }
           });
@@ -19286,7 +21288,171 @@ ModelNavComponent.meta = {
   },
   outputs: ['over', 'out', 'down'],
   inputs: ['item', 'view']
-};var ModelPanelComponent = /*#__PURE__*/function (_ModelComponent) {
+};var FreezableSprite = /*#__PURE__*/function (_THREE$Sprite) {
+  _inheritsLoose(FreezableSprite, _THREE$Sprite);
+
+  _createClass(FreezableSprite, [{
+    key: "freezed",
+    get: function get() {
+      return this.freezed_;
+    },
+    set: function set(freezed) {
+      // !!! cycle through freezable and not freezable
+      this.freezed_ = freezed;
+      this.children.filter(function (x) {
+        return x.__lookupGetter__('freezed');
+      }).forEach(function (x) {
+        return x.freezed = freezed;
+      });
+    }
+  }]);
+
+  function FreezableSprite(material) {
+    var _this;
+
+    material = material || new THREE.SpriteMaterial({
+      color: 0xff00ff // opacity: 1,
+      // transparent: true,
+
+    });
+    _this = _THREE$Sprite.call(this, material) || this;
+    _this.freezed = false;
+    return _this;
+  }
+
+  var _proto = FreezableSprite.prototype;
+
+  _proto.freeze = function freeze() {
+    this.freezed = true;
+  };
+
+  _proto.unfreeze = function unfreeze() {
+    this.freezed = false;
+  };
+
+  return FreezableSprite;
+}(THREE.Sprite);var EmittableSprite = /*#__PURE__*/function (_FreezableSprite) {
+  _inheritsLoose(EmittableSprite, _FreezableSprite);
+
+  function EmittableSprite(material) {
+    var _this;
+
+    material = material || new THREE.SpriteMaterial({
+      color: 0xff00ff // opacity: 1,
+      // transparent: true,
+
+    });
+    _this = _FreezableSprite.call(this, material) || this;
+    _this.events = {};
+    return _this;
+  }
+
+  var _proto = EmittableSprite.prototype;
+
+  _proto.on = function on(type, callback) {
+    var _this2 = this;
+
+    var event = this.events[type] = this.events[type] || [];
+    event.push(callback);
+    return function () {
+      _this2.events[type] = event.filter(function (x) {
+        return x !== callback;
+      });
+    };
+  };
+
+  _proto.off = function off(type, callback) {
+    var event = this.events[type];
+
+    if (event) {
+      this.events[type] = event.filter(function (x) {
+        return x !== callback;
+      });
+    }
+  };
+
+  _proto.emit = function emit(type, data) {
+    var event = this.events[type];
+
+    if (event) {
+      event.forEach(function (callback) {
+        // callback.call(this, data);
+        callback(data);
+      });
+    }
+
+    var broadcast = this.events.broadcast;
+
+    if (broadcast) {
+      broadcast.forEach(function (callback) {
+        callback(type, data);
+      });
+    }
+  };
+
+  return EmittableSprite;
+}(FreezableSprite);var InteractiveSprite = /*#__PURE__*/function (_EmittableSprite) {
+  _inheritsLoose(InteractiveSprite, _EmittableSprite);
+
+  function InteractiveSprite(material) {
+    var _this;
+
+    _this = _EmittableSprite.call(this, material) || this;
+    _this.depthTest = true;
+    _this.over_ = false;
+    _this.down_ = false;
+    Interactive.items.push(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(InteractiveSprite, [{
+    key: "isInteractiveSprite",
+    get: function get() {
+      return true;
+    }
+  }, {
+    key: "over",
+    get: function get() {
+      return this.over_;
+    },
+    set: function set(over) {
+      if (this.over_ != over) {
+        this.over_ = over;
+        /*
+        if (over) {
+        	this.emit('hit', this);
+        }
+        */
+
+        if (over) {
+          this.emit('over', this);
+        } else {
+          this.emit('out', this);
+        }
+      }
+    }
+  }, {
+    key: "down",
+    get: function get() {
+      return this.down_;
+    },
+    set: function set(down) {
+      down = down && this.over;
+
+      if (this.down_ != down) {
+        this.down_ = down;
+
+        if (down) {
+          this.emit('down', this);
+        } else {
+          this.emit('up', this);
+        }
+      }
+    }
+  }]);
+
+  return InteractiveSprite;
+}(EmittableSprite);var ModelPanelComponent = /*#__PURE__*/function (_ModelComponent) {
   _inheritsLoose(ModelPanelComponent, _ModelComponent);
 
   function ModelPanelComponent() {
@@ -20208,6 +22374,6 @@ ModelTextComponent.meta = {
 }(rxcomp.Module);
 AppModule.meta = {
   imports: [rxcomp.CoreModule, rxcompForm.FormModule, EditorModule],
-  declarations: [AccessComponent, AgoraComponent, AgoraDeviceComponent, AgoraDevicePreviewComponent, AgoraLinkComponent, AgoraLoginComponent, AgoraNameComponent, AgoraStreamComponent, AssetPipe, ControlAssetComponent, ControlMenuComponent, ControlModelComponent, ControlAssetsComponent, ControlLocalizedAssetComponent, ControlCheckboxComponent, ControlCustomSelectComponent, ControlLinkComponent, ControlNumberComponent, ControlPasswordComponent, ControlRequestModalComponent, ControlSelectComponent, ControlTextComponent, ControlTextareaComponent, ControlVectorComponent, ControlsComponent, DisabledDirective, DropDirective, DropdownDirective, DropdownItemDirective, ErrorsComponent, HtmlPipe, HlsDirective, IdDirective, InputValueComponent, LabelPipe, LazyDirective, LayoutComponent, ModalComponent, ModalOutletComponent, ModelBannerComponent, ModelComponent, ModelCurvedPlaneComponent, ModelDebugComponent, ModelModelComponent, ModelGridComponent, ModelMenuComponent, ModelNavComponent, ModelPanelComponent, ModelPictureComponent, ModelPlaneComponent, ModelProgressComponent, ModelRoomComponent, ModelTextComponent, SvgIconStructure, TestComponent, TryInARComponent, TryInARModalComponent, UploadItemComponent, ValueDirective, WorldComponent],
+  declarations: [AccessCodeComponent, AccessComponent, AgoraChatComponent, AgoraCheckComponent, AgoraChecklistComponent, AgoraComponent, AgoraDeviceComponent, AgoraDevicePreviewComponent, AgoraLinkComponent, AgoraLoginComponent, AgoraNameComponent, AgoraStreamComponent, AssetPipe, ControlAssetComponent, ControlAssetsComponent, ControlCheckboxComponent, ControlCustomSelectComponent, ControlLinkComponent, ControlLocalizedAssetComponent, ControlMenuComponent, ControlModelComponent, ControlNumberComponent, ControlPasswordComponent, ControlRequestModalComponent, ControlsComponent, ControlSelectComponent, ControlTextareaComponent, ControlTextComponent, ControlVectorComponent, DisabledDirective, DropDirective, DropdownDirective, DropdownItemDirective, ErrorsComponent, FlagPipe, HlsDirective, HtmlPipe, IdDirective, InputValueComponent, LabelPipe, LayoutComponent, LazyDirective, ModalComponent, ModalOutletComponent, ModelBannerComponent, ModelComponent, ModelCurvedPlaneComponent, ModelDebugComponent, ModelGridComponent, ModelMenuComponent, ModelModelComponent, ModelNavComponent, ModelPanelComponent, ModelPictureComponent, ModelPlaneComponent, ModelProgressComponent, ModelRoomComponent, ModelTextComponent, SlugPipe, SvgIconStructure, TestComponent, TryInARComponent, TryInARModalComponent, UploadItemComponent, ValueDirective, VirtualStructure, WorldComponent],
   bootstrap: AppComponent
 };rxcomp.Browser.bootstrap(AppModule);})));
