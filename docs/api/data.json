@@ -107,8 +107,8 @@
         "id": 23569487071800
       },
       "orientation": {
-        "latitude": 2.5,
-        "longitude": 359.59999999999997
+        "latitude": -0.8000000000000003,
+        "longitude": 359.9
       },
       "zoom": 75,
       "id": 23571698022700,
@@ -119,9 +119,9 @@
             "name": "curved-plane"
           },
           "position": [
-            16.599260639473528,
-            0.04294748718817458,
-            0.16652143329681363
+            3,
+            -3.000000000000003,
+            0
           ],
           "rotation": [
             2.889183564999453,
@@ -134,8 +134,8 @@
             1,
             1
           ],
-          "radius": 35,
-          "height": 30,
+          "radius": 45,
+          "height": 40,
           "arc": 90,
           "asset": {
             "type": {
@@ -143,7 +143,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "76199945496000_Greta doppia_lq2.mp4",
+            "file": "77184483725500_Greta tripla_lq2.mp4",
             "id": 76199959361600,
             "chromaKeyColor": [
               0,
@@ -1186,7 +1186,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "76199945496000_Greta doppia_lq2.mp4",
+      "file": "77184483725500_Greta tripla_lq2.mp4",
       "id": 76199959361600,
       "chromaKeyColor": [
         0,
