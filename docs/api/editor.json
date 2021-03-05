@@ -11203,13 +11203,13 @@
           ],
           "asset": {
             "type": {
-              "id": 7,
-              "name": "attendee-screen",
-              "file": "attendeeScreen"
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
             },
             "folder": "",
-            "file": "attendeeScreen",
-            "id": 158827864203500,
+            "file": "nextAttendeeStream",
+            "id": 158921836517600,
             "chromaKeyColor": null,
             "index": 0
           },
@@ -14971,6 +14971,17 @@
       "folder": "",
       "file": "attendeeScreen",
       "id": 158827864203500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 158921836517600,
       "chromaKeyColor": null
     }
   ],
