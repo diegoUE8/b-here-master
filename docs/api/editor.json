@@ -11203,15 +11203,15 @@
           ],
           "asset": {
             "type": {
-              "id": 4,
-              "name": "publisher-stream",
-              "file": "publisherStream"
+              "id": 7,
+              "name": "attendee-screen",
+              "file": "attendeeScreen"
             },
             "folder": "",
-            "file": "publisherStream",
-            "id": 157757572130500,
+            "file": "attendeeScreen",
+            "id": 158827864203500,
             "chromaKeyColor": null,
-            "index": 1
+            "index": 0
           },
           "id": 157440755324300
         }
@@ -14949,6 +14949,28 @@
       "folder": "",
       "file": "publisherStream",
       "id": 157757572130500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 8,
+        "name": "smart-device-stream",
+        "file": "smartDeviceStream"
+      },
+      "folder": "",
+      "file": "smartDeviceStream",
+      "id": 158807262194900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 7,
+        "name": "attendee-screen",
+        "file": "attendeeScreen"
+      },
+      "folder": "",
+      "file": "attendeeScreen",
+      "id": 158827864203500,
       "chromaKeyColor": null
     }
   ],
