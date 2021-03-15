@@ -40,17 +40,7 @@ export const environmentStatic = {
 	},
 	assets: '/b-here/',
 	worker: './js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws/docs/',
-	language: '',
-	market: '',
-	url: {
-		index: '/',
-		access: '/',
-		editor: '/editor',
-		selfServiceTour: '/self-service-tour',
-		guidedTour: '/guided-tour',
-		accessCode: '/access-code',
-	},
+	githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',
 		modal: {
@@ -72,6 +62,4 @@ export const environmentStatic = {
 			remove: '/remove-modal.html',
 		}
 	},
-	languages: ['en'],
-	defaultLanguage: 'en',
 };
