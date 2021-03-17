@@ -19,7 +19,7 @@ export const environmentStatic = {
 		smartDevice: true,
 		maxQuality: false,
 	},
-	logo: null, //'/b-here/img/logo.png'
+	logo: '/b-here/img/logo.png',
 	background: {
 		image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
@@ -41,16 +41,6 @@ export const environmentStatic = {
 	assets: '/b-here/',
 	worker: './js/workers/image.service.worker.js',
 	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/more/docs/',
-	language: '',
-	market: '',
-	url: {
-		index: '/',
-		access: '/',
-		editor: '/editor',
-		selfServiceTour: '/self-service-tour',
-		guidedTour: '/guided-tour',
-		accessCode: '/access-code',
-	},
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',
 		modal: {
@@ -72,6 +62,4 @@ export const environmentStatic = {
 			remove: '/remove-modal.html',
 		}
 	},
-	languages: ['en'],
-	defaultLanguage: 'en',
 };
