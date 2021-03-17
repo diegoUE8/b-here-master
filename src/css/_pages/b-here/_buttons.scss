@@ -429,10 +429,18 @@
 }
 
 .btn--absolute {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	z-index: 10000;
+	height: auto;
+	min-height: auto;
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+	svg {
+		width: 12px;
+  		height: 12px;
+  		margin: 0 -5px 2px 5px;
+	}
 }
 
 .btn--cancel,
