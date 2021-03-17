@@ -10946,21 +10946,21 @@
         "id": 5,
         "name": "model"
       },
-      "name": "Maggiolino",
+      "name": "Shark",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "60152337681200_AdobeStock_410699925.jpeg",
+        "file": "90310044718100_AdobeStock_234993308.jpeg",
         "id": 60115238480000
       },
       "orientation": {
-        "latitude": 24.400000000000002,
-        "longitude": 249.39999999999992
+        "latitude": 10.500000000000002,
+        "longitude": 124.59999999999991
       },
-      "zoom": 33.9473,
+      "zoom": 48.404,
       "id": 60124349530900,
       "items": [
         {
@@ -10974,7 +10974,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "62311756061000_beetlefusca.glb",
+            "file": "90355315795700_ReefShark2.glb",
             "id": 60098233644600,
             "chromaKeyColor": null
           },
@@ -10991,7 +10991,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "62350570468300_BeetleFusca_Version_1.usdz",
+          "file": "90390684019900_Model_54A_-_Caribbean_Reef_Shark.usdz",
           "id": 62350584436500
         },
         "gltf": {
@@ -11000,7 +11000,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "62356891638100_beetlefusca.glb",
+          "file": "90397747696500_ReefShark2.glb",
           "id": 62356927542000
         }
       }
@@ -11491,7 +11491,7 @@
       "id": 62370351208800,
       "parentId": 514006762002499,
       "viewId": 60124349530900,
-      "name": "Maggiolino",
+      "name": "Shark",
       "order": 60
     }
   ],
@@ -14817,7 +14817,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "62311756061000_beetlefusca.glb",
+      "file": "90355315795700_ReefShark2.glb",
       "id": 60098233644600,
       "chromaKeyColor": null
     },
@@ -14827,7 +14827,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "60152337681200_AdobeStock_410699925.jpeg",
+      "file": "90310044718100_AdobeStock_234993308.jpeg",
       "id": 60115238480000
     },
     {
@@ -14836,7 +14836,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "62350570468300_BeetleFusca_Version_1.usdz",
+      "file": "90390684019900_Model_54A_-_Caribbean_Reef_Shark.usdz",
       "id": 62350584436500
     },
     {
@@ -14845,7 +14845,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "62356891638100_beetlefusca.glb",
+      "file": "90397747696500_ReefShark2.glb",
       "id": 62356927542000
     },
     {
