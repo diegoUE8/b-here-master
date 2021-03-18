@@ -11218,6 +11218,182 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Moco Museum 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "176003307668500_MocoMuseum1.jpg",
+        "id": 176003332358400
+      },
+      "orientation": {
+        "latitude": -0.1,
+        "longitude": 356.1
+      },
+      "zoom": 75,
+      "id": 176009598834200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 176023042993100,
+          "keepOrientation": false,
+          "position": [
+            -0.9676319544942293,
+            -0.25142371312173073,
+            -0.02178341391424685
+          ],
+          "asset": null,
+          "link": null,
+          "id": 176055203282600
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Moco Museum 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "176021615013000_MocoMuseum2.jpg",
+        "id": 176021637276000
+      },
+      "orientation": {
+        "latitude": -8.7,
+        "longitude": 73.59999999999995
+      },
+      "zoom": 75,
+      "id": 176023042993100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 176009598834200,
+          "keepOrientation": false,
+          "position": [
+            -0.05618530953904369,
+            -0.2676098166616514,
+            -0.9618878297485208
+          ],
+          "asset": null,
+          "link": null,
+          "id": 176039891275400
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Uffizi 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "176066127242000_uffizi1.jpg",
+        "id": 176066146184500
+      },
+      "orientation": {
+        "latitude": -2.2,
+        "longitude": 353.9
+      },
+      "zoom": 75,
+      "id": 176070093236500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 176084885504300,
+          "keepOrientation": false,
+          "position": [
+            0.9651552054457768,
+            -0.2472882971363572,
+            0.0855799480037294
+          ],
+          "asset": null,
+          "link": null,
+          "id": 176118440821100
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Uffizi 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "176079583828700_uffizi2.jpg",
+        "id": 176079601898500
+      },
+      "orientation": {
+        "latitude": -1.0999999999999992,
+        "longitude": 218.39999999999998
+      },
+      "zoom": 75,
+      "id": 176084885504300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 176070093236500,
+          "keepOrientation": false,
+          "position": [
+            0.9558012023443713,
+            -0.2621357290822082,
+            0.1331499948764303
+          ],
+          "asset": null,
+          "link": null,
+          "id": 176109329052000
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -11290,6 +11466,20 @@
       "viewId": 156206904929000,
       "name": "Park",
       "order": 10
+    },
+    {
+      "id": 176129226609200,
+      "parentId": 513759169265300,
+      "viewId": 176009598834200,
+      "name": "Moco Museum",
+      "order": 60
+    },
+    {
+      "id": 176160231382200,
+      "parentId": 513759169265300,
+      "viewId": 176070093236500,
+      "name": "Uffizi",
+      "order": 70
     },
     {
       "id": 513846642724000,
@@ -14983,6 +15173,42 @@
       "file": "nextAttendeeStream",
       "id": 158921836517600,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "176003307668500_MocoMuseum1.jpg",
+      "id": 176003332358400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "176021615013000_MocoMuseum2.jpg",
+      "id": 176021637276000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "176066127242000_uffizi1.jpg",
+      "id": 176066146184500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "176079583828700_uffizi2.jpg",
+      "id": 176079601898500
     }
   ],
   "users": [
