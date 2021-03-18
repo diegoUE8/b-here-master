@@ -10695,13 +10695,14 @@
       "invertAxes": true,
       "flipAxes": false,
       "orientation": {
-        "latitude": -13.600000000000001,
-        "longitude": 357.90000000000003
+        "latitude": -8.100000000000001,
+        "longitude": 21.700000000000045
       },
       "zoom": 75,
       "id": 1374946040706500,
       "items": [],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -23460,6 +23461,433 @@
           "id": 25232329257900
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Slide Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "172253349709100_3d_room_test.jpg",
+        "id": 172253349709100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 156806991970900,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            21.000000000000014,
+            1.8000000000000003,
+            -19.99982359592129
+          ],
+          "rotation": [
+            0.0015128819656310987,
+            0.003918116087333379,
+            -0.000005927636523622236,
+            "XYZ"
+          ],
+          "scale": [
+            26.8,
+            11.8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "502937330335000_websolute.mp4",
+            "id": 502937592501000,
+            "chromaKeyColor": null
+          },
+          "id": 156822887054900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.80000000000001,
+            1.882512403438041,
+            19.99084561182115
+          ],
+          "rotation": [
+            3.1299152313633574,
+            -0.008181017881824166,
+            3.141354269919965,
+            "XYZ"
+          ],
+          "scale": [
+            26.6,
+            11.7,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 298471286880000,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 157071473114800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            35,
+            3.9000000000000026,
+            -6.46366858987755
+          ],
+          "rotation": [
+            1.4964969468556162,
+            -1.5278977472430062,
+            1.496428780127427,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 298877928291200,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 157263124413500
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            35,
+            3.800000000000013,
+            6.600000000000019
+          ],
+          "rotation": [
+            -2.782052872724889,
+            -1.567031431194954,
+            -2.782055206872977,
+            "XYZ"
+          ],
+          "scale": [
+            12.8,
+            7.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 237347209221000,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 157440755324300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175002629547200_stanza1.jpg",
+        "id": 175002650541000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 175007577933200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175022534136200,
+          "keepOrientation": false,
+          "position": [
+            0.9871448827670037,
+            -0.060596093617974925,
+            -0.14789555052522732
+          ],
+          "asset": null,
+          "id": 175163997443500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175020149801600_stanza2.jpg",
+        "id": 175020187849000
+      },
+      "orientation": {
+        "latitude": -3.5999999999999996,
+        "longitude": 177.5
+      },
+      "zoom": 75,
+      "id": 175022534136200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175040003763300,
+          "keepOrientation": false,
+          "position": [
+            -0.988859296805328,
+            0.010702611854569779,
+            -0.14846799392853174
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175194059635200
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175037750137600_stanza3.jpg",
+        "id": 175037809034500
+      },
+      "orientation": {
+        "latitude": -3,
+        "longitude": 178.7
+      },
+      "zoom": 75,
+      "id": 175040003763300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175069066006100,
+          "keepOrientation": false,
+          "position": [
+            -0.9546454851079973,
+            0.010582763385481742,
+            0.2975567221254522
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175212542839300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175064746358400_stanza4.jpg",
+        "id": 175064761109000
+      },
+      "orientation": {
+        "latitude": -3.1999999999999997,
+        "longitude": 1.099999999999966
+      },
+      "zoom": 75,
+      "id": 175069066006100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175089929883400,
+          "keepOrientation": false,
+          "position": [
+            0.9064396201426432,
+            -0.11719440415944996,
+            0.405749536868956
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175237835943100
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175087911133400_stanza5.jpg",
+        "id": 175087928406900
+      },
+      "orientation": {
+        "latitude": -0.5999999999999996,
+        "longitude": 0.6000000000000227
+      },
+      "zoom": 75,
+      "id": 175089929883400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175126876264400,
+          "keepOrientation": false,
+          "position": [
+            0.9938804068623542,
+            -0.032164902344994764,
+            0.10567476478449424
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175253158187800
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175121165352100_stanza6.jpg",
+        "id": 175121176588200
+      },
+      "orientation": {
+        "latitude": 4.3,
+        "longitude": 171.39999999999998
+      },
+      "zoom": 75,
+      "id": 175126876264400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175007577933200,
+          "keepOrientation": false,
+          "position": [
+            -0.9517783577549975,
+            0.05457745027329376,
+            0.30189279493036286
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175150716003200
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -23520,32 +23948,81 @@
       "order": 50
     },
     {
+      "id": 175299540296400,
+      "parentId": 513759169265300,
+      "viewId": null,
+      "name": "IPF",
+      "order": 60
+    },
+    {
+      "id": 175310443484400,
+      "parentId": 175299540296400,
+      "viewId": 175007577933200,
+      "name": "Stanza 1",
+      "order": 0
+    },
+    {
+      "id": 175312117429800,
+      "parentId": 175299540296400,
+      "viewId": 175022534136200,
+      "name": "Stanza 2",
+      "order": 10
+    },
+    {
+      "id": 175312890545400,
+      "parentId": 175299540296400,
+      "viewId": 175040003763300,
+      "name": "Stanza 3",
+      "order": 20
+    },
+    {
+      "id": 175313600679900,
+      "parentId": 175299540296400,
+      "viewId": 175069066006100,
+      "name": "Stanza 4",
+      "order": 30
+    },
+    {
+      "id": 175314289072900,
+      "parentId": 175299540296400,
+      "viewId": 175089929883400,
+      "name": "Stanza 5",
+      "order": 40
+    },
+    {
+      "id": 175315016911300,
+      "parentId": 175299540296400,
+      "viewId": 175126876264400,
+      "name": "Stanza 6",
+      "order": 50
+    },
+    {
       "id": 133270976231600,
       "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 60
+      "order": 70
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 70
+      "order": 80
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 80
+      "order": 90
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 90
+      "order": 100
     },
     {
       "id": 513846642724000,
@@ -23618,25 +24095,32 @@
       "order": 0
     },
     {
+      "id": 172213007076900,
+      "parentId": 513904544668199,
+      "viewId": 156806991970900,
+      "name": "Slide Room",
+      "order": 10
+    },
+    {
       "id": 84276131668299,
       "parentId": 513904544668199,
       "viewId": 83875099535100,
       "name": "Studio TV 1",
-      "order": 10
+      "order": 20
     },
     {
       "id": 513912891850099,
       "parentId": 513904544668199,
       "viewId": 505860010418200,
       "name": "Studio TV 2",
-      "order": 20
+      "order": 30
     },
     {
       "id": 5979484252499,
       "parentId": 513904544668199,
       "viewId": 50,
       "name": "Live 360",
-      "order": 30
+      "order": 40
     },
     {
       "id": 513946905350299,
@@ -29028,6 +29512,69 @@
       "folder": "/uploads/",
       "file": "25232300152400_salice_wind.glb",
       "id": 25232329257900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "172253349709100_3d_room_test.jpg",
+      "id": 172253349709100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175002629547200_stanza1.jpg",
+      "id": 175002650541000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175020149801600_stanza2.jpg",
+      "id": 175020187849000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175037750137600_stanza3.jpg",
+      "id": 175037809034500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175064746358400_stanza4.jpg",
+      "id": 175064761109000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175087911133400_stanza5.jpg",
+      "id": 175087928406900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175121165352100_stanza6.jpg",
+      "id": 175121176588200
     }
   ],
   "users": [
