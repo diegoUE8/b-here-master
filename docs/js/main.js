@@ -17604,11 +17604,13 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var mainLight = new THREE.PointLight(0xffffff);
     mainLight.position.set(-50, 0, -50);
     objects.add(mainLight);
-    var light2 = new THREE.DirectionalLight(0xffe699, 1.5);
+    var light2 = new THREE.DirectionalLight(0xffffff, 1.5); //0xffe699
+
     light2.position.set(40, -40, 40);
     light2.target.position.set(0, 0, 0);
     objects.add(light2);
-    var light3 = new THREE.DirectionalLight(0xffe699, 1);
+    var light3 = new THREE.DirectionalLight(0xffffff, 1); //0xffe699
+
     light3.position.set(0, 50, 0);
     light3.target.position.set(0, 0, 0);
     objects.add(light3);

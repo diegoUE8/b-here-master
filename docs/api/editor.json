@@ -23888,6 +23888,70 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Hi-Interiors",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "498808433730100_AdobeStock_334933669.jpeg",
+        "id": 498808447971700
+      },
+      "orientation": {
+        "latitude": 11.400000000000002,
+        "longitude": 103.9
+      },
+      "zoom": 75,
+      "id": 498833707123600,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "498821528352400_HiCan.glb",
+            "id": 498821542106500,
+            "chromaKeyColor": null
+          },
+          "id": 498833739418000,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "498900375497100_HiCan.usdz",
+          "id": 498900429215400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "498885738313800_HiCan.glb",
+          "id": 498885753454100
+        }
+      }
     }
   ],
   "menu": [
@@ -24282,6 +24346,13 @@
       "viewId": 25195717133500,
       "name": "Wind",
       "order": 20
+    },
+    {
+      "id": 498960069671700,
+      "parentId": 514006762002499,
+      "viewId": 498833707123600,
+      "name": "Hi-Interiors",
+      "order": 90
     },
     {
       "id": 40982979157200,
@@ -29575,6 +29646,42 @@
       "folder": "/uploads/",
       "file": "175121165352100_stanza6.jpg",
       "id": 175121176588200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "498808433730100_AdobeStock_334933669.jpeg",
+      "id": 498808447971700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "498821528352400_HiCan.glb",
+      "id": 498821542106500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "498885738313800_HiCan.glb",
+      "id": 498885753454100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "498900375497100_HiCan.usdz",
+      "id": 498900429215400
     }
   ],
   "users": [
