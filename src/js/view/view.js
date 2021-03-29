@@ -1,6 +1,7 @@
 /* global THREE */
 
 import { Subject } from "rxjs";
+import StateService from "../state/state.service";
 
 export const ViewType = {
 	WaitingRoom: { id: 1, name: 'waiting-room' },
@@ -26,7 +27,7 @@ export class View {
 			Object.assign(this, options);
 			this.updateIndices(options.items);
 		}
-		this.items = (this.items || []).map(item => mapViewItem(item));
+		this.items = (this.items || []).filter(item => filterViewItem(item)).map(item => mapViewItem(item));
 		if (this.tiles) {
 			this.tiles = this.tiles.map(tile => mapViewTile(tile));
 		}
@@ -65,22 +66,22 @@ export class View {
 			items.forEach((item, index) => {
 				item.index = index;
 				if (item.asset) {
-					switch(item.asset.file) {
+					switch (item.asset.file) {
 						case 'publisherStream':
 							item.asset.index = publisherStreamIndex++;
-						break;
+							break;
 						case 'nextAttendeeStream':
 							item.asset.index = attendeeStreamIndex++;
-						break;
+							break;
 						case 'smartDeviceStream':
 							item.asset.index = smartDeviceStream++;
-						break;
+							break;
 						case 'publisherScreen':
 							item.asset.index = publisherScreenIndex++;
-						break;
+							break;
 						case 'attendeeScreen':
 							item.asset.index = attendeeScreenIndex++;
-						break;
+							break;
 					}
 				}
 				/*
@@ -264,6 +265,18 @@ export function mapView(view) {
 	return view;
 }
 
+export function filterViewItem(item) {
+	let flag;
+	switch (item.type.name) {
+		case ViewItemType.Nav.name:
+			flag = item.viewId == null || isNavMove(item) || StateService.state.navigable;
+			break;
+		default:
+			flag = true;
+	}
+	return flag;
+}
+
 export function mapViewItem(item) {
 	switch (item.type.name) {
 		case ViewItemType.Nav.name:
@@ -277,4 +290,12 @@ export function mapViewItem(item) {
 
 export function mapViewTile(tile) {
 	return new ViewTile(tile);
+}
+
+export function isNavMove(item) {
+	return !isValidText(item.title) && !isValidText(item.abstract);
+}
+
+export function isValidText(text) {
+	return text && text.length > 0;
 }
