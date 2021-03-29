@@ -10,18 +10,19 @@ export const environmentServed = {
 		guidedTourRequest: true,
 		editor: false,
 		editorAssetScreen: false,
-		ar: true,
 		menu: true,
 		chat: false,
+		ar: true,
+		like: true,
 		attendee: true,
 		streamer: true,
 		viewer: true,
 		smartDevice: true,
 		maxQuality: false,
 	},
-	logo: null, //'/Modules/B-Here/Client/docs/img/logo.png'
+	logo: null,
 	background: {
-		image: '/Modules/B-Here/Client/docs/img/background.jpg',
+		// image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
 	},
 	colors: {
