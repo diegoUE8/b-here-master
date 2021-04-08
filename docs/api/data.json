@@ -23952,6 +23952,486 @@
           "id": 498885753454100
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Pantofola1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "627813870602100_Unreal Engine Demo 360 2021.04.08 - 15.18.28.39.jpg",
+        "id": 627814074888300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 627816073056600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627839956658500,
+          "keepOrientation": true,
+          "position": [
+            0.7318983178844917,
+            -0.681022498680936,
+            -0.025
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628074041098100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627854966432100,
+          "keepOrientation": true,
+          "position": [
+            0.9001771234069704,
+            -0.435,
+            -0.025
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628086088672000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627869877775400,
+          "keepOrientation": true,
+          "position": [
+            0.9555448151877448,
+            -0.29378429251790444,
+            -0.018997912664321267
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628099509758700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627895538331500,
+          "keepOrientation": true,
+          "position": [
+            0.9808559367879298,
+            -0.1942843366226982,
+            -0.013237364199516875
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628140842054600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Pantofola2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "627837653002000_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
+        "id": 627837677895400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 627839956658500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627816073056600,
+          "keepOrientation": true,
+          "position": [
+            -0.8662577053551727,
+            -0.4995914537393846,
+            -0.00244279826420137
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628168603875200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627895538331500,
+          "keepOrientation": true,
+          "position": [
+            0.974771154231773,
+            -0.22240835128916575,
+            -0.018860597935698727
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628182847125400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627869877775400,
+          "keepOrientation": true,
+          "position": [
+            0.9184112369901678,
+            -0.3953856293740778,
+            -0.013820414416880556
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628193835764200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627854966432100,
+          "keepOrientation": true,
+          "position": [
+            0.7450193600174599,
+            -0.6666749637269512,
+            -0.022150529087193487
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628212717351600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Pantofola3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "627853170599800_Unreal Engine Demo 360 2021.04.08 - 15.21.05.73.jpg",
+        "id": 627853194186200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 627854966432100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627869877775400,
+          "keepOrientation": true,
+          "position": [
+            0.8198496607318824,
+            -0.571643184267485,
+            -0.03272008065925039
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628236807283800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627895538331500,
+          "keepOrientation": true,
+          "position": [
+            0.9530863882825312,
+            -0.30111666707170903,
+            -0.01890451879880478
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628246003999800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627816073056600,
+          "keepOrientation": true,
+          "position": [
+            -0.9455001618192753,
+            -0.32500231161211024,
+            -0.02007340146833614
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628270088696400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627839956658500,
+          "keepOrientation": true,
+          "position": [
+            -0.7947053487234594,
+            -0.6064063519191882,
+            -0.02673471642614204
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628279188595000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Pantofola4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "627867946860200_Unreal Engine Demo 360 2021.04.08 - 15.22.18.61.jpg",
+        "id": 627867966074700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 627869877775400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627895538331500,
+          "keepOrientation": true,
+          "position": [
+            0.8105399039169555,
+            -0.5841202267218844,
+            -0.042762423839940535
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628292766706800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627854966432100,
+          "keepOrientation": true,
+          "position": [
+            -0.7913133101452939,
+            -0.609215052367862,
+            -0.05177127731977426
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628306362208200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627839956658500,
+          "keepOrientation": true,
+          "position": [
+            -0.9428596356803104,
+            -0.33231214637996354,
+            -0.02417322430157224
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628315987426300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627816073056600,
+          "keepOrientation": true,
+          "position": [
+            -0.9787955664661636,
+            -0.20392459959130232,
+            -0.019338995519643017
+          ],
+          "asset": null,
+          "link": null,
+          "id": 628325178080100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Pantofola5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
+        "id": 627893498387000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 627895538331500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627869877775400,
+          "keepOrientation": true,
+          "position": [
+            -0.8087274572648534,
+            -0.588,
+            -0.01
+          ],
+          "asset": null,
+          "link": null,
+          "id": 627922173141700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627854966432100,
+          "keepOrientation": true,
+          "position": [
+            -0.9199801870798354,
+            -0.392,
+            -0.01
+          ],
+          "asset": null,
+          "link": null,
+          "id": 627935936660200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627839956658500,
+          "keepOrientation": true,
+          "position": [
+            -0.9666281044963106,
+            -0.253,
+            -0.01
+          ],
+          "asset": null,
+          "link": null,
+          "id": 627948645791800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 627816073056600,
+          "keepOrientation": true,
+          "position": [
+            -0.976,
+            -0.169,
+            -0.01
+          ],
+          "asset": null,
+          "link": null,
+          "id": 627967381938400
+        }
+      ]
     }
   ],
   "menu": [
@@ -24063,30 +24543,37 @@
     {
       "id": 133270976231600,
       "parentId": 513759169265300,
+      "viewId": 627816073056600,
+      "name": "Pantofola d'oro Showroom",
+      "order": 70
+    },
+    {
+      "id": 628427668587800,
+      "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 70
+      "order": 80
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 80
+      "order": 90
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 90
+      "order": 100
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 100
+      "order": 110
     },
     {
       "id": 513846642724000,
@@ -29682,6 +30169,51 @@
       "folder": "/uploads/",
       "file": "498900375497100_HiCan.usdz",
       "id": 498900429215400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "627813870602100_Unreal Engine Demo 360 2021.04.08 - 15.18.28.39.jpg",
+      "id": 627814074888300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "627837653002000_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
+      "id": 627837677895400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "627853170599800_Unreal Engine Demo 360 2021.04.08 - 15.21.05.73.jpg",
+      "id": 627853194186200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "627867946860200_Unreal Engine Demo 360 2021.04.08 - 15.22.18.61.jpg",
+      "id": 627867966074700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
+      "id": 627893498387000
     }
   ],
   "users": [
