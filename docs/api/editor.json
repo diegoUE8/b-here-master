@@ -1471,33 +1471,6 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Accedi",
-          "abstract": "connettiti con il tuo telefono..",
-          "viewId": 406765685595300,
-          "position": [
-            0.36739081467807216,
-            -0.15539955123244212,
-            -0.9169923493502756
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "6529336183500_code.png",
-            "id": 6529365067199,
-            "chromaKeyColor": null
-          },
-          "link": null,
-          "id": 95244501881700,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
           "title": "Welcome",
           "abstract": null,
           "viewId": 170427763402500,
@@ -20735,70 +20708,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Cathedral",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "41894913953800_AdobeStock_334933730.jpeg",
-        "id": 41894934803500
-      },
-      "orientation": {
-        "latitude": 10,
-        "longitude": 1.5
-      },
-      "zoom": 35.8864,
-      "id": 41916683932400,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "41907824628800_Cathedral.glb",
-            "id": 41907939821100,
-            "chromaKeyColor": null
-          },
-          "id": 41916705463300,
-          "position": null,
-          "rotation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "62434339143800_Cathedral.usdz",
-          "id": 62434394598200
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "41928132838800_Cathedral.glb",
-          "id": 41928417319000
-        }
-      }
-    },
-    {
-      "type": {
         "id": 2,
         "name": "panorama"
       },
@@ -22507,7 +22416,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Reception - Prysmian",
+      "name": "Reception ",
       "asset": {
         "type": {
           "id": 1,
@@ -22539,7 +22448,6 @@
             -0.9074723495325925
           ],
           "asset": null,
-          "link": null,
           "id": 240211527646200
         },
         {
@@ -22557,7 +22465,6 @@
             0.928302823312153
           ],
           "asset": null,
-          "link": null,
           "id": 240268426277800
         },
         {
@@ -22575,7 +22482,6 @@
             0.5970362082569043
           ],
           "asset": null,
-          "link": null,
           "id": 240299708752500
         },
         {
@@ -22593,7 +22499,6 @@
             0.4008037258408196
           ],
           "asset": null,
-          "link": null,
           "id": 240317555552800
         },
         {
@@ -22611,7 +22516,6 @@
             -0.5559401057713561
           ],
           "asset": null,
-          "link": null,
           "id": 240369021539700
         },
         {
@@ -22629,10 +22533,11 @@
             -0.3545160309392535
           ],
           "asset": null,
-          "link": null,
           "id": 298319334358400
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -23625,813 +23530,6 @@
       ],
       "hidden": null,
       "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Stanza 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175002629547200_stanza1.jpg",
-        "id": 175002650541000
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 175007577933200,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": null,
-          "viewId": 175022534136200,
-          "keepOrientation": false,
-          "position": [
-            0.9871448827670037,
-            -0.060596093617974925,
-            -0.14789555052522732
-          ],
-          "asset": null,
-          "id": 175163997443500
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Stanza 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175020149801600_stanza2.jpg",
-        "id": 175020187849000
-      },
-      "orientation": {
-        "latitude": -3.5999999999999996,
-        "longitude": 177.5
-      },
-      "zoom": 75,
-      "id": 175022534136200,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": null,
-          "viewId": 175040003763300,
-          "keepOrientation": false,
-          "position": [
-            -0.988859296805328,
-            0.010702611854569779,
-            -0.14846799392853174
-          ],
-          "asset": null,
-          "link": null,
-          "id": 175194059635200
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Stanza 3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175037750137600_stanza3.jpg",
-        "id": 175037809034500
-      },
-      "orientation": {
-        "latitude": -3,
-        "longitude": 178.7
-      },
-      "zoom": 75,
-      "id": 175040003763300,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": null,
-          "viewId": 175069066006100,
-          "keepOrientation": false,
-          "position": [
-            -0.9546454851079973,
-            0.010582763385481742,
-            0.2975567221254522
-          ],
-          "asset": null,
-          "link": null,
-          "id": 175212542839300
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Stanza 4",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175064746358400_stanza4.jpg",
-        "id": 175064761109000
-      },
-      "orientation": {
-        "latitude": -3.1999999999999997,
-        "longitude": 1.099999999999966
-      },
-      "zoom": 75,
-      "id": 175069066006100,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": null,
-          "viewId": 175089929883400,
-          "keepOrientation": false,
-          "position": [
-            0.9064396201426432,
-            -0.11719440415944996,
-            0.405749536868956
-          ],
-          "asset": null,
-          "link": null,
-          "id": 175237835943100
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Stanza 5",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175087911133400_stanza5.jpg",
-        "id": 175087928406900
-      },
-      "orientation": {
-        "latitude": -0.5999999999999996,
-        "longitude": 0.6000000000000227
-      },
-      "zoom": 75,
-      "id": 175089929883400,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": null,
-          "viewId": 175126876264400,
-          "keepOrientation": false,
-          "position": [
-            0.9938804068623542,
-            -0.032164902344994764,
-            0.10567476478449424
-          ],
-          "asset": null,
-          "link": null,
-          "id": 175253158187800
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Stanza 6",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "175121165352100_stanza6.jpg",
-        "id": 175121176588200
-      },
-      "orientation": {
-        "latitude": 4.3,
-        "longitude": 171.39999999999998
-      },
-      "zoom": 75,
-      "id": 175126876264400,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Next",
-          "abstract": null,
-          "viewId": 175007577933200,
-          "keepOrientation": false,
-          "position": [
-            -0.9517783577549975,
-            0.05457745027329376,
-            0.30189279493036286
-          ],
-          "asset": null,
-          "link": null,
-          "id": 175150716003200
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Hi-Interiors",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "498808433730100_AdobeStock_334933669.jpeg",
-        "id": 498808447971700
-      },
-      "orientation": {
-        "latitude": 11.400000000000002,
-        "longitude": 103.9
-      },
-      "zoom": 75,
-      "id": 498833707123600,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "498821528352400_HiCan.glb",
-            "id": 498821542106500,
-            "chromaKeyColor": null
-          },
-          "id": 498833739418000,
-          "position": null,
-          "rotation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "498900375497100_HiCan.usdz",
-          "id": 498900429215400
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "498885738313800_HiCan.glb",
-          "id": 498885753454100
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Pantofola1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "627813870602100_Unreal Engine Demo 360 2021.04.08 - 15.18.28.39.jpg",
-        "id": 627814074888300
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 627816073056600,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627839956658500,
-          "keepOrientation": true,
-          "position": [
-            0.7318983178844917,
-            -0.681022498680936,
-            -0.025
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628074041098100
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627854966432100,
-          "keepOrientation": true,
-          "position": [
-            0.9001771234069704,
-            -0.435,
-            -0.025
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628086088672000
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627869877775400,
-          "keepOrientation": true,
-          "position": [
-            0.9555448151877448,
-            -0.29378429251790444,
-            -0.018997912664321267
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628099509758700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627895538331500,
-          "keepOrientation": true,
-          "position": [
-            0.9808559367879298,
-            -0.1942843366226982,
-            -0.013237364199516875
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628140842054600
-        }
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Pantofola2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "627837653002000_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
-        "id": 627837677895400
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 627839956658500,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627816073056600,
-          "keepOrientation": true,
-          "position": [
-            -0.8662577053551727,
-            -0.4995914537393846,
-            -0.00244279826420137
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628168603875200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627895538331500,
-          "keepOrientation": true,
-          "position": [
-            0.974771154231773,
-            -0.22240835128916575,
-            -0.018860597935698727
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628182847125400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627869877775400,
-          "keepOrientation": true,
-          "position": [
-            0.9184112369901678,
-            -0.3953856293740778,
-            -0.013820414416880556
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628193835764200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627854966432100,
-          "keepOrientation": true,
-          "position": [
-            0.7450193600174599,
-            -0.6666749637269512,
-            -0.022150529087193487
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628212717351600
-        }
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Pantofola3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "627853170599800_Unreal Engine Demo 360 2021.04.08 - 15.21.05.73.jpg",
-        "id": 627853194186200
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 627854966432100,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627869877775400,
-          "keepOrientation": true,
-          "position": [
-            0.8198496607318824,
-            -0.571643184267485,
-            -0.03272008065925039
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628236807283800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627895538331500,
-          "keepOrientation": true,
-          "position": [
-            0.9530863882825312,
-            -0.30111666707170903,
-            -0.01890451879880478
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628246003999800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627816073056600,
-          "keepOrientation": true,
-          "position": [
-            -0.9455001618192753,
-            -0.32500231161211024,
-            -0.02007340146833614
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628270088696400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627839956658500,
-          "keepOrientation": true,
-          "position": [
-            -0.7947053487234594,
-            -0.6064063519191882,
-            -0.02673471642614204
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628279188595000
-        }
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Pantofola4",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "627867946860200_Unreal Engine Demo 360 2021.04.08 - 15.22.18.61.jpg",
-        "id": 627867966074700
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 627869877775400,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627895538331500,
-          "keepOrientation": true,
-          "position": [
-            0.8105399039169555,
-            -0.5841202267218844,
-            -0.042762423839940535
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628292766706800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627854966432100,
-          "keepOrientation": true,
-          "position": [
-            -0.7913133101452939,
-            -0.609215052367862,
-            -0.05177127731977426
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628306362208200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627839956658500,
-          "keepOrientation": true,
-          "position": [
-            -0.9428596356803104,
-            -0.33231214637996354,
-            -0.02417322430157224
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628315987426300
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627816073056600,
-          "keepOrientation": true,
-          "position": [
-            -0.9787955664661636,
-            -0.20392459959130232,
-            -0.019338995519643017
-          ],
-          "asset": null,
-          "link": null,
-          "id": 628325178080100
-        }
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Pantofola5",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
-        "id": 627893498387000
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 627895538331500,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627869877775400,
-          "keepOrientation": true,
-          "position": [
-            -0.8087274572648534,
-            -0.588,
-            -0.01
-          ],
-          "asset": null,
-          "link": null,
-          "id": 627922173141700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627854966432100,
-          "keepOrientation": true,
-          "position": [
-            -0.9199801870798354,
-            -0.392,
-            -0.01
-          ],
-          "asset": null,
-          "link": null,
-          "id": 627935936660200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627839956658500,
-          "keepOrientation": true,
-          "position": [
-            -0.9666281044963106,
-            -0.253,
-            -0.01
-          ],
-          "asset": null,
-          "link": null,
-          "id": 627948645791800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 627816073056600,
-          "keepOrientation": true,
-          "position": [
-            -0.976,
-            -0.169,
-            -0.01
-          ],
-          "asset": null,
-          "link": null,
-          "id": 627967381938400
-        }
-      ]
     }
   ],
   "menu": [
@@ -24492,88 +23590,32 @@
       "order": 50
     },
     {
-      "id": 175299540296400,
-      "parentId": 513759169265300,
-      "viewId": null,
-      "name": "IPF",
-      "order": 60
-    },
-    {
-      "id": 175310443484400,
-      "parentId": 175299540296400,
-      "viewId": 175007577933200,
-      "name": "Stanza 1",
-      "order": 0
-    },
-    {
-      "id": 175312117429800,
-      "parentId": 175299540296400,
-      "viewId": 175022534136200,
-      "name": "Stanza 2",
-      "order": 10
-    },
-    {
-      "id": 175312890545400,
-      "parentId": 175299540296400,
-      "viewId": 175040003763300,
-      "name": "Stanza 3",
-      "order": 20
-    },
-    {
-      "id": 175313600679900,
-      "parentId": 175299540296400,
-      "viewId": 175069066006100,
-      "name": "Stanza 4",
-      "order": 30
-    },
-    {
-      "id": 175314289072900,
-      "parentId": 175299540296400,
-      "viewId": 175089929883400,
-      "name": "Stanza 5",
-      "order": 40
-    },
-    {
-      "id": 175315016911300,
-      "parentId": 175299540296400,
-      "viewId": 175126876264400,
-      "name": "Stanza 6",
-      "order": 50
-    },
-    {
-      "id": 133270976231600,
-      "parentId": 513759169265300,
-      "viewId": 627816073056600,
-      "name": "Pantofola d'oro Showroom",
-      "order": 70
-    },
-    {
       "id": 628427668587800,
       "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 80
+      "order": 60
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 90
+      "order": 70
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 100
+      "order": 80
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 110
+      "order": 90
     },
     {
       "id": 513846642724000,
@@ -24793,53 +23835,39 @@
       "order": 50
     },
     {
-      "id": 41772132945000,
-      "parentId": 514006762002499,
-      "viewId": 41916683932400,
-      "name": "Cathedral",
-      "order": 60
-    },
-    {
       "id": 41773001862500,
       "parentId": 514006762002499,
       "viewId": 41590724044000,
       "name": "ArtecScan Dress",
-      "order": 70
+      "order": 60
     },
     {
       "id": 25251552423400,
       "parentId": 514006762002499,
       "viewId": null,
-      "name": "Salice",
-      "order": 80
+      "name": "Cerniere",
+      "order": 70
     },
     {
       "id": 25257972192600,
       "parentId": 25251552423400,
       "viewId": 25057327082100,
-      "name": "Silentia Plus",
+      "name": "1",
       "order": 0
     },
     {
       "id": 25259017963300,
       "parentId": 25251552423400,
       "viewId": 25134886131400,
-      "name": "Sincronizzatore Futura Push",
+      "name": "2",
       "order": 10
     },
     {
       "id": 25259801832700,
       "parentId": 25251552423400,
       "viewId": 25195717133500,
-      "name": "Wind",
+      "name": "3",
       "order": 20
-    },
-    {
-      "id": 498960069671700,
-      "parentId": 514006762002499,
-      "viewId": 498833707123600,
-      "name": "Hi-Interiors",
-      "order": 90
     },
     {
       "id": 40982979157200,
@@ -30169,58 +29197,13 @@
       "folder": "/uploads/",
       "file": "498900375497100_HiCan.usdz",
       "id": 498900429215400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "627813870602100_Unreal Engine Demo 360 2021.04.08 - 15.18.28.39.jpg",
-      "id": 627814074888300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "627837653002000_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
-      "id": 627837677895400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "627853170599800_Unreal Engine Demo 360 2021.04.08 - 15.21.05.73.jpg",
-      "id": 627853194186200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "627867946860200_Unreal Engine Demo 360 2021.04.08 - 15.22.18.61.jpg",
-      "id": 627867966074700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
-      "id": 627893498387000
     }
   ],
   "users": [
     {
       "id": "1601892639985",
-      "username": "publisher",
-      "password": "publisher",
+      "username": "cr",
+      "password": "cr",
       "type": "publisher",
       "firstName": "Publisher",
       "lastName": ""
