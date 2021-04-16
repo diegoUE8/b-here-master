@@ -24381,7 +24381,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "172440362911900_1.jpg",
+        "file": "180728609577500_1.jpg",
         "id": 172440865983500
       },
       "orientation": {
@@ -24390,9 +24390,210 @@
       },
       "zoom": 63.1925,
       "id": 172443344490600,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Step 2",
+          "abstract": null,
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            0.6306060058826408,
+            -0.02178640796597182,
+            -0.7757972787865931
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181104842328800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Entrata",
+          "abstract": null,
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            -0.6340227005458109,
+            -0.0939226303732141,
+            0.7675895743796771
+          ],
+          "asset": null,
+          "link": null,
+          "id": 182232199128000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metodo DeCecco",
+          "abstract": null,
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            0.8894972454315822,
+            -0.23842231509266817,
+            0.3898069394398718
+          ],
+          "asset": null,
+          "link": null,
+          "id": 182254806465900
+        }
+      ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "dececco-2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180764418805300_2.jpg",
+        "id": 180764450415400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180765610464400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Step 3",
+          "abstract": null,
+          "viewId": 180785042231500,
+          "keepOrientation": false,
+          "position": [
+            0.6907685569468659,
+            -0.02036158694291124,
+            -0.7227891853858295
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180995692959500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Step1",
+          "abstract": null,
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            -0.7545780995956984,
+            0.002737533559470626,
+            -0.6562045393934387
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181033129606400
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "dececco-3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180782739340100_3.jpg",
+        "id": 180782776730100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180785042231500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Step 2",
+          "abstract": null,
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            -0.6683737236234281,
+            -0.036684776550768745,
+            -0.7429204484594389
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180971851308200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.992546050422032,
+            0.7999999999999998,
+            0.34166044890721625
+          ],
+          "rotation": [
+            -2.5783930916627207,
+            -1.5434935565410264,
+            -2.5785613582195905,
+            "XYZ"
+          ],
+          "scale": [
+            21,
+            9.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "182043041700900_dececco.mp4",
+            "id": 182043316349900,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "182043041700900_dececco.mp4",
+                "id": 182043316349900
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 182044530855000
+        }
+      ]
     }
   ],
   "menu": [
@@ -30182,8 +30383,46 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "172440362911900_1.jpg",
+      "file": "180728609577500_1.jpg",
       "id": 172440865983500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180764418805300_2.jpg",
+      "id": 180764450415400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180782739340100_3.jpg",
+      "id": 180782776730100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "182043041700900_dececco.mp4",
+      "id": 182043316349900,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "182043041700900_dececco.mp4",
+          "id": 182043316349900
+        }
+      }
     }
   ],
   "users": [
