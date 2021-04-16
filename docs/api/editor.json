@@ -20735,70 +20735,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Cathedral",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "41894913953800_AdobeStock_334933730.jpeg",
-        "id": 41894934803500
-      },
-      "orientation": {
-        "latitude": 10,
-        "longitude": 1.5
-      },
-      "zoom": 35.8864,
-      "id": 41916683932400,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "41907824628800_Cathedral.glb",
-            "id": 41907939821100,
-            "chromaKeyColor": null
-          },
-          "id": 41916705463300,
-          "position": null,
-          "rotation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "62434339143800_Cathedral.usdz",
-          "id": 62434394598200
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "41928132838800_Cathedral.glb",
-          "id": 41928417319000
-        }
-      }
-    },
-    {
-      "type": {
         "id": 2,
         "name": "panorama"
       },
@@ -24432,6 +24368,31 @@
           "id": 627967381938400
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Museum DeCecco",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "172440362911900_1.jpg",
+        "id": 172440865983500
+      },
+      "orientation": {
+        "latitude": 0.5000000000000092,
+        "longitude": 359.1
+      },
+      "zoom": 63.1925,
+      "id": 172443344490600,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -24574,6 +24535,13 @@
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
       "order": 110
+    },
+    {
+      "id": 172492739425400,
+      "parentId": 513759169265300,
+      "viewId": 172443344490600,
+      "name": "Museum DeCecco",
+      "order": 120
     },
     {
       "id": 513846642724000,
@@ -24793,25 +24761,18 @@
       "order": 50
     },
     {
-      "id": 41772132945000,
-      "parentId": 514006762002499,
-      "viewId": 41916683932400,
-      "name": "Cathedral",
-      "order": 60
-    },
-    {
       "id": 41773001862500,
       "parentId": 514006762002499,
       "viewId": 41590724044000,
       "name": "ArtecScan Dress",
-      "order": 70
+      "order": 60
     },
     {
       "id": 25251552423400,
       "parentId": 514006762002499,
       "viewId": null,
       "name": "Salice",
-      "order": 80
+      "order": 70
     },
     {
       "id": 25257972192600,
@@ -24839,7 +24800,7 @@
       "parentId": 514006762002499,
       "viewId": 498833707123600,
       "name": "Hi-Interiors",
-      "order": 90
+      "order": 80
     },
     {
       "id": 40982979157200,
@@ -30214,6 +30175,15 @@
       "folder": "/uploads/",
       "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
       "id": 627893498387000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "172440362911900_1.jpg",
+      "id": 172440865983500
     }
   ],
   "users": [
