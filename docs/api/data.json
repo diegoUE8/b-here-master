@@ -7908,12 +7908,12 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome",
+          "title": "Back",
           "abstract": null,
-          "viewId": 170427763402500,
+          "viewId": 108261753559200,
           "position": [
-            0.9360342052084637,
-            -0.3512075436543191,
+            0.9362651297565989,
+            -0.3512941883975013,
             0
           ],
           "asset": null,
@@ -7972,8 +7972,8 @@
           "abstract": null,
           "viewId": 170427763402500,
           "position": [
-            0.9223426646474642,
-            -0.381,
+            0.9242499781213463,
+            -0.3817878703451572,
             0
           ],
           "asset": null,
@@ -24562,9 +24562,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Step 3",
+          "title": "Molitura Impasto",
           "abstract": null,
-          "viewId": 180785042231500,
+          "viewId": 107334148956000,
           "keepOrientation": false,
           "position": [
             0.6024964724546883,
@@ -24580,7 +24580,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Step1",
+          "title": "Dove nasche il metodo",
           "abstract": null,
           "viewId": 172443344490600,
           "keepOrientation": false,
@@ -24610,6 +24610,50 @@
           "asset": null,
           "link": null,
           "id": 88343724176400
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.931801735863107,
+            -1.77,
+            -12.860000000000024
+          ],
+          "rotation": [
+            -1.5959671616387718,
+            -1.5754570645450585,
+            -1.5960532491171164,
+            "XYZ"
+          ],
+          "scale": [
+            9.3,
+            7.1999999999999975,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "106803389249400_STANZA2-FilieraDelGranoDuro.mp4",
+            "id": 106804169875300,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "106803389249400_STANZA2-FilieraDelGranoDuro.mp4",
+                "id": 106804169875300
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 106809116021000
         }
       ]
     },
@@ -24618,7 +24662,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "dececco-3",
+      "name": "dececco-7",
       "asset": {
         "type": {
           "id": 1,
@@ -24809,6 +24853,455 @@
           "id": 94378507182600
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "dececco-3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "107328052847400_stanza3.jpg",
+        "id": 107328124771700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 107334148956000,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.813027854637966,
+            -1.84,
+            4.079999999999998
+          ],
+          "rotation": [
+            -1.8242965841035288,
+            -1.5647701030905201,
+            -1.8253566525202418,
+            "XYZ"
+          ],
+          "scale": [
+            9.5,
+            7.4,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "107379198735700_STANZA3-Come nasce la pasta_ l'impastamento.mp4",
+            "id": 107379239426300,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "107379198735700_STANZA3-Come nasce la pasta_ l'impastamento.mp4",
+                "id": 107379239426300
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 107380963657000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Selezione grani",
+          "abstract": null,
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            -0.6300801182265031,
+            -0.03132834587728129,
+            -0.7758979181311607
+          ],
+          "asset": null,
+          "link": null,
+          "id": 107910659011600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "360",
+          "abstract": null,
+          "viewId": 107855940231000,
+          "keepOrientation": false,
+          "position": [
+            -0.9530961517087169,
+            -0.21665971803335313,
+            0.2113440138251907
+          ],
+          "asset": null,
+          "link": null,
+          "id": 108233031791100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Trafilatura Essicazione",
+          "abstract": null,
+          "viewId": 108261753559200,
+          "keepOrientation": false,
+          "position": [
+            0.6517292816536646,
+            0.002441925576958575,
+            -0.7584477440369076
+          ],
+          "asset": null,
+          "link": null,
+          "id": 109530413531500
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video-stanza3",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "107841890813900_toyota.mp4",
+        "id": 107843602915300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 107855940231000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 107334148956000,
+          "keepOrientation": false,
+          "position": [
+            0.9059566611879085,
+            -0.42321931630212173,
+            0.011310983954622206
+          ],
+          "asset": null,
+          "link": null,
+          "id": 107877688648500
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "dececco-4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "108254837612900_stanza4.jpg",
+        "id": 108254905906000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 108261753559200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Molitura Impasto",
+          "abstract": null,
+          "viewId": 107334148956000,
+          "keepOrientation": false,
+          "position": [
+            -0.6498695152206095,
+            -0.03763205770651359,
+            -0.7591135892735049
+          ],
+          "asset": null,
+          "link": null,
+          "id": 108448889691000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "360",
+          "abstract": null,
+          "viewId": 1113251419241600,
+          "keepOrientation": false,
+          "position": [
+            -0.9560639066487036,
+            -0.19780907355758268,
+            0.21636399150946975
+          ],
+          "asset": null,
+          "link": null,
+          "id": 110415729679800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.7387674859591,
+            -1.8,
+            3.760000000000005
+          ],
+          "rotation": [
+            -1.543623790231238,
+            -1.550449881179956,
+            -1.5435130303425655,
+            "XYZ"
+          ],
+          "scale": [
+            9.62,
+            7.4,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "110470385625200_STANZA4.mp4",
+            "id": 110470452234200,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "110470385625200_STANZA4.mp4",
+                "id": 110470452234200
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 110477312295600
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.57208022251327,
+            -1.6087027202223885,
+            3.787578556472963
+          ],
+          "rotation": [
+            -2.739949718772066,
+            -1.36356348541219,
+            -2.74767354248583,
+            "XYZ"
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "110470385625200_STANZA4.mp4",
+            "id": 110470452234200,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "110470385625200_STANZA4.mp4",
+                "id": 110470452234200
+              }
+            }
+          },
+          "id": 110477347501800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "I nostri prodotti",
+          "abstract": null,
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            0.6369358897736248,
+            -0.006209353753014705,
+            -0.7708917668805725
+          ],
+          "asset": null,
+          "link": null,
+          "id": 111785504291700
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "dececco-5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "111669886060000_stanza5.jpg",
+        "id": 111670183332400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 111676023364800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Trafilatura Essicazione",
+          "abstract": null,
+          "viewId": 108261753559200,
+          "keepOrientation": false,
+          "position": [
+            -0.6364011249420006,
+            -0.04917647087647607,
+            -0.7697891158523167
+          ],
+          "asset": null,
+          "link": null,
+          "id": 111706244739800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Marketing",
+          "abstract": null,
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            0.6525558369801088,
+            -0.009807481183447578,
+            -0.757677169337988
+          ],
+          "asset": null,
+          "link": null,
+          "id": 111910821820900
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "dececco-6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "111816299998000_stanza6.jpg",
+        "id": 111816600094500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 111822768118700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "I nostri prodotti",
+          "abstract": null,
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            -0.6512897839698973,
+            -0.015620541463544612,
+            -0.75866831750168
+          ],
+          "asset": null,
+          "link": null,
+          "id": 111849378199400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Live Room",
+          "abstract": null,
+          "viewId": 180785042231500,
+          "keepOrientation": false,
+          "position": [
+            0.6342628537037323,
+            -0.008331471511750956,
+            -0.7730725832637236
+          ],
+          "asset": null,
+          "link": null,
+          "id": 111867015173000
+        }
+      ]
     }
   ],
   "menu": [
@@ -24918,45 +25411,45 @@
       "order": 50
     },
     {
+      "id": 172492739425400,
+      "parentId": 513759169265300,
+      "viewId": 172443344490600,
+      "name": "Museum DeCecco",
+      "order": 70
+    },
+    {
       "id": 133270976231600,
       "parentId": 513759169265300,
       "viewId": 627816073056600,
       "name": "Pantofola d'oro Showroom",
-      "order": 70
+      "order": 80
     },
     {
       "id": 628427668587800,
       "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 80
+      "order": 90
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 90
+      "order": 100
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 100
+      "order": 110
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 110
-    },
-    {
-      "id": 172492739425400,
-      "parentId": 513759169265300,
-      "viewId": 172443344490600,
-      "name": "Museum DeCecco",
       "order": 120
     },
     {
@@ -30748,6 +31241,131 @@
       "folder": "/uploads/",
       "file": "94359214271600_VirtualNature.mp4",
       "id": 94359288329400
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "106803389249400_STANZA2-FilieraDelGranoDuro.mp4",
+      "id": 106804169875300,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "106803389249400_STANZA2-FilieraDelGranoDuro.mp4",
+          "id": 106804169875300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "107328052847400_stanza3.jpg",
+      "id": 107328124771700
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "107379198735700_STANZA3-Come nasce la pasta_ l'impastamento.mp4",
+      "id": 107379239426300,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "107379198735700_STANZA3-Come nasce la pasta_ l'impastamento.mp4",
+          "id": 107379239426300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "107841890813900_toyota.mp4",
+      "id": 107843602915300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "108254837612900_stanza4.jpg",
+      "id": 108254905906000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "108284254890500_STANZA4-Come nasce la pasta_ l'essiccazione.mp4",
+      "id": 108284271217000,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "108284254890500_STANZA4-Come nasce la pasta_ l'essiccazione.mp4",
+          "id": 108284271217000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "110470385625200_STANZA4.mp4",
+      "id": 110470452234200,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "110470385625200_STANZA4.mp4",
+          "id": 110470452234200
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "111669886060000_stanza5.jpg",
+      "id": 111670183332400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "111816299998000_stanza6.jpg",
+      "id": 111816600094500
     }
   ],
   "users": [
