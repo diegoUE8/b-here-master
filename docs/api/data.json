@@ -24684,9 +24684,9 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Step 2",
+          "title": "Marketing",
           "abstract": null,
-          "viewId": 180765610464400,
+          "viewId": 111822768118700,
           "keepOrientation": false,
           "position": [
             -0.6481837986445346,
@@ -25075,93 +25075,6 @@
           "asset": null,
           "link": null,
           "id": 110415729679800
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            19.7387674859591,
-            -1.8,
-            3.760000000000005
-          ],
-          "rotation": [
-            -1.543623790231238,
-            -1.550449881179956,
-            -1.5435130303425655,
-            "XYZ"
-          ],
-          "scale": [
-            9.62,
-            7.4,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "110470385625200_STANZA4.mp4",
-            "id": 110470452234200,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 2,
-                  "name": "video"
-                },
-                "folder": "/uploads/",
-                "file": "110470385625200_STANZA4.mp4",
-                "id": 110470452234200
-              }
-            },
-            "chromaKeyColor": null
-          },
-          "id": 110477312295600
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            19.57208022251327,
-            -1.6087027202223885,
-            3.787578556472963
-          ],
-          "rotation": [
-            -2.739949718772066,
-            -1.36356348541219,
-            -2.74767354248583,
-            "XYZ"
-          ],
-          "scale": [
-            12,
-            6.75,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "110470385625200_STANZA4.mp4",
-            "id": 110470452234200,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 2,
-                  "name": "video"
-                },
-                "folder": "/uploads/",
-                "file": "110470385625200_STANZA4.mp4",
-                "id": 110470452234200
-              }
-            }
-          },
-          "id": 110477347501800
         },
         {
           "type": {
@@ -31308,46 +31221,6 @@
       "folder": "/uploads/",
       "file": "108254837612900_stanza4.jpg",
       "id": 108254905906000
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "108284254890500_STANZA4-Come nasce la pasta_ l'essiccazione.mp4",
-      "id": 108284271217000,
-      "locale": {
-        "it": {
-          "type": {
-            "id": 2,
-            "name": "video"
-          },
-          "folder": "/uploads/",
-          "file": "108284254890500_STANZA4-Come nasce la pasta_ l'essiccazione.mp4",
-          "id": 108284271217000
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "110470385625200_STANZA4.mp4",
-      "id": 110470452234200,
-      "locale": {
-        "it": {
-          "type": {
-            "id": 2,
-            "name": "video"
-          },
-          "folder": "/uploads/",
-          "file": "110470385625200_STANZA4.mp4",
-          "id": 110470452234200
-        }
-      }
     },
     {
       "type": {
