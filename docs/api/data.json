@@ -24427,23 +24427,6 @@
         },
         {
           "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Metodo DeCecco",
-          "abstract": null,
-          "viewId": 172443344490600,
-          "keepOrientation": false,
-          "position": [
-            0.8558966928646404,
-            -0.22842729307622317,
-            0.4639631697896294
-          ],
-          "asset": null,
-          "id": 182254806465900
-        },
-        {
-          "type": {
             "id": 2,
             "name": "plane"
           },
@@ -24529,6 +24512,24 @@
             "chromaKeyColor": null
           },
           "id": 88734949389300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "360",
+          "abstract": null,
+          "viewId": 94364279529300,
+          "keepOrientation": false,
+          "position": [
+            -0.6715374279205348,
+            -0.2391889733752827,
+            -0.7013031569282652
+          ],
+          "asset": null,
+          "link": null,
+          "id": 94613918091700
         }
       ],
       "hidden": null,
@@ -24764,6 +24765,48 @@
           "asset": null,
           "link": null,
           "id": 89343271526100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Waterfall",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "94359214271600_VirtualNature.mp4",
+        "id": 94359288329400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 94364279529300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            0.8736882031731872,
+            -0.4863198220804126,
+            -0.01272612618528202
+          ],
+          "asset": null,
+          "link": null,
+          "id": 94378507182600
         }
       ]
     }
@@ -30675,6 +30718,36 @@
       "folder": "/uploads/",
       "file": "89313149200500_Vineyard.mp4",
       "id": 89313236995900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "94117809408400_slide-essiccazione-03.jpg",
+      "id": 94117828322300,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "94117809408400_slide-essiccazione-03.jpg",
+          "id": 94117828322300
+        }
+      },
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "94359214271600_VirtualNature.mp4",
+      "id": 94359288329400
     }
   ],
   "users": [
