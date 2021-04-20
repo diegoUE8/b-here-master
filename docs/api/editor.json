@@ -24385,10 +24385,10 @@
         "id": 172440865983500
       },
       "orientation": {
-        "latitude": 0.5000000000000092,
-        "longitude": 359.1
+        "latitude": -5.116027750037224,
+        "longitude": 359.59070615366903
       },
-      "zoom": 63.1925,
+      "zoom": 75,
       "id": 172443344490600,
       "items": [
         {
@@ -24396,17 +24396,16 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Step 2",
+          "title": "Selezione Grani",
           "abstract": null,
           "viewId": 180765610464400,
           "keepOrientation": false,
           "position": [
-            0.6670327359975248,
-            -0.08982745618153246,
-            -0.739593372890544
+            0.5986840705909111,
+            -0.026456588430965718,
+            -0.8005482075111351
           ],
           "asset": null,
-          "link": null,
           "id": 181104842328800
         },
         {
@@ -24419,12 +24418,11 @@
           "viewId": 172443344490600,
           "keepOrientation": false,
           "position": [
-            -0.5997653952654043,
-            -0.09383311662687531,
-            0.7946551559426395
+            -0.6725499675292654,
+            -0.07381495420702455,
+            0.7363612521797971
           ],
           "asset": null,
-          "link": null,
           "id": 182232199128000
         },
         {
@@ -24442,8 +24440,95 @@
             0.4639631697896294
           ],
           "asset": null,
-          "link": null,
           "id": 182254806465900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.768233103142443,
+            -2.862848657891222,
+            1.065444267969685
+          ],
+          "rotation": [
+            -1.929374553009665,
+            -1.5056764652803727,
+            -1.9332218129526144,
+            "XYZ"
+          ],
+          "scale": [
+            9.35,
+            5.8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "88574877634500_STANZA1-De Cecco - Tradizione, Passione e Territorio.mp4",
+            "id": 88575669367500,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "88574877634500_STANZA1-De Cecco - Tradizione, Passione e Territorio.mp4",
+                "id": 88575669367500
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 88577667349800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -19.609999999999992,
+            -3.279999999999994,
+            -7.519999999999968
+          ],
+          "rotation": [
+            -0.27628827793437744,
+            1.5470555287867767,
+            0.27200439439664537,
+            "XYZ"
+          ],
+          "scale": [
+            10.3,
+            6.4,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "88734067960700_STANZA1-TheDeCeccoMethod.mp4",
+            "id": 88734103088900,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "88734067960700_STANZA1-TheDeCeccoMethod.mp4",
+                "id": 88734103088900
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 88734949389300
         }
       ],
       "hidden": null,
@@ -24481,9 +24566,9 @@
           "viewId": 180785042231500,
           "keepOrientation": false,
           "position": [
-            0.7550542086342489,
-            -0.06320113935169781,
-            -0.652609192402586
+            0.6024964724546883,
+            -0.022808159032342554,
+            -0.7977955806854362
           ],
           "asset": null,
           "link": null,
@@ -24499,13 +24584,31 @@
           "viewId": 172443344490600,
           "keepOrientation": false,
           "position": [
-            -0.749330378736481,
-            -0.04495146783651919,
-            -0.6606688648952548
+            -0.5706428896512111,
+            -0.0204332016550881,
+            -0.8209440765123032
           ],
           "asset": null,
           "link": null,
           "id": 181033129606400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "360",
+          "abstract": null,
+          "viewId": 89321519069600,
+          "keepOrientation": false,
+          "position": [
+            -0.9715116844805832,
+            -0.23467381136198978,
+            0.03306431881253437
+          ],
+          "asset": null,
+          "link": null,
+          "id": 88343724176400
         }
       ]
     },
@@ -24525,8 +24628,8 @@
         "id": 180782776730100
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -0.8887719455498171,
+        "longitude": 359.62539998398347
       },
       "zoom": 75,
       "id": 180785042231500,
@@ -24541,12 +24644,11 @@
           "viewId": 180765610464400,
           "keepOrientation": false,
           "position": [
-            -0.6683737236234281,
-            -0.036684776550768745,
-            -0.7429204484594389
+            -0.6481837986445346,
+            -0.07507568057113737,
+            -0.7577739803935749
           ],
           "asset": null,
-          "link": null,
           "id": 180971851308200
         },
         {
@@ -24555,43 +24657,113 @@
             "name": "plane"
           },
           "position": [
-            19.992546050422032,
-            0.7999999999999998,
-            0.34166044890721625
+            19.998552926545862,
+            0.7200000000000003,
+            0.008865626083095601
           ],
           "rotation": [
-            -2.5783930916627207,
-            -1.5434935565410264,
-            -2.5785613582195905,
+            -1.607655053056403,
+            -1.5587668176417517,
+            -1.6076577176984004,
             "XYZ"
           ],
           "scale": [
-            21,
-            9.5,
+            20,
+            10,
             1
           ],
           "asset": {
             "type": {
-              "id": 2,
-              "name": "video"
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
             },
-            "folder": "/uploads/",
-            "file": "182043041700900_dececco.mp4",
-            "id": 182043316349900,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 2,
-                  "name": "video"
-                },
-                "folder": "/uploads/",
-                "file": "182043041700900_dececco.mp4",
-                "id": 182043316349900
-              }
-            },
-            "chromaKeyColor": null
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 89017113981600,
+            "chromaKeyColor": null,
+            "index": 0
           },
           "id": 182044530855000
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0.72,
+            0.01
+          ],
+          "rotation": [
+            -1.608,
+            -1.559,
+            -1.608,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            10,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 89199273510500,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 89089136557200
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Vyneyard",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "89313149200500_Vineyard.mp4",
+        "id": 89313236995900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 89321519069600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            0.9006604947839102,
+            -0.43199006309493393,
+            0.0468535860189731
+          ],
+          "asset": null,
+          "link": null,
+          "id": 89343271526100
         }
       ]
     }
@@ -30423,6 +30595,86 @@
           "id": 182043316349900
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "88574877634500_STANZA1-De Cecco - Tradizione, Passione e Territorio.mp4",
+      "id": 88575669367500,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "88574877634500_STANZA1-De Cecco - Tradizione, Passione e Territorio.mp4",
+          "id": 88575669367500
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "88734067960700_STANZA1-TheDeCeccoMethod.mp4",
+      "id": 88734103088900,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "88734067960700_STANZA1-TheDeCeccoMethod.mp4",
+          "id": 88734103088900
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 89017113981600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 89199273510500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "89264728762800_Vineyard.mp4",
+      "id": 89264832640200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "89313149200500_Vineyard.mp4",
+      "id": 89313236995900
     }
   ],
   "users": [
