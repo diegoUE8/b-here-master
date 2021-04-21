@@ -24413,12 +24413,12 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Entrata",
+          "title": "Esterno",
           "abstract": null,
-          "viewId": 172443344490600,
+          "viewId": 177706630489100,
           "keepOrientation": false,
           "position": [
-            -0.6725499675292654,
+            -0.6725499675292655,
             -0.07381495420702455,
             0.7363612521797971
           ],
@@ -24628,8 +24628,8 @@
             "XYZ"
           ],
           "scale": [
-            9.3,
-            7.1999999999999975,
+            9.32,
+            7.219999999999997,
             1
           ],
           "asset": {
@@ -24893,7 +24893,7 @@
             "XYZ"
           ],
           "scale": [
-            9.5,
+            9.619999999999997,
             7.4,
             1
           ],
@@ -25093,6 +25093,50 @@
           "asset": null,
           "link": null,
           "id": 111785504291700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.92,
+            -1.8,
+            3.69
+          ],
+          "rotation": [
+            -1.689620428830078,
+            -1.5536230203308126,
+            -1.6900671437749433,
+            "XYZ"
+          ],
+          "scale": [
+            9.540000000000052,
+            7.4299999999999855,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "166893521112700_STANZA4.mp4",
+            "id": 166893594177000,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "166893521112700_STANZA4.mp4",
+                "id": 166893594177000
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 166895629178300
         }
       ]
     },
@@ -25153,6 +25197,86 @@
           "asset": null,
           "link": null,
           "id": 111910821820900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -19.924889749707905,
+            -2.099999999999999,
+            4.279999999999994
+          ],
+          "rotation": [
+            2.9870320663515817,
+            1.5539161809009518,
+            -2.9876033711197896,
+            "XYZ"
+          ],
+          "scale": [
+            9.720000000000006,
+            7.539999999999999,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "167745989516000_STANZA5.mp4",
+            "id": 167746017201800,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "167745989516000_STANZA5.mp4",
+                "id": 167746017201800
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 167747321407400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "360",
+          "abstract": null,
+          "viewId": 177554486343500,
+          "keepOrientation": false,
+          "position": [
+            0.755318302883853,
+            -0.1483209604509678,
+            0.6383534710640794
+          ],
+          "asset": null,
+          "link": null,
+          "id": 177638041681900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Dettaglio",
+          "abstract": null,
+          "viewId": 181680744819800,
+          "keepOrientation": false,
+          "position": [
+            0.9463054579768639,
+            -0.014768429757601542,
+            -0.3229363306995552
+          ],
+          "asset": null,
+          "link": null,
+          "id": 177817753461200
         }
       ]
     },
@@ -25213,8 +25337,439 @@
           "asset": null,
           "link": null,
           "id": 111867015173000
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.858993779393064,
+            -1.84,
+            -9.739999999999984
+          ],
+          "rotation": [
+            -0.8604785286851908,
+            -1.5567001644440324,
+            -0.8569788734305563,
+            "XYZ"
+          ],
+          "scale": [
+            9.660000000000007,
+            7.499999999999996,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "168269108600900_STANZA6-1.mp4",
+            "id": 168269139393200,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "168269108600900_STANZA6-1.mp4",
+                "id": 168269139393200
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 168250986122200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.165231670822934,
+            -1.84,
+            3.6000000000000085
+          ],
+          "rotation": [
+            -2.2797146314334507,
+            -1.559,
+            -2.28,
+            "XYZ"
+          ],
+          "scale": [
+            9.660000000000007,
+            7.529999999999983,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "172352640357600_STANZA6-2.mp4",
+            "id": 172352818126700,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "172352640357600_STANZA6-2.mp4",
+                "id": 172352818126700
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 172355062585200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.313174620567462,
+            -1.4037147384746393,
+            12.799095179817765
+          ],
+          "rotation": [
+            -3.026005349610781,
+            -1.5527431871556492,
+            -3.0354757484763213,
+            "XYZ"
+          ],
+          "scale": [
+            7.119999999999997,
+            5.7299999999999995,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "175813687688000_STANZA6-3.mp4",
+            "id": 175813986542900,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "175813687688000_STANZA6-3.mp4",
+                "id": 175813986542900
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 175817997293600
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -19.399402851292162,
+            -2.049182413617512,
+            4.491804670313314
+          ],
+          "rotation": [
+            -2.707,
+            1.569,
+            2.709,
+            "XYZ"
+          ],
+          "scale": [
+            9.56000000000001,
+            7.399999999999986,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "175965020103500_STANZA6-4.mp4",
+            "id": 175965037043400,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "175965020103500_STANZA6-4.mp4",
+                "id": 175965037043400
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 175967154165900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -18.133071723212453,
+            -1.9417175426715472,
+            -8.046300881859484
+          ],
+          "rotation": [
+            -0.23464667885532733,
+            1.5716152764583877,
+            0.23088785756761898,
+            "XYZ"
+          ],
+          "scale": [
+            8.739999999999995,
+            6.829999999999998,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "176472668821900_STANZA6-5.mp4",
+            "id": 176472681938300,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "176472668821900_STANZA6-5.mp4",
+                "id": 176472681938300
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 176474269761100
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -14.743567007998275,
+            -1.5799999999999998,
+            13.59051575258587
+          ],
+          "rotation": [
+            -3.030404936569811,
+            1.579,
+            3.03,
+            "XYZ"
+          ],
+          "scale": [
+            7.45999999999999,
+            5.719999999999985,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "176534224276400_STANZA66.mp4",
+            "id": 176534235290500,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "176534224276400_STANZA66.mp4",
+                "id": 176534235290500
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 176549358299000
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza5-360",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "177540433450100_stanza5-360.mp4",
+        "id": 177542510827700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 177554486343500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            0.9045641695192222,
+            -0.4263333441042638,
+            -0.0018822664198865754
+          ],
+          "asset": null,
+          "link": null,
+          "id": 177575469682100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Esterno Sede",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "177689988217900_sede1.jpg",
+        "id": 177690009489700
+      },
+      "orientation": {
+        "latitude": 3.0000000000000004,
+        "longitude": 208.79999999999995
+      },
+      "zoom": 75,
+      "id": 177706630489100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Inizia il TOUR VIRTUALE",
+          "abstract": null,
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            -0.8907649871452885,
+            0.0378708775677948,
+            -0.4528835769911503
+          ],
+          "asset": null,
+          "id": 177781657553700
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "ModelDeCecco",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "181668202688400_ambiente360.jpg",
+        "id": 181668285531300
+      },
+      "orientation": {
+        "latitude": 18.6,
+        "longitude": 68.2
+      },
+      "zoom": 75,
+      "id": 181680744819800,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "181674061389400_dececco.glb",
+            "id": 181674080264800,
+            "chromaKeyColor": null
+          },
+          "id": 181680769409400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            0.08373618122566795,
+            -0.6286732816675861,
+            -0.7731482114517565
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181751575486600
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181726791714500_dececco.usdz",
+          "id": 181726814468100
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181730047098400_dececco.glb",
+          "id": 181730068531000
+        }
+      }
     }
   ],
   "menu": [
@@ -25324,10 +25879,66 @@
       "order": 50
     },
     {
-      "id": 172492739425400,
+      "id": 169124573393200,
       "parentId": 513759169265300,
+      "viewId": null,
+      "name": "Museum De Cecco",
+      "order": 70
+    },
+    {
+      "id": 169131585433700,
+      "parentId": 169124573393200,
+      "viewId": 177706630489100,
+      "name": "Esterno Sede",
+      "order": 0
+    },
+    {
+      "id": 182105538401700,
+      "parentId": 169124573393200,
       "viewId": 172443344490600,
-      "name": "Museum DeCecco",
+      "name": "Dove nasce il metodo",
+      "order": 10
+    },
+    {
+      "id": 169133382710900,
+      "parentId": 169124573393200,
+      "viewId": 180765610464400,
+      "name": "Selezione Grani",
+      "order": 20
+    },
+    {
+      "id": 169134419262900,
+      "parentId": 169124573393200,
+      "viewId": 107334148956000,
+      "name": "Molitura Impasto",
+      "order": 30
+    },
+    {
+      "id": 169135384917300,
+      "parentId": 169124573393200,
+      "viewId": 108261753559200,
+      "name": "Trafilatura Essicazione",
+      "order": 40
+    },
+    {
+      "id": 169139849317200,
+      "parentId": 169124573393200,
+      "viewId": 111676023364800,
+      "name": "I nostri prodotti",
+      "order": 50
+    },
+    {
+      "id": 169143881486900,
+      "parentId": 169124573393200,
+      "viewId": 111822768118700,
+      "name": "Marketing",
+      "order": 60
+    },
+    {
+      "id": 169144825090000,
+      "parentId": 169124573393200,
+      "viewId": 180785042231500,
+      "name": "Live Room",
       "order": 70
     },
     {
@@ -31031,26 +31642,6 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "182043041700900_dececco.mp4",
-      "id": 182043316349900,
-      "locale": {
-        "it": {
-          "type": {
-            "id": 2,
-            "name": "video"
-          },
-          "folder": "/uploads/",
-          "file": "182043041700900_dececco.mp4",
-          "id": 182043316349900
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
       "file": "88574877634500_STANZA1-De Cecco - Tradizione, Passione e Territorio.mp4",
       "id": 88575669367500,
       "locale": {
@@ -31239,6 +31830,221 @@
       "folder": "/uploads/",
       "file": "111816299998000_stanza6.jpg",
       "id": 111816600094500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "166893521112700_STANZA4.mp4",
+      "id": 166893594177000,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "166893521112700_STANZA4.mp4",
+          "id": 166893594177000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "167745989516000_STANZA5.mp4",
+      "id": 167746017201800,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "167745989516000_STANZA5.mp4",
+          "id": 167746017201800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "168269108600900_STANZA6-1.mp4",
+      "id": 168269139393200,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "168269108600900_STANZA6-1.mp4",
+          "id": 168269139393200
+        }
+      },
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "172352640357600_STANZA6-2.mp4",
+      "id": 172352818126700,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "172352640357600_STANZA6-2.mp4",
+          "id": 172352818126700
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175813687688000_STANZA6-3.mp4",
+      "id": 175813986542900,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "175813687688000_STANZA6-3.mp4",
+          "id": 175813986542900
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "175965020103500_STANZA6-4.mp4",
+      "id": 175965037043400,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "175965020103500_STANZA6-4.mp4",
+          "id": 175965037043400
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "176472668821900_STANZA6-5.mp4",
+      "id": 176472681938300,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "176472668821900_STANZA6-5.mp4",
+          "id": 176472681938300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "176534224276400_STANZA66.mp4",
+      "id": 176534235290500,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "176534224276400_STANZA66.mp4",
+          "id": 176534235290500
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "177540433450100_stanza5-360.mp4",
+      "id": 177542510827700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "177689988217900_sede1.jpg",
+      "id": 177690009489700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181668202688400_ambiente360.jpg",
+      "id": 181668285531300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181674061389400_dececco.glb",
+      "id": 181674080264800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181726791714500_dececco.usdz",
+      "id": 181726814468100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181730047098400_dececco.glb",
+      "id": 181730068531000
     }
   ],
   "users": [
