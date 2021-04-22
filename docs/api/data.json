@@ -14395,6 +14395,269 @@
         "id": 2,
         "name": "panorama"
       },
+      "name": "Stanza 1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175002629547200_stanza1.jpg",
+        "id": 175002650541000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 175007577933200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175022534136200,
+          "keepOrientation": false,
+          "position": [
+            0.9871448827670037,
+            -0.060596093617974925,
+            -0.14789555052522732
+          ],
+          "asset": null,
+          "id": 175163997443500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175020149801600_stanza2.jpg",
+        "id": 175020187849000
+      },
+      "orientation": {
+        "latitude": -3.5999999999999996,
+        "longitude": 177.5
+      },
+      "zoom": 75,
+      "id": 175022534136200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175040003763300,
+          "keepOrientation": false,
+          "position": [
+            -0.988859296805328,
+            0.010702611854569779,
+            -0.14846799392853174
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175194059635200
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175037750137600_stanza3.jpg",
+        "id": 175037809034500
+      },
+      "orientation": {
+        "latitude": -3,
+        "longitude": 178.7
+      },
+      "zoom": 75,
+      "id": 175040003763300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175069066006100,
+          "keepOrientation": false,
+          "position": [
+            -0.9546454851079973,
+            0.010582763385481742,
+            0.2975567221254522
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175212542839300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175064746358400_stanza4.jpg",
+        "id": 175064761109000
+      },
+      "orientation": {
+        "latitude": -3.1999999999999997,
+        "longitude": 1.099999999999966
+      },
+      "zoom": 75,
+      "id": 175069066006100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175089929883400,
+          "keepOrientation": false,
+          "position": [
+            0.9064396201426432,
+            -0.11719440415944996,
+            0.405749536868956
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175237835943100
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175087911133400_stanza5.jpg",
+        "id": 175087928406900
+      },
+      "orientation": {
+        "latitude": -0.5999999999999996,
+        "longitude": 0.6000000000000227
+      },
+      "zoom": 75,
+      "id": 175089929883400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175126876264400,
+          "keepOrientation": false,
+          "position": [
+            0.9938804068623542,
+            -0.032164902344994764,
+            0.10567476478449424
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175253158187800
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "175121165352100_stanza6.jpg",
+        "id": 175121176588200
+      },
+      "orientation": {
+        "latitude": 4.3,
+        "longitude": 171.39999999999998
+      },
+      "zoom": 75,
+      "id": 175126876264400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 175007577933200,
+          "keepOrientation": false,
+          "position": [
+            -0.9517783577549975,
+            0.05457745027329376,
+            0.30189279493036286
+          ],
+          "asset": null,
+          "link": null,
+          "id": 175150716003200
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
       "name": "Slide Room",
       "asset": {
         "type": {
@@ -14606,32 +14869,39 @@
       "order": 40
     },
     {
+      "id": 26471812091100,
+      "parentId": 513759169265300,
+      "viewId": 175007577933200,
+      "name": "Showroom",
+      "order": 50
+    },
+    {
       "id": 628427668587800,
       "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 50
+      "order": 60
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 60
+      "order": 70
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 70
+      "order": 80
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 80
+      "order": 90
     },
     {
       "id": 513846642724000,
@@ -19196,66 +19466,12 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "25111083254100_salice_sincronizzatore_futura_push.glb",
-      "id": 25111113905000
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "25159322251100_salice_sincronizzatore_futura_push.usdz",
-      "id": 25159355030500
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "25165308236800_salice_sincronizzatore_futura_push.glb",
-      "id": 25165362874600
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
       "folder": "/uploads/",
       "file": "25184684572500_sfondo.jpg",
       "id": 25184700534800
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "25191597098400_salice_wind.glb",
-      "id": 25191633117500
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "25225812864500_salice_wind.usdz",
-      "id": 25225842171800
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "25232300152400_salice_wind.glb",
-      "id": 25232329257900
     },
     {
       "type": {
@@ -19331,30 +19547,57 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
+        "id": 1,
+        "name": "image"
       },
       "folder": "/uploads/",
-      "file": "498821528352400_HiCan.glb",
-      "id": 498821542106500
+      "file": "175002629547200_stanza1.jpg",
+      "id": 175002650541000
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
+        "id": 1,
+        "name": "image"
       },
       "folder": "/uploads/",
-      "file": "498885738313800_HiCan.glb",
-      "id": 498885753454100
+      "file": "175020149801600_stanza2.jpg",
+      "id": 175020187849000
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
+        "id": 1,
+        "name": "image"
       },
       "folder": "/uploads/",
-      "file": "498900375497100_HiCan.usdz",
-      "id": 498900429215400
+      "file": "175037750137600_stanza3.jpg",
+      "id": 175037809034500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175064746358400_stanza4.jpg",
+      "id": 175064761109000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175087911133400_stanza5.jpg",
+      "id": 175087928406900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "175121165352100_stanza6.jpg",
+      "id": 175121176588200
     }
   ],
   "users": [
