@@ -24523,13 +24523,105 @@
           "viewId": 94364279529300,
           "keepOrientation": false,
           "position": [
-            -0.6715374279205348,
-            -0.2391889733752827,
-            -0.7013031569282652
+            -0.6441641676109382,
+            -0.3009171708113956,
+            -0.6916214668312156
           ],
           "asset": null,
           "link": null,
           "id": 94613918091700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco ",
+          "abstract": "Method",
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            -0.8817665040199621,
+            -0.3188993532298502,
+            -0.3475500466091142
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1705901873100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco",
+          "abstract": "Tradizione, Passione e Territorio",
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            0.9533056211911182,
+            -0.29852983808645045,
+            0.04569823166703612
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1866022585400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Fara",
+          "abstract": "Anni 80",
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            -0.934798537964832,
+            -0.24623310602656362,
+            0.2559706055689282
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "2861090294600_fara_anni80.jpg",
+            "id": 2012429254500,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "2861090294600_fara_anni80.jpg",
+                "id": 2012429254500
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 2119651438500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "STORIA",
+          "abstract": "Dal 1886 abbiamo un compito importante: creare ad arte una pasta inconfondibile portando avanti senza compromessi una tradizione. Conquiste, passi avanti, affinamenti costellano la nostra storia e ci permettono, ogni giorno di più di portare sulle tavole di tutto il mondo il piacere autentico della cucina italiana.",
+          "viewId": 172443344490600,
+          "keepOrientation": false,
+          "position": [
+            0.7968177435798346,
+            -0.3303890598046055,
+            0.5058898622010227
+          ],
+          "asset": null,
+          "link": null,
+          "id": 3002483657700
         }
       ],
       "hidden": null,
@@ -24603,9 +24695,9 @@
           "viewId": 89321519069600,
           "keepOrientation": false,
           "position": [
-            -0.9715116844805832,
-            -0.23467381136198978,
-            0.03306431881253437
+            -0.9483116649231244,
+            -0.3154759938080773,
+            0.034349432332107306
           ],
           "asset": null,
           "link": null,
@@ -24654,6 +24746,69 @@
             "chromaKeyColor": null
           },
           "id": 106809116021000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "La Semola",
+          "abstract": "Le caratteristiche di eccellenza della pasta De Cecco non si possono trovare in una sola varietà di grano. La nostra semola ideale si ottiene tramite una miscela di diversi grani selezionati.\n\nE questi grani non crescono tutti nello stesso posto. Crescono in Italia, ma anche in Arizona e California.",
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            -0.8002732810912003,
+            -0.2644190170395164,
+            -0.5381870111767663
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "2255109674300_semola-01.png",
+            "id": 2222652540800,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 2269445480000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco",
+          "abstract": "Filiera del grano duro",
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            0.8134236841738829,
+            -0.2400762061943141,
+            -0.5270563639403291
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2319052488200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "La Semola",
+          "abstract": "Le caratteristiche di eccellenza della pasta De Cecco non si possono trovare in una sola varietà di grano. La nostra semola ideale si ottiene tramite una miscela di diversi grani selezionati.\n\nE questi grani non crescono tutti nello stesso posto. Crescono in Italia, ma anche in Arizona e California.",
+          "viewId": 180765610464400,
+          "keepOrientation": false,
+          "position": [
+            0.8148072278012229,
+            -0.2373199777436691,
+            0.532448616610588
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2732518127700
         }
       ]
     },
@@ -24707,7 +24862,7 @@
             0.008865626083095601
           ],
           "rotation": [
-            -1.607655053056403,
+            -1.608,
             -1.5587668176417517,
             -1.6076577176984004,
             "XYZ"
@@ -24765,6 +24920,41 @@
             "index": 0
           },
           "id": 89089136557200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0.72,
+            0.1
+          ],
+          "rotation": [
+            -1.608,
+            -1.559,
+            -1.608,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            10,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 8,
+              "name": "smart-device-stream",
+              "file": "smartDeviceStream"
+            },
+            "folder": "",
+            "file": "smartDeviceStream",
+            "id": 8112316979300,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 8041778042500
         }
       ],
       "hidden": null,
@@ -24883,8 +25073,8 @@
           },
           "position": [
             19.813027854637966,
-            -1.84,
-            4.079999999999998
+            -1.82,
+            4.099999999999998
           ],
           "rotation": [
             -1.8242965841035288,
@@ -24893,8 +25083,8 @@
             "XYZ"
           ],
           "scale": [
-            9.619999999999997,
-            7.4,
+            9.639999999999997,
+            7.42,
             1
           ],
           "asset": {
@@ -24948,9 +25138,9 @@
           "viewId": 107855940231000,
           "keepOrientation": false,
           "position": [
-            -0.9530961517087169,
-            -0.21665971803335313,
-            0.2113440138251907
+            -0.9363743108464275,
+            -0.29192817171229357,
+            0.19488738426998173
           ],
           "asset": null,
           "link": null,
@@ -24973,6 +25163,81 @@
           "asset": null,
           "link": null,
           "id": 109530413531500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco",
+          "abstract": "Come nasce la pasta - l'impastamento",
+          "viewId": 107334148956000,
+          "keepOrientation": false,
+          "position": [
+            0.9345207763200096,
+            -0.2857871345841133,
+            0.21212409653890846
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2404451307000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "L’IMPASTO",
+          "abstract": "Solo acqua fredda di montagna della Majella\nImpastiamo solo con acqua fredda di montagna della Majella, ad una temperatura inferiore ai 15°C. In questo modo la lavorazione, più lenta, rispetta maggiormente la materia prima e preserva l'integrità del prezioso reticolo glutinico per assicurare una perfetta tenuta in cottura.",
+          "viewId": 107334148956000,
+          "keepOrientation": false,
+          "position": [
+            -0.8652781147188237,
+            -0.27688856553436525,
+            -0.417883364666458
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "4064825535600_slide-essiccazione-03-ritaglio.jpg",
+            "id": 2523089299400,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "4064825535600_slide-essiccazione-03-ritaglio.jpg",
+                "id": 2523089299400,
+                "chromaKeyColor": null
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 2534111176100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "LA MOLITURA",
+          "abstract": "Maciniamo il grano nel nostro molino\nSiamo mugnai da quasi due secoli, da quando nel 1831 don Nicola De Cecco produceva \"la miglior farina del contado\" nel suo mulino a pietra di Fara San Martino. E siamo orgogliosi di aver mantenuto viva questa tradizione. Per avere semola sempre fresca maciniamo il grano nel mulino di proprietà, proprio accanto al pastificio, che è sempre avvolto da un intenso e piacevole profumo.",
+          "viewId": 107334148956000,
+          "keepOrientation": false,
+          "position": [
+            0.7329589799448019,
+            -0.22042665382696686,
+            0.6435706829874416
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2651564684100
         }
       ]
     },
@@ -25068,8 +25333,8 @@
           "viewId": 1113251419241600,
           "keepOrientation": false,
           "position": [
-            -0.9560639066487036,
-            -0.19780907355758268,
+            -0.9560639066487037,
+            -0.30780907355758275,
             0.21636399150946975
           ],
           "asset": null,
@@ -25102,7 +25367,7 @@
           "position": [
             19.92,
             -1.8,
-            3.69
+            3.7099999999999995
           ],
           "rotation": [
             -1.689620428830078,
@@ -25111,8 +25376,8 @@
             "XYZ"
           ],
           "scale": [
-            9.540000000000052,
-            7.4299999999999855,
+            9.62000000000005,
+            7.449999999999985,
             1
           ],
           "asset": {
@@ -25137,6 +25402,68 @@
             "chromaKeyColor": null
           },
           "id": 166895629178300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco",
+          "abstract": "Come nasce la pasta - l'essiccazione",
+          "viewId": 108261753559200,
+          "keepOrientation": false,
+          "position": [
+            0.9444104929837697,
+            -0.2820034478497838,
+            0.1690055506277448
+          ],
+          "asset": null,
+          "link": null,
+          "id": 3085785591000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "LA TRAFILATURA",
+          "abstract": "Ovvero l'importanza di non abbandonare una tradizione\nPassando un dito su una Penna o uno Spaghetto De Cecco ci si accorge che la pasta è leggermente ruvida, grazie alla trafilatura al bronzo. Anche quando il progresso tecnologico ci ha messo a disposizione soluzioni più rapide ed economiche abbiamo continuato ad usare le trafile in bronzo e a difendere questo metodo di lavorazione. Perché è l'unico che rende la pasta naturalmente ruvida, porosa e capace di trattenere ogni condimento.",
+          "viewId": 108261753559200,
+          "keepOrientation": false,
+          "position": [
+            -0.8764543152546028,
+            -0.28497231990844557,
+            -0.38809613520052433
+          ],
+          "asset": null,
+          "link": null,
+          "id": 3628855062400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "L’ESSICCAZIONE",
+          "abstract": "L'innovazione ha il nostro nome\nUn tempo la pasta veniva asciugata al sole, esponendola così a temperature variabili ma soprattutto a scarse condizioni igieniche. Fu Filippo Giovanni De Cecco, nel 1889, a mettere a punto il primo impianto di essiccazione artificiale ad aria calda. Un'innovazione di portata storica grazie alla quale il fondatore della De Cecco si è meritato un posto nell'Enciclopedia Treccani.",
+          "viewId": 108261753559200,
+          "keepOrientation": false,
+          "position": [
+            0.8644669967869666,
+            -0.25861010985125565,
+            -0.43106568240680443
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "3703591902400_slide-essiccazione-01-1.jpg",
+            "id": 3703628583100
+          },
+          "link": null,
+          "id": 3766635712300
         }
       ]
     },
@@ -25185,7 +25512,7 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Marketing",
+          "title": "Campagne TV",
           "abstract": null,
           "viewId": 111822768118700,
           "keepOrientation": false,
@@ -25216,7 +25543,7 @@
           ],
           "scale": [
             9.720000000000006,
-            7.539999999999999,
+            7.579999999999998,
             1
           ],
           "asset": {
@@ -25252,8 +25579,8 @@
           "viewId": 177554486343500,
           "keepOrientation": false,
           "position": [
-            0.755318302883853,
-            -0.1483209604509678,
+            0.7553183028838532,
+            -0.22832096045096786,
             0.6383534710640794
           ],
           "asset": null,
@@ -25270,13 +25597,85 @@
           "viewId": 181680744819800,
           "keepOrientation": false,
           "position": [
-            0.9463054579768639,
-            -0.014768429757601542,
-            -0.3229363306995552
+            0.8711332385602859,
+            -0.2617044013458464,
+            -0.4179896197304988
           ],
           "asset": null,
           "link": null,
           "id": 177817753461200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco",
+          "abstract": "Gamma Integrale",
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            -0.9345289666917146,
+            -0.3035598613233917,
+            0.20967817380401776
+          ],
+          "asset": null,
+          "link": null,
+          "id": 4169565444200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Pasta all'uovo",
+          "abstract": "A tutto ciò che più amate della pasta di semola, abbiamo aggiunto l’uovo fresco da galline allevate a terra.\nDe Cecco non utilizza né uova né prodotti da galline allevate in gabbia per la fabbricazione dei suoi prodotti.\nQuesta politica di acquisto è applicata a tutti i prodotti De Cecco a base di uovo.",
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            0.9410405598053778,
+            -0.2858129017277821,
+            0.18097969501335276
+          ],
+          "asset": null,
+          "link": null,
+          "id": 7127457882400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Paste Integrali",
+          "abstract": "Nel nostro mulino viene prodotta una semola integrale ottenuta direttamente dalla macinazione del grano, senza nulla togliere o aggiungere. Per portare sulla tua tavola tutto il benessere di una dieta ricca di fibre e una pasta di qualità.",
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            -0.8671353425804524,
+            -0.28152138783712766,
+            -0.4108795514967118
+          ],
+          "asset": null,
+          "link": null,
+          "id": 7167715464200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Senza glutine",
+          "abstract": "Dalla nostra esperienza nella produzione della pasta di qualità nasce la pasta De Cecco Senza Glutine. Un’ampia gamma per poter scegliere tra ben tre diverse ricettazioni di paste tutte trafilate al bronzo e gustosissimi gnocchi di patate.\nIl nostro impegno per garantire a tutti il piacere unico e irrinunciabile di un buon primo piatto di pasta!",
+          "viewId": 111676023364800,
+          "keepOrientation": false,
+          "position": [
+            -0.7234937567070173,
+            -0.22746677204803772,
+            0.6517788364315101
+          ],
+          "asset": null,
+          "link": null,
+          "id": 7327800097000
         }
       ]
     },
@@ -25601,6 +26000,114 @@
             "chromaKeyColor": null
           },
           "id": 176549358299000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Backstage ",
+          "abstract": "Spot De Cecco 2021 Ristorante",
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            0.8636933141340698,
+            -0.27227884767485105,
+            -0.4241439475331016
+          ],
+          "asset": null,
+          "link": null,
+          "id": 8421988163200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Campagna De Cecco e Juventus",
+          "abstract": " ",
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            0.9418767673842404,
+            -0.2871265962674624,
+            0.17443185711811693
+          ],
+          "asset": null,
+          "link": null,
+          "id": 8571523814500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "De Cecco tv spot",
+          "abstract": " Pasta for 125 Years (2011)",
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            0.748788143758054,
+            -0.22982257848518026,
+            0.6216895512921146
+          ],
+          "asset": null,
+          "link": null,
+          "id": 8638311375700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Spot TV De Cecco ",
+          "abstract": "Un capolavoro di pasta (2010)",
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            -0.7067522828445715,
+            -0.24019193879449996,
+            0.665438985356378
+          ],
+          "asset": null,
+          "link": null,
+          "id": 8762735675000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "I segreti della buona pasta",
+          "abstract": "Pasta alla Michele",
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            -0.9247056749852407,
+            -0.3093742167884795,
+            0.22182652825260826
+          ],
+          "asset": null,
+          "link": null,
+          "id": 8827093807600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Spot De Cecco 2021",
+          "abstract": "Ristorante",
+          "viewId": 111822768118700,
+          "keepOrientation": false,
+          "position": [
+            -0.880277595019976,
+            -0.2867465537000617,
+            -0.3780049862726478
+          ],
+          "asset": null,
+          "link": null,
+          "id": 8860731274100
         }
       ]
     },
@@ -25931,7 +26438,7 @@
       "id": 169143881486900,
       "parentId": 169124573393200,
       "viewId": 111822768118700,
-      "name": "Marketing",
+      "name": "Campagne TV",
       "order": 60
     },
     {
@@ -32045,6 +32552,108 @@
       "folder": "/uploads/",
       "file": "181730047098400_dececco.glb",
       "id": 181730068531000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "2825249933100_Pastificio 1914.JPG",
+      "id": 1951841044900,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "2825249933100_Pastificio 1914.JPG",
+          "id": 1951841044900
+        }
+      },
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "2861090294600_fara_anni80.jpg",
+      "id": 2012429254500,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "2861090294600_fara_anni80.jpg",
+          "id": 2012429254500
+        }
+      },
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "2170873081300_chapter-2-1.jpg",
+      "id": 2170920291100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "2255109674300_semola-01.png",
+      "id": 2222652540800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4064825535600_slide-essiccazione-03-ritaglio.jpg",
+      "id": 2523089299400,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "4064825535600_slide-essiccazione-03-ritaglio.jpg",
+          "id": 2523089299400,
+          "chromaKeyColor": null
+        }
+      },
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "3703591902400_slide-essiccazione-01-1.jpg",
+      "id": 3703628583100
+    },
+    {
+      "type": {
+        "id": 8,
+        "name": "smart-device-stream",
+        "file": "smartDeviceStream"
+      },
+      "folder": "",
+      "file": "smartDeviceStream",
+      "id": 8112316979300,
+      "chromaKeyColor": null
     }
   ],
   "users": [
