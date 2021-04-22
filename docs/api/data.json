@@ -849,234 +849,6 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Start Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "1364469633028000_1190780441996200_Room3D.jpg",
-        "id": 1364469786436300
-      },
-      "orientation": {
-        "latitude": -0.2999999999999998,
-        "longitude": 28.299999999999955
-      },
-      "zoom": 75,
-      "id": 338065166299600,
-      "items": [
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            21.165853955699642,
-            0.6999999999999998,
-            12
-          ],
-          "rotation": [
-            -0.911,
-            -1.565,
-            -0.9103803264453937,
-            "XYZ"
-          ],
-          "scale": [
-            15,
-            9,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "502937330335000_websolute.mp4",
-            "id": 502937592501000,
-            "chromaKeyColor": null
-          },
-          "id": 1009904475382800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Lab",
-          "abstract": null,
-          "viewId": 248392194266799,
-          "position": [
-            0.49026541356252146,
-            -0.07419316759580143,
-            0.868409579718275
-          ],
-          "asset": null,
-          "id": 263816172214199,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Expo",
-          "abstract": null,
-          "viewId": 248231505262800,
-          "position": [
-            0.24192139749761807,
-            -0.09125037789456515,
-            0.9659955517324593
-          ],
-          "asset": null,
-          "id": 263824959721100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Tour Video",
-          "abstract": null,
-          "viewId": 248430441511900,
-          "position": [
-            -0.0522380993614816,
-            -0.10185997559884584,
-            0.9934262561187429
-          ],
-          "asset": null,
-          "id": 263833008287300,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 337129519224500,
-          "position": [
-            -0.8835327119550074,
-            -0.20619880169553156,
-            0.4205377522705387
-          ],
-          "asset": null,
-          "id": 263842470462000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Modello 3D",
-          "abstract": null,
-          "viewId": 337129518224500,
-          "position": [
-            -0.840905677135482,
-            -0.22679422638783142,
-            -0.4913675009994675
-          ],
-          "asset": null,
-          "id": 263850020654100,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Studio",
-          "abstract": null,
-          "viewId": 406765685595300,
-          "position": [
-            -0.17770624937504953,
-            -0.21948025592349207,
-            -0.959296047210042
-          ],
-          "asset": null,
-          "id": 263858797145599,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Cinema",
-          "abstract": null,
-          "viewId": 337929883149900,
-          "position": [
-            0.4437045701457729,
-            -0.19394295977007164,
-            -0.8749356449404603
-          ],
-          "asset": null,
-          "id": 263865629315099,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Showroom",
-          "abstract": null,
-          "viewId": 498478142881399,
-          "position": [
-            0.9313232965442989,
-            -0.1325589660026739,
-            -0.3392123786747206
-          ],
-          "asset": null,
-          "id": 313939089806200,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception ",
-          "abstract": null,
-          "viewId": 170427763402500,
-          "position": [
-            0.8516000281745468,
-            -0.232996437687737,
-            0.4695636826224273
-          ],
-          "asset": null,
-          "id": 6622881616000,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Showroom",
-          "abstract": null,
-          "viewId": 1699696473480899,
-          "position": [
-            0.7492038555389021,
-            -0.13124622709805178,
-            -0.6492056767451827
-          ],
-          "asset": null,
-          "link": null,
-          "id": 415905117242399
-        }
-      ],
-      "hidden": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
       "name": "Cinema Room",
       "asset": {
         "type": {
@@ -10995,7 +10767,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1700165015653099,
           "position": [
             -0.827346355801139,
@@ -11012,7 +10784,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1700165015653099,
           "position": [
             -0.5704236643144883,
@@ -11166,7 +10938,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1700176747592700,
           "position": [
             -0.9299268067296673,
@@ -11183,7 +10955,7 @@
             "name": "nav"
           },
           "title": null,
-          "abstract": "Renzo Frau fonda Poltrona Frau a Torino nel 1912. Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.\n",
+          "abstract": " Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.\n",
           "viewId": 1700176747592700,
           "position": [
             0.9882398830137225,
@@ -11547,7 +11319,7 @@
             "name": "nav"
           },
           "title": null,
-          "abstract": "Renzo Frau fonda Poltrona Frau a Torino nel 1912. Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.\n",
+          "abstract": " Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.\n",
           "viewId": 1700511169485499,
           "position": [
             -0.9503190537765792,
@@ -12973,7 +12745,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.",
           "viewId": 1701676131028800,
           "position": [
             -0.8211793263027332,
@@ -12990,7 +12762,7 @@
             "name": "nav"
           },
           "title": "Letto",
-          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design , ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.",
           "viewId": 1701676131028800,
           "position": [
             -0.6693203733409119,
@@ -13150,7 +12922,7 @@
             "name": "nav"
           },
           "title": "Letto",
-          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design , ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
           "viewId": 1701690568253700,
           "position": [
             0.8707730749714381,
@@ -13310,7 +13082,7 @@
             "name": "nav"
           },
           "title": "Letto",
-          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design , ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.",
           "viewId": 1701700664152300,
           "position": [
             0.8981465924299057,
@@ -13327,7 +13099,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1701700664152300,
           "position": [
             -0.4328887015765443,
@@ -13504,7 +13276,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702465749001199,
           "position": [
             -0.8878672358905426,
@@ -13867,7 +13639,7 @@
             "name": "nav"
           },
           "title": null,
-          "abstract": "Renzo Frau fonda Poltrona Frau a Torino nel 1912. Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.",
+          "abstract": " Negli anni Trenta era già diventato uno status symbol. Dal 1926 diventa fornitore ufficiale della famiglia reale italiana: la dinastia dei Savoia. Da allora, ha arredato tutti gli edifici più conosciuti, grand hotel, gli interni dell'Expo di Torino nel 1928 e il sontuoso transatlantico Rex, orgoglio della Marina italiana.",
           "viewId": 1702490204320500,
           "position": [
             0.8669745065552128,
@@ -13897,8 +13669,8 @@
         "id": 1702498148785699
       },
       "orientation": {
-        "latitude": -4.6000000000000005,
-        "longitude": 262.7
+        "latitude": -6.499999999999998,
+        "longitude": 268.19999999999993
       },
       "zoom": 75,
       "id": 1702499681176100,
@@ -13917,8 +13689,8 @@
             -0.9324054767017541
           ],
           "asset": null,
-          "link": null,
-          "id": 1706219736851200
+          "id": 1706219736851200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -13934,42 +13706,8 @@
             -0.967539681999209
           ],
           "asset": null,
-          "link": null,
-          "id": 1706229635705700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 1700176747592700,
-          "position": [
-            0.1250376814004647,
-            -0.2149872302001741,
-            0.9685794077311645
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1706240555377700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 1700165015653099,
-          "position": [
-            0.0964163902105765,
-            -0.1177801039735169,
-            0.9883479786020456
-          ],
-          "asset": null,
-          "link": null,
-          "id": 1706246767261400
+          "id": 1706229635705700,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -13985,11 +13723,12 @@
             -0.08606784581610703
           ],
           "asset": null,
-          "link": null,
-          "id": 1714444606020300
+          "id": 1714444606020300,
+          "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -14007,8 +13746,8 @@
         "id": 1702509747592599
       },
       "orientation": {
-        "latitude": -15.399999999999995,
-        "longitude": 138.49999999999997
+        "latitude": -7.699999999999995,
+        "longitude": 180.89999999999998
       },
       "zoom": 75,
       "id": 1702511139684399,
@@ -14087,16 +13826,16 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona e vero simbolo, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702511139684399,
           "position": [
-            0.9464909363922082,
+            0.9464909363922083,
             -0.3174204809774724,
             0.05830219192647073
           ],
           "asset": null,
-          "link": null,
-          "id": 1714474630995200
+          "id": 1714474630995200,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -14112,8 +13851,8 @@
             0.5372597579165195
           ],
           "asset": null,
-          "link": null,
-          "id": 1714496025557000
+          "id": 1714496025557000,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -14121,7 +13860,7 @@
             "name": "nav"
           },
           "title": "Leathership",
-          "abstract": "Il Salone del Mobile 2014 ha chiuso i battenti con un numero record di visitatori e un forte consenso per la nuova collezione Poltrona Frau. Molto apprezzato l'allestimento pensato da Michele De Lucchi che all'interno di suggestivi paesaggi domestici ha sottolineato la Leathership™.\nLa Pelle, materia d'elezione di Poltrona Frau, ingrediente base di un patrimonio unico, che racchiude storia, eleganza, comfort e prestigio, e 13 nuovi prodotti che arredano con eleganza il vivere quotidiano a casa e a lavoro. \nContinuate a seguire la Leathership™ Poltrona Frau sul sito e visitando il Poltrona Frau Museum.",
+          "abstract": "Il Salone del Mobile 2014 ha chiuso i battenti con un numero record di visitatori e un forte consenso per la nuova collezione. Molto apprezzato l'allestimento pensato da Michele De Lucchi che all'interno di suggestivi paesaggi domestici ha sottolineato la Leathership™.\nLa Pelle, materia d'elezione di , ingrediente base di un patrimonio unico, che racchiude storia, eleganza, comfort e prestigio, e 13 nuovi prodotti che arredano con eleganza il vivere quotidiano a casa e a lavoro. \nContinuate a seguire la Leathership™  sul sito e visitando il  Museum.",
           "viewId": 1702511139684399,
           "position": [
             0.9964358127688663,
@@ -14129,11 +13868,12 @@
             0.036610818546580305
           ],
           "asset": null,
-          "link": null,
-          "id": 1719320614333200
+          "id": 1719320614333200,
+          "keepOrientation": null
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -14887,7 +14627,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702592278001000,
           "position": [
             -0.3330392785943219,
@@ -14904,7 +14644,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702592278001000,
           "position": [
             0.9716563096339513,
@@ -14921,7 +14661,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702592278001000,
           "position": [
             -0.8998645578048056,
@@ -15064,7 +14804,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702603439488000,
           "position": [
             0.7616453795041791,
@@ -15233,7 +14973,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1702612796352699,
           "position": [
             -0.78402172223107,
@@ -16367,7 +16107,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703103402929900,
           "position": [
             -0.49287234316870376,
@@ -16535,7 +16275,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703113539004200,
           "position": [
             0.8062734793146519,
@@ -17261,7 +17001,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703162476357000,
           "position": [
             0.9905528468603912,
@@ -17278,7 +17018,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703162476357000,
           "position": [
             0.472680932223715,
@@ -17506,7 +17246,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703173489591300,
           "position": [
             0.9543777207930175,
@@ -17523,7 +17263,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703173489591300,
           "position": [
             0.5322630081639487,
@@ -17708,7 +17448,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703184539147199,
           "position": [
             -0.5073220764121517,
@@ -17725,7 +17465,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703184539147199,
           "position": [
             0.024728901856332863,
@@ -17928,7 +17668,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703194441498299,
           "position": [
             0.9917375274306786,
@@ -17945,7 +17685,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703194441498299,
           "position": [
             0.5533750345859096,
@@ -18088,7 +17828,7 @@
             "name": "nav"
           },
           "title": "Poltrona",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703202806971199,
           "position": [
             0.9229221889645596,
@@ -18105,7 +17845,7 @@
             "name": "nav"
           },
           "title": "Poltrone",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703202806971199,
           "position": [
             0.7335563758281898,
@@ -18214,7 +17954,7 @@
             "name": "nav"
           },
           "title": "Letto",
-          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design , ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
           "viewId": 1703214465990000,
           "position": [
             0.8943625435751402,
@@ -18375,7 +18115,7 @@
             "name": "nav"
           },
           "title": "Letto",
-          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design , ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
           "viewId": 1703372493174600,
           "position": [
             -0.9037497456169236,
@@ -18485,7 +18225,7 @@
             "name": "nav"
           },
           "title": "Letto",
-          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design Poltrona Frau, ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
+          "abstract": "Passiamo circa un terzo della nostra vita dormendo, tanto vale farlo con stile e con il massimo comfort possibile. In un letto di design , ad esempio. Nella collezione Notte è possibile scegliere il proprio letto dei sogni, quello che più ci somiglia e meglio si adatta alle diverse e personali esigenze.\n",
           "viewId": 1703383980586600,
           "position": [
             0.8205000646012706,
@@ -18502,7 +18242,7 @@
             "name": "nav"
           },
           "title": "Poltroncine",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703383980586600,
           "position": [
             0.9724538472869174,
@@ -18519,7 +18259,7 @@
             "name": "nav"
           },
           "title": "Poltroncine",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703383980586600,
           "position": [
             0.7314931590263982,
@@ -19142,7 +18882,7 @@
             "name": "nav"
           },
           "title": "Divano",
-          "abstract": "Oggetto-icona e vero simbolo di Poltrona Frau, che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
+          "abstract": "Oggetto-icona , che la dichiara programmaticamente già nel nome, la poltrona riassume in sé tutte quelle caratteristiche di design e comfort che da sempre sono associate al marchio di Tolentino.\n",
           "viewId": 1703452820484400,
           "position": [
             -0.5482219495659693,
@@ -23241,134 +22981,6 @@
     },
     {
       "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Sincronizzatore Futura Push",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "25105579664300_sfondo.jpg",
-        "id": 25105594184000
-      },
-      "orientation": {
-        "latitude": 26.9,
-        "longitude": 343.40000000000003
-      },
-      "zoom": 58.6212,
-      "id": 25134886131400,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "25111083254100_salice_sincronizzatore_futura_push.glb",
-            "id": 25111113905000,
-            "chromaKeyColor": null
-          },
-          "id": 25134906274500,
-          "position": null,
-          "rotation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "25159322251100_salice_sincronizzatore_futura_push.usdz",
-          "id": 25159355030500
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "25165308236800_salice_sincronizzatore_futura_push.glb",
-          "id": 25165362874600
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
-      "name": "Wind",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "25184684572500_sfondo.jpg",
-        "id": 25184700534800
-      },
-      "orientation": {
-        "latitude": 9.1,
-        "longitude": 342.6
-      },
-      "zoom": 41.2927,
-      "id": 25195717133500,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "25191597098400_salice_wind.glb",
-            "id": 25191633117500,
-            "chromaKeyColor": null
-          },
-          "id": 25195744237700,
-          "position": null,
-          "rotation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "25225812864500_salice_wind.usdz",
-          "id": 25225842171800
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "25232300152400_salice_wind.glb",
-          "id": 25232329257900
-        }
-      }
-    },
-    {
-      "type": {
         "id": 2,
         "name": "panorama"
       },
@@ -23571,8 +23183,8 @@
     {
       "id": 415534897611600,
       "parentId": 513759169265300,
-      "viewId": 1699696473480899,
-      "name": "Showroom Furniture",
+      "viewId": 1702499681176100,
+      "name": "Frau 18",
       "order": 30
     },
     {
@@ -23628,50 +23240,43 @@
       "id": 513862283120100,
       "parentId": 513846642724000,
       "viewId": 502924660957900,
-      "name": "Gallery - Standard",
+      "name": "Gallery",
       "order": 0
-    },
-    {
-      "id": 63821252893599,
-      "parentId": 513846642724000,
-      "viewId": 338065166299600,
-      "name": "Gallery - Poltrone",
-      "order": 10
     },
     {
       "id": 513863498165500,
       "parentId": 513846642724000,
       "viewId": 503042843844599,
       "name": "Cinema 360",
-      "order": 20
+      "order": 10
     },
     {
       "id": 1096415127937000,
       "parentId": 513846642724000,
       "viewId": 1036547102860500,
       "name": "Cinema Live",
-      "order": 30
+      "order": 20
     },
     {
       "id": 458217964676200,
       "parentId": 513846642724000,
       "viewId": 458088603295000,
       "name": "Smart Glass",
-      "order": 40
+      "order": 30
     },
     {
       "id": 513864036920900,
       "parentId": 513846642724000,
       "viewId": 503340859465600,
       "name": "Cinema Condivisione",
-      "order": 50
+      "order": 40
     },
     {
       "id": 6785420617299,
       "parentId": 513846642724000,
       "viewId": 337929883149900,
       "name": "Cinema Room",
-      "order": 60
+      "order": 50
     },
     {
       "id": 513904544668199,
@@ -23844,30 +23449,9 @@
     {
       "id": 25251552423400,
       "parentId": 514006762002499,
-      "viewId": null,
-      "name": "Cerniere",
-      "order": 70
-    },
-    {
-      "id": 25257972192600,
-      "parentId": 25251552423400,
       "viewId": 25057327082100,
-      "name": "1",
-      "order": 0
-    },
-    {
-      "id": 25259017963300,
-      "parentId": 25251552423400,
-      "viewId": 25134886131400,
-      "name": "2",
-      "order": 10
-    },
-    {
-      "id": 25259801832700,
-      "parentId": 25251552423400,
-      "viewId": 25195717133500,
-      "name": "3",
-      "order": 20
+      "name": "Cerniera",
+      "order": 70
     },
     {
       "id": 40982979157200,
