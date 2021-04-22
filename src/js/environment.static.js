@@ -41,7 +41,7 @@ export const environmentStatic = {
 	},
 	assets: '/b-here/',
 	worker: './js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/remoteassistance/docs/',
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',
 		modal: {

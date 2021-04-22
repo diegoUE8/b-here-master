@@ -14,14 +14,17 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/waiting-room/",
-        "file": "waiting-room.jpg"
+        "folder": "/uploads/",
+        "file": "29871793835100_welcome.jpg",
+        "id": 29871823907900
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
-      "zoom": 75
+      "zoom": 75,
+      "items": [],
+      "ar": null
     },
     {
       "id": 170427763402500,
@@ -37,15 +40,244 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/welcome-room/",
-        "file": "welcome-room.jpg"
+        "folder": "/uploads/",
+        "file": "29896197650400_AdobeStock_141799030.jpeg",
+        "id": 29896219948900
+      },
+      "orientation": {
+        "latitude": -3.8000000000000007,
+        "longitude": 9.899999999999977
+      },
+      "zoom": 75,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.69,
+            -5,
+            3.060663483686059
+          ],
+          "rotation": [
+            -2.7920119454013816,
+            -1.3942226365095474,
+            -2.797024423103971,
+            "XYZ"
+          ],
+          "scale": [
+            14,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 30269495100500,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 30174334567800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.226682011619513,
+            3.610220113300315,
+            2.8112966170691767
+          ],
+          "rotation": [
+            2.1363101684339596,
+            -1.2219932776328246,
+            2.1542974998932136,
+            "XYZ"
+          ],
+          "scale": [
+            14,
+            8,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 8,
+              "name": "smart-device-stream",
+              "file": "smartDeviceStream"
+            },
+            "folder": "",
+            "file": "smartDeviceStream",
+            "id": 30323932391200,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 30291059434800
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "30016627418300_MeetingRoom.jpg",
+        "id": 30016645547500
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "items": []
+      "id": 30026130485400,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20.050000000000008,
+            5.5,
+            -0.0895971591419441
+          ],
+          "rotation": [
+            -2.6016721422874376,
+            -1.5608254246999371,
+            -2.6018379614097413,
+            "XYZ"
+          ],
+          "scale": [
+            23,
+            14,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 30141950757200,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 30046640612400
+        }
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "id": 29907970527000,
+      "parentId": null,
+      "viewId": 170427763402500,
+      "name": "Remote Assistance",
+      "order": 0
+    },
+    {
+      "id": 30154950026300,
+      "parentId": null,
+      "viewId": 30026130485400,
+      "name": "Meeting",
+      "order": 10
+    }
+  ],
+  "assets": [
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "29871793835100_welcome.jpg",
+      "id": 29871823907900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "29896197650400_AdobeStock_141799030.jpeg",
+      "id": 29896219948900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "30016627418300_MeetingRoom.jpg",
+      "id": 30016645547500
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 30141950757200,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 30269495100500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 8,
+        "name": "smart-device-stream",
+        "file": "smartDeviceStream"
+      },
+      "folder": "",
+      "file": "smartDeviceStream",
+      "id": 30323932391200,
+      "chromaKeyColor": null
+    }
+  ],
+  "users": [
+    {
+      "id": "1601892639985",
+      "username": "publisher",
+      "password": "publisher",
+      "type": "publisher",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
+    },
+    {
+      "id": "1601892639986",
+      "username": "attendee",
+      "password": "attendee",
+      "type": "attendee",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
     }
   ]
 }
