@@ -119,6 +119,146 @@
             "index": 0
           },
           "id": 30291059434800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            13.830172062898713,
+            -4.138330439170847,
+            14.503713022477152
+          ],
+          "rotation": [
+            -2.869502604825804,
+            -1.3822479507263385,
+            -2.883067553133679,
+            "XYZ"
+          ],
+          "scale": [
+            11.5,
+            6.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 20020090586400,
+            "chromaKeyColor": null,
+            "index": 1
+          },
+          "id": 19921115427800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            12.664523513655528,
+            2.7662575493622903,
+            13.741065679649836
+          ],
+          "rotation": [
+            2.136,
+            -1.222,
+            2.155,
+            "XYZ"
+          ],
+          "scale": [
+            10.5,
+            6.3,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 7,
+              "name": "attendee-screen",
+              "file": "attendeeScreen"
+            },
+            "folder": "",
+            "file": "attendeeScreen",
+            "id": 20792794823000,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 20039963687600
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            17.6457073782363,
+            2.8059019196622503,
+            -9.28149825032851
+          ],
+          "rotation": [
+            2.136,
+            -1.222,
+            2.155,
+            "XYZ"
+          ],
+          "scale": [
+            10.979999999999979,
+            6.380000000000003,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 20516982071400,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 20218553288800
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.41998783226245,
+            -4.550000000000002,
+            -9.619999999999987
+          ],
+          "rotation": [
+            -2.792,
+            -1.394,
+            -2.792,
+            "XYZ"
+          ],
+          "scale": [
+            11,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 20938179198500,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 20832381188400
         }
       ],
       "hidden": null,
@@ -140,8 +280,8 @@
         "id": 30016645547500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 3.1000000000000014,
+        "longitude": 0.10000000000002274
       },
       "zoom": 75,
       "id": 30026130485400,
@@ -181,7 +321,9 @@
           },
           "id": 30046640612400
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -260,6 +402,72 @@
       "file": "smartDeviceStream",
       "id": 30323932391200,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 20020090586400,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 7,
+        "name": "attendee-screen",
+        "file": "attendeeScreen"
+      },
+      "folder": "",
+      "file": "attendeeScreen",
+      "id": 20196845010500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 20442454497100,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 20516982071400,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 7,
+        "name": "attendee-screen",
+        "file": "attendeeScreen"
+      },
+      "folder": "",
+      "file": "attendeeScreen",
+      "id": 20792794823000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 20938179198500,
+      "chromaKeyColor": null
     }
   ],
   "users": [
@@ -268,16 +476,16 @@
       "username": "publisher",
       "password": "publisher",
       "type": "publisher",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "",
+      "lastName": ""
     },
     {
       "id": "1601892639986",
       "username": "attendee",
       "password": "attendee",
       "type": "attendee",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "",
+      "lastName": ""
     }
   ]
 }
