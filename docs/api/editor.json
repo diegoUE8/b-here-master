@@ -8066,11 +8066,11 @@
       "liked": false,
       "asset": {
         "type": {
-          "id": 4,
-          "name": "publisher-stream"
+          "id": 5,
+          "name": "next-attendee-stream"
         },
         "folder": "",
-        "file": "publisherStream"
+        "file": "nextAttendeeStream"
       },
       "items": [],
       "orientation": {
