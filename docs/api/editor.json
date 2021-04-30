@@ -6410,19 +6410,19 @@
             "name": "plane"
           },
           "position": [
-            20.522918015952378,
-            2.28845882512457,
-            12.524138123506875
+            19.852198748653635,
+            1.18,
+            11.319999999999972
           ],
           "rotation": [
-            1.2960895382773783,
-            -1.5527849282158626,
-            1.2950796521903711,
+            2.632691056494455,
+            -1.5538675495080627,
+            2.6358408816291132,
             "XYZ"
           ],
           "scale": [
-            13.5,
-            8,
+            15,
+            9,
             1
           ],
           "asset": {
@@ -6431,9 +6431,21 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "1619091546450500_websolute.mp4",
+            "file": "29550829332100_videomoda.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "29550829332100_videomoda.mp4",
+                "id": 1619091771669400,
+                "chromaKeyColor": null
+              }
+            }
           },
           "id": 502939049860200
         },
@@ -6463,13 +6475,14 @@
           "abstract": null,
           "viewId": 498478142881399,
           "position": [
-            0.9347656803116914,
-            -0.13873968429573622,
-            -0.32705415899043466
+            0.4297428194825838,
+            -0.22945155220230376,
+            -0.8733115677094361
           ],
           "asset": null,
           "link": null,
-          "id": 6734179135500
+          "id": 6734179135500,
+          "keepOrientation": null
         },
         {
           "type": {
@@ -6480,13 +6493,104 @@
           "abstract": null,
           "viewId": 503634164139600,
           "position": [
-            0.7486708943078315,
-            -0.1435976412757376,
-            -0.647202912104354
+            0.9375885282294698,
+            -0.13057331423997384,
+            -0.322301662020049
           ],
           "asset": null,
           "link": null,
-          "id": 6868366425599
+          "id": 6868366425599,
+          "keepOrientation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 979852780240700,
+          "keepOrientation": false,
+          "position": [
+            -0.8467046711236634,
+            -0.22625491424261515,
+            -0.48155987548635726
+          ],
+          "asset": null,
+          "link": null,
+          "id": 29643348226500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 24644443223500,
+          "keepOrientation": false,
+          "position": [
+            -0.8807164715976018,
+            -0.23035628974623432,
+            0.41385320638001577
+          ],
+          "asset": null,
+          "link": null,
+          "id": 29652014201100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 25021543650100,
+          "keepOrientation": false,
+          "position": [
+            -0.4761580584532596,
+            -0.1214315666448074,
+            0.8709350595723026
+          ],
+          "asset": null,
+          "link": null,
+          "id": 29660253661000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 24867987536000,
+          "keepOrientation": false,
+          "position": [
+            -0.06747215171892752,
+            -0.08649238602248063,
+            0.9939650778083485
+          ],
+          "asset": null,
+          "link": null,
+          "id": 29674838502900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 24965105453700,
+          "keepOrientation": false,
+          "position": [
+            0.22745190536940219,
+            -0.08346061890164783,
+            0.9702061408980993
+          ],
+          "asset": null,
+          "link": null,
+          "id": 29683611740500
         }
       ],
       "hidden": null
@@ -6691,6 +6795,41 @@
             "index": 0
           },
           "id": 586313121732899
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            19.85,
+            1.55,
+            -2.43
+          ],
+          "rotation": [
+            -0.182,
+            -1.447,
+            -0.182,
+            "XYZ"
+          ],
+          "scale": [
+            23.6,
+            13,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 5,
+              "name": "next-attendee-stream",
+              "file": "nextAttendeeStream"
+            },
+            "folder": "",
+            "file": "nextAttendeeStream",
+            "id": 30438747493900,
+            "chromaKeyColor": null,
+            "index": 0
+          },
+          "id": 30371306577800
         }
       ],
       "hidden": null,
@@ -7779,19 +7918,19 @@
             "name": "plane"
           },
           "position": [
-            18.767278682336382,
-            -2.2866784616229294,
-            0.043752974806453654
+            19.20727868233645,
+            -2.206678461622931,
+            0.02375297480645365
           ],
           "rotation": [
             -1.2540059046291179,
-            -1.5135859746457845,
+            -1.5484925596856707,
             -1.2535208845108288,
             "XYZ"
           ],
           "scale": [
-            8,
-            4.5,
+            8.5,
+            5,
             1
           ],
           "asset": {
@@ -7800,13 +7939,29 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "154997252732700_16927758_man-wearing-virtual-reality-goggles-studio-shot-green-screen_by_kinomaster_preview.mp4",
+            "file": "29757954528100_greenback_noaudio.mp4",
             "id": 417667077523099,
             "chromaKeyColor": [
               0,
               1,
               0
-            ]
+            ],
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "29757954528100_greenback_noaudio.mp4",
+                "id": 417667077523099,
+                "chromaKeyColor": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            }
           },
           "id": 1036705764719800
         }
@@ -11478,7 +11633,7 @@
         "latitude": 22.8,
         "longitude": 66.79999999999997
       },
-      "zoom": 52.5211,
+      "zoom": 54.1475,
       "id": 979852780240700,
       "items": [
         {
@@ -11499,6 +11654,23 @@
           "id": 979852796639100,
           "position": null,
           "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "keepOrientation": false,
+          "position": [
+            -0.14917726990521973,
+            -0.5882332966461936,
+            -0.7948130162877156
+          ],
+          "asset": null,
+          "id": 29961401004900
         }
       ],
       "hidden": null,
@@ -12462,6 +12634,333 @@
       },
       "zoom": 75,
       "id": 980643674550300
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Dress 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24618363093100_AdobeStock_326519034.jpeg",
+        "id": 24618379536400
+      },
+      "orientation": {
+        "latitude": 20.699999999999996,
+        "longitude": 58.400000000000006
+      },
+      "zoom": 69.9531,
+      "id": 24644443223500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "24636215161000_capa.glb",
+            "id": 24636264301100,
+            "chromaKeyColor": null
+          },
+          "id": 24644462400400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "keepOrientation": false,
+          "position": [
+            -0.08934516688433017,
+            -0.6282689934066571,
+            -0.7728489587740913
+          ],
+          "asset": null,
+          "link": null,
+          "id": 27245318147700
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27219400060700_Capa_Museu_Tèxtil.usdz",
+          "id": 27219474398400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27224794690500_capa.glb",
+          "id": 27224821336500
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Shoe",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24935968685500_AdobeStock_326519034.jpeg",
+        "id": 24854945785000
+      },
+      "orientation": {
+        "latitude": 21.9,
+        "longitude": 177.70000000000002
+      },
+      "zoom": 75,
+      "id": 24867987536000,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "24861453431500_shoe.glb",
+            "id": 24861470486600,
+            "chromaKeyColor": null
+          },
+          "id": 24868005161200,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "keepOrientation": false,
+          "position": [
+            0.7187297755655577,
+            -0.6729469852581239,
+            0.1748423997418405
+          ],
+          "asset": null,
+          "link": null,
+          "id": 30032871365700
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27503565608500_Worn_Rieker_women_leather_shoe.usdz",
+          "id": 27503630234700
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27509023964700_shoe.glb",
+          "id": 27509063686100
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Bag",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24952490935200_AdobeStock_326519034.jpeg",
+        "id": 24952509900400
+      },
+      "orientation": {
+        "latitude": 7.500000000000003,
+        "longitude": 135.70000000000002
+      },
+      "zoom": 75,
+      "id": 24965105453700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "24958415309700_versace.glb",
+            "id": 24958475504700,
+            "chromaKeyColor": null
+          },
+          "id": 24965122661800,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "keepOrientation": false,
+          "position": [
+            0.8391161951933156,
+            -0.4343231437421444,
+            -0.32748651540824386
+          ],
+          "asset": null,
+          "link": null,
+          "id": 30057401039500
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27595510169300_Versace_Bag.usdz",
+          "id": 27595571319700
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27605905061800_versace.glb",
+          "id": 27605928908100
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Dress 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "25009242593100_AdobeStock_326519034.jpeg",
+        "id": 25009302633300
+      },
+      "orientation": {
+        "latitude": 11.5,
+        "longitude": 131.10000000000002
+      },
+      "zoom": 71.0203,
+      "id": 25021543650100,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "25015786592400_vestito.glb",
+            "id": 25015824649700,
+            "chromaKeyColor": null
+          },
+          "id": 25021560496400,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "keepOrientation": false,
+          "position": [
+            0.7126962697835555,
+            -0.46458091999886775,
+            -0.5255745387760059
+          ],
+          "asset": null,
+          "id": 29993903939100
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27366372609600_Floral_dress_with_lace_trim.usdz",
+          "id": 27366431509800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "27372496344000_vestito.glb",
+          "id": 27372518133300
+        }
+      }
     }
   ],
   "menu": [
@@ -12784,8 +13283,36 @@
       "id": 981627543856300,
       "parentId": 514006762002499,
       "viewId": 979852780240700,
-      "name": "Dress",
+      "name": "Dress 1",
       "order": 80
+    },
+    {
+      "id": 26053541161400,
+      "parentId": 514006762002499,
+      "viewId": 24644443223500,
+      "name": "Dress 2",
+      "order": 90
+    },
+    {
+      "id": 26054505700100,
+      "parentId": 514006762002499,
+      "viewId": 25021543650100,
+      "name": "Dress 3",
+      "order": 100
+    },
+    {
+      "id": 26055642896400,
+      "parentId": 514006762002499,
+      "viewId": 24867987536000,
+      "name": "Shoe",
+      "order": 110
+    },
+    {
+      "id": 26070761398700,
+      "parentId": 514006762002499,
+      "viewId": 24965105453700,
+      "name": "Bag",
+      "order": 120
     }
   ],
   "assets": [
@@ -15824,9 +16351,21 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "1619091546450500_websolute.mp4",
+      "file": "29550829332100_videomoda.mp4",
       "id": 1619091771669400,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "29550829332100_videomoda.mp4",
+          "id": 1619091771669400,
+          "chromaKeyColor": null
+        }
+      }
     },
     {
       "type": {
@@ -15897,13 +16436,29 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "154997252732700_16927758_man-wearing-virtual-reality-goggles-studio-shot-green-screen_by_kinomaster_preview.mp4",
+      "file": "29757954528100_greenback_noaudio.mp4",
       "id": 417667077523099,
       "chromaKeyColor": [
         0,
         1,
         0
-      ]
+      ],
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "29757954528100_greenback_noaudio.mp4",
+          "id": 417667077523099,
+          "chromaKeyColor": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
     },
     {
       "type": {
@@ -16519,6 +17074,170 @@
       "folder": "/uploads/",
       "file": "980640563775000_reception.jpg",
       "id": 980640586575900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24618363093100_AdobeStock_326519034.jpeg",
+      "id": 24618379536400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "24636215161000_capa.glb",
+      "id": 24636264301100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24841744506100_AdobeStock_334835354.jpeg",
+      "id": 24841790140500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24935968685500_AdobeStock_326519034.jpeg",
+      "id": 24854945785000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "24861453431500_shoe.glb",
+      "id": 24861470486600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24952490935200_AdobeStock_326519034.jpeg",
+      "id": 24952509900400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "24958415309700_versace.glb",
+      "id": 24958475504700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "25009242593100_AdobeStock_326519034.jpeg",
+      "id": 25009302633300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "25015786592400_vestito.glb",
+      "id": 25015824649700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27219400060700_Capa_Museu_Tèxtil.usdz",
+      "id": 27219474398400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27224794690500_capa.glb",
+      "id": 27224821336500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27366372609600_Floral_dress_with_lace_trim.usdz",
+      "id": 27366431509800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27372496344000_vestito.glb",
+      "id": 27372518133300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27503565608500_Worn_Rieker_women_leather_shoe.usdz",
+      "id": 27503630234700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27509023964700_shoe.glb",
+      "id": 27509063686100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27595510169300_Versace_Bag.usdz",
+      "id": 27595571319700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "27605905061800_versace.glb",
+      "id": 27605928908100
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "next-attendee-stream",
+        "file": "nextAttendeeStream"
+      },
+      "folder": "",
+      "file": "nextAttendeeStream",
+      "id": 30438747493900,
+      "chromaKeyColor": null
     }
   ],
   "users": [
