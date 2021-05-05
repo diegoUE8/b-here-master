@@ -12961,6 +12961,226 @@
           "id": 27372518133300
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Bathroom ",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "463285827350500_bath_1.jpg",
+        "id": 463286238518600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 463293623198900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 463306620688000,
+          "keepOrientation": true,
+          "position": [
+            0.9321677567874741,
+            -0.36172034773430034,
+            -0.014888359237522937
+          ],
+          "asset": null,
+          "link": null,
+          "id": 463336386061100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Model 3D",
+          "abstract": null,
+          "viewId": 463408766195400,
+          "keepOrientation": false,
+          "position": [
+            0.3139419376436989,
+            -0.48184942000525566,
+            0.8180841009511912
+          ],
+          "asset": null,
+          "link": null,
+          "id": 463468127931800
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Bathroom 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "463304385030400_bath_2.jpg",
+        "id": 463304404472400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 463306620688000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 463293623198900,
+          "keepOrientation": true,
+          "position": [
+            -0.8918072004503467,
+            -0.4509721810159065,
+            -0.0361110672048332
+          ],
+          "asset": null,
+          "link": null,
+          "id": 463319853608200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome Room",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "position": [
+            -0.9977232095076408,
+            -0.06691858086624056,
+            -0.008384553930948781
+          ],
+          "asset": null,
+          "link": null,
+          "id": 463371980246000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Model 3D",
+          "abstract": null,
+          "viewId": 463408766195400,
+          "keepOrientation": false,
+          "position": [
+            -0.8541965249924188,
+            -0.2730898953021745,
+            0.44245927018735104
+          ],
+          "asset": null,
+          "link": null,
+          "id": 463488167901200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Sink",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "463400309818400_AdobeStock_410699925.jpeg",
+        "id": 463400323419100
+      },
+      "orientation": {
+        "latitude": 10,
+        "longitude": 342
+      },
+      "zoom": 62.5,
+      "id": 463408766195400,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "463403726190300_sink2.glb",
+            "id": 463403741898600,
+            "chromaKeyColor": null
+          },
+          "id": 463408783277300,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 463293623198900,
+          "keepOrientation": false,
+          "position": [
+            -0.8775479255286494,
+            -0.4788435046299278,
+            -0.024870393525085133
+          ],
+          "asset": null,
+          "link": null,
+          "id": 463441642025100
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "463420834324700_K EVO_usdz.usdz",
+          "id": 463420847385900
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "463423921916000_sink2.glb",
+          "id": 463423937269100
+        }
+      }
     }
   ],
   "menu": [
@@ -13049,25 +13269,32 @@
       "order": 10
     },
     {
+      "id": 463526147329200,
+      "parentId": 513759169265300,
+      "viewId": 463293623198900,
+      "name": "Bathroom ",
+      "order": 80
+    },
+    {
       "id": 176129226609200,
       "parentId": 513759169265300,
       "viewId": 176009598834200,
       "name": "Moco Museum",
-      "order": 80
+      "order": 90
     },
     {
       "id": 176160231382200,
       "parentId": 513759169265300,
       "viewId": 176070093236500,
       "name": "Uffizi",
-      "order": 90
+      "order": 100
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 100
+      "order": 110
     },
     {
       "id": 513846642724000,
@@ -13313,6 +13540,13 @@
       "viewId": 24965105453700,
       "name": "Bag",
       "order": 120
+    },
+    {
+      "id": 463509993642000,
+      "parentId": 514006762002499,
+      "viewId": 463408766195400,
+      "name": "Sink",
+      "order": 130
     }
   ],
   "assets": [
@@ -17238,6 +17472,60 @@
       "file": "nextAttendeeStream",
       "id": 30438747493900,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "463285827350500_bath_1.jpg",
+      "id": 463286238518600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "463304385030400_bath_2.jpg",
+      "id": 463304404472400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "463400309818400_AdobeStock_410699925.jpeg",
+      "id": 463400323419100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "463403726190300_sink2.glb",
+      "id": 463403741898600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "463420834324700_K EVO_usdz.usdz",
+      "id": 463420847385900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "463423921916000_sink2.glb",
+      "id": 463423937269100
     }
   ],
   "users": [
