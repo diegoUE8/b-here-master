@@ -994,6 +994,24 @@
             14.8,
             1
           ]
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 463293623198900,
+          "keepOrientation": false,
+          "position": [
+            -0.9842334949190282,
+            -0.17621335894815549,
+            0.015273493630579787
+          ],
+          "asset": null,
+          "link": null,
+          "id": 521529464310900
         }
       ],
       "hidden": null
@@ -13019,6 +13037,24 @@
           "asset": null,
           "link": null,
           "id": 463468127931800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 338065166299600,
+          "keepOrientation": false,
+          "position": [
+            -0.9983009223563274,
+            -0.057580406642931084,
+            -0.008931136173009776
+          ],
+          "asset": null,
+          "link": null,
+          "id": 521566207618600
         }
       ]
     },
@@ -13067,13 +13103,13 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome Room",
+          "title": "Gallery",
           "abstract": null,
-          "viewId": 170427763402500,
+          "viewId": 338065166299600,
           "keepOrientation": false,
           "position": [
-            -0.9977232095076408,
-            -0.06691858086624056,
+            -0.9977232095076407,
+            -0.06691858086624054,
             -0.008384553930948781
           ],
           "asset": null,
