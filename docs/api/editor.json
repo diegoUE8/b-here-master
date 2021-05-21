@@ -14035,6 +14035,927 @@
           "id": 12957611802700
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "682990397130900_R0020033.jpg",
+        "id": 682990412775300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 682993526673300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683006629224299,
+          "keepOrientation": true,
+          "position": [
+            -0.4115974610958256,
+            -0.19092247259944012,
+            -0.8911431644107396
+          ],
+          "asset": null,
+          "link": null,
+          "id": 684002262791600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683004870977700_R0020034.jpg",
+        "id": 683004883950899
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683006629224299,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Up",
+          "abstract": null,
+          "viewId": 683139629405000,
+          "keepOrientation": false,
+          "position": [
+            0.22950543635782197,
+            0.10652239513910723,
+            -0.9674607144561652
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683789743529500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683026421654400,
+          "keepOrientation": false,
+          "position": [
+            -0.5039122164362175,
+            -0.37800615475531185,
+            -0.7766491003622176
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683808727945800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683042093601799,
+          "keepOrientation": true,
+          "position": [
+            -0.31262138488029523,
+            -0.2513572296791219,
+            0.9160171465663531
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683835592702900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 682993526673300,
+          "keepOrientation": true,
+          "position": [
+            0.3913893309256662,
+            -0.249238910581338,
+            0.885829756267979
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683867062498300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683101507534700,
+          "keepOrientation": true,
+          "position": [
+            -0.9669361475290074,
+            -0.2269389607409239,
+            -0.1163322599264317
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683887864546499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683058133007500,
+          "keepOrientation": false,
+          "position": [
+            -0.5998964586714403,
+            -0.08738228728625405,
+            0.7952915029987984
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683904195349299
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683024743900700_R0020035.jpg",
+        "id": 683024756122800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683026421654400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 683006629224299,
+          "keepOrientation": false,
+          "position": [
+            0.9678087875775538,
+            -0.125951792933873,
+            0.21790432887946118
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683938165258000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683040329338899_R0020036.jpg",
+        "id": 683040344016499
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683042093601799,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683006629224299,
+          "keepOrientation": false,
+          "position": [
+            -0.11019264852366568,
+            -0.19487343968216145,
+            -0.9746188602309023
+          ],
+          "asset": null,
+          "link": null,
+          "id": 684028212055900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683058133007500,
+          "keepOrientation": false,
+          "position": [
+            -0.9004519283158027,
+            -0.19337646029416156,
+            0.38960476048997816
+          ],
+          "asset": null,
+          "link": null,
+          "id": 684039886891200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683053467995600_R0020037.jpg",
+        "id": 683053480784300
+      },
+      "orientation": {
+        "latitude": -5.5,
+        "longitude": 91.2
+      },
+      "zoom": 75,
+      "id": 683058133007500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 683006629224299,
+          "keepOrientation": false,
+          "position": [
+            0.04999791230790947,
+            -0.08098586282216451,
+            -0.9954604456169015
+          ],
+          "asset": null,
+          "link": null,
+          "id": 684084087835500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683094289004100_R0020038.jpg",
+        "id": 683094302704899
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683101507534700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683006629224299,
+          "keepOrientation": true,
+          "position": [
+            0.9819879487423453,
+            -0.1880586998770355,
+            0.01826455379580768
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683974390821600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683112369700199_R0020039.jpg",
+        "id": 683112383211800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683113805789500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "LightON",
+          "abstract": null,
+          "viewId": 683127174969099,
+          "keepOrientation": true,
+          "position": [
+            0.7858241439377709,
+            0.07248008754570802,
+            -0.6141881240416783
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683692350222799
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683139629405000,
+          "keepOrientation": true,
+          "position": [
+            -0.39538747529308366,
+            -0.4387269701076789,
+            -0.8069618269047782
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683701781934000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws8",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683125474476400_R0020040.jpg",
+        "id": 683125491870099
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683127174969099,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "LightOFF",
+          "abstract": null,
+          "viewId": 683113805789500,
+          "keepOrientation": true,
+          "position": [
+            0.7829954073003162,
+            0.07419808406182789,
+            -0.6175862988021721
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683719092169300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683139629405000,
+          "keepOrientation": true,
+          "position": [
+            -0.35942546010211174,
+            -0.4939195227826122,
+            -0.7917429151211787
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683745377305200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws9",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683137550415700_R0020041.jpg",
+        "id": 683137563328000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683139629405000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683167029749200,
+          "keepOrientation": true,
+          "position": [
+            0.9730966033146936,
+            -0.2197025925581763,
+            -0.06938134793027427
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683630301329099
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683154982977400,
+          "keepOrientation": true,
+          "position": [
+            -0.9731269897276555,
+            -0.1199062397202894,
+            -0.19658676338892067
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683649606592600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683113805789500,
+          "keepOrientation": true,
+          "position": [
+            -0.17189871134388435,
+            -0.25647090066594863,
+            -0.951143264787124
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683661117663700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Down",
+          "abstract": null,
+          "viewId": 683006629224299,
+          "keepOrientation": false,
+          "position": [
+            0.8180733413255811,
+            -0.4334198255477433,
+            0.37802547934572245
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683770989926300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws10",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683152603008600_R0020042.jpg",
+        "id": 683152617639200
+      },
+      "orientation": {
+        "latitude": -3.299999999999999,
+        "longitude": 177.70000000000002
+      },
+      "zoom": 75,
+      "id": 683154982977400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683139629405000,
+          "keepOrientation": true,
+          "position": [
+            -0.9929445527731734,
+            -0.11471221560630016,
+            0.03003702230209424
+          ],
+          "asset": null,
+          "id": 684185091958100
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws11",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683164929757600_R0020043.jpg",
+        "id": 683164943782300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683167029749200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683139629405000,
+          "keepOrientation": true,
+          "position": [
+            0.9798892727805645,
+            -0.19944114087424955,
+            -0.006343848702035829
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683438436803499
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683207678597800,
+          "keepOrientation": false,
+          "position": [
+            -0.1196355163622606,
+            -0.2598521478731144,
+            0.958208852218797
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683450349477800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683222215287600,
+          "keepOrientation": true,
+          "position": [
+            -0.9965507113006569,
+            -0.07499132960858723,
+            -0.03553843397915533
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683464876951100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683182869999200,
+          "keepOrientation": true,
+          "position": [
+            -0.12917813485718513,
+            -0.05393256094805617,
+            -0.990153669055669
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683479645357000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws12",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683180914018400_R0020044.jpg",
+        "id": 683180928454399
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683182869999200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "LightON",
+          "abstract": null,
+          "viewId": 683195013207300,
+          "keepOrientation": true,
+          "position": [
+            0.08803170160343346,
+            -0.7248107441629064,
+            -0.6833006692948703
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683543835947600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683167029749200,
+          "keepOrientation": false,
+          "position": [
+            -0.9835910927499001,
+            -0.08315739932829246,
+            0.16010436970930061
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683593573605699
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws13",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683193212554200_R0020045.jpg",
+        "id": 683193226971700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683195013207300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683167029749200,
+          "keepOrientation": false,
+          "position": [
+            -0.9700569643106527,
+            -0.18022361593981578,
+            0.1628156449791576
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683559822173700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "LightOFF",
+          "abstract": null,
+          "viewId": 683182869999200,
+          "keepOrientation": true,
+          "position": [
+            0.10954972389077437,
+            -0.7517490298072304,
+            -0.6502862863226804
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683577092798000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws14",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683205720812600_R0020046.jpg",
+        "id": 683205733564700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683207678597800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683167029749200,
+          "keepOrientation": true,
+          "position": [
+            0.10470047090179142,
+            -0.3111105286750445,
+            -0.944588826072211
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683421388558500
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "ws15",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "683218721522199_R0020048.jpg",
+        "id": 683218736561500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 683222215287600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 683167029749200,
+          "keepOrientation": true,
+          "position": [
+            0.988150483015107,
+            -0.15347527283427112,
+            -0.0019908655044069685
+          ],
+          "asset": null,
+          "link": null,
+          "id": 683264381802100
+        }
+      ]
     }
   ],
   "menu": [
@@ -14156,6 +15077,13 @@
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
       "order": 120
+    },
+    {
+      "id": 684130060180899,
+      "parentId": 513759169265300,
+      "viewId": 683154982977400,
+      "name": "Websolute",
+      "order": 130
     },
     {
       "id": 513846642724000,
@@ -18621,6 +19549,150 @@
       "folder": "/uploads/",
       "file": "13283931340200_362435971139200_info.jpg",
       "id": 13283937225900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "682990397130900_R0020033.jpg",
+      "id": 682990412775300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683004870977700_R0020034.jpg",
+      "id": 683004883950899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683024743900700_R0020035.jpg",
+      "id": 683024756122800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683040329338899_R0020036.jpg",
+      "id": 683040344016499
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683053467995600_R0020037.jpg",
+      "id": 683053480784300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683086122111700_R0020038.jpg",
+      "id": 683086135410200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683094289004100_R0020038.jpg",
+      "id": 683094302704899
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683112369700199_R0020039.jpg",
+      "id": 683112383211800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683125474476400_R0020040.jpg",
+      "id": 683125491870099
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683137550415700_R0020041.jpg",
+      "id": 683137563328000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683152603008600_R0020042.jpg",
+      "id": 683152617639200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683164929757600_R0020043.jpg",
+      "id": 683164943782300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683180914018400_R0020044.jpg",
+      "id": 683180928454399
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683193212554200_R0020045.jpg",
+      "id": 683193226971700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683205720812600_R0020046.jpg",
+      "id": 683205733564700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "683218721522199_R0020048.jpg",
+      "id": 683218736561500
     }
   ],
   "users": [
