@@ -7,7 +7,7 @@
         "name": "waiting-room"
       },
       "name": "Waiting Room",
-      "likes": 0,
+      "likes": 40,
       "liked": false,
       "asset": {
         "type": {
@@ -30,7 +30,7 @@
         "name": "panorama"
       },
       "name": "Welcome Room",
-      "likes": 0,
+      "likes": 134,
       "liked": false,
       "asset": {
         "type": {

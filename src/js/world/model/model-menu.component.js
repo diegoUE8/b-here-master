@@ -1,16 +1,18 @@
 import { getContext } from 'rxcomp';
 import { of } from 'rxjs';
 import { first, takeUntil } from 'rxjs/operators';
+// import * as THREE from 'three';
 import { MessageType } from '../../agora/agora.types';
 import MenuService from '../../editor/menu/menu.service';
 import { environment } from '../../environment';
 import LoaderService from '../../loader/loader.service';
 import MessageService from '../../message/message.service';
 import StateService from '../../state/state.service';
+import { Host } from '../host/host';
 // import DebugService from '../debug.service';
 import Interactive from '../interactive/interactive';
 import InteractiveMesh from '../interactive/interactive.mesh';
-import OrbitService, { OrbitMode } from '../orbit/orbit';
+import OrbitService, { OrbitMode } from '../orbit/orbit.service';
 import WorldComponent from '../world.component';
 import ModelComponent from './model.component';
 
@@ -44,8 +46,6 @@ export class MenuButton extends InteractiveMesh {
 			return this.geometry_;
 		}
 		const geometry = new THREE.PlaneBufferGeometry(1, 1 / MenuButton.W * MenuButton.H, 2, 2);
-		// geometry.rotateX(-Math.PI);
-		// geometry.scale(-1, 1, 1);
 		this.geometry_ = geometry;
 		return geometry;
 	}
@@ -57,12 +57,15 @@ export class MenuButton extends InteractiveMesh {
 			vertexShader: ModelMenuComponent.VERTEX_SHADER,
 			fragmentShader: ModelMenuComponent.FRAGMENT_SHADER,
 			uniforms: {
-				textureA: { type: "t", value: null },
-				textureB: { type: "t", value: null },
+				textureA: { type: 't', value: null },
+				textureB: { type: 't', value: null },
 				resolutionA: { value: new THREE.Vector2() },
 				resolutionB: { value: new THREE.Vector2() },
 				tween: { value: 0 },
 				opacity: { value: 0 },
+			},
+			extensions: {
+				fragDepth: true,
 			},
 		});
 		/*
@@ -234,10 +237,31 @@ export class BackButton extends MenuButton {
 
 export default class ModelMenuComponent extends ModelComponent {
 
+	get controlled() {
+		return (StateService.state.controlling && StateService.state.controlling !== StateService.state.uid);
+	}
+
+	get controlling() {
+		return (StateService.state.controlling && StateService.state.controlling === StateService.state.uid);
+	}
+
+	get spyed() {
+		return (StateService.state.spying && StateService.state.spying === StateService.state.uid);
+	}
+
+	get spying() {
+		return (StateService.state.spying && StateService.state.spying !== StateService.state.uid);
+	}
+
+	get locked() {
+		return this.controlled || this.spying;
+	}
+
 	get loading() {
 		return this.loading_;
 	}
 	set loading(loading) {
+		// console.log('loading', loading);
 		if (this.loading_ !== loading) {
 			this.loading_ = loading;
 			const { node } = getContext(this);
@@ -278,51 +302,16 @@ export default class ModelMenuComponent extends ModelComponent {
 		});
 	}
 
-	onChanges() {
-		// this.buildMenu();
-	}
-
+	/*
 	buildMenu() {
-		if (!this.items) {
+		if (!this.views) {
 			return;
 		}
-		MenuService.getModelMenu$(this.items, this.editor).pipe(
+		MenuService.getModelMenu$(this.views, this.editor).pipe(
 			first(),
 		).subscribe(menu => this.groups = menu);
-		/*
-		const menu = {};
-		this.items.forEach(item => {
-			if (item.type.name !== ViewType.WaitingRoom.name && (!item.hidden || this.editor)) {
-				let group = menu[item.type.name];
-				if (!group) {
-					group = menu[item.type.name] = [];
-				}
-				group.push(item);
-			}
-		});
-		this.groups = Object.keys(menu).map(typeName => {
-			let name = 'Button';
-			switch (typeName) {
-				case ViewType.WaitingRoom.name:
-					name = 'Waiting Room';
-					break;
-				case ViewType.Panorama.name:
-					name = 'Experience';
-					break;
-				case ViewType.PanoramaGrid.name:
-					name = 'Virtual Tour';
-					break;
-				case ViewType.Room3d.name:
-					name = 'Stanze 3D';
-					break;
-				case ViewType.Model.name:
-					name = 'Modelli 3D';
-					break;
-			}
-			return { name, type: { name: 'menu-group' }, items: this.items.filter(x => x.type.name === typeName && (!x.hidden || this.editor)) };
-		});
-		*/
 	}
+	*/
 
 	onDestroy() {
 		if (this.buttons) {
@@ -338,7 +327,6 @@ export default class ModelMenuComponent extends ModelComponent {
 	onCreate(mount, dismount) {
 		// this.renderOrder = environment.renderOrder.menu;
 		const menuGroup = this.menuGroup = new THREE.Group();
-		// menuGroup.lookAt(ModelMenuComponent.ORIGIN);
 		if (typeof mount === 'function') {
 			mount(menuGroup);
 		}
@@ -346,6 +334,7 @@ export default class ModelMenuComponent extends ModelComponent {
 
 	render(time, tick) {
 		const group = this.group;
+		const cameraGroup = this.host.cameraGroup;
 		let camera = this.host.camera;
 		const position = this.position;
 		if (this.host.renderer.xr.isPresenting) {
@@ -357,8 +346,7 @@ export default class ModelMenuComponent extends ModelComponent {
 			position.y += this.host.cameraGroup.position.y;
 			group.position.copy(position);
 			group.scale.set(1, 1, 1);
-			group.lookAt(camera.position);
-			// group.lookAt(ModelMenuComponent.ORIGIN);
+			group.lookAt(Host.origin);
 		} else {
 			camera.getWorldDirection(position);
 			if (OrbitService.mode === OrbitMode.Model) {
@@ -369,7 +357,7 @@ export default class ModelMenuComponent extends ModelComponent {
 			group.position.copy(position);
 			const s = 1 / camera.zoom;
 			group.scale.set(s, s, s);
-			group.lookAt(ModelMenuComponent.ORIGIN);
+			group.lookAt(Host.origin);
 		}
 	}
 
@@ -377,7 +365,7 @@ export default class ModelMenuComponent extends ModelComponent {
 		if (item) {
 			return of(item.items);
 		} else {
-			return MenuService.getModelMenu$(this.items, this.editor).pipe(
+			return MenuService.getModelMenu$(this.views, this.editor).pipe(
 				first(),
 			);
 		}
@@ -396,7 +384,9 @@ export default class ModelMenuComponent extends ModelComponent {
 			return;
 		}
 		MenuService.active = true;
-		this.items$(item).subscribe(items => {
+		this.items$(item).pipe(
+			first(),
+		).subscribe(items => {
 			if (items) {
 				items = items.slice();
 				const back = {
@@ -508,7 +498,7 @@ export default class ModelMenuComponent extends ModelComponent {
 	}
 
 	onToggle() {
-		if (StateService.state.locked || StateService.state.spying) {
+		if (this.locked) {
 			return;
 		}
 		if (MenuService.active) {
@@ -521,10 +511,7 @@ export default class ModelMenuComponent extends ModelComponent {
 	}
 }
 
-ModelMenuComponent.ORIGIN = new THREE.Vector3();
 ModelMenuComponent.VERTEX_SHADER = `
-#extension GL_EXT_frag_depth : enable
-
 varying vec2 vUv;
 void main() {
 	vUv = uv;
@@ -532,8 +519,6 @@ void main() {
 }
 `;
 ModelMenuComponent.FRAGMENT_SHADER = `
-#extension GL_EXT_frag_depth : enable
-
 varying vec2 vUv;
 uniform float opacity;
 uniform float tween;
@@ -555,5 +540,5 @@ ModelMenuComponent.meta = {
 	hosts: { host: WorldComponent },
 	// outputs: ['over', 'out', 'down', 'nav'],
 	outputs: ['nav', 'toggle'],
-	inputs: ['items', 'editor'],
+	inputs: ['views', 'editor'],
 };

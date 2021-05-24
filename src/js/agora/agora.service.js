@@ -2,6 +2,7 @@
 // import AgoraRTM from 'agora-rtm-sdk';
 import { from, interval, of } from 'rxjs';
 import { distinctUntilChanged, map, switchMap } from 'rxjs/operators';
+import { DevicePlatform, DeviceService } from '../device/device.service';
 import Emittable from '../emittable/emittable';
 import { DEBUG, environment } from '../environment';
 import HttpService from '../http/http.service';
@@ -262,8 +263,8 @@ export default class AgoraService extends Emittable {
 		client.on('mute-audio', this.onMuteAudio);
 		client.on('unmute-audio', this.onUnmuteAudio);
 		if (USE_VOLUME_INDICATOR) {
-			client.enableAudioVolumeIndicator(); // Triggers the "volume-indicator" callback event every two seconds.
-			client.on("volume-indicator", this.onVolumeIndicator);
+			client.enableAudioVolumeIndicator(); // Triggers the 'volume-indicator' callback event every two seconds.
+			client.on('volume-indicator', this.onVolumeIndicator);
 		}
 		client.on('peer-online', this.onPeerConnect);
 		// Occurs when the peer user leaves the channel; for example, the peer user calls Client.leave.
@@ -520,6 +521,7 @@ export default class AgoraService extends Emittable {
 							devices.audios.push(x);
 						}
 					});
+					// console.log(inputDevices);
 					// console.log(devices);
 					devices.video = devices.videos[0] || null;
 					devices.audio = devices.audios[0] || null;
@@ -582,11 +584,13 @@ export default class AgoraService extends Emittable {
 			}
 		};
 		*/
+
 		if (quality) {
 			local.setVideoProfile(quality.profile);
 			local.setVideoEncoderConfiguration(quality);
 		}
-		// console.log('local', local.attributes);
+
+		console.log('AgoraService.createLocalStreamWithOptions', options, quality, local.attributes);
 		local.init(() => {
 			StreamService.local = local;
 			setTimeout(() => {
@@ -734,88 +738,80 @@ export default class AgoraService extends Emittable {
 		}
 	}
 
-	toggleControl() {
-		if (StateService.state.control) {
-			this.sendRemoteControlDismiss().then((control) => {
-				// console.log('AgoraService.sendRemoteControlDismiss', control);
-				StateService.patchState({ control: !control });
-			});
-		} else if (StateService.state.spying) {
-			this.sendRemoteInfoDismiss(StateService.state.spying).then((spying) => {
-				// console.log('AgoraService.sendRemoteInfoDismiss', spying);
-				StateService.patchState({ spying: false });
-				this.sendRemoteControlRequest().then((control) => {
-					// console.log('AgoraService.sendRemoteControlRequest', control);
-					StateService.patchState({ control: control });
-				});
-			});
-		} else {
-			this.sendRemoteControlRequest().then((control) => {
-				// console.log('AgoraService.sendRemoteControlRequest', control);
-				StateService.patchState({ control: control });
-			});
-		}
+	toggleNavInfo() {
+		const showNavInfo = !StateService.state.showNavInfo;
+		StateService.patchState({ showNavInfo });
+		MessageService.send({
+			type: MessageType.NavInfo,
+			showNavInfo: showNavInfo,
+		});
 	}
 
-	toggleSpy(remoteId) {
-		if (StateService.state.control) {
-			this.sendRemoteControlDismiss().then((control) => {
-				StateService.patchState({ control: false });
-				this.sendSpyRemoteRequestInfo(remoteId).then((info) => {
-					StateService.patchState({ spying: remoteId });
+	dismissControl() {
+		return new Promise((resolve, _) => {
+			const controllingId = StateService.state.controlling;
+			if (controllingId) {
+				this.sendRemoteControlDismiss(controllingId).then(() => {
+					StateService.patchState({ controlling: false });
+					resolve(controllingId);
 				});
+			} else {
+				resolve(false);
+			}
+		});
+	}
+
+	requestControl(controllingId) {
+		return new Promise((resolve, _) => {
+			this.sendRemoteControlRequest(controllingId).then((controllingId) => {
+				StateService.patchState({ controlling: controllingId });
+				resolve(controllingId);
 			});
-		} else if (StateService.state.spying) {
-			this.sendRemoteInfoDismiss(StateService.state.spying).then((spying) => {
-				// console.log('AgoraService.sendRemoteInfoDismiss', spying);
-				// StateService.patchState({ spying: !spying });
-				if (StateService.state.spying !== remoteId) {
-					this.sendSpyRemoteRequestInfo(remoteId).then((info) => {
-						StateService.patchState({ spying: remoteId });
+		});
+	}
+
+	toggleControl(controllingId) {
+		this.dismissSpy().then(() => {
+			this.dismissControl().then((dismissedControllingId) => {
+				if (dismissedControllingId !== controllingId) {
+					this.requestControl(controllingId).then((controllingId) => {
+						console.log('AgoraService.toggleControl', controllingId);
 					});
-				} else {
-					StateService.patchState({ spying: false });
-				}
-			});
-		} else {
-			this.sendSpyRemoteRequestInfo(remoteId).then((info) => {
-				StateService.patchState({ spying: remoteId });
-			});
-		}
-	}
-
-	newMessageId() {
-		return `${StateService.state.uid}-${Date.now().toString()}`;
-	}
-
-	sendRemoteControlDismiss() {
-		return new Promise((resolve, reject) => {
-			this.sendMessage({
-				type: MessageType.RequestControlDismiss,
-				messageId: this.newMessageId(),
-			}).then((message) => {
-				// console.log('AgoraService.sendRemoteControlDismiss return', message);
-				if (message.type === MessageType.RequestControlDismissed) {
-					resolve(true);
-				} else if (message.type === MessageType.RequestControlRejected) {
-					resolve(false);
 				}
 			});
 		});
 	}
 
-	sendRemoteControlRequest() {
-		return new Promise((resolve, reject) => {
-			this.sendMessage({
-				type: MessageType.RequestControl,
-				messageId: this.newMessageId(),
-			}).then((message) => {
-				// console.log('AgoraService.sendRemoteControlRequest.response', message);
-				if (message.type === MessageType.RequestControlAccepted) {
-					resolve(true);
-				} else if (message.type === MessageType.RequestControlRejected) {
-					// this.remoteDeviceInfo = undefined
-					resolve(false);
+	dismissSpy() {
+		return new Promise((resolve, _) => {
+			const spyingId = StateService.state.spying;
+			if (spyingId) {
+				this.sendRemoteSpyDismiss(spyingId).then(() => {
+					StateService.patchState({ spying: false });
+					resolve(spyingId);
+				});
+			} else {
+				resolve(false);
+			}
+		});
+	}
+
+	requestSpy(spyingId) {
+		return new Promise((resolve, _) => {
+			this.sendSpyRemoteRequestInfo(spyingId).then(() => {
+				StateService.patchState({ spying: spyingId });
+				resolve(spyingId);
+			});
+		});
+	}
+
+	toggleSpy(spyingId) {
+		this.dismissControl().then(() => {
+			this.dismissSpy().then((dismissedSpyingId) => {
+				if (dismissedSpyingId !== spyingId) {
+					this.requestSpy(spyingId).then((spyingId) => {
+						console.log('AgoraService.toggleSpy', spyingId);
+					});
 				}
 			});
 		});
@@ -831,11 +827,12 @@ export default class AgoraService extends Emittable {
 			}).then((message) => {
 				// console.log('AgoraService.sendRemoteRequestPeerInfo.response', message);
 				if (message.type === MessageType.RequestPeerInfoResult) {
+					// !!! RequestPeerInfoResult Publisher
 					if (message.clientInfo.role === RoleType.Publisher) {
 						const state = { hosted: true };
-						if (message.clientInfo.control === true) {
-							state.locked = true;
-							this.sendControlRemoteRequestInfo(message.clientInfo.uid);
+						if (message.clientInfo.controllingId) {
+							state.controlling = message.clientInfo.controllingId;
+							this.sendControlRemoteRequestInfo(message.clientInfo.controllingId);
 						}
 						StateService.patchState(state);
 					}
@@ -845,47 +842,84 @@ export default class AgoraService extends Emittable {
 		});
 	}
 
-	sendControlRemoteRequestInfo(remoteId) {
-		// console.log('AgoraService.sendControlRemoteRequestInfo', remoteId);
+	sendRemoteControlRequest(controllingId) {
+		return new Promise((resolve, _) => {
+			this.sendMessage({
+				type: MessageType.RequestControl,
+				messageId: this.newMessageId(),
+				controllingId: controllingId,
+			}).then((message) => {
+				// console.log('AgoraService.sendRemoteControlRequest.response', message);
+				// !!! always accepted
+				if (message.type === MessageType.RequestControlAccepted) {
+					resolve(controllingId);
+				} else if (message.type === MessageType.RequestControlRejected) {
+					// this.remoteDeviceInfo = undefined
+					resolve(false);
+				}
+			});
+		});
+	}
+
+	sendRemoteControlDismiss(controllingId) {
+		return new Promise((resolve, _) => {
+			this.sendMessage({
+				type: MessageType.RequestControlDismiss,
+				messageId: this.newMessageId(),
+				controllingId: controllingId,
+			}).then((message) => {
+				// console.log('AgoraService.sendRemoteControlDismiss return', message);
+				if (message.type === MessageType.RequestControlDismissed) {
+					resolve(controllingId);
+				} else if (message.type === MessageType.RequestControlRejected) {
+					resolve(false);
+				}
+			});
+		});
+	}
+
+	sendControlRemoteRequestInfo(controllingId) {
 		return new Promise((resolve, reject) => {
 			this.sendMessage({
 				type: MessageType.RequestInfo,
 				messageId: this.newMessageId(),
-				remoteId: remoteId,
+				remoteId: controllingId,
 			}).then((message) => {
+				// console.log('AgoraService.sendControlRemoteRequestInfo.response', message);
 				if (message.type === MessageType.RequestInfoResult) {
+					StateService.patchState({ controlling: controllingId });
 					resolve(message);
 				}
 			});
 		});
 	}
 
-	sendSpyRemoteRequestInfo(remoteId) {
+	sendSpyRemoteRequestInfo(spyingId) {
 		return new Promise((resolve, reject) => {
 			this.sendMessage({
 				type: MessageType.RequestInfo,
 				messageId: this.newMessageId(),
-				remoteId: remoteId,
+				remoteId: spyingId,
 			}).then((message) => {
 				// console.log('AgoraService.sendSpyRemoteRequestInfo.response', message);
 				if (message.type === MessageType.RequestInfoResult) {
-					StateService.patchState({ spying: remoteId });
+					StateService.patchState({ spying: spyingId });
 					resolve(message);
 				}
 			});
 		});
 	}
 
-	sendRemoteInfoDismiss(remoteId) {
+	sendRemoteSpyDismiss(spyingId) {
 		return new Promise((resolve, reject) => {
 			this.sendMessage({
 				type: MessageType.RequestInfoDismiss,
 				messageId: this.newMessageId(),
-				remoteId: remoteId,
+				remoteId: spyingId,
 			}).then((message) => {
-				// console.log('AgoraService.sendRemoteInfoDismiss.response', message);
+				// console.log('AgoraService.sendRemoteSpyDismiss.response', message);
 				if (message.type === MessageType.RequestInfoDismissed) {
-					resolve(true);
+					resolve(spyingId);
 				} else if (message.type === MessageType.RequestInfoRejected) {
 					resolve(false);
 				}
@@ -893,8 +927,12 @@ export default class AgoraService extends Emittable {
 		});
 	}
 
+	newMessageId() {
+		return `${StateService.state.uid}-${Date.now().toString()}`;
+	}
+
 	navToView(viewId, keepOrientation = false) {
-		if (StateService.state.control || StateService.state.spyed) {
+		if (StateService.state.controlling === StateService.state.uid || StateService.state.spying === StateService.state.uid) {
 			this.sendMessage({
 				type: MessageType.NavToView,
 				viewId: viewId,
@@ -931,8 +969,12 @@ export default class AgoraService extends Emittable {
 					case MessageType.NavToGrid:
 					case MessageType.ShowPanel:
 					case MessageType.PlayMedia:
+					case MessageType.ZoomMedia:
+					case MessageType.CurrentTimeMedia:
 					case MessageType.PlayModel:
-						if (!StateService.state.control && !StateService.state.spyed) {
+					case MessageType.NavInfo:
+						// console.log('AgoraService.sendMessage', StateService.state.uid, StateService.state.controlling, StateService.state.spying, StateService.state.controlling !== StateService.state.uid && StateService.state.spying !== StateService.state.uid);
+						if (StateService.state.controlling !== StateService.state.uid && StateService.state.spying !== StateService.state.uid) {
 							return;
 						}
 						break;
@@ -1029,7 +1071,10 @@ export default class AgoraService extends Emittable {
 		// !!! filter events here
 		switch (message.type) {
 			case MessageType.RequestControlDismiss:
-				StateService.patchState({ locked: false });
+				StateService.patchState({ controlling: false });
+				if (message.controllingId === StateService.state.uid) {
+					this.unpublishScreenStream();
+				}
 				this.sendMessage({
 					type: MessageType.RequestControlDismissed,
 					messageId: message.messageId
@@ -1037,7 +1082,7 @@ export default class AgoraService extends Emittable {
 				break;
 			case MessageType.RequestInfoDismiss:
 				// console.log('checkBroadcastMessage.RequestInfoDismiss', message);
-				StateService.patchState({ spyed: false });
+				StateService.patchState({ spying: false });
 				this.sendMessage({
 					type: MessageType.RequestInfoDismissed,
 					messageId: message.messageId,
@@ -1048,17 +1093,20 @@ export default class AgoraService extends Emittable {
 				// console.log('checkBroadcastMessage.RequestInfoResult', message);
 				if (StateService.state.role === RoleType.Publisher) {
 					this.broadcastMessage(message);
-				} else if (StateService.state.locked) {
+				} else if (StateService.state.controlling && StateService.state.controlling !== StateService.state.uid) {
 					this.broadcastMessage(message);
 				}
 				break;
 			case MessageType.ControlInfo:
 			case MessageType.ShowPanel:
 			case MessageType.PlayMedia:
+			case MessageType.ZoomMedia:
+			case MessageType.CurrentTimeMedia:
 			case MessageType.PlayModel:
+			case MessageType.NavInfo:
 			case MessageType.NavToView:
 			case MessageType.NavToGrid:
-				if (StateService.state.locked || (StateService.state.spying && StateService.state.spying === message.clientId)) {
+				if ((StateService.state.controlling && StateService.state.controlling !== StateService.state.uid) || (StateService.state.spying && StateService.state.spying !== StateService.state.uid)) {
 					this.broadcastMessage(message);
 				}
 				break;
@@ -1164,20 +1212,25 @@ export default class AgoraService extends Emittable {
 	}
 
 	onPeerLeaved(event) {
-		const clientId = event.uid;
-		if (clientId !== StateService.state.uid) {
+		const remoteId = event.uid;
+		if (remoteId !== StateService.state.uid) {
 			// console.log('AgoraService.onPeerLeaved', event.uid);
-			const remote = this.remoteRemove(clientId);
+			const remote = this.remoteRemove(remoteId);
 			if (remote.clientInfo) {
 				// !!! remove screenRemote?
 				if (remote.clientInfo.role === RoleType.Publisher) {
-					StateService.patchState({ hosted: false, locked: false, control: false, spyed: false });
-				} else if (StateService.state.spying === clientId) {
-					StateService.patchState({ spying: false });
+					StateService.patchState({ hosted: false, controlling: false, spying: false });
+				} else {
+					if (StateService.state.controlling === remoteId) {
+						StateService.patchState({ controlling: false });
+					}
+					if (StateService.state.spying === remoteId) {
+						StateService.patchState({ spying: false });
+					}
 				}
 			}
 		}
-		this.peerRemove(clientId);
+		this.peerRemove(remoteId);
 	}
 
 	peerAdd(event) {
@@ -1372,9 +1425,14 @@ export default class AgoraService extends Emittable {
 			// stream.setVideoProfile(quality.profile);
 			// stream.setVideoEncoderConfiguration(quality);
 		}
+		console.log('AgoraService.createScreenStream', screenUid, options, quality);
+		const onStopScreenSharing = () => {
+			this.unpublishScreenStream();
+		};
 		// Initialize the stream.
 		stream.init(() => {
 			StreamService.screen = stream;
+			stream.on('stopScreenSharing', onStopScreenSharing);
 			setTimeout(() => {
 				this.publishScreenStream();
 			}, 1);
@@ -1572,10 +1630,13 @@ export default class AgoraService extends Emittable {
 				resolve(devices_);
 			} else {
 				devices_ = AgoraService.devices_ = [];
-				var constraints = {
+				const constraints = {
 					audio: true,
 					video: true,
 				};
+				if (DeviceService.platform === DevicePlatform.IOS) {
+					constraints.video = { facingMode: 'user' };
+				}
 				if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 					navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
 						navigator.mediaDevices.enumerateDevices().then((devices) => {
