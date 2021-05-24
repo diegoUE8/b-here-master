@@ -46,58 +46,6 @@
       },
       "zoom": 75,
       "items": []
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "welcomeroom",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "9802486433600_welcome1.jpg",
-        "id": 9802761659200
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 9804927659100
-    }
-  ],
-  "menu": [],
-  "assets": [
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "9802486433600_welcome1.jpg",
-      "id": 9802761659200
-    }
-  ],
-  "users": [
-    {
-      "id": "1601892639985",
-      "username": "publisher",
-      "password": "publisher",
-      "type": "publisher",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
-    },
-    {
-      "id": "1601892639986",
-      "username": "attendee",
-      "password": "attendee",
-      "type": "attendee",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
     }
   ]
 }
