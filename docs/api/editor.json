@@ -1471,33 +1471,6 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Accedi",
-          "abstract": "connettiti con il tuo telefono..",
-          "viewId": 406765685595300,
-          "position": [
-            0.36739081467807216,
-            -0.15539955123244212,
-            -0.9169923493502756
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "6529336183500_code.png",
-            "id": 6529365067199,
-            "chromaKeyColor": null
-          },
-          "link": null,
-          "id": 95244501881700,
-          "keepOrientation": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
           "title": "Welcome",
           "abstract": null,
           "viewId": 170427763402500,
@@ -20610,70 +20583,6 @@
         "id": 5,
         "name": "model"
       },
-      "name": "Brick House",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "41387570124000_AdobeStock_334933730.jpeg",
-        "id": 41387581848400
-      },
-      "orientation": {
-        "latitude": 10.200000000000003,
-        "longitude": 91.7
-      },
-      "zoom": 47.3678,
-      "id": 41411885225100,
-      "items": [
-        {
-          "type": {
-            "id": 4,
-            "name": "model"
-          },
-          "asset": {
-            "type": {
-              "id": 3,
-              "name": "model"
-            },
-            "folder": "/uploads/",
-            "file": "41454761927600_brick_house.glb",
-            "id": 41402953979700,
-            "chromaKeyColor": null
-          },
-          "id": 41411906247200,
-          "position": null,
-          "rotation": null
-        }
-      ],
-      "hidden": null,
-      "ar": {
-        "usdz": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "62409979768300_brick_house.usdz",
-          "id": 62410754299600
-        },
-        "gltf": {
-          "type": {
-            "id": 3,
-            "name": "model"
-          },
-          "folder": "/uploads/",
-          "file": "41487533607900_brick_house.glb",
-          "id": 41487616912100
-        }
-      }
-    },
-    {
-      "type": {
-        "id": 5,
-        "name": "model"
-      },
       "name": "Scan Dress",
       "asset": {
         "type": {
@@ -23901,7 +23810,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "627813870602100_Unreal Engine Demo 360 2021.04.08 - 15.18.28.39.jpg",
+        "file": "627813870602100_Unreal.jpg",
         "id": 627814074888300
       },
       "orientation": {
@@ -23997,7 +23906,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "627837653002000_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
+        "file": "627837653002000_Unreal.jpg",
         "id": 627837677895400
       },
       "orientation": {
@@ -24093,7 +24002,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "627853170599800_Unreal Engine Demo 360 2021.04.08 - 15.21.05.73.jpg",
+        "file": "627853170599800_Unreal.jpg",
         "id": 627853194186200
       },
       "orientation": {
@@ -24189,7 +24098,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "627867946860200_Unreal Engine Demo 360 2021.04.08 - 15.22.18.61.jpg",
+        "file": "627867946860200_Unreal.jpg",
         "id": 627867966074700
       },
       "orientation": {
@@ -24285,7 +24194,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
+        "file": "627893477572700_Unreal.jpg",
         "id": 627893498387000
       },
       "orientation": {
@@ -26694,25 +26603,18 @@
       "order": 40
     },
     {
-      "id": 41771518598200,
-      "parentId": 514006762002499,
-      "viewId": 41411885225100,
-      "name": "Brick House",
-      "order": 50
-    },
-    {
       "id": 41773001862500,
       "parentId": 514006762002499,
       "viewId": 41590724044000,
       "name": "ArtecScan Dress",
-      "order": 60
+      "order": 50
     },
     {
       "id": 25251552423400,
       "parentId": 514006762002499,
       "viewId": null,
       "name": "Salice",
-      "order": 70
+      "order": 60
     },
     {
       "id": 25257972192600,
@@ -26740,7 +26642,7 @@
       "parentId": 514006762002499,
       "viewId": 498833707123600,
       "name": "Hi-Interiors",
-      "order": 80
+      "order": 70
     },
     {
       "id": 40982979157200,
@@ -27576,51 +27478,6 @@
     },
     {
       "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "335383431182600_poltrona.usdz",
-      "id": 335384193788400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "335393320376799_poltrona.glb",
-      "id": 335393387516699
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "338169579597600_divano.glb",
-      "id": 338171002840400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "338503937387199_divano.usdz",
-      "id": 338504075479800
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "338511835276100_divano.glb",
-      "id": 338511903869900
-    },
-    {
-      "type": {
         "id": 4,
         "name": "publisher-stream"
       },
@@ -27703,16 +27560,6 @@
       "folder": "/uploads/",
       "file": "35409103424400_infovideo2.mp4",
       "id": 35409710841900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "6529336183500_code.png",
-      "id": 6529365067199,
-      "chromaKeyColor": null
     },
     {
       "type": {
@@ -30061,25 +29908,6 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "41454761927600_brick_house.glb",
-      "id": 41402953979700,
-      "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "41487533607900_brick_house.glb",
-      "id": 41487616912100
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
       "file": "41579701578500_palestinian-dress.glb",
       "id": 41579744192700
     },
@@ -30190,15 +30018,6 @@
       "folder": "/uploads/",
       "file": "60750314160700_scavolini_6.jpg",
       "id": 60750330047100
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "62409979768300_brick_house.usdz",
-      "id": 62410754299600
     },
     {
       "type": {
@@ -30792,7 +30611,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "627813870602100_Unreal Engine Demo 360 2021.04.08 - 15.18.28.39.jpg",
+      "file": "627813870602100_Unreal.jpg",
       "id": 627814074888300
     },
     {
@@ -30801,7 +30620,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "627837653002000_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
+      "file": "627837653002000_Unreal.jpg",
       "id": 627837677895400
     },
     {
@@ -30810,7 +30629,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "627853170599800_Unreal Engine Demo 360 2021.04.08 - 15.21.05.73.jpg",
+      "file": "627853170599800_Unreal.jpg",
       "id": 627853194186200
     },
     {
@@ -30819,7 +30638,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "627867946860200_Unreal Engine Demo 360 2021.04.08 - 15.22.18.61.jpg",
+      "file": "627867946860200_Unreal.jpg",
       "id": 627867966074700
     },
     {
@@ -30828,7 +30647,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "627893477572700_Unreal Engine Demo 360 2021.04.08 - 15.24.18.04.jpg",
+      "file": "627893477572700_Unreal.jpg",
       "id": 627893498387000
     },
     {
@@ -30919,15 +30738,6 @@
       "file": "nextAttendeeStream",
       "id": 89199273510500,
       "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "89264728762800_Vineyard.mp4",
-      "id": 89264832640200
     },
     {
       "type": {
