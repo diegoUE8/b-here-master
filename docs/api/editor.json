@@ -26186,6 +26186,411 @@
           "id": 181730068531000
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Vigilanza-reception",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "96941831203100_IMAGE_0301.jpg",
+        "id": 96942085782400
+      },
+      "orientation": {
+        "latitude": -2.7,
+        "longitude": 88.89999999999998
+      },
+      "zoom": 75,
+      "id": 96953885379500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Uffici",
+          "abstract": null,
+          "viewId": 97164636193200,
+          "keepOrientation": false,
+          "position": [
+            0.6980260064568017,
+            -0.05124329502118913,
+            0.7142365287671447
+          ],
+          "asset": null,
+          "link": null,
+          "id": 97866687987800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Assistance",
+          "abstract": null,
+          "viewId": 97103874570300,
+          "keepOrientation": false,
+          "position": [
+            -0.7254861723670101,
+            -0.034697260714977335,
+            0.6873615597363167
+          ],
+          "asset": null,
+          "link": null,
+          "id": 97964759060700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Live",
+          "abstract": null,
+          "viewId": 97217537473500,
+          "keepOrientation": false,
+          "position": [
+            -0.7923270523176454,
+            -0.04616321425271135,
+            0.6083475978546226
+          ],
+          "asset": null,
+          "link": null,
+          "id": 98018580242200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Auditorium",
+          "abstract": null,
+          "viewId": 97025995557500,
+          "keepOrientation": false,
+          "position": [
+            -0.6097943484873595,
+            -0.03241089800733398,
+            0.791896701750446
+          ],
+          "asset": null,
+          "link": null,
+          "id": 98164396950500
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            5.54000000000001,
+            6.89,
+            18.718460804290615
+          ],
+          "rotation": [
+            3.150943238129422,
+            0.0629026467924787,
+            -3.1595461983094744,
+            "XYZ"
+          ],
+          "scale": [
+            7.3,
+            4.2,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "98642395510700_background.jpg",
+            "id": 98642410627000,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "98642395510700_background.jpg",
+                "id": 98642410627000
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "id": 98645537471500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Vigilanza-auditorium",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "97017191349500_IMAGE_0287.jpg",
+        "id": 97017208175700
+      },
+      "orientation": {
+        "latitude": -1,
+        "longitude": 351
+      },
+      "zoom": 75,
+      "id": 97025995557500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 96953885379500,
+          "keepOrientation": false,
+          "position": [
+            -0.47881330712281417,
+            -0.0038846716339356133,
+            0.8779081536518556
+          ],
+          "asset": null,
+          "link": null,
+          "id": 98186762417200
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "vigilanza-remote",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "97102033498300_IMAGE_0290.jpg",
+        "id": 97102052330100
+      },
+      "orientation": {
+        "latitude": -2.7,
+        "longitude": 176.59999999999997
+      },
+      "zoom": 75,
+      "id": 97103874570300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 96953885379500,
+          "keepOrientation": false,
+          "position": [
+            0.023120882859208658,
+            -0.048998020349259715,
+            0.9985312307472732
+          ],
+          "asset": null,
+          "id": 97988653690700
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Vigilanza-office1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "97161512797700_IMAGE_0294.jpg",
+        "id": 97161532500300
+      },
+      "orientation": {
+        "latitude": -2.2,
+        "longitude": 177.80000000000007
+      },
+      "zoom": 75,
+      "id": 97164636193200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 96953885379500,
+          "keepOrientation": false,
+          "position": [
+            0.9989914658455459,
+            0.019264961139859756,
+            -0.04055752014173128
+          ],
+          "asset": null,
+          "link": null,
+          "id": 97906489159500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "vigilanza-office2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "97215667478500_IMAGE_0304.jpg",
+        "id": 97215684431800
+      },
+      "orientation": {
+        "latitude": -4.200000000000001,
+        "longitude": 129.80000000000004
+      },
+      "zoom": 75,
+      "id": 97217537473500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 96953885379500,
+          "keepOrientation": false,
+          "position": [
+            -0.6161620953360374,
+            0.07035006210211787,
+            -0.7844712493350742
+          ],
+          "asset": null,
+          "link": null,
+          "id": 98056204931500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Vigilanza-remote2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "97282536404300_IMAGE_0323.jpg",
+        "id": 97282553196300
+      },
+      "orientation": {
+        "latitude": -5.3,
+        "longitude": 174.50000000000003
+      },
+      "zoom": 75,
+      "id": 97284186718200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 96953885379500,
+          "keepOrientation": false,
+          "position": [
+            -0.6649542252327229,
+            -0.11313988852823514,
+            0.73826502285356
+          ],
+          "asset": null,
+          "link": null,
+          "id": 98231804965500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "vigilanza-remote3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "97329871568600_IMAGE_0342.jpg",
+        "id": 97329887153500
+      },
+      "orientation": {
+        "latitude": -3.3000000000000003,
+        "longitude": 348.5
+      },
+      "zoom": 75,
+      "id": 97332221269500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 96953885379500,
+          "keepOrientation": false,
+          "position": [
+            -0.8421835541020809,
+            -0.08465755569216127,
+            0.5325034830536003
+          ],
+          "asset": null,
+          "link": null,
+          "id": 97354410449100
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -26391,6 +26796,13 @@
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
       "order": 120
+    },
+    {
+      "id": 98899707615700,
+      "parentId": 513759169265300,
+      "viewId": 96953885379500,
+      "name": "Vigilanza",
+      "order": 130
     },
     {
       "id": 513846642724000,
@@ -31179,6 +31591,89 @@
       "file": "smartDeviceStream",
       "id": 8112316979300,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "96941831203100_IMAGE_0301.jpg",
+      "id": 96942085782400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "97017191349500_IMAGE_0287.jpg",
+      "id": 97017208175700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "97102033498300_IMAGE_0290.jpg",
+      "id": 97102052330100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "97161512797700_IMAGE_0294.jpg",
+      "id": 97161532500300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "97215667478500_IMAGE_0304.jpg",
+      "id": 97215684431800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "97282536404300_IMAGE_0323.jpg",
+      "id": 97282553196300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "97329871568600_IMAGE_0342.jpg",
+      "id": 97329887153500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "98642395510700_background.jpg",
+      "id": 98642410627000,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "98642395510700_background.jpg",
+          "id": 98642410627000
+        }
+      }
     }
   ],
   "users": [
