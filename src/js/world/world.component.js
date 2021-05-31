@@ -79,6 +79,14 @@ export default class WorldComponent extends Component {
 		return (StateService.state.controlling && StateService.state.controlling === StateService.state.uid);
 	}
 
+	get silencing() {
+		return StateService.state.silencing;
+	}
+
+	get silenced() {
+		return (StateService.state.silencing && StateService.state.role === RoleType.Streamer);
+	}
+
 	get spyed() {
 		return (StateService.state.spying && StateService.state.spying === StateService.state.uid);
 	}
@@ -241,13 +249,7 @@ export default class WorldComponent extends Component {
 		light2.target.position.set(0, 0, 0);
 		objects.add(light2);
 
-		const light3 = new THREE.DirectionalLight(0xffe699, 1);
-		light3.position.set(0, 50, 0);
-		light3.target.position.set(0, 0, 0);
-		objects.add(light3);
-
 		const light = new THREE.AmbientLight(0x101010);
-		objects.add(light);
 		*/
 
 		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);

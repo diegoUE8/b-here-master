@@ -57,6 +57,14 @@ export default class AgoraComponent extends Component {
 		return (StateService.state.controlling && StateService.state.controlling === StateService.state.uid);
 	}
 
+	get silencing() {
+		return StateService.state.silencing;
+	}
+
+	get silenced() {
+		return (StateService.state.silencing && StateService.state.role === RoleType.Streamer);
+	}
+
 	get spyed() {
 		return (StateService.state.spying && StateService.state.spying === StateService.state.uid);
 	}
@@ -184,7 +192,7 @@ export default class AgoraComponent extends Component {
 		}
 		const mode = UserService.getMode(role);
 		const name = LocationService.get('name') || (user.firstName && user.lastName ? `${user.firstName} ${user.lastName}` : null);
-		const checklist = LocalStorageService.get('checklist') || (LocationService.get('skip-checklist') != null) || null;
+		const checklist = LocalStorageService.get('checklist') || null;
 		const hosted = role === RoleType.Publisher ? true : false;
 		const live = (role === RoleType.SelfService || role === RoleType.Embed || DEBUG) ? false : true;
 		const navigable = this.isNavigable;
@@ -202,6 +210,7 @@ export default class AgoraComponent extends Component {
 			connected: false,
 			controlling: false,
 			spying: false,
+			silencing: false,
 			hosted: hosted,
 			live: live,
 			navigable: navigable,
@@ -350,6 +359,10 @@ export default class AgoraComponent extends Component {
 					if (this.agora) {
 						this.agora.sendControlRemoteRequestInfo(message.controllingId);
 					}
+					break;
+				case MessageType.RemoteSilencing:
+					StateService.patchState({ silencing: message.silencing });
+					this.setAudio(message.silencing);
 					break;
 				case MessageType.NavToView:
 					this.onRemoteNavTo(message);
@@ -525,6 +538,14 @@ export default class AgoraComponent extends Component {
 		}
 	}
 
+	setAudio(audioMuted) {
+		if (this.agora) {
+			this.agora.setAudio(audioMuted);
+		} else {
+			this.patchState({ audioMuted });
+		}
+	}
+
 	toggleScreen() {
 		if (this.agora) {
 			this.agora.toggleScreen();
@@ -606,6 +627,14 @@ export default class AgoraComponent extends Component {
 			this.onRemoteControlRequest({});
 		}
 		*/
+	}
+
+	onToggleSilence() {
+		if (this.agora) {
+			this.agora.toggleSilence();
+		} else {
+			this.patchState({ silencing: !this.state.silencing });
+		}
 	}
 
 	onToggleSpy(remoteId) {
