@@ -62,7 +62,8 @@
           ],
           "asset": null,
           "id": 498242270907400,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -79,7 +80,8 @@
           ],
           "asset": null,
           "id": 503566773717800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -96,7 +98,8 @@
           ],
           "asset": null,
           "id": 505647227663200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -113,7 +116,8 @@
           ],
           "asset": null,
           "id": 505677256133999,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -130,7 +134,8 @@
           ],
           "asset": null,
           "id": 505729885600300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -147,7 +152,8 @@
           ],
           "asset": null,
           "id": 505930399337800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -160,9 +166,9 @@
             0
           ],
           "rotation": [
-            1.5745386877608398,
-            -1.5922624348677072,
-            1.5745829601726544,
+            -1.5670539658289553,
+            -1.5493302187220863,
+            -1.5670096934171391,
             "XYZ"
           ],
           "scale": [
@@ -178,7 +184,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1618924423273499
         }
@@ -1228,7 +1236,8 @@
           ],
           "asset": null,
           "id": 335366915798400,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null,
@@ -1305,7 +1314,9 @@
             "file": "publisherStream",
             "id": 595121345079100,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 595115093509400
         },
@@ -1340,7 +1351,9 @@
             "file": "publisherScreen",
             "id": 585580556336700,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 595187295984100
         },
@@ -1373,7 +1386,9 @@
             "folder": "/uploads/",
             "file": "1618672137639599_skipefrontcall.jpg",
             "id": 1618672185914600,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 595393831847099
         },
@@ -1407,36 +1422,11 @@
             "file": "nextAttendeeStream",
             "id": 418494317317399,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 595497438718400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Accedi",
-          "abstract": "connettiti con il tuo telefono..",
-          "viewId": 406765685595300,
-          "position": [
-            0.36739081467807216,
-            -0.15539955123244212,
-            -0.9169923493502756
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "6529336183500_code.png",
-            "id": 6529365067199,
-            "chromaKeyColor": null
-          },
-          "link": null,
-          "id": 95244501881700,
-          "keepOrientation": null
         },
         {
           "type": {
@@ -1454,7 +1444,8 @@
           "asset": null,
           "link": null,
           "id": 97324753863099,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null
@@ -6758,7 +6749,9 @@
             "file": "smartDeviceStream",
             "id": 306376497100900,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 503361976257400
         },
@@ -6777,7 +6770,8 @@
           ],
           "asset": null,
           "id": 503530522292899,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -6810,7 +6804,9 @@
             "file": "publisherScreen",
             "id": 586474539911300,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 586313121732899
         },
@@ -6845,7 +6841,9 @@
             "file": "nextAttendeeStream",
             "id": 30438747493900,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 30371306577800
         }
@@ -6972,7 +6970,8 @@
           ],
           "asset": null,
           "id": 504440285389099,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -6989,7 +6988,8 @@
           ],
           "asset": null,
           "id": 504459487457499,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -7006,7 +7006,8 @@
           ],
           "asset": null,
           "id": 504521282626200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -7023,7 +7024,8 @@
           ],
           "asset": null,
           "id": 504835782222399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -7040,7 +7042,8 @@
           ],
           "asset": null,
           "id": 504873642883399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null
@@ -7752,7 +7755,8 @@
           ],
           "asset": null,
           "id": 513484172678200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "orientation": {
@@ -8224,7 +8228,9 @@
           ],
           "asset": null,
           "link": null,
-          "id": 494133380173200
+          "id": 494133380173200,
+          "keepOrientation": null,
+          "important": null
         }
       ]
     },
@@ -10864,7 +10870,9 @@
           ],
           "asset": null,
           "link": null,
-          "id": 426738450135000
+          "id": 426738450135000,
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null,
@@ -12874,7 +12882,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 30057401039500
+          "id": 30057401039500,
+          "important": null
         }
       ],
       "hidden": null,
@@ -13196,7 +13205,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 463441642025100
+          "id": 463441642025100,
+          "important": null
         }
       ],
       "hidden": null,
@@ -13303,7 +13313,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 12263680153900
+          "id": 12263680153900,
+          "important": null
         }
       ],
       "hidden": null,
@@ -13438,7 +13449,8 @@
             "id": 13283937225900,
             "chromaKeyColor": null
           },
-          "id": 13284947465000
+          "id": 13284947465000,
+          "important": null
         },
         {
           "type": {
@@ -13455,7 +13467,8 @@
             -0.987865111599165
           ],
           "asset": null,
-          "id": 13294635515100
+          "id": 13294635515100,
+          "important": null
         },
         {
           "type": {
@@ -13472,7 +13485,8 @@
             -0.9307479697967092
           ],
           "asset": null,
-          "id": 13305415024300
+          "id": 13305415024300,
+          "important": null
         },
         {
           "type": {
@@ -13489,7 +13503,8 @@
             -0.8221219965494282
           ],
           "asset": null,
-          "id": 13313172487200
+          "id": 13313172487200,
+          "important": null
         }
       ],
       "hidden": null,
@@ -15899,6 +15914,162 @@
           "id": 23776437836300
         }
       ]
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "Vuzix Media",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "251986284938000_omen2.jpg",
+        "id": 251986305492600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 251990768688200,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "258502108495300_Devices.jpg",
+            "id": 251986305492600,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "258502108495300_Devices.jpg",
+                "id": 251986305492600,
+                "chromaKeyColor": null,
+                "autoplay": false,
+                "loop": false
+              }
+            }
+          },
+          "id": 251990795009300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "Media Video",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "252014552978200_esempio.mp4",
+        "id": 252014583964600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 252020737896500,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "252014552978200_esempio.mp4",
+            "id": 252014583964600,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 252020757659000
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "room-3d"
+      },
+      "name": "gallery room 3d",
+      "asset": {
+        "type": {
+          "id": 3,
+          "name": "model"
+        },
+        "folder": "/uploads/",
+        "file": "252073577949700_gallery.glb",
+        "id": 252073614910300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 252081188512900
     }
   ],
   "menu": [
@@ -16022,11 +16193,18 @@
       "order": 120
     },
     {
+      "id": 258315435693300,
+      "parentId": 513759169265300,
+      "viewId": 252081188512900,
+      "name": "Gallery 3D",
+      "order": 130
+    },
+    {
       "id": 684130060180899,
       "parentId": 513759169265300,
       "viewId": 683154982977400,
       "name": "Websolute",
-      "order": 130
+      "order": 140
     },
     {
       "id": 513846642724000,
@@ -16090,6 +16268,20 @@
       "viewId": 337929883149900,
       "name": "Cinema Room",
       "order": 70
+    },
+    {
+      "id": 258546928326100,
+      "parentId": 513846642724000,
+      "viewId": 251990768688200,
+      "name": "Vuzix Media",
+      "order": 80
+    },
+    {
+      "id": 258686913580800,
+      "parentId": 513846642724000,
+      "viewId": 252020737896500,
+      "name": "Media Video",
+      "order": 90
     },
     {
       "id": 513904544668199,
@@ -17083,7 +17275,10 @@
       "folder": "",
       "file": "publisherStream",
       "id": 595121345079100,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19337,7 +19532,9 @@
       "folder": "/uploads/",
       "file": "1618672137639599_skipefrontcall.jpg",
       "id": 1618672185914600,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19345,7 +19542,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "29550829332100_videomoda.mp4",
+      "file": "1619091546450500_websolute.mp4",
       "id": 1619091771669400,
       "chromaKeyColor": null,
       "locale": {
@@ -19359,7 +19556,9 @@
           "id": 1619091771669400,
           "chromaKeyColor": null
         }
-      }
+      },
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19486,7 +19685,10 @@
       "folder": "",
       "file": "nextAttendeeStream",
       "id": 418494317317399,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19495,7 +19697,8 @@
       },
       "folder": "/uploads/",
       "file": "426373875704799_City1.glb",
-      "id": 426374197170200
+      "id": 426374197170200,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -19593,7 +19796,10 @@
       "folder": "",
       "file": "publisherScreen",
       "id": 585580556336700,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19604,7 +19810,10 @@
       "folder": "",
       "file": "publisherScreen",
       "id": 586474539911300,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19615,7 +19824,10 @@
       "folder": "",
       "file": "smartDeviceStream",
       "id": 306376497100900,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19878,7 +20090,8 @@
       },
       "folder": "/uploads/",
       "file": "979778093777800_salice_silentia_plus.glb",
-      "id": 979778110309900
+      "id": 979778110309900,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20130,7 +20343,8 @@
       },
       "folder": "/uploads/",
       "file": "24958415309700_versace.glb",
-      "id": 24958475504700
+      "id": 24958475504700,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20231,7 +20445,10 @@
       "folder": "",
       "file": "nextAttendeeStream",
       "id": 30438747493900,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -20267,7 +20484,8 @@
       },
       "folder": "/uploads/",
       "file": "463403726190300_sink2.glb",
-      "id": 463403741898600
+      "id": 463403741898600,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20303,7 +20521,8 @@
       },
       "folder": "/uploads/",
       "file": "11903107219800_shoe1.glb",
-      "id": 11903125038300
+      "id": 11903125038300,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20498,7 +20717,8 @@
       },
       "folder": "/uploads/",
       "file": "13283931340200_362435971139200_info.jpg",
-      "id": 13283937225900
+      "id": 13283937225900,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20769,6 +20989,53 @@
       "folder": "/uploads/",
       "file": "23741434514000_AdobeStock_428133461_Editorial_Use_Only.jpeg",
       "id": 23741465587500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "258502108495300_Devices.jpg",
+      "id": 251986305492600,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "258502108495300_Devices.jpg",
+          "id": 251986305492600,
+          "chromaKeyColor": null,
+          "autoplay": false,
+          "loop": false
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "252014552978200_esempio.mp4",
+      "id": 252014583964600,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "252073577949700_gallery.glb",
+      "id": 252073614910300
     }
   ],
   "users": [

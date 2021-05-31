@@ -1230,7 +1230,8 @@ input-value {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; }
+    -o-object-fit: cover;
+       object-fit: cover; }
   [control-asset] .group--picture > img,
   [control-localized-asset] .group--picture > img {
     opacity: 1; }
@@ -4155,7 +4156,8 @@ body {
     background: var(--background-negative); }
     .page > .background > img,
     .page > .background > video {
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
       width: 100%;
       height: 100%; }
     .page > .background > video {
@@ -4693,7 +4695,8 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; }
+        -o-object-fit: cover;
+           object-fit: cover; }
       .ui .group--remote-screen .agora-stream .agora-stream__player > div, .ui.remotes .group--remote .agora-stream .agora-stream__player > div {
         position: absolute !important;
         top: 0;
@@ -5278,7 +5281,8 @@ body {
         position: relative !important; }
         .ui .group--remote-screen .agora-stream .agora-stream__player > div > video {
           position: relative !important;
-          object-fit: contain !important; }
+          -o-object-fit: contain !important;
+             object-fit: contain !important; }
   .ui.virtual-tour:not(.remotes) .group--remote .agora-stream {
     width: 120px;
     height: 90px;
@@ -5941,7 +5945,8 @@ model-viewer {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; }
+    -o-object-fit: cover;
+       object-fit: cover; }
   .agora-device-preview > .video {
     top: -1px;
     left: -1px;
@@ -5980,14 +5985,16 @@ model-viewer {
       position: absolute;
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      -o-object-fit: cover;
+         object-fit: cover; }
     .agora-stream__player > .player__vr {
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      object-fit: cover; }
+      -o-object-fit: cover;
+         object-fit: cover; }
       .agora-stream__player > .player__vr canvas {
         width: 100% !important;
         height: 100% !important; }
@@ -6509,7 +6516,8 @@ model-viewer {
       left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      -o-object-fit: cover;
+         object-fit: cover; }
   .upload-item .name {
     font-size: 11px;
     font-weight: var(--font-semibold);

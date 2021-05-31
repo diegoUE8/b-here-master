@@ -240,25 +240,30 @@ export default class WorldComponent extends Component {
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
 		/*
+		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+		objects.add(ambient);
+		
+		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+		direct.position.set(-40, -40, -40);
+		direct.target.position.set(0, 0, 0);
+		objects.add(direct);		
+		*/
 		const mainLight = new THREE.PointLight(0xffffff);
 		mainLight.position.set(-50, 0, -50);
 		objects.add(mainLight);
 
-		const light2 = new THREE.DirectionalLight(0xffe699, 5);
-		light2.position.set(5, -5, 5);
+		const light2 = new THREE.DirectionalLight(0xffe699, 1.5);
+		light2.position.set(40, -40, 40);
 		light2.target.position.set(0, 0, 0);
 		objects.add(light2);
 
+		const light3 = new THREE.DirectionalLight(0xffe699, 1);
+		light3.position.set(0, 50, 0);
+		light3.target.position.set(0, 0, 0);
+		objects.add(light3);
+
 		const light = new THREE.AmbientLight(0x101010);
-		*/
-
-		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
-		objects.add(ambient);
-
-		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
-		direct.position.set(-40, -40, -40);
-		direct.target.position.set(0, 0, 0);
-		objects.add(direct);
+		objects.add(light);
 
 		this.addControllers();
 		this.resize();
