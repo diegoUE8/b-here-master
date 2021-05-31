@@ -122,7 +122,7 @@ function _assertThisInitialized(self) {
 function _readOnlyError(name) {
   throw new Error("\"" + name + "\" is read-only");
 }var environmentServed = {
-  appKey: '8b0cae93d47a44e48e97e7fd0404be4e',
+  appKey: '865af1430a854af5b01733ff9b725a2b',
   channelName: 'BHere',
   flags: {
     production: true,
@@ -171,7 +171,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
   template: {
     tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
     modal: {
@@ -196,11 +196,11 @@ function _readOnlyError(name) {
     }
   }
 };var environmentStatic = {
-  appKey: '8b0cae93d47a44e48e97e7fd0404be4e',
+  appKey: '865af1430a854af5b01733ff9b725a2b',
   channelName: 'BHere',
   flags: {
     production: false,
-    useProxy: true,
+    useProxy: false,
     useToken: false,
     selfService: true,
     guidedTourRequest: true,
@@ -218,6 +218,7 @@ function _readOnlyError(name) {
     maxQuality: false
   },
   logo: null,
+  //'/b-here/img/logo.png'
   background: {
     // image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
@@ -245,7 +246,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
     modal: {
