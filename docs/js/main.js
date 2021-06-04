@@ -151,11 +151,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#7140eb',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#7140eb',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#7140eb',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -226,11 +226,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#7140eb',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#7140eb',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#7140eb',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -362,11 +362,11 @@ var defaultOptions = {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#7140eb',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#7140eb',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#7140eb',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -2837,6 +2837,11 @@ _defineProperty(StreamService, "streams$", rxjs.combineLatest([StreamService.loc
         _this11.unobserveMemberCount();
 
         var channel = _this11.channel;
+
+        if (!channel) {
+          return resolve();
+        }
+
         var messageClient = _this11.messageClient;
         channel.leave().then(function () {
           _this11.channel = null;
@@ -8286,7 +8291,8 @@ var VRService = /*#__PURE__*/function () {
     if (this.agora) {
       this.agora.leaveChannel().then(function () {
         // StateService.patchState({ status: AgoraStatus.Disconnected, connected: false });
-        window.location.href = window.location.href;
+        // window.location.href = window.location.href;
+        window.location.replace(window.location.href);
       }, console.log);
     } else {
       this.patchState({
