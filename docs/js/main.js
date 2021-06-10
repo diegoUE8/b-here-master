@@ -151,11 +151,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#7140eb',
+    menuOverBackground: '#484848',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#7140eb',
+    menuBackBackground: '#484848',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#7140eb',
+    menuBackOverBackground: '#484848',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -171,7 +171,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/igf-forni/docs/',
   template: {
     tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
     modal: {
@@ -225,11 +225,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#7140eb',
+    menuOverBackground: '#484848',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#7140eb',
+    menuBackBackground: '#484848',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#7140eb',
+    menuBackOverBackground: '#484848',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -245,7 +245,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/igf-forni/docs/',
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
     modal: {
@@ -361,11 +361,11 @@ var defaultOptions = {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#7140eb',
+    menuOverBackground: '#484848',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#7140eb',
+    menuBackBackground: '#484848',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#7140eb',
+    menuBackOverBackground: '#484848',
     menuBackOverForeground: '#ffffff'
   },
   editor: {

@@ -65,11 +65,11 @@ const defaultOptions = {
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#7140eb',
+		menuOverBackground: '#484848',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#7140eb',
+		menuBackBackground: '#484848',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#7140eb',
+		menuBackOverBackground: '#484848',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {
