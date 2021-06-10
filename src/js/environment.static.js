@@ -21,7 +21,7 @@ export const environmentStatic = {
 		smartDevice: true,
 		maxQuality: false,
 	},
-	logo: null,//'/b-here/img/logo.png'
+	logo: '/b-here/img/logo.png',
 	background: {
 		// image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
