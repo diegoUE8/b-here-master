@@ -45,16 +45,46 @@
         "longitude": 180.2
       },
       "zoom": 75,
-      "items": [
-      ],
+      "items": [],
       "hidden": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "9147106395500_meeting-room.jpg",
+        "id": 9147734508500
+      },
+      "orientation": {
+        "latitude": -3.423393013119909,
+        "longitude": 0.7163131820985171
+      },
+      "zoom": 75,
+      "id": 9155798535100,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
-  "menu": [
-
-  ],
+  "menu": [],
   "assets": [
-
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9147106395500_meeting-room.jpg",
+      "id": 9147734508500
+    }
   ],
   "users": [
     {
