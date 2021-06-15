@@ -38,12 +38,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "351462653315600_Unreal Engine Demo 360 2021.06.14 - 12.10.37.46_mod.jpg",
+        "file": "24673722895500_Unreal Engine Demo 360 2021.06.15 - 15.12.58.59.jpg",
         "id": 350764266696000
       },
       "orientation": {
-        "latitude": -4.600000000000001,
-        "longitude": 359.2
+        "latitude": 1.4999999999999991,
+        "longitude": 1
       },
       "zoom": 75,
       "id": 350769338314900,
@@ -64,7 +64,6 @@
             -0.9756790173773818
           ],
           "asset": null,
-          "link": null,
           "id": 351621241802100
         }
       ],
@@ -460,7 +459,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "351462653315600_Unreal Engine Demo 360 2021.06.14 - 12.10.37.46_mod.jpg",
+      "file": "24673722895500_Unreal Engine Demo 360 2021.06.15 - 15.12.58.59.jpg",
       "id": 350764266696000
     },
     {
