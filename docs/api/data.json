@@ -385,7 +385,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "352854114526400_welcome.jpg",
+        "file": "18584497376200_Unreal Engine Demo 360 2021.06.16 - 13.41.15.77.jpg",
         "id": 352854153210400
       },
       "orientation": {
@@ -393,7 +393,49 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 352856225556400
+      "id": 352856225556400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 18613166118800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.2647726257047913,
+            -0.034288868337619065,
+            -0.9637010585163409
+          ],
+          "asset": null,
+          "link": null,
+          "id": 19021999696000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Meeting Room",
+          "abstract": null,
+          "viewId": 19099925833900,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.8408838251432621,
+            -0.02421206476456345,
+            -0.5406738097339949
+          ],
+          "asset": null,
+          "link": null,
+          "id": 19296388930300
+        }
+      ],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -419,6 +461,335 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_2_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18602289613900_Unreal Engine Demo 360 2021.06.16 - 12.20.12.80.jpg",
+        "id": 18602314455900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 18613166118800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18643438392000,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9635030479696259,
+            -0.22868152981743517,
+            0.13916405596848003
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18783910788400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Famiglia 2",
+          "abstract": null,
+          "viewId": 18663504118600,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.18121738175995022,
+            -0.04354685851885058,
+            -0.9824784637136875
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18849174116400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception ",
+          "abstract": null,
+          "viewId": 352856225556400,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.5760273198459605,
+            -0.03896182848383726,
+            -0.8165013794919613
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18867692030200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_2_2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18641069819100_Unreal Engine Demo 360 2021.06.16 - 12.20.53.38.jpg",
+        "id": 18641089353800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 18643438392000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18613166118800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9242846045690682,
+            -0.3752498659359198,
+            0.06989640814573635
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18800067865100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Famiglia 2",
+          "abstract": null,
+          "viewId": 18663504118600,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.759800716468241,
+            -0.07458639855398301,
+            -0.6458635617567335
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18816835303300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 350769338314900,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.8630412430744647,
+            -0.054997292971226686,
+            -0.5021305711847465
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18919619057600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_2_3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18659654265600_Unreal Engine Demo 360 2021.06.16 - 12.22.13.34.jpg",
+        "id": 18659677468400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 18663504118600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Famiglia 1",
+          "abstract": null,
+          "viewId": 18613166118800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.04876178669413612,
+            -0.05001294003283819,
+            -0.9975575141252095
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18737792750900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18679894492400,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9252698017778308,
+            -0.37491960589488926,
+            0.05754201103224119
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18754896719300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_2_4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18674630748000_Unreal Engine Demo 360 2021.06.16 - 12.22.55.38.jpg",
+        "id": 18674648763300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 18679894492400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18663504118600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.8399078281871206,
+            -0.5423155411674013,
+            0.021182397369106716
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18704926169200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Famiglia 2",
+          "abstract": null,
+          "viewId": 18613166118800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.7658761950548987,
+            -0.0058889969089514676,
+            -0.6429610980173196
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18963274132600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting Room 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "19097393347600_Unreal Engine Demo 360 2021.06.16 - 10.46.09.88.jpg",
+        "id": 19097415855600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 19099925833900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 352856225556400,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.7728687798930353,
+            -0.06034523459751042,
+            -0.6316900361158329
+          ],
+          "asset": null,
+          "link": null,
+          "id": 19263414507000
+        }
+      ]
     }
   ],
   "menu": [],
@@ -501,7 +872,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "352854114526400_welcome.jpg",
+      "file": "18584497376200_Unreal Engine Demo 360 2021.06.16 - 13.41.15.77.jpg",
       "id": 352854153210400
     },
     {
@@ -558,6 +929,74 @@
       "chromaKeyColor": null,
       "autoplay": false,
       "loop": true
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18602289613900_Unreal Engine Demo 360 2021.06.16 - 12.20.12.80.jpg",
+      "id": 18602314455900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18641069819100_Unreal Engine Demo 360 2021.06.16 - 12.20.53.38.jpg",
+      "id": 18641089353800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18659654265600_Unreal Engine Demo 360 2021.06.16 - 12.22.13.34.jpg",
+      "id": 18659677468400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18674630748000_Unreal Engine Demo 360 2021.06.16 - 12.22.55.38.jpg",
+      "id": 18674648763300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "19097393347600_Unreal Engine Demo 360 2021.06.16 - 10.46.09.88.jpg",
+      "id": 19097415855600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "19142216723800_logo_sfondo.jpg",
+      "id": 19142226349000,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "19142216723800_logo_sfondo.jpg",
+          "id": 19142226349000
+        }
+      },
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
     }
   ],
   "users": [
