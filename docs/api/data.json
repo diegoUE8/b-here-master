@@ -32,7 +32,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Welcome Room 1",
+      "name": "Welcome Room",
       "likes": 0,
       "liked": false,
       "asset": {
@@ -96,62 +96,82 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Welcome Room 2",
+      "name": "Stanza 1",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "23569472437900_AdobeStock_188067576.jpeg",
-        "id": 23569487071800
+        "file": "45043539393100_stanza1-ipf.jpg",
+        "id": 45043904791500
       },
       "orientation": {
-        "latitude": -0.8000000000000003,
-        "longitude": 359.9
+        "latitude": 0,
+        "longitude": 0
       },
       "zoom": 75,
-      "id": 23571698022700,
+      "id": 45047252929100,
       "items": [
         {
           "type": {
-            "id": 3,
-            "name": "curved-plane"
+            "id": 1,
+            "name": "nav"
           },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 45066319034100,
+          "keepOrientation": false,
           "position": [
-            3,
-            -3.000000000000003,
-            0
+            0.9849616094629364,
+            -0.03899962301211067,
+            -0.1683141624733202
           ],
-          "rotation": [
-            2.889183564999453,
-            -1.562197692706186,
-            2.8891925047817097,
-            "XYZ"
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "radius": 45,
-          "height": 40,
-          "arc": 90,
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "82775957498500_Greta tripla_lq2_1.mp4",
-            "id": 76199959361600,
-            "chromaKeyColor": [
-              0,
-              1,
-              0
-            ]
+          "asset": null,
+          "link": null,
+          "id": 45145553287000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "45064147926800_stanza2.jpg",
+        "id": 45064164804700
+      },
+      "orientation": {
+        "latitude": -6.2,
+        "longitude": 176.4
+      },
+      "zoom": 75,
+      "id": 45066319034100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
           },
-          "id": 76201721456300
+          "title": "Next",
+          "abstract": null,
+          "viewId": 45090421283800,
+          "keepOrientation": false,
+          "position": [
+            -0.9891977412499809,
+            0.025856463733152195,
+            -0.1442888491504171
+          ],
+          "asset": null,
+          "link": null,
+          "id": 45162667965100
         }
       ],
       "hidden": null,
@@ -162,667 +182,114 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Space ",
+      "name": "Stanza 3",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "21101667357200_spaceroom.jpeg",
-        "id": 366858424197300
-      },
-      "orientation": {
-        "latitude": -5.7,
-        "longitude": 358.5
-      },
-      "zoom": 75,
-      "id": 366863827371000,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Slide Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "366976375024100_AdobeStock_366041984.jpeg",
-        "id": 366930964536800
-      },
-      "orientation": {
-        "latitude": 1.200000000000002,
-        "longitude": 359.5
-      },
-      "zoom": 75,
-      "id": 366942225120900,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Innovation Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "366990679205800_AdobeStock_393316454.jpeg",
-        "id": 366990730758600
+        "file": "45086929961200_stanza3.jpg",
+        "id": 45086946615000
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "id": 366996163428300
+      "id": 45090421283800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 45113566294300,
+          "keepOrientation": false,
+          "position": [
+            0.7470456222735143,
+            -0.004670419429486367,
+            -0.6647563654635661
+          ],
+          "asset": null,
+          "link": null,
+          "id": 45179373196600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 45113566294300,
+          "keepOrientation": false,
+          "position": [
+            -0.9517656352593565,
+            0.01931973310492014,
+            0.3062171181565597
+          ],
+          "asset": null,
+          "link": null,
+          "id": 45190026328000
+        }
+      ]
     },
     {
       "type": {
         "id": 2,
         "name": "panorama"
       },
-      "name": "Abstract",
+      "name": "Stanza 5",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "367005451273100_AdobeStock_357705653.jpeg",
-        "id": 367005481180100
-      },
-      "orientation": {
-        "latitude": -3.9000000000000004,
-        "longitude": 19.900000000000006
-      },
-      "zoom": 75,
-      "id": 367011553551300,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Finance Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367027147664600_AdobeStock_378203154.jpeg",
-        "id": 367027161666600
-      },
-      "orientation": {
-        "latitude": -2.1,
-        "longitude": 332.7
-      },
-      "zoom": 75,
-      "id": 367033229130200,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Green Park",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "23158475208600_AdobeStock_389725160.jpeg",
-        "id": 367051757541800
-      },
-      "orientation": {
-        "latitude": -5,
-        "longitude": 289.8
-      },
-      "zoom": 75,
-      "id": 367059750233400,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Natural Environment",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "52209540763500_Unreal Engine Demo 360 2021.03.03 - 20.16.44.93.jpg",
-        "id": 367116220177700
-      },
-      "orientation": {
-        "latitude": -2.1999999999999975,
-        "longitude": 351.4
-      },
-      "zoom": 75,
-      "id": 367118649967100,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "International Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367159193379700_AdobeStock_316415997.jpeg",
-        "id": 367159245434300
+        "file": "45102710480600_stanza5.jpg",
+        "id": 45102725815000
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "id": 367168769772900,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Mars",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "20120767922200_AdobeStock_189501033.jpeg",
-        "id": 367239826860900
-      },
-      "orientation": {
-        "latitude": -4.4,
-        "longitude": 359.99999999999994
-      },
-      "zoom": 75,
-      "id": 367249534262600,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Fabric",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367271664772600_AdobeStock_113816801.jpeg",
-        "id": 367271731332700
-      },
-      "orientation": {
-        "latitude": 0.9,
-        "longitude": 284.4
-      },
-      "zoom": 75,
-      "id": 367277069945000,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Security Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "20252029269800_Unreal Engine Demo 360 2020.10.15 - 15.37.08.04.jpg",
-        "id": 367289989344000
-      },
-      "orientation": {
-        "latitude": -8.400000000000002,
-        "longitude": 265.9
-      },
-      "zoom": 75,
-      "id": 367296378747900,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Indoor 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367318971736900_31940058340_fb4b52bfc5_o.jpg",
-        "id": 367319029343000
-      },
-      "orientation": {
-        "latitude": -9.8,
-        "longitude": 354.9
-      },
-      "zoom": 75,
-      "id": 367323919708900,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Indoor 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367341146861300_AdobeStock_284219447.jpeg",
-        "id": 367341205396000
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 46.6
-      },
-      "zoom": 75,
-      "id": 367342586413100,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Theatre 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "367578824474300_AdobeStock_392266237_Editorial_Use_Only.jpeg",
-        "id": 367578891330700
-      },
-      "orientation": {
-        "latitude": -13.399999999999999,
-        "longitude": 0.6000000000000227
-      },
-      "zoom": 53.0381,
-      "id": 367583491017000,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Hall",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "368044225700700_AdobeStock_179657581.jpeg",
-        "id": 368024080555800
-      },
-      "orientation": {
-        "latitude": -8.1,
-        "longitude": 237.79999999999998
-      },
-      "zoom": 75,
-      "id": 368025836335400,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Talk Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "1774193061800_AdobeStock_386400713.jpeg",
-        "id": 1717812384200
-      },
-      "orientation": {
-        "latitude": -5.800000000000003,
-        "longitude": 359.2
-      },
-      "zoom": 75,
-      "id": 1741133248300,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Cinema",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "1805483299500_cinema.jpg",
-        "id": 1805494082700
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 1809985380300
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Office Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "1823562656400_office_dark.jpg",
-        "id": 1823576926500
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 1830436125200
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Dreamlike",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "7581367913400_AdobeStock_337516947.jpeg",
-        "id": 7581378219400
-      },
-      "orientation": {
-        "latitude": -14.600000000000001,
-        "longitude": 336.00000000000006
-      },
-      "zoom": 75,
-      "id": 7583608295000,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "White Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "21126537899800_AdobeStock_334933278.jpeg",
-        "id": 21126547930400
-      },
-      "orientation": {
-        "latitude": -2.2,
-        "longitude": 354.9
-      },
-      "zoom": 75,
-      "id": 21133728247500,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Room 3D 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "21483727863000_Room3D.jpg",
-        "id": 21483748458900
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 21485598978400,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Room 3D 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "23845795731900_AdobeStock_309370746.jpeg",
-        "id": 23845808874200
-      },
-      "orientation": {
-        "latitude": -0.9000000000000001,
-        "longitude": 0.5000000000000142
-      },
-      "zoom": 75,
-      "id": 23847060270500,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Condivision",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "23493508146600_360_living.jpg",
-        "id": 23493528061800
-      },
-      "orientation": {
-        "latitude": -1.2000000000000002,
-        "longitude": 352.5
-      },
-      "zoom": 75,
-      "id": 23496259736800,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "TV Room",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "52274054243900_Unreal Engine Demo 360 2021.03.03 - 15.53.53.81.jpg",
-        "id": 52274082565100
-      },
-      "orientation": {
-        "latitude": -1.1,
-        "longitude": 235.00000000000006
-      },
-      "zoom": 75,
-      "id": 52276856980400,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Meeting 1",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "366895535102400_AdobeStock_252891744.jpeg",
-        "id": 366892706189700
-      },
-      "orientation": {
-        "latitude": -8.600000000000001,
-        "longitude": 352.7
-      },
-      "zoom": 75,
-      "id": 366896835035700,
-      "items": [],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Meeting 2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "24090722473300_AdobeStock_405135135.jpeg",
-        "id": 24090732809700
-      },
-      "orientation": {
-        "latitude": -4.6,
-        "longitude": 352.00000000000006
-      },
-      "zoom": 75,
-      "id": 24096731611000,
-      "items": [],
-      "hidden": null,
-      "ar": null
+      "id": 45113566294300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next",
+          "abstract": null,
+          "viewId": 45047252929100,
+          "keepOrientation": false,
+          "position": [
+            0.9943461486760945,
+            -0.031082529861285405,
+            0.10153626421353228
+          ],
+          "asset": null,
+          "link": null,
+          "id": 45129732092400
+        }
+      ]
     }
   ],
   "menu": [],
   "assets": [
     {
       "type": {
-        "id": 2,
-        "name": "video"
+        "id": 1,
+        "name": "image"
       },
       "folder": "/uploads/",
-      "file": "357044491634700_Greta_lq2.mp4",
-      "id": 348010325054300,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "356093246745100_Greta_lq.mp4",
-      "id": 356093513987700
+      "file": "45043539393100_stanza1-ipf.jpg",
+      "id": 45043904791500
     },
     {
       "type": {
@@ -830,8 +297,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "366809780226400_AdobeStock_275639285.jpeg",
-      "id": 366810012960800
+      "file": "45064147926800_stanza2.jpg",
+      "id": 45064164804700
     },
     {
       "type": {
@@ -839,8 +306,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "21101667357200_spaceroom.jpeg",
-      "id": 366858424197300
+      "file": "45086929961200_stanza3.jpg",
+      "id": 45086946615000
     },
     {
       "type": {
@@ -848,351 +315,8 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "366895535102400_AdobeStock_252891744.jpeg",
-      "id": 366892706189700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "366976375024100_AdobeStock_366041984.jpeg",
-      "id": 366930964536800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "366990679205800_AdobeStock_393316454.jpeg",
-      "id": 366990730758600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367005451273100_AdobeStock_357705653.jpeg",
-      "id": 367005481180100
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367027147664600_AdobeStock_378203154.jpeg",
-      "id": 367027161666600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "23158475208600_AdobeStock_389725160.jpeg",
-      "id": 367051757541800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "52209540763500_Unreal Engine Demo 360 2021.03.03 - 20.16.44.93.jpg",
-      "id": 367116220177700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367159193379700_AdobeStock_316415997.jpeg",
-      "id": 367159245434300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367204416768700_AdobeStock_267734861.jpeg",
-      "id": 367186212557100
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "20120767922200_AdobeStock_189501033.jpeg",
-      "id": 367239826860900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367271664772600_AdobeStock_113816801.jpeg",
-      "id": 367271731332700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "20252029269800_Unreal Engine Demo 360 2020.10.15 - 15.37.08.04.jpg",
-      "id": 367289989344000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367318971736900_31940058340_fb4b52bfc5_o.jpg",
-      "id": 367319029343000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367341146861300_AdobeStock_284219447.jpeg",
-      "id": 367341205396000
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "368516929001300_AdobeStock_365680503.jpeg",
-      "id": 367399572815500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367418631641100_AdobeStock_327083455.jpeg",
-      "id": 367418706849600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "368554547238900_AdobeStock_326695411.jpeg",
-      "id": 367555363933700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367578824474300_AdobeStock_392266237_Editorial_Use_Only.jpeg",
-      "id": 367578891330700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367598528119700_AdobeStock_392268168_Editorial_Use_Only.jpeg",
-      "id": 367598585161400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "367611048866600_AdobeStock_417152387_Editorial_Use_Only.jpeg",
-      "id": 367611071877500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "368044225700700_AdobeStock_179657581.jpeg",
-      "id": 368024080555800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1774193061800_AdobeStock_386400713.jpeg",
-      "id": 1717812384200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1805483299500_cinema.jpg",
-      "id": 1805494082700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "1823562656400_office_dark.jpg",
-      "id": 1823576926500
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "7553651794800_welcome.jpg",
-      "id": 7553852838600
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "7581367913400_AdobeStock_337516947.jpeg",
-      "id": 7581378219400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "7599795070800_AdobeStock_335566971.jpeg",
-      "id": 7599805257400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "21126537899800_AdobeStock_334933278.jpeg",
-      "id": 21126547930400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "21483727863000_Room3D.jpg",
-      "id": 21483748458900
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "23493508146600_360_living.jpg",
-      "id": 23493528061800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "23569472437900_AdobeStock_188067576.jpeg",
-      "id": 23569487071800
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "23845795731900_AdobeStock_309370746.jpeg",
-      "id": 23845808874200
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "24014932058800_AdobeStock_381611810.jpeg",
-      "id": 24015209933300
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "24090722473300_AdobeStock_405135135.jpeg",
-      "id": 24090732809700
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "52274054243900_Unreal Engine Demo 360 2021.03.03 - 15.53.53.81.jpg",
-      "id": 52274082565100
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "70656848415800_Greta doppia_lq2.mp4",
-      "id": 70656996430900,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "76029634076800_Greta doppia_lq2.mp4",
-      "id": 76029658321100
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "82775957498500_Greta tripla_lq2_1.mp4",
-      "id": 76199959361600,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ]
+      "file": "45102710480600_stanza5.jpg",
+      "id": 45102725815000
     }
   ],
   "users": [
@@ -1201,16 +325,16 @@
       "username": "publisher",
       "password": "publisher",
       "type": "publisher",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "",
+      "lastName": ""
     },
     {
       "id": "1601892639986",
       "username": "attendee",
       "password": "attendee",
       "type": "attendee",
-      "firstName": "Jhon",
-      "lastName": "Appleseed"
+      "firstName": "",
+      "lastName": ""
     }
   ]
 }
