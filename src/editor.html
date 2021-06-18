@@ -75,7 +75,7 @@ window.labels = {
 	<div class="ui" [class]="{ open: aside }" *if="views">
 		<div class="ui__navbar">
 			<div class="btn--menu" [class]="{ active: settings }" (click)="onToggleSettings($event)" *if="'menu' | flag">
-				<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#menu"></use></svg>
+				<svg class="bullets" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#menu"></use></svg>
 			</div>
 			<div class="headline" *if="view">
 				<div class="headline__id" [innerHTML]="view.id"></div>
@@ -122,7 +122,11 @@ window.labels = {
 				<div class="banner progress" model-progress [view]="view"></div>
 				<div model-menu [views]="views" [editor]="true" (nav)="onMenuNav($event)" (toggle)="onMenuToggle($event)">
 					<div class="btn--menu" (click)="onToggle($event)">
-						<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#menu"></use></svg>
+						<div class="spinner"></div>
+						<svg class="bullets" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#menu"></use></svg>
+						<svg class="progress" width="50" height="50" viewBox="0 0 50 50">
+							<circle id="circle" r="23" cx="25" cy="25" fill="transparent"></circle>
+						</svg>
 					</div>
 				</div>
 				<div model-debug *if="debugging"></div>

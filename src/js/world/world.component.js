@@ -262,8 +262,8 @@ export default class WorldComponent extends Component {
 		light3.target.position.set(0, 0, 0);
 		objects.add(light3);
 
-		const light = new THREE.AmbientLight(0x101010);
-		objects.add(light);
+		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+		objects.add(ambient);
 
 		this.addControllers();
 		this.resize();
@@ -274,7 +274,7 @@ export default class WorldComponent extends Component {
 		).subscribe(progress => {
 			const complete = progress.count === 0;
 			const view = this.view_;
-			this.panorama.mesh.visible = complete;
+			//this.panorama.mesh.visible = complete;
 			if (view.items) {
 				view.items.forEach(item => {
 					item.visible = complete;
