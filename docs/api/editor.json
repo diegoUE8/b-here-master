@@ -128,12 +128,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "30948157672600_Unreal Engine Demo 360 2021.06.15 - 17.22.27.99.jpg",
+        "file": "94963856906100_Unreal Engine Demo 360 2021.06.18 - 14.23.49.04.jpg",
         "id": 350966827528500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -8.6,
+        "longitude": 0.6000000000000227
       },
       "zoom": 75,
       "id": 350975934557800,
@@ -149,12 +149,11 @@
           "keepOrientation": false,
           "important": false,
           "position": [
-            -0.2488952853545909,
-            -0.20111539263027461,
-            0.9474195141411366
+            0.193991293781507,
+            -0.08554877990750077,
+            0.977265974130541
           ],
           "asset": null,
-          "link": null,
           "id": 31367265670000
         },
         {
@@ -168,12 +167,11 @@
           "keepOrientation": true,
           "important": false,
           "position": [
-            0.7264936238958536,
-            -0.6863630993300763,
-            0.03335731279167823
+            0.719486328456818,
+            -0.5487604159698668,
+            -0.4256776116127167
           ],
           "asset": null,
-          "link": null,
           "id": 31380694869400
         },
         {
@@ -187,13 +185,50 @@
           "keepOrientation": true,
           "important": false,
           "position": [
-            0.8715310073545016,
-            -0.48898508736679613,
-            0.0364319578465768
+            0.9590801475536113,
+            -0.2828976494971519,
+            -0.011584061357307588
+          ],
+          "asset": null,
+          "id": 31390540952700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 95344752570800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.8435039374739419,
+            -0.32562231246265927,
+            0.4271664980922854
           ],
           "asset": null,
           "link": null,
-          "id": 31390540952700
+          "id": 96125219553800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 95367858678700,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.155740154311323,
+            -0.2932122264004916,
+            0.9432770508309594
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96172945020800
         }
       ],
       "hidden": null,
@@ -211,12 +246,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "30981755127900_Unreal Engine Demo 360 2021.06.15 - 17.24.55.95.jpg",
+        "file": "95102420965600_Unreal Engine Demo 360 2021.06.18 - 14.25.44.82.jpg",
         "id": 350993554014200
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -17.09999999999999,
+        "longitude": 270.4000000000001
       },
       "zoom": 75,
       "id": 350996322007700,
@@ -232,12 +267,11 @@
           "keepOrientation": true,
           "important": false,
           "position": [
-            -0.8312815982855999,
-            -0.5558072809330594,
-            0.007012190352377314
+            -0.7766505282513503,
+            -0.5957645025608265,
+            0.2046426506262801
           ],
           "asset": null,
-          "link": null,
           "id": 31108211743400
         },
         {
@@ -251,12 +285,11 @@
           "keepOrientation": true,
           "important": false,
           "position": [
-            0.7592048599782243,
-            -0.648689509615355,
-            0.05300849649287389
+            0.8823318593099566,
+            -0.42962535252046896,
+            0.19212638163015883
           ],
           "asset": null,
-          "link": null,
           "id": 31117778170700
         },
         {
@@ -265,19 +298,19 @@
             "name": "plane"
           },
           "position": [
-            1.0782605830820118,
-            -3.4274471410493543,
-            -19.72654512898516
+            1.1382605830820118,
+            -2.887447141049366,
+            -20.526545128985283
           ],
           "rotation": [
-            -0.018593923530498893,
-            -0.014,
+            -0.0011406310105555977,
+            -0.013999999999999997,
             0,
             "XYZ"
           ],
           "scale": [
-            22,
-            12.359999999999992,
+            28.080000000000013,
+            15.820000000000004,
             1
           ],
           "asset": {
@@ -304,6 +337,25 @@
             "loop": true
           },
           "id": 31141024162900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 95344752570800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.5415564816658275,
+            -0.3893556012767229,
+            0.7450629456094108
+          ],
+          "asset": null,
+          "link": null,
+          "id": 95975784310000
         }
       ],
       "hidden": null,
@@ -321,12 +373,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "31029932306600_Unreal Engine Demo 360 2021.06.15 - 17.25.31.41.jpg",
+        "file": "95308746830500_Unreal Engine Demo 360 2021.06.18 - 14.27.47.12.jpg",
         "id": 351014742082800
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5.5671509606286165,
+        "longitude": 358.73843563368695
       },
       "zoom": 75,
       "id": 351017329994000,
@@ -342,12 +394,11 @@
           "keepOrientation": true,
           "important": false,
           "position": [
-            -0.762882677709128,
-            -0.6463350668406024,
-            0.01615553847770734
+            -0.8334772200017788,
+            -0.3841541873431574,
+            -0.3971665696969275
           ],
           "asset": null,
-          "link": null,
           "id": 31090431388000
         },
         {
@@ -361,13 +412,50 @@
           "keepOrientation": true,
           "important": false,
           "position": [
-            -0.9133166940599902,
-            -0.40696905784820336,
-            0.01512621252911943
+            -0.9270483565665995,
+            -0.3715627066071642,
+            0.05022449249047463
+          ],
+          "asset": null,
+          "id": 31097820764900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 95367858678700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.777036193153935,
+            -0.21339145690045827,
+            0.5921814254523189
           ],
           "asset": null,
           "link": null,
-          "id": 31097820764900
+          "id": 96013361806700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 95344752570800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.1962428333222892,
+            -0.4796362460740283,
+            0.8552413821966606
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96022472630500
         }
       ],
       "hidden": null,
@@ -810,6 +898,170 @@
       },
       "zoom": 75,
       "id": 15098513319000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "95343010881000_Unreal Engine Demo 360 2021.06.18 - 14.28.19.39.jpg",
+        "id": 95343047867800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 95344752570800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 351017329994000,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.4455024859075539,
+            -0.6063080271123641,
+            -0.6587246096126229
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96042271123700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 350996322007700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.527892888530328,
+            -0.3874048086474813,
+            -0.7558085819014727
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96053378553500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.8790281224905383,
+            -0.38581660678584956,
+            -0.2800983859271812
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96065750816500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Next Famiglia",
+          "abstract": null,
+          "viewId": 95367858678700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9328044469143796,
+            -0.0307800334517197,
+            0.3590660849446375
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96081167012500
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "95365218949900_Unreal Engine Demo 360 2021.06.18 - 14.28.55.45.jpg",
+        "id": 95365270202200
+      },
+      "orientation": {
+        "latitude": -5.8,
+        "longitude": 0.0999999999999659
+      },
+      "zoom": 75,
+      "id": 95367858678700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.05294039814832138,
+            -0.2823128120368516,
+            -0.9578605276363269
+          ],
+          "asset": null,
+          "link": null,
+          "id": 95951477838400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.08703125230368419,
+            -0.29374734380982315,
+            -0.9519128421904633
+          ],
+          "asset": null,
+          "link": null,
+          "id": 96102578751300
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
@@ -838,7 +1090,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "30948157672600_Unreal Engine Demo 360 2021.06.15 - 17.22.27.99.jpg",
+      "file": "94963856906100_Unreal Engine Demo 360 2021.06.18 - 14.23.49.04.jpg",
       "id": 350966827528500
     },
     {
@@ -847,7 +1099,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "30981755127900_Unreal Engine Demo 360 2021.06.15 - 17.24.55.95.jpg",
+      "file": "95102420965600_Unreal Engine Demo 360 2021.06.18 - 14.25.44.82.jpg",
       "id": 350993554014200
     },
     {
@@ -856,7 +1108,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "31029932306600_Unreal Engine Demo 360 2021.06.15 - 17.25.31.41.jpg",
+      "file": "95308746830500_Unreal Engine Demo 360 2021.06.18 - 14.27.47.12.jpg",
       "id": 351014742082800
     },
     {
@@ -1026,6 +1278,24 @@
       "folder": "/uploads/",
       "file": "15082148937900_Unreal Engine Demo 360 2021.06.17 - 16.29.27.61.jpg",
       "id": 15082190573800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "95343010881000_Unreal Engine Demo 360 2021.06.18 - 14.28.19.39.jpg",
+      "id": 95343047867800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "95365218949900_Unreal Engine Demo 360 2021.06.18 - 14.28.55.45.jpg",
+      "id": 95365270202200
     }
   ],
   "users": [
