@@ -239,9 +239,10 @@ export default class WorldComponent extends Component {
 		const indicator = this.indicator = new PointerElement();
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
+		/*
 		const mainLight = new THREE.PointLight(0xffffff);
 		mainLight.position.set(-50, 0, -50);
-		objects.add(mainLight);
+		objects.add(mainLight);*/
 
 		const light2 = new THREE.DirectionalLight(0xffe699, 1.5);
 		light2.position.set(40, -40, 40);
@@ -255,6 +256,11 @@ export default class WorldComponent extends Component {
 
 		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
 		objects.add(ambient);
+
+		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+		direct.position.set(-40, -40, -40);
+		direct.target.position.set(0, 0, 0);
+		objects.add(direct);
 
 		this.addControllers();
 		this.resize();
