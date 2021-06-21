@@ -171,7 +171,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/more-2/docs/',
   template: {
     tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
     modal: {
@@ -245,7 +245,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/more-2/docs/',
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
     modal: {
@@ -16645,7 +16645,7 @@ var RGBELoader = /*#__PURE__*/function (_DataTextureLoader) {
   }, {
     key: "gridTexture",
     get: function get() {
-      return Texture.gridTexture_ || (Texture.gridTexture_ = new THREE.TextureLoader().load(environment.textures.grid));
+      return Texture.gridTexture_ || (Texture.gridTexture_ = new THREE.TextureLoader().load(environment.getPath(environment.textures.grid)));
     }
   }]);
 

@@ -6454,7 +6454,9 @@
                 "id": 1619091771669400,
                 "chromaKeyColor": null
               }
-            }
+            },
+            "autoplay": false,
+            "loop": false
           },
           "id": 502939049860200
         },
@@ -6473,7 +6475,8 @@
           ],
           "asset": null,
           "id": 503019422526899,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -6491,7 +6494,8 @@
           "asset": null,
           "link": null,
           "id": 6734179135500,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -6509,7 +6513,8 @@
           "asset": null,
           "link": null,
           "id": 6868366425599,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -6527,7 +6532,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 29643348226500
+          "id": 29643348226500,
+          "important": null
         },
         {
           "type": {
@@ -6545,7 +6551,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 29652014201100
+          "id": 29652014201100,
+          "important": null
         },
         {
           "type": {
@@ -6563,7 +6570,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 29660253661000
+          "id": 29660253661000,
+          "important": null
         },
         {
           "type": {
@@ -6581,7 +6589,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 29674838502900
+          "id": 29674838502900,
+          "important": null
         },
         {
           "type": {
@@ -6599,7 +6608,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 29683611740500
+          "id": 29683611740500,
+          "important": null
         }
       ],
       "hidden": null
@@ -8146,7 +8156,9 @@
           ],
           "asset": null,
           "link": null,
-          "id": 494011660065699
+          "id": 494011660065699,
+          "keepOrientation": null,
+          "important": null
         }
       ]
     },
@@ -11710,7 +11722,8 @@
             -0.7948130162877156
           ],
           "asset": null,
-          "id": 29961401004900
+          "id": 29961401004900,
+          "important": null
         }
       ],
       "hidden": null,
@@ -12814,7 +12827,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 30032871365700
+          "id": 30032871365700,
+          "important": null
         }
       ],
       "hidden": null,
@@ -16083,7 +16097,83 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 252081188512900
+      "id": 252081188512900,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.4763716839375,
+            0.23172052363029438,
+            -3.0684564949254396
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            6,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 356376707223000,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "index": 0
+          },
+          "id": 356349384271200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.476371683937497,
+            0.20851095316990487,
+            3.202103619863779
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            6,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 356415172709800,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "index": 0
+          },
+          "id": 356397514166800
+        }
+      ]
     }
   ],
   "menu": [
@@ -19556,7 +19646,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "1619091546450500_websolute.mp4",
+      "file": "29550829332100_videomoda.mp4",
       "id": 1619091771669400,
       "chromaKeyColor": null,
       "locale": {
@@ -20141,7 +20231,8 @@
       },
       "folder": "/uploads/",
       "file": "979846410494500_palestinian-dress.glb",
-      "id": 979846439976900
+      "id": 979846439976900,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20339,7 +20430,8 @@
       },
       "folder": "/uploads/",
       "file": "24861453431500_shoe.glb",
-      "id": 24861470486600
+      "id": 24861470486600,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -21050,6 +21142,33 @@
       "folder": "/uploads/",
       "file": "252073577949700_gallery.glb",
       "id": 252073614910300
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 356376707223000,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 356415172709800,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
     }
   ],
   "users": [
