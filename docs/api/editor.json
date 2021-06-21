@@ -111,6 +111,25 @@
             "loop": true
           },
           "id": 31551672822300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Meeting Room",
+          "abstract": null,
+          "viewId": 352872725741500,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.8398066058746649,
+            -0.06164790994946129,
+            -0.5393740816243753
+          ],
+          "asset": null,
+          "link": null,
+          "id": 357073002831600
         }
       ],
       "hidden": null,
@@ -549,16 +568,36 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "352870085112000_meeting-room.jpg",
+        "file": "357006069660400_Unreal Engine Demo 360 2021.06.21 - 15.27.27.78 mod.jpg",
         "id": 352870112864300
       },
       "orientation": {
-        "latitude": -8.700000000000001,
-        "longitude": 34
+        "latitude": -5.900000000000002,
+        "longitude": 45.89999999999996
       },
       "zoom": 75,
       "id": 352872725741500,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 350769338314900,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.6645968831751495,
+            -0.004684701016138244,
+            0.7471874172189102
+          ],
+          "asset": null,
+          "link": null,
+          "id": 357049926057600
+        }
+      ],
       "hidden": null,
       "ar": null
     },
@@ -633,9 +672,9 @@
           "keepOrientation": false,
           "important": false,
           "position": [
-            -0.5760273198459605,
-            -0.03896182848383726,
-            -0.8165013794919613
+            -0.5760273198459603,
+            -0.03896182848383725,
+            -0.8165013794919612
           ],
           "asset": null,
           "link": null,
@@ -710,7 +749,7 @@
           },
           "title": "Reception",
           "abstract": null,
-          "viewId": 350769338314900,
+          "viewId": 352856225556400,
           "keepOrientation": false,
           "important": false,
           "position": [
@@ -1628,7 +1667,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "352870085112000_meeting-room.jpg",
+      "file": "357006069660400_Unreal Engine Demo 360 2021.06.21 - 15.27.27.78 mod.jpg",
       "id": 352870112864300
     },
     {
