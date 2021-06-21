@@ -1,31 +1,50 @@
 import { Component, getContext } from 'rxcomp';
 import { ReplaySubject } from 'rxjs';
 import { auditTime, filter, shareReplay, takeUntil, tap } from 'rxjs/operators';
-import { MessageType } from '../agora/agora.types';
-import { DEBUG } from '../environment';
+import { MessageType, UIMode } from '../agora/agora.types';
+import { DEBUG, environment } from '../environment';
 import KeyboardService from '../keyboard/keyboard.service';
+import LoaderService from '../loader/loader.service';
 import MessageService from '../message/message.service';
+import ModalService from '../modal/modal.service';
+import PrefetchService from '../prefetch/prefetch.service';
 import { Rect } from '../rect/rect';
 import StateService from '../state/state.service';
 import { RoleType } from '../user/user';
-import { PanoramaGridView } from '../view/view';
+import { PanoramaGridView, ViewType } from '../view/view';
 import ViewService from '../view/view.service';
 import AvatarElement from './avatar/avatar-element';
-import Camera from './camera/camera';
-// import DebugService from './debug.service';
+import { Host } from './host/host';
 import Interactive from './interactive/interactive';
+// import * as THREE from 'three';
+import { RGBELoader } from './loaders/RGBELoader';
 import MediaMesh from './media/media-mesh';
-import OrbitService, { OrbitMoveEvent } from './orbit/orbit';
+import MediaPlayMesh from './media/media-play-mesh';
+import OrbitService, { OrbitMoveEvent } from './orbit/orbit.service';
 import Panorama from './panorama/panorama';
 import PhoneElement from './phone/phone.element';
 import PointerElement from './pointer/pointer.element';
+import { TeleportElement } from './teleport/teleport.element';
+import { Texture } from './texture/texture';
 import VRService from './vr.service';
 import { Gamepad } from './webxr/gamepad';
-import { XRControllerModelFactory } from './webxr/xr-controller-model-factory';
+import { XRControllerModelFactory } from './webxr/xr-controller-model.factory';
 
-const ORIGIN = new THREE.Vector3();
+const ZERO = new THREE.Vector3();
+const DOWN = new THREE.Vector3(0, -1, 0);
 const USE_SHADOW = false;
 const USE_PHONE = true;
+
+const CONTROL_INFO = {
+	type: MessageType.ControlInfo,
+	orientation: { latitude: 0, longitude: 0 },
+	zoom: 1,
+	cameraGroup: {
+		position: [0, 0, 0],
+		rotation: [0, 0, 0],
+	},
+	pointer: [0, 0, 0],
+};
 
 export default class WorldComponent extends Component {
 
@@ -51,9 +70,35 @@ export default class WorldComponent extends Component {
 		// return STATIC || DEBUG;
 		return DEBUG;
 	}
-	get locked() {
-		return this.state.locked || this.state.spying;
+
+	get controlled() {
+		return (StateService.state.controlling && StateService.state.controlling !== StateService.state.uid);
 	}
+
+	get controlling() {
+		return (StateService.state.controlling && StateService.state.controlling === StateService.state.uid);
+	}
+
+	get silencing() {
+		return StateService.state.silencing;
+	}
+
+	get silenced() {
+		return (StateService.state.silencing && StateService.state.role === RoleType.Streamer);
+	}
+
+	get spyed() {
+		return (StateService.state.spying && StateService.state.spying === StateService.state.uid);
+	}
+
+	get spying() {
+		return (StateService.state.spying && StateService.state.spying !== StateService.state.uid);
+	}
+
+	get locked() {
+		return this.controlled || this.spying;
+	}
+
 	get lockedOrXR() {
 		return this.locked || this.renderer.xr.isPresenting;
 	}
@@ -68,8 +113,24 @@ export default class WorldComponent extends Component {
 		}
 	}
 
+	set menu(menu) {
+		if (this.menu_ !== menu) {
+			this.menu_ = menu;
+			this.scene.traverse(object => {
+				if (object instanceof MediaMesh || object instanceof MediaPlayMesh) {
+					object.freezed = (menu != null);
+				}
+			});
+		}
+	}
+	get menu() {
+		return this.menu_;
+	}
+
 	onInit() {
 		// console.log('WorldComponent.onInit');
+		Host.host = this;
+		this.defaultTexture = Texture.gridTexture;
 		this.index = 0;
 		this.error_ = null;
 		this.loading = null;
@@ -87,16 +148,18 @@ export default class WorldComponent extends Component {
 		});
 	}
 
+	/*
 	onChanges() {
 		if (this.view) {
 			const selected = this.view.items.find(item => item.selected);
 			if (selected && selected.mesh) {
 				if (this.view.type.name !== 'model') {
-					this.orbit.lookAt(selected.mesh);
+					this.orbitService.lookAt(selected.mesh);
 				}
 			}
 		}
 	}
+	*/
 
 	onDestroy() {
 		this.removeListeners();
@@ -118,19 +181,15 @@ export default class WorldComponent extends Component {
 		const worldRect = this.worldRect = Rect.fromNode(container);
 		const cameraRect = this.cameraRect = new Rect();
 
-		// !!! eliminabile?
 		const cameraGroup = this.cameraGroup = new THREE.Group();
 		// new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, ROOM_RADIUS * 2);
 		// const camera = this.camera = new THREE.PerspectiveCamera(70, container.offsetWidth / container.offsetHeight, 0.01, 1000);
-		const camera = this.camera = new Camera(70, container.offsetWidth / container.offsetHeight, 0.01, 1000);
-		/*
-		camera.position.set(0, 20, 20);
-		camera.lookAt(camera.target);
-		*/
+		const camera = this.camera = new THREE.PerspectiveCamera(70, container.offsetWidth / container.offsetHeight, 0.01, 1000);
+		camera.target = new THREE.Vector3();
 		cameraGroup.add(camera);
-		cameraGroup.target = new THREE.Vector3();
+		// cameraGroup.target = new THREE.Vector3();
 
-		const orbit = this.orbit = new OrbitService(camera);
+		const orbitService = this.orbitService = new OrbitService(camera);
 
 		const renderer = this.renderer = new THREE.WebGLRenderer({
 			antialias: true,
@@ -143,9 +202,13 @@ export default class WorldComponent extends Component {
 		renderer.setPixelRatio(window.devicePixelRatio);
 		renderer.setSize(container.offsetWidth, container.offsetHeight);
 		renderer.xr.enabled = true;
-		renderer.toneMapping = THREE.ACESFilmicToneMapping;
-		renderer.toneMappingExposure = 0.8;
 		renderer.outputEncoding = THREE.sRGBEncoding;
+		renderer.toneMapping = THREE.NoToneMapping; // default
+		// renderer.toneMapping = THREE.LinearToneMapping;
+		// renderer.toneMapping = THREE.ReinhardToneMapping;
+		// renderer.toneMapping = THREE.CineonToneMapping;
+		// renderer.toneMapping = THREE.ACESFilmicToneMapping;
+		renderer.toneMappingExposure = 1;
 		if (USE_SHADOW) {
 			renderer.shadowMap.enabled = true;
 			renderer.shadowMap.type = THREE.PCFShadowMap; // THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
@@ -162,15 +225,18 @@ export default class WorldComponent extends Component {
 		const scene = this.scene = new THREE.Scene();
 		scene.add(cameraGroup);
 
+		// this.addEnvironment();
+
 		const objects = this.objects = new THREE.Group();
 		objects.name = '[objects]';
 		scene.add(objects);
 
-		const panorama = this.panorama = new Panorama();
+		const panorama = this.panorama = new Panorama(renderer);
+		this.panoramaIntersectObjects = [panorama.mesh];
+		this.intersectObjects = this.panoramaIntersectObjects;
 		objects.add(panorama.mesh);
 
 		const indicator = this.indicator = new PointerElement();
-
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
 		const mainLight = new THREE.PointLight(0xffffff);
@@ -185,16 +251,40 @@ export default class WorldComponent extends Component {
 		const light3 = new THREE.DirectionalLight(0xffe699, 1);
 		light3.position.set(0, 50, 0);
 		light3.target.position.set(0, 0, 0);
-		objects.add(light3);
+		objects.add(light3);		
 
-		const light = new THREE.AmbientLight(0x101010);
-		objects.add(light);
+		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+		objects.add(ambient);
 
 		this.addControllers();
-		//
 		this.resize();
-		//
-		// console.log('WorldComponent.createScene');
+
+		// show hide items
+		LoaderService.progress$.pipe(
+			takeUntil(this.unsubscribe$)
+		).subscribe(progress => {
+			const complete = progress.count === 0;
+			const view = this.view_;
+			// this.panorama.mesh.visible = complete;
+			if (view.items) {
+				view.items.forEach(item => {
+					item.visible = complete;
+				});
+			}
+			// console.log(view, complete, progress);
+		});
+
+		console.log('WorldComponent.createScene', this);
+	}
+
+	addEnvironment() {
+		const segments = environment.textures.envMap.split('/');
+		const filename = segments.pop();
+		const folder = segments.join('/') + '/';
+		const loader = filename.indexOf('.hdr') !== -1 ? new RGBELoader().setDataType(THREE.UnsignedByteType) : new THREE.TextureLoader();
+		loader.setPath(environment.getPath(folder)).load(filename, (texture) => {
+			this.setBackground(texture);
+		});
 	}
 
 	addOffCanvasScene(message) {
@@ -220,6 +310,23 @@ export default class WorldComponent extends Component {
 		}
 	}
 
+	setBackground(texture) {
+		let background = texture || this.defaultTexture;
+		background.mapping = THREE.EquirectangularReflectionMapping;
+		// background.encoding = THREE.LinearEncoding;
+		background.encoding = THREE.sRGBEncoding;
+		// background.encoding = THREE.GammaEncoding;
+		// background.encoding = THREE.RGBEEncoding;
+		// background.encoding = THREE.LogLuvEncoding;
+		// background.encoding = THREE.RGBM7Encoding;
+		// background.encoding = THREE.RGBM16Encoding;
+		// background.encoding = THREE.RGBDEncoding;
+		// background.encoding = THREE.BasicDepthPacking;
+		// background.encoding = THREE.RGBADepthPacking;
+		// this.scene.background = background;
+		this.scene.environment = background;
+	}
+
 	setView() {
 		if (!this.panorama) {
 			return;
@@ -236,21 +343,31 @@ export default class WorldComponent extends Component {
 				}
 			}
 			view.ready = false;
+			this.cameraGroup.position.set(0, 0, 0);
+			this.cameraGroup.rotation.set(0, 0, 0);
+			if (view.type.name === ViewType.Room3d.name) {
+				this.renderer.setClearColor(0x000000, 1);
+				this.objects.remove(this.panorama.mesh);
+			} else {
+				this.renderer.setClearColor(0x000000, 1);
+				this.objects.add(this.panorama.mesh);
+			}
 			// this.loading = LOADING_BANNER;
 			// this.waiting = null;
 			this.pushChanges();
-			this.panorama.change(view, this.renderer, (envMap, texture, rgbe) => {
-				// this.scene.background = envMap;
-				this.scene.environment = envMap;
+			PrefetchService.cancel();
+			this.panorama.change(view, this.renderer, (texture) => {
+				// console.log('panorama.change', texture);
+				this.setBackground(texture);
 				view.ready = true;
 				view.onUpdateAsset = () => {
 					this.onViewAssetDidChange();
 				};
 				// this.waiting = (view && view.type.name === 'waiting-room') ? WAITING_BANNER : null;
 				this.pushChanges();
-				// this.render();
 			}, (view) => {
 				this.setViewOrientation(view);
+				PrefetchService.prefetch(view.prefetchAssets);
 				// this.loading = null;
 				// this.pushChanges();
 			});
@@ -259,8 +376,8 @@ export default class WorldComponent extends Component {
 
 	onViewAssetDidChange() {
 		if (this.panorama) {
-			this.panorama.crossfade(this.view, this.renderer, (envMap, texture, rgbe) => {
-				this.scene.environment = envMap;
+			this.panorama.crossfade(this.view, this.renderer, (texture) => {
+				this.setBackground(texture);
 			});
 		}
 	}
@@ -268,16 +385,16 @@ export default class WorldComponent extends Component {
 	setViewOrientation(view) {
 		const message = this.requestInfoResult;
 		this.requestInfoResult = null;
-		if (this.orbit) {
-			this.orbit.mode = view.type.name;
+		if (this.orbitService) {
+			this.orbitService.mode = view.type.name;
 			if (!this.renderer.xr.isPresenting) {
 				if (message) {
-					this.orbit.setOrientation(message.orientation);
-					this.orbit.zoom = message.zoom;
+					this.orbitService.setOrientation(message.orientation);
+					this.orbitService.zoom = message.zoom;
 					this.camera.updateProjectionMatrix();
 				} else if (!view.keepOrientation) {
-					this.orbit.setOrientation(view.orientation);
-					this.orbit.zoom = view.zoom;
+					this.orbitService.setOrientation(view.orientation);
+					this.orbitService.zoom = view.zoom;
 					this.camera.updateProjectionMatrix();
 				}
 			}
@@ -286,6 +403,7 @@ export default class WorldComponent extends Component {
 
 	addControllers() {
 		const controllerGroup = this.controllerGroup = new THREE.Group();
+		const teleport = this.teleport = new TeleportElement();
 		this.controllers = [];
 		this.controllerModelFactory = new XRControllerModelFactory();
 		this.addController(0);
@@ -299,6 +417,10 @@ export default class WorldComponent extends Component {
 		const controllerGroup = this.controllerGroup;
 		const controller = renderer.xr.getController(index);
 		const controllerModelFactory = this.controllerModelFactory;
+		const teleport = this.teleport;
+		const scene = this.scene;
+		const camera = this.camera;
+		const cameraGroup = this.cameraGroup;
 		controller.name = `[controller${index + 1}]`;
 		controllerGroup.add(controller);
 		const setController = (controller) => {
@@ -311,6 +433,22 @@ export default class WorldComponent extends Component {
 		};
 		const onSelectEnd = (event) => {
 			controller.userData.isSelecting = false;
+		};
+		const onSqueezeStart = (event) => {
+			if (this.view && this.view.type.name === ViewType.Room3d.name) {
+				teleport.addToController(controller, scene);
+				// this.scene.remove(this.indicator.mesh);
+				this.indicator.mesh.visible = false;
+				controller.children[0].visible = false;
+			}
+		};
+		const onSqueezeEnd = (event) => {
+			// if (this.view && this.view.type.name === ViewType.Room3d.name) {
+			teleport.removeFromController(controller, scene, renderer, camera, cameraGroup);
+			// this.scene.add(this.indicator.mesh);
+			this.indicator.mesh.visible = true;
+			controller.children[0].visible = true;
+			// }
 		};
 		// const debugService = DebugService.getService();
 		// debugService.setMessage('DebugService 1001');
@@ -390,7 +528,9 @@ export default class WorldComponent extends Component {
 			if (!showPhone || event.data.handedness === 'right') {
 				const controllerGrip = renderer.xr.getControllerGrip(index);
 				controllerGrip.name = `[controller-grip${index + 1}]`;
-				controllerGrip.add(controllerModelFactory.createControllerModel(controllerGrip));
+				const controllerModel = controllerModelFactory.createControllerModel(controllerGrip);
+				controller.userData.model = controllerModel;
+				controllerGrip.add(controllerModel);
 				controllerGroup.add(controllerGrip);
 			}
 			const gamepad = new Gamepad(event.data.gamepad);
@@ -402,6 +542,9 @@ export default class WorldComponent extends Component {
 			// gamepad.on('up', onUp);
 			// gamepad.on('down', onDown);
 			controller.userData.gamepad = gamepad;
+			controller.userData.update = () => {
+				gamepad.update();
+			};
 		}
 		const onDisconnected = (event) => {
 			while (controller.children.length) {
@@ -412,19 +555,27 @@ export default class WorldComponent extends Component {
 				controllerGrip.remove(controllerGrip.children[0]);
 			}
 			controllerGroup.remove(controllerGrip);
+			controller.userData.update = () => { };
 			const gamepad = controller.userData.gamepad;
-			gamepad.off('press', onPress);
-			gamepad.off('release', onRelease);
-			gamepad.off('left', onLeft);
-			gamepad.off('right', onRight);
-			gamepad.off('axis', onAxis);
-			// gamepad.off('up', onUp);
-			// gamepad.off('down', onDown);
+			if (gamepad) {
+				gamepad.off('press', onPress);
+				gamepad.off('release', onRelease);
+				gamepad.off('left', onLeft);
+				gamepad.off('right', onRight);
+				gamepad.off('axis', onAxis);
+				// gamepad.off('up', onUp);
+				// gamepad.off('down', onDown);
+				delete controller.userData.gamepad;
+			}
+			teleport.removeFromController(controller, scene, renderer, camera, cameraGroup);
 		}
+		controller.userData.update = () => { };
 		controller.addEventListener('selectstart', onSelectStart);
 		controller.addEventListener('selectend', onSelectEnd);
 		controller.addEventListener('connected', onConnected);
 		controller.addEventListener('disconnected', onDisconnected);
+		controller.addEventListener('squeezestart', onSqueezeStart);
+		controller.addEventListener('squeezeend', onSqueezeEnd);
 		const controllers = this.controllers;
 		controllers.push(controller);
 	}
@@ -475,7 +626,7 @@ export default class WorldComponent extends Component {
 		if (controller && target && this.renderer.xr.isPresenting) {
 			let position = new THREE.Vector3();
 			position = position.copy(target.position);
-			const distance = Math.max(1, Math.min(8, position.distanceTo(ORIGIN) + 0.02 * direction));
+			const distance = Math.max(1, Math.min(8, position.distanceTo(ZERO) + 0.02 * direction));
 			position.normalize();
 			position = position.multiplyScalar(distance);
 			// DebugService.getService().setMessage('onModelDistance ' + distance);
@@ -499,10 +650,6 @@ export default class WorldComponent extends Component {
 		}
 	}
 
-	onTween() {
-		// this.render();
-	}
-
 	updateRaycasterXR(controller, raycaster) {
 		if (controller) {
 			this.controllerMatrix_.identity().extractRotation(controller.matrixWorld);
@@ -510,37 +657,6 @@ export default class WorldComponent extends Component {
 			raycaster.ray.direction.set(0, 0, -1).applyMatrix4(this.controllerMatrix_);
 			// raycaster.camera = this.host.renderer.xr.getCamera(this.camera);
 			return raycaster;
-		}
-	}
-
-	raycasterHitTest() {
-		try {
-			if (this.renderer.xr.isPresenting) {
-				const raycaster = this.updateRaycasterXR(this.controller, this.raycaster);
-				if (raycaster) {
-					const hit = Interactive.hittest(raycaster, this.controller.userData.isSelecting);
-					this.indicator.update();
-					/*
-					if (hit && hit !== this.panorama.mesh) {
-						// controllers.feedback();
-					}
-					*/
-				}
-			} else if (!this.dragItem && !this.resizeItem) {
-				return; // !!!
-				const raycaster = this.raycaster;
-				if (raycaster) {
-					const hit = Interactive.hittest(raycaster);
-					/*
-					if (hit && hit !== this.panorama.mesh) {
-						// console.log('hit', hit);
-					}
-					*/
-				}
-			}
-		} catch (error) {
-			this.error = error;
-			// throw (error);
 		}
 	}
 
@@ -565,40 +681,107 @@ export default class WorldComponent extends Component {
 			const renderer = this.renderer,
 				scene = this.scene,
 				camera = this.camera;
+			const isPresenting = renderer.xr.isPresenting;
+			if (!isPresenting && (StateService.state.mode === UIMode.LiveMeeting)) {
+				// !!! || (StateService.state.remoteScreen !== null)
+				return;
+			}
+			if (isPresenting) {
+				gsap.ticker.tick();
+				this.controllers.forEach(controller => controller.userData.update());
+				this.teleport.update();
+			} else {
+				this.navWithKeys();
+			}
 			const time = performance.now();
 			const tick = this.tick_ ? ++this.tick_ : this.tick_ = 1;
-			this.raycasterXRHitTest();
 			this.scene.traverse((child) => {
 				if (typeof child.userData.render === 'function') {
-					child.userData.render(time, tick);
+					child.userData.render(time, tick, renderer, scene, camera);
 				}
 			});
-			this.vrService.updateState(this);
 			Object.keys(this.avatars).forEach(key => {
 				this.avatars[key].render();
 			});
-			if (renderer.xr.isPresenting) {
-				gsap.ticker.tick();
-				this.controllers.forEach(controller => {
-					controller.userData.gamepad.update();
-				});
-			}
+			this.vrService.updateState(this);
+			this.raycasterXRHitTest();
 			/*
 			const objects = this.objects;
 			for (let i = 0; i < objects.children.length; i++) {
 				const x = objects.children[i];
 				if (typeof x.userData.render === 'function') {
-					x.userData.render(time, tick);
+					x.userData.render(time, tick, renderer, scene, camera);
 				}
+			}
+			*/
+			/*
+			if (scene.background && scene.background.userData) {
+				scene.background.userData.render(time, tick, renderer, scene, camera);
 			}
 			*/
 			renderer.render(this.scene, this.camera);
 			if (this.state && !this.state.hosted) {
-				this.orbit.render();
+				this.orbitService.render();
 			}
 		} catch (error) {
 			this.error = error;
 			// throw (error);
+		}
+	}
+
+	navWithKeys() {
+		if (this.view && this.view.type.name === ViewType.Room3d.name && this.view.mesh && !this.locked && !ModalService.hasModal) {
+			this.intersectObjects = this.view.intersectObjects;
+			const velocity = this.velocity || (this.velocity = new THREE.Vector3());
+			const direction = this.direction || (this.direction = new THREE.Vector3());
+			const camera = this.camera;
+			const speed = 0.1;
+			if (this.keys.w || this.keys.ArrowUp) {
+				camera.getWorldDirection(direction);
+				direction.multiplyScalar(speed);
+				velocity.copy(direction);
+			} else if (this.keys.s || this.keys.ArrowDown) {
+				camera.getWorldDirection(direction);
+				direction.multiplyScalar(-speed);
+				velocity.copy(direction);
+			} else if (this.keys.d || this.keys.ArrowRight) {
+				camera.getWorldDirection(direction);
+				direction.multiplyScalar(speed);
+				const axisY = this.axisY || (this.direction = new THREE.Vector3(0, 1, 0));
+				const angle = -Math.PI / 2;
+				direction.applyAxisAngle(axisY, angle);
+				velocity.copy(direction);
+			} else if (this.keys.a || this.keys.ArrowLeft) {
+				camera.getWorldDirection(direction);
+				direction.multiplyScalar(-speed);
+				const axisY = this.axisY || (this.direction = new THREE.Vector3(0, 1, 0));
+				const angle = -Math.PI / 2;
+				direction.applyAxisAngle(axisY, angle);
+				velocity.copy(direction);
+			}
+			const manhattanLength = velocity.manhattanLength();
+			if (manhattanLength > 0.00001) {
+				// console.log(velocity.x, velocity.y, velocity.z);
+				direction.copy(this.cameraGroup.position);
+				direction.add(velocity);
+				direction.y = 0;
+				const raycaster = this.raycaster;
+				raycaster.set(direction, DOWN);
+				const intersects = raycaster.intersectObjects(this.view.navIntersectObjects);
+				if (intersects.length) {
+					// console.log(manhattanLength, intersects);
+					this.cameraGroup.position.add(velocity);
+					this.cameraGroup.position.y = 0;
+					this.orbitService.update();
+					// this.orbitService.events$.next(OrbitService.orbitMoveEvent);
+					// camera.updateProjectionMatrix();
+				}
+				velocity.lerp(ZERO, 0.1);
+			} else {
+				velocity.set(0, 0, 0);
+			}
+		} else {
+			this.intersectObjects = this.panoramaIntersectObjects;
 		}
 	}
 
@@ -651,36 +834,12 @@ export default class WorldComponent extends Component {
 		return raycaster;
 	}
 
-	onMouseDown(event) {
-		try {
-			if (event.button !== 0) {
-				return;
-			}
-			const raycaster = this.updateRaycasterMouse(event);
-			const hit = Interactive.hittest(raycaster, true);
-			if (this.editor || DEBUG) {
-				if (this.keys.Shift || this.keys.Control) {
-				} else {
-					this.select.next({ item: null });
-					if (this.panorama.mesh.intersection) {
-						const position = new THREE.Vector3().copy(this.panorama.mesh.intersection.point).normalize();
-						console.log(JSON.stringify({ position: position.toArray() }));
-						this.viewHit.next(position);
-					}
-				}
-			}
-		} catch (error) {
-			this.error = error;
-			// throw (error);
-		}
-	}
-
 	raycasterXRHitTest() {
-		if (this.renderer.xr.isPresenting) {
+		if (this.renderer.xr.isPresenting && !this.locked) {
 			const raycaster = this.updateRaycasterXR(this.controller, this.raycaster);
 			if (raycaster) {
 				const hit = Interactive.hittest(raycaster, this.controller.userData.isSelecting);
-				this.indicator.update();
+				this.indicator.update(this.renderer.xr.getCamera(this.camera));
 				/*
 				if (hit && hit !== this.panorama.mesh) {
 					// controllers.feedback();
@@ -697,35 +856,71 @@ export default class WorldComponent extends Component {
 		}
 		if (this.dragItem) {
 			if (typeof this.dragItem.onDragMove === 'function') {
-				const intersections = raycaster.intersectObjects([this.panorama.mesh]);
+				const intersections = raycaster.intersectObjects(this.intersectObjects);
 				if (intersections.length) {
 					const intersection = intersections[0];
 					// this.panorama.mesh.intersection = intersection;
-					const position = new THREE.Vector3().copy(intersection.point).normalize();
-					this.dragItem.onDragMove(position);
+					const intersectionPoint = this.intersectionPoint || (this.intersectionPoint = new THREE.Vector3());
+					const intersectionNormal = this.intersectionNormal || (this.intersectionNormal = new THREE.Vector3());
+					const position = intersectionPoint.copy(intersection.point);
+					const normal = intersectionNormal.copy(intersection.face.normal);
+					this.dragItem.onDragMove(position, normal, this.intersectObjects === this.panoramaIntersectObjects);
 				}
 			}
 		} else if (this.resizeItem) {
+			/*
 			if (typeof this.resizeItem.onResizeMove === 'function') {
-				/*
 				// calc arc x & y as scale;
-				const intersections = raycaster.intersectObjects([this.panorama.mesh]);
+				const intersections = raycaster.intersectObjects(this.intersectObjects);
 				if (intersections.length) {
 					const intersection = intersections[0];
 					// this.panorama.mesh.intersection = intersection;
 					const position = new THREE.Vector3().copy(intersection.point).normalize();
 					this.resizeItem.onResizeMove(position);
 				}
-				*/
-			}
-		} else {
-			const hit = Interactive.hittest(raycaster);
-			/*
-			if (hit && hit !== this.panorama.mesh) {
-				// console.log('hit', hit);
 			}
 			*/
-			this.controlEvent$.next(this.control);
+		} else {
+			const hit = Interactive.hittest(raycaster);
+			this.controlEvent$.next(CONTROL_INFO);
+		}
+	}
+
+	onMouseDown(event) {
+		try {
+			if (this.locked) {
+				return;
+			}
+			if (event.button !== 0) {
+				return;
+			}
+			const raycaster = this.updateRaycasterMouse(event);
+			const hit = Interactive.hittest(raycaster, true);
+			if (this.editor || DEBUG) {
+				if (this.keys.Shift || this.keys.Control) {
+				} else {
+					this.select.next({ item: null });
+					const intersections = raycaster.intersectObjects(this.intersectObjects);
+					if (intersections.length) {
+						const intersection = intersections[0];
+						const intersectionPoint = this.intersectionPoint || (this.intersectionPoint = new THREE.Vector3());
+						const intersectionNormal = this.intersectionNormal || (this.intersectionNormal = new THREE.Vector3());
+						const position = intersectionPoint.copy(intersection.point);
+						const normal = intersectionNormal.copy(intersection.face.normal);
+						this.viewHit.next({ position, normal, spherical: this.intersectObjects === this.panoramaIntersectObjects });
+					}
+					/*
+					if (this.panorama.mesh.intersection) {
+						const position = new THREE.Vector3().copy(this.panorama.mesh.intersection.point).normalize();
+						console.log(JSON.stringify({ position: position.toArray() }));
+						this.viewHit.next(position);
+					}
+					*/
+				}
+			}
+		} catch (error) {
+			this.error = error;
+			// throw (error);
 		}
 	}
 
@@ -757,13 +952,9 @@ export default class WorldComponent extends Component {
 				}
 			}
 			this.resizeItem = null;
-			/*
-			if (NavPointDragging) {
-				stopDragging
-			}
-			*/
 			const raycaster = this.updateRaycasterMouse(event);
 			const hit = Interactive.hittest(raycaster, false);
+			this.checkSelectedItem();
 		} catch (error) {
 			this.error = error;
 			// throw (error);
@@ -776,10 +967,10 @@ export default class WorldComponent extends Component {
 				return;
 			}
 			const deltaY = event.deltaY * (event.wheelDeltaY !== undefined ? 1 : 37);
-			const orbit = this.orbit;
-			gsap.to(orbit, {
+			const orbitService = this.orbitService;
+			gsap.to(orbitService, {
 				duration: 0.5,
-				zoom: orbit.zoom + deltaY * 0.1,
+				zoom: orbitService.zoom + deltaY * 0.1,
 				ease: Power4.easeOut,
 				overwrite: true,
 			});
@@ -790,7 +981,18 @@ export default class WorldComponent extends Component {
 	}
 
 	onOrientationDidChange() {
-		this.controlEvent$.next(this.control);
+		this.controlEvent$.next(CONTROL_INFO);
+	}
+
+	checkSelectedItem() {
+		if (this.view) {
+			const selected = this.view.items.find(item => item.selected);
+			if (selected && selected.mesh) {
+				if (this.view.type.name !== 'model') {
+					this.orbitService.lookAt(selected.mesh);
+				}
+			}
+		}
 	}
 
 	onVRStarted() {
@@ -896,6 +1098,32 @@ export default class WorldComponent extends Component {
 		});
 	}
 
+	onZoomMedia(event) {
+		if (event.zoomed) {
+			this.view.items.forEach(item => {
+				if (item.mesh instanceof MediaMesh) {
+					// console.log(item.id, event.itemId, item.id !== event.itemId);
+					if (item.id !== event.itemId) {
+						item.mesh.setZoomedState(false);
+					}
+				}
+			});
+		}
+		MessageService.send({
+			type: MessageType.ZoomMedia,
+			itemId: event.itemId,
+			zoomed: event.zoomed,
+		});
+	}
+
+	onCurrentTimeMedia(event) {
+		MessageService.send({
+			type: MessageType.CurrentTimeMedia,
+			itemId: event.itemId,
+			currentTime: event.currentTime,
+		});
+	}
+
 	onPlayModel(event) {
 		MessageService.send({
 			type: MessageType.PlayModel,
@@ -918,13 +1146,12 @@ export default class WorldComponent extends Component {
 		this.view.items = [];
 		// this.loading = LOADING_BANNER;
 		this.pushChanges();
-		this.orbit.walk(event.position, (headingLongitude, headingLatitude) => {
+		this.orbitService.walk(event.position, (headingLongitude, headingLatitude) => {
 			const tile = this.view.getTile(event.indices.x, event.indices.y);
 			if (tile) {
-				this.panorama.crossfade(tile, this.renderer, (envMap, texture, rgbe) => {
-					// this.scene.background = envMap;
-					this.scene.environment = envMap;
-					this.orbit.walkComplete(headingLongitude, headingLatitude);
+				this.panorama.crossfade(tile, this.renderer, (texture) => {
+					this.setBackground(texture);
+					this.orbitService.walkComplete(headingLongitude, headingLatitude);
 					this.view.updateCurrentItems();
 					// this.loading = null;
 					this.pushChanges();
@@ -950,13 +1177,17 @@ export default class WorldComponent extends Component {
 
 	control$() {
 		return this.controlEvent$.pipe(
-			filter(() => StateService.state.control || StateService.state.spyed || this.editor),
+			filter(() => this.controlling || this.spyed || this.editor),
 			auditTime(40),
 			tap((control) => {
-				control.orientation.latitude = this.orbit.latitude;
-				control.orientation.longitude = this.orbit.longitude;
-				control.zoom = this.orbit.zoom;
-				const intersections = this.raycaster.intersectObjects([this.panorama.mesh]);
+				control.orientation.latitude = this.orbitService.latitude;
+				control.orientation.longitude = this.orbitService.longitude;
+				control.zoom = this.orbitService.zoom;
+				control.cameraGroup = {
+					position: this.cameraGroup.position.toArray(),
+					rotation: this.cameraGroup.rotation.toArray(),
+				};
+				const intersections = this.raycaster.intersectObjects(this.intersectObjects);
 				const point = intersections.length ? intersections[0].point.normalize() : null;
 				if (point) {
 					control.pointer[0] = point.x;
@@ -969,12 +1200,6 @@ export default class WorldComponent extends Component {
 	}
 
 	addListeners() {
-		this.control = {
-			type: MessageType.ControlInfo,
-			orientation: { latitude: 0, longitude: 0 },
-			zoom: 1,
-			pointer: [0, 0, 0],
-		};
 		this.controlEvent$ = new ReplaySubject(1);
 		this.control$().pipe(
 			takeUntil(this.unsubscribe$)
@@ -996,7 +1221,7 @@ export default class WorldComponent extends Component {
 		).subscribe((state) => {
 			this.onVRStateDidChange(state);
 		});
-		const orbit$ = this.orbit.observe$(this.container).pipe(
+		const orbit$ = this.orbitService.observe$(this.container).pipe(
 			shareReplay(1)
 		);
 		/*
@@ -1021,15 +1246,20 @@ export default class WorldComponent extends Component {
 				case MessageType.RequestInfo:
 					message.type = MessageType.RequestInfoResult;
 					message.viewId = this.view.id;
-					message.orientation = this.orbit.getOrientation();
-					message.zoom = this.orbit.zoom;
+					message.orientation = this.orbitService.getOrientation();
+					message.zoom = this.orbitService.zoom;
+					message.cameraGroup = {
+						position: this.cameraGroup.position.toArray(),
+						rotation: this.cameraGroup.rotation.toArray(),
+					}
 					if (this.view instanceof PanoramaGridView) {
 						message.gridIndex = this.view.index;
 					}
 					// console.log('WorldComponent', 'MessageType.RequestInfo', 'from', message.clientId, 'to', StateService.state.uid, message.orientation);
 					MessageService.sendBack(message);
 					if (StateService.state.role !== RoleType.Publisher) {
-						StateService.patchState({ spyed: true });
+						StateService.patchState({ spying: message.remoteId });
+						// console.log('WorldComponent.MessageService.out$.RequestInfo', StateService.state.spying, message.remoteId);
 					}
 					break;
 				case MessageType.RequestInfoResult:
@@ -1038,10 +1268,12 @@ export default class WorldComponent extends Component {
 						ViewService.viewId = message.viewId;
 						this.requestInfoResult = message;
 					} else {
-						this.orbit.setOrientation(message.orientation);
 						if (!this.renderer.xr.isPresenting) {
-							this.orbit.zoom = message.zoom;
-							this.camera.updateProjectionMatrix();
+							this.orbitService.setOrientation(message.orientation);
+							this.orbitService.zoom = message.zoom;
+							this.cameraGroup.position.set(message.cameraGroup.position[0], message.cameraGroup.position[1], message.cameraGroup.position[2]);
+							this.cameraGroup.rotation.set(message.cameraGroup.rotation[0], message.cameraGroup.rotation[1], message.cameraGroup.rotation[2]);
+							// this.camera.updateProjectionMatrix();
 						}
 						if (this.view instanceof PanoramaGridView && message.gridIndex) {
 							this.view.index = message.gridIndex;
@@ -1050,35 +1282,7 @@ export default class WorldComponent extends Component {
 							this.requestInfoResult = message;
 						}
 					}
-					/*
-					if (this.view && this.view.id === message.viewId) {
-						this.orbit.setOrientation(message.orientation);
-						if (!this.renderer.xr.isPresenting) {
-							this.orbit.zoom = message.zoom;
-							this.camera.updateProjectionMatrix();
-						}
-						if (this.view instanceof PanoramaGridView && message.gridIndex) {
-							this.view.index = message.gridIndex;
-						}
-					} else {
-						this.requestInfoResult = message;
-					}
-					*/
-					// console.log('WorldComponent', 'MessageType.RequestInfoResult', message, StateService.state);
 					break;
-				// !!! old control accepted message
-				/*
-				case MessageType.RequestControlAccepted:
-					message = {
-						type: MessageType.NavToView,
-						viewId: this.view.id,
-					};
-					if (this.view instanceof PanoramaGridView) {
-						message.gridIndex = this.view.index;
-					}
-					MessageService.send(message);
-					break;
-				*/
 				case MessageType.ShowPanel:
 					if (this.menu) {
 						this.menu.removeMenu();
@@ -1091,6 +1295,25 @@ export default class WorldComponent extends Component {
 					const item = this.view.items.find(item => item.id === message.itemId);
 					if (item && item.mesh instanceof MediaMesh) {
 						item.mesh.setPlayingState(message.playing);
+					}
+					break;
+				}
+				case MessageType.ZoomMedia: {
+					this.view.items.forEach(item => {
+						if (item.mesh instanceof MediaMesh) {
+							if (item.id === message.itemId) {
+								item.mesh.setZoomedState(message.zoomed);
+							} else {
+								item.mesh.setZoomedState(false);
+							}
+						}
+					});
+					break;
+				}
+				case MessageType.CurrentTimeMedia: {
+					const item = this.view.items.find(item => item.id === message.itemId);
+					if (item && item.mesh instanceof MediaMesh) {
+						item.mesh.setCurrentTime(message.currentTime);
 					}
 					break;
 				}
@@ -1116,17 +1339,27 @@ export default class WorldComponent extends Component {
 				case MessageType.VRState:
 					this.updateOffCanvasScene(message);
 					if (StateService.state.spying === message.clientId) {
-						this.orbit.setVRCamera(message.camera);
+						this.orbitService.setVRCamera(message.camera);
 					}
 					break;
 				case MessageType.ControlInfo:
 					if (!this.renderer.xr.isPresenting) {
-						this.orbit.setOrientation(message.orientation);
-						this.orbit.zoom = message.zoom;
+						this.orbitService.setOrientation(message.orientation);
+						this.orbitService.zoom = message.zoom;
+						this.cameraGroup.position.set(message.cameraGroup.position[0], message.cameraGroup.position[1], message.cameraGroup.position[2]);
+						this.cameraGroup.rotation.set(message.cameraGroup.rotation[0], message.cameraGroup.rotation[1], message.cameraGroup.rotation[2]);
 						// this.camera.updateProjectionMatrix();
-						// this.render();
 					}
-					this.pointer.setPosition(message.pointer[0], message.pointer[1], message.pointer[2]);
+					this.pointer.setPosition(message.pointer[0], message.pointer[1], message.pointer[2], this.camera);
+					break;
+			}
+		});
+		MessageService.in$.pipe(
+			takeUntil(this.unsubscribe$)
+		).subscribe(message => {
+			switch (message.type) {
+				case MessageType.SelectItem:
+					this.checkSelectedItem();
 					break;
 			}
 		});
@@ -1134,7 +1367,7 @@ export default class WorldComponent extends Component {
 			takeUntil(this.unsubscribe$)
 		).subscribe(state => {
 			this.state = state;
-			this.showPointer = (StateService.state.locked || StateService.state.spying);
+			this.showPointer = this.locked;
 			// console.log(state);
 			// this.pushChanges();
 		});

@@ -121,12 +121,16 @@ export const MessageType = {
 	RequestInfoDismiss: 'requestInfoDismiss',
 	RequestInfoDismissed: 'requestInfoDismissed',
 	RequestInfoRejected: 'requestInfoRejected',
+	RemoteSilencing: 'remoteSilencing',
 	SlideChange: 'slideChange',
 	ControlInfo: 'controlInfo',
 	AddLike: 'addLike',
 	ShowPanel: 'showPanel',
 	PlayMedia: 'playMedia',
+	ZoomMedia: 'zoomMedia',
+	CurrentTimeMedia: 'currentTimeMedia',
 	PlayModel: 'playModel',
+	NavInfo: 'navInfo',
 	NavToView: 'navToView',
 	NavToGrid: 'navToGrid',
 	VRStarted: 'vrStarted',
@@ -136,6 +140,7 @@ export const MessageType = {
 	ChatMessage: 'chatMessage',
 	ChatTypingBegin: 'chatTypingBegin',
 	ChatTypingEnd: 'chatTypingEnd',
+	SelectItem: 'selectItem',
 };
 
 export const UIMode = {
