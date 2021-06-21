@@ -7993,7 +7993,8 @@
           ],
           "asset": null,
           "id": 494011660065699,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null,
@@ -26591,6 +26592,123 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "room-3d"
+      },
+      "name": "3D - Navigation",
+      "asset": {
+        "type": {
+          "id": 3,
+          "name": "model"
+        },
+        "folder": "/uploads/",
+        "file": "348589234010800_gallery.glb",
+        "id": 348589258374600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 348602483606200,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.4763716839375,
+            0.21,
+            3.2599999999999945
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            6,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 6,
+              "name": "publisher-screen",
+              "file": "publisherScreen"
+            },
+            "folder": "",
+            "file": "publisherScreen",
+            "id": 348667489791200,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "index": 0
+          },
+          "id": 348617792802900
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.4763716839375,
+            0.1786250805478513,
+            -2.9413471494489443
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            6,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 4,
+              "name": "publisher-stream",
+              "file": "publisherStream"
+            },
+            "folder": "",
+            "file": "publisherStream",
+            "id": 348712750922800,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "index": 0
+          },
+          "id": 348681784598100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Welcome",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            14.14642356047071,
+            -1.3841533839791218,
+            0.07815493371913818
+          ],
+          "asset": null,
+          "link": null,
+          "id": 348727867627700
+        }
+      ]
     }
   ],
   "menu": [
@@ -26901,6 +27019,13 @@
       "viewId": 50,
       "name": "Live 360",
       "order": 40
+    },
+    {
+      "id": 348792255674100,
+      "parentId": 513904544668199,
+      "viewId": 348602483606200,
+      "name": "3D - Navigation",
+      "order": 50
     },
     {
       "id": 513946905350299,
@@ -31674,6 +31799,43 @@
           "id": 98642410627000
         }
       }
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "348589234010800_gallery.glb",
+      "id": 348589258374600
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 348667489791200,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "index": 0
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 348712750922800,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "index": 0
     }
   ],
   "users": [
