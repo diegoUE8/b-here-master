@@ -278,6 +278,28 @@
           "id": 45129732092400
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Test Foto 360",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "350680804661600_IMG_20210706_113338_901_auto_x2.jpg",
+        "id": 350681135848800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 350688573903100
     }
   ],
   "menu": [],
@@ -317,6 +339,15 @@
       "folder": "/uploads/",
       "file": "45102710480600_stanza5.jpg",
       "id": 45102725815000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "350680804661600_IMG_20210706_113338_901_auto_x2.jpg",
+      "id": 350681135848800
     }
   ],
   "users": [
