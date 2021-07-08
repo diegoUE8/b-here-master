@@ -31,7 +31,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Reception 2",
+      "name": "Reception 1",
       "asset": {
         "type": {
           "id": 1,
@@ -55,7 +55,7 @@
           },
           "title": "Gallery",
           "abstract": null,
-          "viewId": 18613166118800,
+          "viewId": 350975934557800,
           "keepOrientation": false,
           "important": false,
           "position": [
@@ -78,7 +78,7 @@
           "important": false,
           "position": [
             0.8328833736417783,
-            -0.012860348510662197,
+            -0.0128603485106622,
             -0.5532991029698802
           ],
           "asset": null,
@@ -93,7 +93,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Reception",
+      "name": "Reception 2",
       "asset": {
         "type": {
           "id": 1,
@@ -117,7 +117,7 @@
           },
           "title": "Gallery",
           "abstract": null,
-          "viewId": 350975934557800,
+          "viewId": 18613166118800,
           "keepOrientation": false,
           "important": false,
           "position": [
@@ -186,7 +186,7 @@
           "important": false,
           "position": [
             0.8755868340700043,
-            0.0004698547131710695,
+            0.0004698547131710696,
             -0.48306052958176493
           ],
           "asset": null,
@@ -208,90 +208,16 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "534538928905700_Unreal Engine Demo 360 2021.06.23 - 16.16.33.72.jpg",
+        "file": "123285239130700_Unreal Engine Demo 360 2021.07.08 - 16.46.36.96.jpg",
         "id": 350966827528500
       },
       "orientation": {
-        "latitude": -8.6,
-        "longitude": 0.6000000000000227
+        "latitude": -3.399999999999997,
+        "longitude": 359.5731430700817
       },
       "zoom": 75,
       "id": 350975934557800,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 350996322007700,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            0.8733556614054838,
-            -0.48669616296557544,
-            0.019409627651658004
-          ],
-          "asset": null,
-          "id": 31380694869400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 351017329994000,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            0.962172048150504,
-            -0.27160209068735897,
-            0.021383500464610596
-          ],
-          "asset": null,
-          "id": 31390540952700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 95344752570800,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            0.9814029097355637,
-            -0.1907160554342429,
-            0.021810890907338138
-          ],
-          "asset": null,
-          "id": 96125219553800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 350769338314900,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.9862191321491841,
-            -0.16450184324580214,
-            -0.017634255063477038
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535401843517100
-        }
-      ],
+      "items": [],
       "hidden": null,
       "ar": null
     },
@@ -300,347 +226,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Gallery_2",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "534845437824700_Unreal Engine Demo 360 2021.06.23 - 16.17.31.50.jpg",
-        "id": 350993554014200
-      },
-      "orientation": {
-        "latitude": -10.223660277698563,
-        "longitude": 358.4731430700817
-      },
-      "zoom": 75,
-      "id": 350996322007700,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 350975934557800,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            -0.8536440749740841,
-            -0.5207774448032353,
-            0.009090998066950259
-          ],
-          "asset": null,
-          "id": 31108211743400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 351017329994000,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            0.9291810984306681,
-            -0.3693464959393763,
-            0.014340580758173634
-          ],
-          "asset": null,
-          "id": 31117778170700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception",
-          "abstract": null,
-          "viewId": 350769338314900,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.995502329626419,
-            -0.09269253130932519,
-            0.019575657021980695
-          ],
-          "asset": null,
-          "link": null,
-          "id": 534929616461900
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.9683643735996522,
-            -0.2492079516727948,
-            0.012877762461062156
-          ],
-          "asset": null,
-          "link": null,
-          "id": 534953610296700
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Gallery_3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "534968882444100_Unreal Engine Demo 360 2021.06.23 - 16.19.56.89.jpg",
-        "id": 351014742082800
-      },
-      "orientation": {
-        "latitude": -14.43064780691762,
-        "longitude": 0.7619011683541645
-      },
-      "zoom": 75,
-      "id": 351017329994000,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 350996322007700,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            -0.9409364840596436,
-            -0.3378912686250851,
-            0.021633852001132645
-          ],
-          "asset": null,
-          "id": 31090431388000
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 350975934557800,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            -0.9773812340801502,
-            -0.21049830279068382,
-            0.020405582329460138
-          ],
-          "asset": null,
-          "id": 31097820764900
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 95344752570800,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            0.795947663617079,
-            -0.6036702956323879,
-            0.04527130386479537
-          ],
-          "asset": null,
-          "id": 96022472630500
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "Vai alla famiglia 4",
-          "viewId": 351017329994000,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.3130711090268849,
-            0.03432043088834678,
-            -0.9491093660460393
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535015011322600
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            19.9146661247971,
-            -0.416578675833171,
-            -0.06973141806424733
-          ],
-          "rotation": [
-            -1.4192414724593296,
-            -1.5477006295658475,
-            -1.4192016594277668,
-            "XYZ"
-          ],
-          "scale": [
-            12,
-            6.75,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "535199168494200_macchina1_1.mp4",
-            "id": 535199202360000,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 2,
-                  "name": "video"
-                },
-                "folder": "/uploads/",
-                "file": "535199168494200_macchina1_1.mp4",
-                "id": 535199202360000
-              }
-            },
-            "chromaKeyColor": null,
-            "autoplay": false,
-            "loop": false
-          },
-          "id": 535201646412600
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 5",
-          "viewId": 351017329994000,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.3721266298881212,
-            0.06886320808087507,
-            -0.9256239138553626
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535763192498000
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 6",
-          "viewId": 351017329994000,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.7425122197056264,
-            0.050606238129222283,
-            -0.6679181179233213
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535787902196300
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 3",
-          "viewId": 351017329994000,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.7217671662257892,
-            0.04785117811223243,
-            0.6904798494609855
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535801798356800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 2",
-          "viewId": 351017329994000,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.30128248577582983,
-            0.061781306834471264,
-            0.9515313625364967
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535814575999700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 1",
-          "viewId": 351017329994000,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.3538518952204116,
-            0.06707723966354452,
-            0.9328930700611097
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535828279455600
-        }
-      ],
-      "hidden": null,
-      "ar": null
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Meeting Room",
+      "name": "Meeting Room 2",
       "asset": {
         "type": {
           "id": 1,
@@ -1014,7 +600,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Meeting Room 2",
+      "name": "Meeting Room 1",
       "asset": {
         "type": {
           "id": 1,
@@ -1074,253 +660,13 @@
       },
       "zoom": 75,
       "id": 15098513319000
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Gallery_4",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "535457219705000_Unreal Engine Demo 360 2021.06.23 - 16.20.57.90.jpg",
-        "id": 95343047867800
-      },
-      "orientation": {
-        "latitude": -4.6,
-        "longitude": 0.4000000000000341
-      },
-      "zoom": 75,
-      "id": 95344752570800,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 351017329994000,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            -0.8768440402554045,
-            -0.4798446374077841,
-            0.029894029831572726
-          ],
-          "asset": null,
-          "id": 96042271123700
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 350996322007700,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            -0.964332160413543,
-            -0.264035307127194,
-            0.018677285198795582
-          ],
-          "asset": null,
-          "id": 96053378553500
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 350975934557800,
-          "keepOrientation": true,
-          "important": false,
-          "position": [
-            -0.982619574134197,
-            -0.1850336763389711,
-            0.014876530133548036
-          ],
-          "asset": null,
-          "id": 96065750816500
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            20.076972685369153,
-            -1.3236770035474388,
-            0.980240885093657
-          ],
-          "rotation": [
-            -1.6779575738061094,
-            -1.5575492295708022,
-            -1.6781868435206544,
-            "XYZ"
-          ],
-          "scale": [
-            20.5,
-            11.5,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 2,
-              "name": "video"
-            },
-            "folder": "/uploads/",
-            "file": "535520486798700_macchina1_1.mp4",
-            "id": 535520519871300,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 2,
-                  "name": "video"
-                },
-                "folder": "/uploads/",
-                "file": "535520486798700_macchina1_1.mp4",
-                "id": 535520519871300
-              }
-            },
-            "chromaKeyColor": null,
-            "autoplay": false,
-            "loop": false
-          },
-          "id": 535522104004600
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 3",
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.262971813952246,
-            0.025950443407415702,
-            0.9644544569618743
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535644942816200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 2",
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.36602832829236426,
-            0.01627512643787055,
-            0.930461381867581
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535658230122800
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 1",
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.7334688971452872,
-            0.005276893458056902,
-            0.6797025314914666
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535685605281000
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 6",
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.38893705157722314,
-            0.024832668746180966,
-            -0.9209295893136235
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535721297401300
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 5",
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.3275917646152663,
-            0.022936295088379917,
-            -0.9445409266537235
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535732748707600
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": "VAI alla famiglia 4",
-          "viewId": 95344752570800,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.746794874286909,
-            0.026690442800378873,
-            -0.6645186498525978
-          ],
-          "asset": null,
-          "link": null,
-          "id": 535744542547700
-        }
-      ],
-      "hidden": null,
-      "ar": null
     }
   ],
   "menu": [
     {
       "id": 104122974818400,
       "parentId": null,
-      "viewId": 350769338314900,
+      "viewId": 352856225556400,
       "name": "Reception 1",
       "order": 0
     },
@@ -1334,14 +680,14 @@
     {
       "id": 104127185636100,
       "parentId": null,
-      "viewId": 352872725741500,
-      "name": "Meeting Room 1",
+      "viewId": 19099925833900,
+      "name": "Meeting Room 2",
       "order": 20
     },
     {
       "id": 104127364562000,
       "parentId": null,
-      "viewId": 352856225556400,
+      "viewId": 350769338314900,
       "name": "Reception 2",
       "order": 30
     },
@@ -1355,7 +701,7 @@
     {
       "id": 104128033357400,
       "parentId": null,
-      "viewId": 19099925833900,
+      "viewId": 352872725741500,
       "name": "Meeting Room 2",
       "order": 50
     }
@@ -1385,7 +731,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "534538928905700_Unreal Engine Demo 360 2021.06.23 - 16.16.33.72.jpg",
+      "file": "123285239130700_Unreal Engine Demo 360 2021.07.08 - 16.46.36.96.jpg",
       "id": 350966827528500
     },
     {
