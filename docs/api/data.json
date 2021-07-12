@@ -208,7 +208,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "123285239130700_Unreal Engine Demo 360 2021.07.08 - 16.46.36.96.jpg",
+        "file": "143132437243700_Unreal Engine Demo 360 2021.07.12 - 16.11.12.98.jpg",
         "id": 350966827528500
       },
       "orientation": {
@@ -217,7 +217,46 @@
       },
       "zoom": 75,
       "id": 350975934557800,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143155637620900,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9820716273361066,
+            -0.1883966588144407,
+            0.0064821083735732135
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143183342957500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Impastatrici ",
+          "abstract": "Scopri",
+          "viewId": 143224570692600,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.574568470259554,
+            -0.17913744030655696,
+            0.7986118271500934
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143839666764300
+        }
+      ],
       "hidden": null,
       "ar": null
     },
@@ -660,6 +699,538 @@
       },
       "zoom": 75,
       "id": 15098513319000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_1_passato",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "143144877306700_Unreal Engine Demo 360 2021.07.12 - 16.15.56.76.jpg",
+        "id": 143144909693900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 143155637620900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9801664242752879,
+            -0.19813402422865617,
+            0.004085237612961765
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143169492318600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_famiglia1_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "143213502643600_Unreal Engine Demo 360 2021.07.12 - 16.07.52.46.jpg",
+        "id": 143213616677300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 143224570692600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery ",
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.9886480549882639,
+            0.14937996872458706,
+            0.016144606274674823
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143436572856500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143264992935300,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.020329347218108,
+            -0.34922569994220615,
+            0.9368180870059893
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143452606700100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143350904240800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.5303794483153372,
+            -0.28714119872690047,
+            0.7976512852107726
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143463668751500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143309489606600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.4782945227299375,
+            -0.28408940571892727,
+            0.8309798788688014
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143474271312700
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_famiglia1_2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "143253998665100_Unreal Engine Demo 360 2021.07.12 - 16.09.03.92.jpg",
+        "id": 143254041476900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 143264992935300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143350904240800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9194254505822087,
+            -0.3839103785960843,
+            0.08526231305749168
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143508135504500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143224570692600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.03073325392566313,
+            -0.4204002796980283,
+            -0.9068181030024491
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143518847777500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143309489606600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.8801293137991869,
+            -0.4549869159348249,
+            0.13549648452815616
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143529126816000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "PRR",
+          "abstract": "Scheda Tecnica",
+          "viewId": 143264992935300,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.32138861811689234,
+            -0.08210516487736466,
+            0.9433812050520061
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "143569164062500_PRR-infografica.jpg",
+            "id": 143569176254900
+          },
+          "link": null,
+          "id": 143593332090200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "ARR",
+          "abstract": "Scheda Tecnica",
+          "viewId": 143264992935300,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.6574766329347297,
+            -0.047145446836589375,
+            0.7519985265859163
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "143648028241000_ARR-infografica.jpg",
+            "id": 143648041345400
+          },
+          "link": null,
+          "id": 143649955458900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.919249129029821,
+            0.11892150054028737,
+            -0.3752848458000426
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143721989199600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_famiglia1_3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "143300477266700_Unreal Engine Demo 360 2021.07.12 - 16.09.37.08.jpg",
+        "id": 143300535560300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 143309489606600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143224570692600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.6591972206175833,
+            -0.3250632298664197,
+            -0.6780803204037588
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143329312845700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143264992935300,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.8514074069620439,
+            -0.5191482178466422,
+            0.07477001589423267
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143491913019000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143350904240800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9606061282971458,
+            -0.27385132308465715,
+            0.047342571991290855
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143498226364000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "ARR",
+          "abstract": "Scheda Tecnica",
+          "viewId": 143309489606600,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.09495385159669058,
+            0.06569073193974796,
+            0.9933118814371313
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "143734252047600_ARR-infografica.jpg",
+            "id": 143734260489900
+          },
+          "link": null,
+          "id": 143748348241500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "PRR",
+          "abstract": "Scheda Tecnica",
+          "viewId": 143309489606600,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.44774528083798404,
+            0.04781003789301001,
+            0.8928820547888638
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "143776994841400_PRR-infografica.jpg",
+            "id": 143777005437700
+          },
+          "link": null,
+          "id": 143778439644700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 350975934557800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.9415012416520223,
+            0.10778488364408303,
+            -0.3193083632251619
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143796348111000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery_famiglia1_4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "143348811050700_Unreal Engine Demo 360 2021.07.12 - 16.10.10.32.jpg",
+        "id": 143348871530900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 143350904240800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143264992935300,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.8927663735193722,
+            -0.44918578125137554,
+            0.03464586894076141
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143367452350100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143309489606600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9661007467530657,
+            -0.25760419521260874,
+            0.01701251692234895
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143375939464400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 143224570692600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.4651059047522142,
+            -0.3376514400178741,
+            -0.8183324522579318
+          ],
+          "asset": null,
+          "link": null,
+          "id": 143397284770200
+        }
+      ]
     }
   ],
   "menu": [
@@ -667,43 +1238,22 @@
       "id": 104122974818400,
       "parentId": null,
       "viewId": 352856225556400,
-      "name": "Reception 1",
+      "name": "Reception ",
       "order": 0
     },
     {
       "id": 104126797634900,
       "parentId": null,
       "viewId": 350975934557800,
-      "name": "Gallery 1",
+      "name": "Gallery ",
       "order": 10
     },
     {
       "id": 104127185636100,
       "parentId": null,
       "viewId": 19099925833900,
-      "name": "Meeting Room 2",
+      "name": "Meeting Room ",
       "order": 20
-    },
-    {
-      "id": 104127364562000,
-      "parentId": null,
-      "viewId": 350769338314900,
-      "name": "Reception 2",
-      "order": 30
-    },
-    {
-      "id": 104127521484400,
-      "parentId": null,
-      "viewId": 18613166118800,
-      "name": "Gallery 2",
-      "order": 40
-    },
-    {
-      "id": 104128033357400,
-      "parentId": null,
-      "viewId": 352872725741500,
-      "name": "Meeting Room 2",
-      "order": 50
     }
   ],
   "assets": [
@@ -731,7 +1281,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "123285239130700_Unreal Engine Demo 360 2021.07.08 - 16.46.36.96.jpg",
+      "file": "143132437243700_Unreal Engine Demo 360 2021.07.12 - 16.11.12.98.jpg",
       "id": 350966827528500
     },
     {
@@ -1073,6 +1623,87 @@
       "chromaKeyColor": null,
       "autoplay": false,
       "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143144877306700_Unreal Engine Demo 360 2021.07.12 - 16.15.56.76.jpg",
+      "id": 143144909693900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143213502643600_Unreal Engine Demo 360 2021.07.12 - 16.07.52.46.jpg",
+      "id": 143213616677300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143253998665100_Unreal Engine Demo 360 2021.07.12 - 16.09.03.92.jpg",
+      "id": 143254041476900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143300477266700_Unreal Engine Demo 360 2021.07.12 - 16.09.37.08.jpg",
+      "id": 143300535560300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143348811050700_Unreal Engine Demo 360 2021.07.12 - 16.10.10.32.jpg",
+      "id": 143348871530900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143569164062500_PRR-infografica.jpg",
+      "id": 143569176254900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143648028241000_ARR-infografica.jpg",
+      "id": 143648041345400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143734252047600_ARR-infografica.jpg",
+      "id": 143734260489900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "143776994841400_PRR-infografica.jpg",
+      "id": 143777005437700
     }
   ],
   "users": [
