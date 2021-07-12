@@ -927,60 +927,6 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "PRR",
-          "abstract": "Scheda Tecnica",
-          "viewId": 143264992935300,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.32138861811689234,
-            -0.08210516487736466,
-            0.9433812050520061
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "143569164062500_PRR-infografica.jpg",
-            "id": 143569176254900
-          },
-          "link": null,
-          "id": 143593332090200
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "ARR",
-          "abstract": "Scheda Tecnica",
-          "viewId": 143264992935300,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            0.6574766329347297,
-            -0.047145446836589375,
-            0.7519985265859163
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "143648028241000_ARR-infografica.jpg",
-            "id": 143648041345400
-          },
-          "link": null,
-          "id": 143649955458900
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
           "title": "Gallery",
           "abstract": null,
           "viewId": 350975934557800,
@@ -1075,60 +1021,6 @@
           "asset": null,
           "link": null,
           "id": 143498226364000
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "ARR",
-          "abstract": "Scheda Tecnica",
-          "viewId": 143309489606600,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.09495385159669058,
-            0.06569073193974796,
-            0.9933118814371313
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "143734252047600_ARR-infografica.jpg",
-            "id": 143734260489900
-          },
-          "link": null,
-          "id": 143748348241500
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "PRR",
-          "abstract": "Scheda Tecnica",
-          "viewId": 143309489606600,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.44774528083798404,
-            0.04781003789301001,
-            0.8928820547888638
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "143776994841400_PRR-infografica.jpg",
-            "id": 143777005437700
-          },
-          "link": null,
-          "id": 143778439644700
         },
         {
           "type": {
@@ -1676,7 +1568,8 @@
       },
       "folder": "/uploads/",
       "file": "143569164062500_PRR-infografica.jpg",
-      "id": 143569176254900
+      "id": 143569176254900,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -1685,7 +1578,8 @@
       },
       "folder": "/uploads/",
       "file": "143648028241000_ARR-infografica.jpg",
-      "id": 143648041345400
+      "id": 143648041345400,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -1694,7 +1588,8 @@
       },
       "folder": "/uploads/",
       "file": "143734252047600_ARR-infografica.jpg",
-      "id": 143734260489900
+      "id": 143734260489900,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -1703,7 +1598,8 @@
       },
       "folder": "/uploads/",
       "file": "143776994841400_PRR-infografica.jpg",
-      "id": 143777005437700
+      "id": 143777005437700,
+      "chromaKeyColor": null
     }
   ],
   "users": [
