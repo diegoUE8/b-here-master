@@ -868,7 +868,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1009904475382800
         },
@@ -887,7 +889,8 @@
           ],
           "asset": null,
           "id": 263816172214199,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -904,7 +907,8 @@
           ],
           "asset": null,
           "id": 263824959721100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -921,7 +925,8 @@
           ],
           "asset": null,
           "id": 263833008287300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -938,7 +943,8 @@
           ],
           "asset": null,
           "id": 263858797145599,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -955,7 +961,8 @@
           ],
           "asset": null,
           "id": 263865629315099,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -972,7 +979,8 @@
           ],
           "asset": null,
           "id": 313939089806200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -1001,7 +1009,8 @@
             8.4,
             14.8,
             1
-          ]
+          ],
+          "important": null
         },
         {
           "type": {
@@ -1019,7 +1028,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 521529464310900
+          "id": 521529464310900,
+          "important": null
         }
       ],
       "hidden": null
@@ -7846,7 +7856,8 @@
           ],
           "asset": null,
           "id": 513664382104399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "orientation": {
@@ -8388,7 +8399,8 @@
           ],
           "asset": null,
           "id": 875768630007600,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -8405,7 +8417,8 @@
           ],
           "asset": null,
           "id": 875789603501000,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -8422,7 +8435,8 @@
           ],
           "asset": null,
           "id": 875817081900200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": false
@@ -8631,7 +8645,8 @@
           ],
           "asset": null,
           "id": 505821066574900,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -8648,7 +8663,9 @@
           ],
           "asset": null,
           "link": null,
-          "id": 426766367751300
+          "id": 426766367751300,
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null
@@ -9349,7 +9366,8 @@
           ],
           "asset": null,
           "id": 102293784127600,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -9366,7 +9384,8 @@
           ],
           "asset": null,
           "id": 102335883026800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -9383,7 +9402,8 @@
           ],
           "asset": null,
           "id": 102390587233000,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -9400,7 +9420,8 @@
           ],
           "asset": null,
           "id": 102398556810200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null,
@@ -10979,7 +11000,9 @@
           ],
           "asset": null,
           "link": null,
-          "id": 426787888785499
+          "id": 426787888785499,
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null,
@@ -19646,7 +19669,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "29550829332100_videomoda.mp4",
+      "file": "1619091546450500_websolute.mp4",
       "id": 1619091771669400,
       "chromaKeyColor": null,
       "locale": {
@@ -19847,7 +19870,8 @@
       },
       "folder": "/uploads/",
       "file": "426564762867799_City7.glb",
-      "id": 426564794497600
+      "id": 426564794497600,
+      "chromaKeyColor": null
     },
     {
       "type": {
