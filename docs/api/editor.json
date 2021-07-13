@@ -6674,7 +6674,9 @@
             "file": "publisherScreen",
             "id": 588925961632700,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 503530522292899,
           "keepOrientation": null,
@@ -6716,7 +6718,8 @@
           "title": "Welcome Room",
           "abstract": null,
           "viewId": 170427763402500,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null
@@ -30107,7 +30110,10 @@
       "folder": "",
       "file": "publisherScreen",
       "id": 588925961632700,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
