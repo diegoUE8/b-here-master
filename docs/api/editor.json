@@ -108,7 +108,7 @@
           },
           "title": "Tour House",
           "abstract": null,
-          "viewId": 376789637631099,
+          "viewId": 101028713006200,
           "position": [
             -0.7098210859342751,
             0.04205163884017304,
@@ -8492,7 +8492,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 870162569009500
         },
@@ -8511,7 +8513,9 @@
           ],
           "asset": null,
           "link": null,
-          "id": 870250594547899
+          "id": 870250594547899,
+          "keepOrientation": null,
+          "important": null
         },
         {
           "type": {
@@ -8529,7 +8533,8 @@
           "asset": null,
           "link": null,
           "id": 870267303200300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ]
     },
@@ -8584,7 +8589,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 870333877423800
         },
@@ -8603,7 +8610,8 @@
           ],
           "asset": null,
           "id": 870406895800600,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null
         }
       ],
       "hidden": null
