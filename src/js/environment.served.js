@@ -49,7 +49,7 @@ export const environmentServed = {
 		envMap: 'textures/envMap/flower_road_1k.hdr',
 		grid: 'textures/grid/grid.jpg',
 	},
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/more-2/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
 	template: {
 		tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
 		modal: {
