@@ -361,24 +361,6 @@
           ],
           "asset": null,
           "id": 18849174116400
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "Reception ",
-          "abstract": null,
-          "viewId": 352856225556400,
-          "keepOrientation": false,
-          "important": false,
-          "position": [
-            -0.5760273198459603,
-            -0.03896182848383725,
-            -0.8165013794919612
-          ],
-          "asset": null,
-          "id": 18867692030200
         }
       ],
       "hidden": null,
@@ -543,8 +525,8 @@
           "keepOrientation": false,
           "important": false,
           "position": [
-            -0.04876178669413611,
-            -0.05001294003283818,
+            -0.04876178669413612,
+            -0.05001294003283819,
             -0.9975575141252093
           ],
           "asset": null,
@@ -1146,6 +1128,27 @@
       "viewId": 19099925833900,
       "name": "Meeting Room ",
       "order": 20
+    },
+    {
+      "id": 96335034535700,
+      "parentId": null,
+      "viewId": 350769338314900,
+      "name": "Reception 2",
+      "order": 30
+    },
+    {
+      "id": 96343838013900,
+      "parentId": null,
+      "viewId": 18663504118600,
+      "name": "Gallery 2",
+      "order": 40
+    },
+    {
+      "id": 96377961699200,
+      "parentId": null,
+      "viewId": 352872725741500,
+      "name": "Meeting Room 2",
+      "order": 50
     }
   ],
   "assets": [
