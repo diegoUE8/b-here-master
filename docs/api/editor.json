@@ -1105,6 +1105,56 @@
           "id": 143397284770200
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery v2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "104817865070800_Unreal Engine Demo 360 2021.07.16 - 13.50.10.10.jpg",
+        "id": 104818119709100
+      },
+      "orientation": {
+        "latitude": -5.5,
+        "longitude": 359.90000000000003
+      },
+      "zoom": 75,
+      "id": 104838442726300,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery v3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "109963372662300_Unreal Engine Demo 360 2021.07.16 - 15.25.33.85.jpg",
+        "id": 106833076909100
+      },
+      "orientation": {
+        "latitude": -1.8000000000000034,
+        "longitude": 358.69999999999993
+      },
+      "zoom": 75,
+      "id": 106839426533500,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -1149,6 +1199,27 @@
       "viewId": 352872725741500,
       "name": "Meeting Room 2",
       "order": 50
+    },
+    {
+      "id": 106767745378200,
+      "parentId": null,
+      "viewId": null,
+      "name": "Nuovi setting",
+      "order": 60
+    },
+    {
+      "id": 106799110679400,
+      "parentId": 106767745378200,
+      "viewId": 104838442726300,
+      "name": "Gallery v2",
+      "order": 0
+    },
+    {
+      "id": 107303340077200,
+      "parentId": 106767745378200,
+      "viewId": 106839426533500,
+      "name": "Gallery v3",
+      "order": 10
     }
   ],
   "assets": [
@@ -1603,6 +1674,24 @@
       "file": "143776994841400_PRR-infografica.jpg",
       "id": 143777005437700,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "104817865070800_Unreal Engine Demo 360 2021.07.16 - 13.50.10.10.jpg",
+      "id": 104818119709100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109963372662300_Unreal Engine Demo 360 2021.07.16 - 15.25.33.85.jpg",
+      "id": 106833076909100
     }
   ],
   "users": [
