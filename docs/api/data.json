@@ -1180,6 +1180,31 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting v2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "465000614591400_Unreal Engine Demo 360 2021.07.20 - 17.59.10.38.jpg",
+        "id": 465000875766000
+      },
+      "orientation": {
+        "latitude": -5.8999999999999995,
+        "longitude": 339.79999999999995
+      },
+      "zoom": 75,
+      "id": 465012536968400,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -1252,6 +1277,13 @@
       "viewId": 461701554960100,
       "name": "Reception v2",
       "order": 20
+    },
+    {
+      "id": 465040941221200,
+      "parentId": 106767745378200,
+      "viewId": 465012536968400,
+      "name": "Meeting v2",
+      "order": 30
     }
   ],
   "assets": [
@@ -1733,6 +1765,15 @@
       "folder": "/uploads/",
       "file": "462282067030000_Unreal Engine Demo 360 2021.07.20 - 17.18.16.23.jpg",
       "id": 461688685516200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "465000614591400_Unreal Engine Demo 360 2021.07.20 - 17.59.10.38.jpg",
+      "id": 465000875766000
     }
   ],
   "users": [
