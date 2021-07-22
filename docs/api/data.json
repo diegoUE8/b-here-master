@@ -1205,6 +1205,28 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Gallery v4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "622380614330500_Unreal Engine Demo 360 2021.07.22 - 13.47.55.57.jpg",
+        "id": 622380865066000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 622383682320600
     }
   ],
   "menu": [
@@ -1274,16 +1296,23 @@
     {
       "id": 461956274798200,
       "parentId": 106767745378200,
+      "viewId": 622383682320600,
+      "name": "Gallery v4",
+      "order": 20
+    },
+    {
+      "id": 622426772563700,
+      "parentId": 106767745378200,
       "viewId": 461701554960100,
       "name": "Reception v2",
-      "order": 20
+      "order": 30
     },
     {
       "id": 465040941221200,
       "parentId": 106767745378200,
       "viewId": 465012536968400,
       "name": "Meeting v2",
-      "order": 30
+      "order": 40
     }
   ],
   "assets": [
@@ -1774,6 +1803,15 @@
       "folder": "/uploads/",
       "file": "465000614591400_Unreal Engine Demo 360 2021.07.20 - 17.59.10.38.jpg",
       "id": 465000875766000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "622380614330500_Unreal Engine Demo 360 2021.07.22 - 13.47.55.57.jpg",
+      "id": 622380865066000
     }
   ],
   "users": [
