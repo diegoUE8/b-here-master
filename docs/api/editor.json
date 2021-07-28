@@ -23840,7 +23840,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628074041098100
+          "id": 628074041098100,
+          "important": null
         },
         {
           "type": {
@@ -23858,7 +23859,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628086088672000
+          "id": 628086088672000,
+          "important": null
         },
         {
           "type": {
@@ -23876,7 +23878,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628099509758700
+          "id": 628099509758700,
+          "important": null
         },
         {
           "type": {
@@ -23894,7 +23897,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628140842054600
+          "id": 628140842054600,
+          "important": null
         }
       ]
     },
@@ -23936,7 +23940,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628168603875200
+          "id": 628168603875200,
+          "important": null
         },
         {
           "type": {
@@ -23954,7 +23959,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628182847125400
+          "id": 628182847125400,
+          "important": null
         },
         {
           "type": {
@@ -23972,7 +23978,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 628193835764200
+          "id": 628193835764200,
+          "important": null
         },
         {
           "type": {
@@ -24224,7 +24231,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 627922173141700
+          "id": 627922173141700,
+          "important": null
         },
         {
           "type": {
@@ -24242,7 +24250,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 627935936660200
+          "id": 627935936660200,
+          "important": null
         },
         {
           "type": {
@@ -24260,7 +24269,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 627948645791800
+          "id": 627948645791800,
+          "important": null
         },
         {
           "type": {
@@ -24278,7 +24288,8 @@
           ],
           "asset": null,
           "link": null,
-          "id": 627967381938400
+          "id": 627967381938400,
+          "important": null
         }
       ]
     },
@@ -26712,6 +26723,1102 @@
           "id": 348727867627700
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_287",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180391015556700_2_Deposito_287_auto_x2.jpg",
+        "id": 180391051487000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180393121853000,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180520306250100,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.03883361283701799,
+            -0.129098144644146,
+            0.9908711417553061
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181525823497500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180393121853000,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.4654032531324131,
+            -0.43182394424607334,
+            0.7726110879022713
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181542027374300_infografica.jpg",
+            "id": 181542038158000,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181549445754400
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_284",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180507640821300_2_Deposito_284_auto_x2.jpg",
+        "id": 180507654564200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180520306250100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180551382423500,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.006694306953613266,
+            -0.06163459043613894,
+            0.9980763315078562
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181456574527800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180520306250100,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.4923985597286692,
+            -0.44004981640316926,
+            -0.7509326317724309
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181493168348400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180393121853000,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.04971731754521506,
+            -0.16438166329244275,
+            -0.9851430642852428
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181508042325000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_273",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180542462218800_2_Deposito_273_auto_x2.jpg",
+        "id": 180542477121100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180551382423500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180585783261400,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9049426167113157,
+            -0.42021435357943027,
+            0.06707277767841663
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181384704842500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180612377624600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.3727881150793457,
+            -0.17191947519953998,
+            0.9118512572249396
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181396683598400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180520306250100,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.0017048943701270412,
+            -0.12281041480878926,
+            -0.9924286852714808
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181410094625800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180551382423500,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.23471877143006653,
+            -0.32646791406982745,
+            0.9156013321425739
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181417250437200_infografica.jpg",
+            "id": 181417260489200,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181434252372800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 182015296589900,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9905826570827165,
+            -0.13267351603458788,
+            0.033819190261823
+          ],
+          "asset": null,
+          "link": null,
+          "id": 182142243883100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_272",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180581641377300_2_Deposito_272_auto_x2.jpg",
+        "id": 180581657234800
+      },
+      "orientation": {
+        "latitude": -10.699999999999996,
+        "longitude": 181.60000000000008
+      },
+      "zoom": 75,
+      "id": 180585783261400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180612377624600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.009244279070242731,
+            -0.1930039995714836,
+            0.9811544218184425
+          ],
+          "asset": null,
+          "id": 181235475548200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180551382423500,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9241289140373682,
+            -0.3820709345719164,
+            0.002747943859893816
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181279681201300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180520306250100,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.26201945564859785,
+            -0.030252944022858438,
+            -0.9645882874260719
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181316511578200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180585783261400,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.48838496721719465,
+            -0.2988633904363093,
+            0.8198541319363912
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181339387043200_infografica.jpg",
+            "id": 181339399076500,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181360740714200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 182015296589900,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.9905518316866591,
+            -0.1352967000010819,
+            0.022402493410816425
+          ],
+          "asset": null,
+          "link": null,
+          "id": 182109086543400
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_270",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180610442981000_2_Deposito_270_auto_x2.jpg",
+        "id": 180610459179200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180612377624600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180637996315700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.013442885093494294,
+            -0.2002137641664809,
+            0.9796600111664514
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181162763045100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180786673734700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.013010150200037937,
+            -0.10099394517028688,
+            0.9948019697561487
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181175478982500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180585783261400,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.0317699139120205,
+            -0.26219382874967084,
+            -0.9644921299500638
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181192600507200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180551382423500,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.45795486020394127,
+            -0.21279158522919667,
+            -0.8631321377814837
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181206276349500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180612377624600,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.5657116011438823,
+            -0.33444691746874483,
+            0.753734464998702
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181817248872800_infografica.jpg",
+            "id": 181817261241000,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181817973048500
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_268",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180635908973500_2_Deposito_268_auto_x2.jpg",
+        "id": 180635924232200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180637996315700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180786673734700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.02788916389573748,
+            -0.23728211027279641,
+            0.9710403671741382
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181026819776700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180806224431800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.025475961047778356,
+            -0.11166781763102229,
+            0.9934189820585354
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181041037042900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180612377624600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.005703619494541843,
+            -0.22250553286589872,
+            -0.9749147432307729
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181131945424200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180585783261400,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.014251442312096567,
+            -0.12698691176499644,
+            -0.9918020067697049
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181143469828600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180637996315700,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.32957203939933,
+            -0.3874377717114293,
+            0.8609728473636372
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181854432050400_infografica.jpg",
+            "id": 181854441924700,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181855165470400
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_266",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180782570225800_2_Deposito_266_auto_x2.jpg",
+        "id": 180782589228100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180786673734700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180637996315700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.02642528392670126,
+            -0.35389274249648417,
+            -0.9349126329116053
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180870732345600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180612377624600,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.027584015886772104,
+            -0.1595735029519082,
+            -0.9868005974984082
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180886496756800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180806224431800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.02483267637874609,
+            -0.1672887089474589,
+            0.9855951633619967
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180920169450100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180786673734700,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            0.4272032400379779,
+            -0.3636858272753276,
+            0.8277862107694924
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181868595784900_infografica.jpg",
+            "id": 181868606704700,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181881610660100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_264",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180795827108300_2_Deposito_264_auto_x2.jpg",
+        "id": 180795842876100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180806224431800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180786673734700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.030390596773014766,
+            -0.31446946983829693,
+            -0.9487809885149473
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180847810022100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180637996315700,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            0.03306919891175928,
+            -0.13537936309259688,
+            -0.9902418169982408
+          ],
+          "asset": null,
+          "link": null,
+          "id": 180946670952100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 181066757342500,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.036987153885772284,
+            -0.072333413336971,
+            0.9966944505526522
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181101775761200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 180806224431800,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.42742847864360817,
+            -0.2642572756521257,
+            0.86456520165302
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "181891938403400_infografica.jpg",
+            "id": 181891948295900,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 181905774086700
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_259",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "181055649172100_2_Deposito_259_auto_x2.jpg",
+        "id": 181055667487500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 181066757342500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180806224431800,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.06704266571559064,
+            -0.16301631947955067,
+            -0.9843429080138123
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181086078812400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 181066757342500,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.5824263518258272,
+            -0.35337561827782954,
+            -0.7320554740630106
+          ],
+          "asset": null,
+          "link": null,
+          "id": 181947075945900
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_30",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "181647274876800_2_Deposito_030_auto_x2.jpg",
+        "id": 181647324377000
+      },
+      "orientation": {
+        "latitude": -4.860627632941052,
+        "longitude": 131.45013362453537
+      },
+      "zoom": 75,
+      "id": 181653297453500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180551382423500,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.7683002867599522,
+            -0.06558821814817814,
+            0.6367203899709212
+          ],
+          "asset": null,
+          "id": 181683647155000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180585783261400,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.7240940190830673,
+            -0.09720329332277543,
+            0.6828172312525053
+          ],
+          "asset": null,
+          "id": 181699567309800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 181653297453500,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.3606663184734913,
+            -0.25422765939158654,
+            0.8973784619206401
+          ],
+          "asset": null,
+          "id": 181730189091500
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica_216",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "182007840738700_2_Deposito_216_auto_x2.jpg",
+        "id": 182007859642100
+      },
+      "orientation": {
+        "latitude": -8.499999999999998,
+        "longitude": 180.10000000000014
+      },
+      "zoom": 75,
+      "id": 182015296589900,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 180585783261400,
+          "keepOrientation": true,
+          "important": false,
+          "position": [
+            -0.9890220230783823,
+            -0.1463127309670065,
+            -0.02068870761841604
+          ],
+          "asset": null,
+          "id": 182045383278600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 HH",
+          "abstract": "Gruppo: laminato<br>\nProfilo: piatto<br>\nDimensioni: da 20x20 a 200x200<br>\nLunghezza standard: 6.000 mm<br>\nFornitore principale: ABS",
+          "viewId": 182015296589900,
+          "keepOrientation": false,
+          "important": false,
+          "position": [
+            -0.7150959025449402,
+            -0.25255002703141527,
+            0.6518100444223524
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "182077710441400_infografica.jpg",
+            "id": 182077721292500,
+            "chromaKeyColor": null
+          },
+          "id": 182078703818000
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -26891,39 +27998,46 @@
       "order": 80
     },
     {
+      "id": 182235394135300,
+      "parentId": 513759169265300,
+      "viewId": 182015296589900,
+      "name": "Metallurgica",
+      "order": 90
+    },
+    {
       "id": 628427668587800,
       "parentId": 513759169265300,
       "viewId": 133237145958000,
       "name": "Rho Fiera",
-      "order": 90
+      "order": 100
     },
     {
       "id": 61860031348300,
       "parentId": 513759169265300,
       "viewId": 60570881790700,
       "name": "Bathroom",
-      "order": 100
+      "order": 110
     },
     {
       "id": 61923750695200,
       "parentId": 513759169265300,
       "viewId": 60611057197800,
       "name": "Kitchen Oriented",
-      "order": 110
+      "order": 120
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 120
+      "order": 130
     },
     {
       "id": 98899707615700,
       "parentId": 513759169265300,
       "viewId": 96953885379500,
       "name": "Vigilanza",
-      "order": 130
+      "order": 140
     },
     {
       "id": 513846642724000,
@@ -31842,6 +32956,185 @@
       "autoplay": false,
       "loop": false,
       "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180391015556700_2_Deposito_287_auto_x2.jpg",
+      "id": 180391051487000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180507640821300_2_Deposito_284_auto_x2.jpg",
+      "id": 180507654564200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180542462218800_2_Deposito_273_auto_x2.jpg",
+      "id": 180542477121100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180581641377300_2_Deposito_272_auto_x2.jpg",
+      "id": 180581657234800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180610442981000_2_Deposito_270_auto_x2.jpg",
+      "id": 180610459179200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180635908973500_2_Deposito_268_auto_x2.jpg",
+      "id": 180635924232200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180782570225800_2_Deposito_266_auto_x2.jpg",
+      "id": 180782589228100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180795827108300_2_Deposito_264_auto_x2.jpg",
+      "id": 180795842876100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181055649172100_2_Deposito_259_auto_x2.jpg",
+      "id": 181055667487500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181339387043200_infografica.jpg",
+      "id": 181339399076500,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181417250437200_infografica.jpg",
+      "id": 181417260489200,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181542027374300_infografica.jpg",
+      "id": 181542038158000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181647274876800_2_Deposito_030_auto_x2.jpg",
+      "id": 181647324377000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181817248872800_infografica.jpg",
+      "id": 181817261241000,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181854432050400_infografica.jpg",
+      "id": 181854441924700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181868595784900_infografica.jpg",
+      "id": 181868606704700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "181891938403400_infografica.jpg",
+      "id": 181891948295900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "182007840738700_2_Deposito_216_auto_x2.jpg",
+      "id": 182007859642100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "182077710441400_infografica.jpg",
+      "id": 182077721292500,
+      "chromaKeyColor": null
     }
   ],
   "users": [
