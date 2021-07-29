@@ -14,6 +14,7 @@ export const environmentServed = {
 		chat: false,
 		ar: true,
 		like: true,
+		hideNavInfo: true,
 		attendee: true,
 		streamer: true,
 		viewer: true,
@@ -36,15 +37,23 @@ export const environmentServed = {
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {
-		disabledViewTypes: ['waiting-room', 'room-3d'],
+		disabledViewTypes: ['waiting-room', 'room-3d', 'media'],
 		disabledViewItemTypes: ['texture'],
 	},
 	assets: '/Modules/B-Here/Client/docs/',
-	worker: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws/docs/',
+	workers: {
+		image: '/Modules/B-Here/Client/docs/js/workers/image.service.worker.js',
+		prefetch: '/Modules/B-Here/Client/docs/js/workers/prefetch.service.worker.js',
+	},
+	textures: {
+		envMap: 'textures/envMap/flower_road_1k.hdr',
+		grid: 'textures/grid/grid.jpg',
+	},
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
 	template: {
 		tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
 		modal: {
+			configureFirewall: '/template/modules/b-here/configure-firewall-modal.cshtml',
 			controlRequest: '/template/modules/b-here/control-request-modal.cshtml',
 			tryInAr: '/template/modules/b-here/try-in-ar-modal.cshtml',
 			view: {
@@ -52,6 +61,7 @@ export const environmentServed = {
 				'panorama-grid': '/template/modules/b-here/panorama-grid-modal.cshtml',
 				'room-3d': '/template/modules/b-here/room-3d-modal.cshtml',
 				'model': '/template/modules/b-here/model-modal.cshtml',
+				'media': '/template/modules/b-here/media-modal.cshtml',
 			},
 			viewItem: {
 				'nav': '/template/modules/b-here/nav-modal.cshtml',
