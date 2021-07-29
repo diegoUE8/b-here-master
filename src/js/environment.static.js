@@ -49,7 +49,7 @@ export const environmentStatic = {
 		envMap: 'textures/envMap/flower_road_1k.hdr',
 		grid: 'textures/grid/grid.jpg',
 	},
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/metallurgica/docs/',
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',
 		modal: {

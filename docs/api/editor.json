@@ -37,15 +37,154 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/welcome-room/",
-        "file": "welcome-room.jpg"
+        "folder": "/uploads/",
+        "file": "109358110956700_Unreal Engine Demo 360 2021.07.29 - 15.35.25.10.jpg",
+        "id": 109358606125600
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "items": []
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Reception 2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "109371389025100_Unreal Engine Demo 360 2021.07.29 - 16.13.30.44.jpg",
+        "id": 109371410453700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109378098733200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Reception 3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "109389596515800_Unreal Engine Demo 360 2021.07.29 - 17.40.12.59.jpg",
+        "id": 109389618597800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109392387280200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Stanza di vestizione",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "109419271531200_Unreal Engine Demo 360 2021.07.29 - 15.05.37.99.jpg",
+        "id": 109419313596600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109453142797000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Meeting ",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "109469100635200_Unreal Engine Demo 360 2021.07.29 - 15.32.48.82.jpg",
+        "id": 109469123253100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 109471518083700
+    }
+  ],
+  "menu": [],
+  "assets": [
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109358110956700_Unreal Engine Demo 360 2021.07.29 - 15.35.25.10.jpg",
+      "id": 109358606125600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109371389025100_Unreal Engine Demo 360 2021.07.29 - 16.13.30.44.jpg",
+      "id": 109371410453700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109389596515800_Unreal Engine Demo 360 2021.07.29 - 17.40.12.59.jpg",
+      "id": 109389618597800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109419271531200_Unreal Engine Demo 360 2021.07.29 - 15.05.37.99.jpg",
+      "id": 109419313596600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109469100635200_Unreal Engine Demo 360 2021.07.29 - 15.32.48.82.jpg",
+      "id": 109469123253100
     }
   ],
   "users": [
