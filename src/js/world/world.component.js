@@ -253,15 +253,8 @@ export default class WorldComponent extends Component {
 		light3.target.position.set(0, 0, 0);
 		objects.add(light3);
 
-		//const light = new THREE.AmbientLight(0x101010);
-
 		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
 		objects.add(ambient);
-
-		/*const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
-		direct.position.set(-40, -40, -40);
-		direct.target.position.set(0, 0, 0);
-		objects.add(direct);*/
 
 		this.addControllers();
 		this.resize();
@@ -395,12 +388,16 @@ export default class WorldComponent extends Component {
 		if (this.orbitService) {
 			this.orbitService.mode = view.type.name;
 			if (!this.renderer.xr.isPresenting) {
+				let orientation;
 				if (message) {
-					this.orbitService.setOrientation(message.orientation);
+					orientation = message.orientation;
+					this.orbitService.setOrientation(orientation);
 					this.orbitService.zoom = message.zoom;
 					this.camera.updateProjectionMatrix();
 				} else if (!view.keepOrientation) {
-					this.orbitService.setOrientation(view.orientation);
+					// console.log('WorldComponent.setViewOrientation', view.useLastOrientation, view.lastOrientation);
+					orientation = view.useLastOrientation ? view.lastOrientation : view.orientation;
+					this.orbitService.setOrientation(orientation);
 					this.orbitService.zoom = view.zoom;
 					this.camera.updateProjectionMatrix();
 				}
