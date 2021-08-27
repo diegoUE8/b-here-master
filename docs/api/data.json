@@ -349,10 +349,10 @@
         "id": 88807916758100
       },
       "orientation": {
-        "latitude": -17.3,
-        "longitude": 87.30000000000003
+        "latitude": -17.904363411673145,
+        "longitude": 90.76703411629467
       },
-      "zoom": 75,
+      "zoom": 74.4245,
       "id": 88812512119100,
       "items": [
         {
@@ -383,7 +383,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 88940700496300
         },
         {
@@ -414,8 +413,68 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 88957831657700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Info",
+          "abstract": "testo",
+          "viewId": 88812512119100,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -1.488394865180586,
+            -44.936742611694605,
+            89.3223031732591
+          ],
+          "rotation": [
+            -2.6754798079486553,
+            0.014884498251569074,
+            3.1341048969373455,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 90586521679000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Go",
+          "abstract": null,
+          "viewId": 88838663556200,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            9.326876130419988,
+            -33.50295304505826,
+            93.75799442665368
+          ],
+          "rotation": [
+            -2.685063196370099,
+            0.09761158625760706,
+            3.0937649076013454,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 90931571491100
         }
       ],
       "hidden": null,
