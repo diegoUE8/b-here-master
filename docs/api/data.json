@@ -332,6 +332,182 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "360_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "88807792949300_HeSfQc8k1Kd-006_auto_x2.jpg",
+        "id": 88807916758100
+      },
+      "orientation": {
+        "latitude": -17.3,
+        "longitude": 87.30000000000003
+      },
+      "zoom": 75,
+      "id": 88812512119100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 88838663556200,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            1.483149815978126,
+            -34.56587901988611,
+            93.82430534891245
+          ],
+          "rotation": [
+            -2.78861137168777,
+            -0.014832041969305723,
+            -3.1361286251890985,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 88940700496300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 88838663556200,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -5.946651269757388,
+            -34.158841979076634,
+            93.79664627972775
+          ],
+          "rotation": [
+            -2.7923417823760186,
+            0.05950161682401578,
+            3.1199395368057954,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 88957831657700
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "360_2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "88876234949200_2_Deposito_224_auto_x2.jpg",
+        "id": 88836748766100
+      },
+      "orientation": {
+        "latitude": -13.900000000000002,
+        "longitude": 269.30000000000007
+      },
+      "zoom": 75,
+      "id": 88838663556200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 88812512119100,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -7.218428169590138,
+            -22.968191339823235,
+            -97.05852091051943
+          ],
+          "rotation": [
+            -0.2323681281796564,
+            0.07224711602064188,
+            0.01708022282814061,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 88900637413400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 88812512119100,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -7.5998228406299635,
+            -29.5751431051572,
+            -95.22370294785073
+          ],
+          "rotation": [
+            -0.30114014765991437,
+            0.07607157675524022,
+            0.02359959888859675,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 88913635566600
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
@@ -443,6 +619,24 @@
       "folder": "/uploads/",
       "file": "6710414703600_Unreal Engine Demo 360 2021.04.08 - 15.19.54.78.jpg",
       "id": 6710494597500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "88807792949300_HeSfQc8k1Kd-006_auto_x2.jpg",
+      "id": 88807916758100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "88876234949200_2_Deposito_224_auto_x2.jpg",
+      "id": 88836748766100
     }
   ],
   "users": [
