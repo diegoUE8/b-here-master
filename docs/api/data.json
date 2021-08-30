@@ -475,6 +475,37 @@
           "asset": null,
           "link": null,
           "id": 90931571491100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Go",
+          "abstract": null,
+          "viewId": 88838663556200,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            16.90000015074598,
+            -33.62633776047627,
+            92.64804047427637
+          ],
+          "rotation": [
+            -2.786349862935714,
+            -0.17556909703559537,
+            -3.076884365179037,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 370500869811300
         }
       ],
       "hidden": null,
