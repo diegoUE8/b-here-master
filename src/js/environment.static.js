@@ -29,11 +29,11 @@ export const environmentStatic = {
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#0099ff',
+		menuOverBackground: '#c20e19',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#0099ff',
+		menuBackBackground: '#c20e19',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#0099ff',
+		menuBackOverBackground: '#c20e19',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {
