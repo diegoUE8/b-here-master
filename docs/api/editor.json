@@ -14,9 +14,9 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/waiting-room/",
-        "file": "waiting-room.jpg",
-        "id": 6561659265100
+        "folder": "/uploads/",
+        "file": "109787544912600_1_warehouse_shipping.jpg",
+        "id": 109358606125600
       },
       "orientation": {
         "latitude": 0,
@@ -32,7 +32,7 @@
         "id": 2,
         "name": "panorama"
       },
-      "name": "Welcome Room",
+      "name": "1_warehouse_shipping",
       "likes": 134,
       "liked": false,
       "asset": {
@@ -40,23 +40,163 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/welcome-room/",
-        "file": "welcome-room.jpg",
+        "folder": "/uploads/",
+        "file": "109787544912600_1_warehouse_shipping.jpg",
         "id": 109358606125600
+      },
+      "orientation": {
+        "latitude": -4.700000000000002,
+        "longitude": 44.499999999999986
+      },
+      "zoom": 75,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 109846827954600,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            98.3957219614435,
+            -2.3704321380089954,
+            17.682277883954853
+          ],
+          "rotation": [
+            -3.00833021751772,
+            -1.391431558907684,
+            -3.010443491500476,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            6,
+            2
+          ],
+          "asset": null,
+          "id": 109921660312200
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "1_Warehouse",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "109822368869500_1_Warehouse.mp4",
+        "id": 109822385013200
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
       "zoom": 75,
-      "items": [],
-      "hidden": null,
-      "ar": null
+      "id": 109846827954600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "109822368869500_1_Warehouse.mp4",
+            "id": 109822385013200,
+            "chromaKeyColor": null,
+            "autoplay": true,
+            "loop": false
+          },
+          "id": 109846837281300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "2_turning_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "110598809948500_2_turning_1.jpg",
+        "id": 110598828163100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 110610912309100
     }
   ],
   "menu": [],
-  "uploads": [],
   "assets": [
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "109787544912600_1_warehouse_shipping.jpg",
+      "id": 109358606125600
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "109822368869500_1_Warehouse.mp4",
+      "id": 109822385013200,
+      "chromaKeyColor": null,
+      "autoplay": true,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "110598809948500_2_turning_1.jpg",
+      "id": 110598828163100
+    }
   ],
   "users": [
     {
