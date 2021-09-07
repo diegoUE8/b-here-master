@@ -143,7 +143,7 @@ function _readOnlyError(name) {
     smartDevice: true,
     maxQuality: false
   },
-  logo: null,
+  logo: '/Modules/B-Here/Client/docs/img/logo.png',
   background: {
     // image: '/Modules/B-Here/Client/docs/img/background.jpg',
     video: '/Modules/B-Here/Client/docs/img/background.mp4'
@@ -171,7 +171,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/metallurgica/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/lameccanica/docs/',
   template: {
     tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
     modal: {
@@ -217,8 +217,7 @@ function _readOnlyError(name) {
     smartDevice: true,
     maxQuality: false
   },
-  logo: null,
-  //'/b-here/img/logo.png'
+  logo: '/b-here/img/logo.png',
   background: {
     // image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
@@ -246,7 +245,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/metallurgica/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/lameccanica/docs/',
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
     modal: {

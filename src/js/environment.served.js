@@ -21,7 +21,7 @@ export const environmentServed = {
 		smartDevice: true,
 		maxQuality: false,
 	},
-	logo: null,
+	logo: '/Modules/B-Here/Client/docs/img/logo.png',
 	background: {
 		// image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
@@ -49,7 +49,7 @@ export const environmentServed = {
 		envMap: 'textures/envMap/flower_road_1k.hdr',
 		grid: 'textures/grid/grid.jpg',
 	},
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/metallurgica/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/lameccanica/docs/',
 	template: {
 		tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
 		modal: {
