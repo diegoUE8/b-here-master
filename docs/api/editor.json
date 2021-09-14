@@ -318,6 +318,68 @@
           "asset": null,
           "link": null,
           "id": 172420525844300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 172128562991500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -23.224052824971512,
+            -12.741356537036047,
+            96.42769936060418
+          ],
+          "rotation": [
+            -3.088915795008483,
+            0.2879079538484569,
+            3.126622490490136,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2022931877100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 172230807244200,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            7.113093940007219,
+            -0.6259388591976474,
+            -99.74473467379208
+          ],
+          "rotation": [
+            -0.006275325156698827,
+            -0.0711910588574975,
+            -0.000446375603185687,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2156060019500
         }
       ]
     },
@@ -931,7 +993,40 @@
         "longitude": 0
       },
       "zoom": 75,
-      "id": 172230807244200
+      "id": 172230807244200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 171664338197200,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            14.31139555249364,
+            -7.983442457031822,
+            -98.64810491781039
+          ],
+          "rotation": [
+            -0.08075250568250401,
+            -0.14360704777739305,
+            -0.011581478893321773,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 2189419476100
+        }
+      ]
     },
     {
       "type": {
@@ -1369,6 +1464,16 @@
       "chromaKeyColor": null,
       "autoplay": true,
       "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "2327485676400_500_F_313954075_fP0hIrMH10MHKcHV4HWDtXz9bDgAVFc0.jpg",
+      "id": 2327506295200,
+      "chromaKeyColor": null
     }
   ],
   "users": [
