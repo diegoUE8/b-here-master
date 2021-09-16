@@ -1245,6 +1245,61 @@
           "id": 172313166675900
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Conference Room",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "83654350607100_CONFERENCE ROOM_01.jpg",
+        "id": 83654376256400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 83662636516400,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -94.27311904705373,
+            -5.035158173805566,
+            32.97311340023562
+          ],
+          "rotation": [
+            -3.0690622491207047,
+            1.2241876773071043,
+            3.07336182285378,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 83676661656900
+        }
+      ]
     }
   ],
   "menu": [],
@@ -1474,6 +1529,15 @@
       "file": "2327485676400_500_F_313954075_fP0hIrMH10MHKcHV4HWDtXz9bDgAVFc0.jpg",
       "id": 2327506295200,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "83654350607100_CONFERENCE ROOM_01.jpg",
+      "id": 83654376256400
     }
   ],
   "users": [
