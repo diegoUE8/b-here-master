@@ -1262,8 +1262,8 @@
         "id": 83654376256400
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -9,
+        "longitude": 179.4
       },
       "zoom": 75,
       "id": 83662636516400,
@@ -1296,10 +1296,11 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 83676661656900
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
