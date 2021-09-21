@@ -11,6 +11,7 @@ export const environmentStatic = {
 		editor: true,
 		editorAssetScreen: true,
 		menu: true,
+		navmaps: true,
 		chat: true,
 		ar: true,
 		like: true,
@@ -70,6 +71,8 @@ export const environmentStatic = {
 				'texture': '/texture-modal.html',
 				'model': '/item-model-modal.html',
 			},
+			navmap: '/navmap-modal.html',
+			navmapItem: '/navmap-item-modal.html',
 			remove: '/remove-modal.html',
 		}
 	},

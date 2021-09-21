@@ -88,7 +88,7 @@ export default class ModelModelComponent extends ModelEditableComponent {
 		const box = new THREE.Box3().setFromObject(mesh);
 		const size = box.max.clone().sub(box.min);
 		const max = Math.max(size.x, size.y, size.z);
-		const scale = 2 / max;//1.7
+		const scale = 2 / max; //1.7
 		mesh.scale.set(scale, scale, scale);
 		// repos
 		let dummy;
