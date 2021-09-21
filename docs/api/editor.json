@@ -131,7 +131,70 @@
       },
       "zoom": 75,
       "id": 109392387280200,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Gallery",
+          "abstract": null,
+          "viewId": 188828548426500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            11.238915651769748,
+            21.263586476073613,
+            -97.06465198591576
+          ],
+          "rotation": [
+            0.17624587753217164,
+            -0.18419446916881393,
+            0.032607139767493985,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501006678578600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sala Riunioni ",
+          "abstract": null,
+          "viewId": 6619298342100,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -95.95429279318436,
+            -2.715528987119741,
+            -28.024981657085146
+          ],
+          "rotation": [
+            -0.12112702395641774,
+            1.2559333745322032,
+            0.1152261844672952,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 501130307160000
+        }
+      ],
       "hidden": null,
       "ar": null
     },
