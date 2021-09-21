@@ -11,6 +11,7 @@ export const environmentStatic = {
 		editor: true,
 		editorAssetScreen: true,
 		menu: true,
+		navmaps: true,
 		chat: true,
 		ar: true,
 		like: true,
@@ -21,7 +22,7 @@ export const environmentStatic = {
 		smartDevice: true,
 		maxQuality: false,
 	},
-	logo: null,
+	logo: null, //'/b-here/img/logo.png'
 	background: {
 		// image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
@@ -70,6 +71,8 @@ export const environmentStatic = {
 				'texture': '/texture-modal.html',
 				'model': '/item-model-modal.html',
 			},
+			navmap: '/navmap-modal.html',
+			navmapItem: '/navmap-item-modal.html',
 			remove: '/remove-modal.html',
 		}
 	},
