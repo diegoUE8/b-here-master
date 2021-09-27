@@ -908,7 +908,10 @@
           "asset": null,
           "id": 263816172214199,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -926,7 +929,10 @@
           "asset": null,
           "id": 263824959721100,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -944,7 +950,10 @@
           "asset": null,
           "id": 263833008287300,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -962,7 +971,10 @@
           "asset": null,
           "id": 263858797145599,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -980,7 +992,10 @@
           "asset": null,
           "id": 263865629315099,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -998,7 +1013,10 @@
           "asset": null,
           "id": 313939089806200,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1028,7 +1046,8 @@
             14.8,
             1
           ],
-          "important": null
+          "important": null,
+          "transparent": null
         },
         {
           "type": {
@@ -1047,7 +1066,41 @@
           "asset": null,
           "link": null,
           "id": 521529464310900,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 682993526673300,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -69.5771334386288,
+            -16.40643090420555,
+            -69.9274733380863
+          ],
+          "rotation": [
+            -0.23045245571136805,
+            0.7694932310061372,
+            0.16181506054518846,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 10593795185500
         }
       ],
       "hidden": null
@@ -1649,7 +1702,11 @@
           "asset": null,
           "link": null,
           "id": 501183226376600,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1666,7 +1723,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501197349638899
+          "id": 501197349638899,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -4258,7 +4320,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501547011511600
+          "id": 501547011511600,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4279,7 +4346,12 @@
             "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
             "target": "_blank"
           },
-          "id": 518394939260499
+          "id": 518394939260499,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4306,7 +4378,11 @@
           },
           "link": null,
           "id": 34504304464800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4333,7 +4409,11 @@
           },
           "link": null,
           "id": 34719730487100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4360,7 +4440,11 @@
           },
           "link": null,
           "id": 34833240600699,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4387,7 +4471,11 @@
           },
           "link": null,
           "id": 35056582710800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4404,7 +4492,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 35124470945700
+          "id": 35124470945700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4421,7 +4514,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291328025834700
+          "id": 291328025834700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4438,7 +4536,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291333840720400
+          "id": 291333840720400,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4455,7 +4558,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291339854298400
+          "id": 291339854298400,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4472,7 +4580,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291345958355999
+          "id": 291345958355999,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4489,7 +4602,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291353214985000
+          "id": 291353214985000,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4506,7 +4624,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291361281450200
+          "id": 291361281450200,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4523,7 +4646,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291369342524000
+          "id": 291369342524000,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4540,7 +4668,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291374780365799
+          "id": 291374780365799,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4557,7 +4690,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291379828468500
+          "id": 291379828468500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4574,7 +4712,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291385178709200
+          "id": 291385178709200,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4591,7 +4734,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291391158106000
+          "id": 291391158106000,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -4632,7 +4780,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501563872954199
+          "id": 501563872954199,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4653,7 +4806,12 @@
             "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
             "target": "_blank"
           },
-          "id": 518394939260499
+          "id": 518394939260499,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4680,7 +4838,11 @@
           },
           "link": null,
           "id": 34504304464800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4707,7 +4869,11 @@
           },
           "link": null,
           "id": 34719730487100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4734,7 +4900,11 @@
           },
           "link": null,
           "id": 34833240600699,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4761,7 +4931,11 @@
           },
           "link": null,
           "id": 35056582710800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4778,7 +4952,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 35124470945700
+          "id": 35124470945700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4795,7 +4974,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291405353832700
+          "id": 291405353832700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4812,7 +4996,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291412928072600
+          "id": 291412928072600,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4829,7 +5018,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291418605935500
+          "id": 291418605935500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4846,7 +5040,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291424942260900
+          "id": 291424942260900,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4863,7 +5062,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291430470228499
+          "id": 291430470228499,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4880,7 +5084,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291437421490700
+          "id": 291437421490700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4897,7 +5106,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291442759773000
+          "id": 291442759773000,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4914,7 +5128,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291450451032500
+          "id": 291450451032500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4931,7 +5150,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291455279779100
+          "id": 291455279779100,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4948,7 +5172,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291461030138800
+          "id": 291461030138800,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -4965,7 +5194,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291466878214800
+          "id": 291466878214800,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -16554,11 +16788,25 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "252014552978200_esempio.mp4",
+            "file": "10538371460500_bHere blocco 1 rev 3_low.mp4",
             "id": 252014583964600,
             "chromaKeyColor": null,
-            "autoplay": false,
-            "loop": false
+            "autoplay": true,
+            "loop": true,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 2,
+                  "name": "video"
+                },
+                "folder": "/uploads/",
+                "file": "10538371460500_bHere blocco 1 rev 3_low.mp4",
+                "id": 252014583964600,
+                "chromaKeyColor": null,
+                "autoplay": false,
+                "loop": false
+              }
+            }
           },
           "id": 252020757659000
         }
@@ -16663,6 +16911,826 @@
           "id": 356397514166800
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica 01",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "3922141191600_001.jpg",
+        "id": 3922163730600
+      },
+      "orientation": {
+        "latitude": -0.30000000000000004,
+        "longitude": 91.1
+      },
+      "zoom": 75,
+      "id": 3932359498300,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 RH",
+          "abstract": "<b>Gruppo</b>: trafilato<br>\n<b>Stato fornitura</b>: naturale<br>\n<b>Profilo</b>: piatto<br>\n<b>Dimensioni</b>: da 12x10 a 200x60<br>\n<b>Lunghezza indicativa barre</b>: 6 mt<br>",
+          "viewId": 3932359498300,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            44.0342966662486,
+            -21.861391815091146,
+            87.08076862899105
+          ],
+          "rotation": [
+            -2.895628539839076,
+            -0.45598063288133206,
+            -3.031492784817315,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "4103801265000_infografica.jpg",
+            "id": 4103811472700,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 4119698269600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4145404700600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.1742338367890015,
+            -23.80337640410399,
+            97.11858960395318
+          ],
+          "rotation": [
+            -2.9012348328402533,
+            -0.011742608228483008,
+            -3.1387146615445003,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9099257349700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4155621544600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.1998366611450244,
+            -10.674123284992469,
+            99.42144378394107
+          ],
+          "rotation": [
+            -3.0346399500183705,
+            -0.011998654512513578,
+            -3.1403044810516128,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9110821102400
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica 06",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "4132835781900_006.jpg",
+        "id": 4132850563400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 4145404700600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 3932359498300,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -0.5063066594347551,
+            -25.48564088867249,
+            -96.696565409844
+          ],
+          "rotation": [
+            -0.2577025839272073,
+            0.0050630882262481455,
+            0.0013344364391847786,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9128045959100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4155621544600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.4711413756932459,
+            -24.226440964190182,
+            97.0098721845428
+          ],
+          "rotation": [
+            -2.8968665175772705,
+            -0.014711944463277532,
+            -3.1379187636512498,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9141785380200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4166207515800,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.3451598363068589,
+            -12.007011219772892,
+            99.26742782294218
+          ],
+          "rotation": [
+            -3.0212212046416553,
+            -0.013452004063799115,
+            -3.1399656007539694,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9151712217700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 RH",
+          "abstract": "\n<b>Gruppo</b>: trafilato<br>\n<b>Stato fornitura</b>: naturale<br>\n<b>Profilo</b>: piatto<br>\n<b>Dimensioni</b>: da 12x10 a 200x60<br>\n<b>Lunghezza indicativa barre</b>: 6 mt<br>",
+          "viewId": 4145404700600,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -34.35641163283099,
+            -19.95341776499713,
+            91.76872070161474
+          ],
+          "rotation": [
+            -2.927493513975568,
+            0.35070940448035676,
+            3.0670294558496285,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "9182553544700_infografica.jpg",
+            "id": 9179194538500
+          },
+          "link": null,
+          "id": 9183727979600
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica 09",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "4151187534500_009.jpg",
+        "id": 4151202926000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 4155621544600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4166207515800,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.680888483907365,
+            -23.829555816993334,
+            97.10472122131584
+          ],
+          "rotation": [
+            -2.884456048369495,
+            -0.024933040848309464,
+            -3.135037088284471,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9573948801200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4175425154100,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.3675478321318049,
+            -7.864773508206853,
+            99.68086652207353
+          ],
+          "rotation": [
+            -3.062856234988506,
+            -0.013675904618908486,
+            -3.140513665197865,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9583025951200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4145404700600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -2.1793675289494354,
+            -23.984486280698754,
+            -97.05665755127123
+          ],
+          "rotation": [
+            -0.24226473903032356,
+            0.021795400861224622,
+            0.0053855661790474215,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9599710702300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 3932359498300,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -1.6043258155119418,
+            -10.115442628617128,
+            -99.47413713676956
+          ],
+          "rotation": [
+            -0.10134081867433312,
+            0.016043946453537867,
+            0.0016314241886318964,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9608422229500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 RH",
+          "abstract": "<b>Gruppo</b>: trafilato<br>\n<b>Stato fornitura</b>: naturale<br>\n<b>Profilo</b>: piatto<br>\n<b>Dimensioni</b>: da 12x10 a 200x60<br>\n<b>Lunghezza indicativa barre</b>: 6 mt<br>",
+          "viewId": 4155621544600,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            35.889374161148396,
+            -29.425055323735766,
+            88.57832094545586
+          ],
+          "rotation": [
+            -2.8208691856852113,
+            -0.3670824033807804,
+            -3.022930936151688,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "9625831118900_infografica.jpg",
+            "id": 9625885149800
+          },
+          "link": null,
+          "id": 9648440342200
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica 13",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "4162172361600_013.jpg",
+        "id": 4162187947100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 4166207515800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4155621544600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.8628010330360526,
+            -21.629316519602273,
+            -97.62903380282043
+          ],
+          "rotation": [
+            -0.2180244009162785,
+            -0.00862811738247942,
+            -0.0019114983710353868,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9669142179100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4145404700600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -0.32042361308229694,
+            -9.001017388014496,
+            -99.59356914323756
+          ],
+          "rotation": [
+            -0.09013262431558132,
+            0.0032042416138993507,
+            0.00028959082971633757,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9679227553600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4175425154100,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -0.19255253113655796,
+            -16.930848232918493,
+            98.55612259842934
+          ],
+          "rotation": [
+            -2.9714643556207494,
+            0.0019255265012291546,
+            3.141261869719986,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9690138122600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 RH",
+          "abstract": "<b>Gruppo</b>: trafilato<br>\n<b>Stato fornitura</b>: naturale<br>\n<b>Profilo</b>: piatto<br>\n<b>Dimensioni</b>: da 12x10 a 200x60<br>\n<b>Lunghezza indicativa barre</b>: 6 mt<br>",
+          "viewId": 4166207515800,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -34.2481297394155,
+            -39.71312014571146,
+            83.96983802321195
+          ],
+          "rotation": [
+            -2.699822297942397,
+            0.353241209177682,
+            2.979418573567032,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "9726720617900_infografica.jpg",
+            "id": 9726729660000,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "9726720617900_infografica.jpg",
+                "id": 9726729660000
+              }
+            },
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 9717006941300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica 16",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "4172033648900_016.jpg",
+        "id": 4172048588500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 4175425154100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4185861264600,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -98.0775488182759,
+            -19.271185079015403,
+            -3.0685246371899084
+          ],
+          "rotation": [
+            -1.4128932587465548,
+            1.3743965990105373,
+            1.409850823119121,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9743758560200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4166207515800,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -1.3743672200333006,
+            -21.755495235500742,
+            -97.59513072793439
+          ],
+          "rotation": [
+            -0.21932977380745894,
+            0.013744104907443643,
+            0.0030636719000302487,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9754814953400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "C45 RH",
+          "abstract": "<b>Gruppo</b>: trafilato<br>\n<b>Stato fornitura</b>: naturale<br>\n<b>Profilo</b>: piatto<br>\n<b>Dimensioni</b>: da 12x10 a 200x60<br>\n<b>Lunghezza indicativa barre</b>: 6 mt<br>",
+          "viewId": 4175425154100,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -54.16524739026565,
+            -26.758150544387348,
+            -79.68768634234038
+          ],
+          "rotation": [
+            -0.3239579190338391,
+            0.5724016879640319,
+            0.17991360695559666,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "9807765135100_infografica.jpg",
+            "id": 9807775316000,
+            "chromaKeyColor": null
+          },
+          "link": null,
+          "id": 9808498441000
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Metallurgica 73",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "4182047582200_073.jpg",
+        "id": 4182062726800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 4185861264600,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 4175425154100,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            98.54111934147072,
+            -16.67529731353441,
+            3.40327172515743
+          ],
+          "rotation": [
+            -1.7721220607189967,
+            -1.3997734192767486,
+            -1.7750210326429747,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 9772363439000
+        }
+      ]
     }
   ],
   "menu": [
@@ -16716,24 +17784,24 @@
       "order": 40
     },
     {
+      "id": 4434232125100,
+      "parentId": 513759169265300,
+      "viewId": 3932359498300,
+      "name": "Fabric Tour",
+      "order": 50
+    },
+    {
       "id": 981343578189700,
       "parentId": 513759169265300,
       "viewId": 980255395910600,
       "name": "IPF Showroom",
-      "order": 50
+      "order": 60
     },
     {
       "id": 981363629428500,
       "parentId": 513759169265300,
       "viewId": 979917843203700,
       "name": "Shoes Showroom",
-      "order": 60
-    },
-    {
-      "id": 981593790760600,
-      "parentId": 513759169265300,
-      "viewId": 980435989520100,
-      "name": "Hotel",
       "order": 70
     },
     {
@@ -16744,60 +17812,67 @@
       "order": 80
     },
     {
-      "id": 156506480083900,
+      "id": 4241133105700,
       "parentId": 156494751468000,
-      "viewId": 156185683393900,
-      "name": "Fabric",
+      "viewId": 980435989520100,
+      "name": "Hotel",
       "order": 0
     },
     {
       "id": 156507364631400,
       "parentId": 156494751468000,
-      "viewId": 156206904929000,
-      "name": "Park",
+      "viewId": 463293623198900,
+      "name": "Bathroom ",
       "order": 10
     },
     {
-      "id": 463526147329200,
-      "parentId": 513759169265300,
-      "viewId": 463293623198900,
-      "name": "Bathroom ",
-      "order": 90
+      "id": 4242745426500,
+      "parentId": 156494751468000,
+      "viewId": 156206904929000,
+      "name": "Park",
+      "order": 20
+    },
+    {
+      "id": 156506480083900,
+      "parentId": 156494751468000,
+      "viewId": 156185683393900,
+      "name": "Fabric",
+      "order": 30
     },
     {
       "id": 176129226609200,
       "parentId": 513759169265300,
       "viewId": 176009598834200,
       "name": "Moco Museum",
-      "order": 100
+      "order": 90
     },
     {
       "id": 176160231382200,
       "parentId": 513759169265300,
       "viewId": 176070093236500,
       "name": "Uffizi",
-      "order": 110
+      "order": 100
     },
     {
       "id": 1374974181091900,
       "parentId": 513759169265300,
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
-      "order": 120
+      "order": 110
     },
     {
       "id": 258315435693300,
       "parentId": 513759169265300,
       "viewId": 252081188512900,
       "name": "Gallery 3D",
-      "order": 130
+      "order": 120
     },
     {
       "id": 684130060180899,
       "parentId": 513759169265300,
       "viewId": 683154982977400,
       "name": "Websolute",
-      "order": 140
+      "order": 130
     },
     {
       "id": 513846642724000,
@@ -17094,7 +18169,138 @@
       "order": 150
     }
   ],
-  "navmaps": [],
+  "navmaps": [
+    {
+      "name": "Fabric Tour",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "8704672946900_Mappa.png",
+        "id": 8704832311200
+      },
+      "id": 8711339719200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "01",
+          "abstract": null,
+          "viewId": 3932359498300,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.9220833460489908,
+            0.8058333237965901,
+            0
+          ],
+          "asset": null,
+          "id": 8727009722200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "06",
+          "abstract": null,
+          "viewId": 4145404700600,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.8554166793823242,
+            0.8024999777475993,
+            0
+          ],
+          "asset": null,
+          "id": 8750482747200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "09",
+          "abstract": null,
+          "viewId": 4155621544600,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.7714583714803059,
+            0.800416644414266,
+            0
+          ],
+          "asset": null,
+          "id": 8764390206800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "13",
+          "abstract": null,
+          "viewId": 4166207515800,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.6731250127156575,
+            0.8000000158945719,
+            0
+          ],
+          "asset": null,
+          "id": 8774930175200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "16",
+          "abstract": null,
+          "viewId": 4175425154100,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.5918750127156576,
+            0.8062500158945719,
+            0
+          ],
+          "asset": null,
+          "id": 8784512424200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "73",
+          "abstract": null,
+          "viewId": 4185861264600,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.5935416539510091,
+            0.6170833110809326,
+            0
+          ],
+          "asset": null,
+          "id": 8808927808700
+        }
+      ],
+      "originalItems": []
+    }
+  ],
   "assets": [
     {
       "type": {
@@ -17913,7 +19119,8 @@
       },
       "folder": "/uploads/",
       "file": "34822781385500_Elegant-Pants-Suits-Lace-Mother-Groom-Dress-Floor-Length-Silver-Grey-Vestido-De-Madrinha-Curto-Long_dark.jpg",
-      "id": 34822807268699
+      "id": 34822807268699,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -17922,7 +19129,8 @@
       },
       "folder": "/uploads/",
       "file": "35052075085600_ddb7155a401093a87475ee1244fc22e2_dark.jpg",
-      "id": 35052100359300
+      "id": 35052100359300,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -21628,11 +22836,25 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "252014552978200_esempio.mp4",
+      "file": "10538371460500_bHere blocco 1 rev 3_low.mp4",
       "id": 252014583964600,
       "chromaKeyColor": null,
-      "autoplay": false,
-      "loop": false
+      "autoplay": true,
+      "loop": true,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 2,
+            "name": "video"
+          },
+          "folder": "/uploads/",
+          "file": "10538371460500_bHere blocco 1 rev 3_low.mp4",
+          "id": 252014583964600,
+          "chromaKeyColor": null,
+          "autoplay": false,
+          "loop": false
+        }
+      }
     },
     {
       "type": {
@@ -21670,6 +22892,137 @@
       "autoplay": false,
       "loop": false,
       "index": 0
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "3755558124100_013.jpg",
+      "id": 3755861114700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "3922141191600_001.jpg",
+      "id": 3922163730600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4103801265000_infografica.jpg",
+      "id": 4103811472700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4132835781900_006.jpg",
+      "id": 4132850563400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4151187534500_009.jpg",
+      "id": 4151202926000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4162172361600_013.jpg",
+      "id": 4162187947100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4172033648900_016.jpg",
+      "id": 4172048588500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "4182047582200_073.jpg",
+      "id": 4182062726800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "8704672946900_Mappa.png",
+      "id": 8704832311200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9182553544700_infografica.jpg",
+      "id": 9179194538500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9625831118900_infografica.jpg",
+      "id": 9625885149800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9726720617900_infografica.jpg",
+      "id": 9726729660000,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "9726720617900_infografica.jpg",
+          "id": 9726729660000
+        }
+      },
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "9807765135100_infografica.jpg",
+      "id": 9807775316000,
+      "chromaKeyColor": null
     }
   ],
   "users": [
