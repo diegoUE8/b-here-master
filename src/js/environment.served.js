@@ -11,6 +11,7 @@ export const environmentServed = {
 		editor: false,
 		editorAssetScreen: false,
 		menu: true,
+		navmaps: false,
 		chat: false,
 		ar: true,
 		like: true,
@@ -70,6 +71,8 @@ export const environmentServed = {
 				'texture': '/template/modules/b-here/texture-modal.cshtml',
 				'model': '/template/modules/b-here/item-model-modal.cshtml',
 			},
+			navmap: '/template/modules/b-here/navmap-modal.cshtml',
+			navmapItem: '/template/modules/b-here/navmap-item-modal.cshtml',
 			remove: '/template/modules/b-here/remove-modal.cshtml',
 		}
 	},
