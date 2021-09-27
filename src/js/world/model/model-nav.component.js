@@ -325,7 +325,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 				const from = { scale: icon.scale.x };
 				gsap.to(from, {
 					duration: 0.35,
-					scale: 0.055,
+					scale: 0.08,
 					delay: 0,
 					ease: Power2.easeOut,
 					overwrite: true,
@@ -347,7 +347,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 				const from = { scale: icon.scale.x };
 				gsap.to(from, {
 					duration: 0.35,
-					scale: 0.03,
+					scale: 0.05,
 					delay: 0,
 					ease: Power2.easeOut,
 					overwrite: true,
@@ -409,7 +409,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 			const materials = [material];
 			const icon = this.icon = new THREE.Sprite(material);
 			icon.renderOrder = environment.renderOrder.nav;
-			icon.scale.set(0.03, 0.03, 0.03);
+			icon.scale.set(0.05, 0.05, 0.05);
 			mesh.add(icon);
 			let titleMaterial;
 			const titleTexture = ModelNavComponent.getTitleTexture(item, mode);
@@ -427,7 +427,7 @@ export default class ModelNavComponent extends ModelEditableComponent {
 				const image = titleTexture.image;
 				const title = this.title = new THREE.Sprite(titleMaterial);
 				title.scale.set(0.03 * image.width / image.height, 0.03, 0.03);
-				title.position.set(0, -3.5, 0);
+				title.position.set(0, -4.5, 0);
 				mesh.add(title);
 				materials.push(titleMaterial);
 			}
