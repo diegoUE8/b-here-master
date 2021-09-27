@@ -63,7 +63,10 @@
           "asset": null,
           "id": 498242270907400,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -81,7 +84,10 @@
           "asset": null,
           "id": 503566773717800,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -99,7 +105,10 @@
           "asset": null,
           "id": 505647227663200,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -117,7 +126,10 @@
           "asset": null,
           "id": 505677256133999,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -135,7 +147,10 @@
           "asset": null,
           "id": 505729885600300,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -153,7 +168,10 @@
           "asset": null,
           "id": 505930399337800,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1071,7 +1089,11 @@
           ],
           "asset": null,
           "id": 1010606583968499,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1102,7 +1124,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1012264477564600
         }
@@ -1683,7 +1707,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501145435729599
+          "id": 501145435729599,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1700,7 +1729,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501156224533300
+          "id": 501156224533300,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1718,7 +1752,11 @@
           "asset": null,
           "link": null,
           "id": 501218538487500,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1729,13 +1767,18 @@
           "abstract": null,
           "viewId": 500962302922799,
           "position": [
-            -0.3206533378003012,
-            -0.07038025945201848,
-            -0.944578242411391
+            -32.06533378003012,
+            -7.038025945201848,
+            -94.4578242411391
           ],
           "asset": null,
           "link": null,
-          "id": 501229792060399
+          "id": 501229792060399,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1752,7 +1795,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501242436483500
+          "id": 501242436483500,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1769,7 +1817,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501253354575799
+          "id": 501253354575799,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1786,7 +1839,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501264331054399
+          "id": 501264331054399,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1804,7 +1862,11 @@
           "asset": null,
           "link": null,
           "id": 501274223780200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1822,7 +1884,11 @@
           "asset": null,
           "link": null,
           "id": 501283505977300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1840,7 +1906,11 @@
           "asset": null,
           "link": null,
           "id": 501294660371299,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1858,7 +1928,11 @@
           "asset": null,
           "link": null,
           "id": 501306892351900,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1876,7 +1950,11 @@
           "asset": null,
           "link": null,
           "id": 501318257362399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1887,13 +1965,18 @@
           "abstract": null,
           "viewId": 501069068058899,
           "position": [
-            0.5117571280287427,
-            -0.021094211695298914,
-            0.8588711638800822
+            51.17571280287427,
+            -2.1094211695298912,
+            85.88711638800822
           ],
           "asset": null,
           "link": null,
-          "id": 501496311419200
+          "id": 501496311419200,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1910,7 +1993,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501504831513799
+          "id": 501504831513799,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -6486,7 +6574,10 @@
           "asset": null,
           "id": 503019422526899,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6505,7 +6596,10 @@
           "link": null,
           "id": 6734179135500,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6524,7 +6618,10 @@
           "link": null,
           "id": 6868366425599,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6543,7 +6640,10 @@
           "asset": null,
           "link": null,
           "id": 29643348226500,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6562,7 +6662,10 @@
           "asset": null,
           "link": null,
           "id": 29652014201100,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6581,7 +6684,10 @@
           "asset": null,
           "link": null,
           "id": 29660253661000,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6600,7 +6706,10 @@
           "asset": null,
           "link": null,
           "id": 29674838502900,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6619,7 +6728,10 @@
           "asset": null,
           "link": null,
           "id": 29683611740500,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -6675,7 +6787,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 503060637283800
         },
@@ -6688,13 +6802,17 @@
           "abstract": null,
           "viewId": 1036547102860500,
           "position": [
-            0.8072603533318778,
-            -0.17295580143273745,
-            0.5654950566545329
+            80.72603533318778,
+            -17.295580143273746,
+            56.549505665453296
           ],
           "asset": null,
           "id": 503170278082800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6705,13 +6823,17 @@
           "abstract": null,
           "viewId": 503634164139600,
           "position": [
-            0.8017639370887509,
-            -0.19195791896710723,
-            -0.5659741571218272
+            80.1763937088751,
+            -19.195791896710723,
+            -56.597415712182716
           ],
           "asset": null,
           "id": 503709606022700,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -6991,7 +7113,10 @@
           "asset": null,
           "id": 504440285389099,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7002,14 +7127,17 @@
           "abstract": null,
           "viewId": 504115292312199,
           "position": [
-            0.9648547649681687,
-            0.006405448171714874,
-            0.2627056389800934
+            96.48547649681687,
+            0.6405448171714875,
+            26.270563898009343
           ],
           "asset": null,
           "id": 504459487457499,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7020,21 +7148,24 @@
           "abstract": null,
           "viewId": 504019624387700,
           "position": [
-            -0.9976524589695184,
-            0.015419903331759601,
-            -0.06672179324113457
+            -99.76524589695184,
+            1.5419903331759601,
+            -6.672179324113457
           ],
           "asset": null,
           "id": 504521282626200,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
             "id": 1,
             "name": "nav"
           },
-          "title": "Vigna",
+          "title": null,
           "abstract": null,
           "viewId": 504056120603000,
           "position": [
@@ -7045,7 +7176,10 @@
           "asset": null,
           "id": 504835782222399,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7063,7 +7197,10 @@
           "asset": null,
           "id": 504873642883399,
           "keepOrientation": null,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -7609,7 +7746,9 @@
               1,
               0
             ],
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 510987983371000
         },
@@ -7628,7 +7767,11 @@
           ],
           "asset": null,
           "id": 1095945486073399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7659,7 +7802,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1095971628725800
         },
@@ -7696,7 +7841,9 @@
               0,
               1,
               0
-            ]
+            ],
+            "autoplay": true,
+            "loop": true
           },
           "id": 1618247285706400
         }
@@ -7903,7 +8050,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 1036583790378800
+          "id": 1036583790378800,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7920,7 +8072,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 1036597998476299
+          "id": 1036597998476299,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7951,7 +8108,9 @@
             "folder": "/uploads/",
             "file": "1619091546450500_websolute.mp4",
             "id": 1619091771669400,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1036664256859600
         },
@@ -8004,7 +8163,9 @@
                   0
                 ]
               }
-            }
+            },
+            "autoplay": true,
+            "loop": true
           },
           "id": 1036705764719800
         }
@@ -8884,14 +9045,17 @@
           "abstract": null,
           "viewId": 101115292443699,
           "position": [
-            0.999623798352125,
-            -0.02476441090980351,
-            -0.011789220515383404
+            99.97014070561228,
+            -2.365004840117542,
+            -0.6145888107530273
           ],
           "asset": null,
           "id": 101719340340800,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -8909,7 +9073,10 @@
           "asset": null,
           "id": 101730561276600,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -8927,7 +9094,10 @@
           "asset": null,
           "id": 101750629599000,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -8945,7 +9115,10 @@
           "asset": null,
           "id": 101770713831800,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -8963,7 +9136,10 @@
           "asset": null,
           "id": 104561838915399,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -8981,7 +9157,10 @@
           "asset": null,
           "id": 104584480068800,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -8999,7 +9178,10 @@
           "asset": null,
           "id": 104600678024700,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -9017,7 +9199,10 @@
           "asset": null,
           "id": 104617607751199,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -9035,7 +9220,10 @@
           "asset": null,
           "id": 104632519389200,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -11495,7 +11683,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 176055203282600
+          "id": 176055203282600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -11539,7 +11731,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 176039891275400
+          "id": 176039891275400,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -11583,7 +11779,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 176118440821100
+          "id": 176118440821100,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -11627,7 +11827,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 176109329052000
+          "id": 176109329052000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -11817,7 +12021,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980052369276500
+          "id": 980052369276500,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -11835,7 +12043,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980059667782700
+          "id": 980059667782700,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -11853,7 +12065,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980066769700900
+          "id": 980066769700900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -11871,7 +12087,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980074730382300
+          "id": 980074730382300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -11913,7 +12133,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980085380243200
+          "id": 980085380243200,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -11931,7 +12155,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980094827777800
+          "id": 980094827777800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -11949,7 +12177,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980103012252800
+          "id": 980103012252800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -11967,7 +12199,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980126587175200
+          "id": 980126587175200,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -12201,7 +12437,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 979990062905000
+          "id": 979990062905000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -12219,7 +12459,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980001183870700
+          "id": 980001183870700,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -12237,7 +12481,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980015930136400
+          "id": 980015930136400,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -12255,7 +12503,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980036249739000
+          "id": 980036249739000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -12286,18 +12538,22 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Next",
           "abstract": null,
           "viewId": 980270537718600,
           "keepOrientation": false,
           "position": [
-            0.9879977510825003,
-            -0.009251458034739708,
-            -0.154190967245663
+            98.79977510825003,
+            -0.9251458034739708,
+            -15.4190967245663
           ],
           "asset": null,
           "link": null,
-          "id": 980339967859500
+          "id": 980339967859500,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -12339,7 +12595,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980352313475800
+          "id": 980352313475800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -12381,7 +12641,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980364013348000
+          "id": 980364013348000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -12399,7 +12663,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980373025288900
+          "id": 980373025288900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -12441,7 +12709,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 980382590212300
+          "id": 980382590212300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -12579,13 +12851,17 @@
           "viewId": 980468871087800,
           "keepOrientation": false,
           "position": [
-            -0.7650716053532572,
-            0.011360627061112943,
-            -0.6438449928631641
+            -76.50716053532572,
+            1.1360627061112942,
+            -64.38449928631641
           ],
           "asset": null,
           "link": null,
-          "id": 980619443781400
+          "id": 980619443781400,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -12623,13 +12899,17 @@
           "viewId": 980435989520100,
           "keepOrientation": false,
           "position": [
-            0.9993154590077475,
-            0.025449029892968284,
-            -0.0268507032615862
+            99.93154590077475,
+            2.5449029892968285,
+            -2.68507032615862
           ],
           "asset": null,
           "link": null,
-          "id": 980498902493200
+          "id": 980498902493200,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -12641,13 +12921,17 @@
           "viewId": 980515806749500,
           "keepOrientation": false,
           "position": [
-            0.9896614047731596,
-            -0.09936706184675678,
-            0.10342384117000875
+            98.96614047731596,
+            -9.936706184675678,
+            10.342384117000874
           ],
           "asset": null,
           "link": null,
-          "id": 980602348073500
+          "id": 980602348073500,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -12680,18 +12964,22 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Bedroom",
+          "title": null,
           "abstract": null,
           "viewId": 980468871087800,
           "keepOrientation": false,
           "position": [
-            -0.24940202466817243,
-            -0.23970426287130572,
-            -0.9382646196317647
+            -10.846335844466065,
+            -56.36487558908281,
+            -81.88624914218667
           ],
           "asset": null,
           "link": null,
-          "id": 980573036359000
+          "id": 980573036359000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -13087,7 +13375,10 @@
           "asset": null,
           "link": null,
           "id": 463336386061100,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13106,7 +13397,10 @@
           "asset": null,
           "link": null,
           "id": 463468127931800,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13125,7 +13419,10 @@
           "asset": null,
           "link": null,
           "id": 521566207618600,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -13167,7 +13464,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 463319853608200
+          "id": 463319853608200,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13179,13 +13480,17 @@
           "viewId": 338065166299600,
           "keepOrientation": false,
           "position": [
-            -0.9977232095076407,
-            -0.06691858086624054,
-            -0.008384553930948781
+            -99.77232095076407,
+            -6.6918580866240545,
+            -0.8384553930948782
           ],
           "asset": null,
           "link": null,
-          "id": 463371980246000
+          "id": 463371980246000,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13197,13 +13502,17 @@
           "viewId": 463408766195400,
           "keepOrientation": false,
           "position": [
-            -0.8541965249924188,
-            -0.2730898953021745,
-            0.44245927018735104
+            -85.41965249924188,
+            -27.30898953021745,
+            44.2459270187351
           ],
           "asset": null,
           "link": null,
-          "id": 463488167901200
+          "id": 463488167901200,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -13265,7 +13574,10 @@
           "asset": null,
           "link": null,
           "id": 463441642025100,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -13509,7 +13821,10 @@
             "chromaKeyColor": null
           },
           "id": 13284947465000,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13527,7 +13842,10 @@
           ],
           "asset": null,
           "id": 13294635515100,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13545,7 +13863,10 @@
           ],
           "asset": null,
           "id": 13305415024300,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13563,7 +13884,10 @@
           ],
           "asset": null,
           "id": 13313172487200,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -13711,7 +14035,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 13189306085900
+          "id": 13189306085900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13729,7 +14057,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 13195471740900
+          "id": 13195471740900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13752,10 +14084,15 @@
             },
             "folder": "/uploads/",
             "file": "13203630172900_362435971139200_info.jpg",
-            "id": 13203636838800
+            "id": 13203636838800,
+            "chromaKeyColor": null
           },
           "link": null,
-          "id": 13209430079400
+          "id": 13209430079400,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13773,7 +14110,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 13219647685800
+          "id": 13219647685800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -13820,10 +14161,15 @@
             },
             "folder": "/uploads/",
             "file": "13141228078300_362435971139200_info.jpg",
-            "id": 13141277491400
+            "id": 13141277491400,
+            "chromaKeyColor": null
           },
           "link": null,
-          "id": 13142165205700
+          "id": 13142165205700,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13841,7 +14187,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 13158249857500
+          "id": 13158249857500,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13859,7 +14209,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 13165512007200
+          "id": 13165512007200,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -13877,7 +14231,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 13178090594600
+          "id": 13178090594600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -14035,7 +14393,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 12911710575000
+          "id": 12911710575000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14053,7 +14415,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 12924278378900
+          "id": 12924278378900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14071,7 +14437,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 12934367677000
+          "id": 12934367677000,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14109,7 +14479,11 @@
             "chromaKeyColor": null
           },
           "link": null,
-          "id": 12957611802700
+          "id": 12957611802700,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -14633,7 +15007,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683630301329099
+          "id": 683630301329099,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14651,7 +15029,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683649606592600
+          "id": 683649606592600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14669,7 +15051,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683661117663700
+          "id": 683661117663700,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14687,7 +15073,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683770989926300
+          "id": 683770989926300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -14728,7 +15118,11 @@
             0.03003702230209424
           ],
           "asset": null,
-          "id": 684185091958100
+          "id": 684185091958100,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -15072,7 +15466,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 22871135072300
+          "id": 22871135072300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15090,7 +15488,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 22931203236700
+          "id": 22931203236700,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15108,7 +15510,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23068809070300
+          "id": 23068809070300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15126,7 +15532,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23149571869300
+          "id": 23149571869300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15144,7 +15554,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23203446501400
+          "id": 23203446501400,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15162,7 +15576,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23262538169500
+          "id": 23262538169500,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15180,7 +15598,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23314676543800
+          "id": 23314676543800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15198,7 +15620,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23363885914600
+          "id": 23363885914600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15216,7 +15642,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23373312214400
+          "id": 23373312214400,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15234,7 +15664,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23424742485300
+          "id": 23424742485300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15252,7 +15686,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23441631935500
+          "id": 23441631935500,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15270,7 +15708,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23546423802600
+          "id": 23546423802600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15288,7 +15730,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23594516313100
+          "id": 23594516313100,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15306,7 +15752,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23604334565500
+          "id": 23604334565500,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -15324,7 +15774,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23827266041800
+          "id": 23827266041800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -15581,7 +16035,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 23240105061900
+          "id": 23240105061900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -16636,6 +17094,7 @@
       "order": 150
     }
   ],
+  "navmaps": [],
   "assets": [
     {
       "type": {
@@ -17009,7 +17468,10 @@
         0,
         1,
         0
-      ]
+      ],
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -19786,7 +20248,9 @@
             0
           ]
         }
-      }
+      },
+      "autoplay": true,
+      "loop": true
     },
     {
       "type": {
@@ -19800,7 +20264,9 @@
         0,
         1,
         0
-      ]
+      ],
+      "autoplay": true,
+      "loop": true
     },
     {
       "type": {
@@ -20828,7 +21294,8 @@
       },
       "folder": "/uploads/",
       "file": "13141228078300_362435971139200_info.jpg",
-      "id": 13141277491400
+      "id": 13141277491400,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -20837,7 +21304,8 @@
       },
       "folder": "/uploads/",
       "file": "13203630172900_362435971139200_info.jpg",
-      "id": 13203636838800
+      "id": 13203636838800,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -21200,7 +21668,8 @@
       "id": 356415172709800,
       "chromaKeyColor": null,
       "autoplay": false,
-      "loop": false
+      "loop": false,
+      "index": 0
     }
   ],
   "users": [

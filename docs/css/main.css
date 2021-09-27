@@ -158,8 +158,9 @@ img {
 
 [unselectable] {
   -webkit-touch-callout: none;
-  -ms-user-select: none;
-      user-select: none; }
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 .app {
   position: relative; }
@@ -567,8 +568,9 @@ button, .btn--heart, .btn--close, .btn--logo, .btn--credits, .agora-stream .btn-
 
 .busy {
   position: relative;
-  -ms-user-select: none;
-      user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   pointer-events: none;
   transition: none; }
   .busy, .busy:hover, .busy:focus, .busy:active, .busy.active {
@@ -1197,8 +1199,9 @@ input-value {
   height: 16px;
   background: var(--background-primary-disabled);
   color: var(--foreground);
-  -ms-user-select: none;
-      user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   cursor: pointer; }
   .disabled .btn--less, .disabled
   .btn--more {
@@ -1245,8 +1248,7 @@ input-value {
     left: 0;
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
+    object-fit: cover; }
   [control-asset] .group--picture > img,
   [control-localized-asset] .group--picture > img {
     opacity: 1; }
@@ -4083,8 +4085,9 @@ test-component .btn--mode {
 .slider-slide {
   display: inline-block;
   width: 100%;
-  -ms-user-select: none;
-      user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   user-drag: none;
   pointer-events: none; }
 
@@ -4170,8 +4173,7 @@ body {
     background: var(--background-negative); }
     .page > .background > img,
     .page > .background > video {
-      -o-object-fit: cover;
-         object-fit: cover;
+      object-fit: cover;
       width: 100%;
       height: 100%; }
     .page > .background > video {
@@ -4780,8 +4782,7 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        -o-object-fit: cover;
-           object-fit: cover; }
+        object-fit: cover; }
       .ui .group--remote-screen .agora-stream .agora-stream__player > div, .ui.remotes .group--remote .agora-stream .agora-stream__player > div {
         position: absolute !important;
         top: 0;
@@ -4938,11 +4939,13 @@ body {
   max-width: 80%;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
   transform: translateX(-50%) translateY(-50%);
   -webkit-touch-callout: none;
-  -ms-user-select: none;
-      user-select: none; }
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   .group--navmap .navmap__item {
     position: absolute;
     top: 0;
@@ -4953,8 +4956,9 @@ body {
     margin-top: -8px;
     cursor: pointer;
     -webkit-touch-callout: none;
-    -ms-user-select: none;
-        user-select: none; }
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
     .group--navmap .navmap__item .title {
       position: absolute;
       display: block;
@@ -5405,8 +5409,9 @@ body {
   width: 100%;
   height: 100%;
   -webkit-touch-callout: none;
-  -ms-user-select: none;
-      user-select: none; }
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   .ui .group--remote-screen {
     background: none; }
     .ui .group--remote-screen .agora-stream {
@@ -5418,8 +5423,7 @@ body {
           display: flex; }
           .ui .group--remote-screen .agora-stream .agora-stream__player > div > video {
             position: relative !important;
-            -o-object-fit: contain !important;
-               object-fit: contain !important; }
+            object-fit: contain !important; }
 
 @media (min-width: 768px) and (orientation: landscape) {
   .ui .group--remote-screen {
@@ -6104,8 +6108,7 @@ model-viewer {
     left: 0;
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
+    object-fit: cover; }
   .agora-device-preview > .video {
     top: -1px;
     left: -1px;
@@ -6144,16 +6147,14 @@ model-viewer {
       position: absolute;
       width: 100%;
       height: 100%;
-      -o-object-fit: cover;
-         object-fit: cover; }
+      object-fit: cover; }
     .agora-stream__player > .player__vr {
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      -o-object-fit: cover;
-         object-fit: cover; }
+      object-fit: cover; }
       .agora-stream__player > .player__vr canvas {
         width: 100% !important;
         height: 100% !important; }
@@ -6698,8 +6699,7 @@ model-viewer {
       left: 0;
       width: 100%;
       height: 100%;
-      -o-object-fit: cover;
-         object-fit: cover; }
+      object-fit: cover; }
   .upload-item .name {
     font-size: 11px;
     font-weight: var(--font-semibold);
@@ -6733,8 +6733,9 @@ update-view-tile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -ms-user-select: none;
-        user-select: none; }
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
     update-view .group--headline .id,
     update-view-item .group--headline .id,
     update-view-tile .group--headline .id {
@@ -7195,8 +7196,9 @@ update-view-tile {
   border-radius: 8px 8px 0 0;
   background: #b9c3ca;
   -webkit-touch-callout: none;
-  -ms-user-select: none;
-      user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   cursor: pointer; }
 
 .navmap-control__toolbar {

@@ -13052,9 +13052,7 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
     _this.onToggle = _this.onToggle.bind(_assertThisInitialized(_this));
     _this.onZoomed = _this.onZoomed.bind(_assertThisInitialized(_this));
 
-    if (_this.view.type.name !== 'media') {
-      _this.addZoomBtn();
-    }
+    _this.addZoomBtn();
 
     _this.addPlayBtn();
 
@@ -13372,14 +13370,6 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
     }
   };
 
-  _proto.updateByItem = function updateByItem(item) {
-    this.disposeMaterial();
-    this.disposeMediaLoader();
-    this.material = MediaMesh.getMaterialByItem(item);
-    this.uniforms = MediaMesh.getUniformsByItem(item);
-    this.mediaLoader = new MediaLoader(item);
-  };
-
   _proto.disposeMaterial = function disposeMaterial() {
     if (this.material) {
       if (this.material.map && this.material.map.disposable !== false) {
@@ -13435,16 +13425,31 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
   };
 
   _proto.addZoomBtn = function addZoomBtn() {
-    var zoomBtn = this.zoomBtn = new MediaZoomMesh(this.host);
-    zoomBtn.on('zoomed', this.onZoomed);
+    this.removeZoomBtn();
+
+    if (this.view.type.name !== 'media' && (!this.item.asset || !this.item.asset.chromaKeyColor)) {
+      var zoomBtn = this.zoomBtn = new MediaZoomMesh(this.host);
+      zoomBtn.on('zoomed', this.onZoomed);
+    }
   };
 
   _proto.removeZoomBtn = function removeZoomBtn() {
     if (this.zoomBtn) {
+      this.remove(this.zoomBtn);
       this.zoomBtn.off('zoomed', this.onZoomed);
       this.zoomBtn.dispose();
+      this.zoomBtn = null;
       delete this.zoomBtn;
     }
+  };
+
+  _proto.updateByItem = function updateByItem(item) {
+    this.disposeMaterial();
+    this.disposeMediaLoader();
+    this.material = MediaMesh.getMaterialByItem(item);
+    this.uniforms = MediaMesh.getUniformsByItem(item);
+    this.addZoomBtn();
+    this.mediaLoader = new MediaLoader(item);
   };
 
   _proto.updateFromItem = function updateFromItem(item) {
@@ -21215,7 +21220,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         };
         gsap.to(from, {
           duration: 0.35,
-          scale: 0.055,
+          scale: 0.08,
           delay: 0,
           ease: Power2.easeOut,
           overwrite: true,
@@ -21240,7 +21245,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         };
         gsap.to(from, {
           duration: 0.35,
-          scale: 0.03,
+          scale: 0.05,
           delay: 0,
           ease: Power2.easeOut,
           overwrite: true,
@@ -21310,7 +21315,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       var materials = [material];
       var icon = this.icon = new THREE.Sprite(material);
       icon.renderOrder = environment.renderOrder.nav;
-      icon.scale.set(0.03, 0.03, 0.03);
+      icon.scale.set(0.05, 0.05, 0.05);
       mesh.add(icon);
       var titleMaterial;
       var titleTexture = ModelNavComponent.getTitleTexture(item, mode);
@@ -21329,7 +21334,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         var image = titleTexture.image;
         var title = this.title = new THREE.Sprite(titleMaterial);
         title.scale.set(0.03 * image.width / image.height, 0.03, 0.03);
-        title.position.set(0, -3.5, 0);
+        title.position.set(0, -4.5, 0);
         mesh.add(title);
         materials.push(titleMaterial);
       }
@@ -23133,6 +23138,7 @@ UpdateViewTileComponent.meta = {
     });
     this.orbit$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (message) {
       switch (_this.view.type.name) {
+        case ViewType.WaitingRoom.name:
         case ViewType.Panorama.name:
         case ViewType.PanoramaGrid.name:
         case ViewType.Room3d.name:
