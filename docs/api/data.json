@@ -80,6 +80,37 @@
           "asset": null,
           "link": null,
           "id": 430656242134800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Video",
+          "viewId": 625005024678600,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            83.03853662540479,
+            -24.120492923437,
+            -48.20584255297001
+          ],
+          "rotation": [
+            -0.4639391767255639,
+            -0.9950259527352617,
+            -0.39736639542196933,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 624916684020500
         }
       ],
       "hidden": null,
@@ -237,7 +268,10 @@
           ],
           "asset": null,
           "link": null,
-          "id": 188805746764600
+          "id": 188805746764600,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -302,7 +336,10 @@
           ],
           "asset": null,
           "link": null,
-          "id": 188760430943900
+          "id": 188760430943900,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -634,6 +671,64 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "Stanza Media",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "624996473543000_C0006_1.mp4",
+        "id": 624996511684700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 625005024678600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "624996473543000_C0006_1.mp4",
+            "id": 624996511684700,
+            "chromaKeyColor": null,
+            "autoplay": true,
+            "loop": false
+          },
+          "id": 625005031435100
+        }
+      ]
     }
   ],
   "menu": [],
@@ -763,6 +858,18 @@
       "folder": "/uploads/",
       "file": "88876234949200_2_Deposito_224_auto_x2.jpg",
       "id": 88836748766100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "624996473543000_C0006_1.mp4",
+      "id": 624996511684700,
+      "chromaKeyColor": null,
+      "autoplay": true,
+      "loop": false
     }
   ],
   "users": [
