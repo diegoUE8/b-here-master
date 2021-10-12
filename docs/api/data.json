@@ -17512,12 +17512,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1224777984693700_AdobeStock_312681673.jpeg",
+        "file": "1297574519115800_AdobeStock_326519034.jpeg",
         "id": 1224778273465900
       },
       "orientation": {
-        "latitude": 22.9,
-        "longitude": 309.9
+        "latitude": 24.7,
+        "longitude": 326.29999999999995
       },
       "zoom": 75,
       "id": 1224812747685100,
@@ -17568,12 +17568,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1224864303624300_AdobeStock_370940370.jpeg",
+        "file": "1297595450124000_AdobeStock_326519034.jpeg",
         "id": 1224864329454600
       },
       "orientation": {
-        "latitude": 30,
-        "longitude": 165.79999999999998
+        "latitude": 25.4,
+        "longitude": 154.49999999999997
       },
       "zoom": 75,
       "id": 1224876248712400,
@@ -17624,12 +17624,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1225059432807800_AdobeStock_312681673.jpeg",
+        "file": "1297655861367500_AdobeStock_326519034.jpeg",
         "id": 1225059449779400
       },
       "orientation": {
-        "latitude": 26.500000000000004,
-        "longitude": 303.2
+        "latitude": 16.900000000000002,
+        "longitude": 314.7
       },
       "zoom": 75,
       "id": 1225083860206300,
@@ -17680,7 +17680,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1225155409028600_AdobeStock_312681673.jpeg",
+        "file": "1297431269250700_AdobeStock_326519034.jpeg",
         "id": 1225155726453300
       },
       "orientation": {
@@ -17701,7 +17701,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "1225163617413400_fiore1.glb",
+            "file": "1297450053746400_fiore_1.glb",
             "id": 1225163670689900,
             "chromaKeyColor": null
           },
@@ -17737,12 +17737,22 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 1225840895548200
         }
       ],
       "hidden": null,
-      "ar": null
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1297463211457600_fiore_1.glb",
+          "id": 1297463349225100
+        }
+      }
     },
     {
       "type": {
@@ -17756,12 +17766,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1225364013022800_AdobeStock_312681673.jpeg",
+        "file": "1297475206289900_AdobeStock_326519034.jpeg",
         "id": 1225364036013100
       },
       "orientation": {
-        "latitude": 27.400000000000002,
-        "longitude": 281.7
+        "latitude": 30.7,
+        "longitude": 280.5
       },
       "zoom": 75,
       "id": 1225380965019600,
@@ -17777,7 +17787,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "1225782021142900_fiore1_b.glb",
+            "file": "1297485668471900_fiore_2.glb",
             "id": 1225379170299500,
             "chromaKeyColor": null
           },
@@ -17817,7 +17827,191 @@
         }
       ],
       "hidden": null,
-      "ar": null
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1297496194866200_fiore_2.glb",
+          "id": 1297496241406300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Accessorio",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1297668655726800_AdobeStock_326519034.jpeg",
+        "id": 1297668767391300
+      },
+      "orientation": {
+        "latitude": 23,
+        "longitude": 126.69999999999999
+      },
+      "zoom": 75,
+      "id": 1297678616336200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "1297672901599100_accessorio_1.glb",
+            "id": 1297672933907100,
+            "chromaKeyColor": null
+          },
+          "id": 1297678642447500,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Material",
+          "abstract": null,
+          "viewId": 1297730775908700,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            75.86806032480155,
+            -54.2064816448951,
+            -36.13439871139302
+          ],
+          "rotation": [
+            -0.9651365480342207,
+            -0.8553984019767402,
+            -0.8284544205454767,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1297828014786800
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1297706175080200_accessorio_1.glb",
+          "id": 1297706251176600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Accessorio_material",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1297716532849700_AdobeStock_326519034.jpeg",
+        "id": 1297716542586200
+      },
+      "orientation": {
+        "latitude": 23,
+        "longitude": 126.69999999999999
+      },
+      "zoom": 75,
+      "id": 1297730775908700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "1297729042658300_accessorio_2.glb",
+            "id": 1297729151285100,
+            "chromaKeyColor": null
+          },
+          "id": 1297730799930700,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "No Material",
+          "abstract": null,
+          "viewId": 1297678616336200,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            76.66015076245472,
+            -56.337389500681965,
+            -30.81103421383587
+          ],
+          "rotation": [
+            -1.0550626551357325,
+            -0.8722280188323003,
+            -0.9335188746998336,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 1297783511867000
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1297753770940000_accessorio_2.glb",
+          "id": 1297753866885100
+        }
+      }
     }
   ],
   "menu": [
@@ -17976,32 +18170,39 @@
       "order": 0
     },
     {
+      "id": 1297841865901500,
+      "parentId": 1226299343143300,
+      "viewId": 1297678616336200,
+      "name": "Accessorio",
+      "order": 0
+    },
+    {
       "id": 1226638832518600,
       "parentId": 1226299343143300,
       "viewId": 1225168087175000,
       "name": "Fiore",
-      "order": 0
+      "order": 10
     },
     {
       "id": 1226640915627000,
       "parentId": 1226299343143300,
       "viewId": 1224812747685100,
       "name": "Scarpa_1",
-      "order": 10
+      "order": 20
     },
     {
       "id": 1226641850603700,
       "parentId": 1226299343143300,
       "viewId": 1224876248712400,
       "name": "Scarpa_2",
-      "order": 20
+      "order": 30
     },
     {
       "id": 1226642657473100,
       "parentId": 1226299343143300,
       "viewId": 1225083860206300,
       "name": "Scarpa_3",
-      "order": 30
+      "order": 40
     },
     {
       "id": 981627543856300,
@@ -22918,7 +23119,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1224777984693700_AdobeStock_312681673.jpeg",
+      "file": "1297574519115800_AdobeStock_326519034.jpeg",
       "id": 1224778273465900
     },
     {
@@ -22946,7 +23147,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1224864303624300_AdobeStock_370940370.jpeg",
+      "file": "1297595450124000_AdobeStock_326519034.jpeg",
       "id": 1224864329454600
     },
     {
@@ -22974,7 +23175,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1225059432807800_AdobeStock_312681673.jpeg",
+      "file": "1297655861367500_AdobeStock_326519034.jpeg",
       "id": 1225059449779400
     },
     {
@@ -23002,7 +23203,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1225155409028600_AdobeStock_312681673.jpeg",
+      "file": "1297431269250700_AdobeStock_326519034.jpeg",
       "id": 1225155726453300
     },
     {
@@ -23011,7 +23212,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "1225163617413400_fiore1.glb",
+      "file": "1297450053746400_fiore_1.glb",
       "id": 1225163670689900,
       "chromaKeyColor": null
     },
@@ -23021,7 +23222,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1225364013022800_AdobeStock_312681673.jpeg",
+      "file": "1297475206289900_AdobeStock_326519034.jpeg",
       "id": 1225364036013100
     },
     {
@@ -23030,9 +23231,83 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "1225782021142900_fiore1_b.glb",
+      "file": "1297485668471900_fiore_2.glb",
       "id": 1225379170299500,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1297463211457600_fiore_1.glb",
+      "id": 1297463349225100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1297496194866200_fiore_2.glb",
+      "id": 1297496241406300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1297668655726800_AdobeStock_326519034.jpeg",
+      "id": 1297668767391300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1297672901599100_accessorio_1.glb",
+      "id": 1297672933907100,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1297706175080200_accessorio_1.glb",
+      "id": 1297706251176600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1297716532849700_AdobeStock_326519034.jpeg",
+      "id": 1297716542586200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1297729042658300_accessorio_2.glb",
+      "id": 1297729151285100,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1297753770940000_accessorio_2.glb",
+      "id": 1297753866885100
     }
   ],
   "users": [
