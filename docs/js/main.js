@@ -133,6 +133,7 @@ function _readOnlyError(name) {
     editor: false,
     editorAssetScreen: false,
     menu: true,
+    menuEmbed: false,
     navmaps: false,
     chat: false,
     ar: true,
@@ -210,6 +211,7 @@ function _readOnlyError(name) {
     editor: true,
     editorAssetScreen: true,
     menu: true,
+    menuEmbed: true,
     navmaps: true,
     chat: true,
     ar: true,
@@ -19235,6 +19237,9 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var mainLight = new THREE.PointLight(0xffffff);
     mainLight.position.set(-50, 0, -50);
     objects.add(mainLight);
+    /*const light2 = new THREE.DirectionalLight(0xffe699, 5);
+    light2.position.set(5, -5, 5);*/
+
     var light2 = new THREE.DirectionalLight(0xffe699, 1.5);
     light2.position.set(40, -40, 40);
     light2.target.position.set(0, 0, 0);
@@ -19245,6 +19250,15 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(light3);
     var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
     objects.add(ambient);
+    /*
+    const light = new THREE.AmbientLight(0x101010);
+    
+    const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+    direct.position.set(-40, -40, -40);
+    direct.target.position.set(0, 0, 0);
+    objects.add(direct);
+    */
+
     this.addControllers();
     this.resize(); // show hide items
 
@@ -20579,6 +20593,11 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     key: "lockedOrXR",
     get: function get() {
       return this.locked || this.renderer.xr.isPresenting;
+    }
+  }, {
+    key: "showMenu",
+    get: function get() {
+      return StateService.state.hosted && StateService.state.navigable && (StateService.state.mode !== 'embed' || environment.flags.menuEmbed);
     }
   }, {
     key: "showPointer",
@@ -29456,12 +29475,27 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
       return _this.visible = session != null;
     }); // loose
     // this.progress = LoaderService.progress;
+
+    /*
+    const { node } = getContext(this);
+    const inner = node.querySelector('.inner');
+    LoaderService.progress$.pipe(
+    	takeUntil(this.unsubscribe$)
+    ).subscribe(progress => {
+    	progress.count > 0 ? node.classList.add('active') : node.classList.remove('active');
+    	inner.style.width = `${progress.count}%`;
+    });
+    */
   };
 
   _proto.onCreate = function onCreate(mount, dismount) {
     var _this2 = this;
 
     // console.log('ModelProgressComponent.onCreate');
+    var _getContext = rxcomp.getContext(this),
+        node = _getContext.node;
+
+    var inner = node.querySelector('.inner');
     this.getCanvasTexture().then(function (result) {
       var mesh = _this2.createMesh(result);
 
@@ -29470,6 +29504,9 @@ var ModelProgressComponent = /*#__PURE__*/function (_ModelComponent) {
       }
 
       LoaderService.progress$.pipe(operators.takeUntil(_this2.unsubscribe$)).subscribe(function (progress) {
+        progress.count > 0 ? node.classList.add('active') : node.classList.remove('active');
+        inner.style.width = progress.value * 100 + "%";
+
         if (progress.count) {
           _this2.title = progress.value === 0 ? LOADING_BANNER.title : progress.title;
         } else {
