@@ -17544,7 +17544,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1378096023224500_scarpa_1.usdz",
+          "id": 1378096035335200
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -17600,7 +17608,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1378115631222500_scarpa_2.usdz",
+          "id": 1378115641695900
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -17656,7 +17672,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1378130577668000_scarpa_3.usdz",
+          "id": 1378130592618100
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -17684,8 +17708,8 @@
         "id": 1225155726453300
       },
       "orientation": {
-        "latitude": 30.7,
-        "longitude": 280.5
+        "latitude": 22.4,
+        "longitude": 288.1
       },
       "zoom": 75,
       "id": 1225168087175000,
@@ -17742,7 +17766,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1378039533833700_fiore_1.usdz",
+          "id": 1378039568058100
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -17770,8 +17802,8 @@
         "id": 1225364036013100
       },
       "orientation": {
-        "latitude": 30.7,
-        "longitude": 280.5
+        "latitude": 22.4,
+        "longitude": 288.1
       },
       "zoom": 75,
       "id": 1225380965019600,
@@ -17828,7 +17860,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1378049858091400_fiore_2.usdz",
+          "id": 1378049896712300
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -17856,8 +17896,8 @@
         "id": 1297668767391300
       },
       "orientation": {
-        "latitude": 23,
-        "longitude": 126.69999999999999
+        "latitude": 18.900000000000002,
+        "longitude": 132.2
       },
       "zoom": 75,
       "id": 1297678616336200,
@@ -17909,13 +17949,20 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 1297828014786800
         }
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1377972690942100_accessorio_1.usdz",
+          "id": 1377973392721000
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -17943,8 +17990,8 @@
         "id": 1297716542586200
       },
       "orientation": {
-        "latitude": 23,
-        "longitude": 126.69999999999999
+        "latitude": 18.900000000000002,
+        "longitude": 132.2
       },
       "zoom": 75,
       "id": 1297730775908700,
@@ -18001,7 +18048,15 @@
       ],
       "hidden": null,
       "ar": {
-        "usdz": null,
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1377987610502300_accessorio_2.usdz",
+          "id": 1377987649371700
+        },
         "gltf": {
           "type": {
             "id": 3,
@@ -23308,6 +23363,69 @@
       "folder": "/uploads/",
       "file": "1297753770940000_accessorio_2.glb",
       "id": 1297753866885100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1377972690942100_accessorio_1.usdz",
+      "id": 1377973392721000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1377987610502300_accessorio_2.usdz",
+      "id": 1377987649371700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1378039533833700_fiore_1.usdz",
+      "id": 1378039568058100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1378049858091400_fiore_2.usdz",
+      "id": 1378049896712300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1378096023224500_scarpa_1.usdz",
+      "id": 1378096035335200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1378115631222500_scarpa_2.usdz",
+      "id": 1378115641695900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1378130577668000_scarpa_3.usdz",
+      "id": 1378130592618100
     }
   ],
   "users": [
