@@ -62,7 +62,11 @@
           ],
           "asset": null,
           "id": 498242270907400,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -79,7 +83,11 @@
           ],
           "asset": null,
           "id": 503566773717800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -96,7 +104,11 @@
           ],
           "asset": null,
           "id": 505647227663200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -113,7 +125,11 @@
           ],
           "asset": null,
           "id": 505677256133999,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -130,7 +146,11 @@
           ],
           "asset": null,
           "id": 505729885600300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -147,7 +167,11 @@
           ],
           "asset": null,
           "id": 505930399337800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -178,7 +202,9 @@
             "folder": "/uploads/",
             "file": "502937330335000_websolute.mp4",
             "id": 502937592501000,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1618924423273499
         },
@@ -197,7 +223,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 416898754782400
+          "id": 416898754782400,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -215,7 +246,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 299173114303700
+          "id": 299173114303700,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -251,13 +286,17 @@
           "abstract": null,
           "viewId": 496213308506700,
           "position": [
-            0.24253843267785596,
-            -0.23202537274177434,
-            -0.9419869081246351
+            24.253843267785598,
+            -23.202537274177434,
+            -94.19869081246351
           ],
           "asset": null,
           "id": 496451409311600,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -268,13 +307,17 @@
           "abstract": null,
           "viewId": 496261103950399,
           "position": [
-            0.9767012519484077,
-            -0.1560050262072207,
-            -0.14736721562307295
+            97.67012519484078,
+            -15.60050262072207,
+            -14.736721562307295
           ],
           "asset": null,
           "id": 496462625992900,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -291,7 +334,11 @@
           ],
           "asset": null,
           "id": 496564534081299,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -308,7 +355,11 @@
           ],
           "asset": null,
           "id": 498285801953499,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -404,14 +455,18 @@
           "abstract": null,
           "viewId": 496282626526900,
           "position": [
-            0.9853057747149916,
-            -0.1693000928224767,
-            0.022583376266432423
+            98.53057747149916,
+            -16.93000928224767,
+            2.2583376266432422
           ],
           "asset": null,
           "link": null,
           "id": 496325174944200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -422,13 +477,18 @@
           "abstract": null,
           "viewId": 496213308506700,
           "position": [
-            -0.9628184388707679,
-            -0.2633751155470314,
-            0.060118235844418805
+            -96.28184388707679,
+            -26.33751155470314,
+            6.01182358444188
           ],
           "asset": null,
           "link": null,
-          "id": 496354510821100
+          "id": 496354510821100,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -439,13 +499,18 @@
           "abstract": null,
           "viewId": 496175462352500,
           "position": [
-            -0.6338606136178664,
-            -0.13778199529310867,
-            0.761076109385278
+            -63.457358121121345,
+            -12.952119348077806,
+            76.19321692041163
           ],
           "asset": null,
           "link": null,
-          "id": 496362861211299
+          "id": 496362861211299,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -463,7 +528,11 @@
           "asset": null,
           "link": null,
           "id": 513455140821200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -498,13 +567,17 @@
           "abstract": null,
           "viewId": 496261103950399,
           "position": [
-            -0.01917939551852371,
-            -0.1555112922682003,
-            -0.9876479072850903
+            -1.9179395518523707,
+            -15.551129226820029,
+            -98.76479072850903
           ],
           "asset": null,
           "id": 496303819217900,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -535,7 +608,11 @@
             "target": "_blank"
           },
           "id": 497554245397800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -566,7 +643,11 @@
             "target": "_blank"
           },
           "id": 497692285214700,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -587,7 +668,12 @@
             "href": "https://www.youtube.com/watch?time_continue=1&v=OOOcqcvA7do&ab_channel=MUSEMuseodelleScienze",
             "target": "_blank"
           },
-          "id": 497832053571100
+          "id": 497832053571100,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -598,13 +684,18 @@
           "abstract": null,
           "viewId": 170427763402500,
           "position": [
-            0.6802701347690411,
-            -0.04702780496438074,
-            0.7314512487524664
+            68.0270134769041,
+            -4.702780496438074,
+            73.14512487524664
           ],
           "asset": null,
           "link": null,
-          "id": 513523554035000
+          "id": 513523554035000,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -895,7 +986,9 @@
             "folder": "/uploads/",
             "file": "502937330335000_websolute.mp4",
             "id": 502937592501000,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 1009904475382800
         },
@@ -914,7 +1007,11 @@
           ],
           "asset": null,
           "id": 263816172214199,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -931,7 +1028,11 @@
           ],
           "asset": null,
           "id": 263824959721100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -948,7 +1049,11 @@
           ],
           "asset": null,
           "id": 263833008287300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -965,7 +1070,11 @@
           ],
           "asset": null,
           "id": 263842470462000,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -982,7 +1091,11 @@
           ],
           "asset": null,
           "id": 263850020654100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -999,7 +1112,11 @@
           ],
           "asset": null,
           "id": 263858797145599,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1016,7 +1133,11 @@
           ],
           "asset": null,
           "id": 263865629315099,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1033,7 +1154,11 @@
           ],
           "asset": null,
           "id": 313939089806200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1050,7 +1175,11 @@
           ],
           "asset": null,
           "id": 6622881616000,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1067,7 +1196,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 415905117242399
+          "id": 415905117242399,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -1652,7 +1786,11 @@
           "asset": null,
           "link": null,
           "id": 501183226376600,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1669,7 +1807,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501197349638899
+          "id": 501197349638899,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -1710,7 +1853,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501145435729599
+          "id": 501145435729599,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1727,7 +1875,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501156224533300
+          "id": 501156224533300,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1745,7 +1898,11 @@
           "asset": null,
           "link": null,
           "id": 501218538487500,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1762,7 +1919,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501229792060399
+          "id": 501229792060399,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1779,7 +1941,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501242436483500
+          "id": 501242436483500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1796,7 +1963,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501253354575799
+          "id": 501253354575799,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1813,7 +1985,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501264331054399
+          "id": 501264331054399,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1831,7 +2008,11 @@
           "asset": null,
           "link": null,
           "id": 501274223780200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1849,7 +2030,11 @@
           "asset": null,
           "link": null,
           "id": 501283505977300,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1867,7 +2052,11 @@
           "asset": null,
           "link": null,
           "id": 501294660371299,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1885,7 +2074,11 @@
           "asset": null,
           "link": null,
           "id": 501306892351900,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1903,7 +2096,11 @@
           "asset": null,
           "link": null,
           "id": 501318257362399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1920,7 +2117,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501496311419200
+          "id": 501496311419200,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -1937,7 +2139,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501504831513799
+          "id": 501504831513799,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -6479,7 +6686,9 @@
             "folder": "/uploads/",
             "file": "502937330335000_websolute.mp4",
             "id": 502937592501000,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 502939049860200
         },
@@ -6492,13 +6701,17 @@
           "abstract": null,
           "viewId": 170427763402500,
           "position": [
-            0.8486054784189606,
-            -0.19399113787781322,
-            0.4921749489990304
+            84.86054784189606,
+            -19.39911378778132,
+            49.217494899903045
           ],
           "asset": null,
           "id": 503019422526899,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6515,7 +6728,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 6734179135500
+          "id": 6734179135500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6532,7 +6750,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 6868366425599
+          "id": 6868366425599,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -6837,13 +7060,17 @@
           "abstract": null,
           "viewId": 170427763402500,
           "position": [
-            0.9805534688229747,
-            -0.026113265979069253,
-            -0.19450704902172106
+            98.05534688229747,
+            -2.6113265979069253,
+            -19.450704902172106
           ],
           "asset": null,
           "id": 504440285389099,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6854,13 +7081,17 @@
           "abstract": null,
           "viewId": 504115292312199,
           "position": [
-            0.9648547649681687,
-            0.006405448171714874,
-            0.2627056389800934
+            96.48547649681687,
+            0.6405448171714875,
+            26.270563898009343
           ],
           "asset": null,
           "id": 504459487457499,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6871,13 +7102,17 @@
           "abstract": null,
           "viewId": 504019624387700,
           "position": [
-            -0.9976524589695184,
-            0.015419903331759601,
-            -0.06672179324113457
+            -99.76524589695184,
+            1.5419903331759601,
+            -6.672179324113457
           ],
           "asset": null,
           "id": 504521282626200,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6894,7 +7129,11 @@
           ],
           "asset": null,
           "id": 504835782222399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6905,13 +7144,17 @@
           "abstract": null,
           "viewId": 504098710044799,
           "position": [
-            0.777729954775511,
-            -0.03469526131552237,
-            -0.6276403080484306
+            77.77299547755109,
+            -3.469526131552237,
+            -62.76403080484306
           ],
           "asset": null,
           "id": 504873642883399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -6953,7 +7196,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 504549266353799
+          "id": 504549266353799,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -6964,14 +7212,18 @@
           "abstract": null,
           "viewId": 504034155068599,
           "position": [
-            0.5078116613224708,
-            -0.005875655192354994,
-            0.86144807928335
+            50.78116613224708,
+            -0.5875655192354995,
+            86.144807928335
           ],
           "asset": null,
           "link": null,
           "id": 504603230086100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -7007,13 +7259,18 @@
           "abstract": null,
           "viewId": 504019624387700,
           "position": [
-            0.9975475132582007,
-            -0.030007711801726587,
-            0.06323366211761496
+            99.75475132582007,
+            -3.000771180172659,
+            6.3233662117614955
           ],
           "asset": null,
           "link": null,
-          "id": 504646899679600
+          "id": 504646899679600,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7024,13 +7281,18 @@
           "abstract": null,
           "viewId": 504069549633500,
           "position": [
-            -0.999437671973377,
-            0.005323064538147431,
-            0.03310596357696783
+            -99.94376719733769,
+            0.5323064538147431,
+            3.310596357696783
           ],
           "asset": null,
           "link": null,
-          "id": 504675987711600
+          "id": 504675987711600,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -7125,14 +7387,18 @@
           "abstract": null,
           "viewId": 504098710044799,
           "position": [
-            0.9887781737680761,
-            -0.036740487708199696,
-            0.14480283023073692
+            98.87781737680761,
+            -3.6740487708199696,
+            14.480283023073692
           ],
           "asset": null,
           "link": null,
           "id": 504725544357700,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7143,13 +7409,18 @@
           "abstract": null,
           "viewId": 504034155068599,
           "position": [
-            -0.661755696477292,
-            -0.034749103381052554,
-            -0.7489138121266473
+            -66.1755696477292,
+            -3.4749103381052553,
+            -74.89138121266473
           ],
           "asset": null,
           "link": null,
-          "id": 504755470633499
+          "id": 504755470633499,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7171,7 +7442,11 @@
             "target": "_blank"
           },
           "id": 505276368279100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7193,7 +7468,11 @@
             "target": "_blank"
           },
           "id": 505409481659400,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -7229,13 +7508,18 @@
           "abstract": null,
           "viewId": 503992413864500,
           "position": [
-            0.9991355162360366,
-            -0.030003575759304638,
-            -0.028775087096386074
+            99.91355162360365,
+            -3.000357575930464,
+            -2.8775087096386076
           ],
           "asset": null,
           "link": null,
-          "id": 504795071415999
+          "id": 504795071415999,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7246,13 +7530,18 @@
           "abstract": null,
           "viewId": 504056120603000,
           "position": [
-            -0.9885392522812925,
-            -0.043264734631741325,
-            0.14463163359510214
+            -98.85392522812924,
+            -4.326473463174133,
+            14.463163359510215
           ],
           "asset": null,
           "link": null,
-          "id": 504812608733899
+          "id": 504812608733899,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7263,13 +7552,18 @@
           "abstract": null,
           "viewId": 504069549633500,
           "position": [
-            0.8304242696662424,
-            -0.00733286377420373,
-            0.5570832625902136
+            83.04242696662423,
+            -0.733286377420373,
+            55.708326259021355
           ],
           "asset": null,
           "link": null,
-          "id": 504904204754099
+          "id": 504904204754099,
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7291,7 +7585,11 @@
             "target": "_blank"
           },
           "id": 505475149985400,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -7313,7 +7611,11 @@
             "target": "_blank"
           },
           "id": 505562289454099,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -7702,7 +8004,11 @@
           ],
           "asset": null,
           "id": 513664382104399,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "orientation": {
@@ -10880,7 +11186,11 @@
           ],
           "asset": null,
           "id": 1702103520510000,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null
@@ -22389,7 +22699,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 240211527646200
+          "id": 240211527646200,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -22407,7 +22721,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 240268426277800
+          "id": 240268426277800,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -22425,7 +22743,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 240299708752500
+          "id": 240299708752500,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -22443,7 +22765,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 240317555552800
+          "id": 240317555552800,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -22461,7 +22787,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 240369021539700
+          "id": 240369021539700,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -22479,7 +22809,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 298319334358400
+          "id": 298319334358400,
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -28418,6 +28752,7 @@
       "order": 20
     }
   ],
+  "navmaps": [],
   "assets": [
     {
       "type": {
@@ -28507,7 +28842,8 @@
       },
       "folder": "/uploads/",
       "file": "497505274745300_tasso.jpg",
-      "id": 497505302204099
+      "id": 497505302204099,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -28516,7 +28852,8 @@
       },
       "folder": "/uploads/",
       "file": "497629856974700_cervo.jpg",
-      "id": 497629875189000
+      "id": 497629875189000,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -28669,7 +29006,10 @@
       },
       "folder": "/uploads/",
       "file": "502937330335000_websolute.mp4",
-      "id": 502937592501000
+      "id": 502937592501000,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {

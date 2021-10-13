@@ -21221,7 +21221,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         };
         gsap.to(from, {
           duration: 0.35,
-          scale: 0.08,
+          scale: 0.07,
           delay: 0,
           ease: Power2.easeOut,
           overwrite: true,
@@ -21246,7 +21246,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
         };
         gsap.to(from, {
           duration: 0.35,
-          scale: 0.05,
+          scale: 0.04,
           delay: 0,
           ease: Power2.easeOut,
           overwrite: true,
@@ -21316,7 +21316,7 @@ var ModelNavComponent = /*#__PURE__*/function (_ModelEditableCompone) {
       var materials = [material];
       var icon = this.icon = new THREE.Sprite(material);
       icon.renderOrder = environment.renderOrder.nav;
-      icon.scale.set(0.05, 0.05, 0.05);
+      icon.scale.set(0.04, 0.04, 0.04);
       mesh.add(icon);
       var titleMaterial;
       var titleTexture = ModelNavComponent.getTitleTexture(item, mode);
