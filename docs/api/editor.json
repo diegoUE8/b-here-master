@@ -28428,10 +28428,10 @@
         "id": 1482464745283700
       },
       "orientation": {
-        "latitude": 19.799999999999994,
-        "longitude": 114.19999999999996
+        "latitude": 20.39999999999999,
+        "longitude": 119.79999999999994
       },
-      "zoom": 75,
+      "zoom": 51.8214,
       "id": 1482478873809900,
       "items": [
         {
@@ -28445,7 +28445,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "1482474271822100_OMNIA_ST_PULITA.glb",
+            "file": "73783941124000_export.glb",
             "id": 1482474336724400,
             "chromaKeyColor": null
           },
@@ -28455,7 +28455,26 @@
         }
       ],
       "hidden": null,
-      "ar": null
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "73733210139800_OMNIA_ST_PULITA.usdz",
+          "id": 73733275219100
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "73738313340700_OMNIA_ST_PULITA.glb",
+          "id": 73738377307100
+        }
+      }
     }
   ],
   "menu": [
@@ -33804,9 +33823,27 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "1482474271822100_OMNIA_ST_PULITA.glb",
+      "file": "73783941124000_export.glb",
       "id": 1482474336724400,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "73733210139800_OMNIA_ST_PULITA.usdz",
+      "id": 73733275219100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "73738313340700_OMNIA_ST_PULITA.glb",
+      "id": 73738377307100
     }
   ],
   "users": [
