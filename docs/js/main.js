@@ -19231,19 +19231,20 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    var mainLight = new THREE.PointLight(0xffffff);
+    var mainLight = new THREE.PointLight(0xffffff, 1);
     mainLight.position.set(-50, 0, -50);
     objects.add(mainLight);
-    var light2 = new THREE.DirectionalLight(0xffe699, 1.5);
+    var light2 = new THREE.DirectionalLight(0xffffff, 1);
     light2.position.set(40, -40, 40);
     light2.target.position.set(0, 0, 0);
     objects.add(light2);
-    var light3 = new THREE.DirectionalLight(0xffe699, 1);
+    var light3 = new THREE.DirectionalLight(0xffffff, 0.5);
     light3.position.set(0, 50, 0);
     light3.target.position.set(0, 0, 0);
     objects.add(light3);
-    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
-    objects.add(ambient);
+    /*const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+    objects.add(ambient);*/
+
     this.addControllers();
     this.resize(); // show hide items
 
