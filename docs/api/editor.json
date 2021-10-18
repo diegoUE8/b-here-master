@@ -28475,6 +28475,70 @@
           "id": 73738377307100
         }
       }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Catalano - Horizon",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "334500682773500_AdobeStock_410699925.jpeg",
+        "id": 334500699603100
+      },
+      "orientation": {
+        "latitude": 28.200000000000003,
+        "longitude": 118.29999999999998
+      },
+      "zoom": 40.084,
+      "id": 334535016630200,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "334533273667500_test1.glb",
+            "id": 334533300576200,
+            "chromaKeyColor": null
+          },
+          "id": 334535039283400,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "334583611242900_test1.usdz",
+          "id": 334583687269000
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "334592291944700_test1.glb",
+          "id": 334592318983100
+        }
+      }
     }
   ],
   "menu": [
@@ -28960,6 +29024,13 @@
       "viewId": 1482478873809900,
       "name": "OMNIA_ST_PULITA",
       "order": 80
+    },
+    {
+      "id": 334672969459200,
+      "parentId": 514006762002499,
+      "viewId": 334535016630200,
+      "name": "Catalano - Horizon",
+      "order": 90
     },
     {
       "id": 40982979157200,
@@ -33844,6 +33915,43 @@
       "folder": "/uploads/",
       "file": "73738313340700_OMNIA_ST_PULITA.glb",
       "id": 73738377307100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "334500682773500_AdobeStock_410699925.jpeg",
+      "id": 334500699603100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "334533273667500_test1.glb",
+      "id": 334533300576200,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "334583611242900_test1.usdz",
+      "id": 334583687269000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "334592291944700_test1.glb",
+      "id": 334592318983100
     }
   ],
   "users": [
