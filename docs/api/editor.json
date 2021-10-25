@@ -6771,12 +6771,12 @@
           },
           "title": null,
           "abstract": null,
-          "viewId": 11910622211800,
+          "viewId": 943903989693500,
           "keepOrientation": false,
           "position": [
-            -0.8807164715976018,
-            -0.2303562897462343,
-            0.41385320638001577
+            -88.07164715976018,
+            -23.035628974623428,
+            41.38532063800157
           ],
           "asset": null,
           "link": null,
@@ -6851,6 +6851,52 @@
           "transparent": null,
           "rotation": null,
           "scale": null
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            -18.665505149175733,
+            0.09076455532923006,
+            8.822763596241009
+          ],
+          "rotation": [
+            -3.1056274188181745,
+            1.5710403975371854,
+            3.108240966155857,
+            "XYZ"
+          ],
+          "scale": [
+            7.679999999999996,
+            5.099999999999987,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "944036930458200_amber jewelry.jpg",
+            "id": 944036941333600,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "944036930458200_amber jewelry.jpg",
+                "id": 944036941333600
+              }
+            },
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 944037993210300
         }
       ],
       "hidden": null
@@ -18067,6 +18113,64 @@
           "id": 1297753866885100
         }
       }
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "Braccialetto Media",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "943891443907900_bracelet.mp4",
+        "id": 943891984225800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 943903989693500,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "943891443907900_bracelet.mp4",
+            "id": 943891984225800,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 943904010053400
+        }
+      ]
     }
   ],
   "menu": [
@@ -23426,6 +23530,41 @@
       "folder": "/uploads/",
       "file": "1378130577668000_scarpa_3.usdz",
       "id": 1378130592618100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "943891443907900_bracelet.mp4",
+      "id": 943891984225800,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "944036930458200_amber jewelry.jpg",
+      "id": 944036941333600,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "944036930458200_amber jewelry.jpg",
+          "id": 944036941333600
+        }
+      },
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
     }
   ],
   "users": [
