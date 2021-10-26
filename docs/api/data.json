@@ -18175,7 +18175,7 @@
             "file": "943891443907900_bracelet.mp4",
             "id": 943891984225800,
             "chromaKeyColor": null,
-            "autoplay": false,
+            "autoplay": true,
             "loop": false
           },
           "id": 943904010053400
@@ -18194,7 +18194,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1018076151648800_AdobeStock_326519034.jpeg",
+        "file": "1029647364543000_roomModel.jpg",
         "id": 1018070214715200
       },
       "orientation": {
@@ -18222,6 +18222,37 @@
           "id": 1018096827402800,
           "position": null,
           "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            0.8,
+            -2,
+            100
+          ],
+          "rotation": [
+            -3.1118593269618713,
+            -0.008239728002884215,
+            -3.1413475896206777,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            7,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1029714616556300
         }
       ],
       "hidden": null,
@@ -18428,6 +18459,13 @@
       "viewId": 1225083860206300,
       "name": "Scarpa_3",
       "order": 40
+    },
+    {
+      "id": 1029977975662000,
+      "parentId": 1226299343143300,
+      "viewId": 1018096800320100,
+      "name": "Gioiello",
+      "order": 50
     },
     {
       "id": 981627543856300,
@@ -22693,7 +22731,8 @@
       },
       "folder": "/uploads/",
       "file": "11978696195300_shoe2.glb",
-      "id": 11978710349100
+      "id": 11978710349100,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -23606,7 +23645,7 @@
       "file": "943891443907900_bracelet.mp4",
       "id": 943891984225800,
       "chromaKeyColor": null,
-      "autoplay": false,
+      "autoplay": true,
       "loop": false
     },
     {
@@ -23638,7 +23677,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1018076151648800_AdobeStock_326519034.jpeg",
+      "file": "1029647364543000_roomModel.jpg",
       "id": 1018070214715200
     },
     {
