@@ -6620,7 +6620,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1095774681316800_Room3D_3.jpg",
+        "file": "1029163514169300_room3D.jpg",
         "id": 1095774847884299
       },
       "orientation": {
@@ -6712,7 +6712,6 @@
             -0.8733115677094361
           ],
           "asset": null,
-          "link": null,
           "id": 6734179135500,
           "keepOrientation": null,
           "important": null,
@@ -6734,7 +6733,6 @@
             -0.322301662020049
           ],
           "asset": null,
-          "link": null,
           "id": 6868366425599,
           "keepOrientation": null,
           "important": null,
@@ -6757,7 +6755,6 @@
             -0.48155987548635726
           ],
           "asset": null,
-          "link": null,
           "id": 29643348226500,
           "important": null,
           "transparent": null,
@@ -6774,15 +6771,14 @@
           "viewId": 943903989693500,
           "keepOrientation": false,
           "position": [
-            -88.07164715976018,
-            -23.035628974623428,
-            41.38532063800157
+            -86.74057433656694,
+            -28.470432440706595,
+            40.8106265622285
           ],
           "asset": null,
-          "link": null,
           "id": 29652014201100,
           "important": null,
-          "transparent": null,
+          "transparent": true,
           "rotation": null,
           "scale": null
         },
@@ -6801,7 +6797,6 @@
             0.8709350595723026
           ],
           "asset": null,
-          "link": null,
           "id": 29660253661000,
           "important": null,
           "transparent": null,
@@ -6823,7 +6818,6 @@
             0.9939650778083485
           ],
           "asset": null,
-          "link": null,
           "id": 29674838502900,
           "important": null,
           "transparent": null,
@@ -6845,58 +6839,11 @@
             0.9702061408980993
           ],
           "asset": null,
-          "link": null,
           "id": 29683611740500,
           "important": null,
           "transparent": null,
           "rotation": null,
           "scale": null
-        },
-        {
-          "type": {
-            "id": 2,
-            "name": "plane"
-          },
-          "position": [
-            -18.665505149175733,
-            0.09076455532923006,
-            8.822763596241009
-          ],
-          "rotation": [
-            -3.1056274188181745,
-            1.5710403975371854,
-            3.108240966155857,
-            "XYZ"
-          ],
-          "scale": [
-            7.679999999999996,
-            5.099999999999987,
-            1
-          ],
-          "asset": {
-            "type": {
-              "id": 1,
-              "name": "image"
-            },
-            "folder": "/uploads/",
-            "file": "944036930458200_amber jewelry.jpg",
-            "id": 944036941333600,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 1,
-                  "name": "image"
-                },
-                "folder": "/uploads/",
-                "file": "944036930458200_amber jewelry.jpg",
-                "id": 944036941333600
-              }
-            },
-            "chromaKeyColor": null,
-            "autoplay": false,
-            "loop": false
-          },
-          "id": 944037993210300
         },
         {
           "type": {
@@ -6907,30 +6854,62 @@
           "abstract": null,
           "viewId": 1018096800320100,
           "keepOrientation": false,
-          "important": true,
-          "transparent": false,
+          "important": false,
+          "transparent": true,
           "position": [
-            -88.16649552538178,
-            22.510782450914917,
-            41.47208386638429
+            -100,
+            -20,
+            47
           ],
           "rotation": [
-            2.64429900403472,
-            1.0793790282357034,
-            -2.6952419692178475,
+            -1.6530483470290591,
+            1.3678851788125,
+            1.6547631650147585,
             "XYZ"
           ],
           "scale": [
-            20,
-            5,
+            25,
+            8,
             1
           ],
           "asset": null,
           "link": null,
-          "id": 1018650237328600
+          "id": 1029268428618700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 943903989693500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -95.49255739970548,
+            -30,
+            45
+          ],
+          "rotation": [
+            -1.4665616338036804,
+            1.2694089568709843,
+            1.4616796381709578,
+            "XYZ"
+          ],
+          "scale": [
+            22,
+            8,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1029437213327400
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -18219,8 +18198,8 @@
         "id": 1018070214715200
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 25.6,
+        "longitude": 19
       },
       "zoom": 75,
       "id": 1018096800320100,
@@ -18236,7 +18215,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "1018091971561300_gioiello2.glb",
+            "file": "1029526351222600_gioiello3.glb",
             "id": 1018092013576600,
             "chromaKeyColor": null
           },
@@ -18244,7 +18223,20 @@
           "position": null,
           "rotation": null
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": null,
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1029535278821900_gioiello3.glb",
+          "id": 1029535329143900
+        }
+      }
     }
   ],
   "menu": [
@@ -19035,7 +19027,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1095774681316800_Room3D_3.jpg",
+      "file": "1029163514169300_room3D.jpg",
       "id": 1095774847884299
     },
     {
@@ -23655,9 +23647,18 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "1018091971561300_gioiello2.glb",
+      "file": "1029526351222600_gioiello3.glb",
       "id": 1018092013576600,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1029535278821900_gioiello3.glb",
+      "id": 1029535329143900
     }
   ],
   "users": [
