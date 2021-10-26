@@ -6897,6 +6897,37 @@
             "loop": false
           },
           "id": 944037993210300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 1018096800320100,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -88.16649552538178,
+            22.510782450914917,
+            41.47208386638429
+          ],
+          "rotation": [
+            2.64429900403472,
+            1.0793790282357034,
+            -2.6952419692178475,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 1018650237328600
         }
       ],
       "hidden": null
@@ -18171,6 +18202,49 @@
           "id": 943904010053400
         }
       ]
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Gioiello",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1018076151648800_AdobeStock_326519034.jpeg",
+        "id": 1018070214715200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 1018096800320100,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "1018091971561300_gioiello2.glb",
+            "id": 1018092013576600,
+            "chromaKeyColor": null
+          },
+          "id": 1018096827402800,
+          "position": null,
+          "rotation": null
+        }
+      ]
     }
   ],
   "menu": [
@@ -23565,6 +23639,25 @@
       "chromaKeyColor": null,
       "autoplay": false,
       "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1018076151648800_AdobeStock_326519034.jpeg",
+      "id": 1018070214715200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1018091971561300_gioiello2.glb",
+      "id": 1018092013576600,
+      "chromaKeyColor": null
     }
   ],
   "users": [
