@@ -1602,15 +1602,15 @@
           "abstract": null,
           "viewId": 500899039104600,
           "position": [
-            0.9538766399264712,
-            -0.2852269050701587,
-            -0.0936214100870307
+            95.73574754774276,
+            -26.37249783609736,
+            -11.796524884893216
           ],
           "asset": null,
           "link": null,
           "id": 501197349638899,
           "keepOrientation": null,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -1714,9 +1714,9 @@
           "abstract": null,
           "viewId": 500962302922799,
           "position": [
-            -32.06533378003012,
-            -7.038025945201848,
-            -94.4578242411391
+            -31.098562426759536,
+            -5.508453845647339,
+            -94.8816966080356
           ],
           "asset": null,
           "link": null,
@@ -1986,7 +1986,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501338253452300
+          "id": 501338253452300,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2007,7 +2012,12 @@
             "href": "https://www.websolute.com/realta_virtuale_e_aumentata",
             "target": "_blank"
           },
-          "id": 518394939260499
+          "id": 518394939260499,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2034,7 +2044,11 @@
           },
           "link": null,
           "id": 34504304464800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2061,7 +2075,11 @@
           },
           "link": null,
           "id": 34719730487100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2088,7 +2106,11 @@
           },
           "link": null,
           "id": 34833240600699,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2115,7 +2137,11 @@
           },
           "link": null,
           "id": 35056582710800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2132,7 +2158,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 35124470945700
+          "id": 35124470945700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2149,7 +2180,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290876182200000
+          "id": 290876182200000,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2166,7 +2202,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290884394177500
+          "id": 290884394177500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2183,7 +2224,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290890922969800
+          "id": 290890922969800,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2200,7 +2246,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290896308508900
+          "id": 290896308508900,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2217,7 +2268,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290903002967200
+          "id": 290903002967200,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2234,7 +2290,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290921275543199
+          "id": 290921275543199,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2251,7 +2312,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290926384207700
+          "id": 290926384207700,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2268,7 +2334,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290932114521999
+          "id": 290932114521999,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2285,7 +2356,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290938932516800
+          "id": 290938932516800,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2302,7 +2378,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290945357374899
+          "id": 290945357374899,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -2319,7 +2400,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 290951060042300
+          "id": 290951060042300,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -3437,7 +3523,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 501423493764399
+          "id": 501423493764399,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3459,7 +3550,11 @@
             "target": "_blank"
           },
           "id": 518394939260499,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3486,7 +3581,11 @@
           },
           "link": null,
           "id": 34504304464800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3513,7 +3612,11 @@
           },
           "link": null,
           "id": 34719730487100,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3540,7 +3643,11 @@
           },
           "link": null,
           "id": 34833240600699,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3567,7 +3674,11 @@
           },
           "link": null,
           "id": 35056582710800,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3585,7 +3696,11 @@
           "asset": null,
           "link": null,
           "id": 35124470945700,
-          "keepOrientation": null
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3602,7 +3717,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291171871333799
+          "id": 291171871333799,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3619,7 +3739,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291178975165999
+          "id": 291178975165999,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3636,7 +3761,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291185329693600
+          "id": 291185329693600,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3653,7 +3783,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291190981349200
+          "id": 291190981349200,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3670,7 +3805,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291200979606800
+          "id": 291200979606800,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3687,7 +3827,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291208366236300
+          "id": 291208366236300,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3704,7 +3849,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291219613198400
+          "id": 291219613198400,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3721,7 +3871,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291226309865699
+          "id": 291226309865699,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3738,7 +3893,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291232623452500
+          "id": 291232623452500,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -3755,7 +3915,12 @@
           ],
           "asset": null,
           "link": null,
-          "id": 291238538102699
+          "id": 291238538102699,
+          "keepOrientation": null,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
