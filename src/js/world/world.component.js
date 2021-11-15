@@ -103,10 +103,6 @@ export default class WorldComponent extends Component {
 		return this.locked || this.renderer.xr.isPresenting;
 	}
 
-	get showMenu() {
-		return StateService.state.hosted && StateService.state.navigable && (StateService.state.mode !== 'embed' || environment.flags.menuEmbed);
-	}
-
 	get showPointer() {
 		return this.pointer.mesh.parent != null;
 	}
@@ -243,33 +239,22 @@ export default class WorldComponent extends Component {
 		const indicator = this.indicator = new PointerElement();
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
-		const mainLight = new THREE.PointLight(0xffffff);
+		const mainLight = new THREE.PointLight(0xffffff, 1);
 		mainLight.position.set(-50, 0, -50);
 		objects.add(mainLight);
 
-		/*const light2 = new THREE.DirectionalLight(0xffe699, 5);
-		light2.position.set(5, -5, 5);*/
-		const light2 = new THREE.DirectionalLight(0xffe699, 1.5);
+		const light2 = new THREE.DirectionalLight(0xffffff, 1);
 		light2.position.set(40, -40, 40);
 		light2.target.position.set(0, 0, 0);
 		objects.add(light2);
 
-		const light3 = new THREE.DirectionalLight(0xffe699, 1);
+		const light3 = new THREE.DirectionalLight(0xffffff, 0.5);
 		light3.position.set(0, 50, 0);
 		light3.target.position.set(0, 0, 0);
 		objects.add(light3);
 
-		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
-		objects.add(ambient);
-
-		/*
-		const light = new THREE.AmbientLight(0x101010);
-		
-		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
-		direct.position.set(-40, -40, -40);
-		direct.target.position.set(0, 0, 0);
-		objects.add(direct);
-		*/
+		/*const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+		objects.add(ambient);*/
 
 		this.addControllers();
 		this.resize();
