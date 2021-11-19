@@ -28539,6 +28539,31 @@
           "id": 334592318983100
         }
       }
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "room-3d"
+      },
+      "name": "Frau Room",
+      "asset": {
+        "type": {
+          "id": 3,
+          "name": "model"
+        },
+        "folder": "/uploads/",
+        "file": "194065089851300_frau-map-export.glb",
+        "id": 193655414609900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 193662481119900,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -28863,6 +28888,13 @@
       "viewId": 348602483606200,
       "name": "3D - Navigation",
       "order": 50
+    },
+    {
+      "id": 194208333074100,
+      "parentId": 513904544668199,
+      "viewId": 193662481119900,
+      "name": "3D - Room",
+      "order": 60
     },
     {
       "id": 513946905350299,
@@ -33952,6 +33984,15 @@
       "folder": "/uploads/",
       "file": "334592291944700_test1.glb",
       "id": 334592318983100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "194065089851300_frau-map-export.glb",
+      "id": 193655414609900
     }
   ],
   "users": [
