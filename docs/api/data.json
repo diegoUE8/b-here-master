@@ -1280,9 +1280,9 @@
           "important": false,
           "transparent": false,
           "position": [
-            -94.27311904705373,
-            -5.035158173805566,
-            32.97311340023562
+            -59.322267185325316,
+            -26.31339467001966,
+            76.08202072061871
           ],
           "rotation": [
             -3.0690622491207047,
@@ -1297,6 +1297,130 @@
           ],
           "asset": null,
           "id": 83676661656900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -97.78278143287575,
+            -20.9383219127203,
+            -0.3381282740980721
+          ],
+          "rotation": [
+            -2.667110147039349,
+            0.8511389272381537,
+            2.772989619710595,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 851986842261100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 110610912309100,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -80.23638296944758,
+            -29.839223164932076,
+            -51.68891185635004
+          ],
+          "rotation": [
+            -0.5235496726292834,
+            0.931245346763009,
+            0.43377044359171596,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 852060909154800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "ciao",
+          "viewId": 109846827954600,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -92.50154302745518,
+            -21.578324756702834,
+            31.270440326834553
+          ],
+          "rotation": [
+            -2.582657869069264,
+            1.1924380527163607,
+            2.6150898533045295,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 852459750684100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 171614879255300,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -94.3308291569139,
+            -28.692349404315102,
+            -16.68663405932486
+          ],
+          "rotation": [
+            -1.0440378998669448,
+            1.2324603538198577,
+            1.0183163810481068,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 852476796106400
         }
       ],
       "hidden": null,
@@ -1304,6 +1428,7 @@
     }
   ],
   "menu": [],
+  "navmaps": [],
   "assets": [
     {
       "type": {
