@@ -55,20 +55,9 @@ export default class AgoraService extends Emittable {
 		});
 	}
 
-	/*
-	getInitialStatus(role, link, name) {
-		if (!link) {
-			return AgoraStatus.Link;
-		}
-		if (!name) {
-			return AgoraStatus.Name;
-		}
-		if (role !== RoleType.Viewer && role !== RoleType.SmartDevice) {
-			return AgoraStatus.Device;
-		}
-		return AgoraStatus.ShouldConnect;
+	get isAudienceRole() {
+		return StateService.state.role === RoleType.Viewer || StateService.state.role === RoleType.SelfService;
 	}
-	*/
 
 	addStreamDevice(src) {
 		this.removeStreamDevice();
@@ -242,7 +231,7 @@ export default class AgoraService extends Emittable {
 				this.client = null;
 			});
 		}
-		if (StateService.state.role === RoleType.Viewer) {
+		if (this.isAudienceRole) {
 			client.setClientRole('audience', function(error) {
 				if (!error) {
 					clientInit();
@@ -331,7 +320,7 @@ export default class AgoraService extends Emittable {
 					// console.log('AgoraService.rtmToken$', token);
 					this.joinMessageChannel(token.token, uid).then((success) => {
 						// console.log('joinMessageChannel.success', success);
-						if (StateService.state.role !== RoleType.Viewer) {
+						if (!this.isAudienceRole) {
 							this.autoDetectDevice().then(devices => {
 								this.createMediaStream(uid, devices.video, devices.audio);
 							});
@@ -342,7 +331,7 @@ export default class AgoraService extends Emittable {
 					});
 				});
 			} else {
-				if (StateService.state.role !== RoleType.Viewer) {
+				if (!this.isAudienceRole) {
 					this.autoDetectDevice().then(devices => {
 						this.createMediaStream(uid, devices.video, devices.audio);
 					});
@@ -373,6 +362,11 @@ export default class AgoraService extends Emittable {
 				this.emit('channel', channel);
 				// console.log('AgoraService.joinMessageChannel.success');
 				resolve(uid);
+				channel.getMembers().then(members => {
+					members = members.filter(x => x !== uid.toString());
+					const message = { type: MessageType.ChannelMembers, members };
+					this.broadcastMessage(message);
+				});
 			}).catch(reject);
 		});
 	}
@@ -553,43 +547,16 @@ export default class AgoraService extends Emittable {
 		});
 	}
 
+	// If you prefer video smoothness to sharpness, use setVideoProfile
+	// to set the video resolution and Agora self-adapts the video bitrate according to the network condition.
+	// If you prefer video sharpness to smoothness, use setVideoEncoderConfiguration,
+	// and set min in bitrate as 0.4 - 0.5 times the bitrate value in the video profile table.
 	createLocalStreamWithOptions(options, quality) {
-		/*
-		const getUserMedia = navigator.mediaDevices.getUserMedia;
-		navigator.mediaDevices.getUserMedia = function(options) {
-			if (options.video) {
-				options.video.width = { ideal: 4096 };
-				options.video.height = { ideal: 2160 };
-				// console.log('getUserMedia', options.video.width.ideal, options.video.height.ideal);
-			}
-			// console.log('getUserMedia', options);
-			return getUserMedia.call(navigator.mediaDevices, options);
-		}
-		*/
 		const local = AgoraRTC.createStream(options);
-		/*
-		// force video quality
-		quality = {
-			resolution: {
-				width: 1920,
-				height: 1080
-			},
-			frameRate: {
-				min: 30,
-				max: 30
-			},
-			bitrate: {
-				min: 2000,
-				max: 4000
-			}
-		};
-		*/
-
 		if (quality) {
 			local.setVideoProfile(quality.profile);
-			local.setVideoEncoderConfiguration(quality);
+			// local.setVideoEncoderConfiguration(quality);
 		}
-
 		// console.log('AgoraService.createLocalStreamWithOptions', options, quality, local.attributes);
 		local.init(() => {
 			StreamService.local = local;
@@ -874,6 +841,7 @@ export default class AgoraService extends Emittable {
 						const state = { hosted: true };
 						if (message.clientInfo.controllingId) {
 							state.controlling = message.clientInfo.controllingId;
+							state.mode = message.clientInfo.mode;
 							this.sendControlRemoteRequestInfo(message.clientInfo.controllingId);
 						}
 						StateService.patchState(state);
@@ -1270,7 +1238,11 @@ export default class AgoraService extends Emittable {
 			if (remote.clientInfo) {
 				// !!! remove screenRemote?
 				if (remote.clientInfo.role === RoleType.Publisher) {
-					StateService.patchState({ hosted: false, controlling: false, spying: false, silencing: false });
+					if (StateService.state.role === RoleType.SelfService) {
+						StateService.patchState({ hosted: true, controlling: false, spying: false, silencing: false });
+					} else {
+						StateService.patchState({ hosted: false, controlling: false, spying: false, silencing: false });
+					}
 				} else {
 					if (StateService.state.controlling === remoteId) {
 						StateService.patchState({ controlling: false });
@@ -1458,7 +1430,9 @@ export default class AgoraService extends Emittable {
 			streamID: screenUid,
 			audio: false,
 			video: false,
-			screen: true
+			screen: true,
+			// extensionId: 'minllpmhdgpndnkomcoccfekfegnlikg', // Google Chrome:
+			// mediaSource:  'screen', // Firefox: 'screen', 'application', 'window' (select one)
 		}
 		/*
 		// Set relevant properties according to the browser.
@@ -1469,17 +1443,25 @@ export default class AgoraService extends Emittable {
 			options.extensionId = 'minllpmhdgpndnkomcoccfekfegnlikg';
 		}
 		*/
-		const quality = Object.assign({}, StateService.state.quality);
 		const stream = AgoraRTC.createStream(options);
+
+		/*
+		const quality = Object.assign({}, StateService.state.quality);
+		console.log('AgoraService.createScreenStream', quality);
 		if (quality) {
-			stream.setScreenProfile('720p_1');
 			// stream.setVideoProfile(quality.profile);
 			// stream.setVideoEncoderConfiguration(quality);
 		}
-		console.log('AgoraService.createScreenStream', screenUid, options, quality);
+		*/
+
+		stream.setScreenProfile(environment.profiles.screen);
+
+		console.log('AgoraService.createScreenStream', options);
+
 		const onStopScreenSharing = () => {
 			this.unpublishScreenStream();
 		};
+
 		// Initialize the stream.
 		stream.init(() => {
 			StreamService.screen = stream;

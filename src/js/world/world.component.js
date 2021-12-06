@@ -264,7 +264,7 @@ export default class WorldComponent extends Component {
 
 		/*
 		const light = new THREE.AmbientLight(0x101010);
-		
+
 		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
 		direct.position.set(-40, -40, -40);
 		direct.target.position.set(0, 0, 0);
@@ -343,6 +343,9 @@ export default class WorldComponent extends Component {
 	}
 
 	setView() {
+		if (!this.renderer) {
+			return;
+		}
 		if (!this.panorama) {
 			return;
 		}
@@ -363,9 +366,13 @@ export default class WorldComponent extends Component {
 			if (view.type.name === ViewType.Room3d.name) {
 				this.renderer.setClearColor(0x000000, 1);
 				this.objects.remove(this.panorama.mesh);
+				this.ambient.visible = false;
+				this.direct.visible = false;
 			} else {
 				this.renderer.setClearColor(0x000000, 1);
 				this.objects.add(this.panorama.mesh);
+				this.ambient.visible = true;
+				this.direct.visible = true;
 			}
 			// this.loading = LOADING_BANNER;
 			// this.waiting = null;
@@ -379,7 +386,11 @@ export default class WorldComponent extends Component {
 					this.onViewAssetDidChange();
 				};
 				// this.waiting = (view && view.type.name === 'waiting-room') ? WAITING_BANNER : null;
-				this.pushChanges();
+				const context = getContext(this);
+				console.log('WorldCompoent.setView.context', context);
+				if (context) {
+					this.pushChanges();
+				}
 			}, (view) => {
 				this.setViewOrientation(view);
 				PrefetchService.prefetch(view.prefetchAssets);
@@ -1316,6 +1327,7 @@ export default class WorldComponent extends Component {
 							}
 						}
 					});
+					StateService.patchState({ zoomedId: message.itemId });
 					break;
 				}
 				case MessageType.CurrentTimeMedia: {

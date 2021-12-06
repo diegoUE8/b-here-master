@@ -7,7 +7,7 @@
         "name": "waiting-room"
       },
       "name": "Waiting Room",
-      "likes": 0,
+      "likes": 40,
       "liked": false,
       "asset": {
         "type": {
@@ -30,7 +30,7 @@
         "name": "panorama"
       },
       "name": "Welcome Room",
-      "likes": 0,
+      "likes": 134,
       "liked": false,
       "asset": {
         "type": {
@@ -46,24 +46,6 @@
       },
       "zoom": 75,
       "items": []
-    }
-  ],
-  "users": [
-    {
-      "id": "1601892639985",
-      "username": "publisher",
-      "password": "publisher",
-      "type": "publisher",
-      "firstName": "Publisher",
-      "lastName": ""
-    },
-    {
-      "id": "1601892639986",
-      "username": "attendee",
-      "password": "attendee",
-      "type": "attendee",
-      "firstName": "Attendee",
-      "lastName": ""
     }
   ]
 }
