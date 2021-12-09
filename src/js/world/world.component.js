@@ -243,33 +243,26 @@ export default class WorldComponent extends Component {
 		const indicator = this.indicator = new PointerElement();
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
+		/*
 		const mainLight = new THREE.PointLight(0xffffff);
 		mainLight.position.set(-50, 0, -50);
 		objects.add(mainLight);
 
-		/*const light2 = new THREE.DirectionalLight(0xffe699, 5);
-		light2.position.set(5, -5, 5);*/
-		const light2 = new THREE.DirectionalLight(0xffe699, 1.5);
-		light2.position.set(40, -40, 40);
+		const light2 = new THREE.DirectionalLight(0xffe699, 5);
+		light2.position.set(5, -5, 5);
 		light2.target.position.set(0, 0, 0);
 		objects.add(light2);
 
-		const light3 = new THREE.DirectionalLight(0xffe699, 1);
-		light3.position.set(0, 50, 0);
-		light3.target.position.set(0, 0, 0);
-		objects.add(light3);
+		const light = new THREE.AmbientLight(0x101010);
+		*/
 
 		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
 		objects.add(ambient);
-
-		/*
-		const light = new THREE.AmbientLight(0x101010);
 
 		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
 		direct.position.set(-40, -40, -40);
 		direct.target.position.set(0, 0, 0);
 		objects.add(direct);
-		*/
 
 		this.addControllers();
 		this.resize();
@@ -387,7 +380,7 @@ export default class WorldComponent extends Component {
 				};
 				// this.waiting = (view && view.type.name === 'waiting-room') ? WAITING_BANNER : null;
 				const context = getContext(this);
-				console.log('WorldCompoent.setView.context', context);
+				// console.log('WorldCompoent.setView.context', context);
 				if (context) {
 					this.pushChanges();
 				}
@@ -1062,6 +1055,9 @@ export default class WorldComponent extends Component {
 			// this.menu.removeMenu();
 		}
 		this.view.items.forEach(item => item.showPanel = false);
+		if (nav.item.to) {
+			clearTimeout(nav.item.to);
+		}
 		nav.item.showPanel = nav.shouldShowPanel();
 		this.pushChanges();
 		MessageService.send({
@@ -1073,6 +1069,10 @@ export default class WorldComponent extends Component {
 	onNavOut(nav) {
 		// console.log('WorldComponent.onNavOut', nav);
 		// nav.item.showPanel = false;
+		nav.item.to = setTimeout(() => {
+			nav.item.showPanel = false;
+			this.pushChanges();
+		}, 4000);
 		this.pushChanges();
 	}
 
