@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "gulpfile-config": "1.0.0-alpha.14",
+    "node-sass": "^7.0.0",
     "selenium-webdriver": "4.0.0-beta.1"
   }
 }

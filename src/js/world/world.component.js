@@ -103,6 +103,10 @@ export default class WorldComponent extends Component {
 		return this.locked || this.renderer.xr.isPresenting;
 	}
 
+	get showMenu() {
+		return StateService.state.hosted && StateService.state.navigable && (StateService.state.mode !== 'embed' || environment.flags.menuEmbed);
+	}
+
 	get showPointer() {
 		return this.pointer.mesh.parent != null;
 	}
@@ -239,22 +243,22 @@ export default class WorldComponent extends Component {
 		const indicator = this.indicator = new PointerElement();
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
-		const mainLight = new THREE.PointLight(0xffffff);
-		mainLight.position.set(-50, 0, -50);
-		objects.add(mainLight);
+		const direct1 = new THREE.PointLight(0xffffff);
+		direct1.position.set(-50, 0, -50);
+		objects.add(direct1);
 
-		const light2 = new THREE.DirectionalLight(0xffe699, 1.5);
-		light2.position.set(40, -40, 40);
-		light2.target.position.set(0, 0, 0);
-		objects.add(light2);
+		const direct3 = new THREE.DirectionalLight(0xffe699, 1);
+		direct3.position.set(0, 50, 0);
+		direct3.target.position.set(0, 0, 0);
+		objects.add(direct3);
 
-		const light3 = new THREE.DirectionalLight(0xffe699, 1);
-		light3.position.set(0, 50, 0);
-		light3.target.position.set(0, 0, 0);
-		objects.add(light3);
-
-		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
 		objects.add(ambient);
+
+		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
+		direct.position.set(5, -5, 5);
+		direct.target.position.set(0, 0, 0);
+		objects.add(direct);
 
 		this.addControllers();
 		this.resize();
@@ -328,6 +332,9 @@ export default class WorldComponent extends Component {
 	}
 
 	setView() {
+		if (!this.renderer) {
+			return;
+		}
 		if (!this.panorama) {
 			return;
 		}
@@ -348,9 +355,13 @@ export default class WorldComponent extends Component {
 			if (view.type.name === ViewType.Room3d.name) {
 				this.renderer.setClearColor(0x000000, 1);
 				this.objects.remove(this.panorama.mesh);
+				this.ambient.visible = false;
+				this.direct.visible = false;
 			} else {
 				this.renderer.setClearColor(0x000000, 1);
 				this.objects.add(this.panorama.mesh);
+				this.ambient.visible = true;
+				this.direct.visible = true;
 			}
 			// this.loading = LOADING_BANNER;
 			// this.waiting = null;
@@ -364,7 +375,11 @@ export default class WorldComponent extends Component {
 					this.onViewAssetDidChange();
 				};
 				// this.waiting = (view && view.type.name === 'waiting-room') ? WAITING_BANNER : null;
-				this.pushChanges();
+				const context = getContext(this);
+				// console.log('WorldCompoent.setView.context', context);
+				if (context) {
+					this.pushChanges();
+				}
 			}, (view) => {
 				this.setViewOrientation(view);
 				PrefetchService.prefetch(view.prefetchAssets);
@@ -1036,6 +1051,9 @@ export default class WorldComponent extends Component {
 			// this.menu.removeMenu();
 		}
 		this.view.items.forEach(item => item.showPanel = false);
+		if (nav.item.to) {
+			clearTimeout(nav.item.to);
+		}
 		nav.item.showPanel = nav.shouldShowPanel();
 		this.pushChanges();
 		MessageService.send({
@@ -1047,6 +1065,10 @@ export default class WorldComponent extends Component {
 	onNavOut(nav) {
 		// console.log('WorldComponent.onNavOut', nav);
 		// nav.item.showPanel = false;
+		nav.item.to = setTimeout(() => {
+			nav.item.showPanel = false;
+			this.pushChanges();
+		}, 4000);
 		this.pushChanges();
 	}
 
@@ -1301,6 +1323,7 @@ export default class WorldComponent extends Component {
 							}
 						}
 					});
+					StateService.patchState({ zoomedId: message.itemId });
 					break;
 				}
 				case MessageType.CurrentTimeMedia: {

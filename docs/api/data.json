@@ -1280,9 +1280,9 @@
           "important": false,
           "transparent": false,
           "position": [
-            -59.322267185325316,
-            -26.31339467001966,
-            76.08202072061871
+            -61.39972257126545,
+            -26.285746695256286,
+            74.42535581940109
           ],
           "rotation": [
             -3.0690622491207047,
@@ -1341,9 +1341,9 @@
           "important": false,
           "transparent": false,
           "position": [
-            -80.23638296944758,
-            -29.839223164932076,
-            -51.68891185635004
+            -88.23252100141733,
+            -27.688782189357948,
+            -38.057240817021174
           ],
           "rotation": [
             -0.5235496726292834,
@@ -1366,15 +1366,15 @@
             "name": "nav"
           },
           "title": null,
-          "abstract": "ciao",
+          "abstract": "Go",
           "viewId": 109846827954600,
           "keepOrientation": false,
-          "important": true,
+          "important": false,
           "transparent": false,
           "position": [
-            -92.50154302745518,
-            -21.578324756702834,
-            31.270440326834553
+            -92.24632027090973,
+            -12.414249412359354,
+            33.726885536682545
           ],
           "rotation": [
             -2.582657869069264,
@@ -1403,9 +1403,9 @@
           "important": true,
           "transparent": false,
           "position": [
-            -94.3308291569139,
-            -28.692349404315102,
-            -16.68663405932486
+            -99.8957743752078,
+            -4.531281516177079,
+            0.5493175754813262
           ],
           "rotation": [
             -1.0440378998669448,
@@ -1421,6 +1421,223 @@
           "asset": null,
           "link": null,
           "id": 852476796106400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Info ",
+          "abstract": "normal",
+          "viewId": 83662636516400,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -85.2048857048823,
+            -13.19857001792966,
+            -50.654962259385336
+          ],
+          "rotation": [
+            -0.468212303328445,
+            1.117358201423142,
+            0.42668446308651686,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258455853837600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Info",
+          "abstract": "Important",
+          "viewId": 83662636516400,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -81.70941982980479,
+            -13.377227277675019,
+            -56.07691594085868
+          ],
+          "rotation": [
+            -0.3924785776559338,
+            1.0326302122667927,
+            0.34151531380140626,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258475374420100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -81.63245572788115,
+            -9.879978313550705,
+            56.908067972470256
+          ],
+          "rotation": [
+            -2.969693124347073,
+            0.9550187271680438,
+            3.000805739704813,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258608635814100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": true,
+          "position": [
+            -80.12498077783479,
+            2.954730136746717,
+            59.759995190516946
+          ],
+          "rotation": [
+            3.092189605540284,
+            0.9293811331718556,
+            -3.101996941480825,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258618882474300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Go",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -94.05364134846899,
+            1.5310224157700296,
+            33.934768592933914
+          ],
+          "rotation": [
+            -3.0233897224377833,
+            1.221912420887825,
+            3.0304505303988707,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258653176132600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Go",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -94.26348927057686,
+            1.5068790830005065,
+            -33.34852179580165
+          ],
+          "rotation": [
+            -0.091610559181745,
+            1.2274926650014268,
+            0.08629219275763522,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258671985923300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": "Go",
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -93.52960473771807,
+            -11.973162451972732,
+            -33.299495769529216
+          ],
+          "rotation": [
+            -0.34516589462304426,
+            1.2090947498621958,
+            0.3244136167816665,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 258687595814600
         }
       ],
       "hidden": null,
