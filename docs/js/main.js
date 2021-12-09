@@ -20125,21 +20125,17 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    /*
-    const mainLight = new THREE.PointLight(0xffffff);
-    mainLight.position.set(-50, 0, -50);
-    objects.add(mainLight);
-    		const light2 = new THREE.DirectionalLight(0xffe699, 5);
-    light2.position.set(5, -5, 5);
-    light2.target.position.set(0, 0, 0);
-    objects.add(light2);
-    		const light = new THREE.AmbientLight(0x101010);
-    */
-
-    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
+    var direct1 = new THREE.PointLight(0xffffff);
+    direct1.position.set(-50, 0, -50);
+    objects.add(direct1);
+    var direct3 = new THREE.DirectionalLight(0xffe699, 1);
+    direct3.position.set(0, 50, 0);
+    direct3.target.position.set(0, 0, 0);
+    objects.add(direct3);
+    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
     objects.add(ambient);
-    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
-    direct.position.set(-40, -40, -40);
+    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
+    direct.position.set(5, -5, 5);
     direct.target.position.set(0, 0, 0);
     objects.add(direct);
     this.addControllers();
