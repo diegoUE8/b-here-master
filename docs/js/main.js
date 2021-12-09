@@ -200,8 +200,8 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#c20e19',
-    menuOverForeground: '#ffffff',
+    menuOverBackground: '#ffffff',
+    menuOverForeground: '#c20e19',
     menuBackBackground: '#c20e19',
     menuBackForeground: '#000000',
     menuBackOverBackground: '#c20e19',
@@ -329,8 +329,8 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#c20e19',
-    menuOverForeground: '#ffffff',
+    menuOverBackground: '#ffffff',
+    menuOverForeground: '#c20e19',
     menuBackBackground: '#c20e19',
     menuBackForeground: '#000000',
     menuBackOverBackground: '#c20e19',
@@ -471,8 +471,8 @@ var defaultOptions = {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#c20e19',
-    menuOverForeground: '#ffffff',
+    menuOverBackground: '#ffffff',
+    menuOverForeground: '#c20e19',
     menuBackBackground: '#c20e19',
     menuBackForeground: '#000000',
     menuBackOverBackground: '#c20e19',
