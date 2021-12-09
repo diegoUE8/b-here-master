@@ -1489,68 +1489,6 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
-          "abstract": null,
-          "viewId": 170427763402500,
-          "keepOrientation": false,
-          "important": false,
-          "transparent": true,
-          "position": [
-            -81.63245572788115,
-            -9.879978313550705,
-            56.908067972470256
-          ],
-          "rotation": [
-            -2.969693124347073,
-            0.9550187271680438,
-            3.000805739704813,
-            "XYZ"
-          ],
-          "scale": [
-            20,
-            5,
-            1
-          ],
-          "asset": null,
-          "link": null,
-          "id": 258608635814100
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 170427763402500,
-          "keepOrientation": false,
-          "important": true,
-          "transparent": true,
-          "position": [
-            -80.12498077783479,
-            2.954730136746717,
-            59.759995190516946
-          ],
-          "rotation": [
-            3.092189605540284,
-            0.9293811331718556,
-            -3.101996941480825,
-            "XYZ"
-          ],
-          "scale": [
-            20,
-            5,
-            1
-          ],
-          "asset": null,
-          "link": null,
-          "id": 258618882474300
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
           "title": "Go",
           "abstract": null,
           "viewId": 170427763402500,
@@ -1642,10 +1580,255 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "271556775059600_100.jpg",
+        "id": 271556794476400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 271564372704700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            99.51405169092935,
+            -9.822896246223136,
+            0.681340877223364
+          ],
+          "rotation": [
+            -1.6400479328053776,
+            -1.4721715432813829,
+            -1.6403850150943582,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 271617602618800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            42.901390423845456,
+            -6.982752028799674,
+            -90.05949074808872
+          ],
+          "rotation": [
+            -0.0773800694135224,
+            -0.4434008318095616,
+            -0.03325128247739284,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 271633273649000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            42.399779765992974,
+            -5.918952730426653,
+            90.37269872240324
+          ],
+          "rotation": [
+            -3.0761911413304373,
+            -0.4378550036459797,
+            -3.1138300864422335,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 271643304043400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            98.59002355099068,
+            -9.068960472681018,
+            14.062759763291636
+          ],
+          "rotation": [
+            -2.568816719515817,
+            -1.4026712332959195,
+            -2.575265342464305,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 271672138180800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            52.09466806816941,
+            -6.236376109858497,
+            85.1308003714498
+          ],
+          "rotation": [
+            -3.068466875046839,
+            -0.5479596346918909,
+            -3.1034484846909076,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 271684948483700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 170427763402500,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            50.24317679892236,
+            -6.6125364593772105,
+            -86.20845403280141
+          ],
+          "rotation": [
+            -0.07655413630584751,
+            -0.5264090229111273,
+            -0.03851948257441061,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 271696226624000
+        }
+      ]
     }
   ],
   "menu": [],
-  "navmaps": [],
+  "navmaps": [
+    {
+      "name": "Showroom",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "271724977923700_Piantina showroom_3.png",
+        "id": 271724987661800
+      },
+      "id": 271732988283500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 271564372704700,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            0.4981250286102295,
+            0.7713541825612386,
+            0
+          ],
+          "asset": null,
+          "id": 271748638831600
+        }
+      ]
+    }
+  ],
   "assets": [
     {
       "type": {
@@ -1881,6 +2064,24 @@
       "folder": "/uploads/",
       "file": "83654350607100_CONFERENCE ROOM_01.jpg",
       "id": 83654376256400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "271556775059600_100.jpg",
+      "id": 271556794476400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "271724977923700_Piantina showroom_3.png",
+      "id": 271724987661800
     }
   ],
   "users": [
