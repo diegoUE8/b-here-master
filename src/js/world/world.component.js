@@ -1323,7 +1323,7 @@ export default class WorldComponent extends Component {
 							}
 						}
 					});
-					StateService.patchState({ zoomedId: message.itemId });
+					StateService.patchState({ zoomedId: message.zoomed ? message.itemId : null });
 					break;
 				}
 				case MessageType.CurrentTimeMedia: {

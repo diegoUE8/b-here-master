@@ -172,11 +172,11 @@ export default class ModelNavComponent extends ModelEditableComponent {
 	}
 
 	get iconMinScale() {
-		return (environment.navs.iconMinScale || 1) * 0.04;
+		return (environment.navs.iconMinScale || 1) * 0.03;
 	}
 
 	get iconMaxScale() {
-		return (environment.navs.iconMaxScale || 1.5) * 0.04;
+		return (environment.navs.iconMaxScale || 1.5) * 0.03;
 	}
 
 	shouldShowPanel() {
@@ -184,9 +184,13 @@ export default class ModelNavComponent extends ModelEditableComponent {
 	}
 
 	updateVisibility(visible) {
-		this.mesh.visible = visible;
-		this.sphere.freezed = !visible;
-		if (!visible) {
+		if (this.mesh) {
+			this.mesh.visible = visible;
+		}
+		if (this.sphere) {
+			this.sphere.freezed = !visible;
+		}
+		if (!visible && this.item) {
 			this.item.showPanel = false;
 		}
 	}
