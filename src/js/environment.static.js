@@ -2,6 +2,14 @@
 export const environmentStatic = {
 	appKey: '865af1430a854af5b01733ff9b725a2b',
 	channelName: 'BHere',
+	/*
+	webhook: {
+		uris: ['internal'],
+		methods: [
+			'ToggleWishlist',
+		],
+	},
+	*/
 	flags: {
 		production: false,
 		useProxy: false,
@@ -17,13 +25,14 @@ export const environmentStatic = {
 		ar: true,
 		like: true,
 		hideNavInfo: true,
+		useIframe: true,
 		attendee: true,
 		streamer: true,
 		viewer: true,
 		smartDevice: true,
 		selfServiceProposition: false,
-		navInfoAnimated: false,
-		navInfoImportantAnimated: false,
+		navInfoAnimated: true,
+		navInfoImportantAnimated: true,
 		navMoveAnimated: true,
 		navMoveImportantAnimated: true,
 		navPointAnimated: false,
@@ -35,8 +44,8 @@ export const environmentStatic = {
 		// maxQuality: false,
 	},
 	navs: {
-		iconMinScale: 1,
-		iconMaxScale: 1.4,
+		iconMinScale: 1.2,
+		iconMaxScale: 1.6,
 	},
 	profiles: {
 		// streamer: "480p_1", // 640 x 480 x 15

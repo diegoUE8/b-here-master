@@ -115,9 +115,8 @@ img {
   display: none; }
 
 [unselectable] {
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-touch-callout: none; }
 
 ::selection {
@@ -136,6 +135,11 @@ body {
   @media (max-width: 767.98px) {
     body {
       font-size: var(--font-size-xs); } }
+
+.app {
+  font-family: var(--font-primary);
+  background: var(--background);
+  color: var(--foreground); }
 
 b,
 strong {
@@ -198,8 +202,7 @@ button, .btn--heart, .btn--close, .btn--logo, .btn--credits, .agora-stream .btn-
   border: none;
   outline: none;
   background: none;
-  -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   font: inherit;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -524,9 +527,8 @@ button, .btn--heart, .btn--close, .btn--logo, .btn--credits, .agora-stream .btn-
 
 .busy {
   position: relative;
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   pointer-events: none;
   transition: none; }
   .busy, .busy:hover, .busy:focus, .busy:active, .busy.active {
@@ -710,8 +712,7 @@ button, .btn--heart, .btn--close, .btn--logo, .btn--credits, .agora-stream .btn-
   background: none;
   border: none;
   outline: none;
-  -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   color: var(--foreground);
   font-family: var(--font-secondary);
   font-size: 0.8em;
@@ -883,8 +884,7 @@ fieldset,
     border-radius: 0;
     cursor: pointer; }
   .group--form--checkbox input {
-    -webkit-appearance: none;
-            appearance: none;
+    appearance: none;
     padding: 0;
     margin: 0 8px 0 0;
     border: 2px solid var(--foreground);
@@ -1155,9 +1155,8 @@ input-value {
   height: 16px;
   background: var(--background-primary-disabled);
   color: var(--foreground);
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   cursor: pointer; }
   .disabled .btn--less, .disabled
   .btn--more {
@@ -1237,8 +1236,7 @@ input-value {
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-appearance: none;
-            appearance: none;
+    appearance: none;
     opacity: 0;
     cursor: pointer;
     color: var(--foreground-primary-disabled); }
@@ -4102,9 +4100,8 @@ test-component .btn--mode {
 .slider-slide {
   display: inline-block;
   width: 100%;
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   user-drag: none;
   pointer-events: none; }
 
@@ -4991,12 +4988,10 @@ body {
   max-width: 80%;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   transform: translateX(-50%) translateY(-50%);
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-touch-callout: none; }
   .group--navmap .navmap__item {
     position: absolute;
@@ -5007,9 +5002,8 @@ body {
     margin-left: -8px;
     margin-top: -8px;
     cursor: pointer;
-    -webkit-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -ms-user-select: none;
+        user-select: none;
     -webkit-touch-callout: none; }
     .group--navmap .navmap__item .title {
       position: absolute;
@@ -5460,9 +5454,8 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-touch-callout: none; }
   .ui .group--remote-screen {
     background: none; }
@@ -5848,9 +5841,8 @@ body {
     max-width: calc(100% - 55px);
     border-radius: 0 10px 10px 10px;
     color: var(--foreground-negative);
-    -webkit-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    -ms-user-select: text;
+        user-select: text;
     -webkit-touch-callout: default;
     word-break: break-word; }
     .message__content a {
@@ -6112,8 +6104,7 @@ body {
       top: 50%;
       left: 50%;
       transform: translateX(-50%) translateY(-50%);
-      -webkit-backdrop-filter: blur(20px);
-              backdrop-filter: blur(20px); }
+      backdrop-filter: blur(20px); }
 
 .canvas--debug {
   position: absolute;
@@ -6401,8 +6392,7 @@ body {
 .support-request-modal {
   background: rgba(0, 0, 0, 0.2);
   color: white;
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px); }
+  backdrop-filter: blur(20px); }
   .support-request-modal .btn--close {
     color: var(--foreground-negative); }
   .support-request-modal .btn--cancel {
@@ -6415,6 +6405,27 @@ body {
 model-viewer {
   width: 100%;
   height: 100%; }
+
+.iframe-modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 170px);
+  height: calc(100vh - 170px);
+  border-radius: 10px;
+  overflow: hidden;
+  background: white; }
+  .iframe-modal .modal__header {
+    position: absolute;
+    width: 100%;
+    z-index: 1; }
+  .iframe-modal .modal__content {
+    flex: 1 0 auto; }
+  .iframe-modal iframe {
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: 0; }
 
 @keyframes flip-2-hor-top-1 {
   0% {
@@ -7145,9 +7156,8 @@ update-view-tile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -webkit-user-select: none;
-        -ms-user-select: none;
-            user-select: none; }
+    -ms-user-select: none;
+        user-select: none; }
     update-view .group--headline .id,
     update-view-item .group--headline .id,
     update-view-tile .group--headline .id {
@@ -7607,9 +7617,8 @@ update-view-tile {
   margin: 0 auto;
   border-radius: 8px 8px 0 0;
   background: #b9c3ca;
-  -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-touch-callout: none;
   cursor: pointer; }
 
