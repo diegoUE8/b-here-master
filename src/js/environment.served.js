@@ -17,6 +17,7 @@ export const environmentServed = {
 		ar: true,
 		like: true,
 		hideNavInfo: true,
+		useIframe: true,
 		attendee: true,
 		streamer: true,
 		viewer: true,
@@ -35,8 +36,8 @@ export const environmentServed = {
 		// maxQuality: false,
 	},
 	navs: {
-		iconMinScale: 1,
-		iconMaxScale: 1.4,
+		iconMinScale: 1.2,
+		iconMaxScale: 1.6,
 	},
 	profiles: {
 		// streamer: "480p_1", // 640 x 480 x 15
