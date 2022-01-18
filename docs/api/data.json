@@ -7071,6 +7071,117 @@
           "asset": null,
           "link": null,
           "id": 1029437213327400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -17.762758641628444,
+            -10.125633246267876,
+            -97.88746577985013
+          ],
+          "rotation": [
+            -0.1030749746971662,
+            0.1785751743212265,
+            0.018372009282214836,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "360 1",
+            "href": "https://design.wslabs.it/arpa/cubo/Cubo.html",
+            "target": "_blank"
+          },
+          "id": 7608222274700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -17.9388125622975,
+            -18.964413099885718,
+            -96.53263717329821
+          ],
+          "rotation": [
+            -0.19398553008469124,
+            0.18036445229822703,
+            0.03522728950297826,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "360 2",
+            "href": "https://hosting.photorobot.com/spin2?id=6229129689563136&dirName=spin1&type=FINAL",
+            "target": "_blank"
+          },
+          "id": 7639287675200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -17.125077961877544,
+            -28.29149015135747,
+            -94.37331873901257
+          ],
+          "rotation": [
+            -0.2912574427627763,
+            0.1720990632715386,
+            0.05129299359815941,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "360 3",
+            "href": "https://diegoue8.github.io/_stove/",
+            "target": "_blank"
+          },
+          "id": 7683769257800
         }
       ],
       "hidden": null,
