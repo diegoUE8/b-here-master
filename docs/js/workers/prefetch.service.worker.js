@@ -1,6 +1,6 @@
 /**
  * @license b-here v1.0.0
- * (c) 2021 Luca Zampetti <lzampetti@gmail.com>
+ * (c) 2022 Luca Zampetti <lzampetti@gmail.com>
  * License: MIT
  */
 
@@ -111,7 +111,7 @@ function onMessage(event) {
     delete controllers[id]; // console.log('PrefetchServiceWorker.onMessage.Complete', assets);
 
     sendMessage(PrefetchServiceWorkerEvent.Complete, assets);
-  }, function (error) {
+  }).catch(function (error) {
     console.log('PrefetchServiceWorker.onMessage.error', error);
   });
 }

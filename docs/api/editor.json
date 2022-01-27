@@ -851,8 +851,8 @@
         "id": 1364469786436300
       },
       "orientation": {
-        "latitude": -3.0999999999999996,
-        "longitude": 355.79999999999995
+        "latitude": -3.8999999999999995,
+        "longitude": 0.5999999999999659
       },
       "zoom": 75,
       "id": 338065166299600,
@@ -901,9 +901,9 @@
           "abstract": null,
           "viewId": 503728853890500,
           "position": [
-            0.5477114858794233,
-            -0.10926840680708151,
-            0.8295013824639453
+            57.3666462549112,
+            -1.9252778080459856,
+            81.88626992863777
           ],
           "asset": null,
           "id": 263816172214199,
@@ -922,9 +922,9 @@
           "abstract": null,
           "viewId": 503634164139600,
           "position": [
-            0.26448823503627694,
-            -0.11288450928965336,
-            0.9577593962419942
+            29.607651050040385,
+            -2.726494470118727,
+            95.47750115709697
           ],
           "asset": null,
           "id": 263824959721100,
@@ -943,9 +943,9 @@
           "abstract": null,
           "viewId": 248392194266799,
           "position": [
-            -0.01631525521305049,
-            -0.1313849670739585,
-            0.9911971564095147
+            -7.638706042737316,
+            -3.116020109227988,
+            99.65912195414695
           ],
           "asset": null,
           "id": 263833008287300,
@@ -1033,7 +1033,6 @@
             0.04707537936236214
           ],
           "asset": null,
-          "link": null,
           "id": 313349971954600,
           "rotation": [
             -1.1489496312947192,
@@ -1056,36 +1055,14 @@
           },
           "title": null,
           "abstract": null,
-          "viewId": 463293623198900,
-          "keepOrientation": false,
-          "position": [
-            -0.9842334949190282,
-            -0.17621335894815549,
-            0.015273493630579787
-          ],
-          "asset": null,
-          "link": null,
-          "id": 521529464310900,
-          "important": null,
-          "transparent": null,
-          "rotation": null,
-          "scale": null
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
           "viewId": 682993526673300,
           "keepOrientation": false,
           "important": false,
           "transparent": false,
           "position": [
-            -69.5771334386288,
-            -16.40643090420555,
-            -69.9274733380863
+            -69.61493286236548,
+            -6.265930588526743,
+            -71.51572719638746
           ],
           "rotation": [
             -0.23045245571136805,
@@ -1099,11 +1076,159 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 10593795185500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 338065166299600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -98.54224632261396,
+            16.729992983576437,
+            -3.087559629021094
+          ],
+          "rotation": [
+            1.3882974251096478,
+            1.3998396508107471,
+            -1.3856585237610781,
+            "XYZ"
+          ],
+          "scale": [
+            35,
+            6,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "youtube",
+            "href": "https://design.wslabs.it/bhere/videovr.mp4",
+            "target": "_blank"
+          },
+          "id": 263114941600400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 338065166299600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -99.90539761590476,
+            3.9697251828508193,
+            -1.7756151555481694
+          ],
+          "rotation": [
+            1.1501989991309336,
+            1.5272952224691998,
+            -1.1498461189721954,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            6,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "html",
+            "href": "https://www.more.mr/it",
+            "target": "_blank"
+          },
+          "id": 263731503313500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 338065166299600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -99.45973780183026,
+            -10.100257969129133,
+            -2.396945003169391
+          ],
+          "rotation": [
+            -1.3377914414497518,
+            1.466801194954951,
+            1.3365714353318146,
+            "XYZ"
+          ],
+          "scale": [
+            34,
+            7,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "3d",
+            "href": "https://design.wslabs.it/vr/3drotator/test.html",
+            "target": "_blank"
+          },
+          "id": 263766224547200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 338065166299600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -96.86787738771821,
+            -24.739586042695123,
+            -2.1371038426050966
+          ],
+          "rotation": [
+            -1.484626263668529,
+            1.3198536685660214,
+            1.4818544865813434,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            7,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "pdf",
+            "href": "https://design.wslabs.it/vr/b-here.pdf",
+            "target": "_blank"
+          },
+          "id": 263814114723600
         }
       ],
-      "hidden": null
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -8157,7 +8282,10 @@
           "asset": null,
           "id": 513484172678200,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "orientation": {
@@ -14759,7 +14887,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 684002262791600
+          "id": 684002262791600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -14801,7 +14933,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683789743529500
+          "id": 683789743529500,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14819,7 +14955,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683808727945800
+          "id": 683808727945800,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14837,7 +14977,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683835592702900
+          "id": 683835592702900,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14855,7 +14999,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683867062498300
+          "id": 683867062498300,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14873,7 +15021,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683887864546499
+          "id": 683887864546499,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         },
         {
           "type": {
@@ -14891,7 +15043,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683904195349299
+          "id": 683904195349299,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -15079,7 +15235,11 @@
           ],
           "asset": null,
           "link": null,
-          "id": 683974390821600
+          "id": 683974390821600,
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ]
     },
@@ -16879,9 +17039,193 @@
             "name": "plane"
           },
           "position": [
-            15.476371683937497,
-            0.20851095316990487,
-            3.202103619863779
+            11.687333517535782,
+            0.2896002548387635,
+            9.137711301364257
+          ],
+          "rotation": [
+            -3.141592653589793,
+            0,
+            -3.141592653589793,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "261986803108700_500_F_228492358_axNbCQIcxlGTAx3LEiykChuvulUPH38h.jpg",
+            "id": 261986821377500,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "261986803108700_500_F_228492358_axNbCQIcxlGTAx3LEiykChuvulUPH38h.jpg",
+                "id": 261986821377500
+              }
+            },
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 261988406575400
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            0.7697485284109669,
+            0.13691102878443528,
+            -9.139272441663088
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "262044966203900_500_F_266653108_IYsEuztXg9lrqi5oiUT9N1iQMwl4xXg6.jpg",
+            "id": 262044976819600,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "262044966203900_500_F_266653108_IYsEuztXg9lrqi5oiUT9N1iQMwl4xXg6.jpg",
+                "id": 262044976819600
+              }
+            },
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 262046144631200
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            0.8027779886517827,
+            0.19225149926675722,
+            9.137711301364257
+          ],
+          "rotation": [
+            -3.141592653589793,
+            0,
+            -3.141592653589793,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "262076506192400_500_F_313954075_fP0hIrMH10MHKcHV4HWDtXz9bDgAVFc0.jpg",
+            "id": 262076526962700,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "262076506192400_500_F_313954075_fP0hIrMH10MHKcHV4HWDtXz9bDgAVFc0.jpg",
+                "id": 262076526962700
+              }
+            },
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 262077749759700
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            11.89094601340323,
+            0.226759537077051,
+            -9.139272441663087
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            7,
+            3.5,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "262233325700200_500_F_39133206_8FREjjaWYfEOjs2NvInwUJSDQ8jmv7yu.jpg",
+            "id": 262233340437400,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "262233325700200_500_F_39133206_8FREjjaWYfEOjs2NvInwUJSDQ8jmv7yu.jpg",
+                "id": 262233340437400
+              }
+            },
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
+          },
+          "id": 262235170129300
+        },
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            15.4763716839375,
+            0.19826908178678826,
+            3.0603129901047534
           ],
           "rotation": [
             0,
@@ -16902,13 +17246,13 @@
             },
             "folder": "",
             "file": "publisherScreen",
-            "id": 356415172709800,
+            "id": 262281929557200,
             "chromaKeyColor": null,
             "autoplay": false,
             "loop": false,
             "index": 0
           },
-          "id": 356397514166800
+          "id": 262259872958000
         }
       ]
     },
@@ -23023,6 +23367,125 @@
       "file": "9807765135100_infografica.jpg",
       "id": 9807775316000,
       "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "261986803108700_500_F_228492358_axNbCQIcxlGTAx3LEiykChuvulUPH38h.jpg",
+      "id": 261986821377500,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "261986803108700_500_F_228492358_axNbCQIcxlGTAx3LEiykChuvulUPH38h.jpg",
+          "id": 261986821377500
+        }
+      },
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "262044966203900_500_F_266653108_IYsEuztXg9lrqi5oiUT9N1iQMwl4xXg6.jpg",
+      "id": 262044976819600,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "262044966203900_500_F_266653108_IYsEuztXg9lrqi5oiUT9N1iQMwl4xXg6.jpg",
+          "id": 262044976819600
+        }
+      },
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "262076506192400_500_F_313954075_fP0hIrMH10MHKcHV4HWDtXz9bDgAVFc0.jpg",
+      "id": 262076526962700,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "262076506192400_500_F_313954075_fP0hIrMH10MHKcHV4HWDtXz9bDgAVFc0.jpg",
+          "id": 262076526962700
+        }
+      },
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 4,
+        "name": "publisher-stream",
+        "file": "publisherStream"
+      },
+      "folder": "",
+      "file": "publisherStream",
+      "id": 262180780364800,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "index": 1
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "262233325700200_500_F_39133206_8FREjjaWYfEOjs2NvInwUJSDQ8jmv7yu.jpg",
+      "id": 262233340437400,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "262233325700200_500_F_39133206_8FREjjaWYfEOjs2NvInwUJSDQ8jmv7yu.jpg",
+          "id": 262233340437400
+        }
+      },
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "publisher-screen",
+        "file": "publisherScreen"
+      },
+      "folder": "",
+      "file": "publisherScreen",
+      "id": 262281929557200,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false
     }
   ],
   "users": [
