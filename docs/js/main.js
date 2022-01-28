@@ -20464,11 +20464,14 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var direct1 = new THREE.PointLight(0xffffff);
     direct1.position.set(-50, 0, -50);
     objects.add(direct1);
+    var direct2 = new THREE.PointLight(0xffffff);
+    direct1.position.set(50, 0, 50);
+    objects.add(direct2);
     var direct3 = new THREE.DirectionalLight(0xffe699, 1);
     direct3.position.set(0, 50, 0);
     direct3.target.position.set(0, 0, 0);
     objects.add(direct3);
-    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
+    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0.5);
     objects.add(ambient);
     var direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
     direct.position.set(5, -5, 5);
