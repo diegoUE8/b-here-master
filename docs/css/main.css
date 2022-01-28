@@ -22,22 +22,22 @@ body {
 body {
   --background: #ffffff;
   --background-negative: #101010;
-  --background-primary: #464646;
+  --background-primary: #fe7902;
   --background-secondary: #ff4332;
   --background-tertiary: #d8dfe4;
-  --background-primary-darker: #393939;
+  --background-primary-darker: #e66d01;
   --background-primary-darkest: #2d2d2d;
   --background-primary-disabled: #c4d3dd;
   --background-primary-dimmed: rgba(70, 70, 70, 0.08);
   --foreground: #101010;
   --foreground-negative: #fcfcfc;
-  --foreground-primary: #464646;
+  --foreground-primary: #fe7902;
   --foreground-secondary: #ff4332;
   --foreground-tertiary: #818181;
-  --foreground-primary-darker: #393939;
+  --foreground-primary-darker: #e66d01;
   --foreground-primary-darkest: #2d2d2d;
   --foreground-primary-disabled: #c4d3dd;
-  --foreground-primary-dimmed: rgba(70, 70, 70, 0.5);
+  --foreground-primary-dimmed: rgba(254, 121, 2, 0.5);
   --border: #101010;
   --shadow: rgba(153, 153, 153, 0.65);
   --black-10: rgba(16, 16, 16, 0.1);
@@ -1248,7 +1248,8 @@ input-value {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; }
+    -o-object-fit: cover;
+       object-fit: cover; }
   [control-asset] .group--picture > img,
   [control-localized-asset] .group--picture > img {
     opacity: 1; }
@@ -4173,7 +4174,8 @@ body {
     background: var(--background-negative); }
     .page > .background > img,
     .page > .background > video {
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
       width: 100%;
       height: 100%; }
     .page > .background > video {
@@ -4814,7 +4816,8 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; }
+        -o-object-fit: cover;
+           object-fit: cover; }
       .ui .group--remote-screen .agora-stream .agora-stream__player > div, .ui.remotes .group--remote .agora-stream .agora-stream__player > div {
         position: absolute !important;
         top: 0;
@@ -5455,7 +5458,8 @@ body {
           display: flex; }
           .ui .group--remote-screen .agora-stream .agora-stream__player > div > video {
             position: relative !important;
-            object-fit: contain !important; }
+            -o-object-fit: contain !important;
+               object-fit: contain !important; }
 
 @media (min-width: 768px) and (orientation: landscape) {
   .ui .group--remote-screen {
@@ -6168,7 +6172,8 @@ model-viewer {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; }
+    -o-object-fit: cover;
+       object-fit: cover; }
   .agora-device-preview > .video {
     top: -1px;
     left: -1px;
@@ -6207,14 +6212,16 @@ model-viewer {
       position: absolute;
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      -o-object-fit: cover;
+         object-fit: cover; }
     .agora-stream__player > .player__vr {
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      object-fit: cover; }
+      -o-object-fit: cover;
+         object-fit: cover; }
       .agora-stream__player > .player__vr canvas {
         width: 100% !important;
         height: 100% !important; }
@@ -6759,7 +6766,8 @@ model-viewer {
       left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover; }
+      -o-object-fit: cover;
+         object-fit: cover; }
   .upload-item .name {
     font-size: 11px;
     font-weight: var(--font-semibold);

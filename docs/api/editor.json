@@ -48,6 +48,24 @@
       "items": []
     }
   ],
+  "menu": [
+    {
+      "id": 334822711613300,
+      "parentId": null,
+      "viewId": 170427763402500,
+      "name": "Welcome Room",
+      "order": 0
+    },
+    {
+      "id": 334829256469200,
+      "parentId": null,
+      "viewId": 170427763401500,
+      "name": "Waiting Room",
+      "order": 10
+    }
+  ],
+  "navmaps": [],
+  "assets": [],
   "users": [
     {
       "id": "1601892639985",

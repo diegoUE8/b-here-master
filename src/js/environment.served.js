@@ -31,11 +31,11 @@ export const environmentServed = {
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#464646',
+		menuOverBackground: '#fe7902',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#464646',
+		menuBackBackground: '#fe7902',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#464646',
+		menuBackOverBackground: '#fe7902',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {

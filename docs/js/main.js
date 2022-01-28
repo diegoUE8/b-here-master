@@ -1,6 +1,6 @@
 /**
  * @license b-here v1.0.0
- * (c) 2021 Luca Zampetti <lzampetti@gmail.com>
+ * (c) 2022 Luca Zampetti <lzampetti@gmail.com>
  * License: MIT
  */
 
@@ -153,11 +153,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#464646',
+    menuOverBackground: '#fe7902',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#464646',
+    menuBackBackground: '#fe7902',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#464646',
+    menuBackOverBackground: '#fe7902',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -231,11 +231,11 @@ function _readOnlyError(name) {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#464646',
+    menuOverBackground: '#fe7902',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#464646',
+    menuBackBackground: '#fe7902',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#464646',
+    menuBackOverBackground: '#fe7902',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -369,11 +369,11 @@ var defaultOptions = {
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#0099ff',
+    menuOverBackground: '#fe7902',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#0099ff',
+    menuBackBackground: '#fe7902',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#0099ff',
+    menuBackOverBackground: '#fe7902',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
