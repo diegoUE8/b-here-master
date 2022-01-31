@@ -31,8 +31,8 @@ export const environmentStatic = {
 		viewer: true,
 		smartDevice: true,
 		selfServiceProposition: false,
-		navInfoAnimated: false,
-		navInfoImportantAnimated: false,
+		navInfoAnimated: true,
+		navInfoImportantAnimated: true,
 		navMoveAnimated: true,
 		navMoveImportantAnimated: true,
 		navPointAnimated: false,
@@ -44,8 +44,8 @@ export const environmentStatic = {
 		// maxQuality: false,
 	},
 	navs: {
-		iconMinScale: 1.2,
-		iconMaxScale: 1.6,
+		iconMinScale: 1.3,
+		iconMaxScale: 1.7,
 	},
 	profiles: {
 		// streamer: "480p_1", // 640 x 480 x 15
@@ -76,20 +76,20 @@ export const environmentStatic = {
 		// screen: "1080p_1", // 1920 × 1080 x 5
 		screen: "1080p_2", // 1920 × 1080 30
 	},
-	logo: null,
+	logo: '/b-here/img/logo.png',
 	background: {
 		// image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
 	},
-	selfServiceAudio: null, // '/b-here/audio/self-service.mp3',
+	selfServiceAudio: '/b-here/audio/self-service.mp3',
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#fe7902',
+		menuOverBackground: '#897766',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#fe7902',
+		menuBackBackground: '#897766',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#fe7902',
+		menuBackOverBackground: '#897766',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {
@@ -105,7 +105,7 @@ export const environmentStatic = {
 		envMap: 'textures/envMap/flower_road_1k.hdr',
 		grid: 'textures/grid/grid.jpg',
 	},
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piazzetta/docs/',
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',
 		modal: {

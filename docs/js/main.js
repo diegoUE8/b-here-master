@@ -145,8 +145,8 @@ function _readOnlyError(name) {
     viewer: true,
     smartDevice: true,
     selfServiceProposition: false,
-    navInfoAnimated: false,
-    navInfoImportantAnimated: false,
+    navInfoAnimated: true,
+    navInfoImportantAnimated: true,
     navMoveAnimated: false,
     navMoveImportantAnimated: false,
     navPointAnimated: false,
@@ -191,21 +191,20 @@ function _readOnlyError(name) {
     // screen: "1080p_2", // 1920 × 1080 30
 
   },
-  logo: null,
+  logo: '/Modules/B-Here/Client/docs/img/logo.png',
   background: {
     // image: '/Modules/B-Here/Client/docs/img/background.jpg',
     video: '/Modules/B-Here/Client/docs/img/background.mp4'
   },
-  selfServiceAudio: null,
-  // '/Modules/B-Here/Client/docs/audio/self-service.mp3',
+  selfServiceAudio: '/Modules/B-Here/Client/docs/audio/self-service.mp3',
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#fe7902',
+    menuOverBackground: '#897766',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#fe7902',
+    menuBackBackground: '#897766',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#fe7902',
+    menuBackOverBackground: '#897766',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -221,7 +220,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piazzetta/docs/',
   template: {
     tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
     modal: {
@@ -284,8 +283,8 @@ function _readOnlyError(name) {
     viewer: true,
     smartDevice: true,
     selfServiceProposition: false,
-    navInfoAnimated: false,
-    navInfoImportantAnimated: false,
+    navInfoAnimated: true,
+    navInfoImportantAnimated: true,
     navMoveAnimated: true,
     navMoveImportantAnimated: true,
     navPointAnimated: false,
@@ -297,8 +296,8 @@ function _readOnlyError(name) {
 
   },
   navs: {
-    iconMinScale: 1.2,
-    iconMaxScale: 1.6
+    iconMinScale: 1.3,
+    iconMaxScale: 1.7
   },
   profiles: {
     // streamer: "480p_1", // 640 x 480 x 15
@@ -330,21 +329,20 @@ function _readOnlyError(name) {
     screen: "1080p_2" // 1920 × 1080 30
 
   },
-  logo: null,
+  logo: '/b-here/img/logo.png',
   background: {
     // image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
   },
-  selfServiceAudio: null,
-  // '/b-here/audio/self-service.mp3',
+  selfServiceAudio: '/b-here/audio/self-service.mp3',
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
-    menuOverBackground: '#fe7902',
+    menuOverBackground: '#897766',
     menuOverForeground: '#ffffff',
-    menuBackBackground: '#fe7902',
+    menuBackBackground: '#897766',
     menuBackForeground: '#000000',
-    menuBackOverBackground: '#fe7902',
+    menuBackOverBackground: '#897766',
     menuBackOverForeground: '#ffffff'
   },
   editor: {
@@ -360,7 +358,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piazzetta/docs/',
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
     modal: {
@@ -30048,7 +30046,7 @@ function DRACOWorker() {
     var box = new THREE.Box3().setFromObject(mesh);
     var size = box.max.clone().sub(box.min);
     var max = Math.max(size.x, size.y, size.z);
-    var scale = 2 / max; //1.7
+    var scale = 2.2 / max; //1.7
 
     mesh.scale.set(scale, scale, scale); // repos
 
@@ -30076,6 +30074,7 @@ function DRACOWorker() {
 
       onUpdate();
       this.makeInteractive(mesh);
+      this.onClipToggle();
       gsap.to(from, {
         duration: 1.5,
         tween: 0,
@@ -30108,6 +30107,7 @@ function DRACOWorker() {
       }
 
       this.makeInteractive(mesh);
+      this.onClipToggle();
       /*
       const geometry = ModelModelComponent.getInteractiveGeometry();
       const sphere = new InteractiveMesh(geometry, new THREE.MeshBasicMaterial({

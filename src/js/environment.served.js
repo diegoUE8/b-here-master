@@ -23,8 +23,8 @@ export const environmentServed = {
 		viewer: true,
 		smartDevice: true,
 		selfServiceProposition: false,
-		navInfoAnimated: false,
-		navInfoImportantAnimated: false,
+		navInfoAnimated: true,
+		navInfoImportantAnimated: true,
 		navMoveAnimated: false,
 		navMoveImportantAnimated: false,
 		navPointAnimated: false,
@@ -68,20 +68,20 @@ export const environmentServed = {
 		// screen: "1080p_1", // 1920 × 1080 x 5
 		// screen: "1080p_2", // 1920 × 1080 30
 	},
-	logo: null,
+	logo:'/Modules/B-Here/Client/docs/img/logo.png',
 	background: {
 		// image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
 	},
-	selfServiceAudio: null, // '/Modules/B-Here/Client/docs/audio/self-service.mp3',
+	selfServiceAudio: '/Modules/B-Here/Client/docs/audio/self-service.mp3',
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
-		menuOverBackground: '#fe7902',
+		menuOverBackground: '#897766',
 		menuOverForeground: '#ffffff',
-		menuBackBackground: '#fe7902',
+		menuBackBackground: '#897766',
 		menuBackForeground: '#000000',
-		menuBackOverBackground: '#fe7902',
+		menuBackOverBackground: '#897766',
 		menuBackOverForeground: '#ffffff',
 	},
 	editor: {
@@ -97,7 +97,7 @@ export const environmentServed = {
 		envMap: 'textures/envMap/flower_road_1k.hdr',
 		grid: 'textures/grid/grid.jpg',
 	},
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/main/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/piazzetta/docs/',
 	template: {
 		tryInAr: '/template/modules/b-here/try-in-ar.cshtml?viewId=$viewId',
 		modal: {
