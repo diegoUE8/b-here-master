@@ -14,45 +14,21 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/waiting-room/",
-        "file": "waiting-room.jpg"
+        "folder": "/uploads/",
+        "file": "616483209746000_TEST_01.jpg",
+        "id": 616483267323500
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
-      "zoom": 75
-    },
-    {
-      "id": 170427763402500,
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Welcome Room",
-      "likes": 0,
-      "liked": false,
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "615908095830600_TEST_01.jpg",
-        "id": 615908130226100
-      },
-      "orientation": {
-        "latitude": -6.800000000000001,
-        "longitude": 359.90000000000003
-      },
       "zoom": 75,
       "items": [],
-      "hidden": null,
       "ar": null
     },
     {
       "type": {
-        "id": 5,
+        "id": 2,
         "name": "model"
       },
       "name": "Piazzetta",
@@ -66,10 +42,10 @@
         "id": 613464132481200
       },
       "orientation": {
-        "latitude": 0.4999999999999991,
-        "longitude": 104.00000000000001
+        "latitude": 4.9,
+        "longitude": 91.80000000000001
       },
-      "zoom": 46.4117,
+      "zoom": 58.9117,
       "id": 613475127221300,
       "items": [
         {
@@ -93,7 +69,26 @@
         }
       ],
       "hidden": null,
-      "ar": null
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "616636084164500_P110_NO_PANNELLO.usdz",
+          "id": 616636271923600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "616639443160100_P110_NO_PANNELLO.glb",
+          "id": 616639460421000
+        }
+      }
     }
   ],
   "menu": [],
@@ -108,15 +103,6 @@
       "file": "589158511029800_P110.glb",
       "id": 589158636671400,
       "chromaKeyColor": null
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
-      "file": "589195214973900_dressroom.jpeg",
-      "id": 589195226179900
     },
     {
       "type": {
@@ -145,6 +131,33 @@
       "folder": "/uploads/",
       "file": "615908095830600_TEST_01.jpg",
       "id": 615908130226100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "616483209746000_TEST_01.jpg",
+      "id": 616483267323500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "616636084164500_P110_NO_PANNELLO.usdz",
+      "id": 616636271923600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "616639443160100_P110_NO_PANNELLO.glb",
+      "id": 616639460421000
     }
   ],
   "users": [
