@@ -247,12 +247,16 @@ export default class WorldComponent extends Component {
 		direct1.position.set(-50, 0, -50);
 		objects.add(direct1);
 
+		const direct2 = new THREE.PointLight(0xffffff);
+		direct1.position.set(50, 0, 50);
+		objects.add(direct2);
+
 		const direct3 = new THREE.DirectionalLight(0xffe699, 1);
 		direct3.position.set(0, 50, 0);
 		direct3.target.position.set(0, 0, 0);
 		objects.add(direct3);
 
-		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
+		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
 		objects.add(ambient);
 
 		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);

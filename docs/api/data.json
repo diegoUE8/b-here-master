@@ -46,6 +46,89 @@
       },
       "zoom": 75,
       "items": []
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "stufa",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "589195214973900_dressroom.jpeg",
+        "id": 589195226179900
+      },
+      "orientation": {
+        "latitude": 5.699999999999999,
+        "longitude": 110.10000000000001
+      },
+      "zoom": 36.7887,
+      "id": 589197666812800,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "589158511029800_P110.glb",
+            "id": 589158636671400,
+            "chromaKeyColor": null
+          },
+          "id": 589197676175700,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    }
+  ],
+  "menu": [
+    {
+      "id": 334822711613300,
+      "parentId": null,
+      "viewId": 170427763402500,
+      "name": "Welcome Room",
+      "order": 0
+    },
+    {
+      "id": 334829256469200,
+      "parentId": null,
+      "viewId": 170427763401500,
+      "name": "Waiting Room",
+      "order": 10
+    }
+  ],
+  "navmaps": [],
+  "assets": [
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "589158511029800_P110.glb",
+      "id": 589158636671400,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "589195214973900_dressroom.jpeg",
+      "id": 589195226179900
     }
   ],
   "users": [
