@@ -66,6 +66,76 @@
           "id": 613475135898700,
           "position": null,
           "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 613475127221300,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -15.05175397903711,
+            15.205610396269337,
+            -97.68435962134065
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            15,
+            10,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "pdf",
+            "href": "https://design.wslabs.it/piazzetta/P110.pdf",
+            "target": "_blank"
+          },
+          "id": 675889201457200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "back",
+          "abstract": null,
+          "viewId": 676009816786300,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            22.476529632210333,
+            -32.5760271620641,
+            -91.83467792739751
+          ],
+          "rotation": [
+            -0.33625137386790005,
+            -0.02019249587887321,
+            -0.007057180360677556,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 676415383233800
         }
       ],
       "hidden": null,
@@ -89,6 +159,264 @@
           "id": 616639460421000
         }
       }
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "3D",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "676004594562500_back_2.jpg",
+        "id": 676004629495100
+      },
+      "orientation": {
+        "latitude": -1.4000000000000001,
+        "longitude": 355.7
+      },
+      "zoom": 75,
+      "id": 676009816786300,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "position": [
+            2,
+            0,
+            0.045142477545704385
+          ],
+          "rotation": [
+            0,
+            -1.5,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "676023456248000_P110.glb",
+            "id": 676023465966600,
+            "chromaKeyColor": null
+          },
+          "id": 676024423578600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "3D Navigation",
+          "abstract": null,
+          "viewId": 613475127221300,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            90.98723099872522,
+            -41.414925897441435,
+            2.4754207913101487
+          ],
+          "rotation": [
+            -1.5794319673775519,
+            -1.146000474803692,
+            -1.5802742981759461,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 676293485901000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 676009816786300,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            92.37311874650811,
+            31.479553185629346,
+            -21.794152476047717
+          ],
+          "rotation": [
+            0,
+            -1.5,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            15,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "pdf",
+            "href": "https://design.wslabs.it/piazzetta/P110.pdf",
+            "target": "_blank"
+          },
+          "id": 676628386468800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 676761117878600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            90.115,
+            36.562486232365366,
+            23.29114739999827
+          ],
+          "rotation": [
+            0,
+            -1.5,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            13,
+            6,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 677036506652100
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "P110",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "676759315928200_P110.jpg",
+        "id": 676759341230600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 676761117878600,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "676965500026300_P110.jpg",
+            "id": 676759341230600,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "676965500026300_P110.jpg",
+                "id": 676759341230600,
+                "chromaKeyColor": null,
+                "autoplay": false,
+                "loop": false
+              }
+            }
+          },
+          "id": 676761127959500
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Test_01",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "677269494816700_TEST_01.jpg",
+        "id": 677269535942700
+      },
+      "orientation": {
+        "latitude": -6.300000000000001,
+        "longitude": 34
+      },
+      "zoom": 75,
+      "id": 677276244078600,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
@@ -158,6 +486,60 @@
       "folder": "/uploads/",
       "file": "616639443160100_P110_NO_PANNELLO.glb",
       "id": 616639460421000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "676004594562500_back_2.jpg",
+      "id": 676004629495100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "676023456248000_P110.glb",
+      "id": 676023465966600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "676965500026300_P110.jpg",
+      "id": 676759341230600,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "676965500026300_P110.jpg",
+          "id": 676759341230600,
+          "chromaKeyColor": null,
+          "autoplay": false,
+          "loop": false
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "677269494816700_TEST_01.jpg",
+      "id": 677269535942700
     }
   ],
   "users": [
