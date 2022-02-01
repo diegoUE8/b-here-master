@@ -36,16 +36,16 @@ export const environmentStatic = {
 		navMoveAnimated: true,
 		navMoveImportantAnimated: true,
 		navPointAnimated: false,
-		navPointImportantAnimated: false,
+		navPointImportantAnimated: true,
 		navTitleAnimated: false,
-		navTitleImportantAnimated: false,
+		navTitleImportantAnimated: true,
 		navTransparentAnimated: true,
 		navTransparentImportantAnimated: true,
 		// maxQuality: false,
 	},
 	navs: {
-		iconMinScale: 1.3,
-		iconMaxScale: 1.7,
+		iconMinScale: 1.2,
+		iconMaxScale: 1.6,
 	},
 	profiles: {
 		// streamer: "480p_1", // 640 x 480 x 15

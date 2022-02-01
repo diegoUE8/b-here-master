@@ -115,8 +115,8 @@ const defaultAppOptions = {
 		heroku: HEROKU,
 	},
 	navs: {
-		iconMinScale: 1,
-		iconMaxScale: 1.4,
+		iconMinScale: 1.2,
+		iconMaxScale: 1.6,
 	},
 	url: {},
 	languages: ['it', 'en'],

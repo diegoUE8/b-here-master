@@ -148,13 +148,13 @@ function _readOnlyError(name) {
     navInfoAnimated: true,
     navInfoImportantAnimated: true,
     navMoveAnimated: false,
-    navMoveImportantAnimated: false,
+    navMoveImportantAnimated: true,
     navPointAnimated: false,
-    navPointImportantAnimated: false,
+    navPointImportantAnimated: true,
     navTitleAnimated: false,
-    navTitleImportantAnimated: false,
-    navTransparentAnimated: false,
-    navTransparentImportantAnimated: false // maxQuality: false,
+    navTitleImportantAnimated: true,
+    navTransparentAnimated: true,
+    navTransparentImportantAnimated: true // maxQuality: false,
 
   },
   navs: {
@@ -288,16 +288,16 @@ function _readOnlyError(name) {
     navMoveAnimated: true,
     navMoveImportantAnimated: true,
     navPointAnimated: false,
-    navPointImportantAnimated: false,
+    navPointImportantAnimated: true,
     navTitleAnimated: false,
-    navTitleImportantAnimated: false,
+    navTitleImportantAnimated: true,
     navTransparentAnimated: true,
     navTransparentImportantAnimated: true // maxQuality: false,
 
   },
   navs: {
-    iconMinScale: 1.3,
-    iconMaxScale: 1.7
+    iconMinScale: 1.2,
+    iconMaxScale: 1.6
   },
   profiles: {
     // streamer: "480p_1", // 640 x 480 x 15
@@ -529,8 +529,8 @@ var defaultAppOptions = {
     heroku: HEROKU
   },
   navs: {
-    iconMinScale: 1,
-    iconMaxScale: 1.4
+    iconMinScale: 1.2,
+    iconMaxScale: 1.6
   },
   url: {},
   languages: ['it', 'en'],
@@ -20461,22 +20461,28 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    var direct1 = new THREE.PointLight(0xffffff);
-    direct1.position.set(-50, 0, -50);
-    objects.add(direct1);
-    var direct2 = new THREE.PointLight(0xffffff);
-    direct1.position.set(50, 0, 50);
-    objects.add(direct2);
+    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1, 100);
+    direct.position.set(5, -5, 5);
+    direct.target.position.set(0, 0, 0);
+    direct.castShadow = true; // default false
+
+    objects.add(direct);
+    var light1 = new THREE.PointLight(0xffffff, 1, 100);
+    light1.position.set(-50, 0, -50);
+    light1.castShadow = true; // default false
+
+    objects.add(light1);
+    var light2 = new THREE.PointLight(0xffffff, 1, 100);
+    light2.position.set(50, 0, 50);
+    light2.castShadow = true; // default false
+
+    objects.add(light2);
     var direct3 = new THREE.DirectionalLight(0xffe699, 1);
     direct3.position.set(0, 50, 0);
     direct3.target.position.set(0, 0, 0);
     objects.add(direct3);
     var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
     objects.add(ambient);
-    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
-    direct.position.set(5, -5, 5);
-    direct.target.position.set(0, 0, 0);
-    objects.add(direct);
     this.addControllers();
     this.resize(); // show hide items
 
@@ -30046,7 +30052,7 @@ function DRACOWorker() {
     var box = new THREE.Box3().setFromObject(mesh);
     var size = box.max.clone().sub(box.min);
     var max = Math.max(size.x, size.y, size.z);
-    var scale = 2.2 / max; //1.7
+    var scale = 2.5 / max; //1.7
 
     mesh.scale.set(scale, scale, scale); // repos
 
