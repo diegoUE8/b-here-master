@@ -20463,28 +20463,25 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1, 100);
-    direct.position.set(5, -5, 5);
-    direct.target.position.set(0, 0, 0);
-    direct.castShadow = true; // default false
-
+    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
+    objects.add(ambient);
+    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+    direct.position.set(50, 50, 50);
+    direct.target.position.set(-50, -50, -50);
     objects.add(direct);
-    var light1 = new THREE.PointLight(0xffffff, 1, 100);
-    light1.position.set(-50, 0, -50);
-    light1.castShadow = true; // default false
-
-    objects.add(light1);
-    var light2 = new THREE.PointLight(0xffffff, 1, 100);
-    light2.position.set(50, 0, 50);
-    light2.castShadow = true; // default false
-
-    objects.add(light2);
-    var direct3 = new THREE.DirectionalLight(0xffe699, 1);
-    direct3.position.set(0, 50, 0);
+    var direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct2.position.set(-50, 50, 50);
+    direct2.target.position.set(0, 0, 0);
+    objects.add(direct2);
+    var direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct3.position.set(0, 50, -50);
     direct3.target.position.set(0, 0, 0);
     objects.add(direct3);
-    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 1);
-    objects.add(ambient);
+    /*const direct = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct.position.set(-40, -40, -40);
+    direct.target.position.set(0, 0, 0);
+    objects.add(direct);*/
+
     this.addControllers();
     this.resize(); // show hide items
 
