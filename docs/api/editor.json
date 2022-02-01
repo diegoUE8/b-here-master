@@ -19,8 +19,8 @@
         "id": 616483267323500
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5,
+        "longitude": 3.1
       },
       "zoom": 75,
       "items": [],
@@ -220,7 +220,22 @@
       "ar": null
     }
   ],
-  "menu": [],
+  "menu": [
+    {
+      "id": 697973337729400,
+      "parentId": null,
+      "viewId": 613475127221300,
+      "name": "Stufa 3D",
+      "order": 0
+    },
+    {
+      "id": 698000264790300,
+      "parentId": null,
+      "viewId": 676761117878600,
+      "name": "Caratteristiche tecniche",
+      "order": 10
+    }
+  ],
   "navmaps": [],
   "assets": [
     {

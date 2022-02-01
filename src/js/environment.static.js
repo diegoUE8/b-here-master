@@ -81,7 +81,7 @@ export const environmentStatic = {
 		// image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
 	},
-	selfServiceAudio: '/b-here/audio/self-service.mp3',
+	selfServiceAudio: null, //'/b-here/audio/self-service.mp3',
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',
