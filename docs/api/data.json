@@ -6805,6 +6805,113 @@
           },
           "title": null,
           "abstract": null,
+          "viewId": 31822329914800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            37.34483960561888,
+            -4.662425096719236,
+            -92.64785344004514
+          ],
+          "rotation": [
+            -0.05142103127170879,
+            -0.4562119153924288,
+            -0.022669669738299005,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 31863245078200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            43.9142462400511,
+            20.241063461707263,
+            -87.5319274728216
+          ],
+          "rotation": [
+            0,
+            0.017453292519943306,
+            0.0174532925199433,
+            "XYZ"
+          ],
+          "scale": [
+            25,
+            8,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "pdf",
+            "href": "https://design.wslabs.it/vr/b-here.pdf",
+            "target": "_blank"
+          },
+          "id": 31900834293800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            42.77394673950499,
+            -20.785998234012254,
+            -87.9677881826162
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            7,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "video",
+            "href": "https://design.wslabs.it/bhere/videovr.mp4",
+            "target": "_blank"
+          },
+          "id": 31984811542200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "PDF",
+          "abstract": null,
           "viewId": 502924660957900,
           "hook": null,
           "hookExtra": null,
@@ -6812,14 +6919,14 @@
           "important": false,
           "transparent": false,
           "position": [
-            -17.17384516105925,
-            -27.968003249445516,
-            -93.40155157502988
+            51.78810263089314,
+            -11.548514616085289,
+            -84.76216276177799
           ],
           "rotation": [
-            -0.29094140777877925,
-            0.17435523419234952,
-            0.05189787382048192,
+            -0.13541232743391513,
+            -0.5443720677251059,
+            -0.07044252604803905,
             "XYZ"
           ],
           "scale": [
@@ -6829,11 +6936,11 @@
           ],
           "asset": null,
           "link": {
-            "title": "Link HTML",
-            "href": "https://hosting.photorobot.com/spin?id=5699902705238016&dirName=01&type=NORMAL",
+            "title": "PDF LINK",
+            "href": "https://design.wslabs.it/vr/b-here.pdf",
             "target": "_blank"
           },
-          "id": 31080085792900
+          "id": 32163596458100
         }
       ],
       "hidden": null
@@ -28660,6 +28767,64 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "VIdeo presentazione b.here",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "31812200966400_bHere blocco 1 rev 3_low.mp4",
+        "id": 31813611149100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 31822329914800,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 2,
+              "name": "video"
+            },
+            "folder": "/uploads/",
+            "file": "31812200966400_bHere blocco 1 rev 3_low.mp4",
+            "id": 31813611149100,
+            "chromaKeyColor": null,
+            "autoplay": true,
+            "loop": false
+          },
+          "id": 31822353585400
+        }
+      ]
     }
   ],
   "menu": [
@@ -34086,6 +34251,18 @@
       "folder": "/uploads/",
       "file": "194065089851300_frau-map-export.glb",
       "id": 193655414609900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "31812200966400_bHere blocco 1 rev 3_low.mp4",
+      "id": 31813611149100,
+      "chromaKeyColor": null,
+      "autoplay": true,
+      "loop": false
     }
   ],
   "users": [
