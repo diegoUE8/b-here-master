@@ -31,14 +31,14 @@ export const environmentStatic = {
 		viewer: true,
 		smartDevice: true,
 		selfServiceProposition: false,
-		navInfoAnimated: false,
-		navInfoImportantAnimated: false,
+		navInfoAnimated: true,
+		navInfoImportantAnimated: true,
 		navMoveAnimated: true,
 		navMoveImportantAnimated: true,
 		navPointAnimated: false,
 		navPointImportantAnimated: false,
 		navTitleAnimated: false,
-		navTitleImportantAnimated: false,
+		navTitleImportantAnimated: true,
 		navTransparentAnimated: true,
 		navTransparentImportantAnimated: true,
 		// maxQuality: false,
@@ -76,7 +76,7 @@ export const environmentStatic = {
 		// screen: "1080p_1", // 1920 × 1080 x 5
 		screen: "1080p_2", // 1920 × 1080 30
 	},
-	logo: null,//'/b-here/img/logo.png'
+	logo: null,
 	background: {
 		// image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
@@ -105,7 +105,7 @@ export const environmentStatic = {
 		envMap: 'textures/envMap/flower_road_1k.hdr',
 		grid: 'textures/grid/grid.jpg',
 	},
-	githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws-2/docs/',
+	githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
 	template: {
 		tryInAr: '/try-in-ar.html?viewId=$viewId',
 		modal: {

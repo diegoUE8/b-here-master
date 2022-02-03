@@ -6734,7 +6734,7 @@
           "link": null,
           "id": 6734179135500,
           "keepOrientation": null,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -6748,18 +6748,92 @@
           "abstract": null,
           "viewId": 503634164139600,
           "position": [
-            0.7486708943078315,
-            -0.1435976412757376,
-            -0.647202912104354
+            74.86708943078315,
+            -14.35976412757376,
+            -64.7202912104354
           ],
           "asset": null,
           "link": null,
           "id": 6868366425599,
           "keepOrientation": null,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -18,
+            -3.516,
+            -99
+          ],
+          "rotation": [
+            0.05153678653980733,
+            0.05496589003299397,
+            0.006298666645223095,
+            "XYZ"
+          ],
+          "scale": [
+            37,
+            40,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "html",
+            "href": "https://hosting.photorobot.com/spin?id=5699902705238016&dirName=01&type=NORMAL",
+            "target": "_blank"
+          },
+          "id": 30820442281700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -17.17384516105925,
+            -27.968003249445516,
+            -93.40155157502988
+          ],
+          "rotation": [
+            -0.29094140777877925,
+            0.17435523419234952,
+            0.05189787382048192,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "Link HTML",
+            "href": "https://hosting.photorobot.com/spin?id=5699902705238016&dirName=01&type=NORMAL",
+            "target": "_blank"
+          },
+          "id": 31080085792900
         }
       ],
       "hidden": null
@@ -23820,7 +23894,9 @@
             "folder": "/uploads/",
             "file": "502937330335000_websolute.mp4",
             "id": 502937592501000,
-            "chromaKeyColor": null
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false
           },
           "id": 156822887054900
         },
@@ -23855,7 +23931,9 @@
             "file": "publisherScreen",
             "id": 298471286880000,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 157071473114800
         },
@@ -23890,7 +23968,9 @@
             "file": "publisherStream",
             "id": 298877928291200,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 157263124413500
         },
@@ -23925,7 +24005,9 @@
             "file": "nextAttendeeStream",
             "id": 237347209221000,
             "chromaKeyColor": null,
-            "index": 0
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
           "id": 157440755324300
         }
@@ -27190,19 +27272,33 @@
             "id": 1,
             "name": "nav"
           },
-          "title": "Welcome",
-          "abstract": null,
+          "title": null,
+          "abstract": "Reception",
           "viewId": 170427763402500,
+          "hook": null,
+          "hookExtra": null,
           "keepOrientation": false,
           "important": false,
+          "transparent": false,
           "position": [
-            14.14642356047071,
-            -1.3841533839791218,
-            0.07815493371913818
+            14.160423560470702,
+            -1.4174624852380076,
+            0.1476523422122894
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
           ],
           "asset": null,
           "link": null,
-          "id": 348727867627700
+          "id": 29511435470600
         }
       ]
     },
@@ -28776,13 +28872,6 @@
       "viewId": 1374946040706500,
       "name": "Kitchen Grid",
       "order": 130
-    },
-    {
-      "id": 98899707615700,
-      "parentId": 513759169265300,
-      "viewId": 96953885379500,
-      "name": "Vigilanza",
-      "order": 140
     },
     {
       "id": 513846642724000,
@@ -32669,7 +32758,10 @@
       "folder": "",
       "file": "nextAttendeeStream",
       "id": 237347209221000,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -32781,7 +32873,10 @@
       "folder": "",
       "file": "publisherScreen",
       "id": 298471286880000,
-      "chromaKeyColor": null
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -32801,12 +32896,10 @@
       "folder": "",
       "file": "publisherStream",
       "id": 298877928291200,
-      "chromaKeyColor": [
-        0,
-        1,
-        0
-      ],
-      "index": 0
+      "chromaKeyColor": null,
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {

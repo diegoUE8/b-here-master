@@ -145,14 +145,14 @@ function _readOnlyError(name) {
     viewer: true,
     smartDevice: true,
     selfServiceProposition: false,
-    navInfoAnimated: false,
-    navInfoImportantAnimated: false,
+    navInfoAnimated: true,
+    navInfoImportantAnimated: true,
     navMoveAnimated: false,
     navMoveImportantAnimated: false,
     navPointAnimated: false,
     navPointImportantAnimated: false,
     navTitleAnimated: false,
-    navTitleImportantAnimated: false,
+    navTitleImportantAnimated: true,
     navTransparentAnimated: false,
     navTransparentImportantAnimated: false // maxQuality: false,
 
@@ -284,14 +284,14 @@ function _readOnlyError(name) {
     viewer: true,
     smartDevice: true,
     selfServiceProposition: false,
-    navInfoAnimated: false,
-    navInfoImportantAnimated: false,
+    navInfoAnimated: true,
+    navInfoImportantAnimated: true,
     navMoveAnimated: true,
     navMoveImportantAnimated: true,
     navPointAnimated: false,
     navPointImportantAnimated: false,
     navTitleAnimated: false,
-    navTitleImportantAnimated: false,
+    navTitleImportantAnimated: true,
     navTransparentAnimated: true,
     navTransparentImportantAnimated: true // maxQuality: false,
 
@@ -331,7 +331,6 @@ function _readOnlyError(name) {
 
   },
   logo: null,
-  //'/b-here/img/logo.png'
   background: {
     // image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
@@ -361,7 +360,7 @@ function _readOnlyError(name) {
     envMap: 'textures/envMap/flower_road_1k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
-  githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/ws-2/docs/',
+  githubDocs: 'https://raw.githubusercontent.com/actarian/b-here/b-here-ws-new/docs/',
   template: {
     tryInAr: '/try-in-ar.html?viewId=$viewId',
     modal: {
@@ -532,8 +531,8 @@ var defaultAppOptions = {
     heroku: HEROKU
   },
   navs: {
-    iconMinScale: 1,
-    iconMaxScale: 1.4
+    iconMinScale: 1.2,
+    iconMaxScale: 1.6
   },
   url: {},
   languages: ['it', 'en'],
@@ -14719,7 +14718,7 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
       var size = 0.1;
       scale.set(size / ratio, size, 1);
       position.x = 0.5 - size / ratio / 2;
-      position.y = 0.5 - size / 2;
+      position.y = size / 2 - 0.5;
       position.z = 0.01;
     } // console.log('MediaMesh.updateZoom', this.scale);
 
@@ -20464,22 +20463,28 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    var direct1 = new THREE.PointLight(0xffffff);
-    direct1.position.set(-50, 0, -50);
-    objects.add(direct1);
-    var direct2 = new THREE.PointLight(0xffffff);
-    direct1.position.set(50, 0, 50);
-    objects.add(direct2);
-    var direct3 = new THREE.DirectionalLight(0xffe699, 1);
-    direct3.position.set(0, 50, 0);
-    direct3.target.position.set(0, 0, 0);
-    objects.add(direct3);
-    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0.5);
+    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
     objects.add(ambient);
-    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
-    direct.position.set(5, -5, 5);
-    direct.target.position.set(0, 0, 0);
+    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+    direct.position.set(50, 50, 50);
+    direct.target.position.set(-50, -50, -50);
     objects.add(direct);
+    var direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct2.position.set(-50, 50, 50);
+    direct2.target.position.set(0, 0, 0);
+    objects.add(direct2);
+    var direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct3.position.set(0, 50, 0);
+    direct3.target.position.set(0, -100, 0);
+    objects.add(direct3);
+    var direct4 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct4.position.set(-50, -50, -50);
+    direct4.target.position.set(50, 50, 50);
+    objects.add(direct4);
+    var direct5 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct5.position.set(0, -50, 0);
+    direct5.target.position.set(0, 100, 0);
+    objects.add(direct5);
     this.addControllers();
     this.resize(); // show hide items
 
@@ -20563,6 +20568,12 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var view = this.view_;
 
     if (view) {
+      if (StateService.state.zoomedId != null) {
+        StateService.patchState({
+          zoomedId: null
+        });
+      }
+
       if (this.views) {
         this.views.forEach(function (view) {
           return delete view.onUpdateAsset;
