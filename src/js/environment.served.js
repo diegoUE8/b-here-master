@@ -26,13 +26,13 @@ export const environmentServed = {
 		navInfoAnimated: true,
 		navInfoImportantAnimated: true,
 		navMoveAnimated: false,
-		navMoveImportantAnimated: false,
+		navMoveImportantAnimated: true,
 		navPointAnimated: false,
-		navPointImportantAnimated: false,
+		navPointImportantAnimated: true,
 		navTitleAnimated: false,
-		navTitleImportantAnimated: false,
-		navTransparentAnimated: false,
-		navTransparentImportantAnimated: false,
+		navTitleImportantAnimated: true,
+		navTransparentAnimated: true,
+		navTransparentImportantAnimated: true,
 		// maxQuality: false,
 	},
 	navs: {
@@ -68,12 +68,12 @@ export const environmentServed = {
 		// screen: "1080p_1", // 1920 × 1080 x 5
 		// screen: "1080p_2", // 1920 × 1080 30
 	},
-	logo: '/Modules/B-Here/Client/docs/img/logo.png',
+	logo:'/Modules/B-Here/Client/docs/img/logo.png',
 	background: {
 		// image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
 	},
-	selfServiceAudio: '/Modules/B-Here/Client/docs/audio/self-service.mp3',
+	selfServiceAudio: null, //'/Modules/B-Here/Client/docs/audio/self-service.mp3',
 	colors: {
 		menuBackground: '#000000',
 		menuForeground: '#ffffff',

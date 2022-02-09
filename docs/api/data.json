@@ -5863,7 +5863,7 @@
           "asset": null,
           "id": 503019422526899,
           "keepOrientation": null,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -5877,14 +5877,14 @@
           "abstract": null,
           "viewId": 498478142881399,
           "position": [
-            0.4297428194825838,
-            -0.22945155220230376,
-            -0.8733115677094361
+            42.97428194825838,
+            -22.945155220230376,
+            -87.33115677094361
           ],
           "asset": null,
           "id": 6734179135500,
           "keepOrientation": null,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -5898,14 +5898,14 @@
           "abstract": null,
           "viewId": 503634164139600,
           "position": [
-            0.9375885282294698,
-            -0.13057331423997384,
-            -0.322301662020049
+            93.75885282294698,
+            -13.057331423997384,
+            -32.2301662020049
           ],
           "asset": null,
           "id": 6868366425599,
           "keepOrientation": null,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -5917,12 +5917,12 @@
           },
           "title": null,
           "abstract": null,
-          "viewId": 979852780240700,
+          "viewId": 24644443223500,
           "keepOrientation": false,
           "position": [
-            -0.8467046711236634,
-            -0.22625491424261515,
-            -0.48155987548635726
+            -84.67046711236634,
+            -22.625491424261515,
+            -48.15598754863573
           ],
           "asset": null,
           "id": 29643348226500,
@@ -6020,12 +6020,12 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Modello 3D",
           "abstract": null,
           "viewId": 1018096800320100,
           "keepOrientation": false,
-          "important": false,
-          "transparent": true,
+          "important": true,
+          "transparent": false,
           "position": [
             -100,
             -20,
@@ -6051,12 +6051,12 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "Video",
           "abstract": null,
           "viewId": 268744346470300,
           "keepOrientation": false,
-          "important": false,
-          "transparent": true,
+          "important": true,
+          "transparent": false,
           "position": [
             -95.49255739970548,
             -30,
@@ -7402,14 +7402,14 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1220254876927800_AdobeStock_312681673.jpeg",
+        "file": "440814323600900_back_2.jpg",
         "id": 24618379536400
       },
       "orientation": {
-        "latitude": 20.699999999999996,
-        "longitude": 58.400000000000006
+        "latitude": 0.8233173949443913,
+        "longitude": 80.82888024765688
       },
-      "zoom": 69.9531,
+      "zoom": 75,
       "id": 24644443223500,
       "items": [
         {
@@ -7441,13 +7441,13 @@
           "viewId": 502924660957900,
           "keepOrientation": false,
           "position": [
-            -0.08934516688433017,
-            -0.6282689934066571,
-            -0.7728489587740913
+            19.48020639778214,
+            -40.85718066386002,
+            -89.16957074529691
           ],
           "asset": null,
           "id": 27245318147700,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -7526,14 +7526,17 @@
           "viewId": 502924660957900,
           "keepOrientation": false,
           "position": [
-            0.7187297755655577,
-            -0.6729469852581239,
-            0.1748423997418405
+            68.04800817567458,
+            -63.45536725648244,
+            36.645394658377754
           ],
           "asset": null,
           "link": null,
           "id": 30032871365700,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -7570,12 +7573,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1220329770993100_AdobeStock_370940370.jpeg",
+        "file": "440658439354400_back_2.jpg",
         "id": 24952509900400
       },
       "orientation": {
-        "latitude": 14.300000000000004,
-        "longitude": 129.9
+        "latitude": -2.3,
+        "longitude": 89.5
       },
       "zoom": 75,
       "id": 24965105453700,
@@ -7609,13 +7612,13 @@
           "viewId": 502924660957900,
           "keepOrientation": false,
           "position": [
-            0.8391161951933156,
-            -0.4343231437421444,
-            -0.32748651540824386
+            52.949778090442464,
+            -39.428062028051784,
+            -75.11157650379204
           ],
           "asset": null,
           "id": 30057401039500,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -7694,13 +7697,13 @@
           "viewId": 502924660957900,
           "keepOrientation": false,
           "position": [
-            0.7126962697835555,
-            -0.46458091999886775,
-            -0.5255745387760059
+            76.60099677001861,
+            -48.31383067743662,
+            -42.403550076751614
           ],
           "asset": null,
           "id": 29993903939100,
-          "important": null,
+          "important": true,
           "transparent": null,
           "rotation": null,
           "scale": null
@@ -7804,14 +7807,17 @@
           "viewId": 502924660957900,
           "keepOrientation": false,
           "position": [
-            0.5582380706068719,
-            -0.6733028158797163,
-            -0.4848026141158502
+            78.4084788200365,
+            -48.984377628171714,
+            -38.113530373196284
           ],
           "asset": null,
           "link": null,
           "id": 12263680153900,
-          "important": null
+          "important": true,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,
@@ -7876,6 +7882,39 @@
           "id": 11979559207900,
           "position": null,
           "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Back",
+          "abstract": null,
+          "viewId": 502924660957900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            17.381796537533457,
+            -55.65168290610871,
+            -81.24508193635917
+          ],
+          "rotation": [
+            -0.5956535009486887,
+            -0.16486761673032246,
+            -0.1107821545463415,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 441087028534800
         }
       ],
       "hidden": null,
@@ -8740,7 +8779,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297574519115800_AdobeStock_326519034.jpeg",
+        "file": "441194723426000_back_2.jpg",
         "id": 1224778273465900
       },
       "orientation": {
@@ -8804,12 +8843,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297595450124000_AdobeStock_326519034.jpeg",
+        "file": "441179843049300_back_2.jpg",
         "id": 1224864329454600
       },
       "orientation": {
-        "latitude": 25.4,
-        "longitude": 154.49999999999997
+        "latitude": 11.499999999999998,
+        "longitude": 5.399999999999963
       },
       "zoom": 75,
       "id": 1224876248712400,
@@ -8868,12 +8907,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297655861367500_AdobeStock_326519034.jpeg",
+        "file": "441164819691700_back_2.jpg",
         "id": 1225059449779400
       },
       "orientation": {
-        "latitude": 16.900000000000002,
-        "longitude": 314.7
+        "latitude": 25.200000000000003,
+        "longitude": 290.9
       },
       "zoom": 75,
       "id": 1225083860206300,
@@ -8932,7 +8971,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297431269250700_AdobeStock_326519034.jpeg",
+        "file": "441342365783000_back_2.jpg",
         "id": 1225155726453300
       },
       "orientation": {
@@ -8970,12 +9009,12 @@
           "abstract": null,
           "viewId": 1225380965019600,
           "keepOrientation": true,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
-            -43.83517989713195,
-            -58.872768089841855,
-            67.9151984523772
+            -52.989731568179735,
+            -53.750340800509086,
+            65.59717381230217
           ],
           "rotation": [
             -2.283197039185025,
@@ -9026,7 +9065,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297475206289900_AdobeStock_326519034.jpeg",
+        "file": "441354021706600_back_2.jpg",
         "id": 1225364036013100
       },
       "orientation": {
@@ -9064,12 +9103,12 @@
           "abstract": null,
           "viewId": 1225168087175000,
           "keepOrientation": true,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
-            -39.10035236668382,
-            -61.617873181716675,
-            68.36958497287404
+            -53.89776978769616,
+            -54.16582566036238,
+            64.50654030750475
           ],
           "rotation": [
             -2.178565305941818,
@@ -9120,7 +9159,7 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297668655726800_AdobeStock_326519034.jpeg",
+        "file": "441208426028200_back_2.jpg",
         "id": 1297668767391300
       },
       "orientation": {
@@ -9158,7 +9197,7 @@
           "abstract": null,
           "viewId": 1297730775908700,
           "keepOrientation": true,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
             75.86806032480155,
@@ -9214,12 +9253,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1297716532849700_AdobeStock_326519034.jpeg",
+        "file": "441247392889200_back_2.jpg",
         "id": 1297716542586200
       },
       "orientation": {
-        "latitude": 18.900000000000002,
-        "longitude": 132.2
+        "latitude": 18.000000000000004,
+        "longitude": 130.7
       },
       "zoom": 75,
       "id": 1297730775908700,
@@ -9252,7 +9291,7 @@
           "abstract": null,
           "viewId": 1297678616336200,
           "keepOrientation": true,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
             76.66015076245472,
@@ -9308,12 +9347,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "1029647364543000_roomModel.jpg",
+        "file": "440602816802000_back_2.jpg",
         "id": 1018070214715200
       },
       "orientation": {
-        "latitude": 25.6,
-        "longitude": 19
+        "latitude": 17.1,
+        "longitude": 342.40000000000003
       },
       "zoom": 75,
       "id": 1018096800320100,
@@ -9342,16 +9381,16 @@
             "id": 1,
             "name": "nav"
           },
-          "title": null,
+          "title": "back",
           "abstract": null,
           "viewId": 502924660957900,
           "keepOrientation": false,
-          "important": false,
-          "transparent": true,
+          "important": true,
+          "transparent": false,
           "position": [
-            0.8,
-            -2,
-            100
+            -81.8301098163573,
+            -51.98996785741278,
+            -24.512779720547652
           ],
           "rotation": [
             -3.1118593269618713,
@@ -9365,7 +9404,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 1029714616556300
         }
       ],
@@ -9686,95 +9724,88 @@
       "order": 0
     },
     {
+      "id": 1029977975662000,
+      "parentId": 1226299343143300,
+      "viewId": 1018096800320100,
+      "name": "Gioiello",
+      "order": 0
+    },
+    {
       "id": 1297841865901500,
       "parentId": 1226299343143300,
       "viewId": 1297678616336200,
       "name": "Accessorio",
-      "order": 0
+      "order": 10
     },
     {
       "id": 1226638832518600,
       "parentId": 1226299343143300,
       "viewId": 1225168087175000,
       "name": "Fiore",
-      "order": 10
+      "order": 20
     },
     {
       "id": 1226640915627000,
       "parentId": 1226299343143300,
       "viewId": 1224812747685100,
       "name": "Scarpa_1",
-      "order": 20
+      "order": 30
     },
     {
       "id": 1226641850603700,
       "parentId": 1226299343143300,
       "viewId": 1224876248712400,
       "name": "Scarpa_2",
-      "order": 30
+      "order": 40
     },
     {
       "id": 1226642657473100,
       "parentId": 1226299343143300,
       "viewId": 1225083860206300,
       "name": "Scarpa_3",
-      "order": 40
-    },
-    {
-      "id": 1029977975662000,
-      "parentId": 1226299343143300,
-      "viewId": 1018096800320100,
-      "name": "Gioiello",
       "order": 50
-    },
-    {
-      "id": 981627543856300,
-      "parentId": 514006762002499,
-      "viewId": 979852780240700,
-      "name": "Dress 1",
-      "order": 10
     },
     {
       "id": 26053541161400,
       "parentId": 514006762002499,
       "viewId": 24644443223500,
-      "name": "Dress 2",
-      "order": 20
+      "name": "Dress 1",
+      "order": 10
     },
     {
       "id": 26054505700100,
       "parentId": 514006762002499,
       "viewId": 25021543650100,
-      "name": "Dress 3",
-      "order": 30
+      "name": "Dress 2",
+      "order": 20
     },
     {
       "id": 26070761398700,
       "parentId": 514006762002499,
       "viewId": 24965105453700,
       "name": "Bag",
-      "order": 40
+      "order": 30
     },
     {
       "id": 26055642896400,
       "parentId": 514006762002499,
       "viewId": 24867987536000,
       "name": "Shoe 1",
-      "order": 50
+      "order": 40
     },
     {
       "id": 12386988973600,
       "parentId": 514006762002499,
       "viewId": 11910622211800,
       "name": "Shoe 2",
-      "order": 60
+      "order": 50
     },
     {
       "id": 12387701943300,
       "parentId": 514006762002499,
       "viewId": 11979542098600,
       "name": "Shoe 3",
-      "order": 70
+      "order": 60
     }
   ],
   "navmaps": [],
@@ -13578,7 +13609,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1220254876927800_AdobeStock_312681673.jpeg",
+      "file": "440814323600900_back_2.jpg",
       "id": 24618379536400
     },
     {
@@ -13625,7 +13656,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1220329770993100_AdobeStock_370940370.jpeg",
+      "file": "440658439354400_back_2.jpg",
       "id": 24952509900400
     },
     {
@@ -14513,7 +14544,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297574519115800_AdobeStock_326519034.jpeg",
+      "file": "441194723426000_back_2.jpg",
       "id": 1224778273465900
     },
     {
@@ -14541,7 +14572,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297595450124000_AdobeStock_326519034.jpeg",
+      "file": "441179843049300_back_2.jpg",
       "id": 1224864329454600
     },
     {
@@ -14569,7 +14600,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297655861367500_AdobeStock_326519034.jpeg",
+      "file": "441164819691700_back_2.jpg",
       "id": 1225059449779400
     },
     {
@@ -14597,7 +14628,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297431269250700_AdobeStock_326519034.jpeg",
+      "file": "441342365783000_back_2.jpg",
       "id": 1225155726453300
     },
     {
@@ -14616,7 +14647,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297475206289900_AdobeStock_326519034.jpeg",
+      "file": "441354021706600_back_2.jpg",
       "id": 1225364036013100
     },
     {
@@ -14653,7 +14684,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297668655726800_AdobeStock_326519034.jpeg",
+      "file": "441208426028200_back_2.jpg",
       "id": 1297668767391300
     },
     {
@@ -14681,7 +14712,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1297716532849700_AdobeStock_326519034.jpeg",
+      "file": "441247392889200_back_2.jpg",
       "id": 1297716542586200
     },
     {
@@ -14807,7 +14838,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1029647364543000_roomModel.jpg",
+      "file": "440602816802000_back_2.jpg",
       "id": 1018070214715200
     },
     {

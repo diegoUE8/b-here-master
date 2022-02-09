@@ -148,13 +148,13 @@ function _readOnlyError(name) {
     navInfoAnimated: true,
     navInfoImportantAnimated: true,
     navMoveAnimated: false,
-    navMoveImportantAnimated: false,
+    navMoveImportantAnimated: true,
     navPointAnimated: false,
-    navPointImportantAnimated: false,
+    navPointImportantAnimated: true,
     navTitleAnimated: false,
-    navTitleImportantAnimated: false,
-    navTransparentAnimated: false,
-    navTransparentImportantAnimated: false // maxQuality: false,
+    navTitleImportantAnimated: true,
+    navTransparentAnimated: true,
+    navTransparentImportantAnimated: true // maxQuality: false,
 
   },
   navs: {
@@ -196,7 +196,8 @@ function _readOnlyError(name) {
     // image: '/Modules/B-Here/Client/docs/img/background.jpg',
     video: '/Modules/B-Here/Client/docs/img/background.mp4'
   },
-  selfServiceAudio: '/Modules/B-Here/Client/docs/audio/self-service.mp3',
+  selfServiceAudio: null,
+  //'/Modules/B-Here/Client/docs/audio/self-service.mp3',
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
@@ -283,14 +284,14 @@ function _readOnlyError(name) {
     viewer: true,
     smartDevice: true,
     selfServiceProposition: false,
-    navInfoAnimated: false,
-    navInfoImportantAnimated: false,
+    navInfoAnimated: true,
+    navInfoImportantAnimated: true,
     navMoveAnimated: true,
     navMoveImportantAnimated: true,
     navPointAnimated: false,
-    navPointImportantAnimated: false,
+    navPointImportantAnimated: true,
     navTitleAnimated: false,
-    navTitleImportantAnimated: false,
+    navTitleImportantAnimated: true,
     navTransparentAnimated: true,
     navTransparentImportantAnimated: true // maxQuality: false,
 
@@ -334,7 +335,8 @@ function _readOnlyError(name) {
     // image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
   },
-  selfServiceAudio: '/b-here/audio/self-service.mp3',
+  selfServiceAudio: null,
+  //'/b-here/audio/self-service.mp3',
   colors: {
     menuBackground: '#000000',
     menuForeground: '#ffffff',
@@ -529,8 +531,8 @@ var defaultAppOptions = {
     heroku: HEROKU
   },
   navs: {
-    iconMinScale: 1,
-    iconMaxScale: 1.4
+    iconMinScale: 1.2,
+    iconMaxScale: 1.6
   },
   url: {},
   languages: ['it', 'en'],
@@ -20461,19 +20463,25 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    var direct1 = new THREE.PointLight(0xffffff);
-    direct1.position.set(-50, 0, -50);
-    objects.add(direct1);
-    var direct3 = new THREE.DirectionalLight(0xffe699, 1);
-    direct3.position.set(0, 50, 0);
-    direct3.target.position.set(0, 0, 0);
-    objects.add(direct3);
     var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
     objects.add(ambient);
-    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
-    direct.position.set(5, -5, 5);
-    direct.target.position.set(0, 0, 0);
+    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+    direct.position.set(50, 50, 50);
+    direct.target.position.set(-50, -50, -50);
     objects.add(direct);
+    var direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct2.position.set(-50, 50, 50);
+    direct2.target.position.set(0, 0, 0);
+    objects.add(direct2);
+    var direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct3.position.set(0, 50, -50);
+    direct3.target.position.set(0, 0, 0);
+    objects.add(direct3);
+    /*const direct = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct.position.set(-40, -40, -40);
+    direct.target.position.set(0, 0, 0);
+    objects.add(direct);*/
+
     this.addControllers();
     this.resize(); // show hide items
 
@@ -30043,7 +30051,7 @@ function DRACOWorker() {
     var box = new THREE.Box3().setFromObject(mesh);
     var size = box.max.clone().sub(box.min);
     var max = Math.max(size.x, size.y, size.z);
-    var scale = 2 / max; //1.7
+    var scale = 2.5 / max; //1.7
 
     mesh.scale.set(scale, scale, scale); // repos
 
@@ -30071,6 +30079,7 @@ function DRACOWorker() {
 
       onUpdate();
       this.makeInteractive(mesh);
+      this.onClipToggle();
       gsap.to(from, {
         duration: 1.5,
         tween: 0,
@@ -30103,6 +30112,7 @@ function DRACOWorker() {
       }
 
       this.makeInteractive(mesh);
+      this.onClipToggle();
       /*
       const geometry = ModelModelComponent.getInteractiveGeometry();
       const sphere = new InteractiveMesh(geometry, new THREE.MeshBasicMaterial({
