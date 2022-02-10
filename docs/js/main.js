@@ -20427,7 +20427,8 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
       antialias: true,
       alpha: false,
       premultipliedAlpha: true,
-      logarithmicDepthBuffer: true // physicallyCorrectLights: true,
+      logarithmicDepthBuffer: true,
+      physicallyCorrectLights: true //test
 
     });
     renderer.setClearColor(0x000000, 1);
@@ -20471,17 +20472,21 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(direct);
     var direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
     direct2.position.set(-50, 50, 50);
-    direct2.target.position.set(0, 0, 0);
+    direct2.target.position.set(50, -50, -50);
     objects.add(direct2);
     var direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
     direct3.position.set(0, 50, -50);
-    direct3.target.position.set(0, 0, 0);
+    direct3.target.position.set(0, -50, 50);
     objects.add(direct3);
-    /*const direct = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
-    direct.position.set(-40, -40, -40);
-    direct.target.position.set(0, 0, 0);
-    objects.add(direct);*/
+    var direct4 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct4.position.set(0, -50, -5);
+    direct4.target.position.set(0, 50, 5);
+    objects.add(direct4);
+    var direct5 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct5.position.set(0, 50, 50); //x-50sinistra y-50basso z-50dietro
 
+    direct5.target.position.set(0, -50, -50);
+    objects.add(direct5);
     this.addControllers();
     this.resize(); // show hide items
 

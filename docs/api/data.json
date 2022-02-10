@@ -31,7 +31,7 @@
         "id": 2,
         "name": "model"
       },
-      "name": "Piazzetta",
+      "name": "P110",
       "asset": {
         "type": {
           "id": 1,
@@ -218,21 +218,85 @@
       "items": [],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "P120",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "1554413243700_back_2.jpg",
+        "id": 1554500328300
+      },
+      "orientation": {
+        "latitude": 14.5,
+        "longitude": 91.4
+      },
+      "zoom": 75,
+      "id": 1568858038100,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "1560770496500_P120DFG_metallo-bianco.glb",
+            "id": 1560781088900,
+            "chromaKeyColor": null
+          },
+          "id": 1568874311600,
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1584200452300_P120DFG_metallo-bianco.usdz",
+          "id": 1584308678800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "1587224217800_P120DFG_metallo-bianco.glb",
+          "id": 1587236668400
+        }
+      }
     }
   ],
   "menu": [
     {
-      "id": 697973337729400,
+      "id": 1651028803400,
       "parentId": null,
       "viewId": 613475127221300,
-      "name": "Stufa 3D",
+      "name": "P110",
       "order": 0
     },
     {
-      "id": 698000264790300,
+      "id": 1659324390000,
       "parentId": null,
-      "viewId": 676761117878600,
-      "name": "Caratteristiche tecniche",
+      "viewId": 1568858038100,
+      "name": "P120",
       "order": 10
     }
   ],
@@ -356,6 +420,43 @@
       "folder": "/uploads/",
       "file": "677269494816700_TEST_01.jpg",
       "id": 677269535942700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "1554413243700_back_2.jpg",
+      "id": 1554500328300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1560770496500_P120DFG_metallo-bianco.glb",
+      "id": 1560781088900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1584200452300_P120DFG_metallo-bianco.usdz",
+      "id": 1584308678800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "1587224217800_P120DFG_metallo-bianco.glb",
+      "id": 1587236668400
     }
   ],
   "users": [

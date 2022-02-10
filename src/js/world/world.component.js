@@ -200,7 +200,7 @@ export default class WorldComponent extends Component {
 			alpha: false,
 			premultipliedAlpha: true,
 			logarithmicDepthBuffer: true,
-			// physicallyCorrectLights: true,
+			physicallyCorrectLights: true,//test
 		});
 		renderer.setClearColor(0x000000, 1);
 		renderer.setPixelRatio(window.devicePixelRatio);
@@ -215,7 +215,7 @@ export default class WorldComponent extends Component {
 		renderer.toneMappingExposure = 1;
 		if (USE_SHADOW) {
 			renderer.shadowMap.enabled = true;
-			renderer.shadowMap.type = THREE.PCFShadowMap; // THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
+			renderer.shadowMap.type = THREE.VSMShadowMap; // THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
 		}
 		if (container.childElementCount > 0) {
 			container.insertBefore(renderer.domElement, container.children[0]);
@@ -253,19 +253,25 @@ export default class WorldComponent extends Component {
 
 		const direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
 		direct2.position.set(-50, 50, 50);
-		direct2.target.position.set(0, 0, 0);
+		direct2.target.position.set(50,-50, -50);
 		objects.add(direct2);
 
 		const direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
 		direct3.position.set(0 , 50, -50);
-		direct3.target.position.set(0, 0, 0);
+		direct3.target.position.set(0, -50, 50);
 		objects.add(direct3);
 
-		/*const direct = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
-		direct.position.set(-40, -40, -40);
-		direct.target.position.set(0, 0, 0);
-		objects.add(direct);*/
+		const direct4 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+		direct4.position.set(0 , -50, -5);
+		direct4.target.position.set(0, 50, 5);
+		objects.add(direct4);
 
+		const direct5 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+		direct5.position.set(0, 50, 50); //x-50sinistra y-50basso z-50dietro
+		direct5.target.position.set(0, -50, -50);
+		objects.add(direct5);
+
+	
 		this.addControllers();
 		this.resize();
 
