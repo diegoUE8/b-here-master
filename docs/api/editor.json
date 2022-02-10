@@ -19,8 +19,8 @@
         "id": 616483267323500
       },
       "orientation": {
-        "latitude": -5,
-        "longitude": 3.1
+        "latitude": -6.5,
+        "longitude": 211.6
       },
       "zoom": 75,
       "items": [],
@@ -81,9 +81,9 @@
           "important": true,
           "transparent": false,
           "position": [
-            22.825190464761743,
-            -29.28694969942523,
-            -92.85087645009435
+            33.55630445260107,
+            -33.414536989917366,
+            -88.07634840996639
           ],
           "rotation": [
             -0.33625137386790005,
@@ -282,6 +282,854 @@
           "id": 1587236668400
         }
       }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "P110_metallo_bianco",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18192680535000_220210_Piazzetta_360_01.jpg",
+        "id": 18192691858600
+      },
+      "orientation": {
+        "latitude": 8.500000000000002,
+        "longitude": 91.7
+      },
+      "zoom": 75,
+      "id": 18207379828400,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "18205613357700_P110_metallo_bianco.glb",
+            "id": 18205626703800,
+            "chromaKeyColor": null
+          },
+          "id": 18207385614900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Nero",
+          "abstract": null,
+          "viewId": 18266206172400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            54.6141118539453,
+            2.3798991472530946,
+            -83.73550541110775
+          ],
+          "rotation": [
+            0.03251842578070283,
+            -0.5753254851695834,
+            0.017697923885447542,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18607128248700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Bianco e Nero",
+          "abstract": null,
+          "viewId": 18330192243700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            55.4789357999406,
+            -7.123843234139304,
+            -82.8935373842948
+          ],
+          "rotation": [
+            -0.0816568238364447,
+            -0.5829026786445681,
+            -0.045017700132684135,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18622591082100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Rosso Rubino",
+          "abstract": null,
+          "viewId": 18375308038700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            55.70789431926961,
+            -16.615610107781986,
+            -81.36677461506794
+          ],
+          "rotation": [
+            -0.19958983026696678,
+            -0.5753084736694021,
+            -0.1096197160284284,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18639579165200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Caratteristiche tecniche",
+          "abstract": null,
+          "viewId": 676761117878600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            55.23210466106661,
+            -25.202096519233862,
+            -79.46237440288458
+          ],
+          "rotation": [
+            -0.3016325626625981,
+            -0.569903209905775,
+            -0.16631748180524425,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18650802678000
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18227174643200_P110_metallo_bianco.usdz",
+          "id": 18227198795600
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18232738575600_P110_metallo_bianco.glb",
+          "id": 18232749057600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "P110_metallo_nero",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18249294570000_220210_Piazzetta_360_01.jpg",
+        "id": 18249305830100
+      },
+      "orientation": {
+        "latitude": 10.5,
+        "longitude": 91.7
+      },
+      "zoom": 75,
+      "id": 18266206172400,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "18255140591000_P110_metallo_nero.glb",
+            "id": 18255153751300,
+            "chromaKeyColor": null
+          },
+          "id": 18266216982200,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Bianco",
+          "abstract": null,
+          "viewId": 18207379828400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            51.48253144028947,
+            3.3380442553150687,
+            -85.66449916417633
+          ],
+          "rotation": [
+            0.032647857899993124,
+            -0.5267441475354011,
+            0.016417138669783247,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18717991245600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Bianco e Nero",
+          "abstract": null,
+          "viewId": 18330192243700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            51.879677296615476,
+            -7.121821639952637,
+            -85.19259791864398
+          ],
+          "rotation": [
+            -0.10455593019239673,
+            -0.537689902108817,
+            -0.05369298735383509,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18735126953000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Rosso Rubino",
+          "abstract": null,
+          "viewId": 18375308038700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            52.264488371870755,
+            -17.21134218276505,
+            -83.4996584154352
+          ],
+          "rotation": [
+            -0.19084311603444934,
+            -0.5262425785867256,
+            -0.09673625624661407,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18756541210800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Caratteristiche tecniche",
+          "abstract": null,
+          "viewId": 676761117878600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            51.63471087829051,
+            -26.1943221938161,
+            -81.5335153008988
+          ],
+          "rotation": [
+            -0.30538134832161035,
+            -0.528413538704526,
+            -0.1576155493934746,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18768352534100
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18276656296300_P110_metallo_nero.usdz",
+          "id": 18276677506700
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18280593363500_P110_metallo_nero.glb",
+          "id": 18280602662600
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "P110_metallo-bianco-nero",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18313282758400_220210_Piazzetta_360_01.jpg",
+        "id": 18313293745900
+      },
+      "orientation": {
+        "latitude": 9.700000000000001,
+        "longitude": 91.5
+      },
+      "zoom": 75,
+      "id": 18330192243700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "18324588154400_P110_metallo-bianco-nero.glb",
+            "id": 18324601083900,
+            "chromaKeyColor": null
+          },
+          "id": 18330203622600,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Bianco",
+          "abstract": null,
+          "viewId": 18207379828400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            52.287891876610956,
+            -0.4810261025132546,
+            -85.23933937442584
+          ],
+          "rotation": [
+            -0.011184854266860111,
+            -0.5357775722093665,
+            -0.005710153841795719,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18853280368100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Nero",
+          "abstract": null,
+          "viewId": 18266206172400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            52.818360445244195,
+            -9.227732425577873,
+            -84.41012826763267
+          ],
+          "rotation": [
+            -0.14456316869870056,
+            -0.5436919915002005,
+            -0.07516586010978227,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18864680434000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Rosso Rubino",
+          "abstract": null,
+          "viewId": 18375308038700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            52.784077332265646,
+            -18.701909970136587,
+            -82.84974196489877
+          ],
+          "rotation": [
+            -0.22021671260536863,
+            -0.5412878368812235,
+            -0.1148275957009427,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18883938645400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Caratteristiche tecniche",
+          "abstract": null,
+          "viewId": 676761117878600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            51.72718231483383,
+            -28.024537853716076,
+            -80.86361287905443
+          ],
+          "rotation": [
+            -0.3280732441076573,
+            -0.5293798124102636,
+            -0.17022452565873275,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 18897478921300
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18340498965500_P110_metallo-bianco-nero.usdz",
+          "id": 18340515273500
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18343315436500_P110_metallo-bianco-nero.glb",
+          "id": 18343324399300
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "P110_metallo-rosso-rubino",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "18353804626200_220210_Piazzetta_360_01.jpg",
+        "id": 18353821671000
+      },
+      "orientation": {
+        "latitude": 8.500000000000002,
+        "longitude": 91.7
+      },
+      "zoom": 75,
+      "id": 18375308038700,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "18357226367300_P110_metallo-rosso-rubino.glb",
+            "id": 18357245965700,
+            "chromaKeyColor": null
+          },
+          "id": 18375318083200,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Bianco",
+          "abstract": null,
+          "viewId": 18207379828400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            58,
+            5,
+            -80
+          ],
+          "rotation": [
+            0.05343280593162148,
+            -0.6307020454569201,
+            0.03152953052877199,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18415366361500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Nero",
+          "abstract": null,
+          "viewId": 18266206172400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            59,
+            -3,
+            -80
+          ],
+          "rotation": [
+            -0.04715553478869384,
+            -0.6351270685812913,
+            -0.027989869984699725,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18431939342800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Metallo Bianco Nero",
+          "abstract": null,
+          "viewId": 18330192243700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            60,
+            -11,
+            -80
+          ],
+          "rotation": [
+            -0.1478143311078883,
+            -0.628764854450744,
+            -0.08735233304256815,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18448337269100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Caratteristiche tecniche",
+          "abstract": null,
+          "viewId": 676761117878600,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            61,
+            -19,
+            -80
+          ],
+          "rotation": [
+            -0.24878956141353614,
+            -0.630398255209814,
+            -0.14865102709981867,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 18480724736800
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18386000249500_P110_metallo-rosso-rubino.usdz",
+          "id": 18386030017800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "18388739687300_P110_metallo-rosso-rubino.glb",
+          "id": 18388756654800
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 6,
+        "name": "media"
+      },
+      "name": "Test menu",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "19586388921500_prova-menu.jpg",
+        "id": 19586399774400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 19587740521900,
+      "items": [
+        {
+          "type": {
+            "id": 2,
+            "name": "plane"
+          },
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "scale": [
+            12,
+            6.75,
+            1
+          ],
+          "asset": {
+            "type": {
+              "id": 1,
+              "name": "image"
+            },
+            "folder": "/uploads/",
+            "file": "19615154173200_prova-menu.jpg",
+            "id": 19586399774400,
+            "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
+            "locale": {
+              "it": {
+                "type": {
+                  "id": 1,
+                  "name": "image"
+                },
+                "folder": "/uploads/",
+                "file": "19615154173200_prova-menu.jpg",
+                "id": 19586399774400,
+                "chromaKeyColor": null,
+                "autoplay": false,
+                "loop": false
+              }
+            }
+          },
+          "id": 19587751750900
+        }
+      ]
     }
   ],
   "menu": [
@@ -298,6 +1146,48 @@
       "viewId": 1568858038100,
       "name": "P120",
       "order": 10
+    },
+    {
+      "id": 18784050861900,
+      "parentId": null,
+      "viewId": null,
+      "name": "Varianti 110",
+      "order": 20
+    },
+    {
+      "id": 18798797799400,
+      "parentId": 18784050861900,
+      "viewId": 18207379828400,
+      "name": "P110_metallo_bianco",
+      "order": 0
+    },
+    {
+      "id": 18799259874300,
+      "parentId": 18784050861900,
+      "viewId": 18266206172400,
+      "name": "P110_metallo_nero",
+      "order": 10
+    },
+    {
+      "id": 18799595206800,
+      "parentId": 18784050861900,
+      "viewId": 18330192243700,
+      "name": "P110_metallo-bianco-nero",
+      "order": 20
+    },
+    {
+      "id": 18799946364200,
+      "parentId": 18784050861900,
+      "viewId": 18375308038700,
+      "name": "P110_metallo-rosso-rubino",
+      "order": 30
+    },
+    {
+      "id": 19623580886800,
+      "parentId": 18784050861900,
+      "viewId": 19587740521900,
+      "name": "Test menu",
+      "order": 40
     }
   ],
   "navmaps": [],
@@ -457,6 +1347,180 @@
       "folder": "/uploads/",
       "file": "1587224217800_P120DFG_metallo-bianco.glb",
       "id": 1587236668400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18192680535000_220210_Piazzetta_360_01.jpg",
+      "id": 18192691858600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18205613357700_P110_metallo_bianco.glb",
+      "id": 18205626703800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18227174643200_P110_metallo_bianco.usdz",
+      "id": 18227198795600
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18232738575600_P110_metallo_bianco.glb",
+      "id": 18232749057600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18249294570000_220210_Piazzetta_360_01.jpg",
+      "id": 18249305830100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18255140591000_P110_metallo_nero.glb",
+      "id": 18255153751300,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18276656296300_P110_metallo_nero.usdz",
+      "id": 18276677506700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18280593363500_P110_metallo_nero.glb",
+      "id": 18280602662600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18313282758400_220210_Piazzetta_360_01.jpg",
+      "id": 18313293745900
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18324588154400_P110_metallo-bianco-nero.glb",
+      "id": 18324601083900,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18340498965500_P110_metallo-bianco-nero.usdz",
+      "id": 18340515273500
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18343315436500_P110_metallo-bianco-nero.glb",
+      "id": 18343324399300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "18353804626200_220210_Piazzetta_360_01.jpg",
+      "id": 18353821671000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18357226367300_P110_metallo-rosso-rubino.glb",
+      "id": 18357245965700,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18386000249500_P110_metallo-rosso-rubino.usdz",
+      "id": 18386030017800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "18388739687300_P110_metallo-rosso-rubino.glb",
+      "id": 18388756654800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "19615154173200_prova-menu.jpg",
+      "id": 19586399774400,
+      "chromaKeyColor": null,
+      "autoplay": false,
+      "loop": false,
+      "locale": {
+        "it": {
+          "type": {
+            "id": 1,
+            "name": "image"
+          },
+          "folder": "/uploads/",
+          "file": "19615154173200_prova-menu.jpg",
+          "id": 19586399774400,
+          "chromaKeyColor": null,
+          "autoplay": false,
+          "loop": false
+        }
+      }
     }
   ],
   "users": [
