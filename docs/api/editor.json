@@ -1197,7 +1197,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "7839303318300_P110_INFO.usdz",
+          "file": "10363038785100_P110_metallo_bianco.usdz",
           "id": 7839372715400
         },
         "gltf": {
@@ -1206,7 +1206,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "7842522427500_P110_INFO.glb",
+          "file": "10367061750800_P110_metallo_bianco.glb",
           "id": 7842538134200
         }
       }
@@ -1629,7 +1629,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "7839303318300_P110_INFO.usdz",
+      "file": "10363038785100_P110_metallo_bianco.usdz",
       "id": 7839372715400
     },
     {
@@ -1638,7 +1638,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "7842522427500_P110_INFO.glb",
+      "file": "10367061750800_P110_metallo_bianco.glb",
       "id": 7842538134200
     }
   ],
