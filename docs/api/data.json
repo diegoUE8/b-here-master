@@ -14,14 +14,17 @@
           "id": 1,
           "name": "image"
         },
-        "folder": "/textures/waiting-room/",
-        "file": "waiting.jpeg"
+        "folder": "/uploads/",
+        "file": "26154059540900_IMG_20220209_165405_00_merged-Enhanced.jpg",
+        "id": 26154330307000
       },
       "orientation": {
         "latitude": 0,
         "longitude": 0
       },
-      "zoom": 75
+      "zoom": 75,
+      "items": [],
+      "ar": null
     },
     {
       "id": 170427763402500,
@@ -38,12 +41,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "268102602072500_waiting.jpeg",
+        "file": "26364541718200_IMG_20220209_165122_00_merged-2-Enhanced-2.jpg",
         "id": 1379251065267400
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -6.793110084596139,
+        "longitude": 178.11528232637923
       },
       "zoom": 75,
       "items": [
@@ -56,9 +59,9 @@
           "abstract": null,
           "viewId": 502924660957900,
           "position": [
-            93.74545551493846,
-            5.435083290916558,
-            34.38385434935261
+            -35.38001926462563,
+            -4.803138830004737,
+            -93.40869388988597
           ],
           "asset": null,
           "id": 503566773717800,
@@ -75,11 +78,11 @@
           },
           "title": "Showroom",
           "abstract": null,
-          "viewId": 498478142881399,
+          "viewId": 13389537031800,
           "position": [
-            -98.49369887269957,
-            4.109842788104604,
-            -16.79584694592824
+            -90.51981952876828,
+            -7.717390229106881,
+            -41.79239357264554
           ],
           "asset": null,
           "id": 505729885600300,
@@ -88,6 +91,38 @@
           "transparent": null,
           "rotation": null,
           "scale": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Machine",
+          "abstract": null,
+          "viewId": 12728846999500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -26.410818881564964,
+            -11.308373423606772,
+            95.78407663342293
+          ],
+          "rotation": [
+            -2.8699879278534244,
+            0.6223613240795517,
+            2.9806515442423556,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 26246040028600
         }
       ],
       "hidden": null,
@@ -9611,11 +9646,48 @@
         "id": 12726961159000
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -4.700000000000001,
+        "longitude": 92.70000000000007
       },
       "zoom": 75,
-      "id": 12728846999500
+      "id": 12728846999500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            23.12550741304675,
+            -8.370383285415278,
+            -96.92856952696847
+          ],
+          "rotation": [
+            -0.08614249494564426,
+            -0.23336752862066304,
+            -0.019967656093472872,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 26438464343100
+        }
+      ],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -9669,6 +9741,155 @@
         "id": 2,
         "name": "panorama"
       },
+      "name": "Showroom_0",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "28148134949800_IMG_0_170124_light.jpg",
+        "id": 13387483143100
+      },
+      "orientation": {
+        "latitude": -15.600000000000001,
+        "longitude": 274.8
+      },
+      "zoom": 75,
+      "id": 13389537031800,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 24089497496700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            78.94038856076085,
+            -16.58694584530911,
+            59.10404623543871
+          ],
+          "rotation": [
+            -0.856958185870513,
+            0.4505671677690832,
+            0.46582841444307505,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 27982120360000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 17667859737700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -17.732885578115837,
+            -14.527092074163331,
+            97.33708627723676
+          ],
+          "rotation": [
+            -0.8277043780655992,
+            -0.17445398745513999,
+            -0.1867145232569665,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 27992246333000
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom_1_light",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "27679786001500_IMG_1_170334_light.jpg",
+        "id": 13418747391400
+      },
+      "orientation": {
+        "latitude": -3.5,
+        "longitude": 10.200000000000001
+      },
+      "zoom": 75,
+      "id": 13420812142700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Light OFF",
+          "abstract": null,
+          "viewId": 17667859737700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            93.43980838715153,
+            24.433622487052325,
+            25.92296859413708
+          ],
+          "rotation": [
+            2.3857618624016084,
+            -1.2065656213472975,
+            2.4195353672561555,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 27943160376300
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
       "name": "Showroom_1",
       "asset": {
         "type": {
@@ -9676,15 +9897,115 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "13387450012800_IMG_20220209_170124_00_merged-3-Enhanced.jpg",
-        "id": 13387483143100
+        "file": "28137700420700_IMG_1_171349.jpg",
+        "id": 17660907566800
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -15.600000000000001,
+        "longitude": 274.8
       },
       "zoom": 75,
-      "id": 13389537031800
+      "id": 17667859737700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 24089497496700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            68.09437308934945,
+            -70.89468610656075,
+            18.36027874027792
+          ],
+          "rotation": [
+            -1.8242083764331023,
+            -0.7490505226843219,
+            -1.934226904787587,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 27885797846600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 13389537031800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            22.658554574819355,
+            -68.79904789105447,
+            -68.94404190257724
+          ],
+          "rotation": [
+            -0.7843455228752533,
+            -0.22857061374150395,
+            -0.22236977339261355,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 27894547254800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Light ON",
+          "abstract": null,
+          "viewId": 13420812142700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            95.26866087520295,
+            22.794697862312418,
+            20.106814874849345
+          ],
+          "rotation": [
+            2.293623868809749,
+            -1.2619557071530059,
+            2.317732539908384,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 27914432771300
+        }
+      ],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -9698,56 +10019,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "13418707552900_IMG_20220209_170334_00_merged-Enhanced.jpg",
-        "id": 13418747391400
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 13420812142700
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Showroom_3",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "17660518577900_IMG_20220209_170624_00_merged-Enhanced.jpg",
-        "id": 17660907566800
-      },
-      "orientation": {
-        "latitude": 0,
-        "longitude": 0
-      },
-      "zoom": 75,
-      "id": 17667859737700
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "panorama"
-      },
-      "name": "Showroom_4",
-      "asset": {
-        "type": {
-          "id": 1,
-          "name": "image"
-        },
-        "folder": "/uploads/",
-        "file": "24086188729500_IMG_20220209_171349_00_merged-Enhanced.jpg",
+        "file": "27732969327200_IMG_2_170624.jpg",
         "id": 24086852066800
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -8.1,
+        "longitude": 359.90000000000003
       },
       "zoom": 75,
       "id": 24089497496700,
@@ -9766,14 +10043,14 @@
           "important": false,
           "transparent": false,
           "position": [
-            -3.113303023608461,
-            -73.95069102499244,
-            67.24286312471601
+            -75.4189276556449,
+            -65.20756237005146,
+            -7.743330099411392
           ],
           "rotation": [
-            -2.3087221518700916,
-            0.03113806179339724,
-            3.107367310298236,
+            -1.4526008652096287,
+            0.854418620367108,
+            1.41462599623951,
             "XYZ"
           ],
           "scale": [
@@ -9783,9 +10060,91 @@
           ],
           "asset": null,
           "link": null,
-          "id": 24142363985700
+          "id": 27856649369400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 13389537031800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -32.23678178090576,
+            -59.270234299847665,
+            -73.80941150321839
+          ],
+          "rotation": [
+            -0.6765780529383946,
+            0.3282297793029327,
+            0.25330644574571193,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 28241091870100
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video_test_1",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "28310694846000_2_1.mp4",
+        "id": 28310729388800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 28321412059800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Video_tour",
+      "asset": {
+        "type": {
+          "id": 2,
+          "name": "video"
+        },
+        "folder": "/uploads/",
+        "file": "28379296003400_tour_1.mp4",
+        "id": 28379729040500
+      },
+      "orientation": {
+        "latitude": -2.9,
+        "longitude": 135.50000000000003
+      },
+      "zoom": 75,
+      "id": 28423885785100,
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -9905,28 +10264,28 @@
       "id": 25136170818800,
       "parentId": 25053658422800,
       "viewId": 13389537031800,
-      "name": "Showroom_1",
+      "name": "Showroom_0",
       "order": 30
     },
     {
       "id": 25136441316200,
       "parentId": 25053658422800,
       "viewId": 13420812142700,
-      "name": "Showroom_2",
+      "name": "Showroom_1_light",
       "order": 40
     },
     {
       "id": 25175535581300,
       "parentId": 25053658422800,
       "viewId": 17667859737700,
-      "name": "Showroom_3",
+      "name": "Showroom_1",
       "order": 50
     },
     {
       "id": 25176025800800,
       "parentId": 25053658422800,
       "viewId": 24089497496700,
-      "name": "Showroom_4",
+      "name": "Showroom_2",
       "order": 60
     },
     {
@@ -9956,6 +10315,21 @@
       "viewId": 268323816778600,
       "name": "Time-square",
       "order": 20
+    },
+    {
+      "id": 28480790048300,
+      "parentId": 513946905350299,
+      "viewId": 28321412059800,
+      "name": "Video_test_1",
+      "order": 30
+    },
+    {
+      "id": 28481581450400,
+      "parentId": 513946905350299,
+      "viewId": 28423885785100,
+      "name": "Video_tour",
+      "order": 40,
+      "items": []
     },
     {
       "id": 514006762002499,
@@ -13082,7 +13456,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "268102602072500_waiting.jpeg",
+      "file": "26364541718200_IMG_20220209_165122_00_merged-2-Enhanced-2.jpg",
       "id": 1379251065267400
     },
     {
@@ -15184,7 +15558,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "13387450012800_IMG_20220209_170124_00_merged-3-Enhanced.jpg",
+      "file": "28148134949800_IMG_0_170124_light.jpg",
       "id": 13387483143100
     },
     {
@@ -15193,7 +15567,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "13418707552900_IMG_20220209_170334_00_merged-Enhanced.jpg",
+      "file": "27679786001500_IMG_1_170334_light.jpg",
       "id": 13418747391400
     },
     {
@@ -15202,7 +15576,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "17660518577900_IMG_20220209_170624_00_merged-Enhanced.jpg",
+      "file": "28137700420700_IMG_1_171349.jpg",
       "id": 17660907566800
     },
     {
@@ -15211,8 +15585,35 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "24086188729500_IMG_20220209_171349_00_merged-Enhanced.jpg",
+      "file": "27732969327200_IMG_2_170624.jpg",
       "id": 24086852066800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "26154059540900_IMG_20220209_165405_00_merged-Enhanced.jpg",
+      "id": 26154330307000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "28310694846000_2_1.mp4",
+      "id": 28310729388800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "video"
+      },
+      "folder": "/uploads/",
+      "file": "28379296003400_tour_1.mp4",
+      "id": 28379729040500
     }
   ],
   "users": [
