@@ -9594,6 +9594,198 @@
           "id": 268744521677600
         }
       ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Fabric",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "12726588762500_IMG_20220209_163953_00_merged.jpg",
+        "id": 12726961159000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 12728846999500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Reception",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "13066056231200_IMG_20220209_165122_00_merged-2-Enhanced.jpg",
+        "id": 12747980623300
+      },
+      "orientation": {
+        "latitude": -3.3999999999999986,
+        "longitude": 178.59999999999997
+      },
+      "zoom": 75,
+      "id": 12752631561000,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Exterior",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "13112769772800_IMG_20220209_165405_00_merged-Enhanced.jpg",
+        "id": 13112811904400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 13114143510100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom_1",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "13387450012800_IMG_20220209_170124_00_merged-3-Enhanced.jpg",
+        "id": 13387483143100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 13389537031800
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom_2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "13418707552900_IMG_20220209_170334_00_merged-Enhanced.jpg",
+        "id": 13418747391400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 13420812142700
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom_3",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "17660518577900_IMG_20220209_170624_00_merged-Enhanced.jpg",
+        "id": 17660907566800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 17667859737700
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "Showroom_4",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "24086188729500_IMG_20220209_171349_00_merged-Enhanced.jpg",
+        "id": 24086852066800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 24089497496700,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 17667859737700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -3.113303023608461,
+            -73.95069102499244,
+            67.24286312471601
+          ],
+          "rotation": [
+            -2.3087221518700916,
+            0.03113806179339724,
+            3.107367310298236,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 24142363985700
+        }
+      ]
     }
   ],
   "menu": [
@@ -9682,11 +9874,67 @@
       "order": 10
     },
     {
+      "id": 25053658422800,
+      "parentId": null,
+      "viewId": null,
+      "name": "Foto 360",
+      "order": 40
+    },
+    {
+      "id": 25133926907100,
+      "parentId": 25053658422800,
+      "viewId": 12752631561000,
+      "name": "Reception",
+      "order": 0
+    },
+    {
+      "id": 25135324217700,
+      "parentId": 25053658422800,
+      "viewId": 13114143510100,
+      "name": "Exterior",
+      "order": 10
+    },
+    {
+      "id": 25135818621800,
+      "parentId": 25053658422800,
+      "viewId": 12728846999500,
+      "name": "Fabric",
+      "order": 20
+    },
+    {
+      "id": 25136170818800,
+      "parentId": 25053658422800,
+      "viewId": 13389537031800,
+      "name": "Showroom_1",
+      "order": 30
+    },
+    {
+      "id": 25136441316200,
+      "parentId": 25053658422800,
+      "viewId": 13420812142700,
+      "name": "Showroom_2",
+      "order": 40
+    },
+    {
+      "id": 25175535581300,
+      "parentId": 25053658422800,
+      "viewId": 17667859737700,
+      "name": "Showroom_3",
+      "order": 50
+    },
+    {
+      "id": 25176025800800,
+      "parentId": 25053658422800,
+      "viewId": 24089497496700,
+      "name": "Showroom_4",
+      "order": 60
+    },
+    {
       "id": 513946905350299,
       "parentId": null,
       "viewId": null,
       "name": "Video 360",
-      "order": 40
+      "order": 50
     },
     {
       "id": 513958863172400,
@@ -9714,7 +9962,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Modelli3D",
-      "order": 50
+      "order": 60
     },
     {
       "id": 1226299343143300,
@@ -14902,6 +15150,69 @@
       "chromaKeyColor": null,
       "autoplay": true,
       "loop": true
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "12726588762500_IMG_20220209_163953_00_merged.jpg",
+      "id": 12726961159000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "13066056231200_IMG_20220209_165122_00_merged-2-Enhanced.jpg",
+      "id": 12747980623300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "13112769772800_IMG_20220209_165405_00_merged-Enhanced.jpg",
+      "id": 13112811904400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "13387450012800_IMG_20220209_170124_00_merged-3-Enhanced.jpg",
+      "id": 13387483143100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "13418707552900_IMG_20220209_170334_00_merged-Enhanced.jpg",
+      "id": 13418747391400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "17660518577900_IMG_20220209_170624_00_merged-Enhanced.jpg",
+      "id": 17660907566800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "24086188729500_IMG_20220209_171349_00_merged-Enhanced.jpg",
+      "id": 24086852066800
     }
   ],
   "users": [
