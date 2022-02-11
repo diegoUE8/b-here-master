@@ -1053,75 +1053,163 @@
     },
     {
       "type": {
-        "id": 6,
-        "name": "media"
+        "id": 5,
+        "name": "model"
       },
-      "name": "Test menu",
+      "name": "P110 + menu",
       "asset": {
         "type": {
           "id": 1,
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "19586388921500_prova-menu.jpg",
-        "id": 19586399774400
+        "file": "7704413437900_220210_Piazzetta_360_01.jpg",
+        "id": 7704425589400
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 3.7000000000000006,
+        "longitude": 85.7
       },
-      "zoom": 75,
-      "id": 19587740521900,
+      "zoom": 54.7349,
+      "id": 7713912369100,
       "items": [
         {
           "type": {
-            "id": 2,
-            "name": "plane"
+            "id": 4,
+            "name": "model"
           },
-          "position": [
-            20,
-            0,
-            0
-          ],
-          "rotation": [
-            0,
-            -1.5707963267948966,
-            0
-          ],
-          "scale": [
-            12,
-            6.75,
-            1
-          ],
           "asset": {
             "type": {
-              "id": 1,
-              "name": "image"
+              "id": 3,
+              "name": "model"
             },
             "folder": "/uploads/",
-            "file": "19615154173200_prova-menu.jpg",
-            "id": 19586399774400,
-            "chromaKeyColor": null,
-            "autoplay": false,
-            "loop": false,
-            "locale": {
-              "it": {
-                "type": {
-                  "id": 1,
-                  "name": "image"
-                },
-                "folder": "/uploads/",
-                "file": "19615154173200_prova-menu.jpg",
-                "id": 19586399774400,
-                "chromaKeyColor": null,
-                "autoplay": false,
-                "loop": false
-              }
-            }
+            "file": "7712907977200_P110_INFO.glb",
+            "id": 7712924295800,
+            "chromaKeyColor": null
           },
-          "id": 19587751750900
+          "id": 7713921690900,
+          "position": null,
+          "rotation": null
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18207379828400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -39.106612844882704,
+            0.7300235427098426,
+            -92.03336295837256
+          ],
+          "rotation": [
+            0.005645425754772058,
+            0.39245136172155015,
+            -0.0021591383900077072,
+            "XYZ"
+          ],
+          "scale": [
+            5,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 8569078050500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18266206172400,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -32.576496515794716,
+            0.6126534026338156,
+            -94.54309351065606
+          ],
+          "rotation": [
+            0.004296736556407096,
+            0.3244352672483488,
+            -0.0013696936049237731,
+            "XYZ"
+          ],
+          "scale": [
+            5,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 8634573706800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 18375308038700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": true,
+          "position": [
+            -25.625739210749526,
+            0.4875821765577303,
+            -96.6596283539501
+          ],
+          "rotation": [
+            0.0029503191490326906,
+            0.25382660253659983,
+            -0.0007408560111417297,
+            "XYZ"
+          ],
+          "scale": [
+            5,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 8712541253700
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "7839303318300_P110_INFO.usdz",
+          "id": 7839372715400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "7842522427500_P110_INFO.glb",
+          "id": 7842538134200
+        }
+      }
     }
   ],
   "menu": [
@@ -1175,10 +1263,10 @@
       "order": 30
     },
     {
-      "id": 19623580886800,
+      "id": 9038598812600,
       "parentId": 18784050861900,
-      "viewId": 19587740521900,
-      "name": "Test menu",
+      "viewId": 7713912369100,
+      "name": "P110 + menu",
       "order": 40
     }
   ],
@@ -1513,6 +1601,52 @@
           "loop": false
         }
       }
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "7686891752300_220210_Piazzetta_360_01.jpg",
+      "id": 7686912467300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "7704413437900_220210_Piazzetta_360_01.jpg",
+      "id": 7704425589400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "7712907977200_P110_INFO.glb",
+      "id": 7712924295800,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "7839303318300_P110_INFO.usdz",
+      "id": 7839372715400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "7842522427500_P110_INFO.glb",
+      "id": 7842538134200
     }
   ],
   "users": [
