@@ -316,7 +316,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "18205613357700_P110_metallo_bianco.glb",
+            "file": "5208345840200_P110_metallo_bianco.glb",
             "id": 18205626703800,
             "chromaKeyColor": null
           },
@@ -461,7 +461,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18227174643200_P110_metallo_bianco.usdz",
+          "file": "5193335307800_P110_metallo_bianco.usdz",
           "id": 18227198795600
         },
         "gltf": {
@@ -470,7 +470,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18232738575600_P110_metallo_bianco.glb",
+          "file": "5200890833400_P110_metallo_bianco.glb",
           "id": 18232749057600
         }
       }
@@ -491,7 +491,7 @@
         "id": 18249305830100
       },
       "orientation": {
-        "latitude": 10.5,
+        "latitude": 8.500000000000002,
         "longitude": 91.7
       },
       "zoom": 75,
@@ -508,7 +508,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "18255140591000_P110_metallo_nero.glb",
+            "file": "5232651550900_P110_metallo_nero.glb",
             "id": 18255153751300,
             "chromaKeyColor": null
           },
@@ -546,7 +546,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18717991245600
         },
         {
@@ -579,7 +578,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18735126953000
         },
         {
@@ -612,7 +610,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18756541210800
         },
         {
@@ -645,7 +642,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18768352534100
         }
       ],
@@ -657,7 +653,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18276656296300_P110_metallo_nero.usdz",
+          "file": "5244968190000_P110_metallo_nero.usdz",
           "id": 18276677506700
         },
         "gltf": {
@@ -666,7 +662,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18280593363500_P110_metallo_nero.glb",
+          "file": "5248332945900_P110_metallo_nero.glb",
           "id": 18280602662600
         }
       }
@@ -687,8 +683,8 @@
         "id": 18313293745900
       },
       "orientation": {
-        "latitude": 9.700000000000001,
-        "longitude": 91.5
+        "latitude": 8.500000000000002,
+        "longitude": 91.7
       },
       "zoom": 75,
       "id": 18330192243700,
@@ -704,7 +700,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "18324588154400_P110_metallo-bianco-nero.glb",
+            "file": "5263957073600_P110_metallo-bianco-nero.glb",
             "id": 18324601083900,
             "chromaKeyColor": null
           },
@@ -742,7 +738,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18853280368100
         },
         {
@@ -775,7 +770,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18864680434000
         },
         {
@@ -808,7 +802,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18883938645400
         },
         {
@@ -841,7 +834,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 18897478921300
         }
       ],
@@ -853,7 +845,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18340498965500_P110_metallo-bianco-nero.usdz",
+          "file": "5276529820100_P110_metallo-bianco-nero.usdz",
           "id": 18340515273500
         },
         "gltf": {
@@ -862,7 +854,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18343315436500_P110_metallo-bianco-nero.glb",
+          "file": "5281406318800_P110_metallo-bianco-nero.glb",
           "id": 18343324399300
         }
       }
@@ -900,7 +892,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "18357226367300_P110_metallo-rosso-rubino.glb",
+            "file": "5309400661100_P110_metallo-rosso-rubino.glb",
             "id": 18357245965700,
             "chromaKeyColor": null
           },
@@ -1045,7 +1037,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18386000249500_P110_metallo-rosso-rubino.usdz",
+          "file": "5294318682800_P110_metallo-rosso-rubino.usdz",
           "id": 18386030017800
         },
         "gltf": {
@@ -1054,7 +1046,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "18388739687300_P110_metallo-rosso-rubino.glb",
+          "file": "5299780749600_P110_metallo-rosso-rubino.glb",
           "id": 18388756654800
         }
       }
@@ -1363,7 +1355,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18205613357700_P110_metallo_bianco.glb",
+      "file": "5208345840200_P110_metallo_bianco.glb",
       "id": 18205626703800,
       "chromaKeyColor": null
     },
@@ -1373,7 +1365,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18227174643200_P110_metallo_bianco.usdz",
+      "file": "5193335307800_P110_metallo_bianco.usdz",
       "id": 18227198795600
     },
     {
@@ -1382,7 +1374,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18232738575600_P110_metallo_bianco.glb",
+      "file": "5200890833400_P110_metallo_bianco.glb",
       "id": 18232749057600
     },
     {
@@ -1400,7 +1392,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18255140591000_P110_metallo_nero.glb",
+      "file": "5232651550900_P110_metallo_nero.glb",
       "id": 18255153751300,
       "chromaKeyColor": null
     },
@@ -1410,7 +1402,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18276656296300_P110_metallo_nero.usdz",
+      "file": "5244968190000_P110_metallo_nero.usdz",
       "id": 18276677506700
     },
     {
@@ -1419,7 +1411,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18280593363500_P110_metallo_nero.glb",
+      "file": "5248332945900_P110_metallo_nero.glb",
       "id": 18280602662600
     },
     {
@@ -1437,7 +1429,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18324588154400_P110_metallo-bianco-nero.glb",
+      "file": "5263957073600_P110_metallo-bianco-nero.glb",
       "id": 18324601083900,
       "chromaKeyColor": null
     },
@@ -1447,7 +1439,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18340498965500_P110_metallo-bianco-nero.usdz",
+      "file": "5276529820100_P110_metallo-bianco-nero.usdz",
       "id": 18340515273500
     },
     {
@@ -1456,7 +1448,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18343315436500_P110_metallo-bianco-nero.glb",
+      "file": "5281406318800_P110_metallo-bianco-nero.glb",
       "id": 18343324399300
     },
     {
@@ -1474,7 +1466,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18357226367300_P110_metallo-rosso-rubino.glb",
+      "file": "5309400661100_P110_metallo-rosso-rubino.glb",
       "id": 18357245965700,
       "chromaKeyColor": null
     },
@@ -1484,7 +1476,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18386000249500_P110_metallo-rosso-rubino.usdz",
+      "file": "5294318682800_P110_metallo-rosso-rubino.usdz",
       "id": 18386030017800
     },
     {
@@ -1493,7 +1485,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "18388739687300_P110_metallo-rosso-rubino.glb",
+      "file": "5299780749600_P110_metallo-rosso-rubino.glb",
       "id": 18388756654800
     },
     {
