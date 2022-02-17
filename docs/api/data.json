@@ -2716,7 +2716,7 @@
           "hook": null,
           "hookExtra": null,
           "keepOrientation": false,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
             23.12550741304675,
@@ -3004,6 +3004,270 @@
           "asset": null,
           "link": null,
           "id": 189681469579400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188811578264800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -98.15693622938177,
+            -18.487040079753527,
+            -4.842026347580659
+          ],
+          "rotation": [
+            -1.3146357052814253,
+            1.378507313317709,
+            1.3100390913975888,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197581160083200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188833250117100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -81.87284778910293,
+            -16.256831197791758,
+            55.06861387677093
+          ],
+          "rotation": [
+            -2.8545356980500207,
+            0.9591930120473979,
+            2.9044435114673863,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197913817039400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188843848985200,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -56.46686659868352,
+            -11.468302958917242,
+            81.7310895789905
+          ],
+          "rotation": [
+            -3.002185319504358,
+            0.6000317360303834,
+            3.062524934953043,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197928429092500
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188856764170300,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -42.84026078929444,
+            -8.637503521245652,
+            89.94501424996113
+          ],
+          "rotation": [
+            -3.0458552963449534,
+            0.44272420210111624,
+            3.100475938109905,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197939391171400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188883153945200,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -32.03615763521666,
+            -6.603257053074982,
+            94.49910899189773
+          ],
+          "rotation": [
+            -3.071829655449728,
+            0.32611115604368435,
+            3.1192106797714074,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197949594802600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188925425878900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            98.64085053541159,
+            -14.869982287181537,
+            6.990438643568571
+          ],
+          "rotation": [
+            -2.010242420742686,
+            -1.4057363689293494,
+            -2.0155342241462617,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197961941528200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188913388156700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            83.73159593923302,
+            -14.628219499876852,
+            52.6786013076699
+          ],
+          "rotation": [
+            -2.8707290803329637,
+            -0.9923552481601245,
+            -2.913139162052811,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197971471692200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188904130062000,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            62.90246407478448,
+            -10.495829122341013,
+            77.02673292016912
+          ],
+          "rotation": [
+            -3.0061645633213994,
+            -0.680297907359052,
+            -3.0560893736353867,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197982829669200
         }
       ],
       "hidden": null,
@@ -3323,15 +3587,18 @@
           "name": "video"
         },
         "folder": "/uploads/",
-        "file": "28310694846000_2_1.mp4",
+        "file": "197463891399500_2_1.mp4",
         "id": 28310729388800
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -11.500000000000002,
+        "longitude": 301.2
       },
       "zoom": 75,
-      "id": 28321412059800
+      "id": 28321412059800,
+      "items": [],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -3424,7 +3691,7 @@
           "hook": null,
           "hookExtra": null,
           "keepOrientation": false,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
             4.094186528989818,
@@ -3561,7 +3828,206 @@
       },
       "zoom": 75,
       "id": 188811578264800,
-      "items": [],
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 24089497496700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            4.185146718320707,
+            -13.91462429481318,
+            -98.93870717611144
+          ],
+          "rotation": [
+            -0.13972243880724558,
+            -0.04186369427981339,
+            -0.005885873525073833,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197788741802300
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 17667859737700,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            50.54164835764758,
+            -12.619911507242273,
+            -85.35970720920541
+          ],
+          "rotation": [
+            -0.14678062246566445,
+            -0.5298645664872071,
+            -0.07458413391450554,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197800056319200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 13389537031800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            76.3194032830705,
+            -49.7507608003714,
+            41.23360864998691
+          ],
+          "rotation": [
+            -2.262855343517405,
+            -0.8682418164486939,
+            -2.3973832707079974,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197826223328800
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188833250117100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -45.99507153290606,
+            -24.845239571031875,
+            85.24768304969282
+          ],
+          "rotation": [
+            -2.8580003730648085,
+            0.47793969349306065,
+            3.008335497199072,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197846110444200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188843848985200,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -25.84707146433045,
+            -15.077599863638868,
+            95.41800081258144
+          ],
+          "rotation": [
+            -2.984872168300003,
+            0.26143878698510786,
+            3.1007727538282954,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197861704239600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 188925425878900,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": true,
+          "transparent": false,
+          "position": [
+            99.29023662344626,
+            -10.932110233401987,
+            4.683788755355828
+          ],
+          "rotation": [
+            -1.9755798128929296,
+            -1.4515818498162076,
+            -1.9781646105056143,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 197891830585200
+        }
+      ],
       "hidden": null,
       "ar": null
     },
@@ -4102,8 +4568,8 @@
         "id": 189095127336200
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -9.700000000000003,
+        "longitude": 292.19999999999993
       },
       "zoom": 75,
       "id": 189098529855100,
@@ -4138,7 +4604,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 189248707570200
         },
         {
@@ -4171,7 +4636,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 189283827001100
         },
         {
@@ -4204,7 +4668,6 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 189305737082000
         },
         {
@@ -4237,10 +4700,11 @@
             1
           ],
           "asset": null,
-          "link": null,
           "id": 189344223003300
         }
-      ]
+      ],
+      "hidden": null,
+      "ar": null
     },
     {
       "type": {
@@ -9905,7 +10369,7 @@
         "name": "video"
       },
       "folder": "/uploads/",
-      "file": "28310694846000_2_1.mp4",
+      "file": "197463891399500_2_1.mp4",
       "id": 28310729388800
     },
     {
