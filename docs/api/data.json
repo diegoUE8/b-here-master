@@ -78,7 +78,7 @@
           },
           "title": "Showroom",
           "abstract": null,
-          "viewId": 13389537031800,
+          "viewId": 189128448829200,
           "position": [
             -90.51981952876828,
             -7.717390229106881,
@@ -416,7 +416,7 @@
           },
           "title": "Showroom",
           "abstract": null,
-          "viewId": 498478142881399,
+          "viewId": 189128448829200,
           "position": [
             42.97428194825838,
             -22.945155220230376,
@@ -2836,8 +2836,8 @@
         "id": 13387483143100
       },
       "orientation": {
-        "latitude": -15.799999999999995,
-        "longitude": 270.79999999999995
+        "latitude": -9.099999999999994,
+        "longitude": 180.29999999999998
       },
       "zoom": 75,
       "id": 13389537031800,
@@ -2905,6 +2905,105 @@
           ],
           "asset": null,
           "id": 27992246333000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 189098529855100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            67.0166127916248,
+            -17.642252490326854,
+            -72.0938592184174
+          ],
+          "rotation": [
+            -0.23999582491165575,
+            -0.7344325932237296,
+            -0.16255090124804034,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189623895275700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Guarnizioni Gioiello",
+          "abstract": null,
+          "viewId": 189021894230500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            92.95083004347222,
+            -9.646704974524042,
+            -35.59612728042245
+          ],
+          "rotation": [
+            -0.013183183361457669,
+            -1.217010227991782,
+            -0.01236680498908761,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189646292242700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Bigiotteria",
+          "abstract": null,
+          "viewId": 188940926262100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            51.70917175295012,
+            -2.742155661485225,
+            -85.54906275905125
+          ],
+          "rotation": [
+            -0.032042631726320464,
+            -0.5434496454669598,
+            -0.016573134886425818,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189681469579400
         }
       ],
       "hidden": null,
@@ -2922,12 +3021,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "188301384570900_4.jpg",
+        "file": "188727573649100_4.jpg",
         "id": 13418747391400
       },
       "orientation": {
-        "latitude": -12.378194881120477,
-        "longitude": 90.25267496499617
+        "latitude": -8.648139507891173,
+        "longitude": 177.67800163234287
       },
       "zoom": 75,
       "id": 13420812142700,
@@ -2946,9 +3045,9 @@
           "important": false,
           "transparent": false,
           "position": [
-            -11.13184117802713,
-            23.779961181553528,
-            96.49142738187153
+            -96.81508839842633,
+            24.97060242848824,
+            -1.8187008449096824
           ],
           "rotation": [
             2.3857618624016084,
@@ -2975,12 +3074,12 @@
           "hook": null,
           "hookExtra": null,
           "keepOrientation": true,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
-            89.3039545341482,
-            -38.14474939569976,
-            23.870102599319775
+            -10.668992517039754,
+            -37.69374920064251,
+            92.00735769421058
           ],
           "rotation": [
             -2.1299541086635214,
@@ -3012,12 +3111,12 @@
           "name": "image"
         },
         "folder": "/uploads/",
-        "file": "188267517336000_4-noluci.jpg",
+        "file": "188677319367200_4-noluci.jpg",
         "id": 17660907566800
       },
       "orientation": {
-        "latitude": -9.878194881120477,
-        "longitude": 92.55267496499617
+        "latitude": -19.338769158173122,
+        "longitude": 271.21643190005955
       },
       "zoom": 75,
       "id": 17667859737700,
@@ -3036,9 +3135,9 @@
           "important": true,
           "transparent": false,
           "position": [
-            -12.090005258195987,
-            -18.975528820322072,
-            97.43593320149358
+            -98.78186420762924,
+            -15.036603666969853,
+            4.005477977466456
           ],
           "rotation": [
             -1.8242083764331023,
@@ -3065,12 +3164,12 @@
           "hook": null,
           "hookExtra": null,
           "keepOrientation": true,
-          "important": false,
+          "important": true,
           "transparent": false,
           "position": [
-            22.658554574819355,
-            -68.79904789105447,
-            -68.94404190257724
+            -3.3991254380354627,
+            -38.51959835075017,
+            92.22085712653828
           ],
           "rotation": [
             -0.7843455228752533,
@@ -3100,9 +3199,9 @@
           "important": false,
           "transparent": false,
           "position": [
-            -11.842061939747193,
-            21.978354397493323,
-            96.83345241698954
+            -97.12617246774057,
+            23.236309690487893,
+            5.155631264399227
           ],
           "rotation": [
             2.293623868809749,
@@ -3117,38 +3216,6 @@
           ],
           "asset": null,
           "id": 27914432771300
-        },
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": null,
-          "abstract": null,
-          "viewId": 979917843203700,
-          "hook": null,
-          "hookExtra": null,
-          "keepOrientation": false,
-          "important": true,
-          "transparent": false,
-          "position": [
-            87.92358736074141,
-            -37.263464789292,
-            29.679571720549962
-          ],
-          "rotation": [
-            -2.243386701937724,
-            -1.074255813958538,
-            -2.3068486470072918,
-            "XYZ"
-          ],
-          "scale": [
-            20,
-            5,
-            1
-          ],
-          "asset": null,
-          "id": 187061286690900
         }
       ],
       "hidden": null,
@@ -3472,6 +3539,921 @@
       ],
       "hidden": null,
       "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "2",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188808235168100_2.jpg",
+        "id": 188808256164500
+      },
+      "orientation": {
+        "latitude": -7.300000000000001,
+        "longitude": 179.4
+      },
+      "zoom": 75,
+      "id": 188811578264800,
+      "items": [],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "5",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188829688971400_5.jpg",
+        "id": 188829712399400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188833250117100
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "6",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188840522650700_6.jpg",
+        "id": 188840546695100
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188843848985200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "7",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188853529490200_7.jpg",
+        "id": 188853548577200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188856764170300
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "8",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188880768830400_8.jpg",
+        "id": 188880787965500
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188883153945200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "9",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188890767062100_9.jpg",
+        "id": 188890788156600
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188893695999200
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "10",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188900863898200_10.jpg",
+        "id": 188900886183700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188904130062000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "11",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188909983110400_11.jpg",
+        "id": 188910004505900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188913388156700
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "12",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188921151531200_12.jpg",
+        "id": 188921170636000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188925425878900
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "14",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188937816792000_14.jpg",
+        "id": 188937843739200
+      },
+      "orientation": {
+        "latitude": -5.8,
+        "longitude": 180
+      },
+      "zoom": 75,
+      "id": 188940926262100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Guarnizioni Gioiello",
+          "abstract": null,
+          "viewId": 189021894230500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            51.71614555546985,
+            -12.558801489034316,
+            84.66236940958176
+          ],
+          "rotation": [
+            -2.9943267381812473,
+            -0.5435311237912702,
+            -3.065026979887941,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 189479867765400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sandali Gioiello",
+          "abstract": null,
+          "viewId": 13389537031800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            6.1561124645472605,
+            -17.01087086792525,
+            98.35005110135235
+          ],
+          "rotation": [
+            -2.970324622965222,
+            -0.061600074879504384,
+            -3.1309452898408985,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 189504737734700
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "15",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188959054685600_15.jpg",
+        "id": 188959073201800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188963360363600
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "16",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188981983253700_16.jpg",
+        "id": 188982003868400
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 188985898936500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "17",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "188993753800700_17.jpg",
+        "id": 188993772871000
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 189004700706000
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "18",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189018160849300_18.jpg",
+        "id": 189018181427000
+      },
+      "orientation": {
+        "latitude": -7.432696312303792,
+        "longitude": 89.3293578033205
+      },
+      "zoom": 75,
+      "id": 189021894230500,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 189098529855100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -11.98818089584288,
+            -21.169173596323166,
+            -96.99561643732815
+          ],
+          "rotation": [
+            -0.21487930522078263,
+            0.12017083193177709,
+            0.026158089053471226,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 189394100934900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Bigiotteria",
+          "abstract": null,
+          "viewId": 188940926262100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -48.43001850550001,
+            -8.07677313827683,
+            -87.11658305529286
+          ],
+          "rotation": [
+            -0.09244795901497951,
+            0.5055631122456622,
+            0.04487041504881343,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 189408529281600
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sandali Gioiello",
+          "abstract": null,
+          "viewId": 13389537031800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -73.98593137866845,
+            -6.395950787852918,
+            -66.97143996921618
+          ],
+          "rotation": [
+            -0.09521388831743216,
+            0.8328612168104013,
+            0.07054129429188902,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189732626176900
+        }
+      ],
+      "hidden": null,
+      "ar": null
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "19",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189035435261200_19.jpg",
+        "id": 189035453393200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 189038554238500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "20",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189062057279200_20.jpg",
+        "id": 189062076011300
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 189065287005500
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "21",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189075266393400_21.jpg",
+        "id": 189075286274200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 189078988665600
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "22",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189095109185100_22.jpg",
+        "id": 189095127336200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 189098529855100,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 189112657944200,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            38.71510060007961,
+            -24.96554724636398,
+            88.75732328216802
+          ],
+          "rotation": [
+            -2.8673985778827316,
+            -0.3975396201298218,
+            -3.033122730717896,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189248707570200
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Sandali GIoiello",
+          "abstract": null,
+          "viewId": 13389537031800,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            58.22783760350997,
+            -7.092863467391651,
+            -80.98895119614903
+          ],
+          "rotation": [
+            -0.08735528028859056,
+            -0.6215283542426768,
+            -0.05095073498166918,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189283827001100
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Guarnizione Gioiello",
+          "abstract": null,
+          "viewId": 189021894230500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            27.008410677590316,
+            -7.922695586712537,
+            -95.95716047961668
+          ],
+          "rotation": [
+            -0.08237807276489884,
+            -0.273480383499928,
+            -0.022295778378824807,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189305737082000
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Bigiotteria",
+          "abstract": null,
+          "viewId": 188940926262100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            70.91949393131587,
+            -16.594155376706453,
+            -68.5205034121888
+          ],
+          "rotation": [
+            -0.23760329747673298,
+            -0.7883556425902352,
+            -0.17009184982738404,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189344223003300
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "23",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189108926248500_23.jpg",
+        "id": 189108945149900
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 189112657944200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -63.070293333124596,
+            -14.33660569171403,
+            76.26663645470364
+          ],
+          "rotation": [
+            -2.955781003135001,
+            0.6824586919925607,
+            3.0235839555254618,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189206299441400
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 189128448829200,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            -8.877475610786496,
+            -25.382947579825615,
+            96.31664653080335
+          ],
+          "rotation": [
+            -2.8839149295473847,
+            0.08889177660051976,
+            3.118201536115691,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189215189415900
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 189098529855100,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            81.66640338400944,
+            -22.18160869029858,
+            -53.27827694502443
+          ],
+          "rotation": [
+            -0.3945084390196586,
+            -0.9556067145879237,
+            -0.3277436864995566,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": null,
+          "id": 189232193412100
+        }
+      ]
+    },
+    {
+      "type": {
+        "id": 2,
+        "name": "panorama"
+      },
+      "name": "24",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "189124920139600_24.jpg",
+        "id": 189124937517000
+      },
+      "orientation": {
+        "latitude": -7.7,
+        "longitude": 265.4
+      },
+      "zoom": 75,
+      "id": 189128448829200,
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "Reception",
+          "abstract": null,
+          "viewId": 170427763402500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": true,
+          "transparent": false,
+          "position": [
+            -64.08957936637256,
+            -17.050362984079005,
+            -74.84524660092035
+          ],
+          "rotation": [
+            -0.22398574106273983,
+            0.6956646613668065,
+            0.14497699734247443,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 189147684348700
+        },
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": null,
+          "abstract": null,
+          "viewId": 189112657944200,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": true,
+          "important": false,
+          "transparent": false,
+          "position": [
+            1.6445279136153186,
+            -15.574897703647478,
+            -98.7659763757857
+          ],
+          "rotation": [
+            -0.15640696355519926,
+            -0.016446020489679053,
+            -0.0025933319899662725,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "id": 189185766610500
+        }
+      ],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [
@@ -3483,18 +4465,81 @@
       "order": 0
     },
     {
-      "id": 513759169265300,
+      "id": 189878741699300,
       "parentId": null,
-      "viewId": 13389537031800,
-      "name": "Showroom_0",
+      "viewId": null,
+      "name": "Showroom",
       "order": 10
+    },
+    {
+      "id": 190202458412300,
+      "parentId": 189878741699300,
+      "viewId": 189128448829200,
+      "name": "Enter",
+      "order": 0
+    },
+    {
+      "id": 190214779883000,
+      "parentId": 189878741699300,
+      "viewId": 13389537031800,
+      "name": "Sandali gioiello",
+      "order": 10
+    },
+    {
+      "id": 190215492790000,
+      "parentId": 189878741699300,
+      "viewId": 189021894230500,
+      "name": "Guarnizione gioiello ",
+      "order": 20
+    },
+    {
+      "id": 190215944179000,
+      "parentId": 189878741699300,
+      "viewId": 188940926262100,
+      "name": "Bigiotteria",
+      "order": 30
+    },
+    {
+      "id": 189927821533100,
+      "parentId": null,
+      "viewId": null,
+      "name": "Tour",
+      "order": 20
+    },
+    {
+      "id": 189966460889400,
+      "parentId": 189927821533100,
+      "viewId": 186418584210800,
+      "name": "Controllo qualità",
+      "order": 0
+    },
+    {
+      "id": 189968770693000,
+      "parentId": 189927821533100,
+      "viewId": 28321412059800,
+      "name": "Controllo qualità_video",
+      "order": 10
+    },
+    {
+      "id": 189969706095500,
+      "parentId": 189927821533100,
+      "viewId": 12728846999500,
+      "name": "Reparto macchine",
+      "order": 20
+    },
+    {
+      "id": 190180885466700,
+      "parentId": 189927821533100,
+      "viewId": 28423885785100,
+      "name": "Video_tour",
+      "order": 30
     },
     {
       "id": 513846642724000,
       "parentId": null,
       "viewId": null,
       "name": "Media",
-      "order": 20
+      "order": 30
     },
     {
       "id": 513862283120100,
@@ -3529,7 +4574,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Studio",
-      "order": 30
+      "order": 40
     },
     {
       "id": 513912292927600,
@@ -3550,7 +4595,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Video 360",
-      "order": 40
+      "order": 50
     },
     {
       "id": 513958863172400,
@@ -3592,7 +4637,7 @@
       "parentId": null,
       "viewId": null,
       "name": "Modelli3D",
-      "order": 50
+      "order": 60
     },
     {
       "id": 1226299343143300,
@@ -8767,7 +9812,8 @@
       "id": 268602319510800,
       "chromaKeyColor": null,
       "autoplay": false,
-      "loop": false
+      "loop": false,
+      "index": 0
     },
     {
       "type": {
@@ -8823,7 +9869,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "188301384570900_4.jpg",
+      "file": "188727573649100_4.jpg",
       "id": 13418747391400
     },
     {
@@ -8832,7 +9878,7 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "188267517336000_4-noluci.jpg",
+      "file": "188677319367200_4-noluci.jpg",
       "id": 17660907566800
     },
     {
@@ -8888,6 +9934,186 @@
       "folder": "/uploads/",
       "file": "186577818812600_controllo_qualita.jpg",
       "id": 186407442817800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188808235168100_2.jpg",
+      "id": 188808256164500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188829688971400_5.jpg",
+      "id": 188829712399400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188840522650700_6.jpg",
+      "id": 188840546695100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188853529490200_7.jpg",
+      "id": 188853548577200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188880768830400_8.jpg",
+      "id": 188880787965500
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188890767062100_9.jpg",
+      "id": 188890788156600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188900863898200_10.jpg",
+      "id": 188900886183700
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188909983110400_11.jpg",
+      "id": 188910004505900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188921151531200_12.jpg",
+      "id": 188921170636000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188937816792000_14.jpg",
+      "id": 188937843739200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188959054685600_15.jpg",
+      "id": 188959073201800
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188981983253700_16.jpg",
+      "id": 188982003868400
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "188993753800700_17.jpg",
+      "id": 188993772871000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189018160849300_18.jpg",
+      "id": 189018181427000
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189035435261200_19.jpg",
+      "id": 189035453393200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189062057279200_20.jpg",
+      "id": 189062076011300
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189075266393400_21.jpg",
+      "id": 189075286274200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189095109185100_22.jpg",
+      "id": 189095127336200
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189108926248500_23.jpg",
+      "id": 189108945149900
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "189124920139600_24.jpg",
+      "id": 189124937517000
     }
   ],
   "users": [
