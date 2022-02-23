@@ -1449,7 +1449,10 @@
           "asset": null,
           "id": 335366915798400,
           "keepOrientation": null,
-          "important": null
+          "important": null,
+          "transparent": null,
+          "rotation": null,
+          "scale": null
         }
       ],
       "hidden": null,

@@ -5399,13 +5399,13 @@ var AgoraChecklistService = /*#__PURE__*/function () {
       };
 
       if (state.role === RoleType.Viewer) {
-        event.checklist.shouldCheckAudio = false;
-        event.checklist.shouldCheckVideo = false;
+        event.shouldCheckAudio = false;
+        event.shouldCheckVideo = false;
       }
 
       if (DeviceService.platform === DevicePlatform.VRHeadset) {
-        event.checklist.shouldCheckAudio = true;
-        event.checklist.shouldCheckVideo = false;
+        event.shouldCheckAudio = true;
+        event.shouldCheckVideo = false;
       }
 
       event.key = "checklist" + (event.shouldCheckAudio ? '_audio' : '') + (event.shouldCheckVideo ? '_video' : '');
@@ -5464,7 +5464,7 @@ var AgoraChecklistService = /*#__PURE__*/function () {
           event$.next(event);
           return _this.checkRtmEvent$(event);
         }), operators.tap(function (event) {
-          console.log('AgoraChecklistService', event);
+          // console.log('AgoraChecklistService', event);
           LocalStorageService.set(event.key, true);
         }));
         return rxjs.merge(event$, check$);
@@ -5497,7 +5497,7 @@ var AgoraChecklistService = /*#__PURE__*/function () {
         }), operators.switchMap(function (event) {
           return _this2.checkRtmEvent$(event);
         }), operators.tap(function (event) {
-          console.log('AgoraChecklistService', event);
+          // console.log('AgoraChecklistService', event);
           LocalStorageService.set(event.key, true);
         }));
       }
@@ -5526,6 +5526,11 @@ var AgoraChecklistService = /*#__PURE__*/function () {
           }
         }));
       }
+    }), operators.catchError(function (error) {
+      console.log('checkBrowserEvent$.error', error);
+      event.checklist.browser = false;
+      event.errors.browser = LabelPipe.transform('bhere_browser_error');
+      return rxjs.throwError(event);
     }));
   };
 
@@ -5548,6 +5553,11 @@ var AgoraChecklistService = /*#__PURE__*/function () {
           return rxjs.throwError(event);
         }
       }
+    }), operators.catchError(function (error) {
+      console.log('checkHttpsEvent$.error', error);
+      event.checklist.https = false;
+      event.errors.https = LabelPipe.transform('bhere_https_error');
+      return rxjs.throwError(event);
     }));
   };
 
@@ -5562,6 +5572,7 @@ var AgoraChecklistService = /*#__PURE__*/function () {
   };
 
   AgoraChecklistService.checkAudioEvent$ = function checkAudioEvent$(event) {
+    // console.log('checkAudioEvent$', event);
     if (event.shouldCheckAudio) {
       return this.checkAudio$().pipe(operators.switchMap(function (audio) {
         event.checklist.audio = audio;
@@ -5569,12 +5580,17 @@ var AgoraChecklistService = /*#__PURE__*/function () {
         if (audio) {
           return rxjs.of(event).pipe(operators.delay(TIMEOUT));
         } else {
-          event.errors.audio = LabelPipe.transform('bhere_audio_error');
+          event.errors.audio = LabelPipe.transform('bhere_audio_error'); // console.log('checkAudioEvent$.error', event);
 
           {
             return rxjs.throwError(event);
           }
         }
+      }), operators.catchError(function (error) {
+        console.log('checkAudioEvent$.error', error);
+        event.checklist.audio = false;
+        event.errors.audio = LabelPipe.transform('bhere_audio_error');
+        return rxjs.throwError(event);
       }));
     } else {
       return rxjs.of(event);
@@ -5605,6 +5621,11 @@ var AgoraChecklistService = /*#__PURE__*/function () {
             return rxjs.throwError(event);
           }
         }
+      }), operators.catchError(function (error) {
+        console.log('checkVideoEvent$.error', error);
+        event.checklist.video = false;
+        event.errors.video = LabelPipe.transform('bhere_video_error');
+        return rxjs.throwError(event);
       }));
     } else {
       return rxjs.of(event);
@@ -5630,6 +5651,11 @@ var AgoraChecklistService = /*#__PURE__*/function () {
           return rxjs.throwError(event);
         }
       }
+    }), operators.catchError(function (error) {
+      console.log('checkRtcEvent$.error', error);
+      event.checklist.rtc = false;
+      event.errors.rtc = LabelPipe.transform('bhere_rtc_error');
+      return rxjs.throwError(event);
     }));
   };
 
@@ -5648,6 +5674,11 @@ var AgoraChecklistService = /*#__PURE__*/function () {
         event.errors.rtm = LabelPipe.transform('bhere_rtm_error');
         return rxjs.throwError(event);
       }
+    }), operators.catchError(function (error) {
+      console.log('checkRtmEvent$.error', error);
+      event.checklist.rtm = false;
+      event.errors.rtm = LabelPipe.transform('bhere_rtm_error');
+      return rxjs.throwError(event);
     }));
   };
 
@@ -5672,11 +5703,12 @@ var AgoraChecklistService = /*#__PURE__*/function () {
     this.shouldCheckAudio = false;
     this.shouldCheckVideo = false;
     AgoraChecklistService.checkEvent$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (event) {
+      console.log('AgoraChecklistService', event, event.errors);
       _this.shouldCheckAudio = event.shouldCheckAudio;
       _this.shouldCheckVideo = event.shouldCheckVideo;
       _this.checklist = event.checklist;
-      _this.errors = event.errors;
-      console.log(JSON.stringify(event.errors));
+      _this.errors = event.errors; // console.log(JSON.stringify(event.errors));
+
       var success = Object.keys(event.checklist).reduce(function (p, c) {
         return p && event.checklist[c];
       }, true);
@@ -5692,11 +5724,11 @@ var AgoraChecklistService = /*#__PURE__*/function () {
         }
       } else {
         _this.pushChanges();
-      }
+      } // console.log(event);
 
-      console.log(event);
-    }, function (event) {
-      _this.errors = event.errors;
+    }, function (error) {
+      // console.log('AgoraChecklistService.error', error);
+      _this.errors = error.errors;
       _this.checklist.error = true;
       _this.busy = false;
 
@@ -14716,7 +14748,7 @@ var MediaMesh = /*#__PURE__*/function (_InteractiveMesh) {
       var size = 0.1;
       scale.set(size / ratio, size, 1);
       position.x = 0.5 - size / ratio / 2;
-      position.y = 0.5 - size / 2;
+      position.y = size / 2 - 0.5;
       position.z = 0.01;
     } // console.log('MediaMesh.updateZoom', this.scale);
 
@@ -20461,22 +20493,29 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     objects.add(panorama.mesh);
     var indicator = this.indicator = new PointerElement();
     var pointer = this.pointer = new PointerElement('#ff4332');
-    var direct1 = new THREE.PointLight(0xffffff);
-    direct1.position.set(-50, 0, -50);
-    objects.add(direct1);
-    var direct2 = new THREE.PointLight(0xffffff);
-    direct1.position.set(50, 0, 50);
-    objects.add(direct2);
-    var direct3 = new THREE.DirectionalLight(0xffe699, 1);
-    direct3.position.set(0, 50, 0);
-    direct3.target.position.set(0, 0, 0);
-    objects.add(direct3);
-    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0.5);
+    var ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
     objects.add(ambient);
-    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
-    direct.position.set(5, -5, 5);
-    direct.target.position.set(0, 0, 0);
+    var direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+    direct.position.set(50, 50, 50);
+    direct.target.position.set(-50, -50, -50);
     objects.add(direct);
+    var direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct2.position.set(-50, 50, 50);
+    direct2.target.position.set(50, -50, -50);
+    objects.add(direct2);
+    var direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct3.position.set(0, 50, -50);
+    direct3.target.position.set(0, -50, 50);
+    objects.add(direct3);
+    var direct4 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct4.position.set(0, -50, -5);
+    direct4.target.position.set(0, 50, 5);
+    objects.add(direct4);
+    var direct5 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+    direct5.position.set(0, 50, 50); //x-50sinistra y-50basso z-50dietro
+
+    direct5.target.position.set(0, -50, -50);
+    objects.add(direct5);
     this.addControllers();
     this.resize(); // show hide items
 
@@ -20560,6 +20599,12 @@ var WorldComponent = /*#__PURE__*/function (_Component) {
     var view = this.view_;
 
     if (view) {
+      if (StateService.state.zoomedId != null) {
+        StateService.patchState({
+          zoomedId: null
+        });
+      }
+
       if (this.views) {
         this.views.forEach(function (view) {
           return delete view.onUpdateAsset;

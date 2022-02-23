@@ -243,26 +243,33 @@ export default class WorldComponent extends Component {
 		const indicator = this.indicator = new PointerElement();
 		const pointer = this.pointer = new PointerElement('#ff4332');
 
-		const direct1 = new THREE.PointLight(0xffffff);
-		direct1.position.set(-50, 0, -50);
-		objects.add(direct1);
-
-		const direct2 = new THREE.PointLight(0xffffff);
-		direct1.position.set(50, 0, 50);
-		objects.add(direct2);
-
-		const direct3 = new THREE.DirectionalLight(0xffe699, 1);
-		direct3.position.set(0, 50, 0);
-		direct3.target.position.set(0, 0, 0);
-		objects.add(direct3);
-
-		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0.5);
+		const ambient = this.ambient = new THREE.AmbientLight(0xffffff, 0);
 		objects.add(ambient);
 
-		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 2);
-		direct.position.set(5, -5, 5);
-		direct.target.position.set(0, 0, 0);
+		const direct = this.direct = new THREE.DirectionalLight(0xffffff, 1);
+		direct.position.set(50, 50, 50);
+		direct.target.position.set(-50, -50, -50);
 		objects.add(direct);
+
+		const direct2 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+		direct2.position.set(-50, 50, 50);
+		direct2.target.position.set(50,-50, -50);
+		objects.add(direct2);
+
+		const direct3 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+		direct3.position.set(0 , 50, -50);
+		direct3.target.position.set(0, -50, 50);
+		objects.add(direct3);
+
+		const direct4 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+		direct4.position.set(0 , -50, -5);
+		direct4.target.position.set(0, 50, 5);
+		objects.add(direct4);
+
+		const direct5 = this.direct = new THREE.DirectionalLight(0xffffff, 0.5);
+		direct5.position.set(0, 50, 50); //x-50sinistra y-50basso z-50dietro
+		direct5.target.position.set(0, -50, -50);
+		objects.add(direct5);
 
 		this.addControllers();
 		this.resize();
@@ -344,6 +351,9 @@ export default class WorldComponent extends Component {
 		}
 		const view = this.view_;
 		if (view) {
+			if (StateService.state.zoomedId != null) {
+				StateService.patchState({ zoomedId: null });		
+			}
 			if (this.views) {
 				this.views.forEach(view => delete view.onUpdateAsset);
 			}
