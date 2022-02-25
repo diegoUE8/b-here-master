@@ -78,7 +78,7 @@ export const environmentStatic = {
 	},
 	logo: '/b-here/img/logo.png',
 	background: {
-		// image: '/b-here/img/background.jpg',
+		//image: '/b-here/img/background.jpg',
 		video: '/b-here/img/background.mp4',
 	},
 	selfServiceAudio: '/b-here/audio/self-service.mp3',

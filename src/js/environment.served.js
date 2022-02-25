@@ -70,7 +70,7 @@ export const environmentServed = {
 	},
 	logo: '/Modules/B-Here/Client/docs/img/logo.png',
 	background: {
-		// image: '/Modules/B-Here/Client/docs/img/background.jpg',
+		//image: '/Modules/B-Here/Client/docs/img/background.jpg',
 		video: '/Modules/B-Here/Client/docs/img/background.mp4',
 	},
 	selfServiceAudio: '/Modules/B-Here/Client/docs/audio/self-service.mp3',

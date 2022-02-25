@@ -193,7 +193,7 @@ function _readOnlyError(name) {
   },
   logo: '/Modules/B-Here/Client/docs/img/logo.png',
   background: {
-    // image: '/Modules/B-Here/Client/docs/img/background.jpg',
+    //image: '/Modules/B-Here/Client/docs/img/background.jpg',
     video: '/Modules/B-Here/Client/docs/img/background.mp4'
   },
   selfServiceAudio: '/Modules/B-Here/Client/docs/audio/self-service.mp3',
@@ -331,7 +331,7 @@ function _readOnlyError(name) {
   },
   logo: '/b-here/img/logo.png',
   background: {
-    // image: '/b-here/img/background.jpg',
+    //image: '/b-here/img/background.jpg',
     video: '/b-here/img/background.mp4'
   },
   selfServiceAudio: '/b-here/audio/self-service.mp3',
@@ -8984,7 +8984,12 @@ var VRService = /*#__PURE__*/function () {
   };
 
   _proto.getLinkRole = function getLinkRole() {
-    var linkRole = null;
+    var linkRole = null; // console.log('getLinkRole', window.location, environment.url.selfServiceTour);
+
+    if (window.location.pathname === environment.url.selfServiceTour) {
+      linkRole = RoleType.SelfService;
+      return linkRole;
+    }
     /*
     const meetingUrl = this.meetingUrl;
     const meetingId = meetingUrl.meetingId;
@@ -8992,6 +8997,7 @@ var VRService = /*#__PURE__*/function () {
     	linkRole = meetingId.role;
     }
     */
+
 
     var match = (LocationService.get('link') || '').match(/\d{9}-(\d{4})-\d{13}/);
 
@@ -9082,15 +9088,34 @@ var VRService = /*#__PURE__*/function () {
     // const link = meetingUrl.link;
     var link = LocationService.get('link') || null;
     var role = this.getLinkRole() || (user ? user.type : null);
-    user = user || {
-      type: role
-    };
 
-    if (role !== user.type) {
-      user = {
-        type: role
-      };
-    }
+    switch (role) {
+      case RoleType.SelfService:
+        if (!user || user.type !== RoleType.SelfService && user.type !== RoleType.Publisher) {
+          window.location.href = environment.url.access;
+          return;
+        } else {
+          // forcing role type to RoleType.SelfService
+          user = Object.assign({}, user, {
+            type: RoleType.SelfService
+          });
+        }
+
+        break;
+
+      default:
+        user = user || {
+          type: role
+        };
+
+        if (role !== user.type) {
+          user = {
+            type: role
+          };
+        }
+
+    } // console.log('initWithUser', role, user);
+
 
     var mode = UserService.getMode(role);
     var name = LocationService.get('name') || (user.firstName && user.lastName ? user.firstName + " " + user.lastName : null); // const name = meetingUrl.name || this.getName(user);
@@ -9337,7 +9362,7 @@ var VRService = /*#__PURE__*/function () {
           break;
 
         case MessageType.RequestPeerInfo:
-          console.log('AgoraComponent.MessageService.out$.RequestPeerInfo', message);
+          // console.log('AgoraComponent.MessageService.out$.RequestPeerInfo', message);
           message.type = MessageType.RequestPeerInfoResult;
           message.clientInfo = {
             role: StateService.state.role,
@@ -9912,8 +9937,8 @@ var VRService = /*#__PURE__*/function () {
           link: meetingIdRoles.id,
           support: true
         });
-        var href = meetingUrl.toGuidedTourUrl();
-        console.log('AgoraComponent.initAgora.isSelfServiceProposition', href);
+        var href = meetingUrl.toGuidedTourUrl(); // console.log('AgoraComponent.initAgora.isSelfServiceProposition', href);
+
         UserService.selfServiceSupportRequest$(StateService.state.user, meetingIdRoles.id, href).pipe(operators.first()).subscribe(function (_) {
           var name = _this11.getName(StateService.state.user);
 
