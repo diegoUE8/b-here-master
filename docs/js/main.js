@@ -154,7 +154,8 @@ function _readOnlyError(name) {
     navTitleAnimated: true,
     navTitleImportantAnimated: true,
     navTransparentAnimated: true,
-    navTransparentImportantAnimated: true // maxQuality: false,
+    navTransparentImportantAnimated: true,
+    useTextureEnvironment: true // maxQuality: false,
 
   },
   navs: {
@@ -218,7 +219,7 @@ function _readOnlyError(name) {
     prefetch: '/Modules/B-Here/Client/docs/js/workers/prefetch.service.worker.js'
   },
   textures: {
-    envMap: 'textures/envMap/flower_road_1k.hdr',
+    envMap: 'textures/envMap/flower_road_2k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
   githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
@@ -293,7 +294,8 @@ function _readOnlyError(name) {
     navTitleAnimated: true,
     navTitleImportantAnimated: true,
     navTransparentAnimated: true,
-    navTransparentImportantAnimated: true // maxQuality: false,
+    navTransparentImportantAnimated: true,
+    useTextureEnvironment: true // maxQuality: false,
 
   },
   navs: {
@@ -357,7 +359,7 @@ function _readOnlyError(name) {
     prefetch: './js/workers/prefetch.service.worker.js'
   },
   textures: {
-    envMap: 'textures/envMap/flower_road_1k.hdr',
+    envMap: 'textures/envMap/flower_road_2k.hdr',
     grid: 'textures/grid/grid.jpg'
   },
   githubDocs: 'https://raw.githubusercontent.com/diegoUE8/b-here-master/bhere-v2/docs/',
