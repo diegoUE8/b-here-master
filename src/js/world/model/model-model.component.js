@@ -114,7 +114,6 @@ export default class ModelModelComponent extends ModelEditableComponent {
 			};
 			onUpdate();
 			this.makeInteractive(mesh);
-			this.onClipToggle();
 			gsap.to(from, {
 				duration: 1.5,
 				tween: 0,
@@ -145,7 +144,6 @@ export default class ModelModelComponent extends ModelEditableComponent {
 				dummy.scale.fromArray(item.scale);
 			}
 			this.makeInteractive(mesh);
-			this.onClipToggle();
 			/*
 			const geometry = ModelModelComponent.getInteractiveGeometry();
 			const sphere = new InteractiveMesh(geometry, new THREE.MeshBasicMaterial({
