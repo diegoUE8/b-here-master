@@ -22,6 +22,7 @@ import ViewService from '../view/view.service';
 import { WebhookService } from '../webhook/webhook.service';
 import { WishlistService } from '../wishlist/wishlist.service';
 import MediaLoader, { MediaLoaderDisposeEvent, MediaLoaderPauseEvent, MediaLoaderPlayEvent } from '../world/media/media-loader';
+import ModelNavComponent from '../world/model/model-nav.component';
 import VRService from '../world/vr.service';
 import { AgoraChecklistService } from './agora-checklist.service';
 import AgoraService from './agora.service';
@@ -52,7 +53,7 @@ export default class AgoraComponent extends Component {
 	}
 
 	get isBackButtonVisible() {
-		return this.view && this.view.type.name === ViewType.Media.name;
+		return this.view && (this.view.type.name === ViewType.Media.name || this.view.type.name === ViewType.Model.name);
 	}
 
 	get isSelfServiceProposition() {
@@ -61,6 +62,10 @@ export default class AgoraComponent extends Component {
 
 	get isSelfServiceSupport() {
 		return StateService.state.role === RoleType.Publisher && environment.flags.selfServiceProposition && this.meetingUrl.support;
+	}
+
+	get showNavInfoToggler() {
+		return environment.flags.hideNavInfo && this.state.mode !== UIMode.LiveMeeting && this.view && ModelNavComponent.hasNavInfo(this.view);
 	}
 
 	get uiClass() {
@@ -73,6 +78,10 @@ export default class AgoraComponent extends Component {
 		uiClass.locked = this.locked;
 		// uiClass.media = !uiClass.remotes && this.media;
 		return uiClass;
+	}
+
+	get remoteClass() {
+		return `group--remote--${Math.min(9, this.remotes.length)}`;
 	}
 
 	get controlled() {
@@ -147,6 +156,11 @@ export default class AgoraComponent extends Component {
 
 	getLinkRole() {
 		let linkRole = null;
+		// console.log('getLinkRole', window.location, environment.url.selfServiceTour);
+		if (window.location.pathname === environment.url.selfServiceTour) {
+			linkRole = RoleType.SelfService;
+			return linkRole;
+		}
 		/*
 		const meetingUrl = this.meetingUrl;
 		const meetingId = meetingUrl.meetingId;
@@ -230,10 +244,23 @@ export default class AgoraComponent extends Component {
 		// const link = meetingUrl.link;
 		const link = LocationService.get('link') || null;
 		const role = this.getLinkRole() || (user ? user.type : null);
-		user = user || { type: role };
-		if (role !== user.type) {
-			user = { type: role };
+		switch (role) {
+			case RoleType.SelfService:
+				if (!user || (user.type !== RoleType.SelfService && user.type !== RoleType.Publisher)) {
+					window.location.href = environment.url.access;
+					return;
+				} else {
+					// forcing role type to RoleType.SelfService
+					user = Object.assign({}, user, { type: RoleType.SelfService });
+				}
+				break;
+			default:
+				user = user || { type: role };
+				if (role !== user.type) {
+					user = { type: role };
+				}
 		}
+		// console.log('initWithUser', role, user);
 		const mode = UserService.getMode(role);
 		const name = LocationService.get('name') || (user.firstName && user.lastName ? `${user.firstName} ${user.lastName}` : null);
 		// const name = meetingUrl.name || this.getName(user);
@@ -449,7 +476,7 @@ export default class AgoraComponent extends Component {
 					}
 					break;
 				case MessageType.RequestPeerInfo:
-					console.log('AgoraComponent.MessageService.out$.RequestPeerInfo', message);
+					// console.log('AgoraComponent.MessageService.out$.RequestPeerInfo', message);
 					message.type = MessageType.RequestPeerInfoResult;
 					message.clientInfo = {
 						role: StateService.state.role,
@@ -899,7 +926,7 @@ export default class AgoraComponent extends Component {
 				const meetingIdRoles = meetingId.toRoles();
 				const meetingUrl = new MeetingUrl({ link: meetingIdRoles.id, support: true });
 				const href = meetingUrl.toGuidedTourUrl();
-				console.log('AgoraComponent.initAgora.isSelfServiceProposition', href);
+				// console.log('AgoraComponent.initAgora.isSelfServiceProposition', href);
 				UserService.selfServiceSupportRequest$(StateService.state.user, meetingIdRoles.id, href).pipe(
 					first(),
 				).subscribe(_ => {

@@ -229,7 +229,9 @@ export default class WorldComponent extends Component {
 		const scene = this.scene = new THREE.Scene();
 		scene.add(cameraGroup);
 
-		// this.addEnvironment();
+		if (environment.flags.useTextureEnvironment) {
+			this.addEnvironment();
+		}
 
 		const objects = this.objects = new THREE.Group();
 		objects.name = '[objects]';
@@ -296,9 +298,17 @@ export default class WorldComponent extends Component {
 		const segments = environment.textures.envMap.split('/');
 		const filename = segments.pop();
 		const folder = segments.join('/') + '/';
-		const loader = filename.indexOf('.hdr') !== -1 ? new RGBELoader().setDataType(THREE.UnsignedByteType) : new THREE.TextureLoader();
+		const isHdr = filename.indexOf('.hdr') !== -1;
+		// const loader = isHdr ? new RGBELoader().setDataType(THREE.UnsignedByteType) : new THREE.TextureLoader();
+		const loader = isHdr ? new RGBELoader() : new THREE.TextureLoader();
 		loader.setPath(environment.getPath(folder)).load(filename, (texture) => {
-			this.setBackground(texture);
+			if (isHdr && texture) {
+				texture.mapping = THREE.EquirectangularReflectionMapping;
+				// this.scene.background = texture;
+				this.scene.environment = texture;
+			} else {
+				this.setBackground(texture);
+			}
 		});
 	}
 
@@ -352,7 +362,7 @@ export default class WorldComponent extends Component {
 		const view = this.view_;
 		if (view) {
 			if (StateService.state.zoomedId != null) {
-				StateService.patchState({ zoomedId: null });		
+				StateService.patchState({ zoomedId: null });
 			}
 			if (this.views) {
 				this.views.forEach(view => delete view.onUpdateAsset);
@@ -383,7 +393,9 @@ export default class WorldComponent extends Component {
 			PrefetchService.cancel();
 			this.panorama.change(view, this.renderer, (texture) => {
 				// console.log('panorama.change', texture);
-				this.setBackground(texture);
+				if (!environment.flags.useTextureEnvironment) {
+					this.setBackground(texture);
+				}
 				view.ready = true;
 				view.onUpdateAsset = () => {
 					this.onViewAssetDidChange();
@@ -406,7 +418,9 @@ export default class WorldComponent extends Component {
 	onViewAssetDidChange() {
 		if (this.panorama) {
 			this.panorama.crossfade(this.view, this.renderer, (texture) => {
-				this.setBackground(texture);
+				if (!environment.flags.useTextureEnvironment) {
+					this.setBackground(texture);
+				}
 			});
 		}
 	}
@@ -1209,7 +1223,9 @@ export default class WorldComponent extends Component {
 			const tile = this.view.getTile(event.indices.x, event.indices.y);
 			if (tile) {
 				this.panorama.crossfade(tile, this.renderer, (texture) => {
-					this.setBackground(texture);
+					if (!environment.flags.useTextureEnvironment) {
+						this.setBackground(texture);
+					}
 					this.orbitService.walkComplete(headingLongitude, headingLatitude);
 					this.view.updateCurrentItems();
 					// this.loading = null;
