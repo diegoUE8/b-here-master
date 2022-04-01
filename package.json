@@ -1,12 +1,12 @@
 {
   "author": "Luca Zampetti <lzampetti@gmail.com>",
-  "name": "b-here-master",
-  "description": "b-here-master",
-  "version": "1.0.2",
+  "name": "b-here-demo",
+  "description": "b-here-demo",
+  "version": "1.0.4",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/diegoUE8/b-here-master.git"
+    "url": "git://github.com/actarian/b-here-demo.git"
   },
   "engines": {
     "node": "^17 || ^16 || ^15 || ^14 || ^13 || ^12 || ^11 || ^10 || ^9 || ^8"
