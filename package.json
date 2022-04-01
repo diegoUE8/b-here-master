@@ -21,7 +21,7 @@
     "start": "run-s build serve"
   },
   "dependencies": {
-    "beta-bhere": "1.0.2"
+    "beta-bhere": "1.0.4"
   },
   "devDependencies": {
     "gulpfile-config": "1.0.0-alpha.18",
