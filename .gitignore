@@ -1,6 +1,5 @@
-src/js/loaders
-src/js/webxr
-test
+*.crt
+*.key
 
 # Logs
 logs
