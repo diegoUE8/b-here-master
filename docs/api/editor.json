@@ -8608,7 +8608,7 @@
           "name": "video"
         },
         "folder": "/uploads/",
-        "file": "493984669507699_1.mp4",
+        "file": "248257303725199_1.mp4",
         "id": 493986922923599
       },
       "orientation": {
@@ -8651,7 +8651,7 @@
           "name": "video"
         },
         "folder": "/uploads/",
-        "file": "494047324414400_2.mp4",
+        "file": "248370131292399_2.mp4",
         "id": 494048069090999
       },
       "orientation": {
@@ -8692,7 +8692,7 @@
           "name": "video"
         },
         "folder": "/uploads/",
-        "file": "494118201075300_3.mp4",
+        "file": "248428263824100_3.mp4",
         "id": 494118993863499
       },
       "orientation": {
@@ -11884,7 +11884,7 @@
               "name": "video"
             },
             "folder": "/uploads/",
-            "file": "157038491548600_websolute.mp4",
+            "file": "1619091546450500_websolute.mp4",
             "id": 157038542841800,
             "chromaKeyColor": null
           },
@@ -18963,33 +18963,6 @@
     },
     {
       "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "493984669507699_1.mp4",
-      "id": 493986922923599
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "494047324414400_2.mp4",
-      "id": 494048069090999
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "494118201075300_3.mp4",
-      "id": 494118993863499
-    },
-    {
-      "type": {
         "id": 1,
         "name": "image"
       },
@@ -19209,51 +19182,6 @@
       "folder": "/uploads/",
       "file": "501791658253100_zalando.jpg",
       "id": 501791667225100
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "335383431182600_poltrona.usdz",
-      "id": 335384193788400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "335393320376799_poltrona.glb",
-      "id": 335393387516699
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "338169579597600_divano.glb",
-      "id": 338171002840400
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "338503937387199_divano.usdz",
-      "id": 338504075479800
-    },
-    {
-      "type": {
-        "id": 3,
-        "name": "model"
-      },
-      "folder": "/uploads/",
-      "file": "338511835276100_divano.glb",
-      "id": 338511903869900
     },
     {
       "type": {
@@ -21467,15 +21395,6 @@
         "name": "image"
       },
       "folder": "/uploads/",
-      "file": "1374667164614000_reception.jpg",
-      "id": 1374667586038400
-    },
-    {
-      "type": {
-        "id": 1,
-        "name": "image"
-      },
-      "folder": "/uploads/",
       "file": "1374938127826999_Composizione1_x0_y0.jpg",
       "id": 1374938529802800
     },
@@ -21942,16 +21861,6 @@
       "folder": "/uploads/",
       "file": "156797401817400_3d_room_test.jpg",
       "id": 156797410464600
-    },
-    {
-      "type": {
-        "id": 2,
-        "name": "video"
-      },
-      "folder": "/uploads/",
-      "file": "157038491548600_websolute.mp4",
-      "id": 157038542841800,
-      "chromaKeyColor": null
     },
     {
       "type": {
