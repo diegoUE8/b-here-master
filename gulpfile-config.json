@@ -10,10 +10,10 @@
       ],
       "bundle": [],
       "copy": [{
-        "input": "node_modules/beta-bhere/dist/css/**/*.*",
+        "input": "node_modules/beta-bhere-development/dist/css/**/*.*",
         "output": "docs/css/"
       }, {
-        "input": "node_modules/beta-bhere/dist/js/**/*.*",
+        "input": "node_modules/beta-bhere-development/dist/js/**/*.*",
         "output": "docs/js/"
       }]
     }
