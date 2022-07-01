@@ -31,7 +31,8 @@
     "test": "node test/selenium-test.js"
   },
   "dependencies": {
-    "beta-bhere-development": "1.0.13"
+    "beta-bhere-development": "1.0.13",
+    "source-map-resolve": "^0.6.0"
   },
   "devDependencies": {
     "gulpfile-config": "1.0.0-alpha.18",
