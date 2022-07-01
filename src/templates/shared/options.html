@@ -38,6 +38,18 @@ var options = {
 			supportRequest: '/email/support-request.html',
 		}
 	},
+	pathMapper: {
+		ssoLogin: (data) => {
+			const pathId = [1, 2, 3, 9, 11, 'Dealer'].indexOf(data.role) !== -1 ? 2 : 1;
+			console.log('environment.pathMapper.ssoLogin', pathId, data);
+			return pathId;
+		},
+		selfService: (data) => {
+			const pathId = 1;
+			console.log('environment.pathMapper.selfService', pathId, data);
+			return pathId;
+		},
+	},
 	flags: {
 		production: false,
 		useProxy: false,
@@ -47,6 +59,9 @@ var options = {
 		gdprRoutes: true,
 		selfService: true,
 		guidedTourRequest: true,
+		guidedTourAccess: true,
+		ssoLogin: false,
+		ssoRegister: false,
 		editor: true,
 		editorAssetScreen: true,
 		menu: true,
@@ -65,8 +80,8 @@ var options = {
 		selfServiceProposition: false,
 		navInfoAnimated: false,
 		navInfoImportantAnimated: false,
-		navMoveAnimated: true,
-		navMoveImportantAnimated: true,
+		navMoveAnimated: false,
+		navMoveImportantAnimated: false,
 		navPointAnimated: false,
 		navPointImportantAnimated: false,
 		navTitleAnimated: false,
