@@ -1477,9 +1477,17 @@
             "folder": "",
             "file": "publisherStream",
             "id": 595121345079100,
-            "chromaKeyColor": null
+            "chromaKeyColor": [
+              0,
+              1,
+              0
+            ],
+            "index": 0,
+            "autoplay": false,
+            "loop": false
           },
-          "id": 595115093509400
+          "id": 595115093509400,
+          "links": []
         },
         {
           "type": {
@@ -1572,16 +1580,20 @@
           ],
           "asset": {
             "type": {
-              "id": 5,
-              "name": "next-attendee-stream"
+              "id": 8,
+              "name": "smart-device-stream",
+              "file": "smartDeviceStream"
             },
             "folder": "",
-            "file": "nextAttendeeStream",
-            "id": 418494317317399,
+            "file": "smartDeviceStream",
+            "id": 20128439565500,
             "chromaKeyColor": null,
+            "autoplay": false,
+            "loop": false,
             "index": 0
           },
-          "id": 595497438718400
+          "id": 595497438718400,
+          "links": []
         },
         {
           "type": {
@@ -29346,6 +29358,7 @@
     }
   ],
   "navmaps": [],
+  "paths": [],
   "assets": [
     {
       "type": {
@@ -30099,7 +30112,14 @@
       "folder": "",
       "file": "publisherStream",
       "id": 595121345079100,
-      "chromaKeyColor": null
+      "chromaKeyColor": [
+        0,
+        1,
+        0
+      ],
+      "index": 0,
+      "autoplay": false,
+      "loop": false
     },
     {
       "type": {
@@ -34171,6 +34191,19 @@
       "id": 31813611149100,
       "chromaKeyColor": null,
       "autoplay": true,
+      "loop": false
+    },
+    {
+      "type": {
+        "id": 8,
+        "name": "smart-device-stream",
+        "file": "smartDeviceStream"
+      },
+      "folder": "",
+      "file": "smartDeviceStream",
+      "id": 20128439565500,
+      "chromaKeyColor": null,
+      "autoplay": false,
       "loop": false
     }
   ],
