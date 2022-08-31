@@ -45,7 +45,67 @@
         "longitude": 0
       },
       "zoom": 75,
-      "items": []
+      "items": [
+        {
+          "type": {
+            "id": 1,
+            "name": "nav"
+          },
+          "title": "dsdsddds",
+          "abstract": "dsdssdssdddss",
+          "viewId": 170427763402500,
+          "hook": null,
+          "hookExtra": null,
+          "keepOrientation": false,
+          "important": false,
+          "transparent": false,
+          "position": [
+            99.79711630805484,
+            -6.007670450132718,
+            -2.1079545439062417
+          ],
+          "rotation": [
+            -1.2333402575671113,
+            -1.5070856790077958,
+            -1.2327052728039531,
+            "XYZ"
+          ],
+          "scale": [
+            20,
+            5,
+            1
+          ],
+          "asset": null,
+          "link": {
+            "title": "dsdsdssd",
+            "href": "www.ws.it",
+            "target": "_blank"
+          },
+          "id": 164670897123900
+        }
+      ]
+    }
+  ],
+  "menu": [],
+  "navmaps": [],
+  "paths": [],
+  "assets": [],
+  "users": [
+    {
+      "id": "1601892639985",
+      "username": "publisher",
+      "password": "publisher",
+      "type": "publisher",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
+    },
+    {
+      "id": "1601892639986",
+      "username": "attendee",
+      "password": "attendee",
+      "type": "attendee",
+      "firstName": "Jhon",
+      "lastName": "Appleseed"
     }
   ]
 }
