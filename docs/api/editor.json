@@ -28761,8 +28761,8 @@
         "id": 179802644527200
       },
       "orientation": {
-        "latitude": 5.2,
-        "longitude": 319.2
+        "latitude": 6.9,
+        "longitude": 331
       },
       "zoom": 75,
       "id": 179818617437500,
@@ -28778,7 +28778,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "181291162623600_formazione_espansiva.glb",
+            "file": "192001761467700_formazione_espansiva.glb",
             "id": 179808699526600,
             "chromaKeyColor": null
           },
@@ -28796,7 +28796,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181303348222100_formazione_espansiva.usdz",
+          "file": "192023327793500_formazione_espansiva.usdz",
           "id": 181303363693400
         },
         "gltf": {
@@ -28805,7 +28805,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181306839901400_formazione_espansiva.glb",
+          "file": "192027413867700_formazione_espansiva.glb",
           "id": 181306848408100
         }
       }
@@ -28826,8 +28826,8 @@
         "id": 179839348527800
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 4.1000000000000005,
+        "longitude": 347.7
       },
       "zoom": 75,
       "id": 179855285652400,
@@ -28843,7 +28843,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "179849160219200_articolazione_spalla.glb",
+            "file": "192042057657500_articolazione_spalla.glb",
             "id": 179849167166100,
             "chromaKeyColor": null
           },
@@ -28861,7 +28861,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181316104892200_articolazione_spalla.usdz",
+          "file": "192054065673300_articolazione_spalla.usdz",
           "id": 181316114623800
         },
         "gltf": {
@@ -28870,7 +28870,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181322564397500_articolazione_spalla.glb",
+          "file": "192059212965000_articolazione_spalla.glb",
           "id": 181322570883000
         }
       }
@@ -28891,8 +28891,8 @@
         "id": 179978219617700
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 5.1000000000000005,
+        "longitude": 341.4
       },
       "zoom": 75,
       "id": 179986308867900,
@@ -28908,7 +28908,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "179981891464600_rene.glb",
+            "file": "192073622507000_rene.glb",
             "id": 179981906430600,
             "chromaKeyColor": null
           },
@@ -28926,7 +28926,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181331812460700_rene.usdz",
+          "file": "192090092384300_rene.usdz",
           "id": 181331823640100
         },
         "gltf": {
@@ -28935,7 +28935,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181334600705800_rene.glb",
+          "file": "192086242950800_rene.glb",
           "id": 181334616241700
         }
       }
@@ -28956,8 +28956,8 @@
         "id": 180010371591200
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 2.7,
+        "longitude": 345
       },
       "zoom": 75,
       "id": 180019192658000,
@@ -28973,7 +28973,7 @@
               "name": "model"
             },
             "folder": "/uploads/",
-            "file": "180013744378100_scapola.glb",
+            "file": "192105087690100_scapola.glb",
             "id": 180013759121000,
             "chromaKeyColor": null
           },
@@ -28991,7 +28991,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181366464688000_scapola.usdz",
+          "file": "192120732172500_scapola.usdz",
           "id": 181366480072300
         },
         "gltf": {
@@ -29000,7 +29000,7 @@
             "name": "model"
           },
           "folder": "/uploads/",
-          "file": "181369371550600_scapola.glb",
+          "file": "192126217617100_scapola.glb",
           "id": 181369384243200
         }
       }
@@ -29505,31 +29505,31 @@
       "order": 100
     },
     {
-      "id": 180166498555100,
-      "parentId": 180155408132300,
-      "viewId": 179818617437500,
-      "name": "Formazione espansiva",
-      "order": 0
-    },
-    {
       "id": 180167993827700,
       "parentId": 180155408132300,
       "viewId": 179855285652400,
       "name": "Articolazione spalla",
-      "order": 10
+      "order": 0
     },
     {
       "id": 180169253948300,
       "parentId": 180155408132300,
       "viewId": 179986308867900,
       "name": "Rene",
-      "order": 20
+      "order": 10
     },
     {
       "id": 180169958675800,
       "parentId": 180155408132300,
       "viewId": 180019192658000,
       "name": "Scapola",
+      "order": 20
+    },
+    {
+      "id": 180166498555100,
+      "parentId": 180155408132300,
+      "viewId": 179818617437500,
+      "name": "Formazione espansiva",
       "order": 30
     },
     {
@@ -34516,7 +34516,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181291162623600_formazione_espansiva.glb",
+      "file": "192001761467700_formazione_espansiva.glb",
       "id": 179808699526600,
       "chromaKeyColor": null
     },
@@ -34535,8 +34535,9 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "179849160219200_articolazione_spalla.glb",
-      "id": 179849167166100
+      "file": "192042057657500_articolazione_spalla.glb",
+      "id": 179849167166100,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -34553,8 +34554,9 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "179981891464600_rene.glb",
-      "id": 179981906430600
+      "file": "192073622507000_rene.glb",
+      "id": 179981906430600,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -34571,8 +34573,9 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "180013744378100_scapola.glb",
-      "id": 180013759121000
+      "file": "192105087690100_scapola.glb",
+      "id": 180013759121000,
+      "chromaKeyColor": null
     },
     {
       "type": {
@@ -34580,7 +34583,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181303348222100_formazione_espansiva.usdz",
+      "file": "192023327793500_formazione_espansiva.usdz",
       "id": 181303363693400
     },
     {
@@ -34589,7 +34592,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181306839901400_formazione_espansiva.glb",
+      "file": "192027413867700_formazione_espansiva.glb",
       "id": 181306848408100
     },
     {
@@ -34598,7 +34601,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181316104892200_articolazione_spalla.usdz",
+      "file": "192054065673300_articolazione_spalla.usdz",
       "id": 181316114623800
     },
     {
@@ -34607,7 +34610,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181322564397500_articolazione_spalla.glb",
+      "file": "192059212965000_articolazione_spalla.glb",
       "id": 181322570883000
     },
     {
@@ -34616,7 +34619,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181331812460700_rene.usdz",
+      "file": "192090092384300_rene.usdz",
       "id": 181331823640100
     },
     {
@@ -34625,7 +34628,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181334600705800_rene.glb",
+      "file": "192086242950800_rene.glb",
       "id": 181334616241700
     },
     {
@@ -34634,7 +34637,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181366464688000_scapola.usdz",
+      "file": "192120732172500_scapola.usdz",
       "id": 181366480072300
     },
     {
@@ -34643,7 +34646,7 @@
         "name": "model"
       },
       "folder": "/uploads/",
-      "file": "181369371550600_scapola.glb",
+      "file": "192126217617100_scapola.glb",
       "id": 181369384243200
     }
   ],
