@@ -28744,6 +28744,266 @@
           "id": 31822353585400
         }
       ]
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Formazione espansiva",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179802634921000_dressroom.jpeg",
+        "id": 179802644527200
+      },
+      "orientation": {
+        "latitude": 5.2,
+        "longitude": 319.2
+      },
+      "zoom": 75,
+      "id": 179818617437500,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "181291162623600_formazione_espansiva.glb",
+            "id": 179808699526600,
+            "chromaKeyColor": null
+          },
+          "id": 179818630633800,
+          "links": [],
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181303348222100_formazione_espansiva.usdz",
+          "id": 181303363693400
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181306839901400_formazione_espansiva.glb",
+          "id": 181306848408100
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Articolazione spalla",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179839340077100_dressroom.jpeg",
+        "id": 179839348527800
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 179855285652400,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "179849160219200_articolazione_spalla.glb",
+            "id": 179849167166100,
+            "chromaKeyColor": null
+          },
+          "id": 179855301367700,
+          "links": [],
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181316104892200_articolazione_spalla.usdz",
+          "id": 181316114623800
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181322564397500_articolazione_spalla.glb",
+          "id": 181322570883000
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Rene",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "179978200563600_dressroom.jpeg",
+        "id": 179978219617700
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 179986308867900,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "179981891464600_rene.glb",
+            "id": 179981906430600,
+            "chromaKeyColor": null
+          },
+          "id": 179986320823500,
+          "links": [],
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181331812460700_rene.usdz",
+          "id": 181331823640100
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181334600705800_rene.glb",
+          "id": 181334616241700
+        }
+      }
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "model"
+      },
+      "name": "Scapola",
+      "asset": {
+        "type": {
+          "id": 1,
+          "name": "image"
+        },
+        "folder": "/uploads/",
+        "file": "180010364900900_dressroom.jpeg",
+        "id": 180010371591200
+      },
+      "orientation": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "zoom": 75,
+      "id": 180019192658000,
+      "items": [
+        {
+          "type": {
+            "id": 4,
+            "name": "model"
+          },
+          "asset": {
+            "type": {
+              "id": 3,
+              "name": "model"
+            },
+            "folder": "/uploads/",
+            "file": "180013744378100_scapola.glb",
+            "id": 180013759121000,
+            "chromaKeyColor": null
+          },
+          "id": 180019207955700,
+          "links": [],
+          "position": null,
+          "rotation": null
+        }
+      ],
+      "hidden": null,
+      "ar": {
+        "usdz": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181366464688000_scapola.usdz",
+          "id": 181366480072300
+        },
+        "gltf": {
+          "type": {
+            "id": 3,
+            "name": "model"
+          },
+          "folder": "/uploads/",
+          "file": "181369371550600_scapola.glb",
+          "id": 181369384243200
+        }
+      }
     }
   ],
   "menu": [
@@ -29236,6 +29496,41 @@
       "viewId": 334535016630200,
       "name": "Catalano - Horizon",
       "order": 90
+    },
+    {
+      "id": 180155408132300,
+      "parentId": 514006762002499,
+      "viewId": null,
+      "name": "Mediacal Note",
+      "order": 100
+    },
+    {
+      "id": 180166498555100,
+      "parentId": 180155408132300,
+      "viewId": 179818617437500,
+      "name": "Formazione espansiva",
+      "order": 0
+    },
+    {
+      "id": 180167993827700,
+      "parentId": 180155408132300,
+      "viewId": 179855285652400,
+      "name": "Articolazione spalla",
+      "order": 10
+    },
+    {
+      "id": 180169253948300,
+      "parentId": 180155408132300,
+      "viewId": 179986308867900,
+      "name": "Rene",
+      "order": 20
+    },
+    {
+      "id": 180169958675800,
+      "parentId": 180155408132300,
+      "viewId": 180019192658000,
+      "name": "Scapola",
+      "order": 30
     },
     {
       "id": 40982979157200,
@@ -34205,6 +34500,151 @@
       "chromaKeyColor": null,
       "autoplay": false,
       "loop": false
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179802634921000_dressroom.jpeg",
+      "id": 179802644527200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181291162623600_formazione_espansiva.glb",
+      "id": 179808699526600,
+      "chromaKeyColor": null
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179839340077100_dressroom.jpeg",
+      "id": 179839348527800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "179849160219200_articolazione_spalla.glb",
+      "id": 179849167166100
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "179978200563600_dressroom.jpeg",
+      "id": 179978219617700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "179981891464600_rene.glb",
+      "id": 179981906430600
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "image"
+      },
+      "folder": "/uploads/",
+      "file": "180010364900900_dressroom.jpeg",
+      "id": 180010371591200
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "180013744378100_scapola.glb",
+      "id": 180013759121000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181303348222100_formazione_espansiva.usdz",
+      "id": 181303363693400
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181306839901400_formazione_espansiva.glb",
+      "id": 181306848408100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181316104892200_articolazione_spalla.usdz",
+      "id": 181316114623800
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181322564397500_articolazione_spalla.glb",
+      "id": 181322570883000
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181331812460700_rene.usdz",
+      "id": 181331823640100
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181334600705800_rene.glb",
+      "id": 181334616241700
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181366464688000_scapola.usdz",
+      "id": 181366480072300
+    },
+    {
+      "type": {
+        "id": 3,
+        "name": "model"
+      },
+      "folder": "/uploads/",
+      "file": "181369371550600_scapola.glb",
+      "id": 181369384243200
     }
   ],
   "users": [
