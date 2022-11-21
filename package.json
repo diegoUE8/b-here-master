@@ -2,7 +2,7 @@
   "author": "Luca Zampetti <lzampetti@gmail.com>",
   "name": "b-here-master",
   "description": "b-here-master",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
     "test": "node test/selenium-test.js"
   },
   "dependencies": {
-    "beta-bhere-development": "1.0.21",
+    "beta-bhere-development": "1.0.22",
     "source-map-resolve": "^0.6.0"
   },
   "devDependencies": {
