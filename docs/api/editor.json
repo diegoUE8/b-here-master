@@ -30,7 +30,7 @@
         "name": "panorama"
       },
       "name": "Welcome Room",
-      "likes": 134,
+      "likes": 0,
       "liked": false,
       "asset": {
         "type": {
@@ -41,49 +41,13 @@
         "file": "welcome-room.jpg"
       },
       "orientation": {
-        "latitude": 0,
-        "longitude": 0
+        "latitude": -5.699999999999999,
+        "longitude": 179.70000000000002
       },
       "zoom": 75,
-      "items": [
-        {
-          "type": {
-            "id": 1,
-            "name": "nav"
-          },
-          "title": "dsdsddds",
-          "abstract": "dsdssdssdddss",
-          "viewId": 170427763402500,
-          "hook": null,
-          "hookExtra": null,
-          "keepOrientation": false,
-          "important": false,
-          "transparent": false,
-          "position": [
-            99.79711630805484,
-            -6.007670450132718,
-            -2.1079545439062417
-          ],
-          "rotation": [
-            -1.2333402575671113,
-            -1.5070856790077958,
-            -1.2327052728039531,
-            "XYZ"
-          ],
-          "scale": [
-            20,
-            5,
-            1
-          ],
-          "asset": null,
-          "link": {
-            "title": "dsdsdssd",
-            "href": "www.ws.it",
-            "target": "_blank"
-          },
-          "id": 164670897123900
-        }
-      ]
+      "items": [],
+      "hidden": null,
+      "ar": null
     }
   ],
   "menu": [],
